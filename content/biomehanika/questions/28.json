@@ -1,0 +1,700 @@
+[
+  {
+    "id": "bm-28-001",
+    "chapter": "28",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Od čega se sastoji „Edgewise” ortodontska naprava?",
+    "answer": "od bravica i prstenova fiksiranih na zube i povezanih žičanim lukom",
+    "accepted": [
+      "od bravica i prstenova fiksiranih na zube i povezanih žičanim lukom"
+    ],
+    "distractors": [
+      "od implantata, nadogradnje i krunice",
+      "od mobilne ploče i kopči",
+      "od vijaka i pločica"
+    ],
+    "explanation": "Edgewise naprava sastoji se od bravica i prstenova koji su fiksirani na zube i povezani žičanim lukom. Žičani luk preko bravica prenosi silu na zube.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 2; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-002",
+    "chapter": "28",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Po čemu se fiksna ortodontska naprava razlikuje od mobilne?",
+    "answer": "fiksna djeluje kontinuiranom silom, a mobilna određeni dio dana nije u upotrebi",
+    "accepted": [
+      "fiksna djeluje kontinuiranom silom, a mobilna određeni dio dana nije u upotrebi"
+    ],
+    "distractors": [
+      "mobilna djeluje kontinuiranom silom",
+      "fiksna se nosi samo noću",
+      "nema razlike u djelovanju sile"
+    ],
+    "explanation": "Fiksna naprava je stalno na zubima i djeluje kontinuiranom silom; mobilna se skida, pa određeni dio dana nije u upotrebi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 3; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-003",
+    "chapter": "28",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Prosječan čovjek dnevno ima oko ___ žvačnih ciklusa.",
+    "answer": "1800",
+    "accepted": [
+      "1800",
+      "1 800",
+      "1800 ciklusa"
+    ],
+    "distractors": [
+      "150",
+      "18 000",
+      "500"
+    ],
+    "explanation": "Prosječno je 1800 žvačnih ciklusa i 150 gutanja hrane dnevno. Te sile djeluju na zube uz ortodontsku silu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-004",
+    "chapter": "28",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pomicanje zuba prema vrhu korijena naziva se ___.",
+    "answer": "intruzija",
+    "accepted": [
+      "intruzija",
+      "intruzijom"
+    ],
+    "distractors": [
+      "ekstruzija",
+      "translacija",
+      "naginjanje"
+    ],
+    "explanation": "Intruzija utiskuje zub prema vrhu korijena, a ekstruzija ga izvlači u smjeru krune. Ostale vrste pomicanja su naginjanje (tipping), translacija i rotacija oko uzdužne osi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 3; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-005",
+    "chapter": "28",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pomicanje zuba u pravcu krune naziva se ___.",
+    "answer": "ekstruzija",
+    "accepted": [
+      "ekstruzija",
+      "ekstruzijom"
+    ],
+    "distractors": [
+      "intruzija",
+      "rotacija",
+      "translacija"
+    ],
+    "explanation": "Ekstruzija izvlači zub u smjeru krune, a intruzija ga utiskuje prema vrhu korijena.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 3; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-006",
+    "chapter": "28",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Naginjanje zuba oko neke točke naziva se ___ (tipping).",
+    "answer": "naginjanje",
+    "accepted": [
+      "naginjanje",
+      "tipping",
+      "naginjanje (tipping)"
+    ],
+    "distractors": [
+      "rotacija",
+      "intruzija",
+      "translacija"
+    ],
+    "explanation": "Kod naginjanja (tipping) zub se nagne oko neke točke, pa se kruna i korijen pomaknu u suprotnim smjerovima. Rotacija je okretanje oko uzdužne osi zuba.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 3; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-007",
+    "chapter": "28",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kada nastaje čista rotacija zuba?",
+    "answer": "kad se poklapaju središte rotacije i središte otpora",
+    "accepted": [
+      "kad se poklapaju središte rotacije i središte otpora"
+    ],
+    "distractors": [
+      "kad je središte rotacije beskonačno daleko",
+      "kad sila djeluje na vrh krune",
+      "kad je središte rotacije na vrhu korijena"
+    ],
+    "explanation": "Ako se središte rotacije poklapa sa središtem otpora, zub se samo okreće – čista rotacija. Ako je središte rotacije beskonačno daleko, svaka točka zuba pomakne se jednako – čista translacija.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-008",
+    "chapter": "28",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kada nastaje čista translacija zuba?",
+    "answer": "kad je središte rotacije beskonačno daleko",
+    "accepted": [
+      "kad je središte rotacije beskonačno daleko"
+    ],
+    "distractors": [
+      "kad se poklapaju središte rotacije i središte otpora",
+      "kad je središte rotacije u težištu korijena",
+      "kad sila djeluje okomito na krunu"
+    ],
+    "explanation": "Translacija je rotacija oko beskonačno dalekog središta: sve točke zuba gibaju se paralelno i jednako. Kad se središte rotacije i otpora poklapaju, nastaje čista rotacija.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-009",
+    "chapter": "28",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Ortodontska sila iznosi ___.",
+    "answer": "0,2-5 N",
+    "accepted": [
+      "0,2-5 N",
+      "0,2–5 N",
+      "0,2 - 5 N",
+      "0.2-5 N",
+      "0,2-5"
+    ],
+    "distractors": [
+      "100 N",
+      "5-10 N",
+      "0,02-0,5 N"
+    ],
+    "explanation": "Ortodontske sile su male, 0,2–5 N – puno manje od žvačne sile (u analizi 100 N).",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 4 i 15",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-010",
+    "chapter": "28",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Brzina pregradnje kompaktne kosti iznosi ___ volumena godišnje.",
+    "answer": "2-5 %",
+    "accepted": [
+      "2-5 %",
+      "2–5 %",
+      "2 - 5 %",
+      "2% - 5%",
+      "2-5"
+    ],
+    "distractors": [
+      "25 %",
+      "10 %",
+      "0,5-1 %"
+    ],
+    "explanation": "Kompaktna kost pregradi 2–5 % volumena godišnje, a spužvasta 25 % – pet do deset puta brže.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 5",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-011",
+    "chapter": "28",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Brzina pregradnje spužvaste kosti iznosi ___ volumena godišnje.",
+    "answer": "25 %",
+    "accepted": [
+      "25 %",
+      "25",
+      "25%"
+    ],
+    "distractors": [
+      "2-5 %",
+      "50 %",
+      "10 %"
+    ],
+    "explanation": "Spužvasta kost pregradi 25 % volumena godišnje, a kompaktna 2–5 %.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 5",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-012",
+    "chapter": "28",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji je mehanički stimulus remodeliranja kosti prema Wolffu?",
+    "answer": "naprezanje",
+    "accepted": [
+      "naprezanje"
+    ],
+    "distractors": [
+      "deformacija",
+      "energija deformiranja",
+      "gustoća kosti"
+    ],
+    "explanation": "Prema Wolffu stimulus je naprezanje: kost se stvara gdje naprezanje raste, a uklanja gdje je smanjeno. Pauwels, Frost i Cowin kao stimulus uzimaju deformaciju (s graničnom vrijednošću), a Huiskes energiju deformiranja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 5",
+    "tags": [
+      "povijest",
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-013",
+    "chapter": "28",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji mehanički stimulus remodeliranja kosti uzima Huiskes?",
+    "answer": "energiju deformiranja",
+    "accepted": [
+      "energiju deformiranja"
+    ],
+    "distractors": [
+      "naprezanje",
+      "deformaciju",
+      "brzinu deformacije"
+    ],
+    "explanation": "Huiskes kao stimulus uzima energiju deformiranja. Wolff – naprezanje; Pauwels, Frost i Cowin – deformaciju s graničnom vrijednošću iznad koje se kost stvara, a ispod koje uklanja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 5",
+    "tags": [
+      "povijest",
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-014",
+    "chapter": "28",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kod vanjske pregradnje kosti u ortodonciji, ako je deformacija PDL-a manja od ___, ništa se ne događa.",
+    "answer": "0,03",
+    "accepted": [
+      "0,03",
+      "0.03",
+      "3 %",
+      "3%"
+    ],
+    "distractors": [
+      "0,01",
+      "0,3",
+      "1,73"
+    ],
+    "explanation": "Biomehanički stimulus vanjske pregradnje je deformacija PDL-a. Ispod praga 0,03 kost se ne pregrađuje i zub se ne pomiče; iznad njega počinje pomak, čija se brzina prati.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 6",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-015",
+    "chapter": "28",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je biomehanički signal koji kontrolira unutarnju pregradnju (prilagodbu gustoće spužvaste kosti)?",
+    "answer": "gustoća energije deformiranja U",
+    "accepted": [
+      "gustoća energije deformiranja U"
+    ],
+    "distractors": [
+      "deformacija PDL-a",
+      "ortodontska sila",
+      "Hounsfieldova jedinica"
+    ],
+    "explanation": "Unutarnja pregradnja mijenja gustoću spužvaste kosti, a kontrolira je gustoća energije deformiranja U (iterativni postupak). Nema pregradnje ako je gustoća kosti manja od 0,01 g/cm³ ili veća od 1,73 g/cm³.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 6",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-016",
+    "chapter": "28",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Unutarnje pregradnje nema ako je gustoća spužvaste kosti veća od ___ g/cm³ (ili manja od 0,01 g/cm³).",
+    "answer": "1,73",
+    "accepted": [
+      "1,73",
+      "1.73",
+      "1,73 g/cm³",
+      "1,73 g/cm3"
+    ],
+    "distractors": [
+      "0,03",
+      "2,5",
+      "1,0"
+    ],
+    "explanation": "Granice su 0,01 g/cm³ i 1,73 g/cm³: izvan tog raspona gustoće postupak ne mijenja gustoću spužvaste kosti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 6",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-017",
+    "chapter": "28",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako je izrađen 3D model zuba, PDL-a i kosti?",
+    "answer": "u programu Mimics 17 iz 377 CBCT snimaka",
+    "accepted": [
+      "u programu Mimics 17 iz 377 CBCT snimaka"
+    ],
+    "distractors": [
+      "brušenjem zuba u slojevima od 0,5 mm",
+      "u Catii iz AutoCAD krivulja",
+      "laserskim skeniranjem modela"
+    ],
+    "explanation": "Model zuba, parodontnog ligamenta i kosti napravljen je u programu Mimics 17 iz 377 CBCT snimaka anonimnog pacijenta. Brušenje u slojevima od 0,5 mm bila je metoda za model očnjaka u poglavlju 27.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 7",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-018",
+    "chapter": "28",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje su vrijednosti vode i zraka na Hounsfieldovoj ljestvici?",
+    "answer": "voda 0 HU, zrak −1000 HU",
+    "accepted": [
+      "voda 0 HU, zrak −1000 HU"
+    ],
+    "distractors": [
+      "voda 1000 HU, zrak 0 HU",
+      "voda −1000 HU, zrak 0 HU",
+      "voda 100 HU, zrak −100 HU"
+    ],
+    "explanation": "Hounsfieldova jedinica (HU) je jedinica finog razlučivanja gustoće u CT-u, definirana tisućinkom koeficijenata gušenja rendgenskog zračenja u vodi. Vodi je pridruženo 0 HU, zraku −1000 HU, a kostima +200 do +1000 HU.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 9",
+    "tags": [
+      "brojka",
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-019",
+    "chapter": "28",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pri izradi modela zuba odabran je raspon od 1200 do ___ HU.",
+    "answer": "3071",
+    "accepted": [
+      "3071",
+      "3071 HU"
+    ],
+    "distractors": [
+      "1000",
+      "226",
+      "1800"
+    ],
+    "explanation": "Za zub je uzet raspon 1200–3071 HU, a za kost 226–3071 HU. Zub je gušći od kosti, pa mu donja granica počinje više.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 10 i 11",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-020",
+    "chapter": "28",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Modul elastičnosti cakline u analizi ortodontskog pomaka iznosi ___.",
+    "answer": "70000 MPa",
+    "accepted": [
+      "70000 MPa",
+      "70 000 MPa",
+      "70000",
+      "70 GPa",
+      "70 000"
+    ],
+    "distractors": [
+      "15000 MPa",
+      "13800 MPa",
+      "50 MPa"
+    ],
+    "explanation": "U analizi (izotropno, linearno elastično): caklina E = 70 000 MPa (ν = 0,3), dentin 15 000 MPa (0,31), kortikalna kost 13 800 MPa (0,26) i PDL 50 MPa (0,47). Caklina je najkruća, a PDL daleko najpodatniji.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 13",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-021",
+    "chapter": "28",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Modul elastičnosti parodontnog ligamenta (PDL) u analizi iznosi ___.",
+    "answer": "50 MPa",
+    "accepted": [
+      "50 MPa",
+      "50",
+      "50MPa"
+    ],
+    "distractors": [
+      "13800 MPa",
+      "15000 MPa",
+      "0,47 MPa"
+    ],
+    "explanation": "PDL ima E = 50 MPa i Poissonov faktor 0,47 – gotovo nestlačiv i vrlo podatljiv u odnosu na zub i kost. Zato se pri opterećenju najviše deformira upravo PDL, a ta deformacija je stimulus za pomak zuba.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 13",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-022",
+    "chapter": "28",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Poissonov faktor PDL-a u analizi iznosi ___.",
+    "answer": "0,47",
+    "accepted": [
+      "0,47",
+      "0.47"
+    ],
+    "distractors": [
+      "0,3",
+      "0,26",
+      "0,31"
+    ],
+    "explanation": "PDL ima najveći Poissonov faktor (0,47), blizu 0,5 koji odgovara nestlačivom materijalu. Caklina ima 0,3, dentin 0,31, a kortikalna kost 0,26.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 13",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-023",
+    "chapter": "28",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja su opterećenja zadana u analizi ortodontskog pomaka?",
+    "answer": "7 slučajeva opterećenja, ortodontske sile od 5 N i žvačna sila od 100 N",
+    "accepted": [
+      "7 slučajeva opterećenja, ortodontske sile od 5 N i žvačna sila od 100 N"
+    ],
+    "distractors": [
+      "4 slučaja opterećenja sa silom od 5 N",
+      "jedna sila od 0,2 N",
+      "žvačna sila od 1800 N"
+    ],
+    "explanation": "Analizirano je 7 slučajeva opterećenja: ortodontske sile od 5 N i žvačna sila od 100 N. Dijelovi modela povezani su „Tie” vezama (dentin–caklina, zub–PDL, PDL–kost).",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 14 i 15",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-024",
+    "chapter": "28",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Mreža konačnih elemenata u analizi ortodontskog pomaka napravljena je od tetraedarskih elemenata drugog stupnja tipa ___.",
+    "answer": "C3D10",
+    "accepted": [
+      "C3D10",
+      "C3D10 elementi"
+    ],
+    "distractors": [
+      "C3D4",
+      "S4R",
+      "C3D8"
+    ],
+    "explanation": "Korišteni su tetraedarski elementi drugog stupnja C3D10 – ukupno 260 233 elemenata i 419 438 čvorova (caklina, dentin, PDL i kost).",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 16",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-28-025",
+    "chapter": "28",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji je jedan od zaključaka analize ortodontskog pomaka?",
+    "answer": "položajem bravice na zubu može se regulirati brzina pomicanja zuba",
+    "accepted": [
+      "položajem bravice na zubu može se regulirati brzina pomicanja zuba"
+    ],
+    "distractors": [
+      "fiksna naprava oštećuje zubnu kost",
+      "žvačne sile ne utječu na zub",
+      "3D model nije moguće brzo izraditi"
+    ],
+    "explanation": "Zaključci: fiksnom ortodontskom napravom nije moguće oštetiti zub ili zubnu kost; položajem bravice regulira se brzina pomicanja zuba; 3D modelom i simulacijom može se skratiti vrijeme nošenja aparata.",
+    "image": null,
+    "explanation_image": null,
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 19",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  }
+]

@@ -1,0 +1,1282 @@
+[
+  {
+    "id": "bm-27-001",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja su tri područja biomehanike u stomatologiji?",
+    "answer": "naprezanja u zubima i čeljusti, naprezanja tkiva i gradivnih materijala zuba, djelovanje ortodontskih aparata i implantata",
+    "accepted": [
+      "naprezanja u zubima i čeljusti, naprezanja tkiva i gradivnih materijala zuba, djelovanje ortodontskih aparata i implantata"
+    ],
+    "distractors": [
+      "anatomija zuba, histologija i radiologija",
+      "žvakanje, gutanje i govor",
+      "estetika, protetika i kirurgija"
+    ],
+    "explanation": "Biomehanika u stomatologiji utvrđuje naprezanja u zubima i čeljusti, istražuje naprezanja tkiva i gradivnih materijala zuba te djelovanje fiksnih i mobilnih ortodontskih aparata i utjecaj implantata na raspodjelu naprezanja i deformacija.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 2; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-002",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kakvi su zubi i kosti kao materijali?",
+    "answer": "ni homogeni ni izotropni",
+    "accepted": [
+      "ni homogeni ni izotropni"
+    ],
+    "distractors": [
+      "homogeni i izotropni",
+      "homogeni, ali anizotropni",
+      "izotropni, ali nehomogeni"
+    ],
+    "explanation": "Zubi i kosti nisu ni homogeni ni izotropni, pa je mehanizam opterećenja i prijenosa sila u njima izuzetno složen. U numeričkim analizama ipak se često uvodi pojednostavljenje – npr. izotropna svojstva.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 2",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-003",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je neutralni položaj zuba unutar zubnog luka?",
+    "answer": "položaj u kojem je djelovanje svih sila u ravnoteži",
+    "accepted": [
+      "položaj u kojem je djelovanje svih sila u ravnoteži"
+    ],
+    "distractors": [
+      "položaj zuba bez žvačnih sila",
+      "položaj nakon ortodontske terapije",
+      "položaj u kojem zub dodiruje samo susjedne zube"
+    ],
+    "explanation": "Zubi se unutar zubnih lukova nalaze u neutralnom položaju, u kojem je djelovanje svih sila u ravnoteži. Osnovna funkcija zubi je drobljenje i žvakanje hrane.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-004",
+    "chapter": "27",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Mliječnih zuba (primarna denticija) ima ___.",
+    "answer": "20",
+    "accepted": [
+      "20",
+      "dvadeset",
+      "20 zuba"
+    ],
+    "distractors": [
+      "32",
+      "24",
+      "28"
+    ],
+    "explanation": "Primarna (mliječna) denticija ima 20 zuba, a stalna 32. Mliječnih pretkutnjaka nema.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 4; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-005",
+    "chapter": "27",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Stalnih zuba (stalna denticija) ima ___.",
+    "answer": "32",
+    "accepted": [
+      "32",
+      "trideset dva",
+      "32 zuba"
+    ],
+    "distractors": [
+      "20",
+      "28",
+      "36"
+    ],
+    "explanation": "Stalna denticija ima 32 zuba, a mliječna 20. Po čeljusti su 4 sjekutića i 2 očnjaka, a ostalo su pretkutnjaci i kutnjaci.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 4; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-006",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se zubi dijele prema morfološkom obliku?",
+    "answer": "sjekutići, očnjaci, pretkutnjaci i kutnjaci",
+    "accepted": [
+      "sjekutići, očnjaci, pretkutnjaci i kutnjaci"
+    ],
+    "distractors": [
+      "mliječni i stalni",
+      "gornji i donji",
+      "prednji i bočni"
+    ],
+    "explanation": "Zubi se dijele prema vremenu izrastanja (mliječni, stalni), prema morfološkom obliku (sjekutići, očnjaci, pretkutnjaci, kutnjaci) i prema položaju u dentalnom luku (gornji/donji, desni/lijevi, prednji/bočni).",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 4; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-007",
+    "chapter": "27",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Sjekutića (inciziva) ima ___ u gornjoj i isto toliko u donjoj čeljusti.",
+    "answer": "4",
+    "accepted": [
+      "4",
+      "četiri"
+    ],
+    "distractors": [
+      "2",
+      "6",
+      "8"
+    ],
+    "explanation": "Sjekutići su prednji jednokorijenski zubi, po 4 u svakoj čeljusti; služe za sjeckanje i prerezivanje hrane. Očnjaka je po 2 u svakoj čeljusti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 5; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-008",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je funkcija očnjaka (kanina) pri žvakanju?",
+    "answer": "kidanje hrane",
+    "accepted": [
+      "kidanje hrane"
+    ],
+    "distractors": [
+      "sjeckanje i prerezivanje hrane",
+      "mljevenje hrane",
+      "drobljenje koštica"
+    ],
+    "explanation": "Očnjaci (po 2 u svakoj čeljusti, jednokorijenski) odvajaju sjekutiće od pretkutnjaka i kidaju hranu. Sjekutići je sjeckaju i prerezuju, a kutnjaci melju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 6; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-009",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja vrsta zuba nema mliječnu inačicu?",
+    "answer": "pretkutnjaci",
+    "accepted": [
+      "pretkutnjaci"
+    ],
+    "distractors": [
+      "kutnjaci",
+      "očnjaci",
+      "sjekutići"
+    ],
+    "explanation": "Pretkutnjaci (premolari) su višekorijenski zubi između očnjaka i kutnjaka; funkcija im varira, a mliječnih pretkutnjaka nema.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 7; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-010",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je funkcija kutnjaka (molara)?",
+    "answer": "mljevenje hrane pri žvakanju",
+    "accepted": [
+      "mljevenje hrane pri žvakanju"
+    ],
+    "distractors": [
+      "kidanje hrane",
+      "sjeckanje hrane",
+      "odvajanje sjekutića od pretkutnjaka"
+    ],
+    "explanation": "Kutnjaci su višekorijenski zubi koji pri žvakanju melju hranu. Na njima su i žvačne sile veće nego na sjekutićima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 8; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-011",
+    "chapter": "27",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Caklina se sastoji od ___ minerala, uz vodu i organsku tvar.",
+    "answer": "96 %",
+    "accepted": [
+      "96 %",
+      "96",
+      "96%"
+    ],
+    "distractors": [
+      "70 %",
+      "45 %",
+      "33 %"
+    ],
+    "explanation": "Caklina je najtvrđa i najmineraliziranija tvar u tijelu: 96 % su minerali. Za usporedbu, dentin ima 70 %, a cement 45 % anorganskih tvari.",
+    "image": null,
+    "explanation_image": "img/27-1.png",
+    "source": "27_Dentalna biomehanika.pdf, slajd 10; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-012",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Gdje je caklina najdeblja, a gdje najtanja?",
+    "answer": "najdeblja na vrhu, najtanja na spoju cementa i cakline",
+    "accepted": [
+      "najdeblja na vrhu, najtanja na spoju cementa i cakline"
+    ],
+    "distractors": [
+      "najdeblja na spoju s cementom, najtanja na vrhu",
+      "jednako je debela po cijeloj kruni",
+      "najdeblja uz pulpu, najtanja izvana"
+    ],
+    "explanation": "Caklina je najdeblja na vrhu krune, a najtanja na spoju s cementom. Osnovna građevna jedinica cakline je caklinska prizma.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 10; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-013",
+    "chapter": "27",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Osnovna građevna jedinica cakline je caklinska ___.",
+    "answer": "prizma",
+    "accepted": [
+      "prizma",
+      "prizma cakline"
+    ],
+    "distractors": [
+      "cijev",
+      "lamela",
+      "stanica"
+    ],
+    "explanation": "Caklina je građena od caklinskih prizmi. Dentin je, za razliku od nje, prožet mikroskopskim kanalima – zubnim cijevima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 10 i 11; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-014",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kakav je sastav dentina?",
+    "answer": "70 % mineralne tvari, 20 % organska tvar, 10 % voda",
+    "accepted": [
+      "70 % mineralne tvari, 20 % organska tvar, 10 % voda"
+    ],
+    "distractors": [
+      "96 % minerali, ostatak voda i organska tvar",
+      "45 % anorganske, 33 % organske tvari, 22 % voda",
+      "50 % mineralne, 30 % organske tvari, 20 % voda"
+    ],
+    "explanation": "Dentin: 70 % mineralne, 20 % organske tvari i 10 % vode. Caklina ima 96 % minerala, a cement 45 % anorganskih, 33 % organskih tvari i 22 % vode.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 11; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "brojka",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-015",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto je dentin dobar potporanj caklini?",
+    "answer": "zbog svojih elastičnih svojstava",
+    "accepted": [
+      "zbog svojih elastičnih svojstava"
+    ],
+    "distractors": [
+      "jer je tvrđi od cakline",
+      "jer sadrži 96 % minerala",
+      "jer stvara caklinu"
+    ],
+    "explanation": "Caklina je najtvrđa tvar u tijelu, a dentin ispod nje zbog svojih elastičnih svojstava služi kao dobar potporanj. Dentin je prožet mikroskopskim kanalima – zubnim cijevima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 11; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-016",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je glavna uloga cementa?",
+    "answer": "povezuje zub i kost pomoću parodontnih ligamenata",
+    "accepted": [
+      "povezuje zub i kost pomoću parodontnih ligamenata"
+    ],
+    "distractors": [
+      "stvara dentin",
+      "štiti krunu od trošenja",
+      "hrani zub krvnim žilama"
+    ],
+    "explanation": "Cement je mineralizirano vezivno tkivo koje prekriva dentin u predjelu korijena. Preko parodontnih ligamenata cement povezuje zub s kosti (čeljusti). Po strukturi je sličan kostima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 12; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-017",
+    "chapter": "27",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Cement sadrži 33 % organskih tvari, ___ anorganskih tvari i 22 % vode.",
+    "answer": "45 %",
+    "accepted": [
+      "45 %",
+      "45",
+      "45%"
+    ],
+    "distractors": [
+      "70 %",
+      "96 %",
+      "33 %"
+    ],
+    "explanation": "Cement je po strukturi sličan kostima: 33 % organskih, 45 % anorganskih tvari i 22 % vode (zbroj 100 %).",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 12; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-018",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je funkcija pulpe?",
+    "answer": "stvaranje dentina te zaštitna, hranidbena, osjetilna i obrambena funkcija",
+    "accepted": [
+      "stvaranje dentina te zaštitna, hranidbena, osjetilna i obrambena funkcija"
+    ],
+    "distractors": [
+      "povezivanje zuba s kosti",
+      "zaštita krune od trošenja",
+      "mljevenje hrane"
+    ],
+    "explanation": "Pulpa je u srednjem dijelu zuba i čine je živo meko tkivo i stanice odontoblasti, koje stvaraju dentin. Uz to ima zaštitnu, hranidbenu, osjetilnu i obrambenu funkciju.",
+    "image": null,
+    "explanation_image": "img/27-1.png",
+    "source": "27_Dentalna biomehanika.pdf, slajd 13; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-019",
+    "chapter": "27",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Stanice pulpe koje stvaraju dentin nazivaju se ___.",
+    "answer": "odontoblasti",
+    "accepted": [
+      "odontoblasti",
+      "odontoblast",
+      "odontoblastima"
+    ],
+    "distractors": [
+      "osteoblasti",
+      "fibroblasti",
+      "hondrociti"
+    ],
+    "explanation": "Odontoblasti su stanice pulpe zadužene za stvaranje dentina. Ne miješaj s osteoblastima (kost) i fibroblastima (kolagen u mekom tkivu).",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 13; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-020",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje su potporne strukture zuba?",
+    "answer": "parodontni ligament, gingiva i alveolna kost",
+    "accepted": [
+      "parodontni ligament, gingiva i alveolna kost"
+    ],
+    "distractors": [
+      "caklina, dentin i pulpa",
+      "cement, pulpa i gingiva",
+      "krunica, nadogradnja i implantat"
+    ],
+    "explanation": "Zub podupiru parodontni ligament (vlakna ga spajaju s alveolnom kosti sa svih strana), alveolna kost (okružuje korijen; zbita i spužvasta) i gingiva (zubno meso na alveolnoj kosti).",
+    "image": null,
+    "explanation_image": "img/27-1.png",
+    "source": "27_Dentalna biomehanika.pdf, slajd 14; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-021",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Na kojim su zubima žvačne sile veće?",
+    "answer": "na kutnjacima",
+    "accepted": [
+      "na kutnjacima"
+    ],
+    "distractors": [
+      "na sjekutićima",
+      "na očnjacima",
+      "jednake su na svim zubima"
+    ],
+    "explanation": "Žvačne sile veće su na kutnjacima nego na sjekutićima, a ovise o spolu, dobi, statusu zuba i položaju zuba u zubnom luku.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 18",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-022",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što osigurava stabilan zagriz?",
+    "answer": "da žvačne sile djeluju u smjeru uzdužne osi zuba",
+    "accepted": [
+      "da žvačne sile djeluju u smjeru uzdužne osi zuba"
+    ],
+    "distractors": [
+      "da žvačne sile budu što manje",
+      "da zub nema rotacije pri pomaku",
+      "da se kost ne pregrađuje"
+    ],
+    "explanation": "Kod stabilnog zagriza žvačne sile djeluju u smjeru uzdužne osi zuba. Kod nestabilnog su usmjerene tako da mogu uzrokovati gubitak kosti, trošenje zuba i puknuća.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 19; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-023",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je centar rotacije zuba?",
+    "answer": "sjecište osi zuba prije i poslije pomaka",
+    "accepted": [
+      "sjecište osi zuba prije i poslije pomaka"
+    ],
+    "distractors": [
+      "težište korijena",
+      "točka u kojoj djeluje ortodontska sila",
+      "vrh korijena zuba"
+    ],
+    "explanation": "Centar rotacije je sjecište uzdužne osi zuba prije i poslije pomaka. Kut između tih dvaju pravaca govori koliko se pomaknula kruna zuba.",
+    "image": "img/27-2.png",
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 20",
+    "tags": [
+      "definicija",
+      "skica"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-024",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "S čime se najčešće poklapa centar otpora zuba?",
+    "answer": "s težištem korijena",
+    "accepted": [
+      "s težištem korijena"
+    ],
+    "distractors": [
+      "s vrhom krune",
+      "s centrom rotacije",
+      "s hvatištem žvačne sile"
+    ],
+    "explanation": "Centar otpora najčešće se poklapa s težištem korijena i leži na pravcu na kojem se ne javlja rotacija.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 21; skripta.md – Dentalna biomehanika; 28_Dentalna biomehanika-ortodoncija.pdf, slajd 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-025",
+    "chapter": "27",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Za izradu zubnih implantata najčešće se koristi ___.",
+    "answer": "titan",
+    "accepted": [
+      "titan",
+      "titanij",
+      "Ti"
+    ],
+    "distractors": [
+      "PMMA",
+      "keramika",
+      "nehrđajući čelik"
+    ],
+    "explanation": "Implantati nadomještaju funkciju prirodnog korijena ili nose mostove, a najčešće su od titana.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 22; skripta.md – Dentalna biomehanika",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-026",
+    "chapter": "27",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Ukupna duljina analiziranog očnjaka iznosi ___.",
+    "answer": "25,5 mm",
+    "accepted": [
+      "25,5 mm",
+      "25,5",
+      "25.5 mm",
+      "25.5"
+    ],
+    "distractors": [
+      "11,1 mm",
+      "7,5 mm",
+      "7,0 mm"
+    ],
+    "explanation": "Očnjak, treći zub od medijalne linije, dug je 25,5 mm; na slajdu je za krunu navedeno 11,1 mm, širina 7,0 mm i vestibulooralni promjer krune 7,5 mm.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 23",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-027",
+    "chapter": "27",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Za izradu modela očnjaka zub je brušen u slojevima debljine ___ okomito na uzdužnu os.",
+    "answer": "0,5 mm",
+    "accepted": [
+      "0,5 mm",
+      "0,5",
+      "0.5 mm",
+      "0.5"
+    ],
+    "distractors": [
+      "1 mm",
+      "0,1 mm",
+      "2,2 mm"
+    ],
+    "explanation": "Izvađeni gornji očnjak brušen je u slojevima od 0,5 mm; svaki presjek snimljen je kamerom, a definirano je 60 poprečnih presjeka. Krivulje su iz AutoCAD-a (IGES) prenesene u Catiu za 3D model.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 25",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-028",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "U kojim je programima redom izrađen i analiziran model očnjaka?",
+    "answer": "AutoCAD (krivulje) → Catia (3D model) → MSC.Nastran (mreža) → ABAQUS/CAE (analiza)",
+    "accepted": [
+      "AutoCAD (krivulje) → Catia (3D model) → MSC.Nastran (mreža) → ABAQUS/CAE (analiza)"
+    ],
+    "distractors": [
+      "Mimics → Abaqus → Catia → AutoCAD",
+      "Catia → AutoCAD → ABAQUS → MSC.Nastran",
+      "MSC.Nastran → Catia → AutoCAD → ABAQUS"
+    ],
+    "explanation": "Presjeci su zapisani u AutoCAD-u u IGES formatu, 3D model izrađen je u Catii, mreža konačnih elemenata (67 577 čvorova, 49 089 tetraedarskih elemenata) u MSC.Nastranu, a analiza je provedena u ABAQUS/CAE.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 25–30",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-029",
+    "chapter": "27",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U numeričkoj analizi očnjaka iznos sile je ___, a provedene su četiri analize s različitim hvatištima.",
+    "answer": "5 N",
+    "accepted": [
+      "5 N",
+      "5",
+      "5N"
+    ],
+    "distractors": [
+      "100 N",
+      "0,2 N",
+      "50 N"
+    ],
+    "explanation": "Na očnjak je djelovala sila od 5 N u četiri različita hvatišta, a oba dijela kosti bila su ukliještena. Istih 5 N je i ortodontska sila u analizi iz poglavlja ortodoncije.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 30",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-030",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako su raspoređena naprezanja (HMH) u očnjaku opterećenom koncentriranom silom?",
+    "answer": "najveća su na mjestu djelovanja sile i smanjuju se u koncentričnim krugovima",
+    "accepted": [
+      "najveća su na mjestu djelovanja sile i smanjuju se u koncentričnim krugovima"
+    ],
+    "distractors": [
+      "najveća su na vrhu korijena",
+      "jednolika su po cijelom zubu",
+      "najveća su u pulpi"
+    ],
+    "explanation": "Prema HMH teoriji naprezanja su najveća na mjestu djelovanja koncentrirane sile i opadaju u koncentričnim krugovima. Najveći pomaci su pri vrhu cakline, a pri kraju korijena su neprimjetni.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 32 i 33",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-031",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Gdje su pomaci očnjaka najveći kod djelovanja sila?",
+    "answer": "pri vrhu cakline",
+    "accepted": [
+      "pri vrhu cakline"
+    ],
+    "distractors": [
+      "pri kraju korijena",
+      "u pulpi",
+      "u alveolnoj kosti"
+    ],
+    "explanation": "Pomaci su reda veličine µm; najveći su pri vrhu cakline, a pri kraju korijena su neprimjetni – korijen je uklješten u kost. Najveći pomak je pri hvatištu prve sile, najmanji pri hvatištu četvrte.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 33",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-032",
+    "chapter": "27",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pri hvatištu sile 1 naprezanje s ortotropnim svojstvima iznosi ___ (s izotropnim 61,35 MPa).",
+    "answer": "81,70 MPa",
+    "accepted": [
+      "81,70 MPa",
+      "81,7 MPa",
+      "81,70",
+      "81,7",
+      "81.70 MPa",
+      "81.7"
+    ],
+    "distractors": [
+      "73,82 MPa",
+      "26,65 MPa",
+      "39,03 MPa"
+    ],
+    "explanation": "Najveća naprezanja javljaju se na istim mjestima za oba modela, ali različitog iznosa: hvatište 1 – 81,70 MPa (ortotropno) prema 61,35 MPa (izotropno). Pri hvatištu 4 iznos je isti, 26,65 MPa.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 34",
+    "tags": [
+      "brojka",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-033",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što mora učiniti parodontni ligament da bi se zub mogao pomaknuti ili rotirati?",
+    "answer": "oslabiti svoje veze, dok se kost na tom mjestu remodelira",
+    "accepted": [
+      "oslabiti svoje veze, dok se kost na tom mjestu remodelira"
+    ],
+    "distractors": [
+      "učvrstiti svoje veze",
+      "okoštati",
+      "potpuno se razgraditi"
+    ],
+    "explanation": "Pri ortodontskom pomicanju PDL mora oslabiti veze kako bi zub mogao krenuti, a kost se remodelira na mjestu gdje se zub pomiče ili rotira. Mijenja se cijela okolina zuba.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 36",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-034",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Od čega se sastoji implantoprotetski sklop?",
+    "answer": "oseointegriranog implantata, nadogradnje i fiksnog nadomjestka",
+    "accepted": [
+      "oseointegriranog implantata, nadogradnje i fiksnog nadomjestka"
+    ],
+    "distractors": [
+      "krunice, cementa i korijena",
+      "bravica, prstenova i žičanog luka",
+      "implantata, PDL-a i alveolne kosti"
+    ],
+    "explanation": "Sklop čine oseointegrirani implantat (u kosti), nadogradnja (pričvršćena implantološkim vijkom) i fiksni nadomjestak (krunica). Bravice, prstenovi i žičani luk čine ortodontsku napravu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 39",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-035",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se dijele implantati u obliku korijena zuba prema obliku?",
+    "answer": "konični sa samoureznim navojem, cilindrični sa samoureznim navojem i cilindrični bez navoja",
+    "accepted": [
+      "konični sa samoureznim navojem, cilindrični sa samoureznim navojem i cilindrični bez navoja"
+    ],
+    "distractors": [
+      "u razini tkiva i u razini kosti",
+      "s vanjskom i unutarnjom konekcijom",
+      "cementirani i vijčani"
+    ],
+    "explanation": "Prema obliku: konični sa samoureznim navojem, cilindrični sa samoureznim navojem i cilindrični bez navoja. Prema gornjem dijelu dijele se na implantate u razini tkiva i u razini kosti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 40 i 42",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-036",
+    "chapter": "27",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Moment ugradnje zubnog implantata iznosi ___.",
+    "answer": "300-400 Nmm",
+    "accepted": [
+      "300-400 Nmm",
+      "300–400 Nmm",
+      "300 - 400 Nmm",
+      "300-400"
+    ],
+    "distractors": [
+      "150-400 Nmm",
+      "250-450 Nmm",
+      "30-40 Nmm"
+    ],
+    "explanation": "Implantat se ugrađuje momentom 300–400 Nmm. Preveliki moment može uzrokovati nekrozu tkiva i povećava rizik gubitka kosti. Ne miješaj s momentima pritezanja vijka nadogradnje (150–400 i 250–450 Nmm).",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 41",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-037",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto se površina implantata hrapavi (pjeskarenjem, jetkanjem, laserom ili premazom)?",
+    "answer": "hrapava površina pomaže oseointegraciji",
+    "accepted": [
+      "hrapava površina pomaže oseointegraciji"
+    ],
+    "distractors": [
+      "smanjuje moment ugradnje",
+      "sprečava prodor bakterija",
+      "povećava estetiku krunice"
+    ],
+    "explanation": "Hrapava površina pomaže srastanju kosti s implantatom (oseointegraciji). Vanjski navoj povećava kontaktnu površinu i osigurava dobru mehaničku vezu s kosti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 41",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-038",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je prednost implantata u razini tkiva?",
+    "answer": "manja mogućnost ulaska bakterija (koristi se za stražnje zube)",
+    "accepted": [
+      "manja mogućnost ulaska bakterija (koristi se za stražnje zube)"
+    ],
+    "distractors": [
+      "bolja estetika prednjih zuba",
+      "potpuno je potopljen u kost",
+      "ne treba mu nadogradnja"
+    ],
+    "explanation": "Prema obliku gornjeg dijela implantat može biti u razini tkiva (za stražnje zube, manja mogućnost ulaska bakterija) ili u razini kosti (potopljen implantat).",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 42",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-039",
+    "chapter": "27",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Duljina zubnih implantata je l = 7–20 mm, a promjer d = ___.",
+    "answer": "1,8-6 mm",
+    "accepted": [
+      "1,8-6 mm",
+      "1,8–6 mm",
+      "1,8 - 6 mm",
+      "1.8-6 mm",
+      "1,8-6"
+    ],
+    "distractors": [
+      "7-20 mm",
+      "3-4 mm",
+      "0,5-2 mm"
+    ],
+    "explanation": "Implantati su različitih dimenzija: duljine 7–20 mm i promjera 1,8–6 mm. Veličina se bira prema zubu i stanju kosti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 43",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-040",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je prednost pričvršćenja krunice vijkom?",
+    "answer": "mogućnost skidanja ako dođe do komplikacija",
+    "accepted": [
+      "mogućnost skidanja ako dođe do komplikacija"
+    ],
+    "distractors": [
+      "dobro rubno brtvljenje i estetika",
+      "nema prolazne rupe u krunici",
+      "nije potreban moment pritezanja"
+    ],
+    "explanation": "Kod vijka krunica ima prolaznu rupu, vijak se priteže momentom (obično 150–400 Nmm), a šupljina se zatvara kompozitom; prednost je mogućnost skidanja. Kod cementiranja prednost su dobro rubno brtvljenje i estetika.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 44–46",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-041",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je prednost pričvršćenja krunice cementom?",
+    "answer": "dobro rubno brtvljenje i estetika",
+    "accepted": [
+      "dobro rubno brtvljenje i estetika"
+    ],
+    "distractors": [
+      "mogućnost skidanja krunice",
+      "manji moment pritezanja vijka",
+      "nije potrebna nadogradnja"
+    ],
+    "explanation": "Nadogradnja se vijkom (250–450 Nmm) spoji s implantatom, šupljina iznad vijka prekrije se kompozitom (štiti vijak od cementa i bakterija), a krunica se cementira na nadogradnju u ustima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 46",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-042",
+    "chapter": "27",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Protetski vijci (za protetski dio nadogradnje) najčešće su dimenzija M ___.",
+    "answer": "1,4x0,3",
+    "accepted": [
+      "1,4x0,3",
+      "1,4×0,3",
+      "1.4x0.3",
+      "M 1,4x0,3",
+      "M1,4x0,3"
+    ],
+    "distractors": [
+      "1,6x0,35",
+      "2,0x0,4",
+      "1,8x0,35"
+    ],
+    "explanation": "Implantološki vijci najčešće su M 1,6x0,35, M 1,8x0,35 i M 2,0x0,4, a protetski vijci su kraći i manji, najčešće M 1,4x0,3.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 47",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-043",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje su vrste veze između implantata i upornjaka?",
+    "answer": "vanjska konekcija, unutarnja „na ravno” i unutarnja konična",
+    "accepted": [
+      "vanjska konekcija, unutarnja „na ravno” i unutarnja konična"
+    ],
+    "distractors": [
+      "cementirana, vijčana i tarna",
+      "u razini tkiva i u razini kosti",
+      "šesterokutna, osmerokutna i okrugla"
+    ],
+    "explanation": "Veza implantata i upornjaka može biti vanjska konekcija (a), unutarnja konekcija „na ravno” (b) ili unutarnja konična konekcija (c).",
+    "image": "img/27-3.png",
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 48",
+    "tags": [
+      "podjela",
+      "skica"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-044",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koju ulogu ima šesterokut kod vanjske konekcije implantata?",
+    "answer": "antirotacijsku ulogu i prihvat ključa za montažu",
+    "accepted": [
+      "antirotacijsku ulogu i prihvat ključa za montažu"
+    ],
+    "distractors": [
+      "brtvljenje protiv bakterija",
+      "prijenos sila kroz stijenke prema kosti",
+      "povezivanje krunice cementom"
+    ],
+    "explanation": "Vanjska konekcija može biti šesterokut, s utorima ili osmerokut. Šesterokut sprečava rotaciju nadogradnje i služi za prihvat ključa pri montaži implantata.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 49",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-045",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je prednost unutarnjih, osobito koničnih konekcija?",
+    "answer": "sile se prenose kroz stijenke implantata prema kosti, pa vijak ne nosi cijelo opterećenje",
+    "accepted": [
+      "sile se prenose kroz stijenke implantata prema kosti, pa vijak ne nosi cijelo opterećenje"
+    ],
+    "distractors": [
+      "vijak nosi cijelo opterećenje",
+      "lakše se skida krunica",
+      "nije potrebna antirotacijska geometrija"
+    ],
+    "explanation": "Unutarnje konekcije poboljšavaju brtvljenje i estetiku. Konične distribuiraju sile kroz stijenke implantata prema kosti i štite vijak, a trenje na konusu smanjuje relativno rotiranje – pa se vijak rjeđe otpušta.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 50",
+    "tags": [
+      "funkcija",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-046",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja gibanja ostvaruje temporomandibularni zglob?",
+    "answer": "rotaciju u horizontalnoj i translaciju u sagitalnoj ravnini",
+    "accepted": [
+      "rotaciju u horizontalnoj i translaciju u sagitalnoj ravnini"
+    ],
+    "distractors": [
+      "samo rotaciju u sagitalnoj ravnini",
+      "samo translaciju u frontalnoj ravnini",
+      "rotaciju oko tri osi bez translacije"
+    ],
+    "explanation": "Temporomandibularni zglob je jedini pomični zglob glave. Sastoji se od kondila mandibule, zglobne fose temporalne kosti i zglobnog diska između njih, uz ligamente, mišiće, hrskavice i sinovijalnu tekućinu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 53",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-27-047",
+    "chapter": "27",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji mišić pozicionira i zatvara donju čeljust?",
+    "answer": "temporalni mišić",
+    "accepted": [
+      "temporalni mišić"
+    ],
+    "distractors": [
+      "digastrični mišić",
+      "maseterični mišić",
+      "krilasti mišić"
+    ],
+    "explanation": "Temporalni mišić pozicionira i zatvara donju čeljust. Maseterični stabilizira kondile i pomiče čeljust naprijed i lateralno (žvakanje), krilasti ostvaruje kontakt zubi, a digastrični giba mandibulu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "27_Dentalna biomehanika.pdf, slajd 54",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  }
+]
