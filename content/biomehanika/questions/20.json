@@ -324,7 +324,7 @@
     "distractors": [
       "član s dΔ/dt",
       "član s ∂S/∂Δ",
-      "član s ∂S/∂ηs"
+      "nijedan član ne izostaje"
     ],
     "explanation": "Kod izometričke kontrakcije duljina mišića se ne mijenja, pa je dLs/dt = 0 i otpada cijeli prvi član opće jednadžbe. Ostaje dσ/dt = (∂S/∂ηs + ∂S/∂Δ)·dΔ/dt – naprezanje se mijenja samo zbog rada kontraktilnog elementa.",
     "image": null,

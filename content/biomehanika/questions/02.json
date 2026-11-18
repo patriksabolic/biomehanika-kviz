@@ -121,7 +121,7 @@
       "intuitivna biomehanika"
     ],
     "distractors": [
-      "empirijska",
+      "eksperimentalna",
       "primitivna",
       "antička"
     ],
@@ -149,7 +149,7 @@
     ],
     "distractors": [
       "mislio je da su pluća organ za cirkulaciju",
-      "mislio je da je mozak hladnjak krvi",
+      "mislio je da je srce organ za probavu",
       "mislio je da zalisci propuštaju krv u oba smjera"
     ],
     "explanation": "Pri seciranju leša Aristotel u srcu nije našao krvi, pa je zaključio da je srce organ za disanje. Pogreška pokazuje ograničenje promatranja mrtvog tkiva – isti problem anatomskih preparata spominje se i kod modela u biomehanici.",
@@ -581,7 +581,7 @@
       "da sveza izdrži 3500 N",
       "da je čvrstoća kosti proporcionalna presjeku"
     ],
-    "explanation": "Braća Weber 1830. pokazala su da zglobna tijela kuka drži u stalnom kontaktu atmosferski tlak – zglob se ponaša kao vakuumski spoj, ne samo zbog mišića i sveza.",
+    "explanation": "Braća Weber 1830. dokazala su na zglobu kuka da atmosferski tlak omogućuje stalni kontakt između zglobnih tijela.",
     "image": null,
     "explanation_image": null,
     "source": "2_Povijest.pdf, slajd 14",
@@ -639,7 +639,7 @@
       "Pauwels",
       "Culmann"
     ],
-    "explanation": "Wolffov zakon kaže da se kost pregrađuje prema opterećenju: gdje je opterećenje veće, kost postaje jača i obrnuto. Roux je postavio min.-max. zakon i teoriju funkcijske prilagodbe.",
+    "explanation": "Wolffov zakon kaže da na oblik i građu kosti djeluju uvjeti mehaničkog opterećenja (povijesna formulacija: oblik kosti određen je samo statičkim opterećenjem). Roux je postavio min.-max. zakon i teoriju funkcijske prilagodbe.",
     "image": null,
     "explanation_image": null,
     "source": "2_Povijest.pdf, slajd 15",

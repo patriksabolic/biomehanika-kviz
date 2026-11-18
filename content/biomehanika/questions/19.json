@@ -218,7 +218,7 @@
       "zeca",
       "mačke"
     ],
-    "explanation": "Izolirani mišić žabe učvršćen je hvataljkama na početnu duljinu l0, pa se pri električnoj stimulaciji nije mogao skratiti. Tako je Hill najprije izmjerio izometričku silu F0, a zatim, nakon otpuštanja hvataljki, brzinu skraćenja v pri različitim opterećenjima.",
+    "explanation": "Mišić žabe učvršćen je hvataljkama na duljinu l0, pa je električna stimulacija izazvala izometričku kontrakciju u kojoj se razvija vlačna sila F0. Nakon otpuštanja hvataljki mišić se kontrahira brzinom v na duljinu l (v = l/t).",
     "image": null,
     "explanation_image": null,
     "source": "19_Procjena misicne sile.pdf, slajd 4",

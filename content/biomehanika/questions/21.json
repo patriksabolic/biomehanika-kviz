@@ -622,7 +622,7 @@
       "16",
       "3"
     ],
-    "explanation": "Bronhalno stablo nastaje grananjem oko 23 puta, a promjer se pri tome stalno mijenja. Zato se strujanje zraka mijenja od turbulentnog u dušniku prema laminarnom dublje u stablu.",
+    "explanation": "Bronhalno stablo nastaje grananjem oko 23 puta, a promjer se pri tome stalno mijenja. U računskom primjeru strujanje je u dušniku turbulentno (Re ≈ 3220), a na trećem nivou grananja laminarno (Re ≈ 1072).",
     "image": null,
     "explanation_image": null,
     "source": "21__Sustav organa za disanje.pdf, slajd 18",
@@ -644,8 +644,7 @@
     "accepted": [
       "η",
       "eta",
-      "dinamička viskoznost",
-      "ni"
+      "dinamička viskoznost"
     ],
     "distractors": [
       "ν",

@@ -74,9 +74,9 @@
     "distractors": [
       "24-26",
       "30-32",
-      "35-36"
+      "38-40"
     ],
-    "explanation": "Ukupno je 33–34 kralješka: 7 vratnih, 12 grudnih i 5 slabinskih čine pokretni dio (24), a 5 sraslih krstačnih i 4 ili 6 sraslih trtičnih nepokretni dio. Raspon dolazi od različitog broja trtičnih kralješaka.",
+    "explanation": "Prema slajdu kralježnica ima 33–34 kralješka. Pokretni dio (24) čine 7 vratnih, 12 grudnih i 5 slabinskih kralježaka, a nepokretni dio 5 sraslih krstačnih i 4 ili 6 sraslih trtičnih kralježaka.",
     "image": null,
     "explanation_image": null,
     "source": "15_Biomehanika kralježnice.pdf, slajd 3",
@@ -467,7 +467,7 @@
       "udarnog",
       "cikličkog"
     ],
-    "explanation": "Cervikalni sindrom nastaje zbog statičkog opterećenja – dugotrajnog držanja glave u istom položaju. Uz lumbalni sindrom to je najčešća bolest kralježnice.",
+    "explanation": "Cervikalni sindrom zahvaća vratni dio kralježnice i posljedica je statičkog opterećenja. Uz lumbalni sindrom to je jedna od najčešćih bolesti kralježnice.",
     "image": null,
     "explanation_image": null,
     "source": "15_Biomehanika kralježnice.pdf, slajd 9; skripta.md – Kralježnica",
@@ -607,10 +607,10 @@
       "kralješke",
       "fibrozni prsten"
     ],
-    "explanation": "Kad fibrozni prsten pukne, pulpozna masa izađe iz diska i tlači leđnu moždinu (živčano tkivo), što izaziva bol. Zato je zaštita leđne moždine jedna od funkcija kralježnice.",
+    "explanation": "Prolaps diska (hernija) je prodor pulpozne mase koja tlači leđnu moždinu. Uzrok može biti ruptura fibroznog prstena zbog visokog kontaktnog pritiska kad se pulpozna jezgra ne može pomaknuti.",
     "image": null,
     "explanation_image": null,
-    "source": "15_Biomehanika kralježnice.pdf, slajd 13; skripta.md – Kralježnica",
+    "source": "15_Biomehanika kralježnice.pdf, slajd 11 i 13; skripta.md – Kralježnica",
     "tags": [
       "definicija"
     ],
@@ -723,7 +723,7 @@
     "explanation": "Prema dijagramu uspravno sjedenje daje 100 kPa, a stajanje 80 kPa. Sjedenje u pretklonu povisi tlak na 120 kPa. Zato su važni ispravni radni položaji.",
     "image": null,
     "explanation_image": "img/15-1.png",
-    "source": "15_Biomehanika kralježnice.pdf, slajd 14 i 15",
+    "source": "15_Biomehanika kralježnice.pdf, slajd 14",
     "tags": [
       "usporedba",
       "brojka"

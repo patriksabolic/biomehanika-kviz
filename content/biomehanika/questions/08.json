@@ -11,7 +11,7 @@
     "explanation": "Kosti čine 9 % volumena, ali 17 % ukupne mase tijela – udio u masi veći je od udjela u volumenu jer je kost gušća od većine drugih tkiva. Gustoća kosti je oko 2000 kg/m³, dok su tetiva i mišić oko 1200 kg/m³.",
     "image": null,
     "explanation_image": null,
-    "source": "8_Kosti 2.pdf, slajd 2",
+    "source": "8_Kosti 2.pdf, slajd 2 i 29",
     "tags": ["brojka"],
     "real_exam": false
   },
@@ -200,7 +200,7 @@
     "answer": "mineralizacija",
     "accepted": ["mineralizacija", "mineralizacija kosti"],
     "distractors": ["resorpcija", "osifikacija", "hemostaza"],
-    "explanation": "Pregradnja ide redom: osteoklasti razgrade (resorbiraju) kost, osteoblasti ispune udubinu kolagenom, a na kraju mineralizacija ugradi bitne minerale u koštanu matricu. Tek tada nova kost dobiva punu krutost.",
+    "explanation": "Pregradnja ide redom: osteoklasti razgrade (resorbiraju) kost, osteoblasti ispune udubinu kolagenom, a na kraju mineralizacija ugradi bitne minerale u koštanu matricu.",
     "image": null,
     "explanation_image": null,
     "source": "8_Kosti 2.pdf, slajd 18",

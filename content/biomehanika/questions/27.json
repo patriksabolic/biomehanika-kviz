@@ -750,7 +750,7 @@
       "Catia → AutoCAD → ABAQUS → MSC.Nastran",
       "MSC.Nastran → Catia → AutoCAD → ABAQUS"
     ],
-    "explanation": "Presjeci su zapisani u AutoCAD-u u IGES formatu, 3D model izrađen je u Catii, mreža konačnih elemenata (67 577 čvorova, 49 089 tetraedarskih elemenata) u MSC.Nastranu, a analiza je provedena u ABAQUS/CAE.",
+    "explanation": "Presjeci su zapisani u BMP formatu, a krivulje su snimljene u AutoCAD-u u IGES formatu; 3D model izrađen je u Catii, mreža konačnih elemenata (67 577 čvorova, 49 089 tetraedarskih elemenata) u MSC.Nastranu, a analiza je provedena u ABAQUS/CAE.",
     "image": null,
     "explanation_image": null,
     "source": "27_Dentalna biomehanika.pdf, slajd 25–30",
@@ -831,7 +831,7 @@
       "u pulpi",
       "u alveolnoj kosti"
     ],
-    "explanation": "Pomaci su reda veličine µm; najveći su pri vrhu cakline, a pri kraju korijena su neprimjetni – korijen je uklješten u kost. Najveći pomak je pri hvatištu prve sile, najmanji pri hvatištu četvrte.",
+    "explanation": "Pomaci su reda veličine µm; najveći su pri vrhu cakline, a pri kraju korijena su neprimjetni. Najveći pomak je pri hvatištu prve sile, najmanji pri hvatištu četvrte.",
     "image": null,
     "explanation_image": null,
     "source": "27_Dentalna biomehanika.pdf, slajd 33",
@@ -1266,7 +1266,7 @@
       "temporalni mišić"
     ],
     "distractors": [
-      "digastrični mišić",
+      "mišić jezika",
       "maseterični mišić",
       "krilasti mišić"
     ],

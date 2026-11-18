@@ -161,7 +161,7 @@
       "obje komponente se poništavaju",
       "obje komponente se zbrajaju"
     ],
-    "explanation": "Vektori H1 i H2 nagnuti su suprotno: vertikalne komponente su jednake i suprotne, pa se poništavaju, a horizontalne imaju isti smjer i zbrajaju se. Tako ukupna kutna količina gibanja ostaje očuvana, a tijelo se ipak okreće oko uzdužne osi.",
+    "explanation": "Vektori H1 i H2 nagnuti su suprotno: vertikalne komponente su jednake i suprotne, pa se poništavaju, a horizontalne imaju isti smjer i zbrajaju se. Hopper je gornji i donji dio tijela prikazao valjcima koji se okreću kontrakcijom mišića.",
     "image": "img/03-2.png",
     "explanation_image": null,
     "source": "3_Mačka.pdf, slajd 4",
@@ -299,7 +299,7 @@
       "konst."
     ],
     "distractors": [
-      "0",
+      "m·v",
       "L·ω",
       "I·α"
     ],
@@ -355,7 +355,7 @@
     ],
     "distractors": [
       "elastično",
-      "homogeno",
+      "živo",
       "simetrično"
     ],
     "explanation": "Kruto tijelo ima stalan moment tromosti i ne može se samo okrenuti bez vanjskog momenta. Mačka može mijenjati oblik (savijati tijelo, micati noge i rep), pa mijenja moment tromosti dijelova i okreće se uz očuvanu ukupnu kutnu količinu gibanja.",
@@ -463,7 +463,7 @@
     "distractors": [
       "jedinici",
       "m·g·h",
-      "I·ω"
+      "m·v"
     ],
     "explanation": "Bez vrtnje je ω = 0, pa je L = I·ω = 0. Što god mačka učini u zraku, ukupna kutna količina gibanja ostaje nula, pa mora stvoriti dvije jednake i suprotne kutne količine gibanja čiji je zbroj nula.",
     "image": null,
@@ -515,7 +515,7 @@
       "potencijalna energija"
     ],
     "distractors": [
-      "U",
+      "F",
       "W",
       "Q"
     ],

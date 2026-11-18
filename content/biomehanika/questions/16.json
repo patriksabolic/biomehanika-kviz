@@ -126,7 +126,7 @@
     ],
     "distractors": [
       "50 %",
-      "10-15 %",
+      "20-30 %",
       "1-2 %"
     ],
     "explanation": "Kolagen je otporan na vlačno opterećenje i malo se rasteže: 5–10 % pri maksimalnom opterećenju. Elastin se, za usporedbu, može istegnuti čak 50 %.",
@@ -512,7 +512,7 @@
     "explanation": "Opruga opisuje elastični dio (deformacija odmah prati silu), a prigušivač viskozni dio (deformacija ovisi o vremenu). Kombinacijama tih elemenata dobivaju se Maxwellov, Voigtov, Burgersov i drugi modeli.",
     "image": null,
     "explanation_image": null,
-    "source": "16_Meko tkivo.pdf, slajd 12 i 16",
+    "source": "16_Meko tkivo.pdf, slajd 12 i 15",
     "tags": [
       "definicija"
     ],
@@ -783,7 +783,7 @@
       "adventicija",
       "endotel"
     ],
-    "explanation": "Medija sadrži glatke mišićne stanice cirkularno orijentirane te elastin i kolagen, pa nosi najveći dio naprezanja. Zato se hipertenzija, koja zadebljava mediju, zove „bolest medije”.",
+    "explanation": "Medija sadrži cirkularno orijentirane glatke mišićne stanice te elastin i kolagen i glavni je nositelj naprezanja u stijenci, što se vidi na dijagramu naprezanje–istezanje po slojevima.",
     "image": null,
     "explanation_image": null,
     "source": "16_Meko tkivo.pdf, slajd 29",
@@ -917,7 +917,7 @@
       "razgrađuje elastin",
       "ne utječe na mehanička svojstva"
     ],
-    "explanation": "Kalcij je tvrd mineral; njegovo nakupljanje u plaku čini stijenku krućom i manje sposobnom za deformaciju. Takva stijenka slabije prati pulsiranje krvi.",
+    "explanation": "Kalcij se nakuplja u aterosklerotskom plaku; on ukrućuje tkivo i smanjuje maksimalne deformacije, pa stijenka postaje kruća. Puknuće plaka potencijalno je opasno.",
     "image": null,
     "explanation_image": null,
     "source": "16_Meko tkivo.pdf, slajd 33; skripta.md – Meko tkivo",
@@ -972,7 +972,7 @@
       "50 %",
       "46 %"
     ],
-    "explanation": "Ruptura AAA smrtonosna je u 90 % slučajeva, zato se rast aneurizme prati i predviđa numeričkim modelima. Ne miješaj s 80 % – udjelom AAA u kojima nastaje intraluminalni tromb.",
+    "explanation": "Ruptura aneurizme abdominalne aorte (AAA) smrtonosna je u 90 % slučajeva. Ne miješaj s 80 % – udjelom AAA u kojima nastaje intraluminalni tromb.",
     "image": null,
     "explanation_image": null,
     "source": "16_Meko tkivo.pdf, slajd 34",
@@ -1001,7 +1001,7 @@
       "50 %",
       "20 %"
     ],
-    "explanation": "U 80 % AAA nastaje intraluminalni tromb. On je dvojak: daje mehaničku zaštitu (preuzima dio tlaka), ali i oslabljuje stijenku aorte ispod sebe.",
+    "explanation": "U 80 % AAA nastaje intraluminalni tromb. On ima dvojak učinak: pruža mehaničku zaštitu, ali i oslabljuje stijenku aorte.",
     "image": null,
     "explanation_image": null,
     "source": "16_Meko tkivo.pdf, slajd 34",

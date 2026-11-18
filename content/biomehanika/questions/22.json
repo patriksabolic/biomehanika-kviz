@@ -77,7 +77,7 @@
       "141 GPa",
       "4,1 GPa"
     ],
-    "explanation": "Za sve tri slušne koštice uzima se modul elastičnosti E = 14,1 GPa. Tako krute koštice se pri prijenosu zvuka gotovo ne deformiraju, nego se gibaju kao kruta tijela u sustavu poluga.",
+    "explanation": "Za sve tri slušne koštice (čekić, nakovanj, stremen) navodi se modul elastičnosti E = 14,1 GPa. Koštice su povezane zglobovima i djeluju kao sustav poluga koji prenosi titraje bubnjića do stremena.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 7",
@@ -165,7 +165,7 @@
       "izjednačuju tlak u bubnjištu",
       "pretvaraju titraje u živčani signal"
     ],
-    "explanation": "Ova dva poprečnoprugasta mišića drže lanac slušnih koštica u pravilnom položaju i namještaju osjetljivost uha. Kad je zvuk presnažan, oni djeluju kao prigušivač: ukrućuju sustav i smanjuju amplitudu titranja koja stiže do unutarnjeg uha.",
+    "explanation": "Ova dva poprečnoprugasta mišića održavaju sustav slušnih koštica u pravilnom položaju i namještaju amplitudu osjetljivosti uha. Kod presnažnog podražaja imaju ulogu prigušivača.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 7; slajd 19",
@@ -228,7 +228,7 @@
     "explanation": "Bubnjić ne stoji okomito na zvukovod nego je nagnut pod kutom od 45°. Uz to ima oblik lijevka: jedan mu je kraj stalno napet, a drugi se može izbočiti.",
     "image": null,
     "explanation_image": null,
-    "source": "22_Biomehanika srednjeg uha.pdf, slajd 3; skripta, Uho",
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 3 i 6; skripta, Uho",
     "tags": [
       "brojka"
     ],
@@ -409,7 +409,7 @@
       "0,01 mm",
       "0,5 mm"
     ],
-    "explanation": "Bubnjić je vrlo tanka membrana, debljine oko 0,1 mm. Zbog male mase i debljine može titrati već pri sićušnim promjenama tlaka zraka.",
+    "explanation": "Bubnjić je vrlo tanka membrana, debljine oko 0,1 mm, površine 0,5–0,9 cm². Pomak mu je na pragu sluha (1 kHz) samo oko 10⁻⁸ mm.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 11",

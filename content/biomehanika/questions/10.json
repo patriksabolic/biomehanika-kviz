@@ -42,7 +42,7 @@
       "pločice za osteosintezu",
       "kalupi za koštani cement"
     ],
-    "explanation": "Koštane skele su 3D porozne strukture koje privremeno zamjenjuju kost i omogućuju njezinu regeneraciju. Pore omogućuju urastanje stanica i krvnih žila.",
+    "explanation": "Koštane skele (scaffold) su 3D porozne strukture za regeneraciju kosti, privremene strukture koje zamjenjuju kost. Zahtjevi su biokompatibilnost, biorazgradivost, mehanička svojstva, arhitektura (poroznost) i izrada.",
     "image": null,
     "explanation_image": null,
     "source": "10_Skele.pdf, slajd 2",
@@ -660,7 +660,7 @@
     ],
     "distractors": [
       "endoproteza",
-      "implantat",
+      "ortoza",
       "koštani cement"
     ],
     "explanation": "Koštana skela (scaffold) je 3D porozna privremena struktura: zamjenjuje kost dok ona ne regenerira, a zatim se razgradi. Zato mora biti biokompatibilna, biorazgradiva i porozna.",

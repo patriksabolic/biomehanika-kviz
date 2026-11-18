@@ -539,7 +539,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Potencijal u mirovanju kod akcijskog potencijala iznosi ___, a nadvišenje +30 mV.",
+    "prompt": "Na dijagramu akcijskog potencijala potencijal u mirovanju iznosi ___, a nadvišenje +30 mV.",
     "answer": "-85 mV",
     "accepted": [
       "-85 mV",
@@ -548,9 +548,9 @@
       "−85"
     ],
     "distractors": [
-      "-90 mV",
-      "-70 mV",
-      "-30 mV"
+      "-30 mV",
+      "0 mV",
+      "-150 mV"
     ],
     "explanation": "Na dijagramu je potencijal u mirovanju −85 mV, a vrh akcijskog potencijala (nadvišenje) +30 mV. Podražaj najprije digne napon do praga podražljivosti, a tada nastaje akcijski potencijal.",
     "image": null,

@@ -66,7 +66,7 @@
       "umrežen"
     ],
     "distractors": [
-      "amorfni",
+      "koštani",
       "vlaknasti kristalični",
       "mineralizirani"
     ],
@@ -277,7 +277,7 @@
       "koži",
       "rožnici"
     ],
-    "explanation": "Redom od najdebljih: tetive 120 nm, koža 60 nm, rožnica 30 nm, hrskavica 20 nm. Hrskavica pretežno podnosi tlak, pa joj ne trebaju debela vlakna za vlak kao tetivi, nego fina mreža koja drži matriks na okupu.",
+    "explanation": "Redom od najdebljih: tetive 120 nm, koža 60 nm, rožnica 30 nm, hrskavica 20 nm. Hrskavica dakle ima najtanja kolagena vlakanca.",
     "image": null,
     "explanation_image": null,
     "source": "4_Vezivno tkivo.pdf, slajd 9",
@@ -318,7 +318,7 @@
     "chapter": "04",
     "type": "fill",
     "modes": ["mc", "fill"],
-    "prompt": "Grijanjem kolagenska vlakna gube kristaliničnu strukturu i smanje se na ___ duljine.",
+    "prompt": "Grijanjem kolagenska vlakna gube kristaliničnu i vlaknastu strukturu i smanje se na ___.",
     "answer": "trećinu",
     "accepted": [
       "trećinu",
@@ -331,7 +331,7 @@
       "četvrtinu",
       "desetinu"
     ],
-    "explanation": "Kristalična struktura kolagena drži lance ispruženima i uređenima. Kad toplina razori poprečne veze, molekule se vrate u neuređen, sklupčan oblik, pa se vlakno skrati na otprilike trećinu. Elastin je, za razliku od kolagena, otporan na toplinu.",
+    "explanation": "Grijanjem kolagenska vlakna gube kristaliničnu i vlaknastu strukturu i smanje se na trećinu. Elastin je, za razliku od kolagena, otporan na toplinu.",
     "image": null,
     "explanation_image": null,
     "source": "4_Vezivno tkivo.pdf, slajd 8",
@@ -519,7 +519,7 @@
       "kalcija",
       "lipida"
     ],
-    "explanation": "Elastin je gumasti umreženi polimer, a voda između njegovih lanaca omogućuje im da se pokreću i ispravljaju pri istezanju. Zato rastezljivost elastina ovisi o tome koliko je molekula vode vezano u njemu.",
+    "explanation": "Prema predavanju, rastezljivost elastina ovisi o broju molekula vode. Elastin je gumasta, rastezljiva bjelančevina (E = 0,6 MPa), glavni sastojak elastičnih vlakana.",
     "image": null,
     "explanation_image": null,
     "source": "4_Vezivno tkivo.pdf, slajd 13",
@@ -572,7 +572,7 @@
       "0,6 MPa",
       "100 MPa"
     ],
-    "explanation": "Abduktin je gusti amorfni gumasti polimer koji kod školjaka otvara školjku: kad je zatvorena on je deformiran i pohranjuje energiju. Vrlo je mekan (E = 1–4 MPa, G = 0,64 MPa) i puca pri oko 3 MPa – tisuće puta manje od kolagena (1 GPa), ali dovoljno za tu funkciju.",
+    "explanation": "Abduktin je gusti amorfni gumasti polimer koji kod školjaka otvara školjku: kad je zatvorena on je deformiran i pohranjuje energiju. Vrlo je mekan (E = 1–4 MPa, G = 0,64 MPa) i puca pri oko 3 MPa – nekoliko stotina puta manje od kolagena (1 GPa), ali dovoljno za tu funkciju.",
     "image": null,
     "explanation_image": null,
     "source": "4_Vezivno tkivo.pdf, slajd 15",
@@ -626,7 +626,7 @@
       "smanjuje trenje u zglobovima noge",
       "otvrdne i služi kao poluga"
     ],
-    "explanation": "Mišići se kontrahiraju relativno sporo i svoju energiju predaju rezilinu, gdje se ona pohranjuje kao potencijalna energija deformacije. Nakon rasterećenja rezilin se vrlo brzo vraća u prvobitni oblik i tu energiju pretvara u kinetičku, pa kukac odskoči mnogo brže nego što bi to mogli sami mišići. Rezilin se nalazi i u korijenu krila kukaca.",
+    "explanation": "Mišići kontrakcijom predaju rezilinu svoju energiju, koja se pretvara u potencijalnu energiju deformacije rezilina. Nakon rasterećenja rezilin se vrlo brzo vraća u prvobitni oblik i pretvara potencijalnu energiju u kinetičku, pa kukac može brzo odskočiti. Rezilin se nalazi i u korijenu krila kukaca.",
     "image": null,
     "explanation_image": null,
     "source": "4_Vezivno tkivo.pdf, slajd 17",

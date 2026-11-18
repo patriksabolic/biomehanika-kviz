@@ -372,7 +372,7 @@
       "spužvaste",
       "čeljusne"
     ],
-    "explanation": "Zub stoji u alveoli, udubini čeljusne kosti. Mehanički podražaj (preko parodontnog ligamenta) pokreće pregradnju alveolne kosti – s jedne strane se kost razgrađuje, s druge stvara – i zub se tako pomiče.",
+    "explanation": "Zub stoji u alveoli, udubini čeljusne kosti. Mehanički podražaj (deformacija parodontnog ligamenta) pokreće pregradnju alveolne kosti, i zub se tako postupno pomiče.",
     "image": null,
     "explanation_image": null,
     "source": "1_Uvod_2026.pdf, slajd 10",
@@ -539,7 +539,7 @@
     ],
     "distractors": [
       "težišta",
-      "središta pritiska",
+      "markera",
       "osi rotacije"
     ],
     "explanation": "Kistler platforma mjeri sile koje tijelo prenosi na podlogu: tri komponente rezultantne sile, tri komponente momenta i točku u kojoj rezultanta djeluje – hvatište. U ELITE sustavu kombinira se s kamerama koje prate markere.",

@@ -21,7 +21,7 @@
       "60 %",
       "15 %"
     ],
-    "explanation": "Mišići su najveći pojedinačni dio mekih tkiva: čine oko 40 % mase tijela. Zato su i glavni potrošač energije i glavni izvor topline u tijelu, što je jedna od njihovih uloga uz pokretanje i održavanje položaja.",
+    "explanation": "Mišići čine oko 40 % mase tijela. Uz to imaju više uloga: daju oblik tijelu, održavaju tjelesnu poziciju, pokreću tijelo, štite unutarnje organe, osiguravaju tjelesne otvore i proizvode toplinu.",
     "image": null,
     "explanation_image": null,
     "source": "17_Misici.pdf, slajd 3",
@@ -111,7 +111,7 @@
       "10 cm",
       "100 cm"
     ],
-    "explanation": "Poprečnoprugasto mišićno vlakno nastaje spajanjem više stanica pa ima mnogo jezgara i može biti vrlo dugačko – do 30 cm. Tako jedno vlakno može protezati velik dio duljine mišića i prenositi silu bez mnogo prekida.",
+    "explanation": "Osnovni element poprečnoprugastog mišića je mišićno vlakno – multinuklearna stanica (ima mnogo jezgara) čija duljina može varirati od nekoliko mm pa do 30 cm, a promjer joj je samo 10–100 µm.",
     "image": null,
     "explanation_image": null,
     "source": "17_Misici.pdf, slajd 5; skripta, Mišići",
@@ -244,7 +244,7 @@
       "0,15–0,6 µm",
       "15–60 µm"
     ],
-    "explanation": "Glatka vlakna su vrlo tanka, promjera 1,5–6 µm, dakle i do desetak puta tanja od poprečnoprugastih (10–100 µm). Tanka vretenasta vlakna se gusto slažu u stijenke šupljih organa.",
+    "explanation": "Glatka vlakna su vrlo tanka, promjera 1,5–6 µm, dakle i do desetak puta tanja od poprečnoprugastih (10–100 µm). Glatki mišići automatski reguliraju pokrete u urogenitalnom, krvožilnom, probavnom i dišnom sustavu.",
     "image": null,
     "explanation_image": null,
     "source": "17_Misici.pdf, slajd 6",
@@ -330,7 +330,7 @@
       "epimizij",
       "fascija"
     ],
-    "explanation": "Vezivo u mišiću slaže se u slojeve od najmanjeg prema najvećem: endomizij oko svakog vlakna, perimizij oko snopića vlakana i epimizij (vanjski perimizij) oko cijelog mišića. Ti slojevi prenose silu vlakana na tetivu.",
+    "explanation": "Vezivo u mišiću slaže se u slojeve od najmanjeg prema najvećem: endomizij oko svakog vlakna, perimizij oko snopića vlakana i epimizij (vanjski perimizij) oko cijelog mišića. Izvana vezivno tkivo oko mišića formira čahuru – fasciju.",
     "image": null,
     "explanation_image": null,
     "source": "17_Misici.pdf, slajd 9; skripta, Mišići",
@@ -360,7 +360,7 @@
       "periost",
       "perihondrij"
     ],
-    "explanation": "Epimizij je vanjski vezivni omotač cijelog mišića (vanjski perimizij). Nastavlja se u tetivu, pa zajedno s endomizijem i perimizijem skuplja silu svih vlakana i prenosi je na kost.",
+    "explanation": "Mišićna vlakna obavijena su endomizijem, snopići vlakana unutarnjim perimizijem, a čitav mišić opnom vanjskog perimizija, tj. epimizijem. Izvana vezivno tkivo formira oko mišića čahuru – fasciju.",
     "image": null,
     "explanation_image": null,
     "source": "17_Misici.pdf, slajd 9",
@@ -390,7 +390,7 @@
       "endomizij",
       "sarkolema"
     ],
-    "explanation": "Fascija je vezivna čahura izvana oko mišića. Odvaja mišić od okolnih struktura i omogućuje mu da klizi uz njih pri kontrakciji.",
+    "explanation": "Fascija je mišićna čahura koju izvana oko mišića formira vezivno tkivo. Unutar nje su epimizij oko cijelog mišića, perimizij oko snopića i endomizij oko pojedinih vlakana.",
     "image": null,
     "explanation_image": null,
     "source": "17_Misici.pdf, slajd 9; skripta, Mišići",

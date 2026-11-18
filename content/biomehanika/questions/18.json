@@ -20,7 +20,7 @@
       "8",
       "12"
     ],
-    "explanation": "U mišićnom vlaknu svaka deblja miozinska nit okružena je sa 6 tanjih aktinskih niti. Takav raspored omogućuje glavicama miozina da sa svih strana zahvate aktin i povuku ga.",
+    "explanation": "Mišićno vlakno sastoji se od niti miozina i aktina. Niti miozina su deblje i oko svake je smješteno 6 tanjih niti aktina, a sve aktinske niti spojene su Z membranama.",
     "image": null,
     "explanation_image": null,
     "source": "18_Mehanizam kontrakcije misica.pdf, slajd 3",
@@ -135,7 +135,7 @@
       "sarkolemi",
       "Z membrani"
     ],
-    "explanation": "Sarkoplazmatski retikulum je mreža kanala oko miofibrila koja služi kao skladište kalcija. Kad stigne podražaj, kalcij se iz njega oslobađa i pokreće kontrakciju.",
+    "explanation": "Sarkoplazmatski retikulum služi za skladištenje kalcija. Kad stigne podražaj, kalcij se iz njega oslobađa i omogućuje vezanje miozinske glave na aktin, a time i kontrakciju.",
     "image": null,
     "explanation_image": null,
     "source": "18_Mehanizam kontrakcije misica.pdf, slajd 4",
@@ -165,7 +165,7 @@
       "Z",
       "H"
     ],
-    "explanation": "Pod mikroskopom se vide tamne A pruge i svijetle I pruge koje se izmjenjuju – po njima je poprečnoprugasti mišić dobio ime. Tamnije su ondje gdje ima više proteinskih niti.",
+    "explanation": "Pod mikroskopom se vide tamne A pruge i svijetle I pruge koje se izmjenjuju – po njima je poprečnoprugasti mišić dobio ime. U sredini svijetle I pruge nalazi se tamna Z crta koja dijeli vlakno u sarkomere.",
     "image": null,
     "explanation_image": null,
     "source": "18_Mehanizam kontrakcije misica.pdf, slajd 5",
@@ -546,7 +546,7 @@
     ],
     "distractors": [
       "kontrakcija bez promjene duljine",
-      "kontrakcija bez promjene napetosti",
+      "kontrakcija s nepotpunom relaksacijom među podražajima",
       "kontrakcija bez relaksacije"
     ],
     "explanation": "Uz izometričnu i izotoničnu kontrakciju, izokinetika je novi trend u kojem mišić radi u uvjetima konstantnog opterećenja. Bez promjene duljine radi izometrična, bez promjene napetosti izotonična kontrakcija, a izostanak relaksacije je tetanus.",
@@ -579,7 +579,7 @@
       "izokinetičkoj",
       "tetaničkoj"
     ],
-    "explanation": "Kod izometrične (statičke) kontrakcije mišić je stalno napet pa pritišće vlastite krvne žile i smanjuje dotok krvi i glukoze – zato je teža i brže umara. Kod izotonične (dinamičke) kontrakcije izmjena napinjanja i opuštanja ubrzava dotok krvi.",
+    "explanation": "Izometrična (statička) kontrakcija – duljina mišića ostaje ista, a mijenja se napetost; teža je i uz nju je smanjen dotok krvi i glukoze. Kod izotonične (dinamičke) kontrakcije napetost je ista, mijenja se duljina, nastaje pokret i dotok krvi je brži.",
     "image": null,
     "explanation_image": null,
     "source": "18_Mehanizam kontrakcije misica.pdf, slajd 13 i 14",
@@ -658,7 +658,6 @@
     "answer": "tetanus",
     "accepted": [
       "tetanus",
-      "tetanija",
       "tetanička kontrakcija"
     ],
     "distractors": [

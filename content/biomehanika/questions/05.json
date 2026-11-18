@@ -16,10 +16,10 @@
     ],
     "distractors": [
       "amorfni",
-      "kristalični",
+      "keramički",
       "mineralizirani"
     ],
-    "explanation": "Tablica uspoređuje mehanička svojstva i elastične konstante nekih vlaknastih biopolimera. Svi su građeni od dugih molekulskih lanaca složenih u vlakna, ali se po krutosti razlikuju i za nekoliko redova veličine – od kolagena (E ≈ 10⁹ Pa) do elastina (E ≈ 6 × 10⁵ Pa).",
+    "explanation": "Tablica uspoređuje mehanička svojstva i elastične konstante nekih vlaknastih biopolimera. Po krutosti se razlikuju i za nekoliko redova veličine – od kolagena (E ≈ 10⁹ Pa) do elastina (E ≈ 6 × 10⁵ Pa).",
     "image": null,
     "explanation_image": null,
     "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
@@ -202,7 +202,7 @@
       "42 MPa",
       "84 MPa"
     ],
-    "explanation": "Za stariju skupinu (50–70 godina) tablica navodi σmax = 44, dok je za 20–49 godina 56. Starenjem se kvaliteta kolagenih vlakana smanjuje pa tetiva puca pri manjem naprezanju.",
+    "explanation": "Za stariju skupinu (50–70 godina) tablica navodi σmax = 44, dok je za 20–49 godina 56. Starija tetiva dakle puca pri manjem naprezanju.",
     "image": null,
     "explanation_image": null,
     "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
@@ -351,7 +351,7 @@
     "explanation": "Lig. nuchae ima E = 6 × 10⁵ N/m², jednako kao elastin u gornjoj tablici. To nije slučajno: taj ligament (kod životinja koje pasu) sadrži oko 80 % elastina, pa se mehanički ponaša gotovo kao čisti elastin.",
     "image": null,
     "explanation_image": null,
-    "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica); 4_Vezivno tkivo.pdf (lig. nuchae)",
+    "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica); 4_Vezivno tkivo.pdf, slajd 13",
     "tags": [
       "brojka"
     ],

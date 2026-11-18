@@ -20,7 +20,7 @@
       "70 %",
       "99 %"
     ],
-    "explanation": "Vid je dominantan osjet: oko 90 % svih informacija iz okoline dolazi preko očiju. Zato i mala mehanička oštećenja ovojnice oka (npr. popuštanje pri povišenom tlaku) imaju velike posljedice.",
+    "explanation": "Oko je najvažnije ljudsko osjetilo: očima primamo oko 90 % svih informacija iz okoline. Oko je organ za pretvaranje svjetlosti u živčane impulse.",
     "image": null,
     "explanation_image": null,
     "source": "23_Biomehanika ovojnice oka.pdf, slajd 2",
@@ -139,7 +139,7 @@
       "limbus",
       "lamina cribrosa"
     ],
-    "explanation": "Na žutoj pjegi je gustoća osjetnih živčanih stanica najveća, pa je ondje vid najoštriji. Pored nje počinje vidni živac.",
+    "explanation": "Žuta pjega je središnji dio mrežnice gdje su živčane stanice najgušće raspoređene. Pored žute pjege nalazi se početak vidnog živca.",
     "image": null,
     "explanation_image": null,
     "source": "23_Biomehanika ovojnice oka.pdf, slajd 5; skripta, Oko",
@@ -196,7 +196,7 @@
       "5 mm",
       "10 mm"
     ],
-    "explanation": "Geometrijski model oka (dvije kugle) opisuje prosječno oko, a stvarne dimenzije među ljudima razlikuju se do 2 mm. Zato su izračunata naprezanja procjena za tipično oko.",
+    "explanation": "Očna jabučica se sastoji od dva kuglasta elementa različitih polumjera (spoj je limbus), a odstupanja dimenzija među populacijom iznose do 2 mm.",
     "image": null,
     "explanation_image": null,
     "source": "23_Biomehanika ovojnice oka.pdf, slajd 6",
@@ -350,7 +350,7 @@
       "300 μm",
       "1000 μm"
     ],
-    "explanation": "Stroma čini najveći dio debljine rožnice (oko 500 μm), pa ona nosi i najveći dio mehaničkog opterećenja. Građena je od kolagenskih lamela koje rožnici daju modul elastičnosti oko 17 MPa.",
+    "explanation": "Stroma je najdeblji dio rožnice (oko 500 μm) i sastoji se od 300–500 slojeva lamela s paralelnim snopovima kolagenskih vlakana. Modul elastičnosti rožnice iznosi 17 MPa.",
     "image": null,
     "explanation_image": null,
     "source": "23_Biomehanika ovojnice oka.pdf, slajd 13",
@@ -380,7 +380,7 @@
       "100–200",
       "1000–2000"
     ],
-    "explanation": "Stroma je složena od 300–500 slojeva lamela, a svaka lamela sadrži paralelne snopove kolagenskih vlakana. Tako slojevita, pravilna građa daje rožnici čvrstoću i prozirnost.",
+    "explanation": "Stroma je složena od 300–500 slojeva lamela, a lamele se sastoje od paralelnih snopova kolagenskih vlakana. Takva pravilna građa daje rožnici prozirnost.",
     "image": null,
     "explanation_image": null,
     "source": "23_Biomehanika ovojnice oka.pdf, slajd 13",
@@ -436,7 +436,7 @@
       "2/3",
       "3/4"
     ],
-    "explanation": "Bjeloočnica je stražnji, neprozirni dio vanjske ovojnice i zauzima 5/6 površine očne jabučice; preostalu šestinu čini rožnica. Zato se cijela očna jabučica u proračunu aproksimira kuglom polumjera bjeloočnice.",
+    "explanation": "Bjeloočnica je stražnji, neprozirni dio vanjske fibrozne ovojnice i zauzima 5/6 površine očne jabučice; prednji, prozirni dio je rožnica.",
     "image": null,
     "explanation_image": null,
     "source": "23_Biomehanika ovojnice oka.pdf, slajd 14; skripta, Oko",
@@ -526,7 +526,7 @@
     "explanation": "Bjeloočnica je najdeblja straga, u blizini očnog živca – oko 1 mm. Prema σ = p·R/(2δ) ondje je membransko naprezanje najmanje.",
     "image": null,
     "explanation_image": null,
-    "source": "23_Biomehanika ovojnice oka.pdf, slajd 15",
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 15, 20 i 21",
     "tags": [
       "brojka"
     ],
@@ -586,7 +586,7 @@
     "explanation": "Na hvatištu očnih mišića bjeloočnica je najtanja (0,3 mm). Budući da je naprezanje obrnuto proporcionalno debljini stijenke, ondje se javlja najveće membransko naprezanje.",
     "image": null,
     "explanation_image": null,
-    "source": "23_Biomehanika ovojnice oka.pdf, slajd 15",
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 15, 20 i 21",
     "tags": [
       "brojka"
     ],
@@ -704,7 +704,7 @@
       "0,044 N",
       "2,29 N"
     ],
-    "explanation": "Što je zakret veći, mišić mora savladati veći otpor tkiva oko oka, pa za 40° treba 0,44 N – gotovo stostruko više nego za 1° (4,9 mN). To je i dalje mnogo manje od sile pri kontrakciji ravnih mišića (oko 2 N).",
+    "explanation": "Kod zakreta oka mišićna sila potrebna za vraćanje oka za 1° iznosi 4,9 mN, a za 40° 0,44 N, oko 90 puta više. Sile pri kontrakciji ravnih očnih mišića su znatno veće (oko 2 N).",
     "image": null,
     "explanation_image": null,
     "source": "23_Biomehanika ovojnice oka.pdf, slajd 26",
