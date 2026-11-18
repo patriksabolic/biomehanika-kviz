@@ -1,0 +1,921 @@
+[
+  {
+    "id": "bl-09-001",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što se događa u reakciji hidrolize?",
+    "answer": "veza se cijepa nukleofilnim napadom uz sudjelovanje vode",
+    "accepted": [
+      "veza se cijepa nukleofilnim napadom uz sudjelovanje vode",
+      "cijepanje veze uz vodu"
+    ],
+    "distractors": [
+      "veza se cijepa prijenosom elektrona na supstrat",
+      "u molekulu se ugrađuje atom kisika iz $\\ce{O2}$",
+      "dvije molekule spajaju se uz gubitak vode"
+    ],
+    "explanation": "Voda i katalitičke skupine enzima napadaju elektrofilni centar, najčešće karbonilni ugljik. Produkti su polarniji i često drukčijih ionizacijskih svojstava, a stabilnost prema hidrolizi određuje poluvijek i trajanje djelovanja lijeka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-002",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje tri skupine hidrolaza navodi prezentacija kao glavne u metabolizmu lijekova?",
+    "answer": "karboksil-esteraze, epoksid-hidrolaze i peptidaze",
+    "accepted": [
+      "karboksil-esteraze, epoksid-hidrolaze i peptidaze",
+      "CES, EPH i peptidaze"
+    ],
+    "distractors": [
+      "sulfotransferaze, glukuronoziltransferaze i peptidaze",
+      "reduktaze, oksidaze i esteraze",
+      "azoreduktaze, nitroreduktaze i amidaze"
+    ],
+    "explanation": "Hidrolaze rade na lipidima, proteinima, lijekovima i metabolitima, a nalaze se u jetri, crijevu, plazmi i drugim tkivima te u mikrosomima, mitohondrijima i citosolu. Mnoge esteraze imaju širok raspon supstrata, pa isti lijek može razgrađivati više enzima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 2",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-003",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje aminokiseline čine katalitičku trijadu karboksil-esteraza?",
+    "answer": "serin, histidin i glutamat",
+    "accepted": [
+      "serin, histidin i glutamat",
+      "Ser-His-Glu",
+      "Ser, His, Glu"
+    ],
+    "distractors": [
+      "serin, histidin i aspartat",
+      "cistein, histidin i asparagin",
+      "tirozin, lizin i glutamat"
+    ],
+    "explanation": "CES su serinske hidrolaze, glikoproteini od oko 60 kDa s približno 540 aminokiselinskih ostataka i visokom očuvanošću među vrstama (oko 70 % identičnosti slijeda). Aktivirani serinski ostatak djeluje kao nukleofil, a histidin i glutamat ga za to pripremaju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 6",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-004",
+    "chapter": "09",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Napadom serinskog ostatka na karbonilni ugljik estera nastaje međuprodukt zvan ___.",
+    "answer": "acil-enzim",
+    "accepted": [
+      "acil-enzim",
+      "acil enzim",
+      "acilirani enzim"
+    ],
+    "distractors": [
+      "tiohemiacetal",
+      "karbinolamid",
+      "tetraedarski oksianion"
+    ],
+    "explanation": "Hidrolizom acil-enzima vodom oslobađaju se alkohol i karboksilna kiselina, a enzim se regenerira za novi ciklus. Taj dvostupanjski mehanizam objašnjava zašto CES mogu katalizirati i transesterifikaciju, kad ulogu nukleofila umjesto vode preuzme alkohol.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajdovi 6 i 7",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-005",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Gdje su pretežno zastupljeni izoenzimi CES1 i CES2?",
+    "answer": "CES1 u jetri i plućima, CES2 u tankom crijevu",
+    "accepted": [
+      "CES1 u jetri i plućima, CES2 u tankom crijevu",
+      "CES1 u jetri i plucima, CES2 u tankom crijevu",
+      "CES1 jetra, CES2 tanko crijevo"
+    ],
+    "distractors": [
+      "CES1 u tankom crijevu, CES2 u jetri",
+      "oba isključivo u plazmi",
+      "CES1 u bubregu, CES2 u mozgu"
+    ],
+    "explanation": "CES1 je važan za sistemski metabolizam, a CES2 kao glavna esteraza tankog crijeva za metabolizam prvog prolaza. CES3 ima nižu ekspresiju (mozak, jetra, kolon), a CES4/CES5 slabije su karakterizirani. Različita tkivna distribucija izravno utječe na sudbinu oralno primijenjenih lijekova.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 6",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-006",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kakve supstrate preferiraju CES1, a kakve CES2?",
+    "answer": "CES1 mali alkohol i voluminoznu acilnu skupinu, CES2 veliki alkohol i mali acil",
+    "accepted": [
+      "CES1 mali alkohol i voluminoznu acilnu skupinu, CES2 veliki alkohol i mali acil",
+      "CES1 mali alkohol, CES2 veliki alkohol"
+    ],
+    "distractors": [
+      "CES1 veliki alkohol i mali acil, CES2 mali alkohol i veliki acil",
+      "oba preferiraju male molekule",
+      "oba preferiraju aromatske estere"
+    ],
+    "explanation": "Ta razlika u obliku aktivnog mjesta određuje koji izoenzim metabolizira pojedini lijek. Zato se metilfenidat i klopidogrel razgrađuju pretežno uz CES1, a irinotekan uz CES2.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajdovi 7 i 8",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-007",
+    "chapter": "09",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Hidrolizom irinotekana uz CES2 nastaje aktivni metabolit ___.",
+    "answer": "SN-38",
+    "accepted": [
+      "SN-38",
+      "SN38",
+      "sn-38"
+    ],
+    "distractors": [
+      "ritalinska kiselina",
+      "temokaprilat",
+      "MY-1250"
+    ],
+    "explanation": "Irinotekan je antitumorski prolijek, pa je hidroliza nužna za učinak; uz CES2 sudjeluje i CES1. Suprotan primjer je metilfenidat, kod kojeg hidroliza uz CES1 daje neaktivnu ritalinsku kiselinu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 8",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-008",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kakva je posljedica hidrolize klopidogrela uz CES1?",
+    "answer": "nastaje neaktivni karboksilni metabolit i manje lijeka ostaje za bioaktivaciju",
+    "accepted": [
+      "nastaje neaktivni karboksilni metabolit i manje lijeka ostaje za bioaktivaciju",
+      "inaktivacija, manje lijeka za bioaktivaciju"
+    ],
+    "distractors": [
+      "nastaje aktivni metabolit koji inhibira agregaciju",
+      "lijek se pretvara u SN-38",
+      "hidroliza nema utjecaja na učinak"
+    ],
+    "explanation": "Klopidogrel je antiagregacijski prolijek koji aktivnost dobiva oksidacijom, pa esterazna hidroliza predstavlja konkurentski put koji smanjuje dostupnu količinu lijeka. Kod prolijekova inhibitora ACE-a (temokapril, imidapril, delapril) hidroliza uz CES1 upravo stvara aktivne oblike (temokaprilat, imidaprilat, delaprilat).",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 8",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-009",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji spojevi ireverzibilno inhibiraju karboksil-esteraze?",
+    "answer": "organofosfati i njima slični spojevi",
+    "accepted": [
+      "organofosfati i njima slični spojevi",
+      "organofosfati i njima slicni spojevi",
+      "organofosfati"
+    ],
+    "distractors": [
+      "deksametazon i fenobarbital",
+      "glukuronidi i sulfati",
+      "azolni antimikotici"
+    ],
+    "explanation": "Organofosfati trajno modificiraju serinski ostatak aktivnog mjesta; snažni inhibitori su i izomalation te trifluorometilketoni. CES1 inhibiraju tamoksifen i prokainamid, a CES2 karvedilol, manidipin, fizostigmin i loperamid. Deksametazon i fenobarbital djeluju obrnuto — induciraju ekspresiju CES1 i CES2.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 9",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-010",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je posljedica inhibicije CES enzima kod esterskog prolijeka?",
+    "answer": "smanjena aktivacija prolijeka",
+    "accepted": [
+      "smanjena aktivacija prolijeka",
+      "manja aktivacija"
+    ],
+    "distractors": [
+      "pojačana aktivacija prolijeka",
+      "brža eliminacija aktivnog lijeka",
+      "pretvorba prolijeka u toksični metabolit"
+    ],
+    "explanation": "Ako hidroliza stvara aktivni oblik, inhibicija enzima znači manje učinka; ako hidroliza uklanja lijek, inhibicija produljuje njegovo djelovanje. Zbog toga su CES izvor interakcija lijek–lijek, a klinički značaj ovisi o izloženosti, izoenzimu i supstratu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 9",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-011",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji produkti nastaju hidrolizom estera?",
+    "answer": "karboksilna kiselina i alkohol",
+    "accepted": [
+      "karboksilna kiselina i alkohol",
+      "kiselina i alkohol"
+    ],
+    "distractors": [
+      "aldehid i amin",
+      "kiselina i amonijak",
+      "alkohol i keton"
+    ],
+    "explanation": "Reakcija je brza i učinkovita, a glavna mjesta su jetra, crijevo i plazma. Važna je i za inaktivaciju esterskih lijekova i za aktivaciju prolijekova, primjerice prokaina i heroina.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 5",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-012",
+    "chapter": "09",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Brzina hidrolize prokaina (bez metilnih skupina) iznosi ___ mg/ml/h, a uvođenjem dviju metilnih skupina pada na nulu.",
+    "answer": "500",
+    "accepted": [
+      "500",
+      "500 mg/ml/h"
+    ],
+    "distractors": [
+      "15",
+      "50",
+      "1500"
+    ],
+    "explanation": "Jedna metilna skupina uz estersku vezu snižava brzinu na 15 mg/ml/h, a dvije je gotovo potpuno zaustavljaju. Uz to dietilamino skupina prokaina djeluje kao elektron-donor i smanjuje elektrofilnost karbonila; rezultat sporije hidrolize je produljen farmakološki učinak.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 12",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-013",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji produkti nastaju hidrolizom acetilkolina uz acetilkolinesterazu?",
+    "answer": "kolin i octena kiselina",
+    "accepted": [
+      "kolin i octena kiselina",
+      "kolin i acetat"
+    ],
+    "distractors": [
+      "kolin i mravlja kiselina",
+      "etanolamin i octena kiselina",
+      "kolin i ugljikov dioksid"
+    ],
+    "explanation": "AChE ima izuzetno visoku katalitičku učinkovitost, pa je djelovanje acetilkolina vrlo kratko. Inhibitori poput organofosfata i karbamata zaustavljaju razgradnju, acetilkolin se nakuplja i nastaje kolinergički sindrom.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 13",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-014",
+    "chapter": "09",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "N-dealkilacijom petidina nastaje farmakološki aktivan, ali neurotoksičan metabolit ___.",
+    "answer": "norpetidin",
+    "accepted": [
+      "norpetidin",
+      "norpetidina"
+    ],
+    "distractors": [
+      "petidinska kiselina",
+      "normorfin",
+      "6-acetilmorfin"
+    ],
+    "explanation": "Hidrolizom esterske skupine uz CES1A1 u jetri nastaje neaktivna petidinska kiselina, dok oksidativna N-dealkilacija uz CYP daje norpetidin. Nakupljanjem norpetidina javlja se neurotoksičnost s konvulzijama, pa je omjer tih dvaju putova klinički važan.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 14",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-015",
+    "chapter": "09",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Hidrolizom klofibrata esterazama nastaje aktivni metabolit ___.",
+    "answer": "klofibrinska kiselina",
+    "accepted": [
+      "klofibrinska kiselina",
+      "klofibrinske kiseline",
+      "klofibrat kiselina"
+    ],
+    "distractors": [
+      "klofibramid",
+      "fenofibrinska kiselina",
+      "p-klorbenzojeva kiselina"
+    ],
+    "explanation": "Klofibrat je hipolipemik iz skupine fibrata i primjenjuje se kao prolijek, pa je hidroliza nužna za terapijski učinak. To je suprotno esterskim lijekovima kod kojih hidroliza znači inaktivaciju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 15",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-016",
+    "chapter": "09",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Hidrolizom metilnog estera ekgonina u kokainu uz CES1 nastaje ___.",
+    "answer": "benzoilekgonin",
+    "accepted": [
+      "benzoilekgonin",
+      "benzoilekgonina"
+    ],
+    "distractors": [
+      "metilni ester ekgonina",
+      "norkokain",
+      "ekgonin"
+    ],
+    "explanation": "Kokain ima dvije esterske skupine, pa idu dva puta: CES1 (uz moguću neenzimsku komponentu) daje benzoilekgonin, a CES2 i butirilkolinesteraza metilni ester ekgonina. Oba su produkta polarna i znače detoksikaciju, za razliku od N-demetilacije uz CYP3A4 koja daje toksični norkokain.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 16",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-017",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kojim redoslijedom nastaju metaboliti heroina?",
+    "answer": "heroin → 6-acetilmorfin → morfin",
+    "accepted": [
+      "heroin → 6-acetilmorfin → morfin",
+      "heroin, 6-acetilmorfin, morfin",
+      "preko 6-acetilmorfina do morfina"
+    ],
+    "distractors": [
+      "heroin → morfin → 6-acetilmorfin",
+      "heroin → kodein → morfin",
+      "heroin → normorfin → morfin"
+    ],
+    "explanation": "Hidrolizu provode plazmatske i tkivne esteraze, a u plazmi je važna butirilkolinesteraza; i 6-acetilmorfin i morfin su aktivni. Morfin se zatim konjugira uz UGT u M3G, koji je neaktivan, i M6G, koji je aktivan.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 17",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-018",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto se amidi hidroliziraju sporije od estera?",
+    "answer": "jer je amidna veza stabilizirana rezonancijom",
+    "accepted": [
+      "jer je amidna veza stabilizirana rezonancijom",
+      "zbog rezonancijske stabilizacije"
+    ],
+    "distractors": [
+      "jer amide ne prepoznaju nikakvi enzimi",
+      "jer amidi nisu topljivi u vodi",
+      "jer amidi nemaju karbonilnu skupinu"
+    ],
+    "explanation": "Delokalizacija elektrona smanjuje elektrofilnost karbonila, pa je nukleofilni napad otežan. Veća metabolička stabilnost znači dulje djelovanje, zbog čega su amidni lijekovi pogodni za oralnu i dugodjelujuću primjenu. Hidrolizu kataliziraju amidaze, a produkti acikličkih karboksamida su karboksilna kiselina i amin ili amonijak.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajdovi 18 i 21",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-019",
+    "chapter": "09",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Uvođenjem dviju orto-metilnih skupina uz amidnu vezu trajanje anestezije produljuje se na ___ minuta.",
+    "answer": "53",
+    "accepted": [
+      "53",
+      "53 min",
+      "53 minute"
+    ],
+    "distractors": [
+      "4–5",
+      "15",
+      "100"
+    ],
+    "explanation": "Bez metilnih skupina anestezija je nepotpuna, s jednom traje 4–5 minuta, a s dvije 53 minute. Orto-supstitucija sterički štiti amidnu vezu i povećava lipofilnost, pa je hidroliza sporija, a djelovanje dulje — to je primjer izravne veze strukture, brzine hidrolize i trajanja učinka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 19",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-020",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji produkti nastaju hidrolizom lidokaina?",
+    "answer": "2,6-ksilidin i N,N-dietilglicin",
+    "accepted": [
+      "2,6-ksilidin i N,N-dietilglicin",
+      "ksilidin i dietilglicin"
+    ],
+    "distractors": [
+      "2,6-ksilidin i octena kiselina",
+      "anilin i N,N-dietilglicin",
+      "monoetilglicinksilidid i acetaldehid"
+    ],
+    "explanation": "Lidokain se metabolizira u jetri uz CES1A i CYP450; nastali 2,6-ksilidin povezan je s methemoglobinemijom i toksičnošću. Hidroliza može uslijediti i nakon N-deetilacije, jer se N-deetilirani metaboliti lakše hidroliziraju od samog lidokaina.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 22",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-021",
+    "chapter": "09",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Uz hidroksilnu skupinu kao supstituent hidrolizira se samo ___ % amida, prema tablici utjecaja elektronskih čimbenika.",
+    "answer": "4",
+    "accepted": [
+      "4",
+      "4 %",
+      "4%"
+    ],
+    "distractors": [
+      "20",
+      "50",
+      "100"
+    ],
+    "explanation": "Bez supstituenta hidroliza je vrlo brza i potpuna (100 %), amino-skupina je snižava na 20 %, a hidroksilna na 4 %. Elektron-donorske skupine stabiliziraju amid rezonancijom i smanjuju elektrofilnost karbonila, pa su takvi podaci osnova za dizajn metabolički stabilnih lijekova.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 20",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-022",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto prokain djeluje lokalno i kratko, a prokainamid se koristi kao sistemski antiaritmik?",
+    "answer": "jer je prokain ester koji se brzo hidrolizira, a prokainamid stabilniji amid",
+    "accepted": [
+      "jer je prokain ester koji se brzo hidrolizira, a prokainamid stabilniji amid",
+      "ester se brze hidrolizira od amida"
+    ],
+    "distractors": [
+      "jer prokainamid ne ulazi u jetru",
+      "jer prokain nije topljiv u vodi",
+      "jer se prokainamid ne veže na receptore"
+    ],
+    "explanation": "Zamjenom esterske veze amidnom molekula postaje metabolički stabilnija i dulje ostaje u cirkulaciji. Izbor funkcionalne skupine tako je izravan način kontrole trajanja djelovanja lijeka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 21",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-023",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji produkti nastaju hidrolizom tercijarnog amida indometacina?",
+    "answer": "indolni derivat i p-klorbenzojeva kiselina",
+    "accepted": [
+      "indolni derivat i p-klorbenzojeva kiselina",
+      "indolni derivat i p-klorbenzojeva"
+    ],
+    "distractors": [
+      "indolni derivat i octena kiselina",
+      "anilin i p-klorbenzojeva kiselina",
+      "indometacin-glukuronid i klorid"
+    ],
+    "explanation": "Tercijarni amid je vrlo stabilan, pa je hidroliza uz amidaze u jetrenim mikrosomima i citosolu relativno spora i učinak lijeka dugotrajniji. Uz hidrolizu indometacin prolazi i oksidaciju te konjugaciju, uključujući O-demetilaciju metoksi skupine.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 23",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-024",
+    "chapter": "09",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Hidrolizom amidne veze bočnog lanca penicilina uz bakterijske penicilin-acilaze nastaje ___.",
+    "answer": "6-aminopenicilanska kiselina",
+    "accepted": [
+      "6-aminopenicilanska kiselina",
+      "6-APA",
+      "6 aminopenicilanska kiselina"
+    ],
+    "distractors": [
+      "peniciloinska kiselina",
+      "klavulanska kiselina",
+      "7-aminocefalosporanska kiselina"
+    ],
+    "explanation": "6-aminopenicilanska kiselina važan je intermedijer za sintezu polusintetskih penicilina. Drugi put, otvaranje $\\beta$-laktamskog prstena uz $\\beta$-laktamaze, daje neaktivnu peniciloinsku kiselinu i glavni je mehanizam rezistencije; kloksacilin i dikloksacilin sterički su zaštićeni od tog napada.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 24",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-025",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji produkti nastaju hidrolitičkom deaminacijom aminopirina?",
+    "answer": "4-hidroksiantipirin i dimetilamin",
+    "accepted": [
+      "4-hidroksiantipirin i dimetilamin",
+      "4-hidroksiantipirin"
+    ],
+    "distractors": [
+      "antipirin i formaldehid",
+      "4-aminoantipirin i metanol",
+      "fenazon i amonijak"
+    ],
+    "explanation": "Dimetilamino-skupina zamjenjuje se hidroksilnom, a uvjet je da je vezana na C-atom uz dvostruku vezu, što olakšava cijepanje veze C–N; reakciju katalizira CYP. Nastali hidroksilni metabolit pogodan je za daljnju konjugaciju. Aminopirin je nekadašnji analgetik i antipiretik.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 25",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-026",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto fosfatni esteri kao prolijekovi omogućuju donekle selektivno djelovanje na tumor?",
+    "answer": "jer tumorsko tkivo ima povećanu aktivnost fosfataza",
+    "accepted": [
+      "jer tumorsko tkivo ima povećanu aktivnost fosfataza",
+      "jer tumorsko tkivo ima povecanu aktivnost fosfataza",
+      "zbog vece aktivnosti fosfataza u tumoru"
+    ],
+    "distractors": [
+      "jer se fosfati ne apsorbiraju u zdravom tkivu",
+      "jer fosfataze postoje samo u tumoru",
+      "jer tumorsko tkivo ima niži pH koji cijepa ester"
+    ],
+    "explanation": "Alkalne i kisele fosfataze uklanjaju fosfatnu skupinu i oslobađaju aktivni lijek, pa se u tkivu s više fosfataza oslobodi više lijeka. Primjer je dietilstilbestrolfosfat, koji prelazi u citotoksični dietilstilbestrol i primjenjivao se kod hormonski ovisnih tumora, ranije karcinoma prostate; primjena je danas ograničena nuspojavama.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 26",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-027",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kojim mehanizmom nitratni esteri poput nitroglicerina izazivaju vazodilataciju?",
+    "answer": "oslobađanjem dušikova monoksida, koji aktivira gvanilat ciklazu i povećava cGMP",
+    "accepted": [
+      "oslobađanjem dušikova monoksida, koji aktivira gvanilat ciklazu i povećava cGMP",
+      "oslobadanjem dusikova monoksida",
+      "preko NO i cGMP",
+      "preko dusikova monoksida"
+    ],
+    "distractors": [
+      "izravnom blokadom kalcijevih kanala",
+      "inhibicijom ciklooksigenaze",
+      "vezanjem na beta-adrenergičke receptore"
+    ],
+    "explanation": "Porast cGMP-a opušta glatke mišiće, osobito vena, pa se smanjuje predopterećenje srca i olakšava angina pectoris. Bioaktivacija uključuje enzimske redoks-procese i denitraciju (GST i druge reduktaze te neenzimska hidroliza), pa nije riječ samo o hidrolizi estera. PETN djeluje dugotrajno, oko 5 sati, a pri dugotrajnoj primjeni javlja se tolerancija na nitrate.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 27",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-028",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje produkte daju epoksid-hidrolaze iz epoksida alkena, a koje iz arenskih oksida?",
+    "answer": "vicinalne diole odnosno trans-dihidrodiole",
+    "accepted": [
+      "vicinalne diole odnosno trans-dihidrodiole",
+      "diole i trans-dihidrodiole"
+    ],
+    "distractors": [
+      "fenole odnosno kinone",
+      "konjugate s glutationom odnosno sulfate",
+      "aldehide odnosno karboksilne kiseline"
+    ],
+    "explanation": "Hidrolitičkim otvaranjem prstena uz dodatak vode smanjuje se reaktivnost i toksičnost, pa EPHX štiti od kovalentnog vezanja epoksida na DNA i proteine. Ipak, nastali dihidrodioli mogu se u nekim putevima dalje oksidirati u reaktivne diol-epokside. Mikrosomske EPHX najaktivnije su u jetri i bubregu, a topljive se nalaze u citosolu i peroksisomima; njihova aktivnost prati CYP, gdje epoksidi i nastaju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 28",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-029",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje peptidaze cijepaju peptidnu vezu na N-kraju, a koje unutar lanca?",
+    "answer": "aminopeptidaze na N-kraju, endopeptidaze unutar lanca",
+    "accepted": [
+      "aminopeptidaze na N-kraju, endopeptidaze unutar lanca",
+      "aminopeptidaze i endopeptidaze"
+    ],
+    "distractors": [
+      "karboksipeptidaze na N-kraju, aminopeptidaze unutar lanca",
+      "endopeptidaze na N-kraju, karboksipeptidaze unutar lanca",
+      "sve tri skupine cijepaju samo na C-kraju"
+    ],
+    "explanation": "Karboksipeptidaze djeluju na C-kraju, a tipična endopeptidaza je tripsin. Supstrati su hormoni, citokini i faktori rasta, pa specifičnost enzima određuje brzinu razgradnje i trajanje signala.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 29",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-030",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto se peptidni lijekovi daju parenteralno?",
+    "answer": "jer ih peptidaze brzo razgrade, pa im je oralna bioraspoloživost niska",
+    "accepted": [
+      "jer ih peptidaze brzo razgrade, pa im je oralna bioraspoloživost niska",
+      "jer ih peptidaze brzo razgrade, pa im je oralna bioraspolozivost niska",
+      "zbog brze razgradnje i niske oralne bioraspolozivosti"
+    ],
+    "distractors": [
+      "jer se ne otapaju u vodi",
+      "jer izazivaju oštećenje želučane sluznice",
+      "jer se ne mogu proizvesti u čistom obliku"
+    ],
+    "explanation": "Uz kratko djelovanje problem je i imunogenost. Stabilnost se povećava strukturnim izmjenama (D-aminokiseline, ciklizacija) i pegilacijom, kovalentnim vezanjem polietilen-glikola, čime se produljuje poluživot. Peptidi se koriste i kao lijekovi (trombolitici) te kao inhibitori endogenih peptidaza.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 30",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-031",
+    "chapter": "09",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Konjugate glukuronske kiseline u crijevu cijepaju bakterijske ___, pa se slobodni lijek ponovno apsorbira.",
+    "answer": "$\\beta$-glukuronidaze",
+    "accepted": [
+      "beta-glukuronidaze",
+      "glukuronidaze",
+      "b-glukuronidaze"
+    ],
+    "distractors": [
+      "azoreduktaze",
+      "sulfataze",
+      "peptidaze"
+    ],
+    "explanation": "Glukuronidacija je reakcija II. faze koja povećava topljivost, ali dekonjugacijom se lijek vraća u aktivni oblik. Taj ciklus jetra → žuč → crijevo → krv produljuje djelovanje, ali povećava i rizik kumulacije i toksičnosti; klasičan primjer su estrogeni, a kod NSAID-a može pojačati nuspojave. $\\beta$-glukuronidaze nalaze se i u endoplazmatskom retikulumu, lizosomima i serumu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajdovi 31 i 32",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-032",
+    "chapter": "09",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Ciklizacijom progvanila nastaje aktivni antimalarik ___.",
+    "answer": "ciklogvanil",
+    "accepted": [
+      "ciklogvanil",
+      "cikloguanil",
+      "ciklogvanila"
+    ],
+    "distractors": [
+      "primakin",
+      "klorokin",
+      "pirimetamin"
+    ],
+    "explanation": "Progvanil je prolijek: oksidacijom uz CYP2C19 (glavni) i CYP3A4 (sporedni) nastaje reaktivni iminski odnosno kationski intermedijer, a drugi dušik u molekuli napada taj elektrofilni centar i zatvara prsten. Ciklogvanil inhibira dihidrofolat-reduktazu parazita; u urinu ga ima do oko 30 %. Zbog polimorfizma CYP2C19 spori metabolizatori lijek slabije aktiviraju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajd 35",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-09-033",
+    "chapter": "09",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako dekarboksilacija mijenja svojstva molekule?",
+    "answer": "povećava lipofilnost jer se gubi polarna skupina",
+    "accepted": [
+      "povećava lipofilnost jer se gubi polarna skupina",
+      "povecava lipofilnost jer se gubi polarna skupina",
+      "povecava lipofilnost"
+    ],
+    "distractors": [
+      "povećava polarnost i olakšava izlučivanje",
+      "ne mijenja fizikalno-kemijska svojstva",
+      "uvijek inaktivira lijek"
+    ],
+    "explanation": "Uklanjanjem karboksilne skupine oslobađa se $\\ce{CO2}$, molekula lakše prolazi kroz membrane i mijenja joj se farmakološka aktivnost. Reakciju kataliziraju dekarboksilaze, tipična je za aminokiseline i nastanak biogenih amina (histamin, dopamin), a u metabolizmu lijekova je rjeđa. Uz ciklizaciju i kondenzaciju pripada manje zastupljenim reakcijama I. faze.",
+    "image": null,
+    "explanation_image": null,
+    "source": "9 Hidrolize.pdf, slajdovi 34 i 37",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  }
+]
