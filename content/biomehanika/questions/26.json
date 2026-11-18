@@ -1,0 +1,627 @@
+[
+  {
+    "id": "bm-26-001",
+    "chapter": "26",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je mokraćni mjehur?",
+    "answer": "šuplji mišićni organ za skupljanje mokraće i izbacivanje putem mokraćne cijevi",
+    "accepted": [
+      "šuplji mišićni organ za skupljanje mokraće i izbacivanje putem mokraćne cijevi"
+    ],
+    "distractors": [
+      "parni organ koji filtrira krv",
+      "cjevasti organ koji provodi mokraću iz bubrega",
+      "žlijezda koja stvara mokraću"
+    ],
+    "explanation": "Mokraćni mjehur je šuplji mišićni organ: skuplja mokraću i izbacuje je kroz mokraćnu cijev. Sastoji se od tijela (najveći dio) i vrata, ljevkastog nastavka tijela.",
+    "image": null,
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 2",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-002",
+    "chapter": "26",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Glatko mišićje mokraćnog mjehura naziva se ___ mišićje.",
+    "answer": "detruzorsko",
+    "accepted": [
+      "detruzorsko",
+      "detruzor",
+      "detruzorsko mišićje"
+    ],
+    "distractors": [
+      "sfinkterno",
+      "skeletno",
+      "srčano"
+    ],
+    "explanation": "Detruzor je glatko mišićje stijenke mjehura. Kod praznog mjehura stijenka je deblja i naborana, a kod punog istegnuta i tanja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 2 i 5",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-003",
+    "chapter": "26",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kapacitet mokraćnog mjehura iznosi ___.",
+    "answer": "400 ml",
+    "accepted": [
+      "400 ml",
+      "400",
+      "400 mL",
+      "400ml"
+    ],
+    "distractors": [
+      "200 ml",
+      "800 ml",
+      "50 ml"
+    ],
+    "explanation": "Kapacitet je oko 400 ml. Kad volumen dosegne kritičnu vrijednost od 400 ml i više, tlak u mjehuru naglo raste.",
+    "image": null,
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-004",
+    "chapter": "26",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kad se u mjehuru skupi 30 do 50 ml mokraće, tlak naraste na ___.",
+    "answer": "0,5 do 1 kPa",
+    "accepted": [
+      "0,5 do 1 kPa",
+      "0,5-1 kPa",
+      "0,5–1 kPa",
+      "0.5-1 kPa",
+      "0,5 - 1 kPa"
+    ],
+    "distractors": [
+      "1,46 kPa",
+      "4 kPa",
+      "0,1 kPa"
+    ],
+    "explanation": "Prazan mjehur ima tlak 0 kPa. Prvih 30–50 ml podigne tlak na 0,5–1 kPa, a sljedećih 200–300 ml tlak tek neznatno poveća.",
+    "image": null,
+    "explanation_image": "img/26-1.png",
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-005",
+    "chapter": "26",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto se tlak neznatno povisuje kad se u mjehuru skupi dodatnih 200 do 300 ml mokraće?",
+    "answer": "zbog tonusa stijenke mokraćnog mjehura",
+    "accepted": [
+      "zbog tonusa stijenke mokraćnog mjehura"
+    ],
+    "distractors": [
+      "zbog kontrakcija mokrenja",
+      "zbog intraabdominalnog tlaka",
+      "zbog zatvaranja sfinktera"
+    ],
+    "explanation": "U tom području stijenka se prilagođava punjenju (tonus), pa volumen raste uz gotovo stalan tlak – ravni dio osnovnog cistometrograma. Tek iznad 400 ml tlak naglo raste.",
+    "image": "img/26-1.png",
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 3 i 4",
+    "tags": [
+      "funkcija",
+      "skica"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-006",
+    "chapter": "26",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što uzrokuje kontrakcije koje se pojavljuju pri punjenju mokraćnog mjehura?",
+    "answer": "istezanje stijenke",
+    "accepted": [
+      "istezanje stijenke"
+    ],
+    "distractors": [
+      "porast intraabdominalnog tlaka",
+      "pad tonusa stijenke",
+      "smanjenje volumena mokraće"
+    ],
+    "explanation": "Pri punjenju se stijenka isteže, a to izaziva kontrakcije mokrenja – na dijagramu su to vrhovi tlaka iznad osnovnog cistometrograma, sve viši kako volumen raste.",
+    "image": "img/26-1.png",
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 3 i 4",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-007",
+    "chapter": "26",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Krivulja tlaka u mjehuru u ovisnosti o volumenu (bez kontrakcija mokrenja) naziva se osnovni ___.",
+    "answer": "cistometrogram",
+    "accepted": [
+      "cistometrogram",
+      "cistometrogram mjehura"
+    ],
+    "distractors": [
+      "spirogram",
+      "elektromiogram",
+      "tonogram"
+    ],
+    "explanation": "Osnovni cistometrogram prikazuje tlak u mjehuru (kPa) u ovisnosti o volumenu (ml): brz porast na početku, ravni dio zbog tonusa stijenke, pa nagli porast iznad 400 ml.",
+    "image": "img/26-1.png",
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 4",
+    "tags": [
+      "skica",
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-008",
+    "chapter": "26",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kao kakva se konstrukcija mokraćni mjehur osnovno modelira?",
+    "answer": "sferna tankostijena ljuska izložena vanjskom i unutarnjem opterećenju",
+    "accepted": [
+      "sferna tankostijena ljuska izložena vanjskom i unutarnjem opterećenju"
+    ],
+    "distractors": [
+      "debela cilindrična cijev",
+      "puna elastična kugla",
+      "greda na dva oslonca"
+    ],
+    "explanation": "Mjehur se modelira kao sferna tankostijena ljuska: iznutra djeluje tlak urina (intravezikularni), a izvana intraabdominalni tlak.",
+    "image": null,
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 6",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-009",
+    "chapter": "26",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako je u 2. modelu aproksimiran sustav mokraćnog mjehura i mokraćne cijevi?",
+    "answer": "elipsoidom i cilindričnom cijevi",
+    "accepted": [
+      "elipsoidom i cilindričnom cijevi"
+    ],
+    "distractors": [
+      "kuglom s debelom stijenkom",
+      "Hillovim modelom",
+      "tankom sfernom ljuskom i sfinkterom kao cilindrom"
+    ],
+    "explanation": "U 2. modelu mjehur je elipsoid, a mokraćna cijev cilindrična cijev; stijenka je izotropna i linearno elastična, a urin Newtonovska tekućina s nestacionarnim i turbulentnim protokom.",
+    "image": null,
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 6",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-010",
+    "chapter": "26",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U 3. modelu (tanka sferna ljuska) naprezanje u stijenci mjehura je σ = r·(p − p_abd) / ___.",
+    "answer": "2δ",
+    "accepted": [
+      "2δ",
+      "2·δ",
+      "2*δ",
+      "2 δ"
+    ],
+    "distractors": [
+      "δ",
+      "4δ",
+      "2r"
+    ],
+    "explanation": "σ = r(p − p_abd)/(2δ): razlika unutarnjeg i intraabdominalnog tlaka puta polumjer, podijeljeno s dvostrukom debljinom stijenke δ. To je izraz za kuglu – isti oblik kao p·R/2 za membransku silu, podijeljen debljinom.",
+    "image": null,
+    "explanation_image": "img/26-2.png",
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 6 i 8",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-011",
+    "chapter": "26",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je σ_a u izrazu za ukupno Cauchyevo naprezanje σ = σ_p + σ_a (4. model, sfera debele stijenke)?",
+    "answer": "aktivno naprezanje koje stvaraju mišićne stanice",
+    "accepted": [
+      "aktivno naprezanje koje stvaraju mišićne stanice"
+    ],
+    "distractors": [
+      "reaktivno naprezanje zbog istezanja",
+      "intraabdominalni tlak",
+      "zaostalo naprezanje"
+    ],
+    "explanation": "Ukupno naprezanje je zbroj reaktivnog (pasivnog) naprezanja σ_p zbog istezanja i aktivnog naprezanja σ_a koje stvaraju mišićne stanice. 4. model procjenjuje i utjecaj orijentacije mišićnih vlakana i nelinearnosti tkiva.",
+    "image": null,
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 6",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-012",
+    "chapter": "26",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U 5. modelu ponašanje mokraćnog mjehura opisano je ___ modelom.",
+    "answer": "Hillovim",
+    "accepted": [
+      "Hillovim",
+      "Hill",
+      "Hillov"
+    ],
+    "distractors": [
+      "Maxwellovim",
+      "Voigtovim",
+      "Kane-Scherovim"
+    ],
+    "explanation": "Hillov model (poznat iz mišića) oponaša mehanizme mjehura aktivacijskom i deaktivacijskom funkcijom te funkcijom ovisnom o duljini.",
+    "image": null,
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 7",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-013",
+    "chapter": "26",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako je u 6. modelu modeliran sfinkter?",
+    "answer": "kao cilindar",
+    "accepted": [
+      "kao cilindar"
+    ],
+    "distractors": [
+      "kao sfera",
+      "kao elipsoid",
+      "kao opruga"
+    ],
+    "explanation": "U 6. modelu mjehur je tanka izotropna sferna ljuska, a sfinkter cilindar. Mišić je homogeni, nestlačivi, viskoelastični kontinuum, a ukupno naprezanje je zbroj aktivnih i reaktivnih naprezanja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 7",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-014",
+    "chapter": "26",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Za puni mjehur membranska sila je N_ϑ = (p_ves − p_abd)·R1 / ___.",
+    "answer": "2",
+    "accepted": [
+      "2",
+      "dva"
+    ],
+    "distractors": [
+      "4",
+      "h",
+      "π"
+    ],
+    "explanation": "Iz ravnoteže kalote: N_ϑ·2R1·sin²ϑ·π = (p_ves − p_abd)·R1²·sin²ϑ·π, pa je N_ϑ = (p_ves − p_abd)·R1/2. Naprezanje je σ = N/h.",
+    "image": "img/26-2.png",
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 8",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-015",
+    "chapter": "26",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U primjeru punog mjehura polumjer je R1 = ___, a debljina stijenke h = 2,2 mm.",
+    "answer": "100 mm",
+    "accepted": [
+      "100 mm",
+      "100",
+      "100mm",
+      "10 cm"
+    ],
+    "distractors": [
+      "80 mm",
+      "11,5 mm",
+      "4,2 mm"
+    ],
+    "explanation": "Puni mjehur: R1 = 100 mm, h = 2,2 mm, p_abd = 0,67 kPa, p_ves = 1,46 kPa. Prazan mjehur: R2 = 80 mm, h = 4,2 mm, p_abd = 0,1 kPa, p_ves = 0.",
+    "image": null,
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 9",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-016",
+    "chapter": "26",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Intravezikularni tlak u punom mjehuru u primjeru iznosi p_ves = ___ (intraabdominalni 0,67 kPa).",
+    "answer": "1,46 kPa",
+    "accepted": [
+      "1,46 kPa",
+      "1,46",
+      "1.46 kPa",
+      "1.46"
+    ],
+    "distractors": [
+      "0,67 kPa",
+      "0,79 kPa",
+      "0,1 kPa"
+    ],
+    "explanation": "U punom mjehuru unutarnji tlak 1,46 kPa veći je od vanjskog 0,67 kPa, pa razlika 0,79 kPa napinje stijenku vlačno.",
+    "image": null,
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 9",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-017",
+    "chapter": "26",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Membranska sila u punom mjehuru (R1 = 100 mm, p_ves = 1,46 kPa, p_abd = 0,67 kPa) iznosi N_ϑ = ___.",
+    "answer": "0,0395 N/mm",
+    "accepted": [
+      "0,0395 N/mm",
+      "0,0395",
+      "0.0395",
+      "0.0395 N/mm",
+      "39,5 N/m"
+    ],
+    "distractors": [
+      "0,079 N/mm",
+      "0,004 N/mm",
+      "0,01795 N/mm"
+    ],
+    "explanation": "N_ϑ = (1,46 − 0,67) kPa · 100 mm / 2 = 0,00079 N/mm² · 100 mm / 2 = 0,0395 N/mm. Za sferu je N_φ = (p_ves − p_abd)·R1 − N_ϑ isto 0,0395 N/mm.",
+    "image": null,
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 8–10",
+    "tags": [
+      "racun"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-018",
+    "chapter": "26",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Maksimalno naprezanje u stijenci punog mjehura (N = 0,0395 N/mm, h = 2,2 mm) iznosi σ = ___.",
+    "answer": "0,01795 N/mm²",
+    "accepted": [
+      "0,01795 N/mm²",
+      "0,01795",
+      "0.01795",
+      "0,018 N/mm²",
+      "0,018 MPa",
+      "0,01795 MPa"
+    ],
+    "distractors": [
+      "0,0395 N/mm²",
+      "0,0869 N/mm²",
+      "0,000909 N/mm²"
+    ],
+    "explanation": "σ = N/h = 0,0395 / 2,2 ≈ 0,01795 N/mm² (≈ 0,018 MPa). Isto vrijedi za σ_ϑ i σ_φ, jer su za sferu obje membranske sile jednake.",
+    "image": null,
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 8–10",
+    "tags": [
+      "racun"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-019",
+    "chapter": "26",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kakve su membranske sile N_ϑ i N_φ u punom mjehuru?",
+    "answer": "jednake (0,0395 N/mm) i vlačne",
+    "accepted": [
+      "jednake (0,0395 N/mm) i vlačne"
+    ],
+    "distractors": [
+      "N_ϑ je dvostruko veća od N_φ",
+      "jednake po iznosu, suprotnog predznaka",
+      "obje su tlačne"
+    ],
+    "explanation": "Mjehur je sfera, pa je N_φ = (p_ves − p_abd)·R1 − N_ϑ = 2N_ϑ − N_ϑ = N_ϑ. Obje su pozitivne (vlačne) jer je unutarnji tlak veći od vanjskog.",
+    "image": null,
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 8 i 10",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-020",
+    "chapter": "26",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Za prazan mjehur (p_ves = 0) membranska sila je N_ϑ = −p_abd·R2 / ___.",
+    "answer": "2",
+    "accepted": [
+      "2",
+      "dva"
+    ],
+    "distractors": [
+      "4",
+      "h",
+      "π"
+    ],
+    "explanation": "Kad nema unutarnjeg tlaka, ostaje samo intraabdominalni tlak izvana: N_ϑ = −p_abd·R2/2. Negativan predznak znači tlačnu silu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 11",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-021",
+    "chapter": "26",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U primjeru praznog mjehura (R2 = 80 mm, p_abd = 0,1 kPa) membranska sila iznosi N_ϑ = ___.",
+    "answer": "-0,004 N/mm",
+    "accepted": [
+      "-0,004 N/mm",
+      "−0,004 N/mm",
+      "-0,004",
+      "-0.004",
+      "-0.004 N/mm",
+      "−0,004"
+    ],
+    "distractors": [
+      "0,004 N/mm",
+      "-0,0395 N/mm",
+      "-0,008 N/mm"
+    ],
+    "explanation": "N_ϑ = −0,1 kPa · 80 mm / 2 = −0,0001 N/mm² · 40 mm = −0,004 N/mm. Predznak minus znači da je stijenka praznog mjehura u tom smjeru tlačena, jer tlak djeluje samo izvana. Prema slajdu je N_φ = +0,004 N/mm.",
+    "image": null,
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 11–13",
+    "tags": [
+      "racun"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-26-022",
+    "chapter": "26",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kolika je debljina stijenke praznog u usporedbi s punim mjehurom u primjeru?",
+    "answer": "4,2 mm prema 2,2 mm – prazan mjehur ima deblju stijenku",
+    "accepted": [
+      "4,2 mm prema 2,2 mm – prazan mjehur ima deblju stijenku"
+    ],
+    "distractors": [
+      "2,2 mm prema 4,2 mm – puni mjehur ima deblju stijenku",
+      "jednaka je, 2,2 mm",
+      "jednaka je, 4,2 mm"
+    ],
+    "explanation": "Pri punjenju se stijenka isteže i stanji: puni mjehur (R1 = 100 mm) ima stijenku 2,2 mm, a prazan (R2 = 80 mm) 4,2 mm. To se vidi i na slici detruzora praznog i punog mjehura.",
+    "image": null,
+    "explanation_image": null,
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 5, 9 i 12",
+    "tags": [
+      "usporedba",
+      "brojka"
+    ],
+    "real_exam": false
+  }
+]

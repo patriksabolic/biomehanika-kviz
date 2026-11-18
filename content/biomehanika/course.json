@@ -4,7 +4,7 @@
   "examDate": "2026-12-08",
   "grading": { "2": 50, "3": 62, "4": 75, "5": 88 },
   "exam": { "durationMin": 45 },
-  "questionFiles": ["00-kolokvij.json", "01.json", "02.json", "03.json", "04.json", "05.json", "06.json", "07.json", "08.json", "09.json", "10.json", "11.json", "12.json", "13.json", "14.json", "15.json", "16.json", "17.json", "18.json", "19.json", "20.json", "22.json", "23.json", "24.json"],
+  "questionFiles": ["00-kolokvij.json", "01.json", "02.json", "03.json", "04.json", "05.json", "06.json", "07.json", "08.json", "09.json", "10.json", "11.json", "12.json", "13.json", "14.json", "15.json", "16.json", "17.json", "18.json", "19.json", "20.json", "21.json", "22.json", "23.json", "24.json", "25.json", "26.json"],
   "areas": [
     { "id": "uvod", "name": "Uvod, povijest i modeli tijela", "chapters": ["01", "02", "03"] },
     { "id": "tkivo", "name": "Vezivno tkivo i mehanička svojstva", "chapters": ["04", "05", "06"] },

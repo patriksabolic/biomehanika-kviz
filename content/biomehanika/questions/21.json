@@ -1,0 +1,809 @@
+[
+  {
+    "id": "bm-21-001",
+    "chapter": "21",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako je definirano disanje?",
+    "answer": "spontani proces izmjene kisika i ugljikovog dioksida između organizma i okoliša",
+    "accepted": [
+      "spontani proces izmjene kisika i ugljikovog dioksida između organizma i okoliša"
+    ],
+    "distractors": [
+      "voljno stezanje dišnih mišića",
+      "prijenos hranjivih tvari krvlju do stanica",
+      "izmjena topline između pluća i okoliša"
+    ],
+    "explanation": "Disanje je spontani proces izmjene kisika i ugljikovog dioksida između organizma i okoliša. Svrha mu je dovesti kisik iz zraka u pluća, a nakon izmjene plinova izbaciti štetne i nepotrebne plinove.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 2",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-002",
+    "chapter": "21",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Od čega se sastoji disanje?",
+    "answer": "ventilacije, izmjene plinova i potrošnje kisika u stanicama",
+    "accepted": [
+      "ventilacije, izmjene plinova i potrošnje kisika u stanicama"
+    ],
+    "distractors": [
+      "udisaja, izdisaja i kašljanja",
+      "ventilacije, cirkulacije i probave",
+      "inspiracije, gutanja i govora"
+    ],
+    "explanation": "Disanje ima tri dijela: ventilaciju (udisaj i izdisaj), izmjenu plinova (u alveolama) i potrošnju kisika u stanicama (stanično disanje).",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 2; skripta.md – Disanje",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-003",
+    "chapter": "21",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji organi čine gornje dišne putove?",
+    "answer": "nosna šupljina i ždrijelo",
+    "accepted": [
+      "nosna šupljina i ždrijelo"
+    ],
+    "distractors": [
+      "grkljan i dušnik",
+      "nosna šupljina, ždrijelo i grkljan",
+      "dušnik i dušnice"
+    ],
+    "explanation": "Sustav organa za disanje ima dva trakta. Gornji dišni putovi su nosna šupljina i ždrijelo, a donji grkljan, dušnik, dušnice, bronhioli i plućni mjehurići (alveole).",
+    "image": "img/21-1.png",
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 3",
+    "tags": [
+      "podjela",
+      "skica"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-004",
+    "chapter": "21",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kojem traktu dišnog sustava pripada grkljan?",
+    "answer": "donjim dišnim putovima",
+    "accepted": [
+      "donjim dišnim putovima"
+    ],
+    "distractors": [
+      "gornjim dišnim putovima",
+      "probavnom sustavu",
+      "ni jednom – granica je između njih"
+    ],
+    "explanation": "Prema slici, donji dišni putovi počinju grkljanom i nastavljaju se dušnikom, dušnicama i bronhiolima do alveola. Gornji su samo nosna šupljina i ždrijelo.",
+    "image": "img/21-1.png",
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 3",
+    "tags": [
+      "podjela",
+      "skica"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-005",
+    "chapter": "21",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Čemu služe nosni hodnici kad dišemo kroz nos?",
+    "answer": "pročišćavaju zrak sluzi i dlačicama, zadržavaju prašinu i zagrijavaju zrak",
+    "accepted": [
+      "pročišćavaju zrak sluzi i dlačicama, zadržavaju prašinu i zagrijavaju zrak"
+    ],
+    "distractors": [
+      "izmjenjuju kisik i ugljikov dioksid",
+      "sprečavaju prolazak hrane u dušnik",
+      "stvaraju glas"
+    ],
+    "explanation": "Nosni hodnici su zaštitni organ pluća: sluz i dlačice zadržavaju prašinu, a zrak se pri prolazu zagrijava. Nosna šupljina je primarni dio sustava za disanje, a na dvije polovine dijeli je hrskavična nosna pregrada.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 4; skripta.md – Disanje",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-006",
+    "chapter": "21",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Ždrijelo je cjevasti organ od skeletne muskulature, dugačak približno ___.",
+    "answer": "13 cm",
+    "accepted": [
+      "13 cm",
+      "13",
+      "13cm"
+    ],
+    "distractors": [
+      "12 cm",
+      "20 cm",
+      "25 cm"
+    ],
+    "explanation": "Ždrijelo je dugo oko 13 cm. Ne miješaj s dušnikom, koji je dug oko 12 cm i unutarnjeg promjera 20–25 mm.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 6",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-007",
+    "chapter": "21",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje su tri osnovne funkcije ždrijela?",
+    "answer": "sudjeluje u gutanju, štiti donje dišne puteve, sudjeluje u artikulaciji govora",
+    "accepted": [
+      "sudjeluje u gutanju, štiti donje dišne puteve, sudjeluje u artikulaciji govora"
+    ],
+    "distractors": [
+      "izmjena plinova, zagrijavanje zraka, tvorba glasa",
+      "pročišćavanje zraka, gutanje, izmjena plinova",
+      "tvorba glasa, zatvaranje dušnika, kašljanje"
+    ],
+    "explanation": "Ždrijelo je dio i dišnog i probavnog sustava, pa sudjeluje u gutanju, štiti donje dišne puteve i sudjeluje u artikulaciji govora.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 6 i 7",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-008",
+    "chapter": "21",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Najdonji, grkljanski dio ždrijela nastavlja se u ___.",
+    "answer": "jednjak",
+    "accepted": [
+      "jednjak",
+      "jednjaku"
+    ],
+    "distractors": [
+      "dušnik",
+      "grkljan",
+      "usnu šupljinu"
+    ],
+    "explanation": "Ždrijelo ima tri dijela: nosni (u njega se otvara nosna šupljina), usni (otvara se usna šupljina) i grkljanski, najdonji dio koji se nastavlja u jednjak. Zato je ždrijelo dio i dišnog i probavnog sustava.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 7; skripta.md – Disanje",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-009",
+    "chapter": "21",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje su glavne funkcije grkljana?",
+    "answer": "sprečava prolazak hrane prema dušniku i stvara glas",
+    "accepted": [
+      "sprečava prolazak hrane prema dušniku i stvara glas"
+    ],
+    "distractors": [
+      "pročišćava i zagrijava zrak",
+      "spaja dušnik s plućima",
+      "provodi izmjenu plinova"
+    ],
+    "explanation": "Grkljan je smješten u prednjem dijelu vrata. Pri gutanju zatvara put prema dušniku, da hrana ne uđe u dišne puteve, a u njemu nastaje i glas.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 8; skripta.md – Disanje",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-010",
+    "chapter": "21",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Unutarnji promjer dušnika iznosi ___.",
+    "answer": "20-25 mm",
+    "accepted": [
+      "20-25 mm",
+      "20–25 mm",
+      "20-25",
+      "20 - 25 mm"
+    ],
+    "distractors": [
+      "7,5 mm",
+      "12 mm",
+      "40-50 mm"
+    ],
+    "explanation": "Dušnik je cijev unutarnjeg promjera 20–25 mm i duljine oko 12 cm, koja spaja grkljan s primarnim bronhima. U računskom primjeru uzima se d = 20 mm.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 9; skripta.md – Disanje",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-011",
+    "chapter": "21",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Duljina dušnika iznosi otprilike ___.",
+    "answer": "12 cm",
+    "accepted": [
+      "12 cm",
+      "12",
+      "12cm"
+    ],
+    "distractors": [
+      "13 cm",
+      "25 cm",
+      "6 cm"
+    ],
+    "explanation": "Dušnik je dug otprilike 12 cm, a ždrijelo oko 13 cm. Dušnik spaja grkljan s primarnim bronhima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 9; skripta.md – Disanje",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-012",
+    "chapter": "21",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Dušnik čini ___ potkovastih hrskavica povezanih elastičnim prstenastim vezama.",
+    "answer": "16 do 20",
+    "accepted": [
+      "16 do 20",
+      "16-20",
+      "16–20",
+      "16 - 20",
+      "16 - 20 hrskavica"
+    ],
+    "distractors": [
+      "7 do 12",
+      "23",
+      "30 do 40"
+    ],
+    "explanation": "Dušnik gradi 16 do 20 potkovastih (C) hrskavica povezanih elastičnim prstenastim vezama. Oblik potkove (slova C) drži dišni put uvijek otvorenim.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 9; skripta.md – Disanje",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-013",
+    "chapter": "21",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto su hrskavice dušnika nepotpuni prstenovi oblika slova C?",
+    "answer": "omogućuju da je dišni put uvijek otvoren",
+    "accepted": [
+      "omogućuju da je dišni put uvijek otvoren"
+    ],
+    "distractors": [
+      "omogućuju izmjenu plinova",
+      "zagrijavaju zrak",
+      "sprečavaju prolazak hrane"
+    ],
+    "explanation": "Hrskavični prstenovi oblika potkove (slova C) drže dušnik stalno otvorenim. Unutrašnjost dušnika prekrivena je sluznicom.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 9; skripta.md – Disanje",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-014",
+    "chapter": "21",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što rade treptiljke i sluz dušnika?",
+    "answer": "zadržavaju sitna strana tijela i gibanjem prema gore iznose ih do grkljana",
+    "accepted": [
+      "zadržavaju sitna strana tijela i gibanjem prema gore iznose ih do grkljana"
+    ],
+    "distractors": [
+      "zagrijavaju zrak prije alveola",
+      "provode izmjenu plinova",
+      "drže dišni put otvorenim"
+    ],
+    "explanation": "Sluz hvata sitne čestice, a treptiljke se stalno gibaju prema gore i nose ih do grkljana, gdje se progutaju ili iskašlju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 9",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-015",
+    "chapter": "21",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Gdje se dušnik dijeli na dvije glavne dušnice (bronha)?",
+    "answer": "u visini prsne kosti",
+    "accepted": [
+      "u visini prsne kosti"
+    ],
+    "distractors": [
+      "u visini grkljana",
+      "u alveolama",
+      "u visini ošita"
+    ],
+    "explanation": "Dušnik se u visini prsne kosti dijeli na dvije glavne dušnice. One su do bronhiola građene od hrskavičnog tkiva, a od bronhiola dalje od elastičnog vezivnog i glatkog mišićnog tkiva.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 12; skripta.md – Disanje",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-016",
+    "chapter": "21",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Od čega su građeni dišni putovi od bronhiola dalje?",
+    "answer": "od elastičnog vezivnog i glatkog mišićnog tkiva",
+    "accepted": [
+      "od elastičnog vezivnog i glatkog mišićnog tkiva"
+    ],
+    "distractors": [
+      "od hrskavičnog tkiva",
+      "od skeletne muskulature",
+      "od koštanog tkiva"
+    ],
+    "explanation": "Dušnice su do bronhiola hrskavične, a od bronhiola dalje građene su od elastičnog vezivnog i glatkog mišićnog tkiva.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 12; skripta.md – Disanje",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-017",
+    "chapter": "21",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Lijevo plućno krilo ima ___ režnja, a desno tri.",
+    "answer": "dva",
+    "accepted": [
+      "dva",
+      "2"
+    ],
+    "distractors": [
+      "tri",
+      "četiri",
+      "jedan"
+    ],
+    "explanation": "Lijevo krilo ima dva, a desno tri režnja. Zato se glavni lijevi bronh dijeli u dva, a desni u tri sekundarna (režanjska) bronha – svaki za jedan režanj.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 13; skripta.md – Disanje",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-018",
+    "chapter": "21",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kojim redom se granaju dišni putovi u plućima?",
+    "answer": "glavni bronh → sekundarni (režanjski) → tercijarni bronhi → bronhiole → alveole",
+    "accepted": [
+      "glavni bronh → sekundarni (režanjski) → tercijarni bronhi → bronhiole → alveole"
+    ],
+    "distractors": [
+      "glavni bronh → bronhiole → tercijarni → sekundarni → alveole",
+      "alveole → bronhiole → tercijarni → sekundarni → glavni bronh",
+      "tercijarni → glavni → sekundarni → alveole → bronhiole"
+    ],
+    "explanation": "Svaki glavni bronh dijeli se u sekundarne (režanjske) bronhe, oni unutar režnja u tercijarne bronhe, koji se granaju u bronhiole. Dišni put završava plućnim mjehurićima – alveolama.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 13; skripta.md – Disanje",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-019",
+    "chapter": "21",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Izmjena kisika i ugljikovog dioksida u plućima odvija se u tankim mjehurićima koji se nazivaju ___.",
+    "answer": "alveole",
+    "accepted": [
+      "alveole",
+      "alveoli",
+      "plućni mjehurići",
+      "alveolama"
+    ],
+    "distractors": [
+      "bronhiole",
+      "režnjevi",
+      "kapilare"
+    ],
+    "explanation": "Osnovna funkcija pluća je prijenos kisika iz atmosfere u krvotok i izbacivanje ugljikovog dioksida. To se odvija u alveolama – plućnim mjehurićima kojima završavaju dišni putovi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 13 i 17",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-020",
+    "chapter": "21",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pri udisanju se volumen prsnoga koša povećava i do ___.",
+    "answer": "20 %",
+    "accepted": [
+      "20 %",
+      "20",
+      "20%"
+    ],
+    "distractors": [
+      "5 %",
+      "50 %",
+      "10 %"
+    ],
+    "explanation": "Volumen prsnoga koša pri udisaju raste i do 20 %. Zbog toga tlak u plućima padne ispod atmosferskog, pa zrak velikom brzinom ulazi u pluća.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 15; skripta.md – Disanje",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-021",
+    "chapter": "21",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Najvažniji inspiracijski mišić je ___.",
+    "answer": "ošit",
+    "accepted": [
+      "ošit",
+      "dijafragma",
+      "osit"
+    ],
+    "distractors": [
+      "grkljan",
+      "trbušni mišić",
+      "srčani mišić"
+    ],
+    "explanation": "Povećanje volumena prsnoga koša pri udisaju posljedica je rada inspiracijskih mišića, a najvažniji je ošit.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 15; skripta.md – Disanje",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-022",
+    "chapter": "21",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto se pri normalnom izdisanju smanjuje obujam prsnoga koša?",
+    "answer": "zbog pasivnog stezanja elastičnih tvorbi u stijenci prsnoga koša i u plućima",
+    "accepted": [
+      "zbog pasivnog stezanja elastičnih tvorbi u stijenci prsnoga koša i u plućima"
+    ],
+    "distractors": [
+      "zbog aktivnog stezanja ošita",
+      "zbog rada inspiracijskih mišića",
+      "zbog povećanja atmosferskog tlaka"
+    ],
+    "explanation": "Udisaj je aktivan (rade mišići), a normalni izdisaj pasivan: istegnute elastične tvorbe u stijenci prsnoga koša i plućima same se stežu i istisnu zrak, bez rada dišnih mišića.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 15",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-023",
+    "chapter": "21",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Od dušnika do alveola dišni putovi se granaju oko ___ puta.",
+    "answer": "23",
+    "accepted": [
+      "23",
+      "23 puta",
+      "dvadeset tri"
+    ],
+    "distractors": [
+      "8",
+      "16",
+      "3"
+    ],
+    "explanation": "Bronhalno stablo nastaje grananjem oko 23 puta, a promjer se pri tome stalno mijenja. Zato se strujanje zraka mijenja od turbulentnog u dušniku prema laminarnom dublje u stablu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 18",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-024",
+    "chapter": "21",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Reynoldsov broj za strujanje kroz cijev računa se kao Re = v·d·ρ / ___.",
+    "answer": "η",
+    "accepted": [
+      "η",
+      "eta",
+      "dinamička viskoznost",
+      "ni"
+    ],
+    "distractors": [
+      "ν",
+      "p",
+      "A"
+    ],
+    "explanation": "Re = v·d·ρ/η, gdje je v srednja brzina, d promjer, ρ gustoća, a η dinamička viskoznost fluida. Re > 2300 znači turbulentno, a Re < 2300 laminarno strujanje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 19",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-025",
+    "chapter": "21",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pri udisaju V = 0,6 l za t = 0,8 s volumni protok iznosi q_V = ___.",
+    "answer": "0,00075 m³/s",
+    "accepted": [
+      "0,00075 m³/s",
+      "0,00075",
+      "0.00075",
+      "7,5·10⁻⁴ m³/s",
+      "0,75 l/s",
+      "0.00075 m3/s"
+    ],
+    "distractors": [
+      "0,00048 m³/s",
+      "0,0075 m³/s",
+      "0,000094 m³/s"
+    ],
+    "explanation": "q_V = V/t = 0,0006 m³ / 0,8 s = 0,00075 m³/s. Isti protok prolazi dušnikom, a na trećem nivou grananja dijeli se na 8 bronha.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 18 i 19",
+    "tags": [
+      "racun",
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-026",
+    "chapter": "21",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Granična vrijednost Reynoldsova broja između laminarnog i turbulentnog strujanja u cijevi je ___.",
+    "answer": "2300",
+    "accepted": [
+      "2300",
+      "Re = 2300"
+    ],
+    "distractors": [
+      "1000",
+      "3220",
+      "10000"
+    ],
+    "explanation": "Ako je Re > 2300, strujanje je turbulentno, a ako je Re < 2300, laminarno. U primjeru dušnik ima Re ≈ 3220, a bronh na trećem nivou Re ≈ 1072.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 19",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-027",
+    "chapter": "21",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kakvo je strujanje zraka u dušniku promjera 20 mm (V = 0,6 l za 0,8 s)?",
+    "answer": "turbulentno, Re ≈ 3220",
+    "accepted": [
+      "turbulentno, Re ≈ 3220"
+    ],
+    "distractors": [
+      "laminarno, Re ≈ 1072",
+      "laminarno, Re ≈ 2300",
+      "turbulentno, Re ≈ 10 000"
+    ],
+    "explanation": "A = d²π/4 = 0,000314 m², v = q_V/A ≈ 2,39 m/s, Re = v·d·ρ/η = 2,39·0,02·1,2/1,78·10⁻⁵ ≈ 3220. To je više od 2300, pa je strujanje turbulentno.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 18 i 19",
+    "tags": [
+      "racun"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-028",
+    "chapter": "21",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kakvo je strujanje na trećem nivou grananja (n = 8 bronha, d = 7,5 mm)?",
+    "answer": "laminarno, Re ≈ 1072",
+    "accepted": [
+      "laminarno, Re ≈ 1072"
+    ],
+    "distractors": [
+      "turbulentno, Re ≈ 3220",
+      "turbulentno, Re ≈ 2600",
+      "laminarno, Re ≈ 134"
+    ],
+    "explanation": "Protok se dijeli na 8 bronha: q_Vb = 0,00075/8 ≈ 0,0000937 m³/s; A = 0,0000442 m², v ≈ 2,12 m/s; Re ≈ 1072 < 2300, pa je strujanje laminarno. Manji promjer i manja brzina smanjuju Re.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 18 i 19",
+    "tags": [
+      "racun"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-21-029",
+    "chapter": "21",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Srednja brzina zraka u dušniku promjera 20 mm pri q_V = 0,00075 m³/s iznosi ___.",
+    "answer": "2,39 m/s",
+    "accepted": [
+      "2,39 m/s",
+      "2,39",
+      "2.39",
+      "2,3885 m/s",
+      "2,4 m/s",
+      "2.39 m/s"
+    ],
+    "distractors": [
+      "2,12 m/s",
+      "0,75 m/s",
+      "23,9 m/s"
+    ],
+    "explanation": "v = q_V/A, a A = d²π/4 = 0,02²·π/4 = 0,000314 m². v = 0,00075/0,000314 ≈ 2,39 m/s. Na trećem nivou grananja brzina je nešto manja, 2,12 m/s.",
+    "image": null,
+    "explanation_image": null,
+    "source": "21__Sustav organa za disanje.pdf, slajd 19",
+    "tags": [
+      "racun"
+    ],
+    "real_exam": false
+  }
+]

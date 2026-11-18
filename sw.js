@@ -1,6 +1,6 @@
 // Service worker: offline rad (spec, odjeljak 14).
 // PRI SVAKOM DEPLOYU podigni VERSION (mora biti isto kao "version" u version.json).
-const VERSION = '0.4.3';
+const VERSION = '0.4.4';
 const CACHE = `bmkviz-${VERSION}`;
 
 const SHELL = [
@@ -49,9 +49,12 @@ const CONTENT = [
   './content/biomehanika/questions/18.json',
   './content/biomehanika/questions/19.json',
   './content/biomehanika/questions/20.json',
+  './content/biomehanika/questions/21.json',
   './content/biomehanika/questions/22.json',
   './content/biomehanika/questions/23.json',
   './content/biomehanika/questions/24.json',
+  './content/biomehanika/questions/25.json',
+  './content/biomehanika/questions/26.json',
   './content/biomehanika/img/02-1.png',
   './content/biomehanika/img/03-1.png',
   './content/biomehanika/img/03-2.png',
@@ -64,8 +67,12 @@ const CONTENT = [
   './content/biomehanika/img/15-1.png',
   './content/biomehanika/img/15-2.png',
   './content/biomehanika/img/16-1.png',
+  './content/biomehanika/img/21-1.png',
   './content/biomehanika/img/22-1.png',
   './content/biomehanika/img/23-1.png',
+  './content/biomehanika/img/25-1.png',
+  './content/biomehanika/img/26-1.png',
+  './content/biomehanika/img/26-2.png',
 ];
 
 self.addEventListener('install', (event) => {
