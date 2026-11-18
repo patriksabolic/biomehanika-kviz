@@ -1,0 +1,635 @@
+[
+  {
+    "id": "bm-03-001",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Prvi dinamički model mačke koja pada, Kane-Scherov model, nastao je ___. godine.",
+    "answer": "1969",
+    "accepted": [
+      "1969",
+      "1969."
+    ],
+    "distractors": [
+      "1973",
+      "1980",
+      "1867"
+    ],
+    "explanation": "Redoslijed modela padajuće mačke: Kane-Scher 1969. (prvi dinamički model), Hopper 1973. (valjci i vektori količine gibanja), Hay 1980. (sekvencijalno mijenjanje momenta tromosti).",
+    "image": null,
+    "explanation_image": "img/03-1.png",
+    "source": "3_Mačka.pdf, slajd 3",
+    "tags": [
+      "brojka",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-002",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U Kane-Scherovu modelu jedno tijelo se giba u odnosu na drugo tvoreći putanju u obliku ___.",
+    "answer": "stošca",
+    "accepted": [
+      "stošca",
+      "stožac",
+      "stošca (konusa)",
+      "konusa"
+    ],
+    "distractors": [
+      "kružnice",
+      "spirale",
+      "valjka"
+    ],
+    "explanation": "U Kane-Scherovu modelu tijelo mačke su dva valjka (A i B). Tijelo B kruži oko „mirujućeg” tijela A tako da njegova os opisuje plašt stošca. Kombinacijom tih gibanja mačka se okrene bez vanjskog momenta.",
+    "image": "img/03-1.png",
+    "explanation_image": null,
+    "source": "3_Mačka.pdf, slajd 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-003",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što u Kane-Scherovu modelu označava kut α?",
+    "answer": "kut između osi simetrije stošca i osi simetrije „mirujućeg” tijela A",
+    "accepted": [
+      "kut između osi simetrije stošca i osi simetrije „mirujućeg” tijela A"
+    ],
+    "distractors": [
+      "kut između osi simetrije stošca i osi rotirajućeg tijela B",
+      "kut zakreta tijela B oko svoje osi",
+      "kut između tijela i podloge"
+    ],
+    "explanation": "Os simetrije stošca zatvara kut α s osi „mirujućeg” tijela A, a kut β s osi rotirajućeg tijela B. Kut θ na slici opisuje kretanje po stošcu.",
+    "image": "img/03-1.png",
+    "explanation_image": null,
+    "source": "3_Mačka.pdf, slajd 3",
+    "tags": [
+      "skica",
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-004",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Os simetrije stošca u Kane-Scherovu modelu s osi simetrije rotirajućeg tijela B zatvara kut ___.",
+    "answer": "β",
+    "accepted": [
+      "β",
+      "beta",
+      "kut β"
+    ],
+    "distractors": [
+      "α",
+      "θ",
+      "ω"
+    ],
+    "explanation": "Dva kuta opisuju geometriju: α je između osi stošca i „mirujućeg” tijela A, β između osi stošca i rotirajućeg tijela B.",
+    "image": "img/03-1.png",
+    "explanation_image": null,
+    "source": "3_Mačka.pdf, slajd 3",
+    "tags": [
+      "skica",
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-005",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Prema Hopperu (___. g.) zbog zakona očuvanja kutne količine gibanja dolazi do kontrakcije mišića gornjeg i donjeg dijela tijela.",
+    "answer": "1973",
+    "accepted": [
+      "1973",
+      "1973."
+    ],
+    "distractors": [
+      "1969",
+      "1980",
+      "1985"
+    ],
+    "explanation": "Hopperov model (1973.) prikazuje gornji i donji dio tijela mačke kao valjke. Kontrakcijom mišića oni se okreću, a rotacije se prikazuju vektorima količine gibanja.",
+    "image": null,
+    "explanation_image": "img/03-2.png",
+    "source": "3_Mačka.pdf, slajd 4",
+    "tags": [
+      "brojka",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-006",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što se prema Hopperu događa s vektorima količine gibanja gornjeg i donjeg dijela tijela mačke?",
+    "answer": "vertikalne komponente se poništavaju, a horizontalne zbrajaju",
+    "accepted": [
+      "vertikalne komponente se poništavaju, a horizontalne zbrajaju"
+    ],
+    "distractors": [
+      "horizontalne komponente se poništavaju, a vertikalne zbrajaju",
+      "obje komponente se poništavaju",
+      "obje komponente se zbrajaju"
+    ],
+    "explanation": "Vektori H1 i H2 nagnuti su suprotno: vertikalne komponente su jednake i suprotne, pa se poništavaju, a horizontalne imaju isti smjer i zbrajaju se. Tako ukupna kutna količina gibanja ostaje očuvana, a tijelo se ipak okreće oko uzdužne osi.",
+    "image": "img/03-2.png",
+    "explanation_image": null,
+    "source": "3_Mačka.pdf, slajd 4",
+    "tags": [
+      "skica"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-007",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U Hopperovu modelu gornji i donji dio tijela mačke prikazuju se ___.",
+    "answer": "valjcima",
+    "accepted": [
+      "valjcima",
+      "valjci",
+      "valjak",
+      "cilindrima"
+    ],
+    "distractors": [
+      "kuglama",
+      "štapovima",
+      "elipsoidima"
+    ],
+    "explanation": "Hopper je dijelove tijela mačke pojednostavio kao dva valjka spojena u sredini. Valjak ima lako izračunljiv moment tromosti, pa se rotacije mogu prikazati vektorima količine gibanja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3_Mačka.pdf, slajd 4",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-008",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako je prema Hayu (1980.) mačka izvela okret tijekom pada?",
+    "answer": "sekvencijalnim mijenjanjem momenta tromosti različitih dijelova tijela",
+    "accepted": [
+      "sekvencijalnim mijenjanjem momenta tromosti različitih dijelova tijela"
+    ],
+    "distractors": [
+      "gibanjem tijela po putanji stošca",
+      "odgurivanjem od zraka repom",
+      "promjenom ukupne kutne količine gibanja"
+    ],
+    "explanation": "Hay je objasnio okret tako da mačka redom mijenja moment tromosti pojedinih dijelova tijela (npr. skupi prednje, ispruži stražnje noge). Dio s manjim momentom tromosti zakrene se više, a ukupna kutna količina gibanja ostaje ista.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3_Mačka.pdf, slajd 5",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-009",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Za kruto tijelo moment količine gibanja je L = I·___.",
+    "answer": "ω",
+    "accepted": [
+      "ω",
+      "omega",
+      "kutna brzina",
+      "w"
+    ],
+    "distractors": [
+      "v",
+      "α",
+      "m"
+    ],
+    "explanation": "Moment (kutna) količine gibanja krutog tijela je umnožak momenta tromosti I i kutne brzine ω: L = I·ω. To je rotacijski pandan količine gibanja p = m·v.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3_Mačka.pdf, slajd 6",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-010",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što označava I u izrazu L = I·ω?",
+    "answer": "moment tromosti tijela",
+    "accepted": [
+      "moment tromosti tijela"
+    ],
+    "distractors": [
+      "kutnu brzinu",
+      "impuls sile",
+      "moment sile"
+    ],
+    "explanation": "I je moment tromosti – mjera koliko se tijelo opire promjeni rotacije; ovisi o masi i tome koliko je masa udaljena od osi. ω je kutna brzina, a L moment količine gibanja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3_Mačka.pdf, slajd 6",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-011",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Zakon očuvanja kutne količine gibanja: I1·ω1 = I2·ω2 = ___.",
+    "answer": "konst",
+    "accepted": [
+      "konst",
+      "konstanta",
+      "const",
+      "konst."
+    ],
+    "distractors": [
+      "0",
+      "L·ω",
+      "I·α"
+    ],
+    "explanation": "Bez vanjskog momenta umnožak I·ω ostaje stalan. Ako se moment tromosti smanji, kutna brzina se mora povećati, i obrnuto.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3_Mačka.pdf, slajd 6",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-012",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što se prema I1·ω1 = I2·ω2 događa kad mačka skrati (privuče) noge i tako smanji moment tromosti?",
+    "answer": "povećava se kutna brzina",
+    "accepted": [
+      "povećava se kutna brzina"
+    ],
+    "distractors": [
+      "smanjuje se kutna brzina",
+      "kutna brzina ostaje ista",
+      "kutna količina gibanja raste"
+    ],
+    "explanation": "Umnožak I·ω je stalan, pa manji I znači veći ω. Zato mačka produljivanjem i skraćivanjem nogu i rotacijom repa mijenja brzinu kojom pojedini dijelovi tijela rotiraju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3_Mačka.pdf, slajd 6 i 7",
+    "tags": [
+      "formula",
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-013",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Biomehanički gledano, mačka nije ___ tijelo, pa se može okrenuti u zraku.",
+    "answer": "kruto",
+    "accepted": [
+      "kruto",
+      "kruto tijelo"
+    ],
+    "distractors": [
+      "elastično",
+      "homogeno",
+      "simetrično"
+    ],
+    "explanation": "Kruto tijelo ima stalan moment tromosti i ne može se samo okrenuti bez vanjskog momenta. Mačka može mijenjati oblik (savijati tijelo, micati noge i rep), pa mijenja moment tromosti dijelova i okreće se uz očuvanu ukupnu kutnu količinu gibanja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3_Mačka.pdf, slajd 8",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-014",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja se dva krajnja slučaja razmatraju da bi se objasnio okret mačke?",
+    "answer": "tijelo potpuno izravnato i tijelo potpuno savinuto",
+    "accepted": [
+      "tijelo potpuno izravnato i tijelo potpuno savinuto"
+    ],
+    "distractors": [
+      "mačka s repom i bez repa",
+      "pad s male i s velike visine",
+      "prednje noge ispružene i stražnje noge ispružene"
+    ],
+    "explanation": "Uzimaju se dva krajnja slučaja: a) tijelo potpuno izravnato (dva valjka na istoj osi) i b) tijelo potpuno savinuto (dva valjka jedan uz drugi). U oba slučaja okretanje jednog dijela u jednom smjeru prati okretanje drugog u suprotnom.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3_Mačka.pdf, slajd 9, 10 i 11",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-015",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kad mačka okreće dijelove svog tijela, kako se okreće tijelo kao cjelina?",
+    "answer": "u suprotnom smjeru, pa je ukupni moment količine gibanja očuvan",
+    "accepted": [
+      "u suprotnom smjeru, pa je ukupni moment količine gibanja očuvan"
+    ],
+    "distractors": [
+      "u istom smjeru, pa se ukupni moment povećava",
+      "ne okreće se uopće",
+      "u istom smjeru, ali sporije"
+    ],
+    "explanation": "Ukupna kutna količina gibanja mora ostati ista. Ako jedan dio tijela dobije kutnu količinu gibanja u jednom smjeru, ostatak tijela mora dobiti jednaku u suprotnom smjeru.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3_Mačka.pdf, slajd 9 i 13",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-016",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto za mačku u padu vrijedi zakon očuvanja kutne količine gibanja?",
+    "answer": "u zatvorenom je sustavu – nema izmjene energije s okolinom",
+    "accepted": [
+      "u zatvorenom je sustavu – nema izmjene energije s okolinom"
+    ],
+    "distractors": [
+      "jer na nju djeluje sila teže",
+      "jer se okreće stalnom kutnom brzinom",
+      "jer je kruto tijelo"
+    ],
+    "explanation": "Dok pada, mačka je zatvoreni sustav: ništa izvana ne zakreće njezino tijelo. Zato se kutna količina gibanja ne može promijeniti, a okret jednog dijela tijela mora se nadoknaditi okretom ostatka u suprotnom smjeru.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3_Mačka.pdf, slajd 13",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-017",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Ako se mačka na početku pada ne vrti, njezina kutna količina gibanja jednaka je ___.",
+    "answer": "nuli",
+    "accepted": [
+      "nuli",
+      "nula",
+      "0"
+    ],
+    "distractors": [
+      "jedinici",
+      "m·g·h",
+      "I·ω"
+    ],
+    "explanation": "Bez vrtnje je ω = 0, pa je L = I·ω = 0. Što god mačka učini u zraku, ukupna kutna količina gibanja ostaje nula, pa mora stvoriti dvije jednake i suprotne kutne količine gibanja čiji je zbroj nula.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3_Mačka.pdf, slajd 14",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-018",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto mačka za stvaranje jedne od dviju suprotnih kutnih količina gibanja koristi brzo okretanje repa?",
+    "answer": "rep ima malu masu",
+    "accepted": [
+      "rep ima malu masu"
+    ],
+    "distractors": [
+      "rep ima veliki moment tromosti",
+      "rep se ne može okretati sporo",
+      "rep je kruto tijelo"
+    ],
+    "explanation": "Rep ima malu masu (mali moment tromosti), pa ga mačka mora brzo okretati da dobije dovoljnu kutnu količinu gibanja. Tijelo se pri tome spontano okreće u suprotnom smjeru, a zbroj obje kutne količine gibanja ostaje nula.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3_Mačka.pdf, slajd 14",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-019",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Lagrangeova funkcija u direktnoj dinamičkoj metodi glasi L = T – ___.",
+    "answer": "V",
+    "accepted": [
+      "V",
+      "potencijalna energija"
+    ],
+    "distractors": [
+      "U",
+      "W",
+      "Q"
+    ],
+    "explanation": "L = T – V: T je kinetička, a V potencijalna energija sustava, obje izražene preko nezavisnih varijabli (kutovi segmenata tijela s horizontalnom osi). Iz Lagrangeove funkcije izvode se jednadžbe gibanja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Dinamika sustava krutih i čvrstih tijela",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-020",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što označava T u Lagrangeovoj funkciji L = T – V?",
+    "answer": "kinetičku energiju sustava",
+    "accepted": [
+      "kinetičku energiju sustava"
+    ],
+    "distractors": [
+      "potencijalnu energiju sustava",
+      "moment u zglobu",
+      "period gibanja"
+    ],
+    "explanation": "T je kinetička energija, V potencijalna energija sustava, a obje su izražene preko nezavisnih varijabli – kutova segmenata tijela s horizontalnom osi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Dinamika sustava krutih i čvrstih tijela",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-021",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je potrebno poznavati kod direktne dinamičke metode?",
+    "answer": "momente u zglobovima i unutarnje sile",
+    "accepted": [
+      "momente u zglobovima i unutarnje sile"
+    ],
+    "distractors": [
+      "izmjerene pomake segmenata",
+      "reakcijske sile podloge",
+      "samo masu jednog segmenta"
+    ],
+    "explanation": "Direktna metoda polazi od poznatih momenata u zglobovima i unutarnjih sila te integriranjem jednadžbi gibanja dobije gibanje; djelovanje svih segmenata mora se razmatrati istovremeno. Inverzna metoda ide obrnuto – iz izmjerenih pomaka računa sile i momente.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Dinamika sustava krutih i čvrstih tijela",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-022",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje su dvije formulacije direktne dinamičke metode?",
+    "answer": "Lagrangeova i Newton-Eulerova",
+    "accepted": [
+      "Lagrangeova i Newton-Eulerova"
+    ],
+    "distractors": [
+      "Lagrangeova i Hamiltonova",
+      "Newton-Eulerova i inverzna",
+      "Eulerova i Bernoullijeva"
+    ],
+    "explanation": "Direktna dinamička metoda koristi Lagrangeovu formulaciju (L = T – V) ili Newton-Eulerovu, u kojoj se iz poznatih ulaznih momenata u zglobovima integriranjem jednadžbi gibanja određuje gibanje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Dinamika sustava krutih i čvrstih tijela",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-03-023",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji je nedostatak inverzne dinamičke metode?",
+    "answer": "povećanje grešaka pri numeričkom deriviranju pomaka u brzine i ubrzanja",
+    "accepted": [
+      "povećanje grešaka pri numeričkom deriviranju pomaka u brzine i ubrzanja"
+    ],
+    "distractors": [
+      "moraju se unaprijed znati momenti u zglobovima",
+      "moraju se istovremeno razmatrati svi segmenti",
+      "ne mogu se mjeriti reakcijske sile podloge"
+    ],
+    "explanation": "Inverzna metoda mjeri pomake pa ih numerički derivira u brzine i ubrzanja. Svako deriviranje pojačava mjerne greške, pa se metoda može primijeniti samo na jedan segment; koriste se i optimizacijske tehnike s ograničenjima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Dinamika sustava krutih i čvrstih tijela",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  }
+]

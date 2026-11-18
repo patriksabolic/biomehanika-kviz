@@ -1,0 +1,901 @@
+[
+  {
+    "id": "bm-02-001",
+    "chapter": "02",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako je definirana biomehanika?",
+    "answer": "znanost koja zakone mehanike primjenjuje u rješavanju bioloških problema",
+    "accepted": [
+      "znanost koja zakone mehanike primjenjuje u rješavanju bioloških problema"
+    ],
+    "distractors": [
+      "znanost koja zakone biologije primjenjuje na strojeve",
+      "znanost o građi i funkciji unutarnjih organa",
+      "znanost o svrsishodnosti položaja tijela pri radu"
+    ],
+    "explanation": "Biomehanika uzima zakone mehanike (sile, gibanja, naprezanja) i primjenjuje ih na živi organizam. Udio biologije i mehanike ovisi o problemu, pa je ona sinteza obaju područja. Svrsishodnost položaja tijela pri radu je ergonomija.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 2",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-002",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Culmannova dizalica (___.) konstrukcijom sliči na raspored gredica spužvaste kosti.",
+    "answer": "1865",
+    "accepted": [
+      "1865",
+      "1865."
+    ],
+    "distractors": [
+      "1867",
+      "1830",
+      "1765"
+    ],
+    "explanation": "Culmannova dizalica iz 1865. primjer je biološke konstrukcije kao uzora tehničkoj: njezini nosači prate pravce naprezanja, kao gredice spužvaste kosti u bedrenoj kosti. Godine 1867. Meyer i Culmann objasnili su trajektorijalnu građu spužvaste kosti.",
+    "image": null,
+    "explanation_image": "img/02-1.png",
+    "source": "2_Povijest.pdf, slajd 4",
+    "tags": [
+      "brojka",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-003",
+    "chapter": "02",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je u analogiji tehničkih i tjelesnih sustava pandan bojleru i termostatu?",
+    "answer": "endokrini sustav i hormoni",
+    "accepted": [
+      "endokrini sustav i hormoni"
+    ],
+    "distractors": [
+      "srce",
+      "krvotok i zalisci",
+      "neuroni"
+    ],
+    "explanation": "Termostat regulira temperaturu povratnom vezom, kao što endokrini sustav hormonima regulira rad organizma. Ostali parovi: pumpa = srce, cjevovod i ventili = krvotok i zalisci, portovi i vodiči = neuroni, poluge i ležajevi = kosti i zglobovi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 5",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-004",
+    "chapter": "02",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto oštar vrh injekcijske igle lakše probija tkivo?",
+    "answer": "manja kontaktna površina daje veću silu po jedinici površine (koncentraciju naprezanja)",
+    "accepted": [
+      "manja kontaktna površina daje veću silu po jedinici površine (koncentraciju naprezanja)"
+    ],
+    "distractors": [
+      "veći promjer igle smanjuje trenje",
+      "igla povećava adhezivne sile tkiva",
+      "manji kut nagiba igle smanjuje silu"
+    ],
+    "explanation": "Naprezanje je sila podijeljena s površinom. Oštar vrh ima vrlo malu kontaktnu površinu, pa ista sila daje veliko naprezanje (koncentraciju naprezanja) koje savlada adhezivne sile tkiva i prekine njegov mehanički kontinuitet.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 5",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-005",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Oruđa i oružja iz prapovijesti, nastala biomehaničkom empirijom (npr. oklopi po uzoru na oklope insekata), nazivaju se ___ biomehanika.",
+    "answer": "intuitivna",
+    "accepted": [
+      "intuitivna",
+      "intuitivna biomehanika"
+    ],
+    "distractors": [
+      "empirijska",
+      "primitivna",
+      "antička"
+    ],
+    "explanation": "Prapovijesni čovjek nije znao zakone mehanike, ali je opažanjem i pokušajima došao do korisnih rješenja – grana kao poluga, oklop po uzoru na oklop insekta. To se zove intuitivna biomehanika.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 6",
+    "tags": [
+      "povijest",
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-006",
+    "chapter": "02",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "U čemu je Aristotel pogriješio pri opisu unutarnjih organa?",
+    "answer": "mislio je da je srce organ za disanje",
+    "accepted": [
+      "mislio je da je srce organ za disanje"
+    ],
+    "distractors": [
+      "mislio je da su pluća organ za cirkulaciju",
+      "mislio je da je mozak hladnjak krvi",
+      "mislio je da zalisci propuštaju krv u oba smjera"
+    ],
+    "explanation": "Pri seciranju leša Aristotel u srcu nije našao krvi, pa je zaključio da je srce organ za disanje. Pogreška pokazuje ograničenje promatranja mrtvog tkiva – isti problem anatomskih preparata spominje se i kod modela u biomehanici.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 7",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-007",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Arhimed je postavio temelje hidrodinamike i zakon ___.",
+    "answer": "poluge",
+    "accepted": [
+      "poluge",
+      "poluga",
+      "zakon poluge"
+    ],
+    "distractors": [
+      "inercije",
+      "očuvanja energije",
+      "elastičnosti"
+    ],
+    "explanation": "Arhimed (4. st. pr. n. e.) postavio je temelje hidrodinamike i zakon poluge. Zakon poluge kasnije je Borelli primijenio za određivanje težišta ljudskog tijela, a kosti u tijelu djeluju kao poluge.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 8",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-008",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Srčane zaliske opisao je i shvatio da propuštaju krv samo u jednom smjeru ___.",
+    "answer": "Erazistrat",
+    "accepted": [
+      "Erazistrat",
+      "Erasistrat",
+      "Erasistratus"
+    ],
+    "distractors": [
+      "Galen",
+      "Aristotel",
+      "Arhimed"
+    ],
+    "explanation": "Erazistrat je u antici opisao srčane zaliske i shvatio da rade kao ventili – propuštaju krv samo u jednom smjeru. Galen je postavio temelje anatomije, a Aristotel je srce smatrao organom za disanje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 8",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-009",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Rimski gladijatorski, a potom dvorski liječnik koji je postavio temelje anatomije bio je ___.",
+    "answer": "Galen",
+    "accepted": [
+      "Galen",
+      "Galen (131-201)",
+      "Klaudije Galen"
+    ],
+    "distractors": [
+      "Erazistrat",
+      "Vesalius",
+      "Aristotel"
+    ],
+    "explanation": "Galen (131.–201.) kao liječnik gladijatora vidio je mnogo ozljeda: postavio je temelje anatomije, proučavao pokrete tijela (fizikalna terapija) i nastanak ozljede ovisno o načinu djelovanja sile.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 8",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-010",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U srednjem vijeku cirkulaciju krvi opisao je ___.",
+    "answer": "Ibn Nafis",
+    "accepted": [
+      "Ibn Nafis",
+      "Ibn al-Nafis",
+      "Nafis"
+    ],
+    "distractors": [
+      "Galen",
+      "Erazistrat",
+      "Santorio"
+    ],
+    "explanation": "Srednji vijek je zbog skolastičkog dogmatizma razdoblje zastoja znanosti u Europi; antička znanja sačuvale su arapske civilizacije. Ibn Nafis iz tog kruga opisao je cirkulaciju krvi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 9",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-011",
+    "chapter": "02",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što se smatra prvim robotom (Leonardo da Vinci)?",
+    "answer": "lav koji sam šeće i pri zaustavljanju otvara usta iz kojih ispada cvijet",
+    "accepted": [
+      "lav koji sam šeće i pri zaustavljanju otvara usta iz kojih ispada cvijet"
+    ],
+    "distractors": [
+      "stroj za letenje",
+      "njihalo za mjerenje pulsa",
+      "lutka za istraživanje ozljeda"
+    ],
+    "explanation": "Leonardo da Vinci po narudžbi pape Lava X. za francuskog kralja konstruirao je mehaničkog lava koji sam šeće, a kad stane, otvara usta i iz njih ispadne cvijet – to se smatra prvim robotom. Njihalo za puls vezano je uz Galileja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 10",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-012",
+    "chapter": "02",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je Galileo Galilei zaključio o čvrstoći kosti?",
+    "answer": "proporcionalna je površini presjeka",
+    "accepted": [
+      "proporcionalna je površini presjeka"
+    ],
+    "distractors": [
+      "proporcionalna je duljini kosti",
+      "proporcionalna je masi tijela",
+      "obrnuto je proporcionalna promjeru"
+    ],
+    "explanation": "Galilei, utemeljitelj moderne mehanike koji je studirao i medicinu, zaključio je da je čvrstoća kosti proporcionalna površini presjeka – što veći presjek, to veću silu kost podnese (σ = F/A). Konstruirao je i mikroskop (1609.) i njihalo za mjerenje pulsa.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 10",
+    "tags": [
+      "povijest",
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-013",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Galileo Galilei konstruirao je mikroskop ___. godine.",
+    "answer": "1609",
+    "accepted": [
+      "1609",
+      "1609."
+    ],
+    "distractors": [
+      "1615",
+      "1564",
+      "1642"
+    ],
+    "explanation": "Mikroskop je Galilei konstruirao 1609. Ostale godine su njegov život (1564.–1642.) i Harveyjevo otkriće krvotoka (1615.) – koje je, zanimljivo, napravljeno bez mikroskopa.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 10",
+    "tags": [
+      "brojka",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-014",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Ijatrofizika, „liječnička fizika” koja uspoređuje organizam sa strojevima i uvodi matematiku u medicinu, razvija se u ___ stoljeću.",
+    "answer": "16. - 17.",
+    "accepted": [
+      "16. - 17.",
+      "16.-17.",
+      "16-17",
+      "16. i 17.",
+      "16. – 17."
+    ],
+    "distractors": [
+      "14. - 15.",
+      "18. - 19.",
+      "19. - 20."
+    ],
+    "explanation": "Ijatrofizika (16.–17. st.) uspoređuje organizam s mehaničkim strojevima i uvodi kvantifikaciju, matematiku i fiziku u medicinu. Predstavnici su Santorio, Borelli, Harley (Harvey), Boyle i Hooke.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 11",
+    "tags": [
+      "povijest",
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-015",
+    "chapter": "02",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Po čemu je poznat Santorio Santorini?",
+    "answer": "vagao je tijelo i mjerio temperaturu – počeci proučavanja metabolizma",
+    "accepted": [
+      "vagao je tijelo i mjerio temperaturu – počeci proučavanja metabolizma"
+    ],
+    "distractors": [
+      "opisao je srčane zaliske",
+      "postavio je min.-max. zakon",
+      "otkrio je pojam stanice"
+    ],
+    "explanation": "Santorio, profesor anatomije u Padovi, uveo je kvantitativne eksperimentalne metode: vagao je tijelo i mjerio temperaturu te ustanovio da tijelo disanjem i isparavanjem gubi težinu. To su počeci proučavanja metabolizma.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 11",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-016",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Borellijevo djelo o pokretima tijela, letu ptica i plivanju riba zove se „De Motu ___”.",
+    "answer": "Animalium",
+    "accepted": [
+      "Animalium",
+      "Animalum"
+    ],
+    "distractors": [
+      "Cordis",
+      "Corporis",
+      "Hominis"
+    ],
+    "explanation": "Borelli je u djelu „De Motu Animalium” (na slajdu zapisano „Animalum”) analizirao pokrete tijela, let ptica i plivanje riba te težište ljudskog tijela odredio pomoću zakona o ravnoteži poluge.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 11",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-017",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Uz masu krvi u srcu od 60 g i 72 otkucaja u minuti, srce u jednom satu potisne ___ krvi.",
+    "answer": "260 kg",
+    "accepted": [
+      "260 kg",
+      "260",
+      "259 kg",
+      "259,2 kg"
+    ],
+    "distractors": [
+      "60 kg",
+      "72 kg",
+      "4320 kg"
+    ],
+    "explanation": "Račun iz 1615. (na slajdu William Harley, poznatiji kao Harvey): 60 g × 72 otkucaja/min × 60 min ≈ 259 200 g ≈ 260 kg na sat. Tolika količina ne može se svaki sat iznova stvarati, pa je zaključak da krv kruži u zatvorenom krugu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 12",
+    "tags": [
+      "brojka",
+      "racun"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-018",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Postojanje zatvorene cirkulacije krvi otkriveno je ___. godine, bez upotrebe mikroskopa.",
+    "answer": "1615",
+    "accepted": [
+      "1615",
+      "1615."
+    ],
+    "distractors": [
+      "1609",
+      "1830",
+      "1867"
+    ],
+    "explanation": "Godine 1615. William Harley (Harvey) otkrio je krvotok računom, bez mikroskopa: srce na sat potisne oko 260 kg krvi, što je moguće samo ako ista krv kruži.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 12",
+    "tags": [
+      "brojka",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-019",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Robert Hooke poznat je po Hookeovu zakonu i pojmu ___.",
+    "answer": "stanice",
+    "accepted": [
+      "stanice",
+      "stanica"
+    ],
+    "distractors": [
+      "tkiva",
+      "metabolizma",
+      "krvotoka"
+    ],
+    "explanation": "Robert Hooke (1635.–1703.) dao je Hookeov zakon (linearna veza naprezanja i deformacije) i pojam stanice. Robert Boyle iz istog razdoblja proučavao je svojstva mekog tkiva i disanje riba.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 12",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-020",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Prema Bertiniju, iliofemuralna sveza zgloba kuka može izdržati vlačnu silu do ___.",
+    "answer": "3500 N",
+    "accepted": [
+      "3500 N",
+      "3500",
+      "3 500 N",
+      "3,5 kN"
+    ],
+    "distractors": [
+      "2000 N",
+      "350 N",
+      "5000 N"
+    ],
+    "explanation": "Bertini je pri seciranju čovjeka koji je pokušao atentat na Luja XVI. i bio rastrgnut konjima zapazio da iliofemuralna sveza zgloba kuka izdrži vlačnu silu do 3500 N.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 13",
+    "tags": [
+      "brojka",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-021",
+    "chapter": "02",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što su braća Weber dokazala 1830. na zglobu kuka?",
+    "answer": "da atmosferski tlak omogućuje stalni kontakt zglobnih tijela",
+    "accepted": [
+      "da atmosferski tlak omogućuje stalni kontakt zglobnih tijela"
+    ],
+    "distractors": [
+      "da trabekule prate pravce naprezanja",
+      "da sveza izdrži 3500 N",
+      "da je čvrstoća kosti proporcionalna presjeku"
+    ],
+    "explanation": "Braća Weber 1830. pokazala su da zglobna tijela kuka drži u stalnom kontaktu atmosferski tlak – zglob se ponaša kao vakuumski spoj, ne samo zbog mišića i sveza.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 14",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-022",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Ocem bioinženjerstva naziva se ___.",
+    "answer": "Helmholtz",
+    "accepted": [
+      "Helmholtz",
+      "Helmholz",
+      "Hermann von Helmholtz"
+    ],
+    "distractors": [
+      "Pauwels",
+      "Wolff",
+      "Galilei"
+    ],
+    "explanation": "Helmholtz (1821.–1894.) proučavao je mehanizam sluha (Helmholtzov rezonator), konstruirao instrumente za oko (oftalmoskop) i grafički bilježio mišićne kontrakcije, pa ga se zove ocem bioinženjerstva. Pauwels je otac suvremene ortopedske biomehanike.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 14; skripta.md – Uvod",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-023",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Zakon transformacije kosti, prema kojem na oblik i građu kosti djeluju uvjeti mehaničkog opterećenja, postavio je ___.",
+    "answer": "Wolff",
+    "accepted": [
+      "Wolff",
+      "J. Wolff",
+      "Julius Wolff"
+    ],
+    "distractors": [
+      "Roux",
+      "Pauwels",
+      "Culmann"
+    ],
+    "explanation": "Wolffov zakon kaže da se kost pregrađuje prema opterećenju: gdje je opterećenje veće, kost postaje jača i obrnuto. Roux je postavio min.-max. zakon i teoriju funkcijske prilagodbe.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 15",
+    "tags": [
+      "povijest",
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-024",
+    "chapter": "02",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što kaže Rouxov min.-max. zakon?",
+    "answer": "organi su građeni tako da s najmanjom količinom tvari obave najveću fiziološku funkciju",
+    "accepted": [
+      "organi su građeni tako da s najmanjom količinom tvari obave najveću fiziološku funkciju"
+    ],
+    "distractors": [
+      "kost se pregrađuje prema uvjetima mehaničkog opterećenja",
+      "vlačno opterećenje uzrokuje nastanak koštanog tkiva",
+      "čvrstoća kosti proporcionalna je površini presjeka"
+    ],
+    "explanation": "Min.-max. zakon je načelo optimalnog dimenzioniranja: minimum materijala, maksimum funkcije – isti cilj kao u inženjerstvu. Prilagodba oblika kosti opterećenju je Wolffov zakon.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 15",
+    "tags": [
+      "definicija",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-025",
+    "chapter": "02",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je Roux (manjkavo) tvrdio da uzrokuje vlačno opterećenje?",
+    "answer": "nastanak vezivnog tkiva",
+    "accepted": [
+      "nastanak vezivnog tkiva"
+    ],
+    "distractors": [
+      "nastanak koštanog tkiva",
+      "nastanak hrskavice",
+      "resorpciju kosti"
+    ],
+    "explanation": "Prema Rouxovoj teoriji vlačno opterećenje uzrokuje nastanak vezivnog tkiva, tlačno koštanog tkiva, a posmične sile zajedno s tlačnim i vlačnim utječu na stvaranje hrskavice. Teorija se smatra manjkavom, ali je pokazala vezu opterećenja i vrste tkiva.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 15",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-026",
+    "chapter": "02",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Na kojoj se hijerarhijskoj razini organizma utvrđuju mehanička svojstva tkiva?",
+    "answer": "histologija",
+    "accepted": [
+      "histologija"
+    ],
+    "distractors": [
+      "citologija",
+      "molekularna razina",
+      "organizam kao cjelina"
+    ],
+    "explanation": "Hijerarhijske razine idu od vanjske okoline i organizma kao cjeline, preko dijela tijela, do histologije (mehanička svojstva tkiva), citologije (stanice, npr. osteociti), staničnih organela i molekularne razine (kolagen, elastin).",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 18",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-027",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kod ispitivanja anatomskog preparata na temperaturama iznad ___ °C povećava se modul elastičnosti uzorka.",
+    "answer": "37",
+    "accepted": [
+      "37",
+      "37 °C",
+      "37°C",
+      "37 C"
+    ],
+    "distractors": [
+      "20",
+      "40",
+      "25"
+    ],
+    "explanation": "Temperatura preparata i okoline znatno utječe na rezultat: iznad 37 °C (tjelesna temperatura) modul elastičnosti uzorka raste. Zato se pri ispitivanju moraju kontrolirati temperatura i vlažnost zraka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 22",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-028",
+    "chapter": "02",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je glavna prednost anatomskog preparata kao modela?",
+    "answer": "u strukturi je zapisana raspodjela naprezanja, pa se može rekonstruirati približna slika opterećenja",
+    "accepted": [
+      "u strukturi je zapisana raspodjela naprezanja, pa se može rekonstruirati približna slika opterećenja"
+    ],
+    "distractors": [
+      "može reagirati na mehaničke podražaje",
+      "sadrži intravaskularnu i staničnu tekućinu",
+      "pokusi se mogu ponavljati uz mijenjanje uvjeta"
+    ],
+    "explanation": "Mrtvo tkivo više ne reagira na podražaje, ali je tijekom života funkcionalnom prilagodbom „zapamtilo” kako je bilo opterećeno (npr. raspored trabekula). Iz toga se rekonstruira približna slika opterećenja. Ponavljanje pokusa uz promjenu uvjeta prednost je arteficijalnih modela.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 21 i 22",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-029",
+    "chapter": "02",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "U koju skupinu pokusnih životinja po veličini spadaju ovca, pas, kunić i mačka?",
+    "answer": "srednje",
+    "accepted": [
+      "srednje"
+    ],
+    "distractors": [
+      "velike",
+      "male",
+      "primati"
+    ],
+    "explanation": "Pokusne životinje dijele se po veličini na velike (konj, govedo, svinja, majmun), srednje (ovca, pas, kunić, mačka) i male (štakor, zamorac, miš).",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 23",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-030",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Lutke za istraživanje nastanka ozljeda u prometnim nesrećama primjer su ___ modela.",
+    "answer": "arteficijalnih",
+    "accepted": [
+      "arteficijalnih",
+      "arteficijalni",
+      "arteficijalnog",
+      "umjetnih"
+    ],
+    "distractors": [
+      "matematičkih",
+      "anatomskih",
+      "kliničkih"
+    ],
+    "explanation": "Arteficijalni (umjetni) modeli daju približne podatke, ali se pokusi mogu ponavljati uz kontrolirano mijenjanje uvjeta – na lutkama se sudar može ponoviti mnogo puta, što na ljudima nije moguće.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 21",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-031",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Matematički modeli zamjenjuju skupe i složene pokuse; najpoznatija numerička metoda je metoda ___ elemenata.",
+    "answer": "konačnih",
+    "accepted": [
+      "konačnih",
+      "konačnih elemenata",
+      "MKE"
+    ],
+    "distractors": [
+      "rubnih",
+      "konačnih razlika",
+      "diskretnih"
+    ],
+    "explanation": "Metoda konačnih elemenata (MKE) dijeli strukturu na mnogo malih elemenata i numerički računa naprezanja i deformacije. Uz konstitutivne jednadžbe za biološke materijale omogućuje virtualne pokuse umjesto skupih stvarnih.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 24",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-02-032",
+    "chapter": "02",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Drugi korak u redoslijedu istraživanja u biomehanici je eliminacija ___ koji bitno ne utječu na problem.",
+    "answer": "faktora",
+    "accepted": [
+      "faktora",
+      "faktori",
+      "čimbenika"
+    ],
+    "distractors": [
+      "modela",
+      "rezultata",
+      "ispitanika"
+    ],
+    "explanation": "Redoslijed: 1. uočiti problem, 2. eliminirati faktore koji bitno ne utječu na problem, 3. odabrati model, 4. analizirati rezultate i procijeniti pouzdanost (ponovljivost, statistička pogreška), 5. zaključci.",
+    "image": null,
+    "explanation_image": null,
+    "source": "2_Povijest.pdf, slajd 25",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  }
+]

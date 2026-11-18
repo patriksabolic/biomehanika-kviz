@@ -1,0 +1,896 @@
+[
+  {
+    "id": "bm-01-001",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Konačna ocjena iz Biomehanike čini se od kolokvija ___ i programskog zadatka 20 %.",
+    "answer": "80 %",
+    "accepted": [
+      "80 %",
+      "80",
+      "80%"
+    ],
+    "distractors": [
+      "70 %",
+      "60 %",
+      "50 %"
+    ],
+    "explanation": "Kolokvij nosi 80 % ocjene, a programski zadatak preostalih 20 %. Zbroj je 100 %, pa je kolokvij daleko najvažniji dio – zato se ova aplikacija i fokusira na njega.",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 2",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-002",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Prema „krivulji udvostručenja znanja” ljudsko se znanje do 1900. godine udvostručavalo svakih ___.",
+    "answer": "100 godina",
+    "accepted": [
+      "100 godina",
+      "stoljeće",
+      "svako stoljeće",
+      "100",
+      "sto godina"
+    ],
+    "distractors": [
+      "25 godina",
+      "50 godina",
+      "13 mjeseci"
+    ],
+    "explanation": "Do 1900. znanje se udvostručavalo otprilike jednom u stoljeću. Do kraja Drugog svjetskog rata to se skratilo na 25 godina, a 2019. na samo 13 mjeseci – razdoblje udvostručenja se stalno skraćuje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 4",
+    "tags": [
+      "brojka",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-003",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Do kraja Drugog svjetskog rata udvostručenje ljudskog znanja trajalo je ___.",
+    "answer": "25 godina",
+    "accepted": [
+      "25 godina",
+      "25"
+    ],
+    "distractors": [
+      "13 godina",
+      "50 godina",
+      "100 godina"
+    ],
+    "explanation": "Na krivulji udvostručenja znanja slijed je: svako stoljeće (do 1900.) → 25 godina (do kraja Drugog svjetskog rata) → 13 mjeseci (2019.). Broj 25 je sredina tog niza.",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 4",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-004",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Godine 2019. vrijeme potrebno za prosječno udvostručenje ljudskog znanja bilo je ___.",
+    "answer": "13 mjeseci",
+    "accepted": [
+      "13 mjeseci",
+      "13"
+    ],
+    "distractors": [
+      "3,5 mjeseca",
+      "25 mjeseci",
+      "6 mjeseci"
+    ],
+    "explanation": "Prema krivulji udvostručenja znanja 2019. godine znanje se u prosjeku udvostručavalo za 13 mjeseci. Ne miješaj s 3,5 mjeseca – to je ritam udvostručenja dnevno obrađenih podataka u istraživanjima umjetne inteligencije.",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 4",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-005",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Istraživanja u umjetnoj inteligenciji (2019.) udvostručuju količinu dnevno obrađenih podataka svakih ___.",
+    "answer": "3,5 mjeseca",
+    "accepted": [
+      "3,5 mjeseca",
+      "3,5",
+      "3.5 mjeseca",
+      "3.5"
+    ],
+    "distractors": [
+      "13 mjeseci",
+      "6 mjeseci",
+      "1,5 mjesec"
+    ],
+    "explanation": "Umjetna inteligencija obrađuje podatke puno brže nego što raste ukupno ljudsko znanje: dnevna količina obrađenih podataka udvostručuje se svakih 3,5 mjeseca, dok se znanje 2019. udvostručavalo za 13 mjeseci.",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 4",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-006",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U svijetu je 2025. godine generirano ___ zetabajta podataka.",
+    "answer": "181",
+    "accepted": [
+      "181",
+      "181 zetabajt",
+      "181 ZB",
+      "181 zetabajta"
+    ],
+    "distractors": [
+      "221",
+      "13",
+      "100"
+    ],
+    "explanation": "Godine 2025. generiran je 181 zetabajt podataka, a za 2026. procjena je 221 zetabajt. Jedan zetabajt je tisuću milijardi gigabajta, pa su to golemi i brzo rastući iznosi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 4",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-007",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Procjenjuje se da će se 2026. godine u svijetu generirati ___ zetabajta podataka.",
+    "answer": "221",
+    "accepted": [
+      "221",
+      "221 zetabajt",
+      "221 ZB",
+      "221 zetabajta"
+    ],
+    "distractors": [
+      "181",
+      "131",
+      "250"
+    ],
+    "explanation": "Procjena za 2026. je 221 zetabajt, za 40 više od 181 zetabajta generiranog 2025. Jedan zetabajt je tisuću milijardi gigabajta.",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 4",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-008",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Parni stroj, kojim se ljudski i životinjski rad zamjenjuje mehaničkom energijom, vezan je uz godinu ___.",
+    "answer": "1765",
+    "accepted": [
+      "1765",
+      "1765."
+    ],
+    "distractors": [
+      "1865",
+      "1830",
+      "1609"
+    ],
+    "explanation": "Godina 1765. (parni stroj) prvi je korak na vremenskoj crti tehnoloških revolucija: slijede električna energija i masovna proizvodnja krajem 19. st., digitalna revolucija krajem 20. st., a danas automatizacija i umjetna inteligencija.",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 5",
+    "tags": [
+      "brojka",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-009",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "„Tehnološki singularitet”, kada umjetna inteligencija nadmašuje ukupnu ljudsku inteligenciju, predviđa se za ___. godinu.",
+    "answer": "2050",
+    "accepted": [
+      "2050",
+      "2050."
+    ],
+    "distractors": [
+      "2040",
+      "2030",
+      "2026"
+    ],
+    "explanation": "Na vremenskoj crti iz uvoda kvantno računalstvo predviđa se za 2040., a tehnološki singularitet za 2050. – trenutak kad umjetna inteligencija nadmaši ukupnu ljudsku inteligenciju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 5",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-010",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kvantno računalstvo na vremenskoj crti tehnološkog razvoja predviđa se za ___. godinu.",
+    "answer": "2040",
+    "accepted": [
+      "2040",
+      "2040."
+    ],
+    "distractors": [
+      "2050",
+      "2030",
+      "2026"
+    ],
+    "explanation": "Slijed je: 1765. parni stroj, kraj 19. st. električna energija, kraj 20. st. digitalna revolucija, danas AI, 2040. kvantno računalstvo i 2050. tehnološki singularitet.",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 5",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-011",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Prvi hrvatski model femoralne komponente endoproteze zgloba kuka ROM nastao je ___. godine.",
+    "answer": "1985",
+    "accepted": [
+      "1985",
+      "1985."
+    ],
+    "distractors": [
+      "1965",
+      "1995",
+      "1975"
+    ],
+    "explanation": "Endoprotezu zgloba kuka ROM razvili su 1985. prof. Ruszkowski, prof. Orlić i prof. Muftić. Femoralna komponenta je dio endoproteze koji se ugrađuje u bedrenu kost (femur).",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 8",
+    "tags": [
+      "brojka",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-012",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Biomehanički stimulus koji inicira ortodontsko gibanje zuba je deformacija ___.",
+    "answer": "parodontnog ligamenta",
+    "accepted": [
+      "parodontnog ligamenta",
+      "parodontni ligament",
+      "PDL",
+      "parodontnog ligamenta (PDL)"
+    ],
+    "distractors": [
+      "alveolne kosti",
+      "dentina",
+      "zubne cakline"
+    ],
+    "explanation": "Kad ortodontska naprava pritisne zub, najprije se deformira parodontni ligament koji povezuje zub s kosti. Ta deformacija je mehanički podražaj na koji kost odgovara pregradnjom, pa se zub postupno pomiče.",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 10",
+    "tags": [
+      "definicija",
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-013",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pomaci zuba kod ortodontske terapije nastaju zbog pregradnje ___ kosti kao odgovora na mehanički podražaj.",
+    "answer": "alveolne",
+    "accepted": [
+      "alveolne",
+      "alveolne kosti",
+      "alveolna",
+      "alveolarne"
+    ],
+    "distractors": [
+      "kortikalne",
+      "spužvaste",
+      "čeljusne"
+    ],
+    "explanation": "Zub stoji u alveoli, udubini čeljusne kosti. Mehanički podražaj (preko parodontnog ligamenta) pokreće pregradnju alveolne kosti – s jedne strane se kost razgrađuje, s druge stvara – i zub se tako pomiče.",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 10",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-014",
+    "chapter": "01",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja se razina modela koštane pregradnje u dentalnoj biomehanici zove mikroFE model?",
+    "answer": "model na razini trabekula",
+    "accepted": [
+      "model na razini trabekula"
+    ],
+    "distractors": [
+      "homogenizirani model sa zakonom pregradnje kosti",
+      "model s parcijalnim dif. jednadžbama za gustoću stanica",
+      "model s koncentriranim parametrima"
+    ],
+    "explanation": "Koštana pregradnja modelira se na tri načina: homogenizirani FE modeli (primjena zakona pregradnje kosti na kost kao kontinuum), mikroFE modeli (razina pojedinih trabekula) i mehanobiološki modeli (parcijalne diferencijalne jednadžbe za gustoću stanica, faktore rasta…).",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 10",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-015",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Za simulaciju rada srca i cijele cirkulacije razvijen je model s ___ parametrima.",
+    "answer": "koncentriranim",
+    "accepted": [
+      "koncentriranim",
+      "koncentriranim parametrima",
+      "koncentrirani"
+    ],
+    "distractors": [
+      "raspodijeljenim",
+      "linearnim",
+      "stohastičkim"
+    ],
+    "explanation": "Model s koncentriranim parametrima opisuje srce i krvožilje malim brojem elemenata (otpori, kapaciteti, inercije) umjesto detaljne 3D geometrije. Zato je dovoljno brz da se koristi u edukaciji i kliničkoj praksi, npr. za procjenu plućne hipertenzije.",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 14 i 15",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-016",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Model širenja disekcije razvija se za disekciju tipa ___ torakalne aorte.",
+    "answer": "B",
+    "accepted": [
+      "B",
+      "tip B",
+      "tipa B"
+    ],
+    "distractors": [
+      "A",
+      "C",
+      "I"
+    ],
+    "explanation": "Disekcija je razdvajanje slojeva stijenke aorte. Istraživanje modelira evoluciju disekcije tipa B torakalne aorte i utjecaj nastanka tromba na ishod bolesti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 13",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-017",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Za eksperimentalna ispitivanja implantata i biološkog tkiva koristi se optički sustav ___.",
+    "answer": "ARAMIS",
+    "accepted": [
+      "ARAMIS",
+      "Aramis"
+    ],
+    "distractors": [
+      "ELITE",
+      "Xsens",
+      "Kistler"
+    ],
+    "explanation": "ARAMIS je optički mjerni sustav kojim se ispituju vanjski fiksatori, pločice za osteosintezu, endoproteze kuka, kosti i meko tkivo. Rezultati eksperimenta služe za validaciju numeričkih modela. ELITE i Xsens služe za praćenje pokreta, a Kistler je platforma za sile.",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 18 i 19",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-018",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Implantati kompliciranih geometrija posredno se izrađuju od koštanog cementa ___ u 3D tiskanim kalupima.",
+    "answer": "PMMA",
+    "accepted": [
+      "PMMA",
+      "polimetilmetakrilat",
+      "polimetil-metakrilat"
+    ],
+    "distractors": [
+      "PEEK",
+      "PLA",
+      "hidroksiapatit"
+    ],
+    "explanation": "Certificiranih medicinskih materijala za aditivne tehnologije ima malo. Zato se 3D tiska samo kalup, a implantat se u njemu izlije od koštanog cementa PMMA, koji je već certificiran za uporabu u tijelu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "1_Uvod_2026.pdf, slajd 24",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-019",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kistler platforma mjeri tri komponente rezultantne sile i momenta te koordinate ___ rezultante.",
+    "answer": "hvatišta",
+    "accepted": [
+      "hvatišta",
+      "hvatište",
+      "hvatista"
+    ],
+    "distractors": [
+      "težišta",
+      "središta pritiska",
+      "osi rotacije"
+    ],
+    "explanation": "Kistler platforma mjeri sile koje tijelo prenosi na podlogu: tri komponente rezultantne sile, tri komponente momenta i točku u kojoj rezultanta djeluje – hvatište. U ELITE sustavu kombinira se s kamerama koje prate markere.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Uvod, mjerni sustavi i modeli",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-020",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Prijenosni Xsens sustav za 3D analizu pokreta koristi ___ bežičnih senzora.",
+    "answer": "17",
+    "accepted": [
+      "17",
+      "17 senzora",
+      "sedamnaest"
+    ],
+    "distractors": [
+      "10",
+      "20",
+      "60"
+    ],
+    "explanation": "Xsens ima 17 bežičnih senzora koji se trakama pričvršćuju na tijelo. Snima frekvencijom 60 Hz, domet mu je 20 m, baterija traje 6 sati i ne zahtijeva kalibraciju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Uvod, mjerni sustavi i modeli",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-021",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Frekvencija snimanja Xsens sustava iznosi ___.",
+    "answer": "60 Hz",
+    "accepted": [
+      "60 Hz",
+      "60",
+      "60Hz"
+    ],
+    "distractors": [
+      "17 Hz",
+      "20 Hz",
+      "100 Hz"
+    ],
+    "explanation": "Xsens snima 60 puta u sekundi (60 Hz). Ostali brojevi: 17 senzora, domet 20 m, baterija 6 sati.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Uvod, mjerni sustavi i modeli",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-022",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Domet Xsens sustava je ___, a baterija traje 6 sati.",
+    "answer": "20 m",
+    "accepted": [
+      "20 m",
+      "20",
+      "20m"
+    ],
+    "distractors": [
+      "60 m",
+      "17 m",
+      "10 m"
+    ],
+    "explanation": "Xsens je prijenosan i bežičan, pa je važan domet: 20 m. Uz to ima 17 senzora, 60 Hz i bateriju od 6 sati koja se puni USB kabelom.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Uvod, mjerni sustavi i modeli",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-023",
+    "chapter": "01",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Po čemu se Xsens sustav razlikuje od ELITE sustava?",
+    "answer": "ne zahtijeva kalibraciju",
+    "accepted": [
+      "ne zahtijeva kalibraciju"
+    ],
+    "distractors": [
+      "koristi infracrvene kamere",
+      "koristi reflektirajuće markere",
+      "mjeri raspodjelu pritiska"
+    ],
+    "explanation": "ELITE prije snimanja zahtijeva kalibraciju (definiranje radnog volumena kamera), jer markere prate kamere. Xsens koristi senzore na tijelu, pa radi bez kalibracije i prijenosan je.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Uvod, mjerni sustavi i modeli",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-024",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "TEKSCAN MobileMAT platforma određuje raspodjelu ___ na kontaktnoj površini tijela i platforme.",
+    "answer": "pritiska",
+    "accepted": [
+      "pritiska",
+      "pritisak",
+      "tlaka"
+    ],
+    "distractors": [
+      "sile trenja",
+      "temperature",
+      "brzine"
+    ],
+    "explanation": "TEKSCAN MobileMAT je prijenosna platforma koja mjeri kako je pritisak raspodijeljen ispod tijela (npr. stopala), te središte i maksimalnu vrijednost pritiska.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Uvod, mjerni sustavi i modeli",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-025",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pri pojednostavljenju skeleton se u biomehaničkom modelu dijeli na ___ segmenata.",
+    "answer": "10",
+    "accepted": [
+      "10",
+      "deset"
+    ],
+    "distractors": [
+      "17",
+      "14",
+      "6"
+    ],
+    "explanation": "Za analizu gibanja i opterećenja tijelo se pojednostavljuje na 10 segmenata. Tako se dobije model s dovoljno dijelova za analizu pokreta, a dovoljno jednostavan za račun.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Uvod, mjerni sustavi i modeli",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-026",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Težište ljudskog tijela u stojećem položaju nalazi se u blizini ___.",
+    "answer": "pupka",
+    "accepted": [
+      "pupka",
+      "pupak"
+    ],
+    "distractors": [
+      "prsne kosti",
+      "zgloba kuka",
+      "trtice"
+    ],
+    "explanation": "U stojećem položaju težište tijela je u blizini pupka. Kad se položaj tijela promijeni (npr. predklon), težište se pomiče, pa se zato određuje žičanim modelima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Uvod, mjerni sustavi i modeli",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-027",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Denzitometrija određuje udio mineralnih tvari u kostima pomoću ___.",
+    "answer": "X-zraka",
+    "accepted": [
+      "X-zraka",
+      "X-zrake",
+      "x zraka",
+      "rendgenskih zraka",
+      "rendgenske zrake"
+    ],
+    "distractors": [
+      "γ-zračenja",
+      "ultrazvuka",
+      "magnetske rezonancije"
+    ],
+    "explanation": "Denzitometrija je test mineralne gustoće kostiju: X-zrake prolaze kroz kost, a koliko ih se apsorbira ovisi o udjelu minerala. Ne miješaj s radioizotopnom metodom Donskog i Zaciorskog, koja koristi γ-zračenje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Uvod, mjerni sustavi i modeli",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-028",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U inercijskom modelu stopalo i dijelovi trupa zamjenjuju se geometrijskim tijelom ___.",
+    "answer": "paralelepiped",
+    "accepted": [
+      "paralelepiped",
+      "paralelepipedom",
+      "kvadar"
+    ],
+    "distractors": [
+      "valjak",
+      "elipsoid",
+      "kugla"
+    ],
+    "explanation": "Inercijski model bira oblik koji najbolje odgovara segmentu: paralelepiped za stopalo i gornji, srednji i donji dio trupa, valjak za segmente udova, a elipsoid za šaku te glavu s vratom.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Uvod, mjerni sustavi i modeli",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-029",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U inercijskom modelu šaka te glava s vratom zamjenjuju se geometrijskim tijelom ___.",
+    "answer": "elipsoid",
+    "accepted": [
+      "elipsoid",
+      "elipsoidom"
+    ],
+    "distractors": [
+      "valjak",
+      "paralelepiped",
+      "kugla"
+    ],
+    "explanation": "Šaka i glava s vratom su zaobljeni, pa ih najbolje opisuje elipsoid. Valjci su segmenti ruku i nogu, a paralelepipedi stopalo i dijelovi trupa.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Uvod, mjerni sustavi i modeli",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-030",
+    "chapter": "01",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Čemu služe žičani modeli tijela (štapovi spojeni u zglobovima)?",
+    "answer": "određivanju težišta i opterećenja",
+    "accepted": [
+      "određivanju težišta i opterećenja"
+    ],
+    "distractors": [
+      "određivanju dinamičkih momenata tromosti",
+      "određivanju gustoće tkiva",
+      "mjerenju raspodjele pritiska"
+    ],
+    "explanation": "Žičani model svodi segmente na štapove spojene u zglobovima i služi za određivanje težišta i opterećenja. Za dinamičke momente tromosti potreban je inercijski model, jer štap nema volumen ni raspodjelu mase.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Uvod, mjerni sustavi i modeli",
+    "tags": [
+      "funkcija",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-01-031",
+    "chapter": "01",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Inercijski model pretpostavlja simetriju tijela s obzirom na sagitalnu i ___ ravninu.",
+    "answer": "frontalnu",
+    "accepted": [
+      "frontalnu",
+      "frontalna",
+      "frontalnu ravninu"
+    ],
+    "distractors": [
+      "transverzalnu",
+      "horizontalnu",
+      "medijalnu"
+    ],
+    "explanation": "Pojednostavljenja inercijskog modela su: segmenti su kruta tijela spojena u zglobovima, svaki ima jednoliku gustoću, a tijelo je simetrično s obzirom na sagitalnu i frontalnu ravninu. Simetrija znatno pojednostavljuje račun momenata tromosti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "skripta.md – Uvod, mjerni sustavi i modeli",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  }
+]
