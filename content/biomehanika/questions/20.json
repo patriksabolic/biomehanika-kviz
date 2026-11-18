@@ -88,7 +88,7 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Kako glasi izraz za silu mišića s paralelnim vlaknima prema slajdu (x, y – dimenzije presjeka, Fn – sila, A – površina)?",
+    "prompt": "Kako glasi izraz za silu mišića s paralelnim vlaknima prema slajdu (x, y – dimenzije poprečnog presjeka označene na skici)?",
     "answer": "F_paral = x·y·Fn/A",
     "accepted": [
       "F_paral = x·y·Fn/A",
@@ -99,7 +99,7 @@
       "F_paral = x·y/(Fn·A)",
       "F_paral = 2·x·y·Fn/A"
     ],
-    "explanation": "Kod paralelnih vlakana sila je proporcionalna površini presjeka x·y kroz koji prolaze vlakna, pomnoženoj s Fn i podijeljenoj s A. Nema kutnih članova, jer vlakna vuku točno u smjeru osi mišića.",
+    "explanation": "Kod paralelnih vlakana sila je razmjerna površini poprečnog presjeka x·y kroz koji prolaze vlakna, pomnoženoj s F_n i podijeljenoj s A. Nema kutnih članova, jer vlakna vuku točno u smjeru osi mišića.",
     "image": null,
     "explanation_image": null,
     "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
@@ -125,7 +125,7 @@
       "F_per = 2·x·L·cos α·Fn·sin αn/A",
       "F_per = x·L·Fn/(2·A·sin α)"
     ],
-    "explanation": "Kod perastog mišića (skica na slajdu) vlakna se s obje strane hvataju na tetivu duljine L, a izraz sadrži kutne članove sin α i cos αn. Član cos αn odražava to da se sila kosog vlakna u smjeru osi prenosi samo djelomično. Usporedi s F_paral = x·y·Fn/A, gdje kutnih članova nema.",
+    "explanation": "Kod perastog mišića vlakna se s obje strane hvataju na tetivu duž duljine mišića L (označena na skici), a izraz sadrži kutne članove sin α i cos α_n. Kutni članovi odražavaju to da se sila kosog vlakna u smjeru osi prenosi samo djelomično. Usporedi s F_paral = x·y·F_n/A, gdje kutnih članova nema.",
     "image": null,
     "explanation_image": null,
     "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
@@ -686,6 +686,152 @@
     "source": "20_Procjena misicne sile-nastavak.pdf, slajd 12",
     "tags": [
       "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-026",
+    "chapter": "20",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U izrazu F_paral = x·y·F_n/A umnožak x·y (dimenzije označene na skici) predstavlja ___ mišića.",
+    "answer": "poprečni presjek",
+    "accepted": [
+      "poprečni presjek",
+      "presjek",
+      "površinu poprečnog presjeka",
+      "površina poprečnog presjeka",
+      "površinu presjeka",
+      "površina presjeka"
+    ],
+    "distractors": [
+      "duljinu",
+      "volumen",
+      "kut perastosti"
+    ],
+    "explanation": "Na skici mišića s paralelnim vlaknima x i y su dimenzije poprečnog presjeka, pa je x·y površina kroz koju prolaze vlakna. Što je presjek veći, to više paralelnih vlakana vuče istodobno, pa sila F_paral raste razmjerno x·y.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-027",
+    "chapter": "20",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U izrazu za silu perastog mišića F_per = 2·x·L·sin α·F_n·cos α_n/A veličina L označena na skici je ___ mišića.",
+    "answer": "duljina",
+    "accepted": [
+      "duljina",
+      "dužina",
+      "duljina mišića",
+      "dužina mišića"
+    ],
+    "distractors": [
+      "širina",
+      "debljina",
+      "polumjer"
+    ],
+    "explanation": "Na skici perastog mišića L je duljina mišića uz koju se kosa vlakna s obje strane hvataju na tetivu. Zato se u izrazu za F_per umjesto drugog poprečnog izmjera y pojavljuje 2·x·L·sin α: koso postavljena vlakna zauzimaju cijelu duljinu mišića, pa ih stane više nego u paralelnom rasporedu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-028",
+    "chapter": "20",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako glasi omjer sila perastog mišića i mišića s paralelnim vlaknima F_per/F_paral prema slajdu?",
+    "answer": "F_per/F_paral = 2L·sin α·√(n² − sin²α)/(n·y)",
+    "accepted": [
+      "F_per/F_paral = 2L·sin α·√(n² − sin²α)/(n·y)"
+    ],
+    "distractors": [
+      "F_per/F_paral = 2L·cos α·√(n² − sin²α)/(n·y)",
+      "F_per/F_paral = 2L·sin α·√(n² + sin²α)/(n·y)",
+      "F_per/F_paral = n·y/(2L·sin α·√(n² − sin²α))"
+    ],
+    "explanation": "Omjer slijedi dijeljenjem izraza F_per = 2·x·L·sin α·F_n·cos α_n/A s F_paral = x·y·F_n/A: x, F_n i A se skrate, a ostaje 2L·sin α·cos α_n/y, pri čemu je cos α_n izražen preko n i sin α. Na slajdu je pod korijenom zapisano \"sin α²\", što znači sin²α. Omjer veći od 1 pokazuje da perasti mišić iste veličine razvija veću silu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
+    "tags": [
+      "formula",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-029",
+    "chapter": "20",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se prenosi sila kod perastih mišića?",
+    "answer": "djelomično pod kutem α",
+    "accepted": [
+      "djelomično pod kutem α",
+      "djelomično pod kutem"
+    ],
+    "distractors": [
+      "izravno u smjeru kontrakcije",
+      "okomito na os mišića",
+      "u cijelosti preko paralelnog elementa"
+    ],
+    "explanation": "Kod perastih mišića vlakna su koso u odnosu na os mišića i hvataju se na tetivu pod kutem α. U smjeru osi prenosi se samo komponenta sile vlakna, pa je prijenos djelomičan – za razliku od mišića s paralelnim vlaknima, gdje sila ide izravno u smjeru kontrakcije.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-030",
+    "chapter": "20",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Perasti mišići razvijaju veću ukupnu silu kontrakcije jer imaju više ___ po presjeku.",
+    "answer": "vlakana",
+    "accepted": [
+      "vlakana",
+      "vlakna",
+      "mišićnih vlakana",
+      "mišićna vlakna"
+    ],
+    "distractors": [
+      "tetiva",
+      "sarkomera",
+      "krvnih žila"
+    ],
+    "explanation": "Iako se sila svakog kosog vlakna u smjeru osi prenosi samo djelomično, u isti presjek perastog mišića stane znatno više vlakana. Veći broj vlakana nadoknađuje gubitak zbog kuta, pa je ukupna sila kontrakcije veća nego kod mišića s paralelnim vlaknima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
+    "tags": [
+      "usporedba"
     ],
     "real_exam": false
   }

@@ -26,9 +26,12 @@ export function parseNumber(s) {
     .replace(/10([⁻⁰¹²³⁴⁵⁶⁷⁸⁹]+)/g, (_, e) => '10^' + [...e].map((c) => SUPERSCRIPT[c]).join(''))
     .replace(/(\d),(\d)/g, '$1.$2')
     .replace(/(\d) (?=\d{3}(?!\d))/g, '$1')
-    .replace(/−/g, '-');
+    .replace(/−/g, '-')
+    .replace(/^10\s*\^\s*(-?\d+)/, '1e$1'); // samo potencija: 10^-8 = 1e-8
   const m = /^(-?\d+(?:\.\d+)?)\s*(?:[x×·*]\s*10\s*\^\s*(-?\d+)|e([-+]?\d+))?\s*([^\d]*)$/u.exec(t);
   if (!m) return null;
+  // Iza broja smije biti jedinica, ne formula (npr. 2π/λ nije broj 2).
+  if (/[π()√+=·×*]/u.test(m[4])) return null;
   const exp = m[2] ?? m[3];
   const value = parseFloat(m[1]) * (exp !== undefined ? 10 ** Number(exp) : 1);
   return Number.isFinite(value) ? value : null;
@@ -64,12 +67,13 @@ export function gradeFill(input, q) {
   if (distractors.includes(u)) return false;
 
   const un = parseNumber(input);
+  const numericQ = parseNumber(q.answer) !== null; // brojčana tolerancija samo kad je točan odgovor broj
   let bestTypo = Infinity;
   for (const x of targets) {
     const xn = normalize(x);
     const num = parseNumber(x);
     if (num !== null) {
-      if (un !== null && Math.abs(un - num) <= 0.01 * Math.abs(num)) return true;
+      if (numericQ && un !== null && Math.abs(un - num) <= 0.01 * Math.abs(num)) return true;
       continue; // brojčani odgovori nemaju toleranciju za tipfelere
     }
     if (/\d/.test(xn)) continue; // ni odgovori sa znamenkama (npr. 2/3, 27-67 %)

@@ -752,5 +752,235 @@
       "brojka"
     ],
     "real_exam": false
+  },
+  {
+    "id": "bm-22-026",
+    "chapter": "22",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako glasi izraz za tlak zvučnog vala p prema slajdu?",
+    "answer": "p = (k·ρ0·c²·y_m)·sin(kx − ωt)",
+    "accepted": [
+      "p = (k·ρ0·c²·y_m)·sin(kx − ωt)"
+    ],
+    "distractors": [
+      "p = (k·ρ0·c·y_m)·sin(kx − ωt)",
+      "p = (ρ0·c²·y_m/k)·sin(kx − ωt)",
+      "p = (k·ρ0·c²·y_m)·(kx − ωt)"
+    ],
+    "explanation": "Tlak zvučnog vala titra oko ravnotežne vrijednosti, pa izraz ima oblik amplituda × sin(kx − ωt). Amplituda tlaka raste s valnim brojem k, kvadratom brzine zvuka c i amplitudom pomaka y_m: što čestice medija jače titraju, to su veće promjene tlaka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 16",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-027",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U izrazu za tlak zvučnog vala valni broj iznosi k = ___.",
+    "answer": "2π/λ",
+    "accepted": [
+      "2π/λ",
+      "2π/Λ",
+      "2·π/λ",
+      "2pi/lambda",
+      "2 pi / lambda"
+    ],
+    "distractors": [
+      "λ/2π",
+      "2π·λ",
+      "π/λ"
+    ],
+    "explanation": "Valni broj k = 2π/λ kaže koliko se faza vala promijeni po jedinici duljine: na jednoj valnoj duljini λ faza naraste za puni krug 2π. Kraći val (manji λ) zato ima veći k.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 16",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-028",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U izrazu za tlak zvučnog vala p = (k·ρ0·c²·y_m)·sin(kx − ωt) veličina y_m je ___.",
+    "answer": "amplituda",
+    "accepted": [
+      "amplituda",
+      "amplituda pomaka",
+      "amplitudu"
+    ],
+    "distractors": [
+      "valna duljina",
+      "fazni pomak",
+      "brzina zvuka"
+    ],
+    "explanation": "y_m je amplituda – najveći otklon čestica medija pri titranju. Tlak je razmjeran y_m, pa jači zvuk (veći otklon čestica) daje veće promjene tlaka na bubnjiću.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 16",
+    "tags": [
+      "formula",
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-029",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U izrazu za tlak zvučnog vala p = (k·ρ0·c²·y_m)·sin(kx − ωt) veličina c je ___.",
+    "answer": "brzina zvuka",
+    "accepted": [
+      "brzina zvuka",
+      "brzina širenja zvuka"
+    ],
+    "distractors": [
+      "amplituda",
+      "valna duljina",
+      "fazni pomak"
+    ],
+    "explanation": "c je brzina zvuka u mediju. U izrazu se pojavljuje kao c², pa medij u kojem zvuk putuje brže za isti pomak čestica daje veće promjene tlaka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 16",
+    "tags": [
+      "formula",
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-030",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Tlak zvučnog vala mijenja se ___ s vremenom.",
+    "answer": "sinusoidalno",
+    "accepted": [
+      "sinusoidalno",
+      "sinusno",
+      "sinusoidno"
+    ],
+    "distractors": [
+      "linearno",
+      "eksponencijalno",
+      "skokovito"
+    ],
+    "explanation": "U izrazu p = (k·ρ0·c²·y_m)·sin(kx − ωt) vrijeme je u argumentu sinusa, pa tlak u danoj točki periodički raste i pada oko ravnotežne vrijednosti. Zato se za opis jakosti zvuka koristi srednja vrijednost – zvučni tlak P.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 16",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-031",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Srednja vrijednost sinusoidalno promjenjivog tlaka zvučnog vala naziva se ___.",
+    "answer": "zvučni tlak",
+    "accepted": [
+      "zvučni tlak",
+      "zvučni tlak P",
+      "P"
+    ],
+    "distractors": [
+      "intenzitet zvuka",
+      "akustična impedancija",
+      "prag čujnosti"
+    ],
+    "explanation": "Trenutni tlak zvučnog vala stalno se mijenja po sinusu, pa sam po sebi nije praktična mjera jakosti zvuka. Zato se uzima njegova srednja vrijednost, zvučni tlak P, s kojim se dalje računaju intenzitet I = P²/Z i razina zvuka u dB.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 16",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-032",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U legendi izraza za tlak zvučnog vala p = (k·ρ0·c²·y_m)·sin(kx − ωt) veličina x označena je kao ___.",
+    "answer": "fazni pomak",
+    "accepted": [
+      "fazni pomak"
+    ],
+    "distractors": [
+      "amplituda",
+      "valna duljina",
+      "brzina zvuka"
+    ],
+    "explanation": "Na slajdu je x u legendi naveden kao \"fazni pomak\". Fizikalno je x položaj, tj. udaljenost u smjeru širenja vala: član kx daje fazu vala u točki x, pa se uz pomak duž vala mijenja faza titranja tlaka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 16",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-033",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U izrazu k = 2π/λ veličina λ je ___.",
+    "answer": "valna duljina",
+    "accepted": [
+      "valna duljina",
+      "valnu duljinu",
+      "lambda"
+    ],
+    "distractors": [
+      "amplituda",
+      "fazni pomak",
+      "brzina zvuka"
+    ],
+    "explanation": "λ je valna duljina – udaljenost između dvije susjedne točke vala u istoj fazi (u legendi slajda zapisana i kao Λ). Valni broj k = 2π/λ obrnuto je razmjeran valnoj duljini.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 16",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
   }
 ]
