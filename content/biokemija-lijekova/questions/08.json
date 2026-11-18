@@ -1,0 +1,834 @@
+[
+  {
+    "id": "bl-08-001",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "U kakvim su uvjetima redukcijske reakcije u organizmu izraženije?",
+    "answer": "u hipoksičnim uvjetima, pri niskom parcijalnom tlaku kisika",
+    "accepted": [
+      "u hipoksičnim uvjetima, pri niskom parcijalnom tlaku kisika",
+      "pri niskom tlaku kisika",
+      "u hipoksiji"
+    ],
+    "distractors": [
+      "pri visokom parcijalnom tlaku kisika",
+      "samo uz prisutnost molekulskog kisika",
+      "neovisno o tlaku kisika"
+    ],
+    "explanation": "Redukcija je prihvat elektrona i pripada reakcijama I. faze, ali je manje zastupljena od oksidacije. Kisik je konkurentski akceptor elektrona, pa nizak $p\\ce{O2}$ pogoduje redukciji; zato je osobito važna u crijevnoj mikrobioti, koja radi u anaerobnim uvjetima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajdovi 2 i 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-002",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je ključna razlika između jednoelektronske i dvoelektronske redukcije?",
+    "answer": "jednoelektronska daje radikalske međuprodukte i redoks-cikliranje, dvoelektronska ne",
+    "accepted": [
+      "jednoelektronska daje radikalske međuprodukte i redoks-cikliranje, dvoelektronska ne",
+      "jednoelektronska daje radikalske meduprodukte i redoks-cikliranje, dvoelektronska ne",
+      "jednoelektronska daje radikale"
+    ],
+    "distractors": [
+      "dvoelektronska daje radikale, a jednoelektronska stabilne produkte",
+      "jednoelektronska je uvijek detoksikacija",
+      "dvoelektronska se odvija samo u mikrobioti"
+    ],
+    "explanation": "Jednoelektronskom redukcijom nastaje radikal koji s kisikom daje superoksid i pokreće redoks-cikliranje te dodatnu proizvodnju ROS-a. Dvoelektronska redukcija (NQO1, AKR, CBR) ne stvara slobodni radikal supstrata i daje stabilnije produkte, ali može voditi i detoksikaciji i bioaktivaciji. Razlika je prije svega u potencijalu za toksičnost.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajdovi 2 i 4",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-003",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji čimbenici potiču redukcijske reakcije u stanici?",
+    "answer": "dostupnost NADPH i NADH, nizak tlak kisika i antioksidansi",
+    "accepted": [
+      "dostupnost NADPH i NADH, nizak tlak kisika i antioksidansi",
+      "NADPH, nizak kisik, antioksidansi"
+    ],
+    "distractors": [
+      "visoka koncentracija $\\ce{H2O2}$ i željeza",
+      "indukcija CYP3A4 rifampicinom",
+      "visoka koncentracija glukuronske kiseline"
+    ],
+    "explanation": "NADPH i NADH su izvor redukcijskih ekvivalenata, nizak $p\\ce{O2}$ uklanja konkurenciju kisika, a antioksidansi (glutation, vitamini C i E) održavaju reduktivnu sredinu. Uz to crijevna mikrobiota reducira nitro- i azo-spojeve, što je važno za aktivaciju prolijekova i presistemski metabolizam.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 3",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-004",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako redoks-aktivni ioni željeza pojačavaju štetnost radikalskih međuprodukata?",
+    "answer": "iz superoksida i $\\ce{H2O2}$ nastaje hidroksilni radikal",
+    "accepted": [
+      "iz superoksida i H2O2 nastaje hidroksilni radikal",
+      "nastaje hidroksilni radikal"
+    ],
+    "distractors": [
+      "vežu se na DNA umjesto radikala",
+      "pretvaraju superoksid izravno u vodu",
+      "inaktiviraju NADPH"
+    ],
+    "explanation": "Uz $\\ce{Fe^2+}$ niz ide superoksid → vodikov peroksid → hidroksilni radikal, koji je izrazito reaktivan. Takvi intermedijeri oštećuju lipide (peroksidacija), proteine (gubitak funkcije) i DNA (mutacije).",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 4",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-005",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji se reduktivni enzimi nalaze u citosolu?",
+    "answer": "NQO1, AKR, CBR i XOR",
+    "accepted": [
+      "NQO1, AKR, CBR i XOR",
+      "NQO1, AKR i CBR"
+    ],
+    "distractors": [
+      "CYP i POR",
+      "mARC-sustav",
+      "azoreduktaze crijevne mikrobiote"
+    ],
+    "explanation": "Citosolni enzimi rade dvoelektronske redukcije, uz XOR kod kojeg mogu nastati ROS. U endoplazmatskom retikulumu su CYP i POR, koji prenose pojedinačne elektrone i daju radikalske međuprodukte; na vanjskoj mitohondrijskoj membrani je mARC-sustav za redukciju N-hidroksiliranih spojeva. Ishod (detoksikacija, bioaktivacija ili toksičnost) ovisi o enzimu, supstratu, kofaktorima i kisiku.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 6",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-006",
+    "chapter": "08",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Mitohondrijski sustav na vanjskoj membrani koji reducira N-hidroksilirane spojeve zove se ___.",
+    "answer": "mARC",
+    "accepted": [
+      "mARC",
+      "marc",
+      "mARC-sustav"
+    ],
+    "distractors": [
+      "NQO1",
+      "POR",
+      "AZOR"
+    ],
+    "explanation": "mARC je smješten na vanjskoj mitohondrijskoj membrani, dok respiracijski lanac u unutarnjoj membrani može biti izvor ROS-a. Taj je sustav važan jer vraća N-hidroksilirane metabolite u izvorne amine.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 6",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-007",
+    "chapter": "08",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Redukcijom aldehida nastaju ___ alkoholi.",
+    "answer": "primarni",
+    "accepted": [
+      "primarni",
+      "primarne"
+    ],
+    "distractors": [
+      "sekundarni",
+      "tercijarni",
+      "aromatski"
+    ],
+    "explanation": "Reakciju kataliziraju ADH, AKR i ALR uz NADH ili NADPH, a odvija se u citosolu; primjer je redukcija acetaldehida natrag u etanol. Ketoni analogno daju sekundarne alkohole uz CBR i AKR.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajdovi 9 i 11",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-008",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto je redukcija ketona često stereoselektivna i farmakološki važna?",
+    "answer": "jer redukcijom prokiralne karbonilne skupine nastaje novi stereogeni centar",
+    "accepted": [
+      "jer redukcijom prokiralne karbonilne skupine nastaje novi stereogeni centar",
+      "nastaje novi stereogeni centar"
+    ],
+    "distractors": [
+      "jer se keton uvijek pretvara u aldehid",
+      "jer reakcija mijenja broj ugljikovih atoma",
+      "jer nastaje racemična smjesa bez aktivnosti"
+    ],
+    "explanation": "Enzimi CBR i AKR favoriziraju jednu konfiguraciju, pa nastali enantiomeri mogu imati različitu aktivnost i toksičnost. Tipični supstrati su lijekovi varfarin, metadon, haloperidol i ketoprofen te endogeni prostaglandini i steroidi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 12",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-009",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji je enantiomer varfarina potentniji i koliko puta?",
+    "answer": "S-varfarin, 2–5 puta",
+    "accepted": [
+      "S-varfarin, 2–5 puta",
+      "S-varfarin, 2-5 puta",
+      "S-varfarin 2-5x",
+      "S enantiomer"
+    ],
+    "distractors": [
+      "R-varfarin, 2–5 puta",
+      "S-varfarin, 10 puta",
+      "oba su jednako potentna"
+    ],
+    "explanation": "Varfarin se primjenjuje kao racemična smjesa i oba su enantiomera aktivna. Pri redukciji ketonske skupine R-varfarin se reducira učinkovitije od S-varfarina, a na novom stereogenom centru pretežno nastaje S-konfiguracija; koenzim je NADPH. Metaboliti su prisutni u plazmi, ali imaju slabiju antikoagulacijsku aktivnost.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 13",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-010",
+    "chapter": "08",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Glavni metabolički put metadona, uz redukciju u metadol, je ___.",
+    "answer": "N-demetilacija",
+    "accepted": [
+      "N-demetilacija",
+      "N-demetilacije",
+      "N demetilacija"
+    ],
+    "distractors": [
+      "glukuronidacija",
+      "hidroliza esterske veze",
+      "oksidativna deaminacija"
+    ],
+    "explanation": "Metadon je analgetik koji se primjenjuje kao racemat, a aktivan je R-enantiomer. Aktivni su i metaboliti, primjerice $\\alpha$-(−)-metadol i S,S-(−)-desmetilmetadol, pa produljuju djelovanje. Derivat LAAM (levo-$\\alpha$-acetilmetadol) nastaje redukcijom i acetilacijom, ali mu je primjena u EU obustavljena zbog ozbiljnih srčanih aritmija.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 14",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-011",
+    "chapter": "08",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Dvoelektronskom redukcijom kinona uz NQO1 nastaje ___.",
+    "answer": "hidrokinon",
+    "accepted": [
+      "hidrokinon",
+      "hidrokinona"
+    ],
+    "distractors": [
+      "semikinonski radikal",
+      "superoksid",
+      "kinonski konjugat"
+    ],
+    "explanation": "Taj put ide bez semikinonskog međuprodukta, pa je uglavnom zaštitan; hidrokinon se može konjugirati s glutationom. Jednoelektronska redukcija daje semikinonski radikal koji predaje elektron kisiku, pri čemu nastaje superoksid i regenerira se kinon — redoks-cikliranje koje vodi oksidativnom stresu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 10",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-012",
+    "chapter": "08",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Za potpunu redukciju nitro-skupine do amina potrebno je ukupno ___ elektrona.",
+    "answer": "6",
+    "accepted": [
+      "6",
+      "sest",
+      "6 elektrona"
+    ],
+    "distractors": [
+      "2",
+      "4",
+      "8"
+    ],
+    "explanation": "Ukupna jednadžba glasi $\\ce{R-NO2 + 6e- + 6H+ -> R-NH2 + 2H2O}$. Niz ide preko nitro-radikalnog aniona, nitrozo-spoja, nitroksidnog međuprodukta i hidroksilamina. Za usporedbu, azo-skupina traži 4 elektrona.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajdovi 8 i 16",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-013",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kojim redoslijedom nastaju međuprodukti pri redukciji nitro-skupine?",
+    "answer": "nitro-radikalni anion → nitrozo-spoj → hidroksilamin → amin",
+    "accepted": [
+      "nitro-radikalni anion → nitrozo-spoj → hidroksilamin → amin",
+      "nitro-radikalni anion, nitrozo-spoj, hidroksilamin, amin",
+      "radikalni anion pa nitrozo pa hidroksilamin"
+    ],
+    "distractors": [
+      "hidroksilamin → nitrozo-spoj → amin",
+      "nitrozo-spoj → nitron → amin",
+      "amin → hidroksilamin → nitrozo-spoj"
+    ],
+    "explanation": "Prvi korak je reverzibilan: nitro-radikalni anion može predati elektron kisiku i regenerirati nitro-spoj uz nastanak superoksida, što je osnova redoks-cikliranja. Hidroksilamini i nitrozo-spojevi mogu se kovalentno vezati na proteine i DNA, pa su mogući citotoksičnost i mutagenost.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajdovi 16 i 17",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-014",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji enzimi sudjeluju u redukciji nitro-skupine?",
+    "answer": "nitroreduktaze mikroflore, CYP, XOR i POR",
+    "accepted": [
+      "nitroreduktaze mikroflore, CYP, XOR i POR",
+      "nitroreduktaze, CYP, XOR, POR"
+    ],
+    "distractors": [
+      "samo azoreduktaze crijevne mikrobiote",
+      "UGT i SULT",
+      "esteraze i amidaze"
+    ],
+    "explanation": "Uz nitroreduktaze crijevne mikroflore sudjeluju mikrosomski CYP, ksantin-oksidoreduktaza, NADPH–citokrom P450 reduktaza i mitohondrijske NADH/NADPH reduktaze; NQO je ovdje manje značajan nego kod kinona. U jetri je redukcija mikrosomalna i citosolna, što je važno za presistemski metabolizam.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajdovi 17 i 18",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-015",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Na čemu se temelji selektivna toksičnost nitro-lijekova prema mikroorganizmima?",
+    "answer": "na reduktivnoj aktivaciji unutar osjetljivog mikroorganizma",
+    "accepted": [
+      "na reduktivnoj aktivaciji unutar osjetljivog mikroorganizma",
+      "aktiviraju se unutar mikroorganizma"
+    ],
+    "distractors": [
+      "na vezanju za bakterijsku staničnu stijenku",
+      "na inhibiciji humanih CYP enzima",
+      "na brzom izlučivanju iz ljudskih stanica"
+    ],
+    "explanation": "Lijek mora prvo ući u mikroorganizam, gdje se u anaerobnim uvjetima reducira u reaktivne intermedijare. Oni oštećuju DNA i proteine i tako ubijaju stanicu, dok ljudske stanice s višim tlakom kisika tu aktivaciju uglavnom izbjegavaju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajdovi 18 i 19",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-016",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Gdje se reduciraju metronidazol i nitrofurantoin?",
+    "answer": "metronidazol u anaerobnim bakterijama i protozoama, nitrofurantoin u bakterijama mokraćnog sustava",
+    "accepted": [
+      "metronidazol u anaerobnim bakterijama i protozoama, nitrofurantoin u bakterijama mokraćnog sustava",
+      "metronidazol u anaerobnim bakterijama i protozoama, nitrofurantoin u bakterijama mokracnog sustava",
+      "metronidazol u anaerobima, nitrofurantoin u mokracnom sustavu"
+    ],
+    "distractors": [
+      "oba isključivo u jetri",
+      "oba isključivo u crijevnoj mikrobioti",
+      "metronidazol u bubregu, nitrofurantoin u jetri"
+    ],
+    "explanation": "Metronidazol se apsorbira, krvotokom dolazi do mjesta infekcije i ondje se reducira različitim redoks-sustavima. Nitrofurantoin se izlučuje u mokraću i reducira se bakterijskim nitroreduktazama, uključujući one neosjetljive na kisik. Kod oba lijeka crijevna mikrobiota nije ključna za terapijsku aktivaciju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 20",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-017",
+    "chapter": "08",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pri redukciji azo-skupine prije amina nastaje međuprodukt ___.",
+    "answer": "hidrazo-spoj",
+    "accepted": [
+      "hidrazo-spoj",
+      "hidrazo spoj",
+      "hidrazo"
+    ],
+    "distractors": [
+      "nitrozo-spoj",
+      "hidroksilamin",
+      "nitron"
+    ],
+    "explanation": "Niz je $\\ce{-N=N-}$ → hidrazo → dva amina, uz ukupno 4 elektrona; u pojedinim mehanizmima mogući su i radikali. Reakcija je slična redukciji nitro-skupine, a kataliziraju je azoreduktaze (AZOR), mikrosomski CYP i citosolni NQO1, uz ključnu ulogu crijevne mikroflore.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 22",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-018",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Gdje se pretežno reduciraju lipofilni, a gdje hidrofilni azo-spojevi?",
+    "answer": "lipofilni u jetri i mikroflori, hidrofilni u crijevnoj mikroflori",
+    "accepted": [
+      "lipofilni u jetri i mikroflori, hidrofilni u crijevnoj mikroflori",
+      "lipofilni jetra i mikroflora, hidrofilni mikroflora"
+    ],
+    "distractors": [
+      "lipofilni u mikroflori, hidrofilni u jetri",
+      "oboje isključivo u jetri",
+      "oboje isključivo u bubregu"
+    ],
+    "explanation": "Lipofilni spojevi se apsorbiraju i dolaze do jetre, pa ih reduciraju i enzimi domaćina i mikroflora. Hidrofilni spojevi slabo prolaze membrane, ostaju u crijevnom lumenu i prepušteni su mikroflori. Utjecaj kisika ovisi o redukcijskom sustavu; postoje i azoreduktaze neosjetljive na kisik.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 24",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-019",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji produkti nastaju redukcijom azo-veze sulfasalazina?",
+    "answer": "5-aminosalicilna kiselina i sulfapiridin",
+    "accepted": [
+      "5-aminosalicilna kiselina i sulfapiridin",
+      "5-ASA i sulfapiridin"
+    ],
+    "distractors": [
+      "sulfanilamid i anilin",
+      "sulfapiridin i sulfanilamid",
+      "5-aminosalicilna kiselina i prontosil"
+    ],
+    "explanation": "Redukciju provode bakterijske azoreduktaze crijevne mikrobiote, pretežno u debelom crijevu, pa se 5-ASA oslobađa upravo ondje gdje treba djelovati protuupalno na sluznicu. Sulfapiridin može pridonijeti učinku kod reumatoidnog artritisa, ali je povezan i s nuspojavama.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 25",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-020",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se razlikuju mjesta redukcije prontosila i sulfasalazina?",
+    "answer": "prontosil se reducira u mikrobioti te manjim dijelom u jetri i bubrezima, a sulfasalazin pretežno u debelom crijevu",
+    "accepted": [
+      "prontosil se reducira u mikrobioti te manjim dijelom u jetri i bubrezima, a sulfasalazin pretežno u debelom crijevu",
+      "prontosil se reducira u mikrobioti te manjim dijelom u jetri i bubrezima, a sulfasalazin pretezno u debelom crijevu",
+      "prontosil i u jetri, sulfasalazin u debelom crijevu"
+    ],
+    "distractors": [
+      "prontosil samo u bubregu, sulfasalazin samo u jetri",
+      "oba isključivo u tankom crijevu",
+      "prontosil u debelom crijevu, sulfasalazin u jetri"
+    ],
+    "explanation": "Razlika je važna jer određuje mjesto djelovanja: sulfanilamid iz prontosila apsorbira se i krvotokom dolazi do bakterija, gdje inhibira dihidropteroat-sintazu i sintezu folata. Kod sulfasalazina je cilj lokalno djelovanje u debelom crijevu, pa je redukcija mikrobiotom ključna za oslobađanje 5-ASA.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 25",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-021",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što nastaje redukcijom N-oksida i je li reakcija povratna?",
+    "answer": "nastaje tercijarni amin, a reakcija je reverzibilna",
+    "accepted": [
+      "nastaje tercijarni amin, a reakcija je reverzibilna",
+      "tercijarni amin, reverzibilno"
+    ],
+    "distractors": [
+      "nastaje hidroksilamin i reakcija je nepovratna",
+      "nastaje nitron i reakcija je nepovratna",
+      "nastaje primarni amin i reakcija je reverzibilna"
+    ],
+    "explanation": "Suprotan smjer je oksidacija uz FMO ili CYP, pa amin i N-oksid čine redoks-par čiji omjer ovisi o redoks uvjetima stanice. Kofaktori su NADH i NADPH, reakcija može biti enzimska i neenzimska, a sudjeluju CYP, citosolne reduktaze, mitohondrijski enzimi i crijevna mikroflora. Nestabilni N-oksidi reduciraju se brže.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 27",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-022",
+    "chapter": "08",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Redukcijom morfin-N-oksida ponovno nastaje ___.",
+    "answer": "morfin",
+    "accepted": [
+      "morfin",
+      "morfina"
+    ],
+    "distractors": [
+      "kodein",
+      "normorfin",
+      "morfin-6-glukuronid"
+    ],
+    "explanation": "Morfin-N-oksid identificiran je kao metabolit u zamorca, a može se pojaviti i kao nečistoća u analitičkim uzorcima. Redukcija je u životinja značajna, pa N-oksidacija ovdje ne znači trajan gubitak aktivnog lijeka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 28",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-023",
+    "chapter": "08",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Anksiolitik koji je aktivan kao stabilan N-oksid i minimalno se metabolički reducira je ___.",
+    "answer": "klordiazepoksid",
+    "accepted": [
+      "klordiazepoksid",
+      "klordiazepoksida"
+    ],
+    "distractors": [
+      "diazepam",
+      "oksazepam",
+      "medazepam"
+    ],
+    "explanation": "Klinički značaj je upravo u stabilnosti spoja: N-oksidna skupina ostaje očuvana, pa lijek djeluje u tom obliku. To pokazuje da N-oksidi nisu nužno samo polarni metaboliti na putu izlučivanja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 29",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-024",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što nastaje redukcijom disulfidne skupine?",
+    "answer": "dva tiola",
+    "accepted": [
+      "dva tiola",
+      "2 tiola",
+      "tioli"
+    ],
+    "distractors": [
+      "sulfoksid",
+      "sulfenska kiselina",
+      "sulfid i voda"
+    ],
+    "explanation": "Vezu $\\ce{-S-S-}$ cijepaju glutationski i tioredoksinski sustavi, uz djelomično neenzimske procese. Glutation je ključni redukcijski kofaktor, a njegov oksidirani oblik GSSG vraća se u GSH NADPH-ovisnom reakcijom, čime se održava redoks-ravnoteža.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajdovi 30 i 31",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-025",
+    "chapter": "08",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pri metabolizmu disulfirama nastaje toksičan spoj ___, odgovoran za dio nuspojava.",
+    "answer": "$\\ce{CS2}$",
+    "accepted": [
+      "CS2",
+      "ugljikov disulfid"
+    ],
+    "distractors": [
+      "$\\ce{H2S}$",
+      "$\\ce{SO2}$",
+      "$\\ce{CO}$"
+    ],
+    "explanation": "Disulfiram je prolijek koji se u terapiji alkoholizma koristi zbog inhibicije aldehid-dehidrogenaze; njegov metabolit dietilditiokarbamat koči ALDH2, pa se acetaldehid nakuplja. U redukciji disulfidne veze sudjeluju glutation S-transferaza i glutation-reduktaza, a količina nastalog $\\ce{CS2}$ ovisi o brzini metabolizma.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 31",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-026",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je posljedica enterohepatičke recirkulacije sulindaka?",
+    "answer": "produženo djelovanje i dulji poluživot lijeka",
+    "accepted": [
+      "produženo djelovanje i dulji poluživot lijeka",
+      "duze djelovanje"
+    ],
+    "distractors": [
+      "brže izlučivanje mokraćom",
+      "potpuna inaktivacija u crijevu",
+      "smanjena koncentracija u plazmi"
+    ],
+    "explanation": "U jetri se aktivni sulfid konjugira (npr. glukuronidacijom) i izlučuje u žuč; u crijevu ga bakterijski enzimi dekonjugiraju, pa se ponovno apsorbira. Lijek tako kruži jetra → žuč → crijevo → krv → jetra, što daje stabilniju koncentraciju u plazmi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 32",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-027",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja dva tipa reakcije obuhvaća reduktivna dehalogenacija?",
+    "answer": "zamjenu jednog halogena vodikom i uklanjanje dvaju halogena uz nastanak dvostruke veze",
+    "accepted": [
+      "zamjenu jednog halogena vodikom i uklanjanje dvaju halogena uz nastanak dvostruke veze",
+      "zamjena vodikom i eliminacija u alken"
+    ],
+    "distractors": [
+      "hidroksilaciju halogeniranog C-atoma i gubitak halogenovodika",
+      "zamjenu halogena hidroksilnom skupinom i epoksidaciju",
+      "konjugaciju halogena s glutationom i hidrolizu"
+    ],
+    "explanation": "Zamjena ide sekvencijalnim prijenosom elektrona (dva uzastopna jednoelektronska koraka) i protonacijom, a uklanjanjem dvaju halogena nastaje alken; moguće su i višestruke dehalogenacije. Reakcija je važna u jetri, kataliziraju je CYP enzimi, a anaerobni uvjeti i nizak $\\ce{O2}$ je pospješuju. Oksidativna dehalogenacija ide drukčijim mehanizmom, preko hidroksilacije.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajdovi 33 i 34",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-028",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji enzimi kataliziraju reduktivni put metabolizma halotana i u kakvim uvjetima?",
+    "answer": "CYP2A6 i CYP3A4 u anaerobnim uvjetima",
+    "accepted": [
+      "CYP2A6 i CYP3A4 u anaerobnim uvjetima",
+      "CYP2A6 i CYP3A4, anaerobno"
+    ],
+    "distractors": [
+      "CYP2E1 uz obilje kisika",
+      "FMO3 u anaerobnim uvjetima",
+      "azoreduktaze crijevne mikrobiote"
+    ],
+    "explanation": "Reduktivnim putem u ljudskim jetrenim mikrosomima nastaju radikali koji se vežu na makromolekule, pa slijede peroksidacija lipida i nekroza jetre. Oksidativni put ide preko CYP2E1 i reaktivnog acil-halogenida koji stvara neoantigene i može izazvati imunološki hepatitis; ishod dakle ovisi o dostupnosti kisika.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 36",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-029",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje reaktivne kisikove vrste nastaju redukcijom molekulskog kisika jednim odnosno dvama elektronima?",
+    "answer": "superoksidni radikal-anion i vodikov peroksid",
+    "accepted": [
+      "superoksidni radikal-anion i vodikov peroksid",
+      "superoksid i H2O2"
+    ],
+    "distractors": [
+      "hidroksilni radikal i voda",
+      "ozon i vodikov peroksid",
+      "singletni kisik i superoksid"
+    ],
+    "explanation": "Vrijedi $\\ce{O2 + e- -> O2^{.-}}$ i $\\ce{O2 + 2e- + 2H+ -> H2O2}$. ROS mogu nastati u respiracijskom lancu, pri razdvajanju prijenosa elektrona u sustavu CYP/POR te djelovanjem XOR-a, osobito oblika ksantin-oksidaze.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 8",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-08-030",
+    "chapter": "08",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto je teško razlikovati enzimsku od neenzimske redukcije?",
+    "answer": "jer radikali mogu reagirati spontano, a enzimi samo povećavaju brzinu i specifičnost",
+    "accepted": [
+      "jer radikali mogu reagirati spontano, a enzimi samo povećavaju brzinu i specifičnost",
+      "jer radikali mogu reagirati spontano, a enzimi samo povecavaju brzinu i specificnost",
+      "radikali reagiraju i bez enzima"
+    ],
+    "distractors": [
+      "jer su produkti oba puta potpuno različiti",
+      "jer neenzimska redukcija ne postoji in vivo",
+      "jer enzimi rade samo u anaerobnim uvjetima"
+    ],
+    "explanation": "Isti supstrat može se i oksidirati i reducirati, a smjer ovisi o enzimima i uvjetima, osobito o dostupnosti kisika. Zbog toga se o redukcijskim putevima govori kao o dualnim procesima; primjer je dehalogenacija halogeniranih ugljikovodika (halotan, $\\ce{CCl4}$), koja može biti i reduktivna i oksidativna.",
+    "image": null,
+    "explanation_image": null,
+    "source": "8 Redukcije.pdf, slajd 5",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  }
+]
