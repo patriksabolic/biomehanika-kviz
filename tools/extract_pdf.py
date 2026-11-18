@@ -1,14 +1,17 @@
 """PDF prezentacije → tekst i slike (spec, odjeljak 17).
 
-Pokretanje iz mape projekta:  python tools/extract_pdf.py
+Pokretanje iz mape projekta:  python tools/extract_pdf.py --course <id>
+                              npr. python tools/extract_pdf.py --course biomehanika
 Treba paket PyMuPDF:          python -m pip install pymupdf
 
-Za svaki PDF u content/source/pdf/ (naziv počinje brojem poglavlja, npr. "7_Kosti 1.pdf"):
-  - content/source/text/<nn>.md        tekst po slajdu, naslov "## Slajd N"
-  - content/source/img-raw/<nn>/       ugrađene slike (s<N>-<k>.<ext>) + render svakog slajda
-                                       na 150 dpi (slajd-<N>.png) kao rezerva
+Za svaki PDF u content/source/<id>/pdf/ (naziv počinje brojem poglavlja, npr. "7_Kosti 1.pdf"):
+  - content/source/<id>/text/<nn>.md     tekst po slajdu, naslov "## Slajd N"
+  - content/source/<id>/img-raw/<nn>/    ugrađene slike (s<N>-<k>.<ext>) + render svakog slajda
+                                         na 150 dpi (slajd-<N>.png) kao rezerva
 Opcija --no-images preskače slike (brže, samo tekst).
 """
+import argparse
+import json
 import re
 import sys
 from pathlib import Path
@@ -25,10 +28,8 @@ except ImportError:
     sys.exit(1)
 
 ROOT = Path(__file__).resolve().parent.parent
-SRC = ROOT / "content" / "source"
-PDF_DIR = SRC / "pdf"
-TEXT_DIR = SRC / "text"
-IMG_DIR = SRC / "img-raw"
+# Postavlja main() prema --course.
+PDF_DIR = TEXT_DIR = IMG_DIR = None
 MIN_IMG_SIDE = 80  # manje slike su obično ikone i ukrasi
 
 
@@ -86,7 +87,26 @@ def extract(pdf_path, nn, with_images):
 
 
 def main():
-    with_images = "--no-images" not in sys.argv
+    global PDF_DIR, TEXT_DIR, IMG_DIR
+    try:
+        courses = json.loads((ROOT / "content" / "courses.json").read_text(encoding="utf-8"))
+    except Exception as e:
+        print(f"Ne mogu pročitati content/courses.json: {e}")
+        return 1
+    ids = [c["id"] for c in courses]
+    ap = argparse.ArgumentParser(description="PDF prezentacije → tekst i slike.")
+    ap.add_argument("--course", required=True, choices=ids, help="id kolegija iz content/courses.json")
+    ap.add_argument("--no-images", action="store_true", help="samo tekst, bez slika")
+    args = ap.parse_args()
+    with_images = not args.no_images
+    src = ROOT / "content" / "source" / args.course
+    PDF_DIR, TEXT_DIR, IMG_DIR = src / "pdf", src / "text", src / "img-raw"
+    entry = next(c for c in courses if c["id"] == args.course)
+    try:
+        course = json.loads((ROOT / entry["path"][2:] / "course.json").read_text(encoding="utf-8"))
+        expected = [c["id"] for c in course.get("chapters", [])]
+    except Exception:
+        expected = []
     TEXT_DIR.mkdir(parents=True, exist_ok=True)
     pdfs = sorted(PDF_DIR.glob("*.pdf"), key=lambda p: (chapter_id(p) or "99", p.name))
     if not pdfs:
@@ -96,7 +116,7 @@ def main():
     for p in pdfs:
         nn = chapter_id(p)
         if not nn:
-            print(f"PRESKAČEM (naziv ne počinje brojem): {p.name}")
+            print(f"PRESKAČEM (naziv ne počinje brojem poglavlja, npr. \"3_Naslov.pdf\"): {p.name}")
             continue
         if nn in done:
             print(f"UPOZORENJE: više PDF-ova za poglavlje {nn}, zadnji pobjeđuje: {p.name}")
@@ -107,7 +127,8 @@ def main():
             continue
         done.add(nn)
         print(f"{nn}  {pages:3d} slajdova  {imgs:3d} slika  ← {p.name}")
-    missing = [f"{i:02d}" for i in range(1, 36) if f"{i:02d}" not in done]
+    # Ako course.json još nema poglavlja (novi kolegij), ne javlja se što nedostaje.
+    missing = [nn for nn in expected if nn not in done]
     print(f"\nGotovo: {len(done)} poglavlja u {TEXT_DIR.relative_to(ROOT)}")
     if missing:
         print("Nedostaju poglavlja: " + ", ".join(missing))

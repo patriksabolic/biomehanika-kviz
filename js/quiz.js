@@ -1,7 +1,7 @@
 // Ekran Kviz: odabir, pitanje, povratna informacija, sažetak (spec, odjeljak 6).
 
 import { esc, shuffle, formatDuration, vibrate, plural } from './util.js';
-import { courseData, settings, save, addToDay } from './storage.js';
+import { courseData, courseSettings, settings, save, addToDay } from './storage.js';
 import { gradeFill, isNumericAnswer } from './grading.js';
 import {
   chooseMode, pickQuestions, applyAnswer, applyRating, markSeen, getRecord, isHardOrDangerous, isDual,
@@ -12,8 +12,11 @@ let ctx = null;      // { courseId, course, questions, go }
 let session = null;  // aktivna sesija
 let setup = null;    // trenutni odabir na ekranu postavljanja
 
+// Poziva se i pri prelasku na drugi kolegij: sesija i odabir prethodnog kolegija se zaboravljaju.
 export function initQuiz(c) {
   ctx = c;
+  session = null;
+  setup = null;
 }
 
 const SUPPORTED = new Set(['mc', 'fill']);
@@ -21,7 +24,7 @@ const usable = () => ctx.questions.filter((q) => SUPPORTED.has(q.type));
 const allChapterIds = () => ctx.course.chapters.map((c) => c.id);
 
 function defaultSetup() {
-  const saved = settings().quiz;
+  const saved = courseSettings(ctx.courseId).quiz;
   const valid = new Set(allChapterIds());
   const chapters = saved?.chapters?.filter((c) => valid.has(c));
   return {
@@ -114,7 +117,7 @@ function renderSetup(root) {
     } else if (t.dataset.act === 'all') {
       if (allOn) sel.clear(); else allChapterIds().forEach((c) => sel.add(c));
     } else if (t.dataset.act === 'start') {
-      settings().quiz = { ...setup };
+      courseSettings(ctx.courseId).quiz = { ...setup };
       save();
       if (startSession({ ...setup })) renderQuestion(root);
       return;
@@ -428,7 +431,7 @@ function renderSummary(root) {
       else { session = null; renderSetup(root); }
     } else if (t.dataset.act === 'back') {
       session = null;
-      ctx.go('home');
+      ctx.go('course');
     }
   };
 }

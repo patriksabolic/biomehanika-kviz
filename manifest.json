@@ -1,7 +1,7 @@
 {
-  "name": "Biomehanika kviz",
-  "short_name": "Biomeh",
-  "description": "Kviz za učenje Biomehanike",
+  "name": "Kviz",
+  "short_name": "Kviz",
+  "description": "Kviz za učenje kolegija",
   "lang": "hr",
   "start_url": "./",
   "scope": "./",

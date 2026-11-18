@@ -36,7 +36,7 @@ function fmtDay(iso) {
 export function reportsText(ctx) {
   const cd = storage.courseData(ctx.courseId);
   const byId = new Map(ctx.questions.map((q) => [q.id, q]));
-  const lines = [`Prijave iz aplikacije – ${ctx.course.name} (${todayKey()})`, ''];
+  const lines = [`Prijave iz aplikacije – ${ctx.course.name} (kolegij ${ctx.courseId}, ${todayKey()})`, ''];
   lines.push(`Prijavljene greške (${cd.reports.length}):`);
   for (const r of cd.reports) {
     const q = byId.get(r.id);
@@ -76,9 +76,10 @@ function download(name, text) {
 export async function renderSettings(el, ctx) {
   const st = storage.settings();
   const cd = storage.courseData(ctx.courseId);
-  const thr = st.grading || ctx.course.grading;
-  const custom = !!st.grading;
-  const dur = st.examDuration || ctx.course.exam?.durationMin || 45;
+  const cs = cd.settings; // postavke kolegija
+  const thr = cs.grading || ctx.course.grading;
+  const custom = !!cs.grading;
+  const dur = cs.examDuration || ctx.course.exam?.durationMin || 45;
   const nRep = cd.reports.length + cd.overrides.length;
   const answeredTotal = Object.values(cd.questions).reduce((s, r) => s + (r.answered || 0), 0);
   const pend = ui.pendingImport;
@@ -94,12 +95,8 @@ export async function renderSettings(el, ctx) {
   el.innerHTML = `
     <h1>Postavke</h1>
     ${ui.msg ? `<p class="notice ${ui.msg.bad ? 'bad' : ''}" role="status">${esc(ui.msg.text)}</p>` : ''}
-    <section class="card">
-      <h2>Kolegij</h2>
-      <select class="select" data-set="course" aria-label="Kolegij">
-        ${(ctx.courses || []).map((c) => `<option value="${esc(c.id)}" ${c.id === ctx.courseId ? 'selected' : ''}>${esc(c.name)}</option>`).join('')}
-      </select>
-    </section>
+    <h2 class="section-title">Kolegij: ${esc(ctx.course.name)}</h2>
+    <p class="muted small">Ove postavke vrijede samo za ovaj kolegij. Drugi kolegij odaberi na Početnoj.</p>
     <section class="card">
       <h2>Pragovi ocjena</h2>
       <p class="muted small">Minimalni postotak za ocjenu u ispitu${custom ? ' (prilagođeno)' : ' (zadano)'}.</p>
@@ -117,28 +114,8 @@ export async function renderSettings(el, ctx) {
     </section>
     <section class="card">
       <h2>Dnevni cilj</h2>
-      <p class="muted small">Dan se broji u streak kad odgovoriš na barem ovoliko pitanja (kviz i ispit zajedno).</p>
-      ${seg(GOALS, st.dailyGoal, 'goal')}
-    </section>
-    <section class="card">
-      <h2>Način prikaza</h2>
-      <p class="muted small">Automatski: pitanje kreće kao zaokruživanje, a nakon 2 točna zaredom prelazi u nadopunjavanje (i natrag nakon 2 netočna). Ispit uvijek koristi nadopunjavanje gdje je moguće.</p>
-      ${radios('displayMode', MODES, st.displayMode)}
-    </section>
-    <section class="card">
-      <h2>Tema</h2>
-      ${radios('theme', THEMES, st.theme)}
-    </section>
-    <section class="card">
-      <h2>Vibracija</h2>
-      <label class="toggle"><input type="checkbox" data-set="vibration" ${st.vibration ? 'checked' : ''}><span>Vibracija na odgovor</span></label>
-    </section>
-    <section class="card">
-      <h2>Sigurnosna kopija</h2>
-      <p class="muted small">Napredak je spremljen samo na ovom uređaju. Export preuzima datoteku koju možeš kasnije uvesti (npr. na novom mobitelu).</p>
-      <button type="button" class="btn" data-act="export">⬇️ Export (preuzmi kopiju)</button>
-      <label class="btn file-btn">⬆️ Import (odaberi datoteku)<input type="file" accept=".json,application/json" data-act="import-file" hidden></label>
-      ${importBox}
+      <p class="muted small">Dan se broji u streak ovog kolegija kad u njemu odgovoriš na barem ovoliko pitanja (kviz i ispit zajedno).</p>
+      ${seg(GOALS, cs.dailyGoal, 'goal')}
     </section>
     <section class="card">
       <h2>Prijave</h2>
@@ -162,6 +139,28 @@ export async function renderSettings(el, ctx) {
             <button type="button" class="btn ghost" data-act="reset-no">Odustani</button></div>`
         : '<button type="button" class="btn danger-outline" data-act="reset">Resetiraj napredak</button>'}
     </section>
+    <h2 class="section-title">Aplikacija</h2>
+    <p class="muted small">Zajedničko za sve kolegije.</p>
+    <section class="card">
+      <h2>Način prikaza</h2>
+      <p class="muted small">Automatski: pitanje kreće kao zaokruživanje, a nakon 2 točna zaredom prelazi u nadopunjavanje (i natrag nakon 2 netočna). Ispit uvijek koristi nadopunjavanje gdje je moguće.</p>
+      ${radios('displayMode', MODES, st.displayMode)}
+    </section>
+    <section class="card">
+      <h2>Tema</h2>
+      ${radios('theme', THEMES, st.theme)}
+    </section>
+    <section class="card">
+      <h2>Vibracija</h2>
+      <label class="toggle"><input type="checkbox" data-set="vibration" ${st.vibration ? 'checked' : ''}><span>Vibracija na odgovor</span></label>
+    </section>
+    <section class="card">
+      <h2>Sigurnosna kopija</h2>
+      <p class="muted small">Napredak je spremljen samo na ovom uređaju. Export preuzima datoteku sa svim kolegijima koju možeš kasnije uvesti (npr. na novom mobitelu).</p>
+      <button type="button" class="btn" data-act="export">⬇️ Export (preuzmi kopiju)</button>
+      <label class="btn file-btn">⬆️ Import (odaberi datoteku)<input type="file" accept=".json,application/json" data-act="import-file" hidden></label>
+      ${importBox}
+    </section>
     <p class="muted small center" id="version"></p>`;
 
   const rerender = () => renderSettings(el, ctx);
@@ -172,7 +171,6 @@ export async function renderSettings(el, ctx) {
     if (t.name === 'displayMode') { st.displayMode = t.value; storage.save(); }
     else if (t.name === 'theme') { st.theme = t.value; storage.save(); applyTheme(); }
     else if (t.dataset.set === 'vibration') { st.vibration = t.checked; storage.save(); }
-    else if (t.dataset.set === 'course') { st.course = t.value; storage.flush(); location.reload(); }
     else if (t.dataset.act === 'import-file' && t.files?.[0]) {
       const file = t.files[0];
       try {
@@ -192,8 +190,8 @@ export async function renderSettings(el, ctx) {
     if (!t) return;
     const act = t.dataset.act;
     ui.msg = null;
-    if (t.dataset.goal) { st.dailyGoal = Number(t.dataset.goal); storage.save(); }
-    else if (t.dataset.dur) { st.examDuration = Number(t.dataset.dur); storage.save(); }
+    if (t.dataset.goal) { cs.dailyGoal = Number(t.dataset.goal); storage.save(); }
+    else if (t.dataset.dur) { cs.examDuration = Number(t.dataset.dur); storage.save(); }
     else if (act === 'thr-save') {
       const v = {};
       el.querySelectorAll('[data-thr]').forEach((i) => { v[i.dataset.thr] = Math.round(Number(i.value)); });
@@ -203,14 +201,14 @@ export async function renderSettings(el, ctx) {
       } else {
         ui.thrError = null;
         const def = ctx.course.grading;
-        st.grading = [2, 3, 4, 5].every((g) => v[g] === Number(def[g])) ? null : v;
+        cs.grading = [2, 3, 4, 5].every((g) => v[g] === Number(def[g])) ? null : v;
         storage.save();
         ui.msg = { text: 'Pragovi spremljeni.' };
       }
     }
-    else if (act === 'thr-reset') { st.grading = null; ui.thrError = null; storage.save(); }
+    else if (act === 'thr-reset') { cs.grading = null; ui.thrError = null; storage.save(); }
     else if (act === 'export') {
-      download(`biomehanika-kviz-backup-${todayKey()}.json`, storage.exportJSON());
+      download(`kviz-backup-${todayKey()}.json`, storage.exportJSON());
       ui.msg = { text: 'Kopija je preuzeta (mapa Preuzimanja / Downloads).' };
     }
     else if (act === 'import-merge' || act === 'import-replace') {

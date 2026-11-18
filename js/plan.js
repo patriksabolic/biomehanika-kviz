@@ -47,23 +47,24 @@ function studyDates(from, examDate, daysOff) {
 
 // ---------- stanje poglavlja ----------
 
-function chapterInfo() {
-  const cd = courseData(ctx.courseId);
+// c = { courseId, course, questions } (zadano: odabrani kolegij; Početna ga zove za svaki kolegij).
+function chapterInfo(c = ctx) {
+  const cd = courseData(c.courseId);
   const info = {};
-  for (const q of ctx.questions) {
+  for (const q of c.questions) {
     const c = (info[q.chapter] ||= { id: q.chapter, total: 0, seen: 0, real: 0 });
     c.total++;
     if (cd.questions[q.id]?.answered) c.seen++;
     if (q.real_exam) c.real++;
   }
-  for (const c of Object.values(info)) {
-    c.unseen = c.total - c.seen;
-    c.processed = c.seen >= Math.ceil(c.total * PROCESSED_SHARE);
+  for (const ch of Object.values(info)) {
+    ch.unseen = ch.total - ch.seen;
+    ch.processed = ch.seen >= Math.ceil(ch.total * PROCESSED_SHARE);
   }
   return info;
 }
 
-const courseOrder = () => ctx.course.chapters.map((c) => c.id);
+const courseOrder = (c = ctx) => c.course.chapters.map((ch) => ch.id);
 
 // Poglavlja po redu kolegija rasporedi na `days` dana tako da zbroj težina po danu bude
 // što ravnomjerniji (pohlepno, redoslijed se čuva). Unutar dana prvo poglavlja s ispitnim pitanjima.
@@ -124,13 +125,13 @@ export function createPlan({ examDate, targetGrade, minutesPerDay, daysOff }) {
 }
 
 // Raspored od danas do ispita prema trenutnom stanju (neobrađena poglavlja na preostale dane učenja).
-export function computeSchedule(plan) {
+export function computeSchedule(plan, c = ctx) {
   const today = todayKey();
   const dates = studyDates(today, plan.examDate, plan.daysOff);
   const learnDates = dates.filter((k) => k < plan.reviewFrom);
   const reviewDates = dates.filter((k) => k >= plan.reviewFrom);
-  const info = chapterInfo();
-  const order = courseOrder().filter((id) => info[id]);
+  const info = chapterInfo(c);
+  const order = courseOrder(c).filter((id) => info[id]);
   // Zaostatak: poglavlja koja su po prvotnom planu trebala biti obrađena prije danas.
   const backlog = [...new Set(Object.entries(plan.baseline || {})
     .filter(([k]) => k < today).flatMap(([, ids]) => ids))]
@@ -157,13 +158,13 @@ export function computeSchedule(plan) {
 }
 
 // Današnji zadatak se "zamrzne" za cijeli dan (ne mijenja se dok ga rješavaš); novi dan = novi izračun.
-export function todayTask() {
-  const plan = courseData(ctx.courseId)?.plan;
+export function todayTask(c = ctx) {
+  const plan = courseData(c.courseId)?.plan;
   if (!plan) return null;
   const today = todayKey();
   if (today >= plan.examDate) return { plan, done: true };
   if (plan.today?.date !== today) {
-    const s = computeSchedule(plan);
+    const s = computeSchedule(plan, c);
     const first = s.isStudyDay ? s.days[0] : null;
     plan.today = first
       ? { date: today, type: first.type, chapters: first.chapters, n: first.n, mockExam: !!first.mockExam, behind: s.behind, backlog: s.backlog, raised: first.n > s.perDay }
@@ -173,10 +174,10 @@ export function todayTask() {
   return { plan, task: plan.today };
 }
 
-export function taskText(task) {
+export function taskText(task, c = ctx) {
   if (task.type === 'off') return 'Danas je slobodan dan prema planu.';
   const names = task.type === 'learn'
-    ? task.chapters.map((id) => `${id} ${ctx.course.chapterById[id]?.title || ''}`).join(', ')
+    ? task.chapters.map((id) => `${id} ${c.course.chapterById[id]?.title || ''}`).join(', ')
     : 'ponavljanje svih poglavlja';
   return `${names} · ${task.n} ${plural(task.n, 'pitanje', 'pitanja', 'pitanja')} · ~${Math.round(task.n * 0.75)} min`;
 }
@@ -219,7 +220,7 @@ export function todayCardHtml(todayAnswered) {
 function formDefaults() {
   const p = courseData(ctx.courseId).plan;
   return {
-    examDate: p?.examDate || ctx.course.examDate,
+    examDate: p?.examDate || ctx.course.examDate || '',
     targetGrade: p?.targetGrade || 3,
     minutesPerDay: p?.minutesPerDay || 15,
     daysOff: [...(p?.daysOff || [])],
@@ -245,7 +246,8 @@ function formHtml() {
   const off = new Set(f.daysOff);
   return `<section class="card">
       <h2>Postavke plana</h2>
-      <label class="field"><span>Datum ispita</span><input type="date" class="select" data-f="examDate" value="${esc(f.examDate)}"></label>
+      <label class="field"><span>Datum ispita</span><input type="date" class="select" data-f="examDate" value="${esc(f.examDate || '')}"></label>
+      ${f.dateError ? '<p class="bad-text small">Upiši datum ispita koji je nakon današnjeg dana.</p>' : ''}
       <p class="field-label">Ciljana ocjena</p>
       <div class="segmented">${[2, 3, 4, 5].map((g) => `<button type="button" class="seg ${f.targetGrade === g ? 'on' : ''}" data-grade="${g}" aria-pressed="${f.targetGrade === g}">${g}</button>`).join('')}</div>
       <p class="field-label">Minuta dnevno</p>
@@ -315,8 +317,9 @@ export function renderPlan(el) {
       form.daysOff = form.daysOff.includes(d) ? form.daysOff.filter((x) => x !== d) : [...form.daysOff, d];
     } else if (t.dataset.act === 'save') {
       const dateOk = /^\d{4}-\d{2}-\d{2}$/.test(form.examDate) && form.examDate > todayKey();
-      if (!dateOk) { form.examDate = ctx.course.examDate; renderPlan(el); return; }
+      if (!dateOk) { form.examDate = ctx.course.examDate || ''; form.dateError = true; renderPlan(el); return; }
       if (form.daysOff.length >= 7) form.daysOff = [];
+      delete form.dateError;
       createPlan(form);
       form = null;
       window.scrollTo(0, 0);

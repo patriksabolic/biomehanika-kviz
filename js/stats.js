@@ -1,7 +1,7 @@
 // Streak, dnevni cilj (spec, odjeljak 9) i osnovna statistika (odjeljak 10).
 
 import { esc, todayKey, plural } from './util.js';
-import { courseData, settings, save } from './storage.js';
+import { courseData, getState, save } from './storage.js';
 import { examHistoryHtml } from './exam.js';
 
 const MIN_ANSWERS = 5; // za "najslabije/najjače"
@@ -11,11 +11,9 @@ function shiftDay(key, delta) {
   return todayKey(new Date(y, m - 1, d + delta));
 }
 
-// Streak = uzastopni brojani dani (≥ dailyGoal odgovora) koji završavaju danas ili jučer.
-export function streakInfo(courseId) {
-  const cd = courseData(courseId);
-  const goal = settings().dailyGoal;
-  const counted = (k) => (cd.days[k]?.answered || 0) >= goal;
+// Niz uzastopnih brojanih dana koji završava danas ili jučer + najdulji niz iz povijesti.
+// counted(k): broji li se dan k; keys: svi dani s odgovorima; best: zapamćeni maksimum.
+function runInfo(counted, keys, best) {
   const today = todayKey();
   let day = counted(today) ? today : shiftDay(today, -1);
   let current = 0;
@@ -27,15 +25,32 @@ export function streakInfo(courseId) {
   let longest = 0;
   let run = 0;
   let prev = null;
-  for (const k of Object.keys(cd.days).sort()) {
+  for (const k of [...new Set(keys)].sort()) {
     if (!counted(k)) { run = 0; prev = k; continue; }
     run = prev && shiftDay(prev, 1) === k && run ? run + 1 : 1;
     longest = Math.max(longest, run);
     prev = k;
   }
-  longest = Math.max(longest, current, cd.bestStreak || 0);
-  if (longest !== cd.bestStreak) { cd.bestStreak = longest; save(); }
-  return { current, longest, todayAnswered: cd.days[today]?.answered || 0, goal, todayCounted: counted(today) };
+  return { current, longest: Math.max(longest, current, best || 0), todayCounted: counted(today) };
+}
+
+// Streak kolegija = uzastopni dani u kojima je tom kolegiju odgovoreno ≥ njegov dnevni cilj.
+export function streakInfo(courseId) {
+  const cd = courseData(courseId);
+  const goal = cd.settings.dailyGoal;
+  const r = runInfo((k) => (cd.days[k]?.answered || 0) >= goal, Object.keys(cd.days), cd.bestStreak);
+  if (r.longest !== cd.bestStreak) { cd.bestStreak = r.longest; save(); }
+  return { ...r, todayAnswered: cd.days[todayKey()]?.answered || 0, goal };
+}
+
+// Zajednički streak (Početna): dan se broji ako je bilo kojem kolegiju ispunjen njegov dnevni cilj.
+export function globalStreakInfo(courseIds) {
+  const cds = courseIds.map((id) => courseData(id));
+  const counted = (k) => cds.some((cd) => (cd.days[k]?.answered || 0) >= cd.settings.dailyGoal);
+  const state = getState();
+  const r = runInfo(counted, cds.flatMap((cd) => Object.keys(cd.days)), state.bestStreak);
+  if (r.longest !== state.bestStreak) { state.bestStreak = r.longest; save(); }
+  return r;
 }
 
 // "Naučeno": razina 1 i cstreak ≥ 2, ili za pitanja samo-mc cstreak ≥ 3.
@@ -235,7 +250,7 @@ function heatmapHtml(cd) {
   const [ty, tm, td] = today.split('-').map(Number);
   const dow = (new Date(ty, tm - 1, td).getDay() + 6) % 7; // 0 = ponedjeljak
   const start = shiftDay(today, -dow - 7 * 7);
-  const goal = settings().dailyGoal;
+  const goal = cd.settings.dailyGoal;
   const level = (n) => (n === 0 ? 0 : n < goal / 2 ? 1 : n < goal ? 2 : n < goal * 2 ? 3 : 4);
   const C = 15, G = 3, L = 22, T = 16;
   let cells = '';

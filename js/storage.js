@@ -3,19 +3,25 @@
 import { todayKey } from './util.js';
 
 const KEY = 'bmkviz.v1';
-export const SCHEMA = 1;
+export const SCHEMA = 2;
 
+// Zajedničke postavke aplikacije.
 const DEFAULT_SETTINGS = {
-  course: 'biomehanika',
-  dailyGoal: 10,
+  lastCourse: null,    // zadnji odabrani kolegij (id)
   displayMode: 'auto', // auto | mc | fill
   theme: 'system',
   vibration: true,
+};
+
+// Postavke po kolegiju (courses.<id>.settings).
+const DEFAULT_COURSE_SETTINGS = {
+  dailyGoal: 10,
   grading: null,      // null = pragovi iz course.json; inače { "2": 50, "3": 62, "4": 75, "5": 88 }
   examDuration: null, // null = trajanje iz course.json (min)
   quiz: null,         // zadnji odabir u kvizu
   exam: null,         // zadnji odabir u ispitu
 };
+const COURSE_SETTING_KEYS = Object.keys(DEFAULT_COURSE_SETTINGS);
 
 let state = null;
 let timer = null;
@@ -25,11 +31,26 @@ function freshState() {
   return { schema: SCHEMA, settings: { ...DEFAULT_SETTINGS }, courses: {} };
 }
 
-// Migracije po broju sheme. Za buduće sheme: if (s.schema === 1) { …; s.schema = 2; }
+// Migracije po broju sheme. Za buduće sheme: if (s.schema === 2) { …; s.schema = 3; }
 function migrate(s) {
   if (!s || typeof s !== 'object' || typeof s.schema !== 'number') return freshState();
-  s.settings = { ...DEFAULT_SETTINGS, ...(s.settings || {}) };
+  s.settings = s.settings && typeof s.settings === 'object' ? s.settings : {};
   s.courses = s.courses && typeof s.courses === 'object' ? s.courses : {};
+  if (s.schema === 1) {
+    // Shema 1 → 2 (više kolegija): dnevni cilj, pragovi, trajanje ispita i zadnji odabiri
+    // kviza/ispita prelaze u postavke kolegija koji je bio odabran; settings.course → lastCourse.
+    const cid = s.settings.course || 'biomehanika';
+    const c = (s.courses[cid] ||= {});
+    c.settings = { ...(c.settings || {}) };
+    for (const k of COURSE_SETTING_KEYS) {
+      if (k in s.settings) c.settings[k] = s.settings[k];
+      delete s.settings[k];
+    }
+    s.settings.lastCourse = cid;
+    delete s.settings.course;
+    s.schema = 2;
+  }
+  s.settings = { ...DEFAULT_SETTINGS, ...s.settings };
   return s;
 }
 
@@ -69,7 +90,13 @@ export function courseData(courseId) {
   c.reports ||= [];
   c.overrides ||= [];
   if (!('plan' in c)) c.plan = null;
+  c.settings = { ...DEFAULT_COURSE_SETTINGS, ...(c.settings || {}) };
   return c;
+}
+
+// Postavke jednog kolegija: dnevni cilj, pragovi, trajanje ispita, zadnji odabiri.
+export function courseSettings(courseId) {
+  return courseData(courseId).settings;
 }
 
 // ---------- export / import / reset (spec, odjeljak 12) ----------
@@ -88,7 +115,7 @@ export function parseImport(text) {
     throw new Error('Datoteka nije ispravan JSON.');
   }
   if (!obj || typeof obj !== 'object' || typeof obj.schema !== 'number' || typeof obj.courses !== 'object') {
-    throw new Error('Ovo nije sigurnosna kopija Biomehanika kviza.');
+    throw new Error('Ovo nije sigurnosna kopija Kviza.');
   }
   if (obj.schema > SCHEMA) throw new Error('Kopija je iz novije verzije aplikacije. Prvo osvježi aplikaciju.');
   return migrate(obj);
@@ -123,6 +150,7 @@ function mergeCourse(cur, imp) {
   }
   out.bestStreak = Math.max(cur.bestStreak || 0, imp.bestStreak || 0);
   out.plan = cur.plan || imp.plan || null;
+  out.settings = cur.settings || imp.settings; // postavke ostaju trenutne
   return out;
 }
 
@@ -132,10 +160,12 @@ export function mergeState(obj) {
   for (const [cid, imp] of Object.entries(obj.courses || {})) {
     s.courses[cid] = s.courses[cid] ? mergeCourse(s.courses[cid], imp) : imp;
   }
+  s.bestStreak = Math.max(s.bestStreak || 0, obj.bestStreak || 0);
   flush();
 }
 
 // Briše napredak kolegija (pitanja, ispiti, dani, streak, plan). Postavke i prijave ostaju.
+// Najdulji zajednički streak (state.bestStreak) ostaje.
 export function resetProgress(courseId) {
   const c = courseData(courseId);
   c.questions = {};

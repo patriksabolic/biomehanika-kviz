@@ -1,69 +1,64 @@
 # Prompti za Claude Code sesije
 
-Kopiraj cijeli blok i zalijepi u Claude Code. Jedan prompt = jedna sesija.
+Kopiraj cijeli blok i zalijepi u Claude Code. Jedan prompt = jedna sesija. Umjesto `<id>` upiši id kolegija iz `content/courses.json`:
 
-## Sesija 1 – faza M1 (osnovna aplikacija + kolokvij pitanja)
+| kolegij | id |
+|---|---|
+| Biomehanika | `biomehanika` |
+| Biokemija lijekova | `biokemija-lijekova` |
 
-```
-Pročitaj CLAUDE.md i docs/app-spec.md u cijelosti. Zatim napravi fazu M1 iz specifikacije (odjeljak 18):
+Izvorni materijali kolegija idu u `content/source/<id>/` (prezentacije u `pdf/`, primjeri ispitnih pitanja u `primjeri/`).
 
-1. Struktura projekta: index.html, manifest.json, sw.js, version.json, css/app.css, js/*.js, icons/ (napravi jednostavne PNG ikone 192 i 512 Pythonom ili kao SVG→PNG, bez instaliranja novih paketa ako je moguće).
-2. content/courses.json i content/biomehanika/course.json s 35 poglavlja i 11 područja točno prema odjeljku 3 spec-a (zadani datum ispita 2026-12-08, pragovi 50/62/75/88, trajanje ispita 45 min).
-3. Pretvori content/source/pitanja-kolokvija.md u content/biomehanika/questions/00-kolokvij.json prema odjeljku 4 i 16 spec-a: svako pitanje dobiva stvarno poglavlje, real_exam: true, praznina na ključnom pojmu, 3 distraktora, accepted varijante i objašnjenje (koristi content/source/skripta.md kao izvor objašnjenja; ako skripta nema objašnjenje, napiši kratko objašnjenje samo iz onoga što piše u pitanju i označi source "Pitanja s kolokvija"). Stavke "napiši formulu", "skiciraj", "postavi jednadžbu" i dva računska zadatka pretvori u fill/mc pitanja o ključnim svojstvima (npr. elementi Hillovog modela, oblik jednadžbe Donskog i Zaciorskog, formula E = a·ρ^p).
-4. Ekran Kviz: odabir poglavlja/područja, sesija od 10 pitanja, tipovi mc i fill, trenutna povratna informacija s objašnjenjem i izvorom, gumbi Lako/Srednje/Teško, "Ne znam", "Ipak točno", "Prijavi grešku", spremanje u localStorage (ključ bmkviz.v1). Početna s brzim startom i brojačem odgovorenih pitanja danas. Ostali ekrani (Ispit, Statistika, Postavke) mogu biti prazni s natpisom "Uskoro".
-5. tools/validate.py prema odjeljku 17 i pokreni ga dok ne prođe bez grešaka.
-6. .gitignore (content/source/ je već u njemu – provjeri), git init, grana main, prvi commit.
-
-Prije nego kreneš, napiši mi plan u 5 točaka. Ne instaliraj ništa bez pitanja. Kad završiš, pokreni lokalni server i napiši mi točno kako testirati u Chromeu na računalu (korak po korak, ja sam početnik).
-```
-
-## Sesija 1b – povezivanje s GitHubom (nakon što je repozitorij napravljen na github.com)
+## Priprema novog kolegija (nakon što su PDF-ovi i primjeri kopirani)
 
 ```
-Napravio sam prazan javni repozitorij na GitHubu: https://github.com/KORISNICKO_IME/biomehanika-kviz (bez README-a). Poveži lokalni projekt s njim i pošalji sve na granu main. Ako se otvori prozor za prijavu na GitHub, reci mi što da kliknem. Nakon toga mi korak po korak objasni kako na github.com uključiti GitHub Pages za ovaj repozitorij (Settings → Pages) i koji će link aplikacija imati.
-```
+Pročitaj CLAUDE.md, docs/app-spec.md i docs/courses/<id>.md. Pripremamo kolegij <id>:
 
-## Sesija 2 – faza M2 (pametni odabir, streak, prva poglavlja iz PDF-ova)
-
-```
-Pročitaj CLAUDE.md i docs/app-spec.md. Radimo fazu M2:
-
-1. tools/extract_pdf.py prema odjeljku 17 (treba paket pymupdf – reci mi točnu naredbu za instalaciju i pričekaj da je pokrenem i potvrdim). Pokreni ga nad content/source/pdf/ i provjeri da su nastale datoteke content/source/text/01.md … 35.md.
-2. scheduler.js prema odjeljku 7 (prioritet, težinski odabir, progresija mc→fill prema odjeljku 6) i poveži ga s kvizom.
-3. Streak i dnevni cilj prema odjeljku 9 (Početna: plamen, broj dana, napredak danas).
-4. Osnovna statistika prema odjeljku 10: točnost i pokrivenost po području i poglavlju, najslabije/najjače.
-5. Generiraj pitanja za poglavlja 07, 08 i 09 prema odjeljku 16 spec-a (15–25 po poglavlju) u questions/07.json, 08.json, 09.json. Izvor: content/source/text/07.md itd. + skripta.md. Pokreni validate.py.
-6. Podigni verziju, commit, i reci mi kako testirati.
+1. U content/source/<id>/pdf/ su prezentacije, u content/source/<id>/primjeri/ primjeri ispitnih pitanja. Ako nazivi PDF-ova ne počinju brojem poglavlja, predloži mi preimenovanje (ne mijenjaj ih sam). Zatim pokreni python tools/extract_pdf.py --course <id> (treba pymupdf – ako nije instaliran, reci mi točnu naredbu i pričekaj).
+2. Pregledaj izvučeni tekst i primjere i predloži poglavlja (id 01, 02 …, naslov prema PDF-u) i 6–12 područja. Pričekaj moj OK.
+3. Upiši poglavlja i područja u content/<id>/course.json (prefiks ID-a ostaje kakav jest). Pitaj me za datum ispita, ciljanu ocjenu, pragove i trajanje ispita ako ih nema u materijalu.
+4. Dopuni docs/courses/<id>.md: osnovni podaci, popis izvora, područja i poglavlja, redoslijed generiranja (prioritet prema zastupljenosti u primjerima ispitnih pitanja) i odluke.
+5. python tools/validate.py, podigni verziju, commit. Push tek uz moj OK.
 
 Prvo plan u 5 točaka, pa radi.
 ```
 
-## Sesija 3 – faza M3 (ispitni mod)
+## Stvarna ispitna pitanja i primjeri → 00-kolokvij.json
 
 ```
-Pročitaj CLAUDE.md i docs/app-spec.md. Radimo fazu M3: ispitni mod prema odjeljku 8 (trajanje, broj pitanja, sastav, nadopunjavanje kao zadani oblik, odbrojavanje, bez povratne informacije do kraja, bodovanje, ocjena po pragovima, pregled netočnih, povijest ispita), ekran Postavke prema odjeljku 12 (pragovi, dnevni cilj, način prikaza, tema, vibracija, export/import, reset, Prijave). Zatim generiraj pitanja za poglavlja 04, 05, 06 i 12, 13, 14 prema odjeljku 16 i pokreni validate.py. Podigni verziju, commit, upute za test.
+Pročitaj CLAUDE.md, odjeljke 4 i 16 u docs/app-spec.md i docs/courses/<id>.md. Pretvori stvarna ispitna pitanja iz content/source/<id>/primjeri/ u content/<id>/questions/00-kolokvij.json: svako pitanje dobiva stvarno poglavlje, real_exam: true, ID <prefiks>-k-<nnn> (prefiks iz course.json; 0nn = redni broj stavke, dodatne varijante od 101), prazninu na ključnom pojmu, 3 distraktora, accepted varijante, objašnjenje iz materijala kolegija i izvor. Stavke "napiši formulu / skiciraj / nacrtaj strukturu" pretvori u fill/mc pitanja o ključnim svojstvima. Primjeri koji nisu sa stvarnog ispita idu u stvarna poglavlja s real_exam: false. Upiši datoteku u questionFiles (course.json) i sw.js, pokreni python tools/validate.py --course <id>, upiši odluke u docs/courses/<id>.md, podigni verziju i napravi commit.
 ```
 
-## Sesija 4 – faza M4 (plan učenja + puna statistika)
+## Generiranje pitanja za poglavlja
 
 ```
-Pročitaj CLAUDE.md i docs/app-spec.md. Radimo fazu M4: plan učenja prema odjeljku 11 (ekran Plan, kartica "Danas" na Početnoj s gumbom Kreni, ponovni izračun svaki dan, upozorenje na zaostatak) i puna statistika prema odjeljku 10 (najteža/najlakša/opasna pitanja, trend 14 dana, kalendar aktivnosti 8 tjedana, povijest ispita i procjena ocjene, zanimljivosti). Zatim generiraj pitanja za poglavlja 17, 18, 19, 20 i 22, 23, 24. validate.py, verzija, commit, upute za test.
+Pročitaj CLAUDE.md, odjeljak 16 u docs/app-spec.md i docs/courses/<id>.md. Generiraj pitanja za poglavlja XX, YY i ZZ kolegija <id> iz content/source/<id>/text/ (i ostalih izvora navedenih u docs/courses/<id>.md) u content/<id>/questions/<nn>.json. Pokrij sve brojeve, formule, definicije i podjele iz tih poglavlja. Gdje je slika bitna (dijagram, građa, strukturna formula), kopiraj je iz content/source/<id>/img-raw/ u content/<id>/img/ (max 1200 px širine) i referenciraj. Nove datoteke upiši u questionFiles (course.json) i u CONTENT u sw.js. Pokreni python tools/validate.py --course <id> i ispiši broj pitanja po poglavlju. Nejasnoće u materijalu upiši u odluke u docs/courses/<id>.md. Podigni verziju u version.json i sw.js i napravi commit.
 ```
 
-## Predložak – generiranje pitanja za daljnja poglavlja (faza M5)
+Redoslijed poglavlja za pojedini kolegij je u `docs/courses/<id>.md` (odjeljak "Redoslijed generiranja").
+
+## Ispravci iz aplikacije ("Prijave")
 
 ```
-Pročitaj CLAUDE.md i odjeljak 16 u docs/app-spec.md. Generiraj pitanja za poglavlja XX, YY i ZZ iz content/source/text/ (i skripta.md gdje postoji) u content/biomehanika/questions/. Pokrij sve brojeve, formule, definicije i podjele iz tih poglavlja. Gdje je slika bitna (dijagram, građa), kopiraj je iz content/source/img-raw/ u content/biomehanika/img/ (max 1200 px širine) i referenciraj. Pokreni tools/validate.py i ispiši broj pitanja po poglavlju. Podigni verziju sadržaja u version.json i napravi commit.
-```
-
-Redoslijed za M5 (nakon 07–09, 04–06, 12–14, 17–20, 22–24): 01, 02, 03 → 15, 16, 10, 11 → 21, 25, 26 → 27, 28 → 29, 35 → 30, 31, 32, 33, 34.
-
-## Predložak – ispravci iz aplikacije ("Prijave")
-
-```
-U aplikaciji sam prijavio greške i "Ipak točno" odgovore. Evo popisa (kopirano iz Postavke → Prijave):
+U aplikaciji sam prijavio greške i "Ipak točno" odgovore. Evo popisa (kopirano iz Postavke → Prijave; u prvom retku piše kolegij):
 
 <zalijepi tekst>
 
-Za svaku stavku: ispravi pitanje ili dodaj upis u accepted, ne mijenjaj ID. Pokreni validate.py, podigni verziju sadržaja, commit.
+Za svaku stavku: ispravi pitanje ili dodaj upis u accepted, ne mijenjaj ID. Pokreni python tools/validate.py, podigni verziju, commit.
 ```
+
+## Provjera točnosti pitanja
+
+```
+Pročitaj CLAUDE.md, odjeljak 16 u docs/app-spec.md i docs/courses/<id>.md. Provjeri sva pitanja kolegija <id> (ili poglavlja XX–YY) prema izvornim materijalima u content/source/<id>/: točan odgovor, distraktori koji su prema materijalu također točni, objašnjenja s tvrdnjama kojih nema u materijalu, izvor i broj slajda. Ne mijenjaj ID-ove ni smisao stvarnih ispitnih pitanja. python tools/validate.py, odluke u docs/courses/<id>.md, verzija, commit.
+```
+
+## Izmjena aplikacije
+
+```
+Pročitaj CLAUDE.md i docs/app-spec.md. Želim ovu promjenu u aplikaciji: <opis>. Ako se kosi sa specifikacijom, predloži i pitaj. Upiši odluku u odjeljak 20 spec-a. Testiraj (python tools/validate.py, lokalno u Chromeu), podigni verziju, commit. Push tek uz moj OK.
+```
+
+## Povijest
+
+Sesije M1–M5 (izrada aplikacije uz Biomehaniku) i povezivanje s GitHubom su gotove; njihovi prompti su u git povijesti ove datoteke (`git log -p docs/prompts.md`). Redoslijed sadržaja Biomehanike je u `docs/courses/biomehanika.md`.

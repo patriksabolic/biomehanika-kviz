@@ -1,1 +1,4 @@
-[{ "id": "biomehanika", "name": "Biomehanika", "path": "./content/biomehanika/" }]
+[
+  { "id": "biomehanika", "name": "Biomehanika", "path": "./content/biomehanika/" },
+  { "id": "biokemija-lijekova", "name": "Biokemija lijekova", "path": "./content/biokemija-lijekova/" }
+]

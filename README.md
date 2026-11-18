@@ -1,9 +1,11 @@
-# Biomehanika kviz
+# Kviz
 
-Osobna PWA aplikacija za vježbanje gradiva kolegija Biomehanika (kviz, ispitni mod, statistika, plan učenja).
+Osobna PWA aplikacija za vježbanje gradiva više kolegija (kviz, ispitni mod, statistika, plan učenja). Kolegiji: Biomehanika, Biokemija lijekova (u pripremi).
 
-- Specifikacija: `docs/app-spec.md`
+- Specifikacija aplikacije: `docs/app-spec.md`
+- Sadržaj i odluke po kolegiju: `docs/courses/<id>.md`
 - Upute za Claude Code: `CLAUDE.md`
 - Prompti po sesijama: `docs/prompts.md`
 - Lokalni test: `python -m http.server 8000` → http://localhost:8000
-- Izvorni materijali kolegija su u `content/source/` i ne idu na GitHub (`.gitignore`).
+- Provjera pitanja: `python tools/validate.py` (svi kolegiji) ili `python tools/validate.py --course <id>`
+- Izvorni materijali kolegija su u `content/source/<id>/` i ne idu na GitHub (`.gitignore`).

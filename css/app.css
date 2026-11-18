@@ -1,4 +1,4 @@
-/* Biomehanika kviz – mobile-first, tamna tema (prati sustav). */
+/* Kviz – mobile-first, tamna tema (prati sustav). */
 
 :root {
   --bg: #121821;
@@ -408,3 +408,44 @@ rect.hm.sel, rect.hm:focus-visible { stroke: var(--warn); stroke-width: 2; }
 .qlist { margin: 0; padding-left: 1.4em; }
 .qlist li { margin: 0 0 10px; }
 .ql-prompt { display: block; }
+
+/* ---------- više kolegija: zaglavlje i popis kolegija ---------- */
+
+.appbar {
+  position: sticky; top: 0; z-index: 10;
+  display: flex; align-items: center; gap: 8px;
+  max-width: 560px; margin: 0 auto; min-height: 52px;
+  padding: calc(4px + env(safe-area-inset-top)) 12px 4px 4px;
+  background: var(--bg); border-bottom: 1px solid var(--border);
+}
+.appbar[hidden] { display: none; }
+.appbar .back {
+  min-height: 44px; padding: 0 10px; border: none; background: none; border-radius: 10px;
+  color: var(--primary); font: inherit; font-weight: 600; cursor: pointer; white-space: nowrap;
+}
+.appbar .back span { font-size: 1.4rem; line-height: 1; vertical-align: -2px; }
+.appbar .back:active { background: var(--surface-2); }
+.appbar-title {
+  flex: 1; min-width: 0; text-align: right; font-weight: 700;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+
+.course-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 16px; }
+.course-card {
+  display: flex; flex-direction: column; gap: 6px; width: 100%;
+  text-align: left; font: inherit; color: var(--text);
+  background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 16px; cursor: pointer;
+}
+button.course-card:active { background: var(--surface-2); }
+.course-card.last { border-color: var(--primary); }
+.course-card.disabled { cursor: default; opacity: 0.75; }
+.course-card .progress { display: block; margin: 2px 0 4px; }
+.course-card .progress > span { display: block; height: 100%; background: var(--primary); border-radius: 99px; }
+.cc-head { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.cc-name { font-size: 1.15rem; font-weight: 700; }
+.cc-go { font-size: 1.6rem; line-height: 1; color: var(--muted); }
+.badge.prep { color: var(--muted); border-color: var(--muted); }
+.badge.bad { color: var(--bad); border-color: var(--bad); }
+.section-title { margin: 8px 0 4px; font-size: 1.2rem; }
+.section-title + .muted { margin-top: 0; }

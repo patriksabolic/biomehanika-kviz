@@ -1,7 +1,7 @@
 // Ispitni mod (spec, odjeljak 8): postavke, sastav, odbrojavanje, predaja, bodovanje, ocjena, pregled.
 
 import { esc, shuffle, formatDuration, vibrate, plural, todayKey } from './util.js';
-import { courseData, settings, save, flush, addToDay } from './storage.js';
+import { courseData, courseSettings, settings, save, flush, addToDay } from './storage.js';
 import { gradeFill, isNumericAnswer } from './grading.js';
 import { applyAnswer, markSeen, getRecord, isDual } from './scheduler.js';
 import { pickerHtml, pickerClick, countByChapter } from './picker.js';
@@ -27,7 +27,7 @@ const suggestedCount = (min) => Math.round(min * 0.8);
 // ---------- ocjena ----------
 
 export function thresholds(course = ctx.course) {
-  return settings().grading || course.grading;
+  return courseSettings(course.id).grading || course.grading;
 }
 
 export function gradeFor(pct, thr) {
@@ -45,8 +45,16 @@ function fmtDate(iso) {
 
 // ---------- inicijalizacija i nastavak prekinutog ispita ----------
 
+// Poziva se i pri prelasku na drugi kolegij: zaustavi ispit prethodnog kolegija (ostaje spremljen
+// u njegovom activeExam i nastavlja se kad se kolegij ponovno otvori).
 export function initExam(c) {
   ctx = c;
+  clearInterval(timerId);
+  timerId = null;
+  exam = null;
+  result = null;
+  setup = null;
+  confirming = false;
   qById = new Map(ctx.questions.map((q) => [q.id, q]));
   const saved = courseData(ctx.courseId).activeExam;
   if (!saved) return;
@@ -85,10 +93,10 @@ export function showExam(el, preset) {
 // ---------- postavljanje ----------
 
 function defaultSetup() {
-  const saved = settings().exam;
+  const saved = courseSettings(ctx.courseId).exam;
   const valid = new Set(allChapterIds());
   const chapters = saved?.chapters?.filter((c) => valid.has(c));
-  const def = settings().examDuration || ctx.course.exam?.durationMin || 45;
+  const def = courseSettings(ctx.courseId).examDuration || ctx.course.exam?.durationMin || 45;
   const duration = DURATIONS.includes(def) ? def : 45;
   return { chapters: chapters && chapters.length ? chapters : allChapterIds(), duration, n: suggestedCount(duration) };
 }
@@ -177,7 +185,7 @@ function renderSetup(el) {
     } else if (t.dataset.act === 'all') {
       setup.chapters = allOn ? [] : allChapterIds();
     } else if (t.dataset.act === 'start') {
-      settings().exam = { chapters: setup.chapters };
+      courseSettings(ctx.courseId).exam = { chapters: setup.chapters };
       startExam(el, n);
       return;
     } else {
@@ -546,7 +554,7 @@ function renderResult(el, timeUpNow) {
     <h2>${wrong.length ? `Netočno i neodgovoreno (${wrong.length})` : 'Sve točno! 🎉'}</h2>
     ${wrongRows}
     <button type="button" class="btn primary big" data-act="new">Novi ispit</button>
-    <button type="button" class="btn" data-act="home">Početna</button>`;
+    <button type="button" class="btn" data-act="home">Natrag na kolegij</button>`;
 
   el.onsubmit = null;
   el.onchange = null;
@@ -564,7 +572,7 @@ function renderResult(el, timeUpNow) {
       window.scrollTo(0, 0);
     } else if (t.dataset.act === 'home') {
       result = null;
-      ctx.go('home');
+      ctx.go('course');
     }
   };
   if (timeUpNow !== undefined) window.scrollTo(0, 0);

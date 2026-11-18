@@ -1,6 +1,7 @@
 {
   "id": "biomehanika",
   "name": "Biomehanika",
+  "idPrefix": "bm",
   "examDate": "2026-12-08",
   "grading": { "2": 50, "3": 62, "4": 75, "5": 88 },
   "exam": { "durationMin": 45 },
