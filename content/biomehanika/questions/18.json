@@ -302,7 +302,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Spoj mišića i živčanog vlakna (neuromišićna veza) zove se ___.",
+    "prompt": "Spoj mišića i živčanog vlakna zove se ___.",
     "answer": "motorna pločica",
     "accepted": [
       "motorna pločica",

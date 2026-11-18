@@ -254,7 +254,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "3D printer Blueprinter zasniva se na ___ tehnologiji (Digital Light Processing).",
+    "prompt": "3D printer Blueprinter zasniva se na ___ tehnologiji.",
     "answer": "DLP",
     "accepted": [
       "DLP",
@@ -265,7 +265,7 @@
       "FDM",
       "DMD"
     ],
-    "explanation": "DLP tehnologija selektivno skrućuje fotoosjetljivu smolu: DMD čip (Digital Micromirror Device) projicira sliku cijelog sloja na ravninu gradnje. DMD je dio sustava, a DLP naziv tehnologije.",
+    "explanation": "DLP (Digital Light Processing) tehnologija selektivno skrućuje fotoosjetljivu smolu: DMD čip (Digital Micromirror Device) projicira sliku cijelog sloja na ravninu gradnje. DMD je dio sustava, a DLP naziv tehnologije.",
     "image": null,
     "explanation_image": null,
     "source": "10_Skele.pdf, slajd 4",
@@ -311,7 +311,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Kojim se čipom u Blueprinteru projiciraju slike pojedinih slojeva? ___ čip (Digital Micromirror Device).",
+    "prompt": "Kojim se čipom u Blueprinteru projiciraju slike pojedinih slojeva? ___ čip.",
     "answer": "DMD",
     "accepted": [
       "DMD",
@@ -322,7 +322,7 @@
       "CCD",
       "LED"
     ],
-    "explanation": "DMD čip ima mnoštvo mikroogledala koja usmjeravaju svjetlost LED-a tako da se na ravnini gradnje osvijetli točno oblik sloja.",
+    "explanation": "DMD čip (Digital Micromirror Device) ima mnoštvo mikroogledala koja usmjeravaju svjetlost LED-a tako da se na ravnini gradnje osvijetli točno oblik sloja.",
     "image": null,
     "explanation_image": null,
     "source": "10_Skele.pdf, slajd 4",

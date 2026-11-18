@@ -1,6 +1,6 @@
 // Service worker: offline rad (spec, odjeljak 14).
 // PRI SVAKOM DEPLOYU podigni VERSION (mora biti isto kao "version" u version.json).
-const VERSION = '0.5.0';
+const VERSION = '0.5.1';
 const CACHE = `bmkviz-${VERSION}`;
 
 const SHELL = [
@@ -93,7 +93,10 @@ const CONTENT = [
 
 self.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE).then((c) => c.addAll([...SHELL, ...CONTENT])).then(() => self.skipWaiting())
+    // cache: 'reload' = mimo HTTP cachea preglednika, da nova verzija ne spremi stare datoteke.
+    caches.open(CACHE)
+      .then((c) => c.addAll([...SHELL, ...CONTENT].map((u) => new Request(u, { cache: 'reload' }))))
+      .then(() => self.skipWaiting())
   );
 });
 
@@ -109,7 +112,7 @@ self.addEventListener('activate', (event) => {
 async function networkFirst(request) {
   const cache = await caches.open(CACHE);
   try {
-    const res = await fetch(request);
+    const res = await fetch(request, { cache: 'no-cache' }); // provjeri na serveru je li sadržaj nov
     if (res.ok) cache.put(request, res.clone());
     return res;
   } catch (e) {

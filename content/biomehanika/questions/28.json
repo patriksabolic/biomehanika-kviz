@@ -144,11 +144,10 @@
       "mc",
       "fill"
     ],
-    "prompt": "Naginjanje zuba oko neke točke naziva se ___ (tipping).",
+    "prompt": "Ortodontski pomak „tipping”, pri kojem se zub nagne oko neke točke, na hrvatskom se naziva ___.",
     "answer": "naginjanje",
     "accepted": [
       "naginjanje",
-      "tipping",
       "naginjanje (tipping)"
     ],
     "distractors": [

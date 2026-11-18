@@ -407,8 +407,8 @@
       "2,58 µm"
     ],
     "explanation": "U izotoničnom stanju promjer je 7,82 µm, debljina 0,81–2,58 µm, površina 135 µm², a volumen 94 µm³. Pri 217 mosmol promjer pada na 7,59 µm, a kod sfere (131 mosmol) na 6,78 µm.",
-    "image": "img/25-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/25-1.png",
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 6",
     "tags": [
       "brojka"
@@ -437,8 +437,8 @@
       "135 µm³"
     ],
     "explanation": "Pri 300 mosmol volumen je 94 µm³, pri 217 mosmol 116 µm³, a kod sfere (131 mosmol) 164 µm³. Volumen raste kako stanica upija vodu u otopini manje toničnosti.",
-    "image": "img/25-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/25-1.png",
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 6",
     "tags": [
       "brojka"
@@ -467,8 +467,8 @@
       "164 µm²"
     ],
     "explanation": "Površina je 135 µm² i pri 300 i pri 217 mosmol – membrana se gotovo ne rasteže, mijenja se samo oblik. Tek kao sfera stanica ima površinu 145 µm².",
-    "image": "img/25-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/25-1.png",
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 6",
     "tags": [
       "brojka"
@@ -493,8 +493,8 @@
       "stanica postaje sfera"
     ],
     "explanation": "Ulaskom vode volumen raste, ali površina membrane ostaje ista – membrana se ne rasteže nego mijenja zakrivljenost. To odgovara tome da je krutost istezanja membrane velika, a savojna mala.",
-    "image": "img/25-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/25-1.png",
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 6 i 10",
     "tags": [
       "usporedba"

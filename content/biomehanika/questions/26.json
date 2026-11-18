@@ -188,8 +188,8 @@
       "tonogram"
     ],
     "explanation": "Osnovni cistometrogram prikazuje tlak u mjehuru (kPa) u ovisnosti o volumenu (ml): brz porast na početku, ravni dio zbog tonusa stijenke, pa nagli porast iznad 400 ml.",
-    "image": "img/26-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/26-1.png",
     "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 4",
     "tags": [
       "skica",

@@ -510,8 +510,8 @@
       "vidni centar"
     ],
     "explanation": "Postcentralna vijuga (tjemeni režanj) prima osjete dodira, položaja zgloba…; precentralna je motorička. Na homunkulusu se vidi da usne, lice i šaka zauzimaju velik dio obiju vijuga.",
-    "image": "img/30-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/30-1.png",
     "source": "30_Zivcani sustav.pdf, slajd 25, 29 i 30",
     "tags": [
       "funkcija",
@@ -831,11 +831,11 @@
       "40-50"
     ],
     "distractors": [
-      "43 cm",
+      "70-80 cm",
       "20-30 cm",
       "60-70 cm"
     ],
-    "explanation": "Ovo predavanje navodi 40–50 cm, do 2. slabinskog kralješka. Predavanje „Leđna moždina” navodi 43 cm i visinu 1. lumbalnog kralješka – oba se podatka uklapaju u raspon. Vratni (C3–T2) i slabinski (T9–L2) dio su zadebljani.",
+    "explanation": "Ovo predavanje navodi 40–50 cm, do 2. slabinskog kralješka. Predavanje „Leđna moždina” navodi 43 cm i visinu 1. lumbalnog kralješka – taj se podatak uklapa u raspon. Vratni (C3–T2) i slabinski (T9–L2) dio su zadebljani.",
     "image": null,
     "explanation_image": null,
     "source": "30_Zivcani sustav.pdf, slajd 47; 31_Ledjna mozdina.pdf, slajd 3",

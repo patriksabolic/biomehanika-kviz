@@ -33,6 +33,8 @@ export function formatDuration(sec) {
 }
 
 export function vibrate(enabled, pattern) {
+  // Bez prethodnog dodira Chrome blokira vibraciju i piše grešku u konzolu.
+  if (navigator.userActivation && !navigator.userActivation.hasBeenActive) return;
   if (enabled && navigator.vibrate) {
     try { navigator.vibrate(pattern); } catch { /* nije podržano */ }
   }

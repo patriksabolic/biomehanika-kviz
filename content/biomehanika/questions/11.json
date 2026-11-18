@@ -156,8 +156,8 @@
       "15°"
     ],
     "explanation": "Tip I je do 30°, tip II do 50°, a tip III do 70°. Tip I je najmanje, a tip III najviše vertikalan.",
-    "image": "img/11-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/11-1.png",
     "source": "11_Osteosinteza.pdf, slajd 3",
     "tags": [
       "brojka"
@@ -185,8 +185,8 @@
       "45°"
     ],
     "explanation": "Tip II je između tipa I (do 30°) i tipa III (do 70°) – do 50°. Razmak između tipova je po 20°.",
-    "image": "img/11-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/11-1.png",
     "source": "11_Osteosinteza.pdf, slajd 3",
     "tags": [
       "brojka"
@@ -214,8 +214,8 @@
       "30°"
     ],
     "explanation": "Tip III (do 70°) je najvertikalniji prijelom.",
-    "image": "img/11-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/11-1.png",
     "source": "11_Osteosinteza.pdf, slajd 3",
     "tags": [
       "brojka"

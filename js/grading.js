@@ -8,6 +8,7 @@ export function normalize(s) {
     .trim()
     .replace(/[đčćšž]/g, (c) => DIACRITICS[c])
     .replace(/[–—−]/g, '-') // en/em crtica i minus kao obična crtica (raspon 3–4 % = 3-4 %)
+    .replace(/µ/g, 'μ') // znak mikro (U+00B5) = grčko mi (U+03BC), tipkovnice daju jedno ili drugo
     .replace(/[^\p{L}\p{N}\s.,\-/%]/gu, '')
     .replace(/\s+/g, ' ')
     .trim()

@@ -637,8 +637,8 @@
       "340 kPa"
     ],
     "explanation": "Na dijagramu tlak u stajanju iznosi 80 kPa. Ležanje ga smanjuje (30–60), uspravno sjedenje povećava (100), a pretklon s teretom višestruko povećava (340, 380).",
-    "image": "img/15-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/15-1.png",
     "source": "15_Biomehanika kralježnice.pdf, slajd 14",
     "tags": [
       "brojka"
@@ -653,7 +653,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Najveći tlak na međukralježnički disk prema dijagramu (sjedenje u pretklonu s teretom) iznosi ___.",
+    "prompt": "Najveći tlak na međukralježnički disk (sjedenje u pretklonu s teretom) iznosi ___.",
     "answer": "380 kPa",
     "accepted": [
       "380 kPa",
@@ -666,8 +666,8 @@
       "100 kPa"
     ],
     "explanation": "Sjedenje u pretklonu s teretom daje 380 kPa, gotovo pet puta više nego stajanje (80 kPa). Pretklon s teretom u stojećem položaju daje 340 kPa. Zato je podizanje tereta iz pretklona opasno za disk.",
-    "image": "img/15-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/15-1.png",
     "source": "15_Biomehanika kralježnice.pdf, slajd 14",
     "tags": [
       "brojka"
@@ -695,8 +695,8 @@
       "120 kPa"
     ],
     "explanation": "Pretklon bez tereta daje 100 kPa, a s teretom 340 kPa. Teret je daleko od kralježnice, pa ima veliki krak i stvara veliki moment koji mišići leđa moraju uravnotežiti – to tlači disk.",
-    "image": "img/15-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/15-1.png",
     "source": "15_Biomehanika kralježnice.pdf, slajd 14",
     "tags": [
       "brojka"
@@ -721,8 +721,8 @@
       "u stajanju (100 kPa prema 80 kPa)"
     ],
     "explanation": "Prema dijagramu uspravno sjedenje daje 100 kPa, a stajanje 80 kPa. Sjedenje u pretklonu povisi tlak na 120 kPa. Zato su važni ispravni radni položaji.",
-    "image": "img/15-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/15-1.png",
     "source": "15_Biomehanika kralježnice.pdf, slajd 14 i 15",
     "tags": [
       "usporedba",
@@ -738,7 +738,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Na dijagramu tlakova na disk granica između hidracije i dehidracije diska je ___.",
+    "prompt": "Granica između hidracije i dehidracije međukralježničkog diska je pri tlaku ___.",
     "answer": "80 kPa",
     "accepted": [
       "80 kPa",
@@ -751,8 +751,8 @@
       "60 kPa"
     ],
     "explanation": "Ispod 80 kPa (ležanje) disk upija tekućinu – hidracija; iznad 80 kPa (sjedenje, pretklon, teret) disk gubi tekućinu – dehidracija.",
-    "image": "img/15-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/15-1.png",
     "source": "15_Biomehanika kralježnice.pdf, slajd 14",
     "tags": [
       "brojka",

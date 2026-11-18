@@ -146,7 +146,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Debljina stanične membrane iznosi ___ (pore 8–10 nm).",
+    "prompt": "Debljina stanične membrane iznosi ___.",
     "answer": "10 nm",
     "accepted": [
       "10 nm",
@@ -539,7 +539,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Potencijal u mirovanju na dijagramu akcijskog potencijala iznosi ___, a nadvišenje +30 mV.",
+    "prompt": "Potencijal u mirovanju kod akcijskog potencijala iznosi ___, a nadvišenje +30 mV.",
     "answer": "-85 mV",
     "accepted": [
       "-85 mV",
@@ -553,8 +553,8 @@
       "-30 mV"
     ],
     "explanation": "Na dijagramu je potencijal u mirovanju −85 mV, a vrh akcijskog potencijala (nadvišenje) +30 mV. Podražaj najprije digne napon do praga podražljivosti, a tada nastaje akcijski potencijal.",
-    "image": "img/34-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/34-1.png",
     "source": "34_Elektrofiziologija.pdf, slajd 15",
     "tags": [
       "brojka",
