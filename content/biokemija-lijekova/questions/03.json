@@ -1,0 +1,1066 @@
+[
+  {
+    "id": "bl-03-001",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Alkohol-dehidrogenaze (ADH) oksidiraju primarne alkohole u ___.",
+    "answer": "aldehide",
+    "accepted": [
+      "aldehide",
+      "aldehid"
+    ],
+    "distractors": [
+      "ketone",
+      "karboksilne kiseline",
+      "estere"
+    ],
+    "explanation": "Primarni alkohol ima dva vodika na ugljiku s OH skupinom, pa oduzimanjem jednoga nastaje aldehid. Aldehid se zatim može dalje oksidirati do karboksilne kiseline, ali tu reakciju preuzimaju aldehid-dehidrogenaze.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 3",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-002",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Oksidacijom sekundarnog alkohola nastaje ___.",
+    "answer": "keton",
+    "accepted": [
+      "keton",
+      "ketoni"
+    ],
+    "distractors": [
+      "aldehid",
+      "karboksilna kiselina",
+      "eter"
+    ],
+    "explanation": "Sekundarni alkohol ima samo jedan vodik na ugljiku s OH skupinom, pa nakon oksidacije ostaje keton koji se ne može dalje oksidirati bez cijepanja veze C–C. Aldehidi i ketoni mogu se i reducirati natrag u alkohole (ALR, AKR, CR).",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 5",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-003",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto se tercijarni alkoholi ne mogu oksidirati u karbonilni spoj?",
+    "answer": "jer nemaju vodik na ugljiku koji nosi OH skupinu",
+    "accepted": [
+      "jer nemaju vodik na ugljiku koji nosi OH skupinu",
+      "nemaju vodik na tom C-atomu"
+    ],
+    "distractors": [
+      "jer ih enzimi ne vežu u aktivno mjesto",
+      "jer su prepolarni za ADH",
+      "jer se prvo moraju konjugirati"
+    ],
+    "explanation": "Oksidacija alkohola znači oduzimanje vodika s ugljika koji nosi OH skupinu; tercijarni alkohol na tom mjestu nema vodika. Takav bi spoj prešao u karbonilni oblik samo uz cijepanje veze C–C, što ovim putem nije moguće.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 5",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-004",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Metalni kofaktor alkohol-dehidrogenaze koji veže i aktivira alkoholnu skupinu je ___.",
+    "answer": "$\\ce{Zn^2+}$",
+    "accepted": [
+      "Zn2+",
+      "cink",
+      "cinkov ion"
+    ],
+    "distractors": [
+      "$\\ce{Cu^2+}$",
+      "$\\ce{Fe^2+}$",
+      "$\\ce{Mg^2+}$"
+    ],
+    "explanation": "Cinkov ion koordinira kisik alkoholne skupine i olakšava njezinu deprotonaciju. Nakon toga se hidrid prenosi s ugljika na C4 nikotinamidnog prstena $\\ce{NAD+}$, pa nastaju karbonilni spoj i NADH; prijenos protona i hidrida međusobno su spregnuti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajdovi 6 i 7",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-005",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Alkohol-dehidrogenaza je dimer molekulske mase približno ___ kDa.",
+    "answer": "80",
+    "accepted": [
+      "80",
+      "80 kDa",
+      "oko 80"
+    ],
+    "distractors": [
+      "40",
+      "120",
+      "250"
+    ],
+    "explanation": "ADH je citosolni dimerni enzim od oko 80 kDa, najvažniji u jetri. Humani ADH obuhvaćaju pet razreda (I–V) koji se razlikuju po svojstvima i specifičnosti prema supstratima; neke forme više idu u smjeru oksidacije, a druge u smjeru redukcije.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 6",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-006",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Humane alkohol-dehidrogenaze svrstane su u ___ razreda.",
+    "answer": "pet",
+    "accepted": [
+      "pet",
+      "5",
+      "5 (I-V)"
+    ],
+    "distractors": [
+      "dva",
+      "tri",
+      "sedam"
+    ],
+    "explanation": "Razredi I–V razlikuju se po specifičnosti prema supstratima: uz etanol i druge alkohole pojedini izoenzimi metaboliziraju i retinol. Zbog te raznolikosti ista osoba različito brzo razgrađuje različite alkohole.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 6",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-007",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Gdje su smješteni enzimi ALDH1A1 i ALDH2?",
+    "answer": "ALDH1A1 u citosolu, ALDH2 u mitohondriju",
+    "accepted": [
+      "ALDH1A1 u citosolu, ALDH2 u mitohondriju",
+      "1A1 citosol, 2 mitohondrij"
+    ],
+    "distractors": [
+      "ALDH1A1 u mitohondriju, ALDH2 u citosolu",
+      "oba u citosolu",
+      "oba u endoplazmatskom retikulumu"
+    ],
+    "explanation": "Različita lokalizacija prati različitu ulogu: mitohondrijski ALDH2 uklanja acetaldehid nastao iz etanola, a citosolni ALDH1A oksidiraju retinal u retinoičnu kiselinu. Oba koriste $\\ce{NAD+}$ ili $\\ce{NADP+}$, ovisno o enzimu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 8",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-008",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Metabolit disulfirama koji inhibira ALDH2 zove se ___.",
+    "answer": "dietilditiokarbamat",
+    "accepted": [
+      "dietilditiokarbamat",
+      "dietilditiokarbamata"
+    ],
+    "distractors": [
+      "fomepizol",
+      "dietilamin",
+      "tiouracil"
+    ],
+    "explanation": "Inhibicijom ALDH2 acetaldehid se nakuplja i izaziva mučninu, povraćanje i crvenilo, pa disulfiram (Antabus) služi kao odvraćajuća terapija u liječenju ovisnosti o alkoholu. Isti se mehanizam spontano javlja kod osoba s varijantom ALDH2*2.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 8",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-009",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je klinička posljedica polimorfizma ALDH2 (varijanta ALDH2*2), čestog u istočnoazijskim populacijama?",
+    "answer": "smanjena tolerancija na alkohol i veći rizik karcinoma jednjaka",
+    "accepted": [
+      "smanjena tolerancija na alkohol i veći rizik karcinoma jednjaka",
+      "manja tolerancija na alkohol"
+    ],
+    "distractors": [
+      "povećana tolerancija na alkohol bez posljedica",
+      "brža razgradnja acetaldehida",
+      "nemogućnost oksidacije etanola u acetaldehid"
+    ],
+    "explanation": "Smanjena aktivnost ALDH2 znači sporije uklanjanje acetaldehida, pa se on nakuplja nakon pijenja. Acetaldehid oslobađa kateholamine i širi krvne žile lica (sindrom crvenila), uz mučninu i tahikardiju, a kao genotoksičan metabolit povećava rizik karcinoma jednjaka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 10",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-010",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U mehanizmu ALDH tiolatna skupina cisteina napada karbonilni C-atom aldehida i nastaje ___.",
+    "answer": "tiohemiacetal",
+    "accepted": [
+      "tiohemiacetal",
+      "tiohemiacetala"
+    ],
+    "distractors": [
+      "tioester",
+      "karbinolamin",
+      "hemiacetal s NAD"
+    ],
+    "explanation": "U tiohemiacetalu je supstrat kovalentno vezan za enzim. Prijenosom hidrida na $\\ce{NAD+}$ nastaju NADH i tioester, a hidrolizom tioestera oslobađa se karboksilat i enzim je spreman za novi ciklus.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 9",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-011",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je ključna razlika između enzima CYP i dehidrogenaza (ADH/ALDH)?",
+    "answer": "CYP troši molekulski kisik, a dehidrogenaze prenose hidrid na $\\ce{NAD(P)+}$",
+    "accepted": [
+      "CYP trosi molekulski kisik, a dehidrogenaze prenose hidrid na NAD(P)+",
+      "dehidrogenaze ne trose kisik"
+    ],
+    "distractors": [
+      "dehidrogenaze troše molekulski kisik, a CYP prenosi hidrid",
+      "obje skupine koriste hem i molekulski kisik",
+      "dehidrogenaze rade preko slobodnih radikala, a CYP ne"
+    ],
+    "explanation": "CYP koristi hem i $\\ce{O2}$: jedan atom kisika ulazi u supstrat, drugi u vodu, a u alifatskoj hidroksilaciji često nastaje kratkoživući radikal. Dehidrogenaze prenose hidrid na $\\ce{NAD+}$ ili $\\ce{NADP+}$ bez izravne potrošnje kisika i bez slobodnih radikala. Nijedna skupina nije uvijek samo detoksikacijska: CYP2E1 iz paracetamola stvara NAPQI, a ADH iz etanola reaktivan acetaldehid.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 11",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-012",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Toksični metabolit metanola koji inhibira citokrom-c-oksidazu i oštećuje vid je ___.",
+    "answer": "formijat",
+    "accepted": [
+      "formijat",
+      "mravlja kiselina",
+      "format"
+    ],
+    "distractors": [
+      "formaldehid",
+      "oksalat",
+      "glikolat"
+    ],
+    "explanation": "ADH oksidira metanol u formaldehid, a ovaj se brzo prevodi u formijat. Formijat koči staničnu uporabu kisika, pa nastaje metabolička acidoza i oštećenje vida; njegovo uklanjanje folat-ovisnim putem do $\\ce{CO2}$ u čovjeka je sporo.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 12",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-013",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kod trovanja metanolom ili etilen-glikolom lijek ___ inhibira alkohol-dehidrogenazu i sprječava nastanak toksičnih metabolita.",
+    "answer": "fomepizol",
+    "accepted": [
+      "fomepizol",
+      "fomepizola"
+    ],
+    "distractors": [
+      "disulfiram",
+      "alopurinol",
+      "acetilcistein"
+    ],
+    "explanation": "Toksičnost ne uzrokuje sam alkohol, nego njegovi metaboliti, pa blokada prvog koraka rješava problem. Isti učinak ima i etanol, koji djeluje kao konkurentski supstrat ADH-a.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajdovi 12 i 13",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-014",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Završni metabolit etilen-glikola koji s kalcijem stvara kristale i oštećuje bubrege je ___.",
+    "answer": "oksalat",
+    "accepted": [
+      "oksalat",
+      "oksalata",
+      "oksalna kiselina"
+    ],
+    "distractors": [
+      "glikolat",
+      "glioksilat",
+      "glikolaldehid"
+    ],
+    "explanation": "Put ide etilen-glikol → glikolaldehid → glikolat → glioksilat → oksalat. Glikolat najviše pridonosi metaboličkoj acidozi, a oksalat s kalcijem taloži kristale kalcijeva oksalata u bubrezima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 13",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-015",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji enzim katalizira glavni put oksidacije etanola u acetaldehid i gdje se nalazi?",
+    "answer": "ADH u citosolu",
+    "accepted": [
+      "ADH u citosolu",
+      "alkohol-dehidrogenaza u citosolu",
+      "ADH, citosol"
+    ],
+    "distractors": [
+      "ALDH2 u mitohondriju",
+      "CYP2E1 u endoplazmatskom retikulumu",
+      "katalaza u peroksisomima"
+    ],
+    "explanation": "Citosolna ADH nosi glavninu oksidacije etanola uz nastanak NADH; ALDH2 u mitohondriju zatim oksidira acetaldehid u acetat. Doprinos CYP2E1 raste pri višim koncentracijama i nakon kronične izloženosti, a katalaza u peroksisomima koristi $\\ce{H2O2}$, ali daje manji doprinos.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 14",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-016",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako povećan omjer NADH/$\\ce{NAD+}$ nakon konzumacije alkohola dovodi do masne jetre?",
+    "answer": "koči $\\beta$-oksidaciju i potiče stvaranje glicerol-3-fosfata",
+    "accepted": [
+      "koci beta-oksidaciju i potice stvaranje glicerol-3-fosfata",
+      "inhibira beta-oksidaciju masnih kiselina"
+    ],
+    "distractors": [
+      "ubrzava $\\beta$-oksidaciju i razgradnju triglicerida",
+      "smanjuje sintezu glicerol-3-fosfata",
+      "povećava izlučivanje masnih kiselina žuči"
+    ],
+    "explanation": "Visoka dostupnost NADH otežava oksidaciju masnih kiselina u mitohondrijima i istodobno pogoduje redukciji dihidroksiaceton-fosfata u glicerol-3-fosfat, okosnicu za sintezu triglicerida. Manja razgradnja i veća sinteza zajedno vode nakupljanju triglicerida u hepatocitima, odnosno steatozi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 15",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-017",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto indukcija CYP2E1 kod kronične konzumacije alkohola povećava opasnost od paracetamola?",
+    "answer": "jer CYP2E1 pojačano stvara reaktivni metabolit paracetamola",
+    "accepted": [
+      "jer CYP2E1 pojačano stvara reaktivni metabolit paracetamola",
+      "veca bioaktivacija paracetamola"
+    ],
+    "distractors": [
+      "jer CYP2E1 sprječava izlučivanje paracetamola bubregom",
+      "jer CYP2E1 veže paracetamol u neaktivni kompleks",
+      "jer CYP2E1 pretvara paracetamol u fenacetin"
+    ],
+    "explanation": "CYP2E1 bioaktivira paracetamol u NAPQI, pa indukcija enzima znači više reaktivnog metabolita pri istoj dozi. Uz to aktivnost CYP2E1 stvara reaktivne kisikove vrste i oksidacijski stres, koji pridonosi lipidnoj peroksidaciji, oštećenju mitohondrija i alkoholnoj bolesti jetre.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 15",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-018",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Oksidacijom 2-hidroksimedazepama, pri čemu skupina C–OH prelazi u C=O, nastaje aktivni metabolit ___.",
+    "answer": "diazepam",
+    "accepted": [
+      "diazepam",
+      "diazepama"
+    ],
+    "distractors": [
+      "nordazepam",
+      "oksazepam",
+      "temazepam"
+    ],
+    "explanation": "Medazepam se hidroksilira na C2 heterocikličkog prstena, a daljnjom oksidacijom nastaje diazepam, koji strukturno pripada laktamima. Diazepam je farmakološki aktivan, pa je medazepam primjer lijeka čiji metabolizam ne znači inaktivaciju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 17",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-019",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja dva koraka čine opći mehanizam hidroksilacije sp3 C-atoma uz enzime CYP?",
+    "answer": "prijenos atoma vodika sa supstrata i prijenos OH skupine sa željeza na ugljikov radikal",
+    "accepted": [
+      "prijenos atoma vodika sa supstrata i prijenos OH skupine sa željeza na ugljikov radikal",
+      "prijenos atoma vodika sa supstrata i prijenos OH skupine sa zeljeza na ugljikov radikal",
+      "HAT pa povrat OH skupine"
+    ],
+    "distractors": [
+      "prijenos dvaju elektrona i vezanje vode",
+      "stvaranje epoksida i njegova hidroliza",
+      "prijenos hidrida na $\\ce{NAD+}$ i hidroliza"
+    ],
+    "explanation": "Spoj I oduzima vodikov atom iz veze C–H, pa nastaje ugljikov radikal supstrata. Hidroksilna skupina koordinirana na željezo zatim prelazi na taj radikal i nastaje alkohol; veza C–H zamijenjena je vezom C–OH.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajdovi 19 i 20",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-020",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Na kojem je zasićenom C-atomu apstrakcija vodika u pravilu najpovoljnija?",
+    "answer": "na tercijarnom",
+    "accepted": [
+      "na tercijarnom",
+      "tercijarni",
+      "tercijarnom C-atomu"
+    ],
+    "distractors": [
+      "na sekundarnom",
+      "na primarnom",
+      "podjednako na svima"
+    ],
+    "explanation": "Redoslijed tercijarni > sekundarni > primarni prati stabilnost nastalog ugljikova radikala. Još su povoljniji benzilni i alilni položaji zbog rezonancijske stabilizacije. Pravilo je ipak samo orijentacijsko: sterička dostupnost i orijentacija veze C–H u aktivnom mjestu mogu promijeniti ishod.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 21",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-021",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što pokazuje primjer ibuprofena o pravilu benzilne hidroksilacije?",
+    "answer": "da najstabilniji radikal ne mora odrediti glavno mjesto hidroksilacije",
+    "accepted": [
+      "da najstabilniji radikal ne mora odrediti glavno mjesto hidroksilacije",
+      "najstabilniji radikal nije uvijek glavno mjesto"
+    ],
+    "distractors": [
+      "da se benzilni položaj uvijek hidroksilira prvi",
+      "da se ibuprofen ne hidroksilira",
+      "da benzilni položaj ne može nastati radikal"
+    ],
+    "explanation": "Kod ibuprofena se hidroksiliraju alifatski sp3 C-atomi izobutilne bočne skupine, a benzilni C-atom nije glavno mjesto. Razlog je orijentacija supstrata u aktivnom mjestu te sterička dostupnost i fleksibilnost molekule. Nastali hidroksilirani metaboliti dalje se oksidiraju u karboksilne derivate.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 22",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-022",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Hidroksilacija u $\\omega$-položaju karakteristična je za alifatske lance dulje od ___ C-atoma.",
+    "answer": "8",
+    "accepted": [
+      "8",
+      "osam",
+      "8 C-atoma"
+    ],
+    "distractors": [
+      "4",
+      "12",
+      "20"
+    ],
+    "explanation": "Kod dugih lanaca hidroksilira se terminalna skupina $\\ce{CH3}$ i nastaje primarni alkohol ($\\ce{CH2OH}$), koji se dalje može oksidirati u aldehid i karboksilnu skupinu. Kod masnih kiselina oksidacija drugoga kraja lanca daje dikarboksilnu kiselinu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 23",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-023",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "$\\omega$- i ($\\omega-1$)-hidroksilaciju prostaglandina $\\ce{E2}$ katalizira enzim ___.",
+    "answer": "CYP4A11",
+    "accepted": [
+      "CYP4A11",
+      "4A11"
+    ],
+    "distractors": [
+      "CYP2E1",
+      "CYP3A4",
+      "CYP1A2"
+    ],
+    "explanation": "Prostaglandin $\\ce{E2}$ nastaje iz arahidonske kiseline i pripada eikozanoidima. Hidroksilacijom alifatskog lanca i daljnjom oksidacijom do dikarboksilne kiseline prostaglandin se inaktivira, a veća polarnost olakšava eliminaciju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 24",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-024",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Hidroksilacijom alicikličkog C-atoma cikloheksana nastaje ___.",
+    "answer": "cikloheksanol",
+    "accepted": [
+      "cikloheksanol",
+      "cikloheksanola"
+    ],
+    "distractors": [
+      "cikloheksanon",
+      "fenol",
+      "cikloheksen"
+    ],
+    "explanation": "Aliciklički spoj ima nearomatski ugljikov prsten, pa CYP hidroksilira zasićeni C-atom u prstenu i nastaje alkohol. Mjesto hidroksilacije ovisi o dostupnosti veze C–H, konformaciji prstena i položaju molekule u aktivnom mjestu enzima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 26",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-025",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je alilni C-atom?",
+    "answer": "sp3 C-atom neposredno uz dvostruku vezu C=C",
+    "accepted": [
+      "sp3 C-atom neposredno uz dvostruku vezu C=C",
+      "C-atom uz dvostruku vezu"
+    ],
+    "distractors": [
+      "sp3 C-atom neposredno uz aromatski prsten",
+      "C-atom koji sudjeluje u dvostrukoj vezi",
+      "C-atom uz atom kisika"
+    ],
+    "explanation": "Hidroksilacija se odvija na tom zasićenom ugljiku, a ne na dvostrukoj vezi. Nastali alilni radikal rezonancijski je stabiliziran, što reakciju čini povoljnom. Sp3 C-atom uz aromatski prsten je benzilni položaj.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajdovi 27 i 30",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-026",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Alilnom hidroksilacijom $\\Delta^{9}$-THC-a nastaje metabolit ___, koji zadržava psihoaktivnost.",
+    "answer": "11-hidroksi-THC",
+    "accepted": [
+      "11-hidroksi-THC",
+      "11-OH-THC",
+      "11 hidroksi THC"
+    ],
+    "distractors": [
+      "THC-COOH",
+      "kanabidiol",
+      "THC-glukuronid"
+    ],
+    "explanation": "Daljnjom oksidacijom nastaje THC-COOH, koji nema karakteristično psihoaktivno djelovanje, ali je važan analitički marker izloženosti kanabisu i u urinu se nalazi i kao glukuronid. Zbog lipofilnosti i zadržavanja u tkivima dokazivost metabolita može trajati dulje od samog učinka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajdovi 28 i 29",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-027",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kojim redoslijedom nastaju metaboliti toluena i koji se konjugat izlučuje urinom?",
+    "answer": "benzilni alkohol → benzaldehid → benzojeva kiselina → hipurna kiselina",
+    "accepted": [
+      "benzilni alkohol → benzaldehid → benzojeva kiselina → hipurna kiselina",
+      "benzilni alkohol, benzaldehid, benzojeva kiselina, hipurna kiselina",
+      "do hipurne kiseline"
+    ],
+    "distractors": [
+      "fenol → katehol → kinon → merkapturna kiselina",
+      "benzaldehid → benzilni alkohol → benzojeva kiselina → glukuronid",
+      "krezol → benzojeva kiselina → hipurna kiselina"
+    ],
+    "explanation": "CYP, osobito CYP2E1, oksidira metilnu skupinu u benzilni alkohol, a ADH i ALDH nastavljaju do benzaldehida i benzojeve kiseline. Konjugacijom benzojeve kiseline s glicinom nastaje hipurna kiselina, koja se izlučuje urinom i služi kao pokazatelj izloženosti toluenu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 32",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-028",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji je glavni metabolički put celekoksiba?",
+    "answer": "hidroksilacija para-metilne skupine i oksidacija u karboksilnu kiselinu",
+    "accepted": [
+      "hidroksilacija para-metilne skupine i oksidacija u karboksilnu kiselinu",
+      "metabolizam metilne skupine"
+    ],
+    "distractors": [
+      "hidroksilacija aromatskog prstena",
+      "N-dealkilacija sulfonamidne skupine",
+      "redukcija sulfonamidne skupine"
+    ],
+    "explanation": "Celekoksib je inhibitor ciklooksigenaze 2 (COX-2). Hidroksilacijom metilne skupine u para-položaju nastaje primarni benzilni alkohol, koji se brzo oksidira u karboksilnu kiselinu, dok aromatski prsten ostaje nehidroksiliran.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 33",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-029",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto se metilna skupina sulfametoksazola lako hidroksilira?",
+    "answer": "jer susjedni izoksazolni prsten rezonancijski stabilizira nastali radikal",
+    "accepted": [
+      "jer susjedni izoksazolni prsten rezonancijski stabilizira nastali radikal",
+      "zbog rezonancijske stabilizacije radikala"
+    ],
+    "distractors": [
+      "jer je metilna skupina vezana na dušik",
+      "jer je sulfonamidna skupina elektrondonor",
+      "jer se prsten prethodno mora epoksidirati"
+    ],
+    "explanation": "Metilna skupina vezana je uz heteroaromatski izoksazolni prsten, pa je položaj analogan benzilnom: vodik se oduzima sa sp3 C-atoma neposredno vezanog uz aromatski sustav. Nastaje hidroksimetilni metabolit, odnosno skupina $\\ce{CH3}$ prelazi u $\\ce{CH2OH}$.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 34",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-030",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji je uvjet da alkilna skupina na dušiku uopće može podlijegati N-dealkilaciji?",
+    "answer": "C-atom vezan na dušik mora imati barem jednu vezu C–H",
+    "accepted": [
+      "C-atom vezan na dušik mora imati barem jednu vezu C–H",
+      "C-atom vezan na dusik mora imati barem jednu vezu C-H",
+      "mora imati vodik na alfa-ugljiku"
+    ],
+    "distractors": [
+      "dušik mora nositi pozitivan naboj",
+      "alkilna skupina mora biti dulja od tri C-atoma",
+      "molekula mora sadržavati aromatski prsten"
+    ],
+    "explanation": "Put ide preko hidroksilacije $\\alpha$-C-atoma, a bez vodika na tom ugljiku nema ni radikala ni karbinolamina. N-dealkilacija je jedna od najzastupljenijih reakcija u metabolizmu lijekova; supstrati su alifatski amini i N-alkilirani aromatski amini. Dealkilirani metabolit može zadržati farmakološku aktivnost, a uklanjanje alkilne skupine može smanjiti lipofilnost.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 41",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-031",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pri N-demetilaciji kao karbonilni produkt nastaje ___.",
+    "answer": "formaldehid",
+    "accepted": [
+      "formaldehid",
+      "formaldehida",
+      "metanal"
+    ],
+    "distractors": [
+      "acetaldehid",
+      "aceton",
+      "mravlja kiselina"
+    ],
+    "explanation": "Uklanjanjem metilne skupine oslobađa se formaldehid, a uklanjanjem etilne acetaldehid. Primjer N-demetilacije je imipramin → desipramin; metaboliti bez jedne alkilne skupine često nose prefiks nor-.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 42",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-032",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kojim redoslijedom nastaju metaboliti lidokaina N-deetilacijom?",
+    "answer": "lidokain → MEGX → GX",
+    "accepted": [
+      "lidokain → MEGX → GX",
+      "lidokain, MEGX, GX",
+      "monoetilglicinksilidid pa glicinksilidid"
+    ],
+    "distractors": [
+      "lidokain → GX → MEGX",
+      "lidokain → desipramin → GX",
+      "lidokain → nordazepam → MEGX"
+    ],
+    "explanation": "Uklanjanjem prve etilne skupine s tercijarnog amina nastaje monoetilglicinksilidid (MEGX), a daljnjom deetilacijom glicinksilidid (GX); u svakom se koraku oslobađa acetaldehid. Sudjeluju CYP1A2 i CYP3A4. MEGX zadržava farmakološku aktivnost, što pokazuje da N-dealkilacija ne znači nužno inaktivaciju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 44",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-033",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "N-demetilacijom diazepama uz CYP2C19 i CYP3A4 nastaje aktivni metabolit ___.",
+    "answer": "nordazepam",
+    "accepted": [
+      "nordazepam",
+      "nordazepama",
+      "desmetildiazepam"
+    ],
+    "distractors": [
+      "temazepam",
+      "oksazepam",
+      "medazepam"
+    ],
+    "explanation": "Hidroksilacijom diazepama uz CYP3A4 nastaje temazepam, a i nordazepam i temazepam dalje prelaze u oksazepam. Sva tri metabolita su farmakološki aktivna, pa dugotrajna prisutnost metabolita produljuje djelovanje diazepama.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 45",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-034",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Glavni metabolit kofeina, koji nastaje N3-demetilacijom uz CYP1A2, zove se ___.",
+    "answer": "paraksantin",
+    "accepted": [
+      "paraksantin",
+      "paraksantina"
+    ],
+    "distractors": [
+      "teobromin",
+      "teofilin",
+      "ksantin"
+    ],
+    "explanation": "Taj put čini približno 80 % klirensa kofeina; N1-demetilacijom nastaje teobromin, a N7-demetilacijom teofilin. Omjer paraksantina i kofeina koristi se za procjenu aktivnosti CYP1A2. Policiklički aromatski ugljikovodici iz duhanskog dima induciraju CYP1A2 i ubrzavaju metabolizam kofeina.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 46",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-035",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "N-demetilacijom sildenafila nastaje glavni cirkulirajući metabolit čija je potentnost prema PDE5 približno ___ % potentnosti sildenafila.",
+    "answer": "50",
+    "accepted": [
+      "50",
+      "50 %",
+      "50%"
+    ],
+    "distractors": [
+      "10",
+      "80",
+      "100"
+    ],
+    "explanation": "Sildenafil je inhibitor fosfodiesteraze tipa 5 i metabolizira se pretežito uz CYP3A4, a manjim dijelom uz CYP2C9. N-demetilacijom na piperazinskom prstenu nastaje N-desmetilsildenafil, koji zadržava oko polovice aktivnosti. Ostali putovi su oksidacija piperazinskog prstena i hidroksilacija alifatskih lanaca.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 47",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-036",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto je N-dealkilacija amida rjeđa i sporija nego kod amina?",
+    "answer": "jer je veza C–N u amidu rezonancijski stabilizirana i manje reaktivna",
+    "accepted": [
+      "jer je veza C–N u amidu rezonancijski stabilizirana i manje reaktivna",
+      "jer je veza C-N u amidu rezonancijski stabilizirana i manje reaktivna",
+      "zbog rezonancijske stabilizacije amidne veze"
+    ],
+    "distractors": [
+      "jer amidi nemaju vodik na $\\alpha$-C-atomu",
+      "jer se amidi ne vežu u aktivno mjesto CYP-a",
+      "jer amidna veza mora prvo biti hidrolizirana"
+    ],
+    "explanation": "Delokalizacija elektrona između dušika i karbonilne skupine čini amid stabilnijim od amina. CYP ipak može hidroksilirati ugljik N-alkilne skupine i nastaje karbinolamid; cijepa se veza između dušika i hidroksiliranog ugljika, dok amidna veza C(=O)–N ostaje očuvana, a produkti su N-dealkilirani amid i aldehid ili keton.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 43",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-037",
+    "chapter": "03",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Po čemu se putevi SET-PT i HAT razlikuju na početku N-dealkilacije?",
+    "answer": "SET-PT počinje prijenosom elektrona pa gubitkom protona, a HAT izravnim odvajanjem atoma vodika",
+    "accepted": [
+      "SET-PT počinje prijenosom elektrona pa gubitkom protona, a HAT izravnim odvajanjem atoma vodika",
+      "SET-PT pocinje prijenosom elektrona pa gubitkom protona, a HAT izravnim odvajanjem atoma vodika",
+      "SET-PT elektron pa proton, HAT atom vodika"
+    ],
+    "distractors": [
+      "SET-PT počinje odvajanjem atoma vodika, a HAT prijenosom elektrona",
+      "SET-PT ide preko epoksida, a HAT preko karbinolamina",
+      "SET-PT ne daje ugljikov radikal, a HAT daje"
+    ],
+    "explanation": "HAT znači prijenos protona i elektrona zajedno u jednom koraku, a SET-PT u dva odvojena koraka. Oba puta vode do istog ugljikova radikala i zatim do karbinolamina, a koji prevladava ovisi o svojstvima supstrata i enzima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 40",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-03-038",
+    "chapter": "03",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Nikotin se pretežito metabolizira u jetri uz enzim ___.",
+    "answer": "CYP2A6",
+    "accepted": [
+      "CYP2A6",
+      "2A6"
+    ],
+    "distractors": [
+      "CYP2D6",
+      "CYP1A2",
+      "CYP2E1"
+    ],
+    "explanation": "CYP2A6 oksidira nikotin do međuprodukta koji aldehid-oksidaza prevodi u kotinin, glavni metabolit i po strukturi laktam. Manji put je N-demetilacija, kojom nastaje nornikotin; N-metilna skupina u kotininu ostaje očuvana, a u nornikotinu se uklanja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 48",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  }
+]

@@ -1,0 +1,725 @@
+[
+  {
+    "id": "bl-04-001",
+    "chapter": "04",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što se uklanja i što nastaje u reakciji oksidativne deaminacije?",
+    "answer": "uklanja se amino-skupina s ugljikova atoma, a nastaje aldehid ili keton",
+    "accepted": [
+      "uklanja se amino-skupina s ugljikova atoma, a nastaje aldehid ili keton",
+      "amino skupina, nastaje karbonilni spoj"
+    ],
+    "distractors": [
+      "uklanja se alkilna skupina s dušika, a nastaje amin",
+      "uklanja se halogen, a nastaje alkohol",
+      "uklanja se metilna skupina s kisika, a nastaje fenol"
+    ],
+    "explanation": "Kod deaminacije odlazi amino-skupina vezana na ugljik, pa ostaje karbonilni spoj; kod N-dealkilacije odlazi alkilna skupina s dušika. Posljedica je gubitak bazičnog aminskog centra, promjena ionizacije molekule i vezanja za ciljnu molekulu, a nastali aldehid može biti reaktivan.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 2",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-002",
+    "chapter": "04",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji se amini brže oksidativno deaminiraju?",
+    "answer": "primarni brže od sekundarnih",
+    "accepted": [
+      "primarni brže od sekundarnih",
+      "primarni brze od sekundarnih",
+      "primarni"
+    ],
+    "distractors": [
+      "sekundarni brže od primarnih",
+      "tercijarni brže od primarnih",
+      "aromatski brže od alifatskih"
+    ],
+    "explanation": "Brzina ovisi o supstituciji $\\alpha$-C-atoma, dostupnosti veze $\\alpha$-C–H, stabilnosti iminskog međuprodukta i vezanju supstrata u aktivnom mjestu. Sterički zaštićeni amini reagiraju sporije.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 4",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-003",
+    "chapter": "04",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto aromatski amini u pravilu ne podliježu oksidativnoj deaminaciji uz CYP?",
+    "answer": "zbog stabilnosti veze C–N i nedostupnosti veze $\\alpha$-C–H",
+    "accepted": [
+      "zbog stabilnosti veze C-N i nedostupnosti veze alfa-C-H",
+      "stabilna C-N veza"
+    ],
+    "distractors": [
+      "zbog prevelike bazičnosti dušika",
+      "jer se ne vežu u aktivno mjesto CYP-a",
+      "jer ih prvo razgrađuju esteraze"
+    ],
+    "explanation": "Kod aromatskog amina dušik je vezan izravno na prsten, pa nema $\\alpha$-C–H veze potrebne za nastanak ugljikova radikala, a veza C–N je stabilizirana. Takvi amini radije idu putem N-oksigenacije ili hidroksilacije prstena.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 4",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-004",
+    "chapter": "04",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Oksidativnom deaminacijom propranolola uz aldehidni metabolit nastaje i amin ___.",
+    "answer": "izopropilamin",
+    "accepted": [
+      "izopropilamin",
+      "izopropilamina"
+    ],
+    "distractors": [
+      "metilamin",
+      "etilamin",
+      "amonijak"
+    ],
+    "explanation": "Propranolol na dušiku nosi izopropilnu skupinu, pa se cijepanjem veze C–N oslobađa izopropilamin, a iz ostatka molekule nastaje aldehid. Važan put metabolizma u čovjeka je i N-dealkilacija, a metabolizam se razlikuje između čovjeka i psa.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 6",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-005",
+    "chapter": "04",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Enzimi MAO-A i MAO-B smješteni su na ___ membrani mitohondrija.",
+    "answer": "vanjskoj",
+    "accepted": [
+      "vanjskoj",
+      "vanjska",
+      "vanjska membrana"
+    ],
+    "distractors": [
+      "unutarnjoj",
+      "jezgrinoj",
+      "plazmatskoj"
+    ],
+    "explanation": "Smještaj na vanjskoj mitohondrijskoj membrani razlikuje ih od mitohondrijskih CYP enzima, koji su u unutarnjoj membrani. Kofaktor MAO je FAD, a enzimi su prisutni u brojnim tkivima, uključujući mozak, jetru i crijevo.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 7",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-006",
+    "chapter": "04",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kofaktor monoaminooksidaza je ___.",
+    "answer": "FAD",
+    "accepted": [
+      "FAD",
+      "flavin-adenin-dinukleotid"
+    ],
+    "distractors": [
+      "$\\ce{Cu^2+}$",
+      "hem",
+      "molibdopterin"
+    ],
+    "explanation": "FAD prima dva elektrona i prelazi u $\\ce{FADH2}$ dok se amin oksidira u imin. Regeneracija kofaktora troši $\\ce{O2}$ i daje $\\ce{H2O2}$. Bakrena diaminooksidaza, za razliku od MAO, koristi $\\ce{Cu^2+}$ i TPQ.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajdovi 7 i 9",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-007",
+    "chapter": "04",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji su tipični supstrati enzima MAO-A?",
+    "answer": "serotonin, noradrenalin, adrenalin i dopamin",
+    "accepted": [
+      "serotonin, noradrenalin, adrenalin i dopamin",
+      "serotonin i kateholamini"
+    ],
+    "distractors": [
+      "feniletilamin i benzilamin",
+      "histamin, putrescin i kadaverin",
+      "spermin i spermidin"
+    ],
+    "explanation": "MAO-B prvenstveno razgrađuje feniletilamin i benzilamin, a dopamin je supstrat obaju oblika. Histamin i diamini putrescin i kadaverin supstrati su diaminooksidaze, a poliamini poliaminooksidaze.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajdovi 7 i 11",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-008",
+    "chapter": "04",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji produkti nastaju ukupnom reakcijom koju katalizira MAO iz primarnog amina?",
+    "answer": "aldehid, amonijak i vodikov peroksid",
+    "accepted": [
+      "aldehid, amonijak i vodikov peroksid",
+      "R-CHO, NH3 i H2O2"
+    ],
+    "distractors": [
+      "keton, amin i voda",
+      "karboksilna kiselina, amonijak i voda",
+      "alkohol, amonijak i vodikov peroksid"
+    ],
+    "explanation": "Ukupno vrijedi $\\ce{R-CH2-NH2 + O2 + H2O -> R-CHO + NH3 + H2O2}$. U prvoj polureakciji FAD oksidira amin u imin i prelazi u $\\ce{FADH2}$, a imin se hidrolizira u aldehid i amonijak; u drugoj se $\\ce{FADH2}$ oksidira kisikom uz nastanak vodikova peroksida.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 9",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-009",
+    "chapter": "04",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pri oksidaciji amina enzimom MAO prvo nastaje međuprodukt ___, koji se zatim hidrolizira.",
+    "answer": "imin",
+    "accepted": [
+      "imin",
+      "imina",
+      "iminski meduprodukt"
+    ],
+    "distractors": [
+      "karbinolamin",
+      "N-oksid",
+      "epoksid"
+    ],
+    "explanation": "Imin ($\\ce{R-CH=NH}$) nastaje oduzimanjem dvaju vodikovih atoma uz redukciju FAD-a. Hidrolizom imina oslobađaju se aldehid i amonijak, pa je amonijak tipičan produkt oksidacije primarnih amina.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 9",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-010",
+    "chapter": "04",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je prednost reverzibilnih selektivnih inhibitora MAO-A (npr. moklobemida) pred ireverzibilnima?",
+    "answer": "manja toksičnost i manji rizik interakcija",
+    "accepted": [
+      "manja toksičnost i manji rizik interakcija",
+      "manji rizik interakcija"
+    ],
+    "distractors": [
+      "jače inhibiraju i MAO-A i MAO-B",
+      "ne zahtijevaju metaboličku aktivaciju jetre",
+      "potpuno sprječavaju razgradnju histamina"
+    ],
+    "explanation": "Ireverzibilni inhibitori (fenelzin, tranilcipromin, selegilin, rasagilin) nakon metaboličke aktivacije stvaraju kovalentni adukt s FAD-om, pa učinak traje do sinteze novog enzima. Zbog toga nose veći rizik interakcija, osobito s hranom bogatom tiraminom („cheese effect”) i lijekovima poput simpatomimetika i SSRI, što može izazvati hipertenzivnu krizu ili serotoninski sindrom.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 8",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-011",
+    "chapter": "04",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji je glavni metabolički put citaloprama?",
+    "answer": "N-demetilacija uz CYP2C19, CYP3A4 i CYP2D6",
+    "accepted": [
+      "N-demetilacija uz CYP2C19, CYP3A4 i CYP2D6",
+      "N-demetilacija uz CYP"
+    ],
+    "distractors": [
+      "oksidativna deaminacija uz MAO-A",
+      "O-demetilacija uz CYP2D6",
+      "hidroliza uz karboksilesteraze"
+    ],
+    "explanation": "Citalopram je antidepresiv i tercijarni amin, pa se pretežito metabolizira CYP-kataliziranom N-demetilacijom. MAO sudjeluje tek u kasnijoj razgradnji manjih aminskih metabolita, što pokazuje da prisutnost aminske skupine ne znači automatski da je MAO glavni enzim.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 10",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-012",
+    "chapter": "04",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji su kofaktori diaminooksidaze (DAO)?",
+    "answer": "$\\ce{Cu^2+}$ i TPQ",
+    "accepted": [
+      "Cu2+ i TPQ",
+      "bakar i TPQ"
+    ],
+    "distractors": [
+      "FAD i $\\ce{Zn^2+}$",
+      "hem i $\\ce{O2}$",
+      "$\\ce{NAD+}$ i $\\ce{Mg^2+}$"
+    ],
+    "explanation": "DAO je bakrena aminooksidaza, poznata i kao histaminaza, važna za razgradnju histamina unesenog hranom. Najviše je ima u crijevu, bubregu i placenti; pohranjuje se u sekretornim vezikulama epitelnih stanica i izlučuje u izvanstanični prostor.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 11",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-013",
+    "chapter": "04",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji produkti nastaju oksidativnom deaminacijom histamina uz DAO?",
+    "answer": "imidazolacetaldehid, amonijak i vodikov peroksid",
+    "accepted": [
+      "imidazolacetaldehid, amonijak i vodikov peroksid",
+      "imidazolacetaldehid, NH3 i H2O2"
+    ],
+    "distractors": [
+      "imidazolacetat, amonijak i voda",
+      "metilhistamin i formaldehid",
+      "histidin, amonijak i vodikov peroksid"
+    ],
+    "explanation": "DAO uklanja primarnu amino-skupinu bočnog lanca histamina, pa ostaje aldehid s imidazolnim prstenom, uz $\\ce{NH3}$ i $\\ce{H2O2}$. Ta je reakcija glavni put razgradnje histamina u crijevu, a kofaktori su $\\ce{Cu^2+}$ i TPQ.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 13",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-014",
+    "chapter": "04",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Poliaminooksidaze (PAO) razgrađuju poliamine i važne su za kontrolu stanične ___.",
+    "answer": "proliferacije",
+    "accepted": [
+      "proliferacije",
+      "proliferacija",
+      "dioba"
+    ],
+    "distractors": [
+      "apoptoze",
+      "sekrecije",
+      "diferencijacije"
+    ],
+    "explanation": "PAO djeluju na sekundarni amin u poliaminu, imaju FAD kao kofaktor i reguliraju koncentraciju poliamina. Oksidacijom poliamina nastaju aldehidni i dušikovi produkti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 14",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-015",
+    "chapter": "04",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji eteri brže podliježu O-dealkilaciji?",
+    "answer": "aromatski eteri",
+    "accepted": [
+      "aromatski eteri",
+      "aromatski"
+    ],
+    "distractors": [
+      "alifatski eteri",
+      "eteri s dugim lancima",
+      "ciklički eteri"
+    ],
+    "explanation": "Aromatski etil- i metil-eteri brzo se dealkiliraju, dok alifatski idu sporije. Za etere s dugim lancima povoljniji je put $\\omega$- ili ($\\omega-1$)-hidroksilacija, a ne O-dealkilacija.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 16",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-016",
+    "chapter": "04",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji produkti nastaju O-dealkilacijom?",
+    "answer": "alkohol ili fenol te aldehid ili keton",
+    "accepted": [
+      "alkohol ili fenol te aldehid ili keton",
+      "fenol i aldehid"
+    ],
+    "distractors": [
+      "amin i aldehid",
+      "tiol i keton",
+      "karboksilna kiselina i amonijak"
+    ],
+    "explanation": "CYP hidroksilira ugljik alkilne skupine uz kisik, pa se nestabilni međuprodukt raspada na alkohol odnosno fenol i karbonilni spoj. Produkti su polarniji i lakše se konjugiraju; reakcija najčešće inaktivira lijek, ali može ga i aktivirati, kao kod pretvorbe kodeina u morfin.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 16",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-017",
+    "chapter": "04",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja se skupina indometacina uklanja O-dealkilacijom?",
+    "answer": "metilna skupina s metoksi skupine na aromatskom prstenu",
+    "accepted": [
+      "metilna skupina s metoksi skupine na aromatskom prstenu",
+      "metilna skupina metoksi skupine"
+    ],
+    "distractors": [
+      "metilna skupina s amidnog dušika",
+      "klor s aromatskog prstena",
+      "karboksilna skupina bočnog lanca"
+    ],
+    "explanation": "Metoksi skupina na aromatskom prstenu tipičan je supstrat za O-demetilaciju, pa nastaje fenolni metabolit i formaldehid. Fenolni metabolit je polarniji i spreman za konjugaciju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 19",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-018",
+    "chapter": "04",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Fenacetin je prolijek lijeka ___.",
+    "answer": "paracetamol",
+    "accepted": [
+      "paracetamol",
+      "paracetamola",
+      "acetaminofen"
+    ],
+    "distractors": [
+      "ibuprofen",
+      "fenobarbital",
+      "indometacin"
+    ],
+    "explanation": "O-deetilacijom fenacetina nastaje paracetamol. Fenacetin se više ne koristi jer je nefrotoksičan: hidrolizom amidne veze nastaje p-fenetidin, koji CYP i peroksidaze u bubregu prevode u reaktivne hidroksilaminske metabolite.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 18",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-019",
+    "chapter": "04",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pri S-dealkilaciji hidroksilacijom $\\alpha$-C-atoma uz sumpor nastaje nestabilni ___.",
+    "answer": "karbinoltioeter",
+    "accepted": [
+      "karbinoltioeter",
+      "karbinoltioetera"
+    ],
+    "distractors": [
+      "karbinolamin",
+      "sulfoksid",
+      "tiohemiacetal"
+    ],
+    "explanation": "Taj se međuprodukt spontano raspada cijepanjem veze C–S, pa nastaju tiol i karbonilni spoj. S-dealkilacija je rijetka jer je sumpor rjeđe prisutan u lijekovima, a kad jest, radije se oksidira u sulfoksid ili sulfon.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 21",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-020",
+    "chapter": "04",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "S-dealkilaciju urikozurika lesinurada katalizira enzim ___.",
+    "answer": "CYP3A",
+    "accepted": [
+      "CYP3A",
+      "3A",
+      "CYP3A4"
+    ],
+    "distractors": [
+      "CYP2D6",
+      "CYP1A2",
+      "FMO3"
+    ],
+    "explanation": "Reakcija počinje hidroksilacijom $\\alpha$-C-atoma uz sumpor, a nestabilni međuprodukt raspada se cijepanjem veze S–C na S-dealkilirani metabolit i karbonilni produkt. Metabolit gubi farmakološku aktivnost, a taj je put u ljudi in vivo minoran.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 22",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-021",
+    "chapter": "04",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Po čemu se oksidativno cijepanje estera razlikuje od esterske hidrolize?",
+    "answer": "ide preko CYP-a i radikalnih međuprodukata, iako produkti mogu biti isti",
+    "accepted": [
+      "ide preko CYP-a i radikalnih međuprodukata, iako produkti mogu biti isti",
+      "ide preko CYP-a i radikalnih meduprodukata, iako produkti mogu biti isti",
+      "mehanizam preko CYP i radikala"
+    ],
+    "distractors": [
+      "daje potpuno drukčije produkte od hidrolize",
+      "ne treba enzim",
+      "dominantniji je put metabolizma estera"
+    ],
+    "explanation": "CYP hidroksilira $\\alpha$-C-atom uz kisik, a nestabilni međuprodukt spontano se cijepa na kiselinu i aldehid, koji se može dalje oksidirati. Produkti su često isti kao kod hidrolize, ali mehanizam je drukčiji; za estere ipak prevladava hidroliza.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 23",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-022",
+    "chapter": "04",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Oksidativnim cijepanjem loratadina preko nestabilne karbaminske kiseline nastaje aktivni metabolit ___.",
+    "answer": "desloratadin",
+    "accepted": [
+      "desloratadin",
+      "desloratadina"
+    ],
+    "distractors": [
+      "loratadin-N-oksid",
+      "cetirizin",
+      "karbamazepin"
+    ],
+    "explanation": "Loratadin je antihistaminik s karbamatnom esterskom skupinom; CYP3A4 i CYP2D6 cijepaju je do karbaminske kiseline, koja spontano dekarboksilira u desloratadin. Relativni doprinos CYP enzima i karboksilesteraza in vivo nije jasan.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 25",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-023",
+    "chapter": "04",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako teče oksidativna dehalogenacija uz CYP?",
+    "answer": "hidroksilira se C-atom koji nosi halogen i vodik, a zatim se gubi halogenovodična kiselina",
+    "accepted": [
+      "hidroksilira se C-atom koji nosi halogen i vodik, a zatim se gubi halogenovodična kiselina",
+      "hidroksilira se C-atom koji nosi halogen i vodik, a zatim se gubi halogenovodicna kiselina",
+      "hidroksilacija pa gubitak halogenovodika"
+    ],
+    "distractors": [
+      "halogen se izravno zamjenjuje hidroksilnom skupinom",
+      "halogen se reducira uz NADPH bez hidroksilacije",
+      "halogen se konjugira s glutationom"
+    ],
+    "explanation": "Mehanizam je sličan O-dealkilaciji: nastaje nestabilni $\\alpha$-halogenirani alkohol koji gubi halogenovodik. Halogeni stabiliziraju ugljikov radikal i povećavaju lipofilnost molekule, ali uz više halogena raste i vjerojatnost nastanka reaktivnih acil-halogenida.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajdovi 26 i 27",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-024",
+    "chapter": "04",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Reaktivni metabolit halotana koji se kovalentno veže na jetrene proteine zove se ___.",
+    "answer": "trifluoroacetil-klorid",
+    "accepted": [
+      "trifluoroacetil-klorid",
+      "trifluoroacetil klorid",
+      "trifluoroacetilklorid"
+    ],
+    "distractors": [
+      "trifluoroetanol",
+      "kloroform",
+      "fosgen"
+    ],
+    "explanation": "Aktivaciju halotana katalizira CYP2E1. Vezanjem na proteine jetre nastaju neoantigeni koji potiču stvaranje anti-trifluoroacetil-proteinskih antitijela, pa je posljedica imunološki posredovan hepatitis. U osjetljivih osoba ponovno izlaganje anestetiku može izazvati smrtonosni halotanski hepatitis.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 28",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-025",
+    "chapter": "04",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto se kloramfenikol nakuplja u novorođenčadi i izaziva sindrom sive bebe?",
+    "answer": "zbog nezrele aktivnosti UGT-a i smanjene glukuronidacije",
+    "accepted": [
+      "zbog nezrele aktivnosti UGT-a i smanjene glukuronidacije",
+      "nezrela glukuronidacija"
+    ],
+    "distractors": [
+      "zbog pojačane redukcije nitro-skupine",
+      "zbog nezrelog bubrežnog praga za natrij",
+      "zbog povećane aktivnosti CYP2E1"
+    ],
+    "explanation": "Bez dovoljne glukuronidacije izlučivanje lijeka je smanjeno, pa koncentracija raste. Posljedice su metabolička acidoza, respiratorna depresija, sivkasta boja kože i kardiovaskularni kolaps. Sam nepromijenjeni kloramfenikol inhibira i mitohondrijsku sintezu proteina, što smanjuje stvaranje ATP-a i reverzibilno suprimira koštanu srž.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 29",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-04-026",
+    "chapter": "04",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Oksidativnom dehalogenacijom dikloracetilne skupine kloramfenikola nastaje reaktivni ___.",
+    "answer": "oksamil-klorid",
+    "accepted": [
+      "oksamil-klorid",
+      "oksamil klorid",
+      "oksamil-kloridni derivat"
+    ],
+    "distractors": [
+      "trifluoroacetil-klorid",
+      "nitrozo-derivat",
+      "oksamska kiselina"
+    ],
+    "explanation": "Oksamil-klorid je reaktivan acil-halogenid; njegovom hidrolizom nastaje derivat oksaminske kiseline. Uz taj put, redukcija aromatske nitro-skupine daje nitrozo- i hidroksilaminske derivate povezane s oštećenjem koštane srži, a bioaktivacija se povezuje s rijetkom idiosinkratičnom aplastičnom anemijom.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf, slajd 29",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  }
+]

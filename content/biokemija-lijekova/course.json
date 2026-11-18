@@ -4,7 +4,9 @@
   "idPrefix": "bl",
   "questionFiles": [
     "00-primjeri.json",
-    "02.json"
+    "02.json",
+    "03.json",
+    "04.json"
   ],
   "areas": [
     {
