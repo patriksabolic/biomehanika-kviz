@@ -1,0 +1,436 @@
+[
+  {
+    "id": "bm-31-001",
+    "chapter": "31",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji dio tijela ima izravnu vezu s mozgom, pa njegova muskulatura ne ovisi o leđnoj moždini?",
+    "answer": "lice",
+    "accepted": [
+      "lice"
+    ],
+    "distractors": [
+      "šaka",
+      "ošit",
+      "mokraćni mjehur"
+    ],
+    "explanation": "Leđna moždina povezuje mozak s ostalim dijelovima tijela i obratno. Jedino lice ima izravnu vezu s mozgom, pa lice i njegova muskulatura ne ovise o leđnoj moždini.",
+    "image": null,
+    "explanation_image": null,
+    "source": "31_Ledjna mozdina.pdf, slajd 2",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-31-002",
+    "chapter": "31",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Dokle se pruža leđna moždina?",
+    "answer": "od srednjeg mozga do visine 1. lumbalnog kralješka",
+    "accepted": [
+      "od srednjeg mozga do visine 1. lumbalnog kralješka"
+    ],
+    "distractors": [
+      "od srednjeg mozga do trtice",
+      "od 1. vratnog do 5. lumbalnog kralješka",
+      "od moždanog debla do krstačne kosti"
+    ],
+    "explanation": "Leđna moždina smještena je u kralježničkom kanalu i pruža se od srednjeg mozga do visine 1. lumbalnog kralješka. Niže živci ne izlaze točno s kralješcima nego nalikuju na konjski rep.",
+    "image": null,
+    "explanation_image": null,
+    "source": "31_Ledjna mozdina.pdf, slajd 3 i 4",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-31-003",
+    "chapter": "31",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Leđna moždina duga je ___ (masa 42 g, debljina 2 cm).",
+    "answer": "43 cm",
+    "accepted": [
+      "43 cm",
+      "43",
+      "43cm"
+    ],
+    "distractors": [
+      "42 cm",
+      "20 cm",
+      "75 cm"
+    ],
+    "explanation": "Leđna moždina: masa 42 g, duljina 43 cm, debljina 2 cm. Pazi da ne zamijeniš 42 (masa u gramima) i 43 (duljina u centimetrima).",
+    "image": null,
+    "explanation_image": null,
+    "source": "31_Ledjna mozdina.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-31-004",
+    "chapter": "31",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Masa leđne moždine iznosi ___.",
+    "answer": "42 g",
+    "accepted": [
+      "42 g",
+      "42",
+      "42g"
+    ],
+    "distractors": [
+      "43 g",
+      "420 g",
+      "1,4 kg"
+    ],
+    "explanation": "Leđna moždina ima masu 42 g, duljinu 43 cm i debljinu 2 cm.",
+    "image": null,
+    "explanation_image": null,
+    "source": "31_Ledjna mozdina.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-31-005",
+    "chapter": "31",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Leđna moždina prekrivena je s ___ opne (meninge).",
+    "answer": "3",
+    "accepted": [
+      "3",
+      "tri"
+    ],
+    "distractors": [
+      "2",
+      "4",
+      "5"
+    ],
+    "explanation": "Leđnu moždinu prekrivaju tri opne – meninge. Smještena je unutar kralježničkog kanala.",
+    "image": null,
+    "explanation_image": null,
+    "source": "31_Ledjna mozdina.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-31-006",
+    "chapter": "31",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U vratnom dijelu kralježnice postoji ___ pari živaca, a 7 kralježaka.",
+    "answer": "8",
+    "accepted": [
+      "8",
+      "osam"
+    ],
+    "distractors": [
+      "7",
+      "12",
+      "5"
+    ],
+    "explanation": "Vratnih kralježaka je 7, a pari vratnih živaca 8 (C1–C8); vratni živci nalaze se iznad kralješka istog broja. Kod grudnog i lumbalnog dijela živac leži ispod kralješka istog broja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "31_Ledjna mozdina.pdf, slajd 4",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-31-007",
+    "chapter": "31",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Gdje leže grudni i lumbalni živci u odnosu na kralježak istog broja?",
+    "answer": "ispod kralješka istog broja",
+    "accepted": [
+      "ispod kralješka istog broja"
+    ],
+    "distractors": [
+      "iznad kralješka istog broja",
+      "u razini kralješka",
+      "izlaze kroz krstačnu kost"
+    ],
+    "explanation": "Vratni živci C1–C8 nalaze se iznad kralješka odgovarajućeg broja, a grudni i lumbalni ispod. Zato vratnih živaca ima 8 pari, a vratnih kralježaka 7.",
+    "image": null,
+    "explanation_image": null,
+    "source": "31_Ledjna mozdina.pdf, slajd 4",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-31-008",
+    "chapter": "31",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Ispod drugog slabinskog kralješka zadnji dio slabinskih i sakralnih živaca nalikuje na konjski ___.",
+    "answer": "rep",
+    "accepted": [
+      "rep",
+      "konjski rep"
+    ],
+    "distractors": [
+      "griva",
+      "trup",
+      "luk"
+    ],
+    "explanation": "Leđna moždina završava visoko, pa ispod 2. slabinskog kralješka živci više ne izlaze točno s kralješcima – snop živaca u spinalnom kanalu nalikuje na konjski rep.",
+    "image": null,
+    "explanation_image": null,
+    "source": "31_Ledjna mozdina.pdf, slajd 4",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-31-009",
+    "chapter": "31",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je posljedica ozljede leđne moždine u razini C1–C5?",
+    "answer": "paraliza mišića za disanje i svih mišića ruku i nogu – najčešće smrtonosna",
+    "accepted": [
+      "paraliza mišića za disanje i svih mišića ruku i nogu – najčešće smrtonosna"
+    ],
+    "distractors": [
+      "paraliza nogu i gubitak osjeta ispod pupka",
+      "gubitak kontrole nad mokraćnim mjehurom i stolicom",
+      "paralizirane noge, slaba sposobnost savijanja ruku"
+    ],
+    "explanation": "Što je ozljeda viša, to je više mišića ispod nje paralizirano. Ozljeda C1–C5 zahvaća i mišiće za disanje, pa je najčešće smrtonosna. C5–C6 daje paralizu nogu uz slabo savijanje ruku.",
+    "image": null,
+    "explanation_image": null,
+    "source": "31_Ledjna mozdina.pdf, slajd 5",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-31-010",
+    "chapter": "31",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja razina ozljede leđne moždine uzrokuje paralizu nogu i gubitak osjeta ispod pupka?",
+    "answer": "T9 – T11",
+    "accepted": [
+      "T9 – T11"
+    ],
+    "distractors": [
+      "T2 – T8",
+      "T12 – L1",
+      "C8 – T1"
+    ],
+    "explanation": "T2–T8: noge i trup paralizirani, gubitak osjeta ispod grudnog koša; T9–T11: noge paralizirane, gubitak osjeta ispod pupka; T12–L1: paraliza i gubitak osjeta ispod prepona.",
+    "image": null,
+    "explanation_image": null,
+    "source": "31_Ledjna mozdina.pdf, slajd 5",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-31-011",
+    "chapter": "31",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je posljedica ozljede u razini S3 – S5?",
+    "answer": "gubitak kontrole nad mokraćnim mjehurom i stolicom",
+    "accepted": [
+      "gubitak kontrole nad mokraćnim mjehurom i stolicom"
+    ],
+    "distractors": [
+      "paraliza mišića za disanje",
+      "paraliza šaka",
+      "gubitak osjeta ispod grudnog koša"
+    ],
+    "explanation": "Ozljeda S3–S5 dovodi do gubitka kontrole nad mokraćnim mjehurom i stolicom. Takav gubitak kontrole može nastati i zbog teške povrede bilo gdje duž kralježnice.",
+    "image": null,
+    "explanation_image": null,
+    "source": "31_Ledjna mozdina.pdf, slajd 5",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-31-012",
+    "chapter": "31",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako su na poprečnom presjeku leđne moždine raspoređene bijela i siva tvar?",
+    "answer": "bijela tvar izvana (uzlazni, osjetni putovi), siva tvar iznutra u obliku leptira (silazni, motorni putovi)",
+    "accepted": [
+      "bijela tvar izvana (uzlazni, osjetni putovi), siva tvar iznutra u obliku leptira (silazni, motorni putovi)"
+    ],
+    "distractors": [
+      "siva tvar izvana, bijela iznutra",
+      "bijela i siva tvar izmjenjuju se u slojevima",
+      "bijela tvar samo u vratnom, siva samo u lumbalnom dijelu"
+    ],
+    "explanation": "Izvana je bijela tvar s osjetnim (aferentnim) uzlaznim traktovima koji prenose poruke u mozak. Iznutra je siva tvar leptirastog oblika s motornim (eferentnim) silaznim traktovima koji prenose poruke iz mozga organima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "31_Ledjna mozdina.pdf, slajd 6",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-31-013",
+    "chapter": "31",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kakvi su aferentni putovi u leđnoj moždini?",
+    "answer": "osjetni, uzlazni – prenose osjetne poruke u mozak",
+    "accepted": [
+      "osjetni, uzlazni – prenose osjetne poruke u mozak"
+    ],
+    "distractors": [
+      "motorni, silazni – prenose poruke iz mozga organima",
+      "refleksni – ne idu do mozga",
+      "međuneuronski – povezuju dva neurona"
+    ],
+    "explanation": "Aferentni putovi su osjetni uzlazni traktovi u bijeloj tvari: nose osjetne poruke prema mozgu. Eferentni putovi su motorni silazni traktovi koji nose poruke iz mozga prema organima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "31_Ledjna mozdina.pdf, slajd 6",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-31-014",
+    "chapter": "31",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Leđnu moždinu s perifernim živčanim sustavom povezuje ___ par moždinskih živaca.",
+    "answer": "31",
+    "accepted": [
+      "31",
+      "trideset jedan",
+      "31 par"
+    ],
+    "distractors": [
+      "33",
+      "8",
+      "12"
+    ],
+    "explanation": "Moždinski (spinalni) živci nastaju spajanjem spinalnih korjenova; 31 par povezuje leđnu moždinu s perifernim živčanim sustavom.",
+    "image": null,
+    "explanation_image": null,
+    "source": "31_Ledjna mozdina.pdf, slajd 7",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-31-015",
+    "chapter": "31",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je refleks?",
+    "answer": "brz, automatski pokret tijela na podražaj iz okoline, bez utjecaja volje ili svijesti",
+    "accepted": [
+      "brz, automatski pokret tijela na podražaj iz okoline, bez utjecaja volje ili svijesti"
+    ],
+    "distractors": [
+      "svjesna reakcija mozga na podražaj",
+      "spori pokret koji nastaje učenjem",
+      "električni val depolarizacije u mišiću"
+    ],
+    "explanation": "Refleks je brz i automatski odgovor na podražaj, odvija se bez volje i svijesti i štiti organizam od ozljeda. Leđna moždina upravlja refleksnim pokretima i tako rasterećuje mozak.",
+    "image": null,
+    "explanation_image": null,
+    "source": "31_Ledjna mozdina.pdf, slajd 8 i 9",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-31-016",
+    "chapter": "31",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Put živčanog impulsa od podražaja do izvršenog refleksa naziva se refleksni ___.",
+    "answer": "luk",
+    "accepted": [
+      "luk",
+      "refleksni luk"
+    ],
+    "distractors": [
+      "put",
+      "trakt",
+      "krug"
+    ],
+    "explanation": "Refleksni luk: podražaj (npr. ubod u stopalo) → osjetni živac → leđna moždina → motorni živac → mišić koji izvrši refleks. Impuls ne mora ići do mozga.",
+    "image": "img/31-1.png",
+    "explanation_image": null,
+    "source": "31_Ledjna mozdina.pdf, slajd 10 i 11",
+    "tags": [
+      "definicija",
+      "skica"
+    ],
+    "real_exam": false
+  }
+]

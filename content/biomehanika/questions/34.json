@@ -1,0 +1,672 @@
+[
+  {
+    "id": "bm-34-001",
+    "chapter": "34",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je Leydenska boca (van Musschenbroek, 1746.)?",
+    "answer": "staklena boca za pohranu statičkog elektriciteta – preteča kondenzatora",
+    "accepted": [
+      "staklena boca za pohranu statičkog elektriciteta – preteča kondenzatora"
+    ],
+    "distractors": [
+      "prvi davač ritma srcu",
+      "instrument za električnu stimulaciju lica",
+      "uređaj za mjerenje potencijala stanice"
+    ],
+    "explanation": "Pieter van Musschenbroek (Nizozemska, 1746.) pohranio je statički elektricitet između elektrode s vanjske i elektrode s unutarnje strane staklene boce – preteča kondenzatora; postizale su se iskre od 3–4 cm. Abildgaard ju je 1773. primijenio za aktivaciju senzorno-motornih mehanizama.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 2",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-002",
+    "chapter": "34",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Luigi Galvani je ___. godine izveo prvi eksperiment koji povezuje pokret i elektricitet (žablja noga).",
+    "answer": "1786",
+    "accepted": [
+      "1786",
+      "1786."
+    ],
+    "distractors": [
+      "1791",
+      "1746",
+      "1872"
+    ],
+    "explanation": "Galvani je 1786. metalnim skalpelom dodirnuo živac žabe (nervus ischiadicus) dok je žaba dodirivala drugi metal – pojavila se iskra i noga se zgrčila. Djelo „De Viribus Electricitatis in Motu Musculari Commentarius” objavio je 1791.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 3 i 4",
+    "tags": [
+      "brojka",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-003",
+    "chapter": "34",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Galvani je silu u životinjskom tkivu koja aktivira živce i mišiće nazvao „___ elektricitet”.",
+    "answer": "životinjski",
+    "accepted": [
+      "životinjski",
+      "životinjskim",
+      "zivotinjski"
+    ],
+    "distractors": [
+      "prirodni",
+      "umjetni",
+      "biološki"
+    ],
+    "explanation": "Galvani je smatrao da je „životinjski elektricitet” treća vrsta elektriciteta, uz „prirodni” (munja, električna jegulja) i „umjetni” (trenjem, statički elektricitet).",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 3",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-004",
+    "chapter": "34",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je pokazao de Boulogne (1872.)?",
+    "answer": "električnom stimulacijom osjetilnog i motornog sustava prikazao je osmijeh",
+    "accepted": [
+      "električnom stimulacijom osjetilnog i motornog sustava prikazao je osmijeh"
+    ],
+    "distractors": [
+      "prvi je pokrenuo rad srca impulsima",
+      "izumio je Leydensku bocu",
+      "otkrio je životinjski elektricitet"
+    ],
+    "explanation": "Francuski neurolog de Boulogne 1872. razvio je instrument za pobudu osjetilnog i motornog sustava i električnom stimulacijom prikazao osmijeh.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 5 i 6",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-005",
+    "chapter": "34",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "John Hopps je ___. godine primijenio kontrolirane električne impulse kao prvi davač ritma srčanom mišiću.",
+    "answer": "1950",
+    "accepted": [
+      "1950",
+      "1950."
+    ],
+    "distractors": [
+      "1872",
+      "1960",
+      "1786"
+    ],
+    "explanation": "Sredinom 20. stoljeća, 1950., John Hopps primijenio je kontrolirane električne impulse za pokretanje normalnog ritma srca – prvi davač ritma (pacemaker).",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 7",
+    "tags": [
+      "brojka",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-006",
+    "chapter": "34",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Debljina stanične membrane iznosi ___ (pore 8–10 nm).",
+    "answer": "10 nm",
+    "accepted": [
+      "10 nm",
+      "10",
+      "10nm",
+      "10⁻⁸ m"
+    ],
+    "distractors": [
+      "8 nm",
+      "200 nm",
+      "100 nm"
+    ],
+    "explanation": "Membrana je debela 10 nm (10⁻⁸ m) i polupropusna, s porama 8–10 nm. Građena je od sloja lipida između dva sloja bjelančevina, s tankim vanjskim slojem mukopolisaharida.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 8 i 10",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-007",
+    "chapter": "34",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako je građena stanična membrana?",
+    "answer": "sloj lipida između dva sloja bjelančevina, izvana tanki sloj mukopolisaharida",
+    "accepted": [
+      "sloj lipida između dva sloja bjelančevina, izvana tanki sloj mukopolisaharida"
+    ],
+    "distractors": [
+      "sloj bjelančevina između dva sloja lipida",
+      "slojevi masti (mijelin)",
+      "kolagena vlakna u matrici"
+    ],
+    "explanation": "Membrana ima sloj lipida između dva sloja bjelančevina, a vanjski dio je vrlo tanak sloj mukopolisaharida. Na njoj je izvor bioelektričnih napona.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 8 i 11",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-008",
+    "chapter": "34",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Razlika potencijala na membrani živčanih i mišićnih stanica iznosi ___ (općenito 5–100 mV).",
+    "answer": "70-85 mV",
+    "accepted": [
+      "70-85 mV",
+      "70–85 mV",
+      "70 - 85 mV",
+      "70-85"
+    ],
+    "distractors": [
+      "5-100 mV",
+      "30 mV",
+      "200 mV"
+    ],
+    "explanation": "Na membrani se stvara razlika potencijala 5–100 mV, a kod živčanih i mišićnih stanica 70–85 mV. Nastaje zbog razlike koncentracija iona i polupropusnosti membrane.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 8",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-009",
+    "chapter": "34",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kakav je predznak potencijala na membrani u mirovanju?",
+    "answer": "vanjski dio pozitivan, unutarnji negativan",
+    "accepted": [
+      "vanjski dio pozitivan, unutarnji negativan"
+    ],
+    "distractors": [
+      "vanjski dio negativan, unutarnji pozitivan",
+      "oba dijela pozitivna",
+      "nema razlike potencijala"
+    ],
+    "explanation": "U mirovanju je vanjski dio membrane pozitivan, a unutarnji negativan. Kod akcijskog potencijala to se obrne – depolarizacija.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 8 i 10",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-010",
+    "chapter": "34",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji ioni dominiraju u izvanstaničnoj tekućini, a koji u citoplazmi?",
+    "answer": "izvana Na⁺ i Cl⁻, unutra K⁺ i anioni proteina",
+    "accepted": [
+      "izvana Na⁺ i Cl⁻, unutra K⁺ i anioni proteina"
+    ],
+    "distractors": [
+      "izvana K⁺, unutra Na⁺",
+      "izvana Ca⁺⁺ i Mg⁺⁺, unutra Cl⁻",
+      "jednako su raspoređeni"
+    ],
+    "explanation": "Izvanstanična tekućina (slična morskoj soli) sadrži uglavnom Na⁺ i Cl⁻, a citoplazma K⁺ i anione proteina, uz malo Ca⁺⁺ i Mg⁺⁺. Za stvaranje razlike potencijala najvažniji su Na⁺, K⁺ i Cl⁻.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 9",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-011",
+    "chapter": "34",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Odnos koncentracija kalija K⁺ unutar i izvan stanice u mirovanju je ___ (150 : 5 mM/l).",
+    "answer": "30:1",
+    "accepted": [
+      "30:1",
+      "30 : 1",
+      "30/1",
+      "30"
+    ],
+    "distractors": [
+      "1:30",
+      "10:1",
+      "150:1"
+    ],
+    "explanation": "Unutar stanice je 150 mM/l kalija, a izvan 5 mM/l – omjer 30 : 1. Iz tog omjera računa se membranski potencijal.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 9",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-012",
+    "chapter": "34",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Membranski potencijal prema kaliju je ΔU = 61·log(C_Kv/C_Ku) = 61·log(5/150) = ___.",
+    "answer": "-90 mV",
+    "accepted": [
+      "-90 mV",
+      "−90 mV",
+      "-90",
+      "−90"
+    ],
+    "distractors": [
+      "90 mV",
+      "-80 mV",
+      "-61 mV"
+    ],
+    "explanation": "61·log(5/150) = 61·(−1,48) ≈ −90 mV. Broj 61 ovisi o plinskoj konstanti, valenciji iona, Faradayevoj konstanti i temperaturi tijela. Negativan predznak znači da je unutrašnjost negativna.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 9",
+    "tags": [
+      "formula",
+      "racun"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-013",
+    "chapter": "34",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "O čemu ovisi broj 61 u izrazu ΔU = 61·log(C_Kv/C_Ku)?",
+    "answer": "o plinskoj konstanti, valenciji iona, Faradayevoj konstanti i temperaturi tijela",
+    "accepted": [
+      "o plinskoj konstanti, valenciji iona, Faradayevoj konstanti i temperaturi tijela"
+    ],
+    "distractors": [
+      "o debljini membrane i promjeru pora",
+      "o broju neurona",
+      "o koncentraciji natrija"
+    ],
+    "explanation": "Konstanta 61 skuplja plinsku konstantu, valenciju iona, Faradayevu konstantu i temperaturu tijela. Uz omjer koncentracija 5/150 daje ΔU ≈ −90 mV.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 9",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-014",
+    "chapter": "34",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Jakost električnog polja na membrani (U ≈ 80 mV, d = 10⁻⁸ m) iznosi E = U/d = ___.",
+    "answer": "8000 kV/m",
+    "accepted": [
+      "8000 kV/m",
+      "8000",
+      "8 000 kV/m",
+      "8·10⁶ V/m",
+      "8 MV/m",
+      "8000kV/m"
+    ],
+    "distractors": [
+      "800 kV/m",
+      "80 kV/m",
+      "8 kV/m"
+    ],
+    "explanation": "E = U/d = 80·10⁻³ V / 10⁻⁸ m = 8·10⁶ V/m = 8000 kV/m. Napon je malen, ali membrana je iznimno tanka, pa je polje golemo.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 10",
+    "tags": [
+      "formula",
+      "racun"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-015",
+    "chapter": "34",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje ione u mirovanju propuštaju pore (kanalići 8 nm) stanične membrane?",
+    "answer": "propuštaju K⁺ i Cl⁻, a ne propuštaju Na⁺",
+    "accepted": [
+      "propuštaju K⁺ i Cl⁻, a ne propuštaju Na⁺"
+    ],
+    "distractors": [
+      "propuštaju Na⁺, a ne K⁺",
+      "propuštaju sve ione jednako",
+      "ne propuštaju nijedan ion"
+    ],
+    "explanation": "U mirovanju kalij izlazi iz stanice, pa unutra nastaje manjak, a izvana višak pozitivnih naboja – stanica postaje pozitivno polarizirana s vanjske strane.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 10",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-016",
+    "chapter": "34",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kad podražaj dosegne prag podražljivosti, vodljivost membrane za Na⁺ poveća se oko ___ puta.",
+    "answer": "1000",
+    "accepted": [
+      "1000",
+      "1000x",
+      "1 000",
+      "tisuću"
+    ],
+    "distractors": [
+      "30",
+      "100",
+      "10"
+    ],
+    "explanation": "Pri pragu podražljivosti vodljivost za natrij poraste oko 1000 puta, Na⁺ naglo prodire u stanicu i ona postaje pozitivna iznutra, a negativna izvana – depolarizacija.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 12",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-017",
+    "chapter": "34",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je depolarizacija stanice?",
+    "answer": "nagli prodor Na⁺ u stanicu, pa stanica postaje pozitivna iznutra, a negativna izvana",
+    "accepted": [
+      "nagli prodor Na⁺ u stanicu, pa stanica postaje pozitivna iznutra, a negativna izvana"
+    ],
+    "distractors": [
+      "izlazak K⁺ i vraćanje napona na početnu razinu",
+      "stanje mirovanja stanice",
+      "oslobađanje transmitera u sinapsi"
+    ],
+    "explanation": "Depolarizacija nastaje kad podražaj dosegne prag: Na⁺ naglo ulazi i polaritet se obrne. Zatim se vodljivost za Na⁺ smanji, a za K⁺ poveća, K⁺ izlazi i napon se vraća – repolarizacija.",
+    "image": "img/34-1.png",
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 12–15",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-018",
+    "chapter": "34",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je repolarizacija?",
+    "answer": "izlazak K⁺ iz stanice i vraćanje napona na početnu razinu",
+    "accepted": [
+      "izlazak K⁺ iz stanice i vraćanje napona na početnu razinu"
+    ],
+    "distractors": [
+      "nagli ulazak Na⁺ u stanicu",
+      "širenje akcijskog potencijala na susjedni dio membrane",
+      "prijenos impulsa kroz sinaptičku pukotinu"
+    ],
+    "explanation": "Nakon depolarizacije vodljivost za Na⁺ naglo pada, a za K⁺ raste; kalij izlazi i napon se vraća na razinu mirovanja – repolarizacija.",
+    "image": "img/34-1.png",
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 13 i 15",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-019",
+    "chapter": "34",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je relativno refraktorno vrijeme t_r?",
+    "answer": "vrijeme vraćanja napona u kojem se akcijski potencijal može izazvati samo jačim podražajem",
+    "accepted": [
+      "vrijeme vraćanja napona u kojem se akcijski potencijal može izazvati samo jačim podražajem"
+    ],
+    "distractors": [
+      "vrijeme trajanja akcijskog potencijala kad ga nije moguće ponovno izazvati",
+      "vrijeme do dosezanja praga podražljivosti",
+      "vrijeme prijenosa kroz sinapsu"
+    ],
+    "explanation": "t_a (apsolutno refraktorno) je vrijeme trajanja akcijskog potencijala. t_r (relativno refraktorno) je vrijeme smirivanja napona – novi akcijski potencijal moguć je samo jačim podražajem, sve dok se ne mogu ponovno stvarati uz normalan intenzitet.",
+    "image": "img/34-1.png",
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 14 i 15",
+    "tags": [
+      "definicija",
+      "skica"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-020",
+    "chapter": "34",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Potencijal u mirovanju na dijagramu akcijskog potencijala iznosi ___, a nadvišenje +30 mV.",
+    "answer": "-85 mV",
+    "accepted": [
+      "-85 mV",
+      "−85 mV",
+      "-85",
+      "−85"
+    ],
+    "distractors": [
+      "-90 mV",
+      "-70 mV",
+      "-30 mV"
+    ],
+    "explanation": "Na dijagramu je potencijal u mirovanju −85 mV, a vrh akcijskog potencijala (nadvišenje) +30 mV. Podražaj najprije digne napon do praga podražljivosti, a tada nastaje akcijski potencijal.",
+    "image": "img/34-1.png",
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 15",
+    "tags": [
+      "brojka",
+      "skica"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-021",
+    "chapter": "34",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se akcijski potencijal širi duž živčanog vlakna?",
+    "answer": "akcijski potencijal na jednom dijelu membrane podražuje susjedne dijelove – val depolarizacije",
+    "accepted": [
+      "akcijski potencijal na jednom dijelu membrane podražuje susjedne dijelove – val depolarizacije"
+    ],
+    "distractors": [
+      "putuje kroz citoplazmu kao struja",
+      "prenosi ga krv",
+      "širi se samo kroz sinapse"
+    ],
+    "explanation": "Akcijski potencijal na jednom dijelu membrane podražuje susjedni dio, pa se val depolarizacije prenosi duž vlakna. Tako se prenose živčani signali.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 16",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-022",
+    "chapter": "34",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Sinaptička pukotina široka je ___.",
+    "answer": "200 nm",
+    "accepted": [
+      "200 nm",
+      "200",
+      "200nm"
+    ],
+    "distractors": [
+      "10 nm",
+      "8 nm",
+      "20 µm"
+    ],
+    "explanation": "Sinapse su uski međuprostori između neurona, sinaptička pukotina je 200 nm. Akcijski potencijal preko nje prelazi pomoću kemijskog transmitera.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 17",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-023",
+    "chapter": "34",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se akcijski potencijal prenosi kroz sinapsu?",
+    "answer": "u presinapsi pucaju mjehurići s transmiterima, transmiter prolazi kroz pukotinu i prenosi impuls",
+    "accepted": [
+      "u presinapsi pucaju mjehurići s transmiterima, transmiter prolazi kroz pukotinu i prenosi impuls"
+    ],
+    "distractors": [
+      "električnom strujom izravno kroz pukotinu",
+      "preskakanjem preko Ranvierovih opni",
+      "mehaničkim dodirom stanica"
+    ],
+    "explanation": "Akcijski potencijal stigne u presinapsu, nastane depolarizacija, mjehurići s transmiterima pucaju i oslobađaju kemijski prijenosnik u sinaptičku pukotinu, a on prenosi impuls na postsinapsu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 18 i 19",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-34-024",
+    "chapter": "34",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji neurotransmiter olakšava prodor natrijevih kationa kroz postsinaptičku membranu?",
+    "answer": "acetilkolin",
+    "accepted": [
+      "acetilkolin"
+    ],
+    "distractors": [
+      "serotonin",
+      "glicin",
+      "histamin"
+    ],
+    "explanation": "Acetilkolin olakšava prodor Na⁺ kroz postsinaptičku membranu. Ostale skupine: monoamini (serotonin, histamin), aminokiseline (GABA, glicin – povećavaju potencijal u mirovanju) te peptidi i dopamin.",
+    "image": null,
+    "explanation_image": null,
+    "source": "34_Elektrofiziologija.pdf, slajd 21",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  }
+]

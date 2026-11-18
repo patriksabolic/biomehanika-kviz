@@ -1,0 +1,704 @@
+[
+  {
+    "id": "bm-33-001",
+    "chapter": "33",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što osjetila rade s vanjskim podražajima?",
+    "answer": "pretvaraju ih u električne impulse koji se prenose i obrađuju u živčanom sustavu",
+    "accepted": [
+      "pretvaraju ih u električne impulse koji se prenose i obrađuju u živčanom sustavu"
+    ],
+    "distractors": [
+      "pohranjuju ih u mozgu bez obrade",
+      "pojačavaju ih i vraćaju u okolinu",
+      "pretvaraju ih u mehaničku energiju mišića"
+    ],
+    "explanation": "Osjetila su pretvornici: vanjske podražaje pretvaraju u električne impulse. Građena su od osjetnih stanica, najčešće nemijeliziranih završetaka dendrita; svako živčano vlakno primarno je osjetljivo na jednu vrstu podražaja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 2",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-002",
+    "chapter": "33",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Od čega se sastoji osjetni sustav?",
+    "answer": "od receptora, živčanog puta i dijela mozga uključenog u osjetilnu percepciju",
+    "accepted": [
+      "od receptora, živčanog puta i dijela mozga uključenog u osjetilnu percepciju"
+    ],
+    "distractors": [
+      "od dendrita, aksona i sinapse",
+      "od talamusa i leđne moždine",
+      "od oka, uha i nosa"
+    ],
+    "explanation": "Receptori primaju podražaj, živčani put prenosi informaciju (modalitet, intenzitet, mjesto, trajanje) kao akcijski potencijal do SŽS-a, a dio mozga je obrađuje – tako postajemo svjesni osjeta.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 3",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-003",
+    "chapter": "33",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što predstavlja naš svjesni osjet?",
+    "answer": "našu percepciju podražaja, a ne fizičko svojstvo podražaja",
+    "accepted": [
+      "našu percepciju podražaja, a ne fizičko svojstvo podražaja"
+    ],
+    "distractors": [
+      "točno fizičko svojstvo podražaja",
+      "samo intenzitet podražaja",
+      "trajanje akcijskog potencijala"
+    ],
+    "explanation": "Svjesni osjet je percepcija: zvuk je zapravo titranje zraka, miris kemijske čestice u zraku, a boja valna duljina elektromagnetskih valova. Fiziologija osjeta istražuje kako se podražaj pretvara u živčani signal i obrađuje u mozgu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 5",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-004",
+    "chapter": "33",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Ključna relejna struktura u osjetnim putovima, u kojoj se prekopčaju svi osjetni putovi prema moždanoj kori, je ___.",
+    "answer": "talamus",
+    "accepted": [
+      "talamus",
+      "thalamus"
+    ],
+    "distractors": [
+      "hipotalamus",
+      "mali mozak",
+      "leđna moždina"
+    ],
+    "explanation": "Svi osjetni putovi prema moždanoj kori najprije se prekopčaju u talamusu – izuzetak je njuh, koji informaciju prenosi izravno u moždanu koru medijalnog dijela sljepoočnog režnja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 6",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-005",
+    "chapter": "33",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji se osjetni put ne prekopčava u talamusu?",
+    "answer": "put njuha",
+    "accepted": [
+      "put njuha"
+    ],
+    "distractors": [
+      "put vida",
+      "put sluha",
+      "put dodira"
+    ],
+    "explanation": "Osjetni putovi njuha informaciju prenose izravno u moždanu koru medijalnog dijela sljepoočnog režnja; svi ostali prolaze kroz talamus.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 6",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-006",
+    "chapter": "33",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Najniži intenzitet osjeta koji neka osoba može detektirati naziva se ___ osjeta.",
+    "answer": "prag",
+    "accepted": [
+      "prag",
+      "prag osjeta"
+    ],
+    "distractors": [
+      "granica",
+      "modalitet",
+      "adaptacija"
+    ],
+    "explanation": "Prag osjeta je najniži intenzitet koji se može detektirati. Jači podražaj povećava učestalost akcijskih potencijala u osjetnim neuronima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 7",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-007",
+    "chapter": "33",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Svojstvo receptora da se nakon nekog vremena prilagode na kontinuirani podražaj, pa se intenzitet opažanja smanji, naziva se osjetna ___.",
+    "answer": "adaptacija",
+    "accepted": [
+      "adaptacija",
+      "adaptacija receptora"
+    ],
+    "distractors": [
+      "percepcija",
+      "sumacija",
+      "integracija"
+    ],
+    "explanation": "Kod osjetne adaptacije receptori se prilagode istovrsnom kontinuiranom podražaju i opažanje slabi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 7",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-008",
+    "chapter": "33",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se povećanje intenziteta podražaja očituje u osjetnim neuronima?",
+    "answer": "povećava se učestalost akcijskih potencijala",
+    "accepted": [
+      "povećava se učestalost akcijskih potencijala"
+    ],
+    "distractors": [
+      "povećava se amplituda akcijskog potencijala",
+      "smanjuje se broj receptora",
+      "produljuje se akson"
+    ],
+    "explanation": "Povećanje intenziteta podražaja očituje se kao povećanje učestalosti pojave akcijskih potencijala u osjetnim neuronima. Najniži intenzitet koji se može detektirati je prag osjeta.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 7",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-009",
+    "chapter": "33",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se dijele osjetila (receptori)?",
+    "answer": "mehanoreceptori, termoreceptori, kemoreceptori, fotoreceptori i nocioreceptori",
+    "accepted": [
+      "mehanoreceptori, termoreceptori, kemoreceptori, fotoreceptori i nocioreceptori"
+    ],
+    "distractors": [
+      "vid, sluh, njuh i okus",
+      "osjetni, motorni i međuneuroni",
+      "aferentni i eferentni"
+    ],
+    "explanation": "Mehanoreceptori (dodir, tlak, sluh), termoreceptori (toplo, hladno), kemoreceptori (miris, okus), fotoreceptori (vid) i nocioreceptori (bol i oštećenje).",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 9",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-010",
+    "chapter": "33",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja tjelešca u koži registriraju duboki pritisak i brze vibracije?",
+    "answer": "Pacinijeva tjelešca",
+    "accepted": [
+      "Pacinijeva tjelešca"
+    ],
+    "distractors": [
+      "Ruffinijeva tjelešca",
+      "Meissnerova tjelešca",
+      "Merkelovi diskovi"
+    ],
+    "explanation": "Ruffinijeva – kontinuirani pritisak; Pacinijeva (na slajdu „Paccinianova”) – duboki pritisak i brze vibracije; Meissnerova – spore vibracije i tekstura; Merkelovi diskovi – kontinuirani dodir.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 10",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-011",
+    "chapter": "33",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji mehanoreceptori registriraju spore vibracije i teksturu?",
+    "answer": "Meissnerova tjelešca",
+    "accepted": [
+      "Meissnerova tjelešca"
+    ],
+    "distractors": [
+      "Pacinijeva tjelešca",
+      "Ruffinijeva tjelešca",
+      "Merkelovi diskovi"
+    ],
+    "explanation": "Meissnerova tjelešca registriraju spore vibracije i teksturu, Pacinijeva duboki pritisak i brze vibracije, Ruffinijeva kontinuirani pritisak, a Merkelovi diskovi kontinuirani dodir.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 10",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-012",
+    "chapter": "33",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što su proprioceptori?",
+    "answer": "mehanoreceptori koji primaju podražaje iz unutrašnjosti tijela o položaju ekstremiteta i brzini pokreta",
+    "accepted": [
+      "mehanoreceptori koji primaju podražaje iz unutrašnjosti tijela o položaju ekstremiteta i brzini pokreta"
+    ],
+    "distractors": [
+      "receptori za toplo i hladno",
+      "receptori za bol",
+      "fotoreceptori u mrežnici"
+    ],
+    "explanation": "Proprioceptori (kinestetski receptori, mišićna vretena, Golgijev tetivni organ) javljaju položaj udova i brzinu pokreta. Golgijev tetivni organ je učahureni receptor kroz koji prolazi snopić tetivnih vlakana.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 11",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-013",
+    "chapter": "33",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Cortijev organ u pužnici sadrži ___ mehanoreceptora.",
+    "answer": "20000",
+    "accepted": [
+      "20000",
+      "20 000",
+      "20.000"
+    ],
+    "distractors": [
+      "10000",
+      "6000000",
+      "125 milijuna"
+    ],
+    "explanation": "Cortijev organ ima 20 000 mehanoreceptora koji reagiraju na gibanje tekućine u pužnici i pretvaraju mehaničku energiju u živčani impuls prema središtu za sluh. Zvuk do pužnice dolazi preko bubnjića, čekića, nakovnja i stremena.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 12",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-014",
+    "chapter": "33",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kojim se redom zvučne vibracije prenose do unutarnjeg uha?",
+    "answer": "bubnjić → čekić → nakovanj → stremen → pužnica",
+    "accepted": [
+      "bubnjić → čekić → nakovanj → stremen → pužnica"
+    ],
+    "distractors": [
+      "pužnica → stremen → nakovanj → čekić → bubnjić",
+      "bubnjić → stremen → čekić → nakovanj → pužnica",
+      "čekić → bubnjić → nakovanj → stremen → pužnica"
+    ],
+    "explanation": "Bubnjić vibrira zbog zvučnih titraja, vibracije se prenose na čekić, nakovanj i stremen, a zatim u pužnicu ispunjenu tekućinom, gdje je Cortijev organ.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 12",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-015",
+    "chapter": "33",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje su dvije vrste informacija kod osjetila dodira?",
+    "answer": "kinestetička (položaj u prostoru, deformiranje površine silom) i taktilna (kvaliteta površine)",
+    "accepted": [
+      "kinestetička (položaj u prostoru, deformiranje površine silom) i taktilna (kvaliteta površine)"
+    ],
+    "distractors": [
+      "toplinska i kemijska",
+      "slušna i vidna",
+      "aferentna i eferentna"
+    ],
+    "explanation": "Kinestetička informacija govori o položaju u prostoru i mogućnosti deformiranja površine silom, a taktilna o kvaliteti površine (hrapavo, glatko). Osjete s lijeve strane tijela zamjećuje desna strana mozga.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 14",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-016",
+    "chapter": "33",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja strana mozga zamjećuje osjete s lijeve strane tijela?",
+    "answer": "desna",
+    "accepted": [
+      "desna"
+    ],
+    "distractors": [
+      "lijeva",
+      "obje jednako",
+      "nijedna – obrađuje ih leđna moždina"
+    ],
+    "explanation": "Osjete na lijevoj strani tijela zamjećuje desna strana mozga (i obrnuto).",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 14",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-017",
+    "chapter": "33",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Svaki okusni pupoljak sastoji se od oko ___ stanica povezanih živčanim vlaknima s mozgom.",
+    "answer": "50",
+    "accepted": [
+      "50",
+      "50-tak",
+      "pedesetak",
+      "pedeset"
+    ],
+    "distractors": [
+      "10",
+      "500",
+      "5"
+    ],
+    "explanation": "Okusni pupoljci su skupine sićušnih stanica na papilama jezika, nepca i grla; svaki ima 50-tak stanica. Na jeziku je 10 000 okusnih pupoljaka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 18",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-018",
+    "chapter": "33",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Na jeziku se nalazi ___ okusnih pupoljaka.",
+    "answer": "10000",
+    "accepted": [
+      "10000",
+      "10 000",
+      "10.000"
+    ],
+    "distractors": [
+      "20000",
+      "50",
+      "6000000"
+    ],
+    "explanation": "Na jeziku je 10 000 okusnih pupoljaka čije osjetne stanice podražuju tvari otopljene u slini. Čovjek razlikuje i oko 10 000 mirisa – isti broj, drugo osjetilo.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 19",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-019",
+    "chapter": "33",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koliko je osnovnih tipova osjetnih stanica okusa i koji su?",
+    "answer": "5 – slano, kiselo, gorko, slatko i „bjelančevinasto i masno”",
+    "accepted": [
+      "5 – slano, kiselo, gorko, slatko i „bjelančevinasto i masno”"
+    ],
+    "distractors": [
+      "4 – slano, kiselo, gorko i slatko",
+      "6 – cvijeće, voće, trulež, začini, palež, smola",
+      "3 – slatko, slano i gorko"
+    ],
+    "explanation": "Prema slajdu postoji 5 osnovnih tipova osjetnih stanica okusa, a čovjek može razlikovati nekoliko tisuća okusa. Šest primarnih mirisa su cvijeće, voće, trulež, začini, palež i smola.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 19",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-020",
+    "chapter": "33",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Na kojem se dijelu jezika prema slajdu osjeća gorko?",
+    "answer": "na krajnjem stražnjem dijelu jezika",
+    "accepted": [
+      "na krajnjem stražnjem dijelu jezika"
+    ],
+    "distractors": [
+      "na vrhu jezika",
+      "na bočnim stranama jezika",
+      "na rubovima i stražnjoj strani"
+    ],
+    "explanation": "Prema slajdu: slatko – vrh jezika, kiselo – bočne strane, slano – rubovi i stražnja strana, gorko – krajnji stražnji dio jezika.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 19",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-021",
+    "chapter": "33",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U nosu se nalazi oko ___ kemoreceptora za miris.",
+    "answer": "6000000",
+    "accepted": [
+      "6000000",
+      "6 000 000",
+      "6 milijuna",
+      "6.000.000"
+    ],
+    "distractors": [
+      "10000",
+      "125 milijuna",
+      "20000"
+    ],
+    "explanation": "U nosu je oko 6 milijuna kemoreceptora – završetaka živaca s 5–10 nepomičnih dlačica (cilija). Tvar mora biti otopljena u vodi nosne sluznice.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 21",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-022",
+    "chapter": "33",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kolika je površina nosne sluznice čovjeka u usporedbi sa psom?",
+    "answer": "čovjek 2–5 cm², pas 100 cm²",
+    "accepted": [
+      "čovjek 2–5 cm², pas 100 cm²"
+    ],
+    "distractors": [
+      "čovjek 100 cm², pas 2–5 cm²",
+      "jednaka je, oko 50 cm²",
+      "čovjek 20 cm², pas 50 cm²"
+    ],
+    "explanation": "Nosna sluznica čovjeka ima 2–5 cm², a psa 100 cm². Čovjek raspoznaje oko 10 000 mirisa.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 21",
+    "tags": [
+      "usporedba",
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-023",
+    "chapter": "33",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U mrežnici se nalazi ___ milijuna fotoreceptora.",
+    "answer": "125",
+    "accepted": [
+      "125",
+      "125 milijuna"
+    ],
+    "distractors": [
+      "120",
+      "6",
+      "200"
+    ],
+    "explanation": "U mrežnici je 125 milijuna fotoreceptora: 120 milijuna štapića i 6 milijuna čunjića (prema slajdovima). Signal ide kroz mrežu stanica do vidnog živca (aksoni ganglijskih stanica).",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 22 i 23",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-024",
+    "chapter": "33",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Po čemu se štapići razlikuju od čunjića?",
+    "answer": "štapići su osjetljiviji i registriraju male količine svjetlosti, a čunjići primaju boje, dubinu i intenzitet osvjetljenja",
+    "accepted": [
+      "štapići su osjetljiviji i registriraju male količine svjetlosti, a čunjići primaju boje, dubinu i intenzitet osvjetljenja"
+    ],
+    "distractors": [
+      "čunjići su osjetljiviji na slabu svjetlost",
+      "štapići primaju boje",
+      "jednaki su, razlikuju se samo oblikom"
+    ],
+    "explanation": "Štapići su osjetljiviji – rade pri slaboj svjetlosti. Čunjići primaju informacije o bojama, dubini i intenzitetu osvjetljenja. U oku je 120 milijuna štapića i 6 milijuna čunjića.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 23",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-025",
+    "chapter": "33",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U oku čovjeka nalazi se 120 milijuna štapića i ___ milijuna čunjića.",
+    "answer": "6",
+    "accepted": [
+      "6",
+      "šest",
+      "6 milijuna"
+    ],
+    "distractors": [
+      "120",
+      "125",
+      "60"
+    ],
+    "explanation": "Štapića je 120 milijuna, a čunjića 6 milijuna – štapića je dvadeset puta više.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 23",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-33-026",
+    "chapter": "33",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se dijele nocioreceptori prema vrsti stimulansa?",
+    "answer": "termalni, kemijski i mehanički",
+    "accepted": [
+      "termalni, kemijski i mehanički"
+    ],
+    "distractors": [
+      "štapići i čunjići",
+      "mehanoreceptori i termoreceptori",
+      "akutni i kronični"
+    ],
+    "explanation": "Nocioreceptori detektiraju potencijalno štetne podražaje (bol); u običnim situacijama su neaktivni. Termalni reagiraju na ekstremne temperature, kemijski na kemijske spojeve i začine, a mehanički na pretjeran pritisak, deformaciju ili posjekotinu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "33_Osjetila.pdf, slajd 24",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  }
+]

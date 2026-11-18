@@ -1,0 +1,495 @@
+[
+  {
+    "id": "bm-32-001",
+    "chapter": "32",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Živčani sustav sastoji se od oko ___ neurona.",
+    "answer": "10¹¹",
+    "accepted": [
+      "10¹¹",
+      "10^11",
+      "1011",
+      "100 milijardi",
+      "10 na 11"
+    ],
+    "distractors": [
+      "10⁹",
+      "10⁶",
+      "10¹⁴"
+    ],
+    "explanation": "Živčani sustav ima oko 10¹¹ (sto milijardi) neurona. Neuron je osnovna funkcionalna jedinica živčanog sustava.",
+    "image": null,
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 4",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-32-002",
+    "chapter": "32",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje su glavne fiziološke osobine neurona?",
+    "answer": "podražljivost i provodljivost",
+    "accepted": [
+      "podražljivost i provodljivost"
+    ],
+    "distractors": [
+      "kontraktilnost i elastičnost",
+      "podražljivost i kontraktilnost",
+      "provodljivost i regeneracija"
+    ],
+    "explanation": "Podražljivost je sposobnost reagiranja na podražaj i prevođenja u živčani impuls, a provodljivost sposobnost prenošenja impulsa (elektrokemijskih signala).",
+    "image": null,
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 4",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-32-003",
+    "chapter": "32",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Od čega se sastoji neuron?",
+    "answer": "od tijela stanice (some) i dvije vrste produžetaka – aksona i dendrita",
+    "accepted": [
+      "od tijela stanice (some) i dvije vrste produžetaka – aksona i dendrita"
+    ],
+    "distractors": [
+      "od jezgre i mijelinske ovojnice",
+      "od presinapse i postsinapse",
+      "od sarkomera i miofibrila"
+    ],
+    "explanation": "Neuron ima tijelo stanice (somu) s jezgrom (DNA), ribosomima i mitohondrijima te dvije vrste produžetaka: akson šalje, a dendriti primaju impulse.",
+    "image": "img/32-1.png",
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 3 i 4",
+    "tags": [
+      "podjela",
+      "skica"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-32-004",
+    "chapter": "32",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je razlika između aksona i dendrita?",
+    "answer": "akson šalje impulse, a dendriti ih primaju",
+    "accepted": [
+      "akson šalje impulse, a dendriti ih primaju"
+    ],
+    "distractors": [
+      "akson prima impulse, a dendriti ih šalju",
+      "oba šalju impulse",
+      "dendrit je dulji od aksona"
+    ],
+    "explanation": "Akson (živčano vlakno) šalje impulse i može biti dug do 1 m. Dendriti primaju impulse, kraći su od aksona, a svaka stanica ima više od 10 dendrita.",
+    "image": null,
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 5 i 6",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-32-005",
+    "chapter": "32",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Duljina aksona je od nekoliko mm do ___.",
+    "answer": "1 m",
+    "accepted": [
+      "1 m",
+      "1",
+      "1m",
+      "jednog metra"
+    ],
+    "distractors": [
+      "10 cm",
+      "1 cm",
+      "10 m"
+    ],
+    "explanation": "Akson je dug od nekoliko mm do 1 m (npr. od vrha prsta duž cijele ruke), a promjer mu je 0,5 do 20 µm.",
+    "image": null,
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 5 i 8",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-32-006",
+    "chapter": "32",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Promjer aksona iznosi 0,5 do ___.",
+    "answer": "20 µm",
+    "accepted": [
+      "20 µm",
+      "20",
+      "20 um",
+      "20 mikrometara",
+      "20µm"
+    ],
+    "distractors": [
+      "20 mm",
+      "200 µm",
+      "2 µm"
+    ],
+    "explanation": "Promjer aksona je 0,5–20 µm, a duljina od nekoliko mm do 1 m – akson je iznimno tanak u odnosu na duljinu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 5",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-32-007",
+    "chapter": "32",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Gdje se nalaze nemijelinski neuroni?",
+    "answer": "u mozgu i leđnoj moždini",
+    "accepted": [
+      "u mozgu i leđnoj moždini"
+    ],
+    "distractors": [
+      "u perifernim živcima",
+      "samo u osjetilnim neuronima",
+      "u mišićnim vlaknima"
+    ],
+    "explanation": "Neuroni s mijelinom nalaze se u perifernim živcima (osjetilni i motorni neuroni), a nemijelinski u mozgu i leđnoj moždini.",
+    "image": null,
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 5",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-32-008",
+    "chapter": "32",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je mijelinska ovojnica?",
+    "answer": "zaštitna ovojnica od slojeva masti koja izolira živčano vlakno i pomaže provođenje impulsa",
+    "accepted": [
+      "zaštitna ovojnica od slojeva masti koja izolira živčano vlakno i pomaže provođenje impulsa"
+    ],
+    "distractors": [
+      "spoj između dva neurona",
+      "produžetak koji prima impulse",
+      "tekućina oko neurona"
+    ],
+    "explanation": "Mijelin su slojevi masti – izolator. Omotan je oko vlakana u segmentima dugima nekoliko mm, izolira ih i pomaže provođenje impulsa. Smetnje u stvaranju mijelina uzrokuju bolesna stanja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 5",
+    "tags": [
+      "definicija",
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-32-009",
+    "chapter": "32",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što se događa s impulsom na Ranvierovim opnama (suženjima)?",
+    "answer": "impuls preskače s jedne opne na drugu, što potiče prijenos",
+    "accepted": [
+      "impuls preskače s jedne opne na drugu, što potiče prijenos"
+    ],
+    "distractors": [
+      "impuls se zaustavlja",
+      "impuls se pretvara u kemijski signal",
+      "impuls mijenja smjer"
+    ],
+    "explanation": "Ranvierova opna je spoj između segmenata mijelinske ovojnice. Impulsi preskaču od jedne do druge opne, što ubrzava prijenos živčanih impulsa.",
+    "image": "img/32-1.png",
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 3 i 5",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-32-010",
+    "chapter": "32",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Svaka živčana stanica ima više od ___ dendrita.",
+    "answer": "10",
+    "accepted": [
+      "10",
+      "deset"
+    ],
+    "distractors": [
+      "2",
+      "100",
+      "1000"
+    ],
+    "explanation": "Dendriti primaju impulse, kraći su od aksona, a svaka stanica ima više od 10 dendrita.",
+    "image": null,
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 6",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-32-011",
+    "chapter": "32",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kakva je građa osjetnog (osjetilnog) neurona?",
+    "answer": "dendriti na oba kraja spojeni dugim aksonom, tijelo stanice u sredini",
+    "accepted": [
+      "dendriti na oba kraja spojeni dugim aksonom, tijelo stanice u sredini"
+    ],
+    "distractors": [
+      "tijelo stanice na jednom kraju, akson u sredini, dendriti na drugom kraju",
+      "samo tijelo bez aksona",
+      "dva aksona i jedan dendrit"
+    ],
+    "explanation": "Osjetni neuron ima dendrite na oba kraja i tijelo u sredini, a prenosi signale od periferije do središnjeg živčanog sustava. Motorni neuron ima tijelo na jednom kraju, akson u sredini i dendrite na drugom kraju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 8 i 9",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-32-012",
+    "chapter": "32",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja vrsta neurona prenosi signale od središnjeg živčanog sustava prema mišićima i koži i kontrolira mišićne kontrakcije?",
+    "answer": "motorni neuron",
+    "accepted": [
+      "motorni neuron"
+    ],
+    "distractors": [
+      "osjetni neuron",
+      "međuneuron",
+      "receptor"
+    ],
+    "explanation": "Motorni neuroni prenose signale od SŽS-a prema periferiji i kontroliraju kontrakcije mišića. Osjetni nose signale prema SŽS-u, a međuneuroni povezuju neurone unutar mozga i leđne moždine.",
+    "image": null,
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 9 i 10",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-32-013",
+    "chapter": "32",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što rade receptori?",
+    "answer": "osjećaju okolinu i pretvaraju informaciju u elektrokemijsku poruku koju prenose osjetni neuroni",
+    "accepted": [
+      "osjećaju okolinu i pretvaraju informaciju u elektrokemijsku poruku koju prenose osjetni neuroni"
+    ],
+    "distractors": [
+      "povezuju neurone unutar mozga",
+      "kontroliraju mišićne kontrakcije",
+      "izoliraju živčana vlakna"
+    ],
+    "explanation": "Receptori „osjećaju” kemikalije, svjetlo, zvuk, dodir… i pretvaraju tu informaciju u elektrokemijsku poruku, koju zatim prenose osjetni neuroni.",
+    "image": null,
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 10",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-32-014",
+    "chapter": "32",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "O čemu ovisi brzina prijenosa živčanog impulsa?",
+    "answer": "o debljini mijelinske ovojnice oko vlakna",
+    "accepted": [
+      "o debljini mijelinske ovojnice oko vlakna"
+    ],
+    "distractors": [
+      "o duljini dendrita",
+      "o broju neurona",
+      "o temperaturi okoline"
+    ],
+    "explanation": "Brzina prijenosa uvjetovana je debljinom mijelinske ovojnice i kreće se od 2,4 km/h do 520 km/h.",
+    "image": null,
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 11",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-32-015",
+    "chapter": "32",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Brzine prijenosa živčanih impulsa kreću se od 2,4 km/h do ___.",
+    "answer": "520 km/h",
+    "accepted": [
+      "520 km/h",
+      "520",
+      "520km/h"
+    ],
+    "distractors": [
+      "217 km/h",
+      "43 km/h",
+      "1200 km/h"
+    ],
+    "explanation": "Raspon je 2,4–520 km/h. Primjeri: impuls zbog oštećenja tkiva 3,6 km/h, od uboda igle 43 km/h, od ugodnog dodira 217 km/h.",
+    "image": null,
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 11",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-32-016",
+    "chapter": "32",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Impuls od uboda igle putuje brzinom ___.",
+    "answer": "43 km/h",
+    "accepted": [
+      "43 km/h",
+      "43",
+      "43km/h"
+    ],
+    "distractors": [
+      "3,6 km/h",
+      "217 km/h",
+      "520 km/h"
+    ],
+    "explanation": "Ubod igle: 43 km/h; oštećenje tkiva kod ozljede: 3,6 km/h; ugodan dodir: 217 km/h.",
+    "image": null,
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 11",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-32-017",
+    "chapter": "32",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji od navedenih impulsa putuje najbrže?",
+    "answer": "impuls od ugodnog dodira (217 km/h)",
+    "accepted": [
+      "impuls od ugodnog dodira (217 km/h)"
+    ],
+    "distractors": [
+      "impuls od uboda igle (43 km/h)",
+      "impuls zbog oštećenja tkiva (3,6 km/h)",
+      "svi putuju jednako brzo"
+    ],
+    "explanation": "Ugodan dodir 217 km/h, ubod igle 43 km/h, oštećenje tkiva 3,6 km/h. Brzina ovisi o debljini mijelinske ovojnice vlakna.",
+    "image": null,
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 11",
+    "tags": [
+      "usporedba",
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-32-018",
+    "chapter": "32",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što su živčani impulsi i o čemu ovisi električna aktivnost neurona?",
+    "answer": "električni valovi depolarizacije; ovisi o ionima kalija i natrija u tekućini oko i unutar stanice",
+    "accepted": [
+      "električni valovi depolarizacije; ovisi o ionima kalija i natrija u tekućini oko i unutar stanice"
+    ],
+    "distractors": [
+      "mehanički valovi; ovise o mijelinu",
+      "kemijski signali; ovise o kalciju u kostima",
+      "zvučni valovi; ovise o tlaku tekućine"
+    ],
+    "explanation": "Živčani impulsi su električni valovi – valovi depolarizacije. Električna aktivnost neurona uvjetovana je nabijenim ionima kalija i natrija u tekućini oko i unutar stanice.",
+    "image": null,
+    "explanation_image": null,
+    "source": "32_Neuroni.pdf, slajd 12",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  }
+]
