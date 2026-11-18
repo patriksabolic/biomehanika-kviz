@@ -251,3 +251,39 @@ code { font-size: 0.9em; background: var(--surface-2); padding: 1px 5px; border-
 }
 .tabbar button span { font-size: 1.3rem; line-height: 1; }
 .tabbar button.on { color: var(--primary); font-weight: 700; }
+
+/* ---------- streak (M2) ---------- */
+
+.streak-row { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; }
+.flame { font-size: 2.4rem; line-height: 1; filter: grayscale(1); opacity: 0.45; }
+.flame.lit { filter: none; opacity: 1; }
+.streak-text { display: flex; flex-direction: column; }
+.streak-num { font-size: 1.25rem; }
+
+/* ---------- statistika (M2) ---------- */
+
+.stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; text-align: center; }
+.big-num { font-size: 1.6rem; font-weight: 800; font-variant-numeric: tabular-nums; }
+.good { color: var(--ok); }
+.mid { color: var(--warn); }
+.low { color: var(--bad); }
+.hl { display: grid; grid-template-columns: 1fr auto; gap: 2px 12px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.hl:last-child { border-bottom: none; }
+.hl-label { grid-column: 1 / -1; font-size: 0.85rem; color: var(--muted); }
+.hl-name { font-weight: 600; }
+.hl-val { font-weight: 700; font-variant-numeric: tabular-nums; }
+.area-stat { border-top: 1px solid var(--border); }
+.area-stat summary {
+  display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; align-items: center;
+  min-height: var(--tap); padding: 10px 0; cursor: pointer; list-style: none;
+}
+.area-stat summary::-webkit-details-marker { display: none; }
+.area-stat summary .area-name::before { content: '▸ '; color: var(--muted); }
+.area-stat[open] summary .area-name::before { content: '▾ '; }
+.area-stat .bars { grid-column: 1 / -1; display: flex; flex-direction: column; gap: 4px; }
+.nums { font-variant-numeric: tabular-nums; font-weight: 600; white-space: nowrap; }
+.mini-bar { height: 6px; background: var(--surface-2); border-radius: 99px; overflow: hidden; }
+.mini-bar > div { height: 100%; background: var(--primary); }
+.ch-row { font-size: 0.92rem; }
+.ch-row.empty { opacity: 0.55; }
+.area-stat .list { padding-left: 14px; margin-bottom: 8px; }

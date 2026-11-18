@@ -4,6 +4,7 @@ import * as storage from './storage.js';
 import { loadCourses, loadCourse, loadVersion } from './content.js';
 import { initQuiz, showQuiz } from './quiz.js';
 import { esc, daysUntil, plural } from './util.js';
+import { streakInfo, renderStats } from './stats.js';
 
 let ctx = null;
 const root = () => document.getElementById('screen');
@@ -21,7 +22,8 @@ function go(name, arg) {
 }
 
 function renderHome(el) {
-  const goal = storage.settings().dailyGoal;
+  const st = streakInfo(ctx.courseId);
+  const goal = st.goal;
   const today = storage.dayStats(ctx.courseId);
   const pct = Math.min(100, Math.round((today.answered / goal) * 100));
   const left = daysUntil(ctx.course.examDate);
@@ -31,10 +33,25 @@ function renderHome(el) {
   const examText = left > 0
     ? `Ispit za <strong>${left}</strong> ${plural(left, 'dan', 'dana', 'dana')} (${Number(d)}.${Number(m)}.${y}.)`
     : left === 0 ? '<strong>Ispit je danas!</strong>' : 'Datum ispita je prošao.';
+  const streakText = st.current
+    ? `${st.current} ${plural(st.current, 'dan', 'dana', 'dana')} zaredom`
+    : 'Kreni danas!';
+  const streakHint = st.todayCounted
+    ? 'Današnji dan se broji.'
+    : st.current
+      ? `Odgovori na još ${goal - today.answered} da niz ne pukne.`
+      : `Odgovori na ${goal} pitanja danas i niz počinje.`;
 
   el.innerHTML = `
     <h1>${esc(ctx.course.name)} kviz</h1>
     <section class="card">
+      <div class="streak-row">
+        <span class="flame ${st.current ? 'lit' : ''}" aria-hidden="true">🔥</span>
+        <div class="streak-text">
+          <strong class="streak-num">${streakText}</strong>
+          <span class="muted small">Najdulji niz: ${st.longest} · ${streakHint}</span>
+        </div>
+      </div>
       <div class="row-between">
         <span>Danas odgovoreno</span>
         <strong class="today-count">${today.answered}/${goal}</strong>
@@ -65,19 +82,39 @@ function soon(title) {
 }
 
 async function renderSettings(el) {
-  soon('Postavke')(el);
+  const st = storage.settings();
+  const modes = [['auto', 'Automatski'], ['mc', 'Uvijek zaokruživanje'], ['fill', 'Uvijek nadopunjavanje']];
+  el.innerHTML = `
+    <h1>Postavke</h1>
+    <section class="card">
+      <h2>Način prikaza</h2>
+      <p class="muted small">Automatski: pitanje kreće kao zaokruživanje, a nakon 2 točna zaredom prelazi u nadopunjavanje (i natrag nakon 2 netočna).</p>
+      ${modes.map(([v, label]) => `<label class="toggle"><input type="radio" name="displayMode" value="${v}" ${st.displayMode === v ? 'checked' : ''}><span>${label}</span></label>`).join('')}
+    </section>
+    <section class="card">
+      <h2>Dnevni cilj</h2>
+      <p class="muted small">Dan se broji u streak kad odgovoriš na barem ovoliko pitanja.</p>
+      <div class="segmented">${[5, 10, 15, 20, 30].map((n) => `<button type="button" class="seg ${st.dailyGoal === n ? 'on' : ''}" data-goal="${n}" aria-pressed="${st.dailyGoal === n}">${n}</button>`).join('')}</div>
+    </section>
+    <section class="card center"><p class="muted small">Ostale postavke (pragovi ocjena, export/import, prijave …) dolaze u fazi M3.</p></section>
+    <p class="muted small center" id="version"></p>`;
+  el.onchange = (e) => {
+    if (e.target.name === 'displayMode') { st.displayMode = e.target.value; storage.save(); }
+  };
+  el.onclick = (e) => {
+    const g = e.target.closest('button')?.dataset.goal;
+    if (g) { st.dailyGoal = Number(g); storage.save(); renderSettings(el); }
+  };
   const v = await loadVersion();
-  if (v && el.querySelector('.soon')) {
-    el.insertAdjacentHTML('beforeend',
-      `<p class="muted small center">Verzija aplikacije ${esc(v.version)} · sadržaj ${esc(v.content)}</p>`);
-  }
+  const vEl = el.querySelector('#version');
+  if (v && vEl) vEl.textContent = `Verzija aplikacije ${v.version} · sadržaj ${v.content}`;
 }
 
 const SCREENS = {
   home: renderHome,
   quiz: (el, preset) => showQuiz(el, preset),
   exam: soon('Ispit'),
-  stats: soon('Statistika'),
+  stats: (el) => renderStats(el, ctx),
   settings: renderSettings,
 };
 

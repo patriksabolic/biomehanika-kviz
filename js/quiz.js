@@ -4,7 +4,7 @@ import { esc, shuffle, formatDuration, vibrate, plural } from './util.js';
 import { courseData, settings, save, addToDay } from './storage.js';
 import { gradeFill, isNumericAnswer } from './grading.js';
 import {
-  chooseMode, pickQuestions, applyAnswer, applyRating, markSeen, getRecord, isHardOrDangerous,
+  chooseMode, pickQuestions, applyAnswer, applyRating, markSeen, getRecord, isHardOrDangerous, isDual,
 } from './scheduler.js';
 
 let ctx = null;      // { courseId, course, questions, go }
@@ -89,7 +89,7 @@ function renderSetup(root) {
   const sizes = [5, 10, 20].map((n) =>
     `<button type="button" class="seg ${setup.size === n ? 'on' : ''}" data-size="${n}" aria-pressed="${setup.size === n}">${n}</button>`
   ).join('');
-  const toStart = Math.min(setup.size, poolSize);
+  const toStart = poolSize > 1 ? setup.size : poolSize;
 
   root.innerHTML = `
     <h1>Kviz</h1>
@@ -154,7 +154,7 @@ function renderSetup(root) {
 
 function startSession(opts) {
   const cd = courseData(ctx.courseId);
-  const picked = pickQuestions(filterPool(opts), opts.size, cd);
+  const picked = pickQuestions(filterPool(opts), opts.size, cd, ctx.course.chapterById, usable());
   if (!picked.length) return false;
   session = { opts, items: picked.map((q) => ({ q })), i: 0, finished: false };
   prepareItem();
@@ -313,7 +313,7 @@ function answer(root, input, correct, dontKnow = false) {
   item.input = input;
   item.dontKnow = dontKnow;
   item.scrollToFeedback = true;
-  applyAnswer(rec, { correct, mode: item.mode, seconds: item.seconds, date: item.date });
+  applyAnswer(rec, { correct, mode: item.mode, seconds: item.seconds, date: item.date, dual: isDual(item.q) });
   addToDay(ctx.courseId, { answered: 1, correct: correct ? 1 : 0, seconds: item.seconds });
   vibrate(settings().vibration, correct ? 30 : [60, 60, 60]);
   save();
@@ -325,7 +325,7 @@ function override(root) {
   const cd = courseData(ctx.courseId);
   const item = session.items[session.i];
   cd.questions[item.q.id] = JSON.parse(JSON.stringify(item.snapshot));
-  applyAnswer(cd.questions[item.q.id], { correct: true, mode: item.mode, seconds: item.seconds, date: item.date });
+  applyAnswer(cd.questions[item.q.id], { correct: true, mode: item.mode, seconds: item.seconds, date: item.date, dual: isDual(item.q) });
   addToDay(ctx.courseId, { correct: 1 });
   cd.overrides.push({ id: item.q.id, input: item.input, date: item.date });
   item.correct = true;
