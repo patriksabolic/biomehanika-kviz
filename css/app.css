@@ -191,7 +191,42 @@ code { font-size: 0.9em; background: var(--surface-2); padding: 1px 5px; border-
 
 .prompt { font-size: 1.2rem; font-weight: 600; margin: 8px 0 16px; }
 .blank { display: inline-block; min-width: 4em; border-bottom: 3px solid var(--primary); color: transparent; line-height: 1; }
-.qimg { display: block; max-width: 100%; height: auto; border-radius: 10px; margin: 0 0 16px; background: #fff; }
+/* Slike uvijek na bijeloj podlozi s malim rubom (i u tamnoj temi); dodir otvara zoom. */
+.qimg {
+  display: block; max-width: 100%; height: auto; margin: 0 0 16px;
+  background: #fff; padding: 6px; border: 1px solid var(--border); border-radius: 10px;
+  cursor: zoom-in;
+}
+.feedback .qimg { margin-top: 8px; }
+
+/* Slika preko cijelog zaslona (js/zoom.js) */
+body.zoom-open { overflow: hidden; }
+.zoom {
+  position: fixed; inset: 0; z-index: 100;
+  background: rgba(0, 0, 0, 0.92);
+  display: flex; align-items: center; justify-content: center;
+  touch-action: none; overflow: hidden;
+}
+.zoom-img {
+  max-width: calc(100vw - 16px); max-height: calc(100vh - 120px);
+  background: #fff; padding: 6px; border-radius: 8px;
+  transform-origin: center center; will-change: transform;
+  user-select: none; -webkit-user-drag: none; pointer-events: none;
+}
+.zoom-close {
+  position: absolute; top: calc(10px + env(safe-area-inset-top)); right: 10px;
+  width: 52px; height: 52px; border-radius: 50%; border: 0;
+  background: rgba(255, 255, 255, 0.16); color: #fff; font-size: 1.5rem; cursor: pointer;
+}
+.zoom-hint {
+  position: absolute; bottom: calc(12px + env(safe-area-inset-bottom)); left: 0; right: 0;
+  margin: 0; text-align: center; color: #cfd8e3; font-size: 0.9rem; pointer-events: none;
+}
+
+/* Formule (KaTeX) */
+.katex { font-size: 1.08em; }
+.katex-display { margin: 0.4em 0; overflow-x: auto; overflow-y: hidden; padding: 2px 0; }
+.opt-text .katex-display { margin: 0; }
 
 .options { display: flex; flex-direction: column; gap: 10px; margin-bottom: 12px; }
 .opt {

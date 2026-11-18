@@ -3,13 +3,14 @@
 import * as storage from './storage.js';
 import { esc, todayKey, plural } from './util.js';
 import { loadVersion } from './content.js';
+import { MINUTES, syncPlanWithSettings } from './plan.js';
 
 const MODES = [['auto', 'Automatski'], ['mc', 'Uvijek zaokruživanje'], ['fill', 'Uvijek nadopunjavanje']];
 const THEMES = [['system', 'Prati sustav'], ['dark', 'Tamna'], ['light', 'Svijetla']];
 const GOALS = [5, 10, 15, 20, 30];
 const DURATIONS = [15, 30, 45, 60];
 
-let ui = { pendingImport: null, confirmReset: false, confirmClear: false, msg: null, thrError: null };
+let ui = { pendingImport: null, confirmReset: false, confirmClear: false, msg: null, thrError: null, dateError: null };
 
 export function applyTheme() {
   const t = storage.settings().theme;
@@ -73,13 +74,14 @@ function download(name, text) {
   setTimeout(() => URL.revokeObjectURL(url), 1000);
 }
 
-export async function renderSettings(el, ctx) {
+export async function renderSettings(el, ctx, focus) {
   const st = storage.settings();
   const cd = storage.courseData(ctx.courseId);
   const cs = cd.settings; // postavke kolegija
-  const thr = cs.grading || ctx.course.grading;
-  const custom = !!cs.grading;
-  const dur = cs.examDuration || ctx.course.exam?.durationMin || 45;
+  const cfg = storage.examConfig(ctx.course); // korisnikove postavke ili zadano iz course.json
+  const thr = cfg.grading;
+  const custom = cfg.gradingCustom;
+  const dur = cfg.examDuration;
   const nRep = cd.reports.length + cd.overrides.length;
   const answeredTotal = Object.values(cd.questions).reduce((s, r) => s + (r.answered || 0), 0);
   const pend = ui.pendingImport;
@@ -97,6 +99,18 @@ export async function renderSettings(el, ctx) {
     ${ui.msg ? `<p class="notice ${ui.msg.bad ? 'bad' : ''}" role="status">${esc(ui.msg.text)}</p>` : ''}
     <h2 class="section-title">Kolegij: ${esc(ctx.course.name)}</h2>
     <p class="muted small">Ove postavke vrijede samo za ovaj kolegij. Drugi kolegij odaberi na Početnoj.</p>
+    <section class="card" id="exam-settings">
+      <h2>Ispit</h2>
+      <label class="field"><span>Datum ispita</span>
+        <input type="date" class="select" data-exam="examDate" min="${todayKey()}" value="${esc(cfg.examDate || '')}"></label>
+      ${ui.dateError ? `<p class="bad-text small">${esc(ui.dateError)}</p>` : ''}
+      ${cfg.examDate ? '' : '<p class="muted small">Datum još nije postavljen. Kviz i ispit rade i bez njega; plan učenja ga treba.</p>'}
+      <p class="field-label">Ciljana ocjena</p>
+      ${seg([2, 3, 4, 5], cfg.targetGrade, 'target')}
+      <p class="field-label">Minuta učenja dnevno</p>
+      ${seg(MINUTES, cfg.minutesPerDay, 'minutes')}
+      <p class="muted small">${cd.plan ? 'Promjena datuma ili minuta preračunava plan učenja.' : 'Koristi se pri izradi plana učenja.'}</p>
+    </section>
     <section class="card">
       <h2>Pragovi ocjena</h2>
       <p class="muted small">Minimalni postotak za ocjenu u ispitu${custom ? ' (prilagođeno)' : ' (zadano)'}.</p>
@@ -171,6 +185,21 @@ export async function renderSettings(el, ctx) {
     if (t.name === 'displayMode') { st.displayMode = t.value; storage.save(); }
     else if (t.name === 'theme') { st.theme = t.value; storage.save(); applyTheme(); }
     else if (t.dataset.set === 'vibration') { st.vibration = t.checked; storage.save(); }
+    else if (t.dataset.exam === 'examDate') {
+      const v = t.value;
+      if (!/^\d{4}-\d{2}-\d{2}$/.test(v) || v <= todayKey()) {
+        ui.dateError = 'Upiši datum ispita koji je nakon današnjeg dana.';
+      } else {
+        ui.dateError = null;
+        cs.examDate = v;
+        storage.save();
+        syncPlanWithSettings();
+        ui.msg = { text: 'Datum ispita spremljen.' };
+      }
+      const y = window.scrollY;
+      await rerender();
+      window.scrollTo(0, y);
+    }
     else if (t.dataset.act === 'import-file' && t.files?.[0]) {
       const file = t.files[0];
       try {
@@ -191,6 +220,8 @@ export async function renderSettings(el, ctx) {
     const act = t.dataset.act;
     ui.msg = null;
     if (t.dataset.goal) { cs.dailyGoal = Number(t.dataset.goal); storage.save(); }
+    else if (t.dataset.target) { cs.targetGrade = Number(t.dataset.target); storage.save(); syncPlanWithSettings(); }
+    else if (t.dataset.minutes) { cs.minutesPerDay = Number(t.dataset.minutes); storage.save(); syncPlanWithSettings(); }
     else if (t.dataset.dur) { cs.examDuration = Number(t.dataset.dur); storage.save(); }
     else if (act === 'thr-save') {
       const v = {};
@@ -200,7 +231,7 @@ export async function renderSettings(el, ctx) {
         ui.thrError = 'Pragovi moraju biti između 1 i 100 i rasti od ocjene 2 do 5.';
       } else {
         ui.thrError = null;
-        const def = ctx.course.grading;
+        const def = ctx.course.grading || storage.APP_DEFAULTS.grading;
         cs.grading = [2, 3, 4, 5].every((g) => v[g] === Number(def[g])) ? null : v;
         storage.save();
         ui.msg = { text: 'Pragovi spremljeni.' };
@@ -240,6 +271,8 @@ export async function renderSettings(el, ctx) {
     window.scrollTo(0, y);
   };
 
+  if (focus === 'exam') el.querySelector('#exam-settings')?.scrollIntoView({ block: 'start' });
+
   const v = await loadVersion();
   const vEl = el.querySelector('#version');
   if (v && vEl) vEl.textContent = `Verzija aplikacije ${v.version} · sadržaj ${v.content}`;
@@ -247,5 +280,5 @@ export async function renderSettings(el, ctx) {
 
 // Pri odlasku s ekrana zaboravi privremena stanja (potvrde, poruke).
 export function resetSettingsUi() {
-  ui = { pendingImport: null, confirmReset: false, confirmClear: false, msg: null, thrError: null };
+  ui = { pendingImport: null, confirmReset: false, confirmClear: false, msg: null, thrError: null, dateError: null };
 }

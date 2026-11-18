@@ -359,7 +359,7 @@
       "0,5-1 %",
       "50 %"
     ],
-    "explanation": "Kolagen je krut (E = 1–2 GPa), pa se elastično, tj. povratno, produlji samo 3–4 %. Do 8–10 % može se deformirati prije loma, ali iznad elastičnog područja deformacija više nije potpuno povratna.",
+    "explanation": "Kolagen je krut ($E = 1\\text{–}2\\,\\text{GPa}$), pa se elastično, tj. povratno, produlji samo 3–4 %. Do 8–10 % može se deformirati prije loma, ali iznad elastičnog područja deformacija više nije potpuno povratna.",
     "image": null,
     "explanation_image": null,
     "source": "4_Vezivno tkivo.pdf, slajd 9",
@@ -493,7 +493,7 @@
       "protofibril",
       "abduktin"
     ],
-    "explanation": "Kao što je tropokolagen osnovna jedinica kolagena, tropoelastin je osnovna jedinica elastina. Elastinska vlakna sastoje se od mikrofibrila i amorfne tvari, a molekule su umrežene, pa se elastin može jako rastegnuti i vratiti (E je samo oko 0,6 MPa).",
+    "explanation": "Kao što je tropokolagen osnovna jedinica kolagena, tropoelastin je osnovna jedinica elastina. Elastinska vlakna sastoje se od mikrofibrila i amorfne tvari, a molekule su umrežene, pa se elastin može jako rastegnuti i vratiti ($E$ je samo oko 0,6 MPa).",
     "image": null,
     "explanation_image": null,
     "source": "4_Vezivno tkivo.pdf, slajd 13",
@@ -519,7 +519,7 @@
       "kalcija",
       "lipida"
     ],
-    "explanation": "Prema predavanju, rastezljivost elastina ovisi o broju molekula vode. Elastin je gumasta, rastezljiva bjelančevina (E = 0,6 MPa), glavni sastojak elastičnih vlakana.",
+    "explanation": "Prema predavanju, rastezljivost elastina ovisi o broju molekula vode. Elastin je gumasta, rastezljiva bjelančevina ($E = 0{,}6\\,\\text{MPa}$), glavni sastojak elastičnih vlakana.",
     "image": null,
     "explanation_image": null,
     "source": "4_Vezivno tkivo.pdf, slajd 13",
@@ -560,7 +560,7 @@
     "chapter": "04",
     "type": "fill",
     "modes": ["mc", "fill"],
-    "prompt": "Vlačna čvrstoća abduktina (σmax) iznosi ___.",
+    "prompt": "Vlačna čvrstoća abduktina ($\\sigma_{max}$) iznosi ___.",
     "answer": "3 MPa",
     "accepted": [
       "3 MPa",
@@ -572,7 +572,7 @@
       "0,6 MPa",
       "100 MPa"
     ],
-    "explanation": "Abduktin je gusti amorfni gumasti polimer koji kod školjaka otvara školjku: kad je zatvorena on je deformiran i pohranjuje energiju. Vrlo je mekan (E = 1–4 MPa, G = 0,64 MPa) i puca pri oko 3 MPa – nekoliko stotina puta manje od kolagena (1 GPa), ali dovoljno za tu funkciju.",
+    "explanation": "Abduktin je gusti amorfni gumasti polimer koji kod školjaka otvara školjku: kad je zatvorena on je deformiran i pohranjuje energiju. Vrlo je mekan ($E = 1\\text{–}4\\,\\text{MPa}$, $G = 0{,}64\\,\\text{MPa}$) i puca pri oko 3 MPa – nekoliko stotina puta manje od kolagena (1 GPa), ali dovoljno za tu funkciju.",
     "image": null,
     "explanation_image": null,
     "source": "4_Vezivno tkivo.pdf, slajd 15",
@@ -677,7 +677,7 @@
       "približno 25 puta veći",
       "približno 2,5 puta veći"
     ],
-    "explanation": "Kolagen ima E = 1–2 GPa, a elastin 0,6 MPa. Omjer je 1000–2000 MPa / 0,6 MPa ≈ 1700–3300, tj. približno 2500 puta. Kolagen je krut i nosi vlačno opterećenje, a elastin je gumast i rastezljiv.",
+    "explanation": "Kolagen ima $E = 1\\text{–}2\\,\\text{GPa}$, a elastin 0,6 MPa. Omjer je $1000\\text{–}2000\\,\\text{MPa}/0{,}6\\,\\text{MPa} \\approx 1700\\text{–}3300$, tj. približno 2500 puta. Kolagen je krut i nosi vlačno opterećenje, a elastin je gumast i rastezljiv.",
     "image": null,
     "explanation_image": null,
     "source": "35_Bionika.pdf, slajd 35 (primjer ispitnog pitanja); 4_Vezivno tkivo.pdf, slajd 13; skripta.md – Potporno tkivo",

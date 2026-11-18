@@ -36,7 +36,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "U modelu je masa osobe m = 68 kg, pa je njezina težina G = ___.",
+    "prompt": "U modelu je masa osobe $m = 68\\,\\text{kg}$, pa je njezina težina $G =$ ___.",
     "answer": "667 N",
     "accepted": [
       "667 N",
@@ -48,7 +48,7 @@
       "1334 N",
       "777,5 N"
     ],
-    "explanation": "Težina je G = m·g = 68 kg · 9,81 m/s² ≈ 667 N. Pri mirnom stajanju na obje noge ta se težina dijeli na dva stopala.",
+    "explanation": "Težina je $G = m \\cdot g = 68\\,\\text{kg} \\cdot 9{,}81\\,\\text{m/s}^{2} \\approx 667\\,\\text{N}$. Pri mirnom stajanju na obje noge ta se težina dijeli na dva stopala.",
     "image": null,
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 3",
@@ -96,7 +96,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "U modelu stopala FS označava ___ silu podloge.",
+    "prompt": "U modelu stopala $F_S$ označava ___ silu podloge.",
     "answer": "reakcijsku",
     "accepted": [
       "reakcijsku",
@@ -109,7 +109,7 @@
       "trenja",
       "tlačnu"
     ],
-    "explanation": "FS je reakcija podloge koja djeluje prema gore na prednji dio stopala, na kraku a ispred zgloba. Prema trećem Newtonovu zakonu podloga djeluje na stopalo silom jednakom onoj kojom stopalo tlači podlogu.",
+    "explanation": "$F_S$ je reakcija podloge koja djeluje prema gore na prednji dio stopala, na kraku a ispred zgloba. Prema trećem Newtonovu zakonu podloga djeluje na stopalo silom jednakom onoj kojom stopalo tlači podlogu.",
     "image": "img/06-1.png",
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 3",
@@ -139,7 +139,7 @@
       "1,6 cm",
       "60 cm"
     ],
-    "explanation": "Krak a je udaljenost od zgloba (spoja tibije i talusa) do hvatišta reakcijske sile podloge i iznosi 20 cm. On je četiri puta dulji od kraka tetive b = 5 cm, zato je sila u tetivi četiri puta veća od FS.",
+    "explanation": "Krak a je udaljenost od zgloba (spoja tibije i talusa) do hvatišta reakcijske sile podloge i iznosi 20 cm. On je četiri puta dulji od kraka tetive $b = 5\\,\\text{cm}$, zato je sila u tetivi četiri puta veća od $F_S$.",
     "image": "img/06-1.png",
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 2 i 3",
@@ -170,7 +170,7 @@
       "1,6 cm",
       "10 cm"
     ],
-    "explanation": "Krak b je udaljenost od zgloba do pravca djelovanja sile u Ahilovoj tetivi i iznosi samo 5 cm. Mali krak znači da tetiva mora razviti veliku silu da uravnoteži moment reakcije podloge na kraku a = 20 cm.",
+    "explanation": "Krak b je udaljenost od zgloba do pravca djelovanja sile u Ahilovoj tetivi i iznosi samo 5 cm. Mali krak znači da tetiva mora razviti veliku silu da uravnoteži moment reakcije podloge na kraku $a = 20\\,\\text{cm}$.",
     "image": "img/06-1.png",
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 2 i 3",
@@ -188,8 +188,8 @@
       "mc",
       "fill"
     ],
-    "prompt": "Površina poprečnog presjeka Ahilove tetive u modelu iznosi A = ___.",
-    "answer": "1,6 cm²",
+    "prompt": "Površina poprečnog presjeka Ahilove tetive u modelu iznosi $A =$ ___.",
+    "answer": "$1{,}6\\,\\text{cm}^{2}$",
     "accepted": [
       "1,6 cm²",
       "1,6 cm2",
@@ -201,11 +201,11 @@
       "160 mm²"
     ],
     "distractors": [
-      "5 cm²",
-      "0,6 cm²",
-      "3,1 cm²"
+      "$5\\,\\text{cm}^{2}$",
+      "$0{,}6\\,\\text{cm}^{2}$",
+      "$3{,}1\\,\\text{cm}^{2}$"
     ],
-    "explanation": "Za izračun naprezanja uzima se A = 1,6 cm². Naprezanje je sila podijeljena s tom površinom, pa manja površina presjeka znači veće naprezanje za istu silu.",
+    "explanation": "Za izračun naprezanja uzima se $A = 1{,}6\\,\\text{cm}^{2}$. Naprezanje je sila podijeljena s tom površinom, pa manja površina presjeka znači veće naprezanje za istu silu.",
     "image": null,
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 3",
@@ -222,8 +222,8 @@
       "mc",
       "fill"
     ],
-    "prompt": "Pri mirnom stajanju na obje noge iz statičke ravnoteže reakcijska sila podloge na jedno stopalo je FS = ___.",
-    "answer": "G/2",
+    "prompt": "Pri mirnom stajanju na obje noge iz statičke ravnoteže reakcijska sila podloge na jedno stopalo je $F_S =$ ___.",
+    "answer": "$G/2$",
     "accepted": [
       "G/2",
       "G / 2",
@@ -232,11 +232,11 @@
       "333,5 N"
     ],
     "distractors": [
-      "G",
-      "2G",
-      "G/4"
+      "$G$",
+      "$2G$",
+      "$G/4$"
     ],
-    "explanation": "Osoba stoji na dva stopala pa svaka noga nosi polovicu težine: FS = G/2 ≈ 333,5 N. Zbroj reakcija obiju nogu tada je jednak ukupnoj težini, što je uvjet ravnoteže sila.",
+    "explanation": "Osoba stoji na dva stopala pa svaka noga nosi polovicu težine: $F_S = G/2 \\approx 333{,}5\\,\\text{N}$. Zbroj reakcija obiju nogu tada je jednak ukupnoj težini, što je uvjet ravnoteže sila.",
     "image": null,
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 3",
@@ -253,8 +253,8 @@
       "mc",
       "fill"
     ],
-    "prompt": "Momentna jednadžba ravnoteže oko gležnja glasi F·b = ___.",
-    "answer": "FS·a",
+    "prompt": "Momentna jednadžba ravnoteže oko gležnja glasi $F \\cdot b =$ ___.",
+    "answer": "$F_S \\cdot a$",
     "accepted": [
       "FS·a",
       "Fs·a",
@@ -266,11 +266,11 @@
       "a·Fs"
     ],
     "distractors": [
-      "FS·b",
-      "G·a",
-      "F·a"
+      "$F_S \\cdot b$",
+      "$G \\cdot a$",
+      "$F \\cdot a$"
     ],
-    "explanation": "Da stopalo miruje, moment sile u tetivi oko zgloba (F·b) mora biti jednak momentu reakcije podloge (FS·a). Odatle je F = FS·a/b, pa omjer krakova a/b = 4 izravno povećava silu u tetivi.",
+    "explanation": "Da stopalo miruje, moment sile u tetivi oko zgloba ($F \\cdot b$) mora biti jednak momentu reakcije podloge ($F_S \\cdot a$). Odatle je $F = F_S \\cdot a/b$, pa omjer krakova $a/b = 4$ izravno povećava silu u tetivi.",
     "image": "img/06-1.png",
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 3",
@@ -287,7 +287,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Kad je osoba spremna za skok, ali još miruje, sila u Ahilovoj tetivi iznosi F = ___.",
+    "prompt": "Kad je osoba spremna za skok, ali još miruje, sila u Ahilovoj tetivi iznosi $F =$ ___.",
     "answer": "1334 N",
     "accepted": [
       "1334 N",
@@ -299,7 +299,7 @@
       "2889,18 N",
       "777,5 N"
     ],
-    "explanation": "Iz F·b = FS·a slijedi F = (G/2)·a/b = 333,5 N · 20/5 = 1334 N. Sila u tetivi je dvostruko veća od cijele tjelesne težine, iako je stopalo samo u mirovanju – posljedica kratkog kraka tetive.",
+    "explanation": "Iz $F \\cdot b = F_S \\cdot a$ slijedi $F = (G/2) \\cdot a/b = 333{,}5\\,\\text{N} \\cdot 20/5 = 1334\\,\\text{N}$. Sila u tetivi je dvostruko veća od cijele tjelesne težine, iako je stopalo samo u mirovanju – posljedica kratkog kraka tetive.",
     "image": null,
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 3",
@@ -327,7 +327,7 @@
       "mala površina presjeka",
       "ubrzanje tijela"
     ],
-    "explanation": "Stopalo radi kao poluga: tetiva djeluje na kraku b = 5 cm, a reakcija podloge na kraku a = 20 cm. Iz ravnoteže momenata F = FS·a/b, pa je sila u tetivi četiri puta veća od reakcije jednog stopala (G/2). Površina presjeka utječe na naprezanje, ne na silu.",
+    "explanation": "Stopalo radi kao poluga: tetiva djeluje na kraku $b = 5\\,\\text{cm}$, a reakcija podloge na kraku $a = 20\\,\\text{cm}$. Iz ravnoteže momenata $F = F_S \\cdot a/b$, pa je sila u tetivi četiri puta veća od reakcije jednog stopala ($G/2$). Površina presjeka utječe na naprezanje, ne na silu.",
     "image": null,
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 3",
@@ -344,19 +344,19 @@
       "mc",
       "fill"
     ],
-    "prompt": "Vlačno naprezanje tetive računa se kao σ = ___.",
-    "answer": "F/A",
+    "prompt": "Vlačno naprezanje tetive računa se kao $\\sigma =$ ___.",
+    "answer": "$F/A$",
     "accepted": [
       "F/A",
       "F / A",
       "F:A"
     ],
     "distractors": [
-      "F·b/A",
-      "A/F",
-      "F·b"
+      "$F \\cdot b/A$",
+      "$A/F$",
+      "$F \\cdot b$"
     ],
-    "explanation": "Naprezanje je sila raspoređena po površini poprečnog presjeka: σ = F/A. Jedinica je N/m² = Pa (u primjeru N/cm², pa se pretvara u MPa); ista sila u tanjoj tetivi daje veće naprezanje.",
+    "explanation": "Naprezanje je sila raspoređena po površini poprečnog presjeka: $\\sigma = F/A$. Jedinica je $\\text{N/m}^{2} = \\text{Pa}$ (u primjeru $\\text{N/cm}^{2}$, pa se pretvara u MPa); ista sila u tanjoj tetivi daje veće naprezanje.",
     "image": null,
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 3",
@@ -373,7 +373,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Vlačno naprezanje Ahilove tetive kad osoba miruje spremna za skok iznosi σv = ___.",
+    "prompt": "Vlačno naprezanje Ahilove tetive kad osoba miruje spremna za skok iznosi $\\sigma_v =$ ___.",
     "answer": "8,34 MPa",
     "accepted": [
       "8,34 MPa",
@@ -389,7 +389,7 @@
       "56 MPa",
       "3,1 MPa"
     ],
-    "explanation": "σv = F/A = 1334 N / 1,6 cm² = 833,75 N/cm² = 8,34 MPa (1 N/cm² = 10⁴ Pa). To je daleko ispod dopuštenog naprezanja od 56 MPa, pa je stajanje za tetivu sigurno.",
+    "explanation": "$\\sigma_v = F/A = 1334\\,\\text{N} / 1{,}6\\,\\text{cm}^{2} = 833{,}75\\,\\text{N/cm}^{2} = 8{,}34\\,\\text{MPa}$ ($1\\,\\text{N/cm}^{2} = 10^{4}\\,\\text{Pa}$). To je daleko ispod dopuštenog naprezanja od 56 MPa, pa je stajanje za tetivu sigurno.",
     "image": null,
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 3",
@@ -448,7 +448,7 @@
       "elastičnu",
       "kemijsku"
     ],
-    "explanation": "Pri letu prema gore brzina težišta pada na nulu, a visina raste, pa vrijedi očuvanje energije mgh = mv²/2. Iz izmjerene visine skoka tako se može izračunati početna brzina.",
+    "explanation": "Pri letu prema gore brzina težišta pada na nulu, a visina raste, pa vrijedi očuvanje energije $mgh = mv^{2}/2$. Iz izmjerene visine skoka tako se može izračunati početna brzina.",
     "image": null,
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 4",
@@ -465,7 +465,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "U primjeru skoka visina skoka iznosi h = ___.",
+    "prompt": "U primjeru skoka visina skoka iznosi $h =$ ___.",
     "answer": "60 cm",
     "accepted": [
       "60 cm",
@@ -478,7 +478,7 @@
       "30 cm",
       "1 m"
     ],
-    "explanation": "Visina skoka težišta je 60 cm. Iz mgh = mv²/2 slijedi v = √(2gh) = √(2 · 9,81 · 0,6) ≈ 3,43 m/s – masa se krati, pa početna brzina ovisi samo o visini.",
+    "explanation": "Visina skoka težišta je 60 cm. Iz $mgh = mv^{2}/2$ slijedi $v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9{,}81 \\cdot 0{,}6} \\approx 3{,}43\\,\\text{m/s}$ – masa se krati, pa početna brzina ovisi samo o visini.",
     "image": null,
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 4",
@@ -495,7 +495,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Za skok visok 60 cm početna brzina težišta tijela iznosi v = ___.",
+    "prompt": "Za skok visok 60 cm početna brzina težišta tijela iznosi $v =$ ___.",
     "answer": "3,43 m/s",
     "accepted": [
       "3,43 m/s",
@@ -508,7 +508,7 @@
       "5,88 m/s",
       "1,72 m/s"
     ],
-    "explanation": "Iz mgh = mv²/2 dobiva se v = √(2gh) = √(2 · 9,81 m/s² · 0,6 m) ≈ 3,43 m/s. Tu brzinu tijelo mora imati u trenutku napuštanja podloge.",
+    "explanation": "Iz $mgh = mv^{2}/2$ dobiva se $v = \\sqrt{2gh} = \\sqrt{2 \\cdot 9{,}81\\,\\text{m/s}^{2} \\cdot 0{,}6\\,\\text{m}} \\approx 3{,}43\\,\\text{m/s}$. Tu brzinu tijelo mora imati u trenutku napuštanja podloge.",
     "image": null,
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 4",
@@ -537,7 +537,7 @@
       "potencijalnoj energiji",
       "težini"
     ],
-    "explanation": "Prema drugom Newtonovu zakonu u obliku impulsa, F·t = m·v: sila koja djeluje kroz vrijeme t mijenja količinu gibanja tijela iz nule u m·v. Tijekom odraza jedine vanjske sile su gravitacija i sila na stopalo.",
+    "explanation": "Prema drugom Newtonovu zakonu u obliku impulsa, $F \\cdot t = m \\cdot v$: sila koja djeluje kroz vrijeme t mijenja količinu gibanja tijela iz nule u $m \\cdot v$. Tijekom odraza jedine vanjske sile su gravitacija i sila na stopalo.",
     "image": null,
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 4",
@@ -554,7 +554,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Vrijeme od početka skoka do napuštanja podloge u primjeru iznosi t = ___.",
+    "prompt": "Vrijeme od početka skoka do napuštanja podloge u primjeru iznosi $t =$ ___.",
     "answer": "0,3 s",
     "accepted": [
       "0,3 s",
@@ -568,7 +568,7 @@
       "0,1 s",
       "3,1 s"
     ],
-    "explanation": "Odraz traje 0,3 s: osoba savije koljena, spusti težište i naglo se odrazi. Što je to vrijeme kraće, potrebna je veća sila Fs = m·v/t za istu brzinu odraza.",
+    "explanation": "Odraz traje 0,3 s: osoba savije koljena, spusti težište i naglo se odrazi. Što je to vrijeme kraće, potrebna je veća sila $F_s = m \\cdot v/t$ za istu brzinu odraza.",
     "image": null,
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 4",
@@ -585,7 +585,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Dodatna sila na stopala potrebna za skok u primjeru iznosi Fs = ___.",
+    "prompt": "Dodatna sila na stopala potrebna za skok u primjeru iznosi $F_s =$ ___.",
     "answer": "777,5 N",
     "accepted": [
       "777,5 N",
@@ -598,7 +598,7 @@
       "1334 N",
       "2889,18 N"
     ],
-    "explanation": "Iz Fs·t = m·v slijedi Fs = 68 kg · 3,43 m/s / 0,3 s ≈ 777,5 N. Ta sila dolazi povrh težine, pa na oba stopala zajedno djeluje mg + Fs.",
+    "explanation": "Iz $F_s \\cdot t = m \\cdot v$ slijedi $F_s = 68\\,\\text{kg} \\cdot 3{,}43\\,\\text{m/s} / 0{,}3\\,\\text{s} \\approx 777{,}5\\,\\text{N}$. Ta sila dolazi povrh težine, pa na oba stopala zajedno djeluje $mg + F_s$.",
     "image": null,
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 4",
@@ -617,7 +617,7 @@
       "fill"
     ],
     "prompt": "Ukupna sila koja pri skoku djeluje na svako stopalo iznosi ___.",
-    "answer": "(mg + Fs)/2",
+    "answer": "$(mg + F_s)/2$",
     "accepted": [
       "(mg + Fs)/2",
       "(mg+Fs)/2",
@@ -625,11 +625,11 @@
       "(G+Fs)/2"
     ],
     "distractors": [
-      "mg/2",
-      "mg + Fs",
-      "Fs/2"
+      "$mg/2$",
+      "$mg + F_s$",
+      "$F_s/2$"
     ],
-    "explanation": "Na oba stopala zajedno treba djelovati težina plus dodatna sila za ubrzanje, mg + Fs, a raspodijeljena je jednako na dvije noge. To je oko (667 + 777,5)/2 ≈ 722 N po stopalu, i ta sila ulazi u momentnu jednadžbu umjesto G/2.",
+    "explanation": "Na oba stopala zajedno treba djelovati težina plus dodatna sila za ubrzanje, $mg + F_s$, a raspodijeljena je jednako na dvije noge. To je oko $(667 + 777{,}5)/2 \\approx 722\\,\\text{N}$ po stopalu, i ta sila ulazi u momentnu jednadžbu umjesto $G/2$.",
     "image": null,
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 4",
@@ -646,7 +646,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Sila u Ahilovoj tetivi pri skoku iznosi F = ___.",
+    "prompt": "Sila u Ahilovoj tetivi pri skoku iznosi $F =$ ___.",
     "answer": "2889,18 N",
     "accepted": [
       "2889,18 N",
@@ -661,7 +661,7 @@
       "777,5 N",
       "1444,6 N"
     ],
-    "explanation": "Iz momentne jednadžbe F·b = a·(mg + Fs)/2 slijedi F = 4 · 722,3 N ≈ 2889 N. To je više od dvostruke sile pri mirovanju (1334 N) i oko 4,3 puta više od tjelesne težine.",
+    "explanation": "Iz momentne jednadžbe $F \\cdot b = a \\cdot (mg + F_s)/2$ slijedi $F = 4 \\cdot 722{,}3\\,\\text{N} \\approx 2889\\,\\text{N}$. To je više od dvostruke sile pri mirovanju (1334 N) i oko 4,3 puta više od tjelesne težine.",
     "image": null,
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 4",
@@ -679,7 +679,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Vlačno naprezanje Ahilove tetive pri skoku iznosi σv = ___.",
+    "prompt": "Vlačno naprezanje Ahilove tetive pri skoku iznosi $\\sigma_v =$ ___.",
     "answer": "18,05 MPa",
     "accepted": [
       "18,05 MPa",
@@ -694,7 +694,7 @@
       "56 MPa",
       "100 MPa"
     ],
-    "explanation": "σv = F/A = 2889,18 N / 1,6 cm² ≈ 1805 N/cm² = 18,05 MPa. Pri skoku je naprezanje više od dvostruko veće nego u mirovanju (8,34 MPa), ali još uvijek znatno ispod dopuštenog.",
+    "explanation": "$\\sigma_v = F/A = 2889{,}18\\,\\text{N} / 1{,}6\\,\\text{cm}^{2} \\approx 1805\\,\\text{N/cm}^{2} = 18{,}05\\,\\text{MPa}$. Pri skoku je naprezanje više od dvostruko veće nego u mirovanju (8,34 MPa), ali još uvijek znatno ispod dopuštenog.",
     "image": null,
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 4",
@@ -712,7 +712,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Dopušteno naprezanje Ahilove tetive u primjeru iznosi σdop = ___.",
+    "prompt": "Dopušteno naprezanje Ahilove tetive u primjeru iznosi $\\sigma_{dop} =$ ___.",
     "answer": "56 MPa",
     "accepted": [
       "56 MPa",
@@ -742,7 +742,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Faktor sigurnosti Ahilove tetive pri skoku iznosi S = ___.",
+    "prompt": "Faktor sigurnosti Ahilove tetive pri skoku iznosi $S =$ ___.",
     "answer": "3,1",
     "accepted": [
       "3,1",
@@ -754,7 +754,7 @@
       "6,7",
       "1,5"
     ],
-    "explanation": "Faktor sigurnosti je omjer dopuštenog i stvarnog naprezanja: S = σdop/σv = 56 MPa / 18,05 MPa ≈ 3,1. Tetiva bi dakle mogla podnijeti otprilike trostruko veće naprezanje od onoga pri skoku visine 60 cm.",
+    "explanation": "Faktor sigurnosti je omjer dopuštenog i stvarnog naprezanja: $S = \\sigma_{dop}/\\sigma_v = 56\\,\\text{MPa} / 18{,}05\\,\\text{MPa} \\approx 3{,}1$. Tetiva bi dakle mogla podnijeti otprilike trostruko veće naprezanje od onoga pri skoku visine 60 cm.",
     "image": null,
     "explanation_image": null,
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 4",

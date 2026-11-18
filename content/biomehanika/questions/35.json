@@ -700,7 +700,7 @@
       "0-80 V",
       "3,5-12 V"
     ],
-    "explanation": "Podaci za biomimetički mišić: membrana 100 × 130 × 0,2 mm, vrijeme odziva 0–80 ms, snaga 0,1 W/cm², gustoća struje 50–100 mA/cm², napon 0,1–3,5 V.",
+    "explanation": "Podaci za biomimetički mišić: membrana $100 \\cdot 130 \\cdot 0{,}2\\,\\text{mm}$, vrijeme odziva 0–80 ms, snaga $0{,}1\\,\\text{W/cm}^{2}$, gustoća struje $50\\text{–}100\\,\\text{mA/cm}^{2}$, napon 0,1–3,5 V.",
     "image": null,
     "explanation_image": null,
     "source": "35_Bionika.pdf, slajd 24",
@@ -730,7 +730,7 @@
       "1-2 s",
       "0,1-3,5 ms"
     ],
-    "explanation": "Biomimetički mišić reagira za 0–80 ms. Napon mu je 0,1–3,5 V, a gustoća struje 50–100 mA/cm².",
+    "explanation": "Biomimetički mišić reagira za 0–80 ms. Napon mu je 0,1–3,5 V, a gustoća struje $50\\text{–}100\\,\\text{mA/cm}^{2}$.",
     "image": null,
     "explanation_image": null,
     "source": "35_Bionika.pdf, slajd 24",
@@ -756,7 +756,7 @@
       "ostaje konstantan",
       "pada na nulu pri 50 % istezanja"
     ],
-    "explanation": "Pri σ = 20 MPa i ε = 50 % modul je E = 40 MPa, a pri σ = 1338 MPa i ε = 476 % E = 281,1 MPa. Nit postaje kruća što se više isteže.",
+    "explanation": "Pri $\\sigma = 20\\,\\text{MPa}$ i $\\varepsilon = 50\\,\\%$ modul je $E = 40\\,\\text{MPa}$, a pri $\\sigma = 1338\\,\\text{MPa}$ i $\\varepsilon = 476\\,\\%$ $E = 281{,}1\\,\\text{MPa}$. Nit postaje kruća što se više isteže.",
     "image": null,
     "explanation_image": null,
     "source": "35_Bionika.pdf, slajd 25",
@@ -774,7 +774,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "U statičkom vlačnom pokusu paukove niti pri istezanju ε = 476 % naprezanje iznosi σ = ___.",
+    "prompt": "U statičkom vlačnom pokusu paukove niti pri istezanju $\\varepsilon = 476\\,\\%$ naprezanje iznosi $\\sigma =$ ___.",
     "answer": "1338 MPa",
     "accepted": [
       "1338 MPa",
@@ -787,7 +787,7 @@
       "281,1 MPa",
       "20 MPa"
     ],
-    "explanation": "Pri ε = 476 % naprezanje je 1338 MPa, a modul 281,1 MPa. Paukova vlakna su vrlo elastična i imaju veću vlačnu čvrstoću od čelika – najžilaviji su poznati materijal.",
+    "explanation": "Pri $\\varepsilon = 476\\,\\%$ naprezanje je 1338 MPa, a modul 281,1 MPa. Paukova vlakna su vrlo elastična i imaju veću vlačnu čvrstoću od čelika – najžilaviji su poznati materijal.",
     "image": null,
     "explanation_image": null,
     "source": "35_Bionika.pdf, slajd 25",
@@ -865,7 +865,7 @@
       "pije samo rosu jezikom",
       "ne pije, vodu dobiva iz hrane"
     ],
-    "explanation": "Bodljikava agama upija vlagu kroz nogu, a kanali između ljusaka (saćasto polje s udubljenjima širine 25 μm) provode vodu do usta – prednost u pustinji.",
+    "explanation": "Bodljikava agama upija vlagu kroz nogu, a kanali između ljusaka (saćasto polje s udubljenjima širine $25\\,\\mu\\text{m}$) provode vodu do usta – prednost u pustinji.",
     "image": null,
     "explanation_image": null,
     "source": "35_Bionika.pdf, slajd 27",
@@ -891,7 +891,7 @@
       "podtlak u jastučićima",
       "kukice na prstima"
     ],
-    "explanation": "Stopala macaklina su suha i glatka; prianjanje ostvaruju vlakanca s lopatastim vršcima (gustoća 2·10⁹/cm², debljina 100 nm) koja s površinom djeluju van der Waalsovim silama.",
+    "explanation": "Stopala macaklina su suha i glatka; prianjanje ostvaruju vlakanca s lopatastim vršcima (gustoća $2 \\cdot 10^{9}/\\text{cm}^{2}$, debljina 100 nm) koja s površinom djeluju van der Waalsovim silama.",
     "image": null,
     "explanation_image": null,
     "source": "35_Bionika.pdf, slajd 29",
@@ -909,18 +909,18 @@
       "fill"
     ],
     "prompt": "Vlakanca na jastučićima prstiju macaklina debela su ___.",
-    "answer": "100 nm",
+    "answer": "$100\\,\\text{nm}$",
     "accepted": [
       "100 nm",
       "100",
       "100nm"
     ],
     "distractors": [
-      "30 μm",
-      "25 μm",
-      "9 μm"
+      "$30\\,\\mu\\text{m}$",
+      "$25\\,\\mu\\text{m}$",
+      "$9\\,\\mu\\text{m}$"
     ],
-    "explanation": "Vlakna su debela 100 nm, a gustoća im je 2·10⁹/cm². Robot Stickybot ima čekinje promjera 30 μm i masu 500 g.",
+    "explanation": "Vlakna su debela 100 nm, a gustoća im je $2 \\cdot 10^{9}/\\text{cm}^{2}$. Robot Stickybot ima čekinje promjera $30\\,\\mu\\text{m}$ i masu 500 g.",
     "image": null,
     "explanation_image": null,
     "source": "35_Bionika.pdf, slajd 29",
@@ -950,7 +950,7 @@
       "5 kg",
       "100 g"
     ],
-    "explanation": "Stickybot ima masu 500 g, a čekinje na prstima promjera 30 μm. Prsti prianjaju kad se guraju prema dolje, a otpuštaju kad se smjer preokrene.",
+    "explanation": "Stickybot ima masu 500 g, a čekinje na prstima promjera $30\\,\\mu\\text{m}$. Prsti prianjaju kad se guraju prema dolje, a otpuštaju kad se smjer preokrene.",
     "image": null,
     "explanation_image": null,
     "source": "35_Bionika.pdf, slajd 29",
@@ -1006,7 +1006,7 @@
       "0,07 mNmm",
       "200 mNmm"
     ],
-    "explanation": "Zupčanici skakavca: radijus zakrivljenosti 200 μm, debljina zuba 9 μm, visina zuba 15–30 μm; opterećeni su samo pri skoku, a prosječno prenose moment 0,7 mNmm.",
+    "explanation": "Zupčanici skakavca: radijus zakrivljenosti $200\\,\\mu\\text{m}$, debljina zuba $9\\,\\mu\\text{m}$, visina zuba $15\\text{–}30\\,\\mu\\text{m}$; opterećeni su samo pri skoku, a prosječno prenose moment 0,7 mNmm.",
     "image": null,
     "explanation_image": null,
     "source": "35_Bionika.pdf, slajd 32",

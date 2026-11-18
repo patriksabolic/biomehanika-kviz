@@ -1,0 +1,4 @@
+KaTeX 0.19.1 (MIT, vidi LICENSE)
+Izvor: https://github.com/KaTeX/KaTeX/releases/download/v0.19.1/katex.tar.gz (objavljeno 23.10.2026.)
+SHA-256 arhive: 751e29ffb0c5bc184f08692a0aa905ff86a59ced07f635a27e72a7b7bc53036c
+Kopirano: katex.min.js, katex.min.css, fonts/*.woff2, contrib/auto-render.min.js, contrib/mhchem.min.js

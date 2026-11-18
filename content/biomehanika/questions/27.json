@@ -831,7 +831,7 @@
       "u pulpi",
       "u alveolnoj kosti"
     ],
-    "explanation": "Pomaci su reda veličine µm; najveći su pri vrhu cakline, a pri kraju korijena su neprimjetni. Najveći pomak je pri hvatištu prve sile, najmanji pri hvatištu četvrte.",
+    "explanation": "Pomaci su reda veličine $\\mu\\text{m}$; najveći su pri vrhu cakline, a pri kraju korijena su neprimjetni. Najveći pomak je pri hvatištu prve sile, najmanji pri hvatištu četvrte.",
     "image": null,
     "explanation_image": null,
     "source": "27_Dentalna biomehanika.pdf, slajd 33",
@@ -1041,7 +1041,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Duljina zubnih implantata je l = 7–20 mm, a promjer d = ___.",
+    "prompt": "Duljina zubnih implantata je $l = 7\\text{–}20\\,\\text{mm}$, a promjer $d =$ ___.",
     "answer": "1,8-6 mm",
     "accepted": [
       "1,8-6 mm",

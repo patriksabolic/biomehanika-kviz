@@ -90,18 +90,18 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Kako se računa fiziološki presjek mišića Af (Vm – volumen mišića, Vv – volumen vezivnog i ostalog tkiva, lmf – duljina mišićnih vlakana)?",
-    "answer": "Af = (Vm − Vv)/lmf",
+    "prompt": "Kako se računa fiziološki presjek mišića $A_f$ ($V_m$ – volumen mišića, $V_v$ – volumen vezivnog i ostalog tkiva, $l_{mf}$ – duljina mišićnih vlakana)?",
+    "answer": "$A_f = (V_m - V_v)/l_{mf}$",
     "accepted": [
       "Af = (Vm − Vv)/lmf",
       "Af = (Vm - Vv)/lmf"
     ],
     "distractors": [
-      "Af = (Vm + Vv)/lmf",
-      "Af = lmf/(Vm − Vv)",
-      "Af = (Vm − Vv)·lmf"
+      "$A_f = (V_m + V_v)/l_{mf}$",
+      "$A_f = l_{mf}/(V_m - V_v)$",
+      "$A_f = (V_m - V_v) \\cdot l_{mf}$"
     ],
-    "explanation": "Silu razvijaju samo mišićna vlakna, pa se od ukupnog volumena mišića Vm oduzme volumen vezivnog i ostalog tkiva Vv. Taj „aktivni” volumen podijeljen s duljinom vlakana lmf daje površinu (volumen/duljina = površina), tj. fiziološki presjek Af = (Vm − Vv)/lmf.",
+    "explanation": "Silu razvijaju samo mišićna vlakna, pa se od ukupnog volumena mišića $V_m$ oduzme volumen vezivnog i ostalog tkiva $V_v$. Taj „aktivni” volumen podijeljen s duljinom vlakana $l_{mf}$ daje površinu (volumen/duljina = površina), tj. fiziološki presjek $A_f = (V_m - V_v)/l_{mf}$.",
     "image": null,
     "explanation_image": null,
     "source": "19_Procjena misicne sile.pdf, slajd 2",
@@ -118,7 +118,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "U formuli za fiziološki presjek mišića Af = (Vm − Vv)/lmf veličina lmf označava duljinu mišićnih ___.",
+    "prompt": "U formuli za fiziološki presjek mišića $A_f = (V_m - V_v)/l_{mf}$ veličina $l_{mf}$ označava duljinu mišićnih ___.",
     "answer": "vlakana",
     "accepted": [
       "vlakana",
@@ -130,7 +130,7 @@
       "sarkomera",
       "miofilamenata"
     ],
-    "explanation": "Fiziološki presjek računa se kao volumen mišićnog tkiva podijeljen s duljinom mišićnih vlakana lmf. Dijeljenjem s duljinom vlakana dobiva se presjek okomit na vlakna, a on određuje koliko vlakana vuče istodobno – dakle koliku silu mišić može razviti.",
+    "explanation": "Fiziološki presjek računa se kao volumen mišićnog tkiva podijeljen s duljinom mišićnih vlakana $l_{mf}$. Dijeljenjem s duljinom vlakana dobiva se presjek okomit na vlakna, a on određuje koliko vlakana vuče istodobno – dakle koliku silu mišić može razviti.",
     "image": null,
     "explanation_image": null,
     "source": "19_Procjena misicne sile.pdf, slajd 2",
@@ -189,7 +189,7 @@
       "duljine",
       "napetosti"
     ],
-    "explanation": "Mišić pri kontrakciji dio kemijske energije pretvara u toplinu, a dio u rad. Hill je precizno mjerio toplinu koju mišić oslobađa i iz energijske bilance (U = A + S + W) izveo vezu između sile i brzine kontrakcije.",
+    "explanation": "Mišić pri kontrakciji dio kemijske energije pretvara u toplinu, a dio u rad. Hill je precizno mjerio toplinu koju mišić oslobađa i iz energijske bilance ($U = A + S + W$) izveo vezu između sile i brzine kontrakcije.",
     "image": null,
     "explanation_image": null,
     "source": "19_Procjena misicne sile.pdf, slajd 4",
@@ -206,7 +206,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "U Hillovu pokusu mišić ___ bio je učvršćen hvataljkama na duljinu l0 i električki stimuliran.",
+    "prompt": "U Hillovu pokusu mišić ___ bio je učvršćen hvataljkama na duljinu $l_0$ i električki stimuliran.",
     "answer": "žabe",
     "accepted": [
       "žabe",
@@ -218,7 +218,7 @@
       "zeca",
       "mačke"
     ],
-    "explanation": "Mišić žabe učvršćen je hvataljkama na duljinu l0, pa je električna stimulacija izazvala izometričku kontrakciju u kojoj se razvija vlačna sila F0. Nakon otpuštanja hvataljki mišić se kontrahira brzinom v na duljinu l (v = l/t).",
+    "explanation": "Mišić žabe učvršćen je hvataljkama na duljinu $l_0$, pa je električna stimulacija izazvala izometričku kontrakciju u kojoj se razvija vlačna sila $F_0$. Nakon otpuštanja hvataljki mišić se kontrahira brzinom v na duljinu l ($v = l/t$).",
     "image": null,
     "explanation_image": null,
     "source": "19_Procjena misicne sile.pdf, slajd 4",
@@ -235,7 +235,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Dok je mišić u Hillovu pokusu učvršćen hvataljkama, električna stimulacija izaziva ___ kontrakciju, a u mišiću se razvija vlačna sila F0.",
+    "prompt": "Dok je mišić u Hillovu pokusu učvršćen hvataljkama, električna stimulacija izaziva ___ kontrakciju, a u mišiću se razvija vlačna sila $F_0$.",
     "answer": "izometričku",
     "accepted": [
       "izometričku",
@@ -248,7 +248,7 @@
       "ekscentričnu",
       "koncentričnu"
     ],
-    "explanation": "Hvataljke drže mišić na stalnoj duljini l0, pa se on ne može skratiti – raste samo njegova napetost. To je izometrička kontrakcija, a najveća vlačna sila koja se tada razvije označava se F0 i ulazi u Hillovu jednadžbu kao konstanta.",
+    "explanation": "Hvataljke drže mišić na stalnoj duljini $l_0$, pa se on ne može skratiti – raste samo njegova napetost. To je izometrička kontrakcija, a najveća vlačna sila koja se tada razvije označava se $F_0$ i ulazi u Hillovu jednadžbu kao konstanta.",
     "image": null,
     "explanation_image": null,
     "source": "19_Procjena misicne sile.pdf, slajd 4",
@@ -265,7 +265,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Kod izometričke kontrakcije ukupna oslobođena energija U jednaka je ___ (U = A).",
+    "prompt": "Kod izometričke kontrakcije ukupna oslobođena energija U jednaka je ___ ($U = A$).",
     "answer": "aktivacijskoj toplini",
     "accepted": [
       "aktivacijskoj toplini",
@@ -279,7 +279,7 @@
       "učinjenom radu",
       "elastičnoj energiji"
     ],
-    "explanation": "Pri izometričkoj kontrakciji mišić se ne skraćuje, pa nema topline skraćenja (S = 0) ni mehaničkog rada (W = 0). Sva oslobođena energija tada je aktivacijska toplina A, koja se oslobađa samim održavanjem aktivnog stanja mišića.",
+    "explanation": "Pri izometričkoj kontrakciji mišić se ne skraćuje, pa nema topline skraćenja ($S = 0$) ni mehaničkog rada ($W = 0$). Sva oslobođena energija tada je aktivacijska toplina A, koja se oslobađa samim održavanjem aktivnog stanja mišića.",
     "image": null,
     "explanation_image": null,
     "source": "19_Procjena misicne sile.pdf, slajd 4",
@@ -296,7 +296,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Kada mišić kontrahira, ukupna energija je U = A + S + ___.",
+    "prompt": "Kada mišić kontrahira, ukupna energija je $U = A + S +$ ___.",
     "answer": "W",
     "accepted": [
       "W",
@@ -309,7 +309,7 @@
       "v",
       "b"
     ],
-    "explanation": "Kad se mišić skraćuje, uz aktivacijsku toplinu A oslobađa se dodatna energija: toplina skraćenja S i učinjeni rad W. Zato je U = A + S + W; kod izometričke kontrakcije S i W nestaju pa ostaje U = A.",
+    "explanation": "Kad se mišić skraćuje, uz aktivacijsku toplinu A oslobađa se dodatna energija: toplina skraćenja S i učinjeni rad W. Zato je $U = A + S + W$; kod izometričke kontrakcije S i W nestaju pa ostaje $U = A$.",
     "image": null,
     "explanation_image": null,
     "source": "19_Procjena misicne sile.pdf, slajd 4",
@@ -326,7 +326,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "U energijskoj jednadžbi mišića U = A + S + W veličina S označava ___.",
+    "prompt": "U energijskoj jednadžbi mišića $U = A + S + W$ veličina S označava ___.",
     "answer": "toplinu skraćenja",
     "accepted": [
       "toplinu skraćenja",
@@ -339,7 +339,7 @@
       "silu mišića",
       "učinjeni rad"
     ],
-    "explanation": "S je dodatna toplina koja se oslobađa samo kad se mišić stvarno skraćuje – što se brže skraćuje, to je više ima (S = a·v). Nije isto što i aktivacijska toplina A, koja se oslobađa i bez skraćenja. Pazi: u Castiglianovu pristupu isto slovo S označava silu mišića.",
+    "explanation": "S je dodatna toplina koja se oslobađa samo kad se mišić stvarno skraćuje – što se brže skraćuje, to je više ima ($S = a \\cdot v$). Nije isto što i aktivacijska toplina A, koja se oslobađa i bez skraćenja. Pazi: u Castiglianovu pristupu isto slovo S označava silu mišića.",
     "image": null,
     "explanation_image": null,
     "source": "19_Procjena misicne sile.pdf, slajd 4",
@@ -357,8 +357,8 @@
       "mc",
       "fill"
     ],
-    "prompt": "U izvodu Hillove jednadžbe toplina skraćenja je S = a·v, a učinjeni rad je W = ___.",
-    "answer": "F·v",
+    "prompt": "U izvodu Hillove jednadžbe toplina skraćenja je $S = a \\cdot v$, a učinjeni rad je $W =$ ___.",
+    "answer": "$F \\cdot v$",
     "accepted": [
       "F·v",
       "Fv",
@@ -367,11 +367,11 @@
       "v·F"
     ],
     "distractors": [
-      "a·v",
-      "b·F",
-      "F/v"
+      "$a \\cdot v$",
+      "$b \\cdot F$",
+      "$F/v$"
     ],
-    "explanation": "Mehanički rad u jedinici vremena jednak je sili pomnoženoj s brzinom, pa je W = F·v. Uvrštavanjem S = a·v i W = F·v u S + W = b(F0 − F) dobiva se av + Fv = b(F0 − F), iz čega se sređivanjem dobiva Hillova jednadžba.",
+    "explanation": "Mehanički rad u jedinici vremena jednak je sili pomnoženoj s brzinom, pa je $W = F \\cdot v$. Uvrštavanjem $S = a \\cdot v$ i $W = F \\cdot v$ u $S + W = b(F_0 - F)$ dobiva se $av + Fv = b(F_0 - F)$, iz čega se sređivanjem dobiva Hillova jednadžba.",
     "image": null,
     "explanation_image": null,
     "source": "19_Procjena misicne sile.pdf, slajd 5",
@@ -388,17 +388,17 @@
       "mc"
     ],
     "prompt": "Kako glasi Hillova jednadžba?",
-    "answer": "(a + F)(v + b) = b(F0 + a)",
+    "answer": "$(a + F)(v + b) = b(F_0 + a)$",
     "accepted": [
       "(a + F)(v + b) = b(F0 + a)",
       "(a+F)(v+b)=b(F0+a)"
     ],
     "distractors": [
-      "(a + F)(v + b) = a(F0 + b)",
-      "(a + v)(F + b) = b(F0 + a)",
-      "(a − F)(v − b) = b(F0 − a)"
+      "$(a + F)(v + b) = a(F_0 + b)$",
+      "$(a + v)(F + b) = b(F_0 + a)$",
+      "$(a - F)(v - b) = b(F_0 - a)$"
     ],
-    "explanation": "Hillova jednadžba (a + F)(v + b) = b(F0 + a) dobiva se sređivanjem av + Fv = b(F0 − F). To je hiperbola: pri F = F0 brzina je v = 0, a što je sila manja, to je brzina kontrakcije veća. F je sila u mišiću, v brzina kontrakcije, a a, b i F0 su konstante.",
+    "explanation": "Hillova jednadžba $(a + F)(v + b) = b(F_0 + a)$ dobiva se sređivanjem $av + Fv = b(F_0 - F)$. To je hiperbola: pri $F = F_0$ brzina je $v = 0$, a što je sila manja, to je brzina kontrakcije veća. F je sila u mišiću, v brzina kontrakcije, a a, b i $F_0$ su konstante.",
     "image": null,
     "explanation_image": null,
     "source": "19_Procjena misicne sile.pdf, slajd 5",
@@ -415,7 +415,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Konstante a, b i F0 u Hillovoj jednadžbi ovise o početnoj duljini mišića l0, ___ itd.",
+    "prompt": "Konstante a, b i $F_0$ u Hillovoj jednadžbi ovise o početnoj duljini mišića $l_0$, ___ itd.",
     "answer": "temperaturi",
     "accepted": [
       "temperaturi",
@@ -426,7 +426,7 @@
       "sili u mišiću",
       "učinjenom radu"
     ],
-    "explanation": "a, b i F0 opisuju stanje mišića, a ne trenutačno gibanje: ovise o tome na koju je duljinu l0 mišić postavljen i na kojoj temperaturi radi. Brzina v i sila F su varijable koje se mijenjaju po Hillovoj krivulji, pa konstante o njima ne ovise.",
+    "explanation": "a, b i $F_0$ opisuju stanje mišića, a ne trenutačno gibanje: ovise o tome na koju je duljinu $l_0$ mišić postavljen i na kojoj temperaturi radi. Brzina v i sila F su varijable koje se mijenjaju po Hillovoj krivulji, pa konstante o njima ne ovise.",
     "image": null,
     "explanation_image": null,
     "source": "19_Procjena misicne sile.pdf, slajd 5",
@@ -558,18 +558,18 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Koji izraz daje dio kemijske energije koju mišići troše za mehanički rad u fazi održavanja pokreta (S – sila u mišiću, L – početna duljina mišića, A – površina presjeka mišića, C1 – konstanta)?",
-    "answer": "U = Σ S²·L/(C1·A)",
+    "prompt": "Koji izraz daje dio kemijske energije koju mišići troše za mehanički rad u fazi održavanja pokreta (S – sila u mišiću, L – početna duljina mišića, A – površina presjeka mišića, $C_1$ – konstanta)?",
+    "answer": "$U = \\sum S^{2} \\cdot L/(C_1 \\cdot A)$",
     "accepted": [
       "U = Σ S²·L/(C1·A)",
       "U = ΣS²L/(C1A)"
     ],
     "distractors": [
-      "U = Σ S·L/(C1·A²)",
-      "U = Σ C1·A/(S²·L)",
-      "U = Σ S²·A/(C1·L)"
+      "$U = \\sum S \\cdot L/(C_1 \\cdot A^{2})$",
+      "$U = \\sum C_1 \\cdot A/(S^{2} \\cdot L)$",
+      "$U = \\sum S^{2} \\cdot A/(C_1 \\cdot L)$"
     ],
-    "explanation": "Energija raste s kvadratom sile S i s duljinom mišića L, a pada s površinom presjeka A: deblji mišić istu silu ostvaruje uz manje naprezanje pa troši manje energije. Zbraja se po svim mišićima, U = Σ S²·L/(C1·A), gdje je C1 konstanta.",
+    "explanation": "Energija raste s kvadratom sile S i s duljinom mišića L, a pada s površinom presjeka A: deblji mišić istu silu ostvaruje uz manje naprezanje pa troši manje energije. Zbraja se po svim mišićima, $U = \\sum S^{2} \\cdot L/(C_1 \\cdot A)$, gdje je $C_1$ konstanta.",
     "image": null,
     "explanation_image": null,
     "source": "19_Procjena misicne sile.pdf, slajd 7",
@@ -586,7 +586,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "U izrazu C = P/V (P – snaga, V – volumen mišića) veličina C naziva se ___.",
+    "prompt": "U izrazu $C = P/V$ (P – snaga, V – volumen mišića) veličina C naziva se ___.",
     "answer": "modul snage",
     "accepted": [
       "modul snage"
@@ -596,7 +596,7 @@
       "koeficijent korisnog djelovanja",
       "konstanta prigušenja"
     ],
-    "explanation": "Modul snage C govori koliku snagu razvija svaki kubni metar mišića, jer je C = P/V. Što je mišić većeg volumena, to uz isti modul snage može razviti veću snagu.",
+    "explanation": "Modul snage C govori koliku snagu razvija svaki kubni metar mišića, jer je $C = P/V$. Što je mišić većeg volumena, to uz isti modul snage može razviti veću snagu.",
     "image": null,
     "explanation_image": null,
     "source": "19_Procjena misicne sile.pdf, slajd 8",
@@ -613,7 +613,7 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Što u fazi održavanja statičke ravnoteže označava η u izrazu η = S/(C·Af·t)?",
+    "prompt": "Što u fazi održavanja statičke ravnoteže označava $\\eta$ u izrazu $\\eta = S/(C \\cdot A_f \\cdot t)$?",
     "answer": "koeficijent korisnog djelovanja",
     "accepted": [
       "koeficijent korisnog djelovanja",
@@ -624,7 +624,7 @@
       "modul snage",
       "produljenje sarkomere"
     ],
-    "explanation": "η = S/(C·Af·t) je koeficijent korisnog djelovanja: sila mišića S podijeljena s modulom snage C, fiziološkim presjekom Af i vremenom kontrakcije t. Isto slovo η u Maxwellovu modelu označava viskoznost, a ηs u Hillovu trokomponentnom modelu produljenje sarkomere – treba paziti na kontekst.",
+    "explanation": "$\\eta = S/(C \\cdot A_f \\cdot t)$ je koeficijent korisnog djelovanja: sila mišića S podijeljena s modulom snage C, fiziološkim presjekom $A_f$ i vremenom kontrakcije t. Isto slovo $\\eta$ u Maxwellovu modelu označava viskoznost, a $\\eta_s$ u Hillovu trokomponentnom modelu produljenje sarkomere – treba paziti na kontekst.",
     "image": null,
     "explanation_image": null,
     "source": "19_Procjena misicne sile.pdf, slajd 8",
@@ -641,18 +641,18 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Utrošak energije u mišiću je Uc = S·η·l·t. Što se dobije za Uc kad se uvrsti η = S/(C·Af·t)?",
-    "answer": "Uc = S²·l/(C·Af)",
+    "prompt": "Utrošak energije u mišiću je $U_c = S \\cdot \\eta \\cdot l \\cdot t$. Što se dobije za $U_c$ kad se uvrsti $\\eta = S/(C \\cdot A_f \\cdot t)$?",
+    "answer": "$U_c = S^{2} \\cdot l/(C \\cdot A_f)$",
     "accepted": [
       "Uc = S²·l/(C·Af)",
       "Uc = S²l/(CAf)"
     ],
     "distractors": [
-      "Uc = S·l/(C·Af)",
-      "Uc = S²·l·t²/(C·Af)",
-      "Uc = C·Af/(S²·l)"
+      "$U_c = S \\cdot l/(C \\cdot A_f)$",
+      "$U_c = S^{2} \\cdot l \\cdot t^{2}/(C \\cdot A_f)$",
+      "$U_c = C \\cdot A_f/(S^{2} \\cdot l)$"
     ],
-    "explanation": "Uvrštavanjem: Uc = S·[S/(C·Af·t)]·l·t = S²·l/(C·Af), jer se vrijeme t skrati. Zbrojem po svim mišićima dobiva se Uc = Σ S²·L/(C·Af) – kemijska energija koja se pretvara u toplinu ili mehanički oblik energije. Utrošak dakle raste s kvadratom mišićne sile.",
+    "explanation": "Uvrštavanjem: $U_c = S \\cdot [S/(C \\cdot A_f \\cdot t)] \\cdot l \\cdot t = S^{2} \\cdot l/(C \\cdot A_f)$, jer se vrijeme t skrati. Zbrojem po svim mišićima dobiva se $U_c = \\sum S^{2} \\cdot L/(C \\cdot A_f)$ – kemijska energija koja se pretvara u toplinu ili mehanički oblik energije. Utrošak dakle raste s kvadratom mišićne sile.",
     "image": null,
     "explanation_image": null,
     "source": "19_Procjena misicne sile.pdf, slajd 8 i 9",
@@ -699,17 +699,17 @@
       "mc"
     ],
     "prompt": "Koji je dopunski uvjet kojim se rješava statički neodređen zadatak procjene mišićnih sila?",
-    "answer": "∂Uc/∂Si = 0",
+    "answer": "$\\partial U_c/\\partial S_i = 0$",
     "accepted": [
       "∂Uc/∂Si = 0",
       "dUc/dSi = 0"
     ],
     "distractors": [
-      "∂Uc/∂t = 0",
-      "Uc = 0",
-      "∂Si/∂t = 0"
+      "$\\partial U_c/\\partial t = 0$",
+      "$U_c = 0$",
+      "$\\partial S_i/\\partial t = 0$"
     ],
-    "explanation": "Prema principu minimuma energije mišićne sile se raspodijele tako da ukupni utrošak energije Uc bude najmanji. Minimum funkcije nalazi se tamo gdje su derivacije jednake nuli, pa se za svaku mišićnu silu Si postavlja ∂Uc/∂Si = 0. Tako se dobivaju jednadžbe koje nedostaju uz 6 uvjeta ravnoteže.",
+    "explanation": "Prema principu minimuma energije mišićne sile se raspodijele tako da ukupni utrošak energije $U_c$ bude najmanji. Minimum funkcije nalazi se tamo gdje su derivacije jednake nuli, pa se za svaku mišićnu silu $S_i$ postavlja $\\partial U_c/\\partial S_i = 0$. Tako se dobivaju jednadžbe koje nedostaju uz 6 uvjeta ravnoteže.",
     "image": null,
     "explanation_image": null,
     "source": "19_Procjena misicne sile.pdf, slajd 9",

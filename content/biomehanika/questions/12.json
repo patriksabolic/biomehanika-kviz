@@ -72,7 +72,7 @@
       "fill"
     ],
     "prompt": "Hrskavične stanice u obliku diska imaju promjer ___.",
-    "answer": "10–40 µm",
+    "answer": "$10\\text{–}40\\,\\mu\\text{m}$",
     "accepted": [
       "10–40 µm",
       "10-40 µm",
@@ -84,11 +84,11 @@
       "10-40 um"
     ],
     "distractors": [
-      "1–4 µm",
-      "100–400 µm",
-      "50–80 µm"
+      "$1\\text{–}4\\,\\mu\\text{m}$",
+      "$100\\text{–}400\\,\\mu\\text{m}$",
+      "$50\\text{–}80\\,\\mu\\text{m}$"
     ],
-    "explanation": "Hondrociti su jajastog i okruglog oblika ili u obliku diska promjera 10–40 µm (mikrometara). Čine samo 0,4–13 % volumena hrskavice, a mehanička svojstva hrskavice ovise o međustaničnoj tvari.",
+    "explanation": "Hondrociti su jajastog i okruglog oblika ili u obliku diska promjera $10\\text{–}40\\,\\mu\\text{m}$ (mikrometara). Čine samo 0,4–13 % volumena hrskavice, a mehanička svojstva hrskavice ovise o međustaničnoj tvari.",
     "image": null,
     "explanation_image": null,
     "source": "12_Hrskavica.pdf, slajd 2",
@@ -222,7 +222,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Vlačna čvrstoća rebrene hrskavice kod osoba mlađih od 20 godina je σmax = ___ (uz εmax = 30 %).",
+    "prompt": "Vlačna čvrstoća rebrene hrskavice kod osoba mlađih od 20 godina je $\\sigma_{max} =$ ___ (uz $\\varepsilon_{max} = 30\\,\\%$).",
     "answer": "4,6 MPa",
     "accepted": [
       "4,6 MPa",
@@ -235,7 +235,7 @@
       "12 MPa",
       "7 MPa"
     ],
-    "explanation": "Rebrena hrskavica starenjem postaje kruća i slabija: vlačna čvrstoća pada s 4,6 MPa (εmax = 30 %) prije 20. godine na 1,5 MPa (εmax = 10 %) nakon 60. godine. I čvrstoća i najveća deformacija se smanjuju, tj. hrskavica postaje krhkija.",
+    "explanation": "Rebrena hrskavica starenjem postaje kruća i slabija: vlačna čvrstoća pada s 4,6 MPa ($\\varepsilon_{max} = 30\\,\\%$) prije 20. godine na 1,5 MPa ($\\varepsilon_{max} = 10\\,\\%$) nakon 60. godine. I čvrstoća i najveća deformacija se smanjuju, tj. hrskavica postaje krhkija.",
     "image": null,
     "explanation_image": null,
     "source": "12_Hrskavica.pdf, slajd 4",
@@ -252,7 +252,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Vlačna čvrstoća rebrene hrskavice nakon 60. godine je σmax = ___ (uz εmax = 10 %).",
+    "prompt": "Vlačna čvrstoća rebrene hrskavice nakon 60. godine je $\\sigma_{max} =$ ___ (uz $\\varepsilon_{max} = 10\\,\\%$).",
     "answer": "1,5 MPa",
     "accepted": [
       "1,5 MPa",
@@ -283,7 +283,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Tlačna čvrstoća rebrene hrskavice kod osoba mlađih od 20 godina je σmax = ___ (uz εmax = 17 %).",
+    "prompt": "Tlačna čvrstoća rebrene hrskavice kod osoba mlađih od 20 godina je $\\sigma_{max} =$ ___ (uz $\\varepsilon_{max} = 17\\,\\%$).",
     "answer": "12 MPa",
     "accepted": [
       "12 MPa",
@@ -295,7 +295,7 @@
       "4,6 MPa",
       "11 MPa"
     ],
-    "explanation": "U tlaku je rebrena hrskavica znatno čvršća nego u vlaku: kod mlađih od 20 godina tlačna čvrstoća je 12 MPa (εmax = 17 %), a vlačna 4,6 MPa. Nakon 60. godine tlačna čvrstoća pada na 7 MPa (εmax = 13 %).",
+    "explanation": "U tlaku je rebrena hrskavica znatno čvršća nego u vlaku: kod mlađih od 20 godina tlačna čvrstoća je 12 MPa ($\\varepsilon_{max} = 17\\,\\%$), a vlačna 4,6 MPa. Nakon 60. godine tlačna čvrstoća pada na 7 MPa ($\\varepsilon_{max} = 13\\,\\%$).",
     "image": null,
     "explanation_image": null,
     "source": "12_Hrskavica.pdf, slajd 4",
@@ -313,7 +313,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Tlačna čvrstoća rebrene hrskavice nakon 60. godine je σmax = ___ (uz εmax = 13 %).",
+    "prompt": "Tlačna čvrstoća rebrene hrskavice nakon 60. godine je $\\sigma_{max} =$ ___ (uz $\\varepsilon_{max} = 13\\,\\%$).",
     "answer": "7 MPa",
     "accepted": [
       "7 MPa",
@@ -384,7 +384,7 @@
       "ne mijenja",
       "udvostručuje"
     ],
-    "explanation": "Naprezanje je sila podijeljena s površinom (σ = F/A). Kad se hrskavica pod opterećenjem malo deformira, zglobna tijela se dodiruju na većoj površini, pa ista sila daje manje naprezanje. Uz to viskoelastičnost omogućuje apsorbiranje i prigušenje udarnih opterećenja.",
+    "explanation": "Naprezanje je sila podijeljena s površinom ($\\sigma = F/A$). Kad se hrskavica pod opterećenjem malo deformira, zglobna tijela se dodiruju na većoj površini, pa ista sila daje manje naprezanje. Uz to viskoelastičnost omogućuje apsorbiranje i prigušenje udarnih opterećenja.",
     "image": null,
     "explanation_image": null,
     "source": "12_Hrskavica.pdf, slajd 5",
@@ -431,7 +431,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Kod artritisa koeficijent trenja u zglobovima raste na μ = ___.",
+    "prompt": "Kod artritisa koeficijent trenja u zglobovima raste na $\\mu =$ ___.",
     "answer": "0,01–0,09",
     "accepted": [
       "0,01–0,09",
@@ -685,7 +685,7 @@
       "1,5 MPa",
       "20 MPa"
     ],
-    "explanation": "Tlačna čvrstoća diskova u lumbalnom (11 MPa) i vratnom području (10,6 MPa) gotovo je jednaka, iako se najveće sile jako razlikuju (15000 N prema 3000 N). Kako je čvrstoća sila po površini (σ = F/A), iz toga slijedi da lumbalni diskovi imaju veću površinu presjeka.",
+    "explanation": "Tlačna čvrstoća diskova u lumbalnom (11 MPa) i vratnom području (10,6 MPa) gotovo je jednaka, iako se najveće sile jako razlikuju (15000 N prema 3000 N). Kako je čvrstoća sila po površini ($\\sigma = F/A$), iz toga slijedi da lumbalni diskovi imaju veću površinu presjeka.",
     "image": null,
     "explanation_image": null,
     "source": "12_Hrskavica.pdf, slajd 10",

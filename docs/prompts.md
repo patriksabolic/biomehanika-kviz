@@ -16,7 +16,7 @@ Pročitaj CLAUDE.md, docs/app-spec.md i docs/courses/<id>.md. Pripremamo kolegij
 
 1. U content/source/<id>/pdf/ su prezentacije, u content/source/<id>/primjeri/ primjeri ispitnih pitanja. Ako nazivi PDF-ova ne počinju brojem poglavlja, predloži mi preimenovanje (ne mijenjaj ih sam). Zatim pokreni python tools/extract_pdf.py --course <id> (treba pymupdf – ako nije instaliran, reci mi točnu naredbu i pričekaj).
 2. Pregledaj izvučeni tekst i primjere i predloži poglavlja (id 01, 02 …, naslov prema PDF-u) i 6–12 područja. Pričekaj moj OK.
-3. Upiši poglavlja i područja u content/<id>/course.json (prefiks ID-a ostaje kakav jest). Pitaj me za datum ispita, ciljanu ocjenu, pragove i trajanje ispita ako ih nema u materijalu.
+3. Upiši poglavlja i područja u content/<id>/course.json (prefiks ID-a ostaje kakav jest). Datum ispita, ciljanu ocjenu, minute dnevno, pragove i trajanje postavljam ja u aplikaciji; u course.json ih upiši samo kao neobavezne zadane vrijednosti ako su poznati.
 4. Dopuni docs/courses/<id>.md: osnovni podaci, popis izvora, područja i poglavlja, redoslijed generiranja (prioritet prema zastupljenosti u primjerima ispitnih pitanja) i odluke.
 5. python tools/validate.py, podigni verziju, commit. Push tek uz moj OK.
 
@@ -32,7 +32,7 @@ Pročitaj CLAUDE.md, odjeljke 4 i 16 u docs/app-spec.md i docs/courses/<id>.md. 
 ## Generiranje pitanja za poglavlja
 
 ```
-Pročitaj CLAUDE.md, odjeljak 16 u docs/app-spec.md i docs/courses/<id>.md. Generiraj pitanja za poglavlja XX, YY i ZZ kolegija <id> iz content/source/<id>/text/ (i ostalih izvora navedenih u docs/courses/<id>.md) u content/<id>/questions/<nn>.json. Pokrij sve brojeve, formule, definicije i podjele iz tih poglavlja. Gdje je slika bitna (dijagram, građa, strukturna formula), kopiraj je iz content/source/<id>/img-raw/ u content/<id>/img/ (max 1200 px širine) i referenciraj. Nove datoteke upiši u questionFiles (course.json) i u CONTENT u sw.js. Pokreni python tools/validate.py --course <id> i ispiši broj pitanja po poglavlju. Nejasnoće u materijalu upiši u odluke u docs/courses/<id>.md. Podigni verziju u version.json i sw.js i napravi commit.
+Pročitaj CLAUDE.md, odjeljke 4 i 16 u docs/app-spec.md (i pravila zapisa formula: $...$, \ce{...}) i docs/courses/<id>.md. Generiraj pitanja za poglavlja XX, YY i ZZ kolegija <id> iz content/source/<id>/text/ (i ostalih izvora navedenih u docs/courses/<id>.md) u content/<id>/questions/<nn>.json. Pokrij sve brojeve, formule, definicije i podjele iz tih poglavlja. Gdje je slika bitna (dijagram, građa, strukturna formula), kopiraj je iz content/source/<id>/img-raw/ u content/<id>/img/ (max 1200 px širine) i referenciraj. Nove datoteke upiši u questionFiles (course.json) i u CONTENT u sw.js. Pokreni python tools/validate.py --course <id> i ispiši broj pitanja po poglavlju. Nejasnoće u materijalu upiši u odluke u docs/courses/<id>.md. Podigni verziju u version.json i sw.js i napravi commit.
 ```
 
 Redoslijed poglavlja za pojedini kolegij je u `docs/courses/<id>.md` (odjeljak "Redoslijed generiranja").

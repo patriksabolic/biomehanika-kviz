@@ -7,7 +7,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Bjeloočnica promjera 23 mm aproksimira se kuglom polumjera R_B = ___.",
+    "prompt": "Bjeloočnica promjera 23 mm aproksimira se kuglom polumjera $R_B =$ ___.",
     "answer": "11,5 mm",
     "accepted": [
       "11,5 mm",
@@ -20,7 +20,7 @@
       "5,75 mm",
       "4,7 mm"
     ],
-    "explanation": "Za kuglu vrijedi r1 = r2 = R_B, a polumjer je pola promjera: 23 mm / 2 = 11,5 mm. Taj polumjer ulazi u izraz za membransko naprezanje.",
+    "explanation": "Za kuglu vrijedi $r_1 = r_2 = R_B$, a polumjer je pola promjera: $23\\,\\text{mm}/2 = 11{,}5\\,\\text{mm}$. Taj polumjer ulazi u izraz za membransko naprezanje.",
     "image": null,
     "explanation_image": null,
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 1; 23_Biomehanika ovojnice oka.pdf, slajd 18",
@@ -37,17 +37,17 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Kolike su membranske sile (meridijalna S1 i cirkularna S2) u bjeloočnici aproksimiranoj kuglom?",
-    "answer": "S1 = S2 = p·R_B/2",
+    "prompt": "Kolike su membranske sile (meridijalna $S_1$ i cirkularna $S_2$) u bjeloočnici aproksimiranoj kuglom?",
+    "answer": "$S_1 = S_2 = p \\cdot R_B/2$",
     "accepted": [
       "S1 = S2 = p·R_B/2"
     ],
     "distractors": [
-      "S1 = S2 = p·R_B",
-      "S1 = S2 = 2·p·R_B",
-      "S1 = S2 = p/(2·R_B)"
+      "$S_1 = S_2 = p \\cdot R_B$",
+      "$S_1 = S_2 = 2 \\cdot p \\cdot R_B$",
+      "$S_1 = S_2 = p/(2 \\cdot R_B)$"
     ],
-    "explanation": "Polazi se od jednadžbe ljuske S1/r1 + S2/r2 = p. Za kuglu je r1 = r2 = R_B i S1 = S2, pa je 2·S/R_B = p, tj. S = p·R_B/2 (sila po jedinici duljine).",
+    "explanation": "Polazi se od jednadžbe ljuske $S_1/r_1 + S_2/r_2 = p$. Za kuglu je $r_1 = r_2 = R_B$ i $S_1 = S_2$, pa je $2 \\cdot S/R_B = p$, tj. $S = p \\cdot R_B/2$ (sila po jedinici duljine).",
     "image": null,
     "explanation_image": null,
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 1; 23_Biomehanika ovojnice oka.pdf, slajd 19",
@@ -64,7 +64,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "U izrazu za membransko naprezanje bjeloočnice σ = p·R_B/(2·δ) veličina δ označava ___.",
+    "prompt": "U izrazu za membransko naprezanje bjeloočnice $\\sigma = p \\cdot R_B/(2 \\cdot \\delta)$ veličina $\\delta$ označava ___.",
     "answer": "debljinu stijenke",
     "accepted": [
       "debljinu stijenke",
@@ -78,7 +78,7 @@
       "intraokularni tlak",
       "polumjer prstena"
     ],
-    "explanation": "Membranska sila p·R_B/2 raspoređena je po debljini stijenke δ, pa je naprezanje σ = p·R_B/(2·δ). Što je stijenka tanja, naprezanje je veće.",
+    "explanation": "Membranska sila $p \\cdot R_B/2$ raspoređena je po debljini stijenke $\\delta$, pa je naprezanje $\\sigma = p \\cdot R_B/(2 \\cdot \\delta)$. Što je stijenka tanja, naprezanje je veće.",
     "image": null,
     "explanation_image": null,
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 1; 23_Biomehanika ovojnice oka.pdf, slajd 20",
@@ -106,7 +106,7 @@
       "zbog tlaka koji preuzimaju žilnica i mrežnica",
       "zbog jednakih vanjskog i unutarnjeg tlaka"
     ],
-    "explanation": "Kod kugle su oba polumjera zakrivljenosti jednaka (r1 = r2 = R_B), pa su meridijalna i cirkularna sila jednake. Kao os ljuske može se odabrati bilo koji pravac, pa je naprezanje jednako u smjeru svih meridijana i paralela.",
+    "explanation": "Kod kugle su oba polumjera zakrivljenosti jednaka ($r_1 = r_2 = R_B$), pa su meridijalna i cirkularna sila jednake. Kao os ljuske može se odabrati bilo koji pravac, pa je naprezanje jednako u smjeru svih meridijana i paralela.",
     "image": null,
     "explanation_image": null,
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 1",
@@ -152,7 +152,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Vanjski intraorbitalni tlak koji djeluje na bjeloočnicu (napetost tkiva očne šupljine, tonus očnih mišića, pritisak vjeđa) iznosi p2 = ___.",
+    "prompt": "Vanjski intraorbitalni tlak koji djeluje na bjeloočnicu (napetost tkiva očne šupljine, tonus očnih mišića, pritisak vjeđa) iznosi $p_2 =$ ___.",
     "answer": "0,67 kPa",
     "accepted": [
       "0,67 kPa",
@@ -212,7 +212,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Suprakoroidalni tlak koji iznutra djeluje na bjeloočnicu iznosi p_s = p − 0,26 kPa = ___.",
+    "prompt": "Suprakoroidalni tlak koji iznutra djeluje na bjeloočnicu iznosi $p_s = p - 0{,}26\\,\\text{kPa} =$ ___.",
     "answer": "2,41 kPa",
     "accepted": [
       "2,41 kPa",
@@ -225,7 +225,7 @@
       "2,00 kPa",
       "1,74 kPa"
     ],
-    "explanation": "Od intraokularnog tlaka u staklastom tijelu (2,67 kPa) oduzima se dio koji preuzimaju žilnica i mrežnica (0,26 kPa): p_s = 2,67 − 0,26 = 2,41 kPa.",
+    "explanation": "Od intraokularnog tlaka u staklastom tijelu (2,67 kPa) oduzima se dio koji preuzimaju žilnica i mrežnica (0,26 kPa): $p_s = 2{,}67 - 0{,}26 = 2{,}41\\,\\text{kPa}$.",
     "image": null,
     "explanation_image": null,
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 1",
@@ -242,17 +242,17 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Kako glasi izraz za membransko naprezanje u bjeloočnici kad se uzmu u obzir suprakoroidalni tlak p_s i vanjski intraorbitalni tlak p2?",
-    "answer": "σ = (p_s − p2)·R_B/(2·δ)",
+    "prompt": "Kako glasi izraz za membransko naprezanje u bjeloočnici kad se uzmu u obzir suprakoroidalni tlak $p_s$ i vanjski intraorbitalni tlak $p_2$?",
+    "answer": "$\\sigma = (p_s - p_2) \\cdot R_B/(2 \\cdot \\delta)$",
     "accepted": [
       "σ = (p_s − p2)·R_B/(2·δ)"
     ],
     "distractors": [
-      "σ = (p_s + p2)·R_B/(2·δ)",
-      "σ = (p_s − p2)·R_B/δ",
-      "σ = (p_s − p2)·2·δ/R_B"
+      "$\\sigma = (p_s + p_2) \\cdot R_B/(2 \\cdot \\delta)$",
+      "$\\sigma = (p_s - p_2) \\cdot R_B/\\delta$",
+      "$\\sigma = (p_s - p_2) \\cdot 2 \\cdot \\delta/R_B$"
     ],
-    "explanation": "Stijenku opterećuje razlika tlakova s unutarnje i vanjske strane, pa se u σ = p·R_B/(2·δ) umjesto p uvrštava p_s − p2. Uz p_s = 2,41 kPa i p2 = 0,67 kPa razlika iznosi 1,74 kPa.",
+    "explanation": "Stijenku opterećuje razlika tlakova s unutarnje i vanjske strane, pa se u $\\sigma = p \\cdot R_B/(2 \\cdot \\delta)$ umjesto $p$ uvrštava $p_s - p_2$. Uz $p_s = 2{,}41\\,\\text{kPa}$ i $p_2 = 0{,}67\\,\\text{kPa}$ razlika iznosi 1,74 kPa.",
     "image": null,
     "explanation_image": null,
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 1",
@@ -279,7 +279,7 @@
       "na ekvatoru",
       "na limbusu"
     ],
-    "explanation": "Naprezanje σ = (p_s − p2)·R_B/(2·δ) obrnuto je proporcionalno debljini stijenke δ. Bjeloočnica je najtanja na hvatištu vanjskih očnih mišića (0,3 mm), pa je ondje naprezanje najveće; najmanje je straga uz očni živac, gdje je najdeblja.",
+    "explanation": "Naprezanje $\\sigma = (p_s - p_2) \\cdot R_B/(2 \\cdot \\delta)$ obrnuto je proporcionalno debljini stijenke $\\delta$. Bjeloočnica je najtanja na hvatištu vanjskih očnih mišića (0,3 mm), pa je ondje naprezanje najveće; najmanje je straga uz očni živac, gdje je najdeblja.",
     "image": null,
     "explanation_image": null,
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 1; 23_Biomehanika ovojnice oka.pdf, slajd 21",
@@ -296,7 +296,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Membransko naprezanje bjeloočnice na hvatištu očnih mišića (δ = 0,3 mm) iznosi σ_hvat = ___.",
+    "prompt": "Membransko naprezanje bjeloočnice na hvatištu očnih mišića ($\\delta = 0{,}3\\,\\text{mm}$) iznosi $\\sigma_{hvat} =$ ___.",
     "answer": "0,03335 MPa",
     "accepted": [
       "0,03335 MPa",
@@ -312,7 +312,7 @@
       "0,0667 MPa",
       "0,3335 MPa"
     ],
-    "explanation": "σ_hvat = (2410·10⁻⁶ − 670·10⁻⁶)·11,5/(2·0,3) = 1,74·10⁻³·11,5/0,6 ≈ 0,03335 N/mm² (MPa). To je najveće naprezanje u bjeloočnici jer je stijenka ondje najtanja.",
+    "explanation": "$\\sigma_{hvat} = (2410 \\cdot 10^{-6} - 670 \\cdot 10^{-6}) \\cdot 11{,}5/(2 \\cdot 0{,}3) = 1{,}74 \\cdot 10^{-3} \\cdot 11{,}5/0{,}6 \\approx 0{,}03335\\,\\text{N/mm}^{2}$ (MPa). To je najveće naprezanje u bjeloočnici jer je stijenka ondje najtanja.",
     "image": null,
     "explanation_image": null,
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 2; 23_Biomehanika ovojnice oka.pdf, slajd 21",
@@ -330,7 +330,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Membransko naprezanje bjeloočnice na stražnjem dijelu (δ = 1 mm) iznosi σ_str = ___.",
+    "prompt": "Membransko naprezanje bjeloočnice na stražnjem dijelu ($\\delta = 1\\,\\text{mm}$) iznosi $\\sigma_{str} =$ ___.",
     "answer": "0,010005 MPa",
     "accepted": [
       "0,010005 MPa",
@@ -348,7 +348,7 @@
       "0,0201 MPa",
       "0,0010005 MPa"
     ],
-    "explanation": "σ_str = (2410·10⁻⁶ − 670·10⁻⁶)·11,5/(2·1) = 0,02001/2 ≈ 0,010005 N/mm² (MPa). To je najmanje naprezanje, oko 3,3 puta manje nego na hvatištu mišića, jer je stijenka 3,3 puta deblja. (Na slajdu 21 prezentacije piše 0,01005 MPa, ali ponovljeni račun daje 0,010005.)",
+    "explanation": "$\\sigma_{str} = (2410 \\cdot 10^{-6} - 670 \\cdot 10^{-6}) \\cdot 11{,}5/(2 \\cdot 1) = 0{,}02001/2 \\approx 0{,}010005\\,\\text{N/mm}^{2}$ (MPa). To je najmanje naprezanje, oko 3,3 puta manje nego na hvatištu mišića, jer je stijenka 3,3 puta deblja. (Na slajdu 21 prezentacije piše 0,01005 MPa, ali ponovljeni račun daje 0,010005.)",
     "image": null,
     "explanation_image": null,
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 2; 23_Biomehanika ovojnice oka.pdf, slajd 21",
@@ -394,17 +394,17 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Koliko iznosi membranska sila u rožnici N^R (R_R je polumjer rožnice)?",
-    "answer": "N^R = p·R_R/2",
+    "prompt": "Koliko iznosi membranska sila u rožnici $N^{R}$ ($R_R$ je polumjer rožnice)?",
+    "answer": "$N^{R} = p \\cdot R_R/2$",
     "accepted": [
       "N^R = p·R_R/2"
     ],
     "distractors": [
-      "N^R = p·R_B/2",
-      "N^R = p·R_R",
-      "N^R = p·R_R/(2·δ)"
+      "$N^{R} = p \\cdot R_B/2$",
+      "$N^{R} = p \\cdot R_R$",
+      "$N^{R} = p \\cdot R_R/(2 \\cdot \\delta)$"
     ],
-    "explanation": "Rožnica je također dio kugle, samo manjeg polumjera R_R, pa za nju vrijedi isti izraz kao za bjeloočnicu: N^R = p·R_R/2, a za bjeloočnicu N^B = p·R_B/2. Zbog različitih polumjera te se sile na limbusu razlikuju.",
+    "explanation": "Rožnica je također dio kugle, samo manjeg polumjera $R_R$, pa za nju vrijedi isti izraz kao za bjeloočnicu: $N^{R} = p \\cdot R_R/2$, a za bjeloočnicu $N^{B} = p \\cdot R_B/2$. Zbog različitih polumjera te se sile na limbusu razlikuju.",
     "image": null,
     "explanation_image": null,
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 2",
@@ -420,18 +420,18 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Koliko iznosi radijalno opterećenje prstena N_r na spoju bjeloočnice i rožnice?",
-    "answer": "N_r = (p/2)·e",
+    "prompt": "Koliko iznosi radijalno opterećenje prstena $N_r$ na spoju bjeloočnice i rožnice?",
+    "answer": "$N_r = (p/2) \\cdot e$",
     "accepted": [
       "N_r = (p/2)·e",
       "N_r = p·e/2"
     ],
     "distractors": [
-      "N_r = p·e",
-      "N_r = (p/2)·r_p",
-      "N_r = 2·p·e"
+      "$N_r = p \\cdot e$",
+      "$N_r = (p/2) \\cdot r_p$",
+      "$N_r = 2 \\cdot p \\cdot e$"
     ],
-    "explanation": "Iz ravnoteže −N^B·cosβ + N^R·cosα + N_r = 0 dobiva se N_r = (p/2)·(R_B·cosβ − R_R·cosα). Izraz u zagradi je razlika projekcija polumjera na uzdužnu os oka, e, pa je N_r = (p/2)·e.",
+    "explanation": "Iz ravnoteže $-N^{B} \\cdot \\cos\\beta + N^{R} \\cdot \\cos\\alpha + N_r = 0$ dobiva se $N_r = (p/2) \\cdot (R_B \\cdot \\cos\\beta - R_R \\cdot \\cos\\alpha)$. Izraz u zagradi je razlika projekcija polumjera na uzdužnu os oka, $e$, pa je $N_r = (p/2) \\cdot e$.",
     "image": null,
     "explanation_image": null,
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 2; 23_Biomehanika ovojnice oka.pdf, slajd 24",
@@ -447,8 +447,8 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Što u izrazu N_r = (p/2)·e predstavlja veličina e?",
-    "answer": "razliku projekcija polumjera R_B i R_R",
+    "prompt": "Što u izrazu $N_r = (p/2) \\cdot e$ predstavlja veličina $e$?",
+    "answer": "razliku projekcija polumjera $R_B$ i $R_R$",
     "accepted": [
       "razliku projekcija polumjera R_B i R_R"
     ],
@@ -457,7 +457,7 @@
       "debljinu limbusa",
       "razliku promjera rožnice i bjeloočnice"
     ],
-    "explanation": "e je razlika projekcija polumjera bjeloočnice R_B i rožnice R_R na uzdužnoj osi oka, tj. razmak središta dviju kugli. Kod odraslih iznosi prosječno 4,7 mm.",
+    "explanation": "$e$ je razlika projekcija polumjera bjeloočnice $R_B$ i rožnice $R_R$ na uzdužnoj osi oka, tj. razmak središta dviju kugli. Kod odraslih iznosi prosječno 4,7 mm.",
     "image": null,
     "explanation_image": null,
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 2",
@@ -474,7 +474,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Veličina e (razlika projekcija polumjera R_B i R_R na uzdužnoj osi oka) kod odraslih prosječno iznosi ___.",
+    "prompt": "Veličina $e$ (razlika projekcija polumjera $R_B$ i $R_R$ na uzdužnoj osi oka) kod odraslih prosječno iznosi ___.",
     "answer": "4,7 mm",
     "accepted": [
       "4,7 mm",
@@ -487,7 +487,7 @@
       "11,5 mm",
       "2 mm"
     ],
-    "explanation": "Središta kugle rožnice i kugle bjeloočnice razmaknuta su na uzdužnoj osi oka prosječno 4,7 mm. Ta se vrijednost uvrštava u N_r = (p/2)·e i u silu u prstenu.",
+    "explanation": "Središta kugle rožnice i kugle bjeloočnice razmaknuta su na uzdužnoj osi oka prosječno 4,7 mm. Ta se vrijednost uvrštava u $N_r = (p/2) \\cdot e$ i u silu u prstenu.",
     "image": null,
     "explanation_image": null,
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 3; 23_Biomehanika ovojnice oka.pdf, slajd 6 i 25",
@@ -503,17 +503,17 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Kako glasi izraz za silu u prstenu F_p (p – intraokularni tlak, e – razlika projekcija polumjera, r_p – polumjer prstena)?",
-    "answer": "F_p = p·e·r_p/2",
+    "prompt": "Kako glasi izraz za silu u prstenu $F_p$ ($p$ – intraokularni tlak, $e$ – razlika projekcija polumjera, $r_p$ – polumjer prstena)?",
+    "answer": "$F_p = p \\cdot e \\cdot r_p/2$",
     "accepted": [
       "F_p = p·e·r_p/2"
     ],
     "distractors": [
-      "F_p = p·e·r_p",
-      "F_p = p·e/(2·r_p)",
-      "F_p = 2·p·e·r_p"
+      "$F_p = p \\cdot e \\cdot r_p$",
+      "$F_p = p \\cdot e/(2 \\cdot r_p)$",
+      "$F_p = 2 \\cdot p \\cdot e \\cdot r_p$"
     ],
-    "explanation": "Sila se dobiva integriranjem radijalnog opterećenja po polovici prstena: 2F_p = ∫ N_r·r_p·sinθ dθ od 0 do π. Integral sinθ od 0 do π iznosi 2, pa je 2F_p = (p/2)·e·r_p·2, odnosno F_p = p·e·r_p/2.",
+    "explanation": "Sila se dobiva integriranjem radijalnog opterećenja po polovici prstena: $2F_p = \\int N_r \\cdot r_p \\cdot \\sin\\theta \\, d\\theta$ od 0 do $\\pi$. Integral $\\sin\\theta$ od 0 do $\\pi$ iznosi 2, pa je $2F_p = (p/2) \\cdot e \\cdot r_p \\cdot 2$, odnosno $F_p = p \\cdot e \\cdot r_p/2$.",
     "image": null,
     "explanation_image": null,
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 3; 23_Biomehanika ovojnice oka.pdf, slajd 24 i 25",
@@ -530,7 +530,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Polumjer funkcionalnog prstena na spoju rožnice i bjeloočnice iznosi r_p = ___.",
+    "prompt": "Polumjer funkcionalnog prstena na spoju rožnice i bjeloočnice iznosi $r_p =$ ___.",
     "answer": "5,75 mm",
     "accepted": [
       "5,75 mm",
@@ -543,7 +543,7 @@
       "11,5 mm",
       "2,875 mm"
     ],
-    "explanation": "U proračunu sile u prstenu uzima se polumjer prstena r_p = 5,75 mm (polovica vrijednosti 11,5 mm). Uvrštava se u F_p = p·e·r_p/2.",
+    "explanation": "U proračunu sile u prstenu uzima se polumjer prstena $r_p = 5{,}75\\,\\text{mm}$ (polovica vrijednosti 11,5 mm). Uvrštava se u $F_p = p \\cdot e \\cdot r_p/2$.",
     "image": null,
     "explanation_image": null,
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 3; 23_Biomehanika ovojnice oka.pdf, slajd 25",
@@ -560,7 +560,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Za p = 2,67 kPa, e = 4,7 mm i r_p = 5,75 mm sila u prstenu iznosi F_p = ___.",
+    "prompt": "Za $p = 2{,}67\\,\\text{kPa}$, $e = 4{,}7\\,\\text{mm}$ i $r_p = 5{,}75\\,\\text{mm}$ sila u prstenu iznosi $F_p =$ ___.",
     "answer": "0,036078 N",
     "accepted": [
       "0,036078 N",
@@ -575,7 +575,7 @@
       "0,018039 N",
       "0,36078 N"
     ],
-    "explanation": "F_p = p·e·r_p/2 = 2,67·10⁻³ N/mm² · 4,7 mm · 5,75 mm / 2 ≈ 0,036078 N. Sila je vrlo mala, ali upravo toliko prsten mora nositi da bi se održala promjena zakrivljenosti na limbusu.",
+    "explanation": "$F_p = p \\cdot e \\cdot r_p/2 = 2{,}67 \\cdot 10^{-3}\\,\\text{N/mm}^{2} \\cdot 4{,}7\\,\\text{mm} \\cdot 5{,}75\\,\\text{mm}/2 \\approx 0{,}036078\\,\\text{N}$. Sila je vrlo mala, ali upravo toliko prsten mora nositi da bi se održala promjena zakrivljenosti na limbusu.",
     "image": null,
     "explanation_image": null,
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 3; 23_Biomehanika ovojnice oka.pdf, slajd 25",
@@ -593,7 +593,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Da bi sila izašla u njutnima kad su duljine u mm, intraokularni tlak 2,67 kPa uvrštava se kao ___ N/mm².",
+    "prompt": "Da bi sila izašla u njutnima kad su duljine u mm, intraokularni tlak 2,67 kPa uvrštava se kao ___ $\\text{N/mm}^{2}$.",
     "answer": "0,00267",
     "accepted": [
       "0,00267",
@@ -608,7 +608,7 @@
       "2670",
       "0,267"
     ],
-    "explanation": "1 kPa = 1000 N/m², a 1 m² = 10⁶ mm², pa je 1 kPa = 10⁻³ N/mm². Zato se u primjerima uvrštava 2,67·10⁻³ N/mm² (odnosno 2410·10⁻⁶ i 670·10⁻⁶ N/mm²), a rezultat naprezanja dobiva se u N/mm² = MPa.",
+    "explanation": "$1\\,\\text{kPa} = 1000\\,\\text{N/m}^{2}$, a $1\\,\\text{m}^{2} = 10^{6}\\,\\text{mm}^{2}$, pa je $1\\,\\text{kPa} = 10^{-3}\\,\\text{N/mm}^{2}$. Zato se u primjerima uvrštava $2{,}67 \\cdot 10^{-3}\\,\\text{N/mm}^{2}$ (odnosno $2410 \\cdot 10^{-6}$ i $670 \\cdot 10^{-6}\\,\\text{N/mm}^{2}$), a rezultat naprezanja dobiva se u $\\text{N/mm}^{2} = \\text{MPa}$.",
     "image": null,
     "explanation_image": null,
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 2 i 3",

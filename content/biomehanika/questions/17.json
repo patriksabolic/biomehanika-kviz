@@ -111,7 +111,7 @@
       "10 cm",
       "100 cm"
     ],
-    "explanation": "Osnovni element poprečnoprugastog mišića je mišićno vlakno – multinuklearna stanica (ima mnogo jezgara) čija duljina može varirati od nekoliko mm pa do 30 cm, a promjer joj je samo 10–100 µm.",
+    "explanation": "Osnovni element poprečnoprugastog mišića je mišićno vlakno – multinuklearna stanica (ima mnogo jezgara) čija duljina može varirati od nekoliko mm pa do 30 cm, a promjer joj je samo $10\\text{–}100\\,\\mu\\text{m}$.",
     "image": null,
     "explanation_image": null,
     "source": "17_Misici.pdf, slajd 5; skripta, Mišići",
@@ -129,7 +129,7 @@
       "fill"
     ],
     "prompt": "Promjer vlakna poprečnoprugastog mišića iznosi ___.",
-    "answer": "10–100 µm",
+    "answer": "$10\\text{–}100\\,\\mu\\text{m}$",
     "accepted": [
       "10–100 µm",
       "10-100 µm",
@@ -141,11 +141,11 @@
       "10-100 mikrometara"
     ],
     "distractors": [
-      "1,5–6 µm",
-      "1–10 mm",
-      "200–500 µm"
+      "$1{,}5\\text{–}6\\,\\mu\\text{m}$",
+      "$1\\text{–}10\\,\\text{mm}$",
+      "$200\\text{–}500\\,\\mu\\text{m}$"
     ],
-    "explanation": "Poprečnoprugasto vlakno debelo je 10–100 µm, dakle mikroskopski tanko, iako može biti dugo i do 30 cm. Glatka mišićna vlakna su još znatno tanja (1,5–6 µm).",
+    "explanation": "Poprečnoprugasto vlakno debelo je $10\\text{–}100\\,\\mu\\text{m}$, dakle mikroskopski tanko, iako može biti dugo i do 30 cm. Glatka mišićna vlakna su još znatno tanja ($1{,}5\\text{–}6\\,\\mu\\text{m}$).",
     "image": null,
     "explanation_image": null,
     "source": "17_Misici.pdf, slajd 5; skripta, Mišići",
@@ -192,7 +192,7 @@
       "fill"
     ],
     "prompt": "Vlakna glatkih mišića duga su ___.",
-    "answer": "30–450 µm",
+    "answer": "$30\\text{–}450\\,\\mu\\text{m}$",
     "accepted": [
       "30–450 µm",
       "30-450 µm",
@@ -204,11 +204,11 @@
       "30-450 mikrometara"
     ],
     "distractors": [
-      "3–45 µm",
-      "1–30 cm",
-      "10–100 µm"
+      "$3\\text{–}45\\,\\mu\\text{m}$",
+      "$1\\text{–}30\\,\\text{cm}$",
+      "$10\\text{–}100\\,\\mu\\text{m}$"
     ],
-    "explanation": "Glatka mišićna vlakna duga su samo 30–450 µm, dakle mikroskopski kratka. Za razliku od poprečnoprugastih (do 30 cm), ne pokreću kostur nego automatski reguliraju pokrete u probavnom, krvožilnom, dišnom i urogenitalnom sustavu.",
+    "explanation": "Glatka mišićna vlakna duga su samo $30\\text{–}450\\,\\mu\\text{m}$, dakle mikroskopski kratka. Za razliku od poprečnoprugastih (do 30 cm), ne pokreću kostur nego automatski reguliraju pokrete u probavnom, krvožilnom, dišnom i urogenitalnom sustavu.",
     "image": null,
     "explanation_image": null,
     "source": "17_Misici.pdf, slajd 6",
@@ -226,7 +226,7 @@
       "fill"
     ],
     "prompt": "Vlakna glatkih mišića imaju promjer ___.",
-    "answer": "1,5–6 µm",
+    "answer": "$1{,}5\\text{–}6\\,\\mu\\text{m}$",
     "accepted": [
       "1,5–6 µm",
       "1,5-6 µm",
@@ -240,11 +240,11 @@
       "1,5-6 um"
     ],
     "distractors": [
-      "10–100 µm",
-      "0,15–0,6 µm",
-      "15–60 µm"
+      "$10\\text{–}100\\,\\mu\\text{m}$",
+      "$0{,}15\\text{–}0{,}6\\,\\mu\\text{m}$",
+      "$15\\text{–}60\\,\\mu\\text{m}$"
     ],
-    "explanation": "Glatka vlakna su vrlo tanka, promjera 1,5–6 µm, dakle i do desetak puta tanja od poprečnoprugastih (10–100 µm). Glatki mišići automatski reguliraju pokrete u urogenitalnom, krvožilnom, probavnom i dišnom sustavu.",
+    "explanation": "Glatka vlakna su vrlo tanka, promjera $1{,}5\\text{–}6\\,\\mu\\text{m}$, dakle i do desetak puta tanja od poprečnoprugastih ($10\\text{–}100\\,\\mu\\text{m}$). Glatki mišići automatski reguliraju pokrete u urogenitalnom, krvožilnom, probavnom i dišnom sustavu.",
     "image": null,
     "explanation_image": null,
     "source": "17_Misici.pdf, slajd 6",

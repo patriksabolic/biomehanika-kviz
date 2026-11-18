@@ -1,14 +1,14 @@
 // Plan učenja (spec, odjeljak 11): raspored poglavlja po danima, dnevni ponovni izračun, zaostatak.
 
 import { esc, todayKey, plural } from './util.js';
-import { courseData, save } from './storage.js';
+import { courseData, courseSettings, examConfig, save } from './storage.js';
 import { isLearned } from './stats.js';
 
 export const LEARNED_TARGET = { 2: 0.5, 3: 0.65, 4: 0.8, 5: 0.9 };
 const PROCESSED_SHARE = 0.8; // poglavlje je "obrađeno" kad je viđeno ≥ 80 % njegovih pitanja
 const WEEKDAYS = ['Ne', 'Po', 'Ut', 'Sr', 'Če', 'Pe', 'Su']; // getDay(): 0 = nedjelja
 const WEEK_ORDER = [1, 2, 3, 4, 5, 6, 0];
-const MINUTES = [10, 15, 20, 30, 45];
+export const MINUTES = [10, 15, 20, 30, 45];
 
 let ctx = null;
 let form = null; // uređivanje postavki plana
@@ -188,9 +188,29 @@ export function quizPreset(task) {
   return { size: task.n || 20 };
 }
 
+// Postavke ispita su promijenjene u Postavkama: plan preuzima nove vrijednosti.
+// Novi datum ili minute = novi raspored (kao "Spremi i preračunaj plan"); ocjena samo mijenja cilj.
+export function syncPlanWithSettings() {
+  const p = courseData(ctx.courseId).plan;
+  if (!p) return;
+  const cfg = examConfig(ctx.course);
+  if (cfg.examDate && cfg.examDate > todayKey() && (p.examDate !== cfg.examDate || p.minutesPerDay !== cfg.minutesPerDay)) {
+    createPlan({ examDate: cfg.examDate, targetGrade: cfg.targetGrade, minutesPerDay: cfg.minutesPerDay, daysOff: p.daysOff || [] });
+  } else if (p.targetGrade !== cfg.targetGrade) {
+    p.targetGrade = cfg.targetGrade;
+    save();
+  }
+}
+
 // Kartica "Danas" za Početnu.
 export function todayCardHtml(todayAnswered) {
   const t = todayTask();
+  if (!t && !examConfig(ctx.course).examDate) {
+    return `<section class="card plan-card">
+      <h2>Plan učenja</h2>
+      <p class="muted small">Datum ispita još nije postavljen. Plan ga traži prije izrade.</p>
+      <button type="button" class="btn" data-act="plan">📅 Napravi plan</button></section>`;
+  }
   if (!t) {
     return `<section class="card plan-card">
       <h2>Plan učenja</h2>
@@ -217,12 +237,14 @@ export function todayCardHtml(todayAnswered) {
 
 // ---------- ekran Plan ----------
 
+// Datum, ocjena i minute su postavke kolegija (iste kao u Postavkama); neradni dani su dio plana.
 function formDefaults() {
   const p = courseData(ctx.courseId).plan;
+  const cfg = examConfig(ctx.course);
   return {
-    examDate: p?.examDate || ctx.course.examDate || '',
-    targetGrade: p?.targetGrade || 3,
-    minutesPerDay: p?.minutesPerDay || 15,
+    examDate: cfg.examDate || '',
+    targetGrade: cfg.targetGrade,
+    minutesPerDay: cfg.minutesPerDay,
     daysOff: [...(p?.daysOff || [])],
   };
 }
@@ -246,6 +268,7 @@ function formHtml() {
   const off = new Set(f.daysOff);
   return `<section class="card">
       <h2>Postavke plana</h2>
+      ${!f.examDate ? '<p class="notice">📅 Prije izrade plana upiši datum ispita.</p>' : ''}
       <label class="field"><span>Datum ispita</span><input type="date" class="select" data-f="examDate" value="${esc(f.examDate || '')}"></label>
       ${f.dateError ? '<p class="bad-text small">Upiši datum ispita koji je nakon današnjeg dana.</p>' : ''}
       <p class="field-label">Ciljana ocjena</p>
@@ -317,9 +340,13 @@ export function renderPlan(el) {
       form.daysOff = form.daysOff.includes(d) ? form.daysOff.filter((x) => x !== d) : [...form.daysOff, d];
     } else if (t.dataset.act === 'save') {
       const dateOk = /^\d{4}-\d{2}-\d{2}$/.test(form.examDate) && form.examDate > todayKey();
-      if (!dateOk) { form.examDate = ctx.course.examDate || ''; form.dateError = true; renderPlan(el); return; }
+      if (!dateOk) { form.examDate = examConfig(ctx.course).examDate || ''; form.dateError = true; renderPlan(el); return; }
       if (form.daysOff.length >= 7) form.daysOff = [];
       delete form.dateError;
+      const cs = courseSettings(ctx.courseId);
+      cs.examDate = form.examDate;
+      cs.targetGrade = form.targetGrade;
+      cs.minutesPerDay = form.minutesPerDay;
       createPlan(form);
       form = null;
       window.scrollTo(0, 0);

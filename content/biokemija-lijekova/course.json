@@ -2,9 +2,6 @@
   "id": "biokemija-lijekova",
   "name": "Biokemija lijekova",
   "idPrefix": "bl",
-  "examDate": null,
-  "grading": { "2": 50, "3": 62, "4": 75, "5": 88 },
-  "exam": { "durationMin": 45 },
   "questionFiles": [],
   "areas": [],
   "chapters": []

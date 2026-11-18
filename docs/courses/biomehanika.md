@@ -10,7 +10,7 @@ Mjerodavno za sadržaj kolegija Biomehanika (poglavlja, područja, ispit, redosl
 | prefiks ID-a pitanja | `bm` (npr. `bm-09-004`, kolokvij `bm-k-021`) |
 | sadržaj u aplikaciji | `content/biomehanika/` (`course.json`, `questions/`, `img/`) |
 | izvorni materijali | `content/source/biomehanika/` (u `.gitignore`) |
-| ispit | **8.12.2026** (`examDate: "2026-12-08"`), ciljana ocjena **dobar (3)**, ~15 min dnevno |
+| ispit | **8.12.2026**, ciljana ocjena **dobar (3)**, ~15 min dnevno – postavlja se u aplikaciji; `course.json` ima `examDate: "2026-12-08"` samo kao zadanu vrijednost |
 | zadani pragovi | 2 ≥ 50 %, 3 ≥ 62 %, 4 ≥ 75 %, 5 ≥ 88 % |
 | zadano trajanje ispita | 45 min (stvarno trajanje nepoznato, 30–60 min) |
 | na ispitu | sva poglavlja 01–35 |

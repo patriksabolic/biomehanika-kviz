@@ -8,7 +8,7 @@
       "fill"
     ],
     "prompt": "Živčani sustav sastoji se od oko ___ neurona.",
-    "answer": "10¹¹",
+    "answer": "$10^{11}$",
     "accepted": [
       "10¹¹",
       "10^11",
@@ -17,11 +17,11 @@
       "10 na 11"
     ],
     "distractors": [
-      "10⁹",
-      "10⁶",
-      "10¹⁴"
+      "$10^{9}$",
+      "$10^{6}$",
+      "$10^{14}$"
     ],
-    "explanation": "Živčani sustav ima oko 10¹¹ (sto milijardi) neurona. Neuron je osnovna funkcionalna jedinica živčanog sustava.",
+    "explanation": "Živčani sustav ima oko $10^{11}$ (sto milijardi) neurona. Neuron je osnovna funkcionalna jedinica živčanog sustava.",
     "image": null,
     "explanation_image": null,
     "source": "32_Neuroni.pdf, slajd 4",
@@ -130,7 +130,7 @@
       "1 cm",
       "10 m"
     ],
-    "explanation": "Akson je dug od nekoliko mm do 1 m (npr. od vrha prsta duž cijele ruke), a promjer mu je 0,5 do 20 µm.",
+    "explanation": "Akson je dug od nekoliko mm do 1 m (npr. od vrha prsta duž cijele ruke), a promjer mu je 0,5 do $20\\,\\mu \\text{m}$.",
     "image": null,
     "explanation_image": null,
     "source": "32_Neuroni.pdf, slajd 5 i 8",
@@ -148,7 +148,7 @@
       "fill"
     ],
     "prompt": "Promjer aksona iznosi 0,5 do ___.",
-    "answer": "20 µm",
+    "answer": "$20\\,\\mu \\text{m}$",
     "accepted": [
       "20 µm",
       "20",
@@ -157,11 +157,11 @@
       "20µm"
     ],
     "distractors": [
-      "20 mm",
-      "200 µm",
-      "2 µm"
+      "$20\\,\\text{mm}$",
+      "$200\\,\\mu \\text{m}$",
+      "$2\\,\\mu \\text{m}$"
     ],
-    "explanation": "Promjer aksona je 0,5–20 µm, a duljina od nekoliko mm do 1 m – akson je iznimno tanak u odnosu na duljinu.",
+    "explanation": "Promjer aksona je $0{,}5\\text{–}20\\,\\mu \\text{m}$, a duljina od nekoliko mm do 1 m – akson je iznimno tanak u odnosu na duljinu.",
     "image": null,
     "explanation_image": null,
     "source": "32_Neuroni.pdf, slajd 5",

@@ -398,7 +398,7 @@
       "fill"
     ],
     "prompt": "U testovima kvalitete printanja debljina sloja iznosila je ___.",
-    "answer": "25 µm",
+    "answer": "$25\\,\\mu\\text{m}$",
     "accepted": [
       "25 µm",
       "25",
@@ -407,11 +407,11 @@
       "25µm"
     ],
     "distractors": [
-      "460 µm",
-      "50 µm",
-      "100 µm"
+      "$460\\,\\mu\\text{m}$",
+      "$50\\,\\mu\\text{m}$",
+      "$100\\,\\mu\\text{m}$"
     ],
-    "explanation": "Testovi kvalitete printanja: debljina sloja 25 µm, 30 slojeva, temperatura na printeru 50 °C. Tanji slojevi daju finiju geometriju skele.",
+    "explanation": "Testovi kvalitete printanja: debljina sloja $25\\,\\mu\\text{m}$, 30 slojeva, temperatura na printeru 50 °C. Tanji slojevi daju finiju geometriju skele.",
     "image": null,
     "explanation_image": null,
     "source": "10_Skele.pdf, slajd 4",
@@ -441,7 +441,7 @@
       "37 °C",
       "25 °C"
     ],
-    "explanation": "Testovi kvalitete printanja provedeni su pri 50 °C na printeru, s 30 slojeva debljine 25 µm. 70 °C je temperatura testa stabilnosti.",
+    "explanation": "Testovi kvalitete printanja provedeni su pri 50 °C na printeru, s 30 slojeva debljine $25\\,\\mu\\text{m}$. 70 °C je temperatura testa stabilnosti.",
     "image": null,
     "explanation_image": null,
     "source": "10_Skele.pdf, slajd 4",
@@ -510,7 +510,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "U FEM analizi skela korišten je modul elastičnosti E = ___.",
+    "prompt": "U FEM analizi skela korišten je modul elastičnosti $E =$ ___.",
     "answer": "98 MPa",
     "accepted": [
       "98 MPa",
@@ -522,7 +522,7 @@
       "1 GPa",
       "460 MPa"
     ],
-    "explanation": "FEM analiza koristila je tetraedarske elemente prvog reda, modul elastičnosti E = 98 MPa i Poissonov faktor 0,28.",
+    "explanation": "FEM analiza koristila je tetraedarske elemente prvog reda, modul elastičnosti $E = 98\\,\\text{MPa}$ i Poissonov faktor 0,28.",
     "image": null,
     "explanation_image": null,
     "source": "10_Skele.pdf, slajd 9",
@@ -550,7 +550,7 @@
       "0,5",
       "0,98"
     ],
-    "explanation": "Poissonov faktor (omjer poprečne i uzdužne deformacije) u analizi je 0,28, uz E = 98 MPa i tetraedarske elemente prvog reda.",
+    "explanation": "Poissonov faktor (omjer poprečne i uzdužne deformacije) u analizi je 0,28, uz $E = 98\\,\\text{MPa}$ i tetraedarske elemente prvog reda.",
     "image": null,
     "explanation_image": null,
     "source": "10_Skele.pdf, slajd 9",

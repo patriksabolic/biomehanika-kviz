@@ -1,6 +1,6 @@
 // Service worker: offline rad (spec, odjeljak 14).
 // PRI SVAKOM DEPLOYU podigni VERSION (mora biti isto kao "version" u version.json).
-const VERSION = '0.6.0';
+const VERSION = '0.7.0';
 const CACHE = `bmkviz-${VERSION}`;
 
 const SHELL = [
@@ -20,6 +20,33 @@ const SHELL = [
   './js/exam.js',
   './js/settings.js',
   './js/plan.js',
+  './js/math.js',
+  './js/zoom.js',
+  // KaTeX 0.19.1 + mhchem (vendor/katex/) – formule rade offline
+  './vendor/katex/katex.min.js',
+  './vendor/katex/katex.min.css',
+  './vendor/katex/contrib/auto-render.min.js',
+  './vendor/katex/contrib/mhchem.min.js',
+  './vendor/katex/fonts/KaTeX_AMS-Regular.woff2',
+  './vendor/katex/fonts/KaTeX_Caligraphic-Bold.woff2',
+  './vendor/katex/fonts/KaTeX_Caligraphic-Regular.woff2',
+  './vendor/katex/fonts/KaTeX_Fraktur-Bold.woff2',
+  './vendor/katex/fonts/KaTeX_Fraktur-Regular.woff2',
+  './vendor/katex/fonts/KaTeX_Main-Bold.woff2',
+  './vendor/katex/fonts/KaTeX_Main-BoldItalic.woff2',
+  './vendor/katex/fonts/KaTeX_Main-Italic.woff2',
+  './vendor/katex/fonts/KaTeX_Main-Regular.woff2',
+  './vendor/katex/fonts/KaTeX_Math-BoldItalic.woff2',
+  './vendor/katex/fonts/KaTeX_Math-Italic.woff2',
+  './vendor/katex/fonts/KaTeX_SansSerif-Bold.woff2',
+  './vendor/katex/fonts/KaTeX_SansSerif-Italic.woff2',
+  './vendor/katex/fonts/KaTeX_SansSerif-Regular.woff2',
+  './vendor/katex/fonts/KaTeX_Script-Regular.woff2',
+  './vendor/katex/fonts/KaTeX_Size1-Regular.woff2',
+  './vendor/katex/fonts/KaTeX_Size2-Regular.woff2',
+  './vendor/katex/fonts/KaTeX_Size3-Regular.woff2',
+  './vendor/katex/fonts/KaTeX_Size4-Regular.woff2',
+  './vendor/katex/fonts/KaTeX_Typewriter-Regular.woff2',
   './icons/icon-192.png',
   './icons/icon-512.png',
 ];

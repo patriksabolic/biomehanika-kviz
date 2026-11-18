@@ -320,7 +320,7 @@
       "proporcionalna je masi tijela",
       "obrnuto je proporcionalna promjeru"
     ],
-    "explanation": "Galilei, utemeljitelj moderne mehanike koji je studirao i medicinu, zaključio je da je čvrstoća kosti proporcionalna površini presjeka – što veći presjek, to veću silu kost podnese (σ = F/A). Konstruirao je i mikroskop (1609.) i njihalo za mjerenje pulsa.",
+    "explanation": "Galilei, utemeljitelj moderne mehanike koji je studirao i medicinu, zaključio je da je čvrstoća kosti proporcionalna površini presjeka – što veći presjek, to veću silu kost podnese ($\\sigma = F/A$). Konstruirao je i mikroskop (1609.) i njihalo za mjerenje pulsa.",
     "image": null,
     "explanation_image": null,
     "source": "2_Povijest.pdf, slajd 10",
@@ -466,7 +466,7 @@
       "72 kg",
       "4320 kg"
     ],
-    "explanation": "Račun iz 1615. (na slajdu William Harley, poznatiji kao Harvey): 60 g × 72 otkucaja/min × 60 min ≈ 259 200 g ≈ 260 kg na sat. Tolika količina ne može se svaki sat iznova stvarati, pa je zaključak da krv kruži u zatvorenom krugu.",
+    "explanation": "Račun iz 1615. (na slajdu William Harley, poznatiji kao Harvey): $60\\,\\text{g} \\cdot 72\\,\\text{otkucaja/min} \\cdot 60\\,\\text{min} \\approx 259\\,200\\,\\text{g} \\approx 260\\,\\text{kg}$ na sat. Tolika količina ne može se svaki sat iznova stvarati, pa je zaključak da krv kruži u zatvorenom krugu.",
     "image": null,
     "explanation_image": null,
     "source": "2_Povijest.pdf, slajd 12",

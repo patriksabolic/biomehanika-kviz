@@ -3,7 +3,7 @@
 import { todayKey } from './util.js';
 
 const KEY = 'bmkviz.v1';
-export const SCHEMA = 2;
+export const SCHEMA = 3;
 
 // Zajedničke postavke aplikacije.
 const DEFAULT_SETTINGS = {
@@ -14,14 +14,27 @@ const DEFAULT_SETTINGS = {
 };
 
 // Postavke po kolegiju (courses.<id>.settings).
+// Podatke o ispitu bira korisnik; null = zadana vrijednost iz course.json (ako je ima), inače APP_DEFAULTS.
 const DEFAULT_COURSE_SETTINGS = {
   dailyGoal: 10,
-  grading: null,      // null = pragovi iz course.json; inače { "2": 50, "3": 62, "4": 75, "5": 88 }
-  examDuration: null, // null = trajanje iz course.json (min)
+  examDate: null,      // "GGGG-MM-DD"
+  targetGrade: null,   // 2–5
+  minutesPerDay: null, // minuta učenja dnevno (plan)
+  grading: null,       // { "2": 50, "3": 62, "4": 75, "5": 88 }
+  examDuration: null,  // trajanje ispita (min)
   quiz: null,         // zadnji odabir u kvizu
   exam: null,         // zadnji odabir u ispitu
 };
-const COURSE_SETTING_KEYS = Object.keys(DEFAULT_COURSE_SETTINGS);
+// Shema 1 imala je samo ove postavke (premještaju se u kolegij pri migraciji 1 → 2).
+const COURSE_SETTING_KEYS = ['dailyGoal', 'grading', 'examDuration', 'quiz', 'exam'];
+
+// Zadano kad ni korisnik ni course.json nemaju vrijednost.
+export const APP_DEFAULTS = {
+  targetGrade: 3,
+  minutesPerDay: 15,
+  grading: { 2: 50, 3: 62, 4: 75, 5: 88 },
+  examDuration: 45,
+};
 
 let state = null;
 let timer = null;
@@ -31,7 +44,7 @@ function freshState() {
   return { schema: SCHEMA, settings: { ...DEFAULT_SETTINGS }, courses: {} };
 }
 
-// Migracije po broju sheme. Za buduće sheme: if (s.schema === 2) { …; s.schema = 3; }
+// Migracije po broju sheme. Za buduće sheme: if (s.schema === 3) { …; s.schema = 4; }
 function migrate(s) {
   if (!s || typeof s !== 'object' || typeof s.schema !== 'number') return freshState();
   s.settings = s.settings && typeof s.settings === 'object' ? s.settings : {};
@@ -49,6 +62,18 @@ function migrate(s) {
     s.settings.lastCourse = cid;
     delete s.settings.course;
     s.schema = 2;
+  }
+  if (s.schema === 2) {
+    // Shema 2 → 3: datum ispita, ciljana ocjena i minute dnevno postaju postavke kolegija.
+    // Postojeći plan se ne mijenja; njegove vrijednosti postaju korisnikove postavke.
+    for (const c of Object.values(s.courses)) {
+      if (!c || typeof c !== 'object' || !c.plan) continue;
+      c.settings = { ...(c.settings || {}) };
+      if (c.settings.examDate == null && c.plan.examDate) c.settings.examDate = c.plan.examDate;
+      if (c.settings.targetGrade == null && c.plan.targetGrade) c.settings.targetGrade = c.plan.targetGrade;
+      if (c.settings.minutesPerDay == null && c.plan.minutesPerDay) c.settings.minutesPerDay = c.plan.minutesPerDay;
+    }
+    s.schema = 3;
   }
   s.settings = { ...DEFAULT_SETTINGS, ...s.settings };
   return s;
@@ -97,6 +122,21 @@ export function courseData(courseId) {
 // Postavke jednog kolegija: dnevni cilj, pragovi, trajanje ispita, zadnji odabiri.
 export function courseSettings(courseId) {
   return courseData(courseId).settings;
+}
+
+// Podaci o ispitu kolegija: korisnikova postavka → zadano iz course.json → APP_DEFAULTS.
+// Ne stvara zapis u pohrani (kolegij "U pripremi" ostaje bez zapisa).
+export function examConfig(course) {
+  const cs = getState().courses[course.id]?.settings || {};
+  const validDate = (d) => (typeof d === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(d) ? d : null);
+  return {
+    examDate: validDate(cs.examDate) || validDate(course.examDate),
+    targetGrade: cs.targetGrade || course.targetGrade || APP_DEFAULTS.targetGrade,
+    minutesPerDay: cs.minutesPerDay || course.minutesPerDay || APP_DEFAULTS.minutesPerDay,
+    grading: cs.grading || course.grading || APP_DEFAULTS.grading,
+    examDuration: cs.examDuration || course.exam?.durationMin || APP_DEFAULTS.examDuration,
+    gradingCustom: !!cs.grading,
+  };
 }
 
 // ---------- export / import / reset (spec, odjeljak 12) ----------

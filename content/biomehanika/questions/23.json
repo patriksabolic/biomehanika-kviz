@@ -276,7 +276,7 @@
       "fill"
     ],
     "prompt": "Ljudsko oko proizvodi očnu vodicu brzinom od ___.",
-    "answer": "2,5 mm³/min",
+    "answer": "$2{,}5\\,\\text{mm}^{3}\\text{/min}$",
     "accepted": [
       "2,5 mm³/min",
       "2,5",
@@ -285,11 +285,11 @@
       "2.5 mm3/min"
     ],
     "distractors": [
-      "0,25 mm³/min",
-      "25 mm³/min",
-      "2,5 cm³/min"
+      "$0{,}25\\,\\text{mm}^{3}\\text{/min}$",
+      "$25\\,\\text{mm}^{3}\\text{/min}$",
+      "$2{,}5\\,\\text{cm}^{3}\\text{/min}$"
     ],
-    "explanation": "Očnu vodicu stalno proizvode cilijarni nastavci, oko 2,5 mm³ u minuti; ona hrani leću, šarenicu i unutrašnjost oka. Vodica istječe u krvotok kroz sitne otvore ispod šarenice – ako se začepe, otjecanje slabi i intraokularni tlak raste.",
+    "explanation": "Očnu vodicu stalno proizvode cilijarni nastavci, oko $2{,}5\\,\\text{mm}^{3}$ u minuti; ona hrani leću, šarenicu i unutrašnjost oka. Vodica istječe u krvotok kroz sitne otvore ispod šarenice – ako se začepe, otjecanje slabi i intraokularni tlak raste.",
     "image": null,
     "explanation_image": null,
     "source": "23_Biomehanika ovojnice oka.pdf, slajd 7",
@@ -337,7 +337,7 @@
       "fill"
     ],
     "prompt": "Stroma je najdeblji dio rožnice, debljine oko ___.",
-    "answer": "500 μm",
+    "answer": "$500\\,\\mu\\text{m}$",
     "accepted": [
       "500 μm",
       "500",
@@ -346,11 +346,11 @@
       "0,5 mm"
     ],
     "distractors": [
-      "50 μm",
-      "300 μm",
-      "1000 μm"
+      "$50\\,\\mu\\text{m}$",
+      "$300\\,\\mu\\text{m}$",
+      "$1000\\,\\mu\\text{m}$"
     ],
-    "explanation": "Stroma je najdeblji dio rožnice (oko 500 μm) i sastoji se od 300–500 slojeva lamela s paralelnim snopovima kolagenskih vlakana. Modul elastičnosti rožnice iznosi 17 MPa.",
+    "explanation": "Stroma je najdeblji dio rožnice (oko $500\\,\\mu\\text{m}$) i sastoji se od 300–500 slojeva lamela s paralelnim snopovima kolagenskih vlakana. Modul elastičnosti rožnice iznosi 17 MPa.",
     "image": null,
     "explanation_image": null,
     "source": "23_Biomehanika ovojnice oka.pdf, slajd 13",
@@ -523,7 +523,7 @@
       "0,6 mm",
       "2 mm"
     ],
-    "explanation": "Bjeloočnica je najdeblja straga, u blizini očnog živca – oko 1 mm. Prema σ = p·R/(2δ) ondje je membransko naprezanje najmanje.",
+    "explanation": "Bjeloočnica je najdeblja straga, u blizini očnog živca – oko 1 mm. Prema $\\sigma = p \\cdot R/(2\\delta)$ ondje je membransko naprezanje najmanje.",
     "image": null,
     "explanation_image": null,
     "source": "23_Biomehanika ovojnice oka.pdf, slajd 15, 20 i 21",
@@ -781,7 +781,7 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Što na skici geometrije oka predstavlja kota e = 4,7 mm?",
+    "prompt": "Što na skici geometrije oka predstavlja kota $e = 4{,}7\\,\\text{mm}$?",
     "answer": "udaljenost središta dviju sfera",
     "accepted": [
       "udaljenost središta dviju sfera",
@@ -792,7 +792,7 @@
       "debljinu limbusa",
       "razliku promjera bjeloočnice i rožnice"
     ],
-    "explanation": "Oko je modelirano dvjema sferama različitih polumjera (bjeloočnica i rožnica) koje se sijeku u prstenu na limbusu. Kota 4,7 mm je udaljenost njihovih središta na uzdužnoj osi; ona je jednaka razlici projekcija polumjera R_B i R_R na os, pa se ista veličina e koristi u izrazima N_r = (p/2)·e i F_p = p·e·r_p/2.",
+    "explanation": "Oko je modelirano dvjema sferama različitih polumjera (bjeloočnica i rožnica) koje se sijeku u prstenu na limbusu. Kota 4,7 mm je udaljenost njihovih središta na uzdužnoj osi; ona je jednaka razlici projekcija polumjera $R_B$ i $R_R$ na os, pa se ista veličina $e$ koristi u izrazima $N_r = (p/2) \\cdot e$ i $F_p = p \\cdot e \\cdot r_p/2$.",
     "image": null,
     "explanation_image": "img/23-1.png",
     "source": "23_Biomehanika ovojnice oka.pdf, slajd 6, 23 i 25",

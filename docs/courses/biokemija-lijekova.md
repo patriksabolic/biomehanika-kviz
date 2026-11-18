@@ -10,9 +10,7 @@ Mjerodavno za sadržaj kolegija Biokemija lijekova. Opća pravila aplikacije, fo
 | prefiks ID-a pitanja | `bl` (npr. `bl-03-001`, stvarna ispitna pitanja `bl-k-001`) |
 | sadržaj u aplikaciji | `content/biokemija-lijekova/` (`course.json`, `questions/`, `img/`) |
 | izvorni materijali | `content/source/biokemija-lijekova/` (u `.gitignore`) |
-| ispit | još nije poznat (`examDate: null`) |
-| zadani pragovi | 2 ≥ 50 %, 3 ≥ 62 %, 4 ≥ 75 %, 5 ≥ 88 % (privremeno, kao Biomehanika – provjeriti) |
-| zadano trajanje ispita | 45 min (privremeno – provjeriti) |
+| ispit | datum, ciljanu ocjenu, minute dnevno, trajanje i pragove postavlja korisnik u aplikaciji (Postavke kolegija / Plan); `course.json` ih nema, pa vrijede opće zadane vrijednosti (pragovi 50/62/75/88 %, 45 min, ocjena 3, 15 min dnevno) |
 
 ## 2. Izvorni materijali
 
@@ -39,3 +37,4 @@ Određuje se kad bude poznat datum ispita.
 ## 6. Odluke o sadržaju
 
 - 18.11.2026 (0.6.0): Kolegij dodan u `content/courses.json` s id-om `biokemija-lijekova` i prefiksom `bl`; `course.json` je prazan (bez poglavlja, područja i pitanja), pa kartica na Početnoj pokazuje "U pripremi". Napravljene su mape `content/source/biokemija-lijekova/pdf/` i `primjeri/`.
+- 18.11.2026 (0.7.0): Podatke o ispitu (datum, ciljana ocjena, minute dnevno, trajanje, pragovi) bira korisnik u aplikaciji; iz `course.json` uklonjeni su `examDate: null`, `grading` i `exam` (bile su privremene vrijednosti).

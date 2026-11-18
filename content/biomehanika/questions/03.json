@@ -65,7 +65,7 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Što u Kane-Scherovu modelu označava kut α?",
+    "prompt": "Što u Kane-Scherovu modelu označava kut $\\alpha$?",
     "answer": "kut između osi simetrije stošca i osi simetrije „mirujućeg” tijela A",
     "accepted": [
       "kut između osi simetrije stošca i osi simetrije „mirujućeg” tijela A"
@@ -75,7 +75,7 @@
       "kut zakreta tijela B oko svoje osi",
       "kut između tijela i podloge"
     ],
-    "explanation": "Os simetrije stošca zatvara kut α s osi „mirujućeg” tijela A, a kut β s osi rotirajućeg tijela B. Kut θ na slici opisuje kretanje po stošcu.",
+    "explanation": "Os simetrije stošca zatvara kut $\\alpha$ s osi „mirujućeg” tijela A, a kut $\\beta$ s osi rotirajućeg tijela B. Kut $\\theta$ na slici opisuje kretanje po stošcu.",
     "image": "img/03-1.png",
     "explanation_image": null,
     "source": "3_Mačka.pdf, slajd 3",
@@ -94,18 +94,18 @@
       "fill"
     ],
     "prompt": "Os simetrije stošca u Kane-Scherovu modelu s osi simetrije rotirajućeg tijela B zatvara kut ___.",
-    "answer": "β",
+    "answer": "$\\beta$",
     "accepted": [
       "β",
       "beta",
       "kut β"
     ],
     "distractors": [
-      "α",
-      "θ",
-      "ω"
+      "$\\alpha$",
+      "$\\theta$",
+      "$\\omega$"
     ],
-    "explanation": "Dva kuta opisuju geometriju: α je između osi stošca i „mirujućeg” tijela A, β između osi stošca i rotirajućeg tijela B.",
+    "explanation": "Dva kuta opisuju geometriju: $\\alpha$ je između osi stošca i „mirujućeg” tijela A, $\\beta$ između osi stošca i rotirajućeg tijela B.",
     "image": "img/03-1.png",
     "explanation_image": null,
     "source": "3_Mačka.pdf, slajd 3",
@@ -161,7 +161,7 @@
       "obje komponente se poništavaju",
       "obje komponente se zbrajaju"
     ],
-    "explanation": "Vektori H1 i H2 nagnuti su suprotno: vertikalne komponente su jednake i suprotne, pa se poništavaju, a horizontalne imaju isti smjer i zbrajaju se. Hopper je gornji i donji dio tijela prikazao valjcima koji se okreću kontrakcijom mišića.",
+    "explanation": "Vektori $H_1$ i $H_2$ nagnuti su suprotno: vertikalne komponente su jednake i suprotne, pa se poništavaju, a horizontalne imaju isti smjer i zbrajaju se. Hopper je gornji i donji dio tijela prikazao valjcima koji se okreću kontrakcijom mišića.",
     "image": "img/03-2.png",
     "explanation_image": null,
     "source": "3_Mačka.pdf, slajd 4",
@@ -234,8 +234,8 @@
       "mc",
       "fill"
     ],
-    "prompt": "Za kruto tijelo moment količine gibanja je L = I·___.",
-    "answer": "ω",
+    "prompt": "Za kruto tijelo moment količine gibanja je $L = I \\cdot$ ___.",
+    "answer": "$\\omega$",
     "accepted": [
       "ω",
       "omega",
@@ -243,11 +243,11 @@
       "w"
     ],
     "distractors": [
-      "v",
-      "α",
-      "m"
+      "$v$",
+      "$\\alpha$",
+      "$m$"
     ],
-    "explanation": "Moment (kutna) količine gibanja krutog tijela je umnožak momenta tromosti I i kutne brzine ω: L = I·ω. To je rotacijski pandan količine gibanja p = m·v.",
+    "explanation": "Moment (kutna) količine gibanja krutog tijela je umnožak momenta tromosti I i kutne brzine $\\omega$: $L = I \\cdot \\omega$. To je rotacijski pandan količine gibanja $p = m \\cdot v$.",
     "image": null,
     "explanation_image": null,
     "source": "3_Mačka.pdf, slajd 6",
@@ -263,7 +263,7 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Što označava I u izrazu L = I·ω?",
+    "prompt": "Što označava I u izrazu $L = I \\cdot \\omega$?",
     "answer": "moment tromosti tijela",
     "accepted": [
       "moment tromosti tijela"
@@ -273,7 +273,7 @@
       "impuls sile",
       "moment sile"
     ],
-    "explanation": "I je moment tromosti – mjera koliko se tijelo opire promjeni rotacije; ovisi o masi i tome koliko je masa udaljena od osi. ω je kutna brzina, a L moment količine gibanja.",
+    "explanation": "I je moment tromosti – mjera koliko se tijelo opire promjeni rotacije; ovisi o masi i tome koliko je masa udaljena od osi. $\\omega$ je kutna brzina, a L moment količine gibanja.",
     "image": null,
     "explanation_image": null,
     "source": "3_Mačka.pdf, slajd 6",
@@ -290,8 +290,8 @@
       "mc",
       "fill"
     ],
-    "prompt": "Zakon očuvanja kutne količine gibanja: I1·ω1 = I2·ω2 = ___.",
-    "answer": "konst",
+    "prompt": "Zakon očuvanja kutne količine gibanja: $I_1 \\cdot \\omega_1 = I_2 \\cdot \\omega_2 =$ ___.",
+    "answer": "$\\text{konst}$",
     "accepted": [
       "konst",
       "konstanta",
@@ -299,11 +299,11 @@
       "konst."
     ],
     "distractors": [
-      "m·v",
-      "L·ω",
-      "I·α"
+      "$m \\cdot v$",
+      "$L \\cdot \\omega$",
+      "$I \\cdot \\alpha$"
     ],
-    "explanation": "Bez vanjskog momenta umnožak I·ω ostaje stalan. Ako se moment tromosti smanji, kutna brzina se mora povećati, i obrnuto.",
+    "explanation": "Bez vanjskog momenta umnožak $I \\cdot \\omega$ ostaje stalan. Ako se moment tromosti smanji, kutna brzina se mora povećati, i obrnuto.",
     "image": null,
     "explanation_image": null,
     "source": "3_Mačka.pdf, slajd 6",
@@ -319,7 +319,7 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Što se prema I1·ω1 = I2·ω2 događa kad mačka skrati (privuče) noge i tako smanji moment tromosti?",
+    "prompt": "Što se prema $I_1 \\cdot \\omega_1 = I_2 \\cdot \\omega_2$ događa kad mačka skrati (privuče) noge i tako smanji moment tromosti?",
     "answer": "povećava se kutna brzina",
     "accepted": [
       "povećava se kutna brzina"
@@ -329,7 +329,7 @@
       "kutna brzina ostaje ista",
       "kutna količina gibanja raste"
     ],
-    "explanation": "Umnožak I·ω je stalan, pa manji I znači veći ω. Zato mačka produljivanjem i skraćivanjem nogu i rotacijom repa mijenja brzinu kojom pojedini dijelovi tijela rotiraju.",
+    "explanation": "Umnožak $I \\cdot \\omega$ je stalan, pa manji I znači veći $\\omega$. Zato mačka produljivanjem i skraćivanjem nogu i rotacijom repa mijenja brzinu kojom pojedini dijelovi tijela rotiraju.",
     "image": null,
     "explanation_image": null,
     "source": "3_Mačka.pdf, slajd 6 i 7",
@@ -462,10 +462,10 @@
     ],
     "distractors": [
       "jedinici",
-      "m·g·h",
-      "m·v"
+      "$m \\cdot g \\cdot h$",
+      "$m \\cdot v$"
     ],
-    "explanation": "Bez vrtnje je ω = 0, pa je L = I·ω = 0. Što god mačka učini u zraku, ukupna kutna količina gibanja ostaje nula, pa mora stvoriti dvije jednake i suprotne kutne količine gibanja čiji je zbroj nula.",
+    "explanation": "Bez vrtnje je $\\omega = 0$, pa je $L = I \\cdot \\omega = 0$. Što god mačka učini u zraku, ukupna kutna količina gibanja ostaje nula, pa mora stvoriti dvije jednake i suprotne kutne količine gibanja čiji je zbroj nula.",
     "image": null,
     "explanation_image": null,
     "source": "3_Mačka.pdf, slajd 14",
@@ -508,7 +508,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Lagrangeova funkcija u direktnoj dinamičkoj metodi glasi L = T – ___.",
+    "prompt": "Lagrangeova funkcija u direktnoj dinamičkoj metodi glasi $L = T -$ ___.",
     "answer": "V",
     "accepted": [
       "V",
@@ -519,7 +519,7 @@
       "W",
       "Q"
     ],
-    "explanation": "L = T – V: T je kinetička, a V potencijalna energija sustava, obje izražene preko nezavisnih varijabli (kutovi segmenata tijela s horizontalnom osi). Iz Lagrangeove funkcije izvode se jednadžbe gibanja.",
+    "explanation": "$L = T - V$: T je kinetička, a V potencijalna energija sustava, obje izražene preko nezavisnih varijabli (kutovi segmenata tijela s horizontalnom osi). Iz Lagrangeove funkcije izvode se jednadžbe gibanja.",
     "image": null,
     "explanation_image": null,
     "source": "skripta.md – Dinamika sustava krutih i čvrstih tijela",
@@ -535,7 +535,7 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Što označava T u Lagrangeovoj funkciji L = T – V?",
+    "prompt": "Što označava T u Lagrangeovoj funkciji $L = T - V$?",
     "answer": "kinetičku energiju sustava",
     "accepted": [
       "kinetičku energiju sustava"
@@ -597,7 +597,7 @@
       "Newton-Eulerova i inverzna",
       "Eulerova i Bernoullijeva"
     ],
-    "explanation": "Direktna dinamička metoda koristi Lagrangeovu formulaciju (L = T – V) ili Newton-Eulerovu, u kojoj se iz poznatih ulaznih momenata u zglobovima integriranjem jednadžbi gibanja određuje gibanje.",
+    "explanation": "Direktna dinamička metoda koristi Lagrangeovu formulaciju ($L = T - V$) ili Newton-Eulerovu, u kojoj se iz poznatih ulaznih momenata u zglobovima integriranjem jednadžbi gibanja određuje gibanje.",
     "image": null,
     "explanation_image": null,
     "source": "skripta.md – Dinamika sustava krutih i čvrstih tijela",

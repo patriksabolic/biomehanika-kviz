@@ -159,7 +159,7 @@
       "200 nm",
       "100 nm"
     ],
-    "explanation": "Membrana je debela 10 nm (10⁻⁸ m) i polupropusna, s porama 8–10 nm. Građena je od sloja lipida između dva sloja bjelančevina, s tankim vanjskim slojem mukopolisaharida.",
+    "explanation": "Membrana je debela 10 nm ($10^{-8}\\,\\text{m}$) i polupropusna, s porama 8–10 nm. Građena je od sloja lipida između dva sloja bjelančevina, s tankim vanjskim slojem mukopolisaharida.",
     "image": null,
     "explanation_image": null,
     "source": "34_Elektrofiziologija.pdf, slajd 8 i 10",
@@ -258,16 +258,16 @@
       "mc"
     ],
     "prompt": "Koji ioni dominiraju u izvanstaničnoj tekućini, a koji u citoplazmi?",
-    "answer": "izvana Na⁺ i Cl⁻, unutra K⁺ i anioni proteina",
+    "answer": "izvana $\\ce{Na+}$ i $\\ce{Cl-}$, unutra $\\ce{K+}$ i anioni proteina",
     "accepted": [
       "izvana Na⁺ i Cl⁻, unutra K⁺ i anioni proteina"
     ],
     "distractors": [
-      "izvana K⁺, unutra Na⁺",
-      "izvana Ca⁺⁺ i Mg⁺⁺, unutra Cl⁻",
+      "izvana $\\ce{K+}$, unutra $\\ce{Na+}$",
+      "izvana $\\ce{Ca^2+}$ i $\\ce{Mg^2+}$, unutra $\\ce{Cl-}$",
       "jednako su raspoređeni"
     ],
-    "explanation": "Izvanstanična tekućina (slična morskoj soli) sadrži uglavnom Na⁺ i Cl⁻, a citoplazma K⁺ i anione proteina, uz malo Ca⁺⁺ i Mg⁺⁺. Za stvaranje razlike potencijala najvažniji su Na⁺, K⁺ i Cl⁻.",
+    "explanation": "Izvanstanična tekućina (slična morskoj soli) sadrži uglavnom $\\ce{Na+}$ i $\\ce{Cl-}$, a citoplazma $\\ce{K+}$ i anione proteina, uz malo $\\ce{Ca^2+}$ i $\\ce{Mg^2+}$. Za stvaranje razlike potencijala najvažniji su $\\ce{Na+}$, $\\ce{K+}$ i $\\ce{Cl-}$.",
     "image": null,
     "explanation_image": null,
     "source": "34_Elektrofiziologija.pdf, slajd 9",
@@ -284,7 +284,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Odnos koncentracija kalija K⁺ unutar i izvan stanice u mirovanju je ___ (150 : 5 mM/l).",
+    "prompt": "Odnos koncentracija kalija $\\ce{K+}$ unutar i izvan stanice u mirovanju je ___ (150 : 5 mM/l).",
     "answer": "30:1",
     "accepted": [
       "30:1",
@@ -314,7 +314,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Membranski potencijal prema kaliju je ΔU = 61·log(C_Kv/C_Ku) = 61·log(5/150) = ___.",
+    "prompt": "Membranski potencijal prema kaliju je $\\Delta U = 61 \\cdot \\log(C_{Kv}/C_{Ku}) = 61 \\cdot \\log(5/150) =$ ___.",
     "answer": "-90 mV",
     "accepted": [
       "-90 mV",
@@ -327,7 +327,7 @@
       "-80 mV",
       "-61 mV"
     ],
-    "explanation": "61·log(5/150) = 61·(−1,48) ≈ −90 mV. Broj 61 ovisi o plinskoj konstanti, valenciji iona, Faradayevoj konstanti i temperaturi tijela. Negativan predznak znači da je unutrašnjost negativna.",
+    "explanation": "$61 \\cdot \\log(5/150) = 61 \\cdot (-1{,}48) \\approx -90\\,\\text{mV}$. Broj 61 ovisi o plinskoj konstanti, valenciji iona, Faradayevoj konstanti i temperaturi tijela. Negativan predznak znači da je unutrašnjost negativna.",
     "image": null,
     "explanation_image": null,
     "source": "34_Elektrofiziologija.pdf, slajd 9",
@@ -344,7 +344,7 @@
     "modes": [
       "mc"
     ],
-    "prompt": "O čemu ovisi broj 61 u izrazu ΔU = 61·log(C_Kv/C_Ku)?",
+    "prompt": "O čemu ovisi broj 61 u izrazu $\\Delta U = 61 \\cdot \\log(C_{Kv}/C_{Ku})$?",
     "answer": "o plinskoj konstanti, valenciji iona, Faradayevoj konstanti i temperaturi tijela",
     "accepted": [
       "o plinskoj konstanti, valenciji iona, Faradayevoj konstanti i temperaturi tijela"
@@ -354,7 +354,7 @@
       "o broju neurona",
       "o koncentraciji natrija"
     ],
-    "explanation": "Konstanta 61 skuplja plinsku konstantu, valenciju iona, Faradayevu konstantu i temperaturu tijela. Uz omjer koncentracija 5/150 daje ΔU ≈ −90 mV.",
+    "explanation": "Konstanta 61 skuplja plinsku konstantu, valenciju iona, Faradayevu konstantu i temperaturu tijela. Uz omjer koncentracija 5/150 daje $\\Delta U \\approx -90\\,\\text{mV}$.",
     "image": null,
     "explanation_image": null,
     "source": "34_Elektrofiziologija.pdf, slajd 9",
@@ -371,7 +371,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Jakost električnog polja na membrani (U ≈ 80 mV, d = 10⁻⁸ m) iznosi E = U/d = ___.",
+    "prompt": "Jakost električnog polja na membrani ($U \\approx 80\\,\\text{mV}$, $d = 10^{-8}\\,\\text{m}$) iznosi $E = U/d =$ ___.",
     "answer": "8000 kV/m",
     "accepted": [
       "8000 kV/m",
@@ -386,7 +386,7 @@
       "80 kV/m",
       "8 kV/m"
     ],
-    "explanation": "E = U/d = 80·10⁻³ V / 10⁻⁸ m = 8·10⁶ V/m = 8000 kV/m. Napon je malen, ali membrana je iznimno tanka, pa je polje golemo.",
+    "explanation": "$E = U/d = 80 \\cdot 10^{-3}\\,\\text{V} / 10^{-8}\\,\\text{m} = 8 \\cdot 10^{6}\\,\\text{V/m} = 8000\\,\\text{kV/m}$. Napon je malen, ali membrana je iznimno tanka, pa je polje golemo.",
     "image": null,
     "explanation_image": null,
     "source": "34_Elektrofiziologija.pdf, slajd 10",
@@ -404,12 +404,12 @@
       "mc"
     ],
     "prompt": "Koje ione u mirovanju propuštaju pore (kanalići 8 nm) stanične membrane?",
-    "answer": "propuštaju K⁺ i Cl⁻, a ne propuštaju Na⁺",
+    "answer": "propuštaju $\\ce{K+}$ i $\\ce{Cl-}$, a ne propuštaju $\\ce{Na+}$",
     "accepted": [
       "propuštaju K⁺ i Cl⁻, a ne propuštaju Na⁺"
     ],
     "distractors": [
-      "propuštaju Na⁺, a ne K⁺",
+      "propuštaju $\\ce{Na+}$, a ne $\\ce{K+}$",
       "propuštaju sve ione jednako",
       "ne propuštaju nijedan ion"
     ],
@@ -430,7 +430,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Kad podražaj dosegne prag podražljivosti, vodljivost membrane za Na⁺ poveća se oko ___ puta.",
+    "prompt": "Kad podražaj dosegne prag podražljivosti, vodljivost membrane za $\\ce{Na+}$ poveća se oko ___ puta.",
     "answer": "1000",
     "accepted": [
       "1000",
@@ -443,7 +443,7 @@
       "100",
       "10"
     ],
-    "explanation": "Pri pragu podražljivosti vodljivost za natrij poraste oko 1000 puta, Na⁺ naglo prodire u stanicu i ona postaje pozitivna iznutra, a negativna izvana – depolarizacija.",
+    "explanation": "Pri pragu podražljivosti vodljivost za natrij poraste oko 1000 puta, $\\ce{Na+}$ naglo prodire u stanicu i ona postaje pozitivna iznutra, a negativna izvana – depolarizacija.",
     "image": null,
     "explanation_image": null,
     "source": "34_Elektrofiziologija.pdf, slajd 12",
@@ -460,16 +460,16 @@
       "mc"
     ],
     "prompt": "Što je depolarizacija stanice?",
-    "answer": "nagli prodor Na⁺ u stanicu, pa stanica postaje pozitivna iznutra, a negativna izvana",
+    "answer": "nagli prodor $\\ce{Na+}$ u stanicu, pa stanica postaje pozitivna iznutra, a negativna izvana",
     "accepted": [
       "nagli prodor Na⁺ u stanicu, pa stanica postaje pozitivna iznutra, a negativna izvana"
     ],
     "distractors": [
-      "izlazak K⁺ i vraćanje napona na početnu razinu",
+      "izlazak $\\ce{K+}$ i vraćanje napona na početnu razinu",
       "stanje mirovanja stanice",
       "oslobađanje transmitera u sinapsi"
     ],
-    "explanation": "Depolarizacija nastaje kad podražaj dosegne prag: Na⁺ naglo ulazi i polaritet se obrne. Zatim se vodljivost za Na⁺ smanji, a za K⁺ poveća, K⁺ izlazi i napon se vraća – repolarizacija.",
+    "explanation": "Depolarizacija nastaje kad podražaj dosegne prag: $\\ce{Na+}$ naglo ulazi i polaritet se obrne. Zatim se vodljivost za $\\ce{Na+}$ smanji, a za $\\ce{K+}$ poveća, $\\ce{K+}$ izlazi i napon se vraća – repolarizacija.",
     "image": "img/34-1.png",
     "explanation_image": null,
     "source": "34_Elektrofiziologija.pdf, slajd 12–15",
@@ -486,16 +486,16 @@
       "mc"
     ],
     "prompt": "Što je repolarizacija?",
-    "answer": "izlazak K⁺ iz stanice i vraćanje napona na početnu razinu",
+    "answer": "izlazak $\\ce{K+}$ iz stanice i vraćanje napona na početnu razinu",
     "accepted": [
       "izlazak K⁺ iz stanice i vraćanje napona na početnu razinu"
     ],
     "distractors": [
-      "nagli ulazak Na⁺ u stanicu",
+      "nagli ulazak $\\ce{Na+}$ u stanicu",
       "širenje akcijskog potencijala na susjedni dio membrane",
       "prijenos impulsa kroz sinaptičku pukotinu"
     ],
-    "explanation": "Nakon depolarizacije vodljivost za Na⁺ naglo pada, a za K⁺ raste; kalij izlazi i napon se vraća na razinu mirovanja – repolarizacija.",
+    "explanation": "Nakon depolarizacije vodljivost za $\\ce{Na+}$ naglo pada, a za $\\ce{K+}$ raste; kalij izlazi i napon se vraća na razinu mirovanja – repolarizacija.",
     "image": "img/34-1.png",
     "explanation_image": null,
     "source": "34_Elektrofiziologija.pdf, slajd 13 i 15",
@@ -511,7 +511,7 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Što je relativno refraktorno vrijeme t_r?",
+    "prompt": "Što je relativno refraktorno vrijeme $t_r$?",
     "answer": "vrijeme vraćanja napona u kojem se akcijski potencijal može izazvati samo jačim podražajem",
     "accepted": [
       "vrijeme vraćanja napona u kojem se akcijski potencijal može izazvati samo jačim podražajem"
@@ -521,7 +521,7 @@
       "vrijeme do dosezanja praga podražljivosti",
       "vrijeme prijenosa kroz sinapsu"
     ],
-    "explanation": "t_a (apsolutno refraktorno) je vrijeme trajanja akcijskog potencijala. t_r (relativno refraktorno) je vrijeme smirivanja napona – novi akcijski potencijal moguć je samo jačim podražajem, sve dok se ne mogu ponovno stvarati uz normalan intenzitet.",
+    "explanation": "$t_a$ (apsolutno refraktorno) je vrijeme trajanja akcijskog potencijala. $t_r$ (relativno refraktorno) je vrijeme smirivanja napona – novi akcijski potencijal moguć je samo jačim podražajem, sve dok se ne mogu ponovno stvarati uz normalan intenzitet.",
     "image": "img/34-1.png",
     "explanation_image": null,
     "source": "34_Elektrofiziologija.pdf, slajd 14 i 15",
@@ -597,16 +597,16 @@
       "fill"
     ],
     "prompt": "Sinaptička pukotina široka je ___.",
-    "answer": "200 nm",
+    "answer": "$200\\,\\text{nm}$",
     "accepted": [
       "200 nm",
       "200",
       "200nm"
     ],
     "distractors": [
-      "10 nm",
-      "8 nm",
-      "20 µm"
+      "$10\\,\\text{nm}$",
+      "$8\\,\\text{nm}$",
+      "$20\\,\\mu\\text{m}$"
     ],
     "explanation": "Sinapse su uski međuprostori između neurona, sinaptička pukotina je 200 nm. Akcijski potencijal preko nje prelazi pomoću kemijskog transmitera.",
     "image": null,
@@ -660,7 +660,7 @@
       "glicin",
       "histamin"
     ],
-    "explanation": "Acetilkolin olakšava prodor Na⁺ kroz postsinaptičku membranu. Ostale skupine: monoamini (serotonin, histamin), aminokiseline (GABA, glicin – povećavaju potencijal u mirovanju) te peptidi i dopamin.",
+    "explanation": "Acetilkolin olakšava prodor $\\ce{Na+}$ kroz postsinaptičku membranu. Ostale skupine: monoamini (serotonin, histamin), aminokiseline (GABA, glicin – povećavaju potencijal u mirovanju) te peptidi i dopamin.",
     "image": null,
     "explanation_image": null,
     "source": "34_Elektrofiziologija.pdf, slajd 21",

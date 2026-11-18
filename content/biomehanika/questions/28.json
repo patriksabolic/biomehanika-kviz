@@ -408,7 +408,7 @@
       "ortodontska sila",
       "Hounsfieldova jedinica"
     ],
-    "explanation": "Unutarnja pregradnja mijenja gustoću spužvaste kosti, a kontrolira je gustoća energije deformiranja U (iterativni postupak). Nema pregradnje ako je gustoća kosti manja od 0,01 g/cm³ ili veća od 1,73 g/cm³.",
+    "explanation": "Unutarnja pregradnja mijenja gustoću spužvaste kosti, a kontrolira je gustoća energije deformiranja U (iterativni postupak). Nema pregradnje ako je gustoća kosti manja od $0{,}01\\,\\text{g/cm}^{3}$ ili veća od $1{,}73\\,\\text{g/cm}^{3}$.",
     "image": null,
     "explanation_image": null,
     "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 6",
@@ -425,7 +425,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Unutarnje pregradnje nema ako je gustoća spužvaste kosti veća od ___ g/cm³ (ili manja od 0,01 g/cm³).",
+    "prompt": "Unutarnje pregradnje nema ako je gustoća spužvaste kosti veća od ___ $\\text{g/cm}^{3}$ (ili manja od $0{,}01\\,\\text{g/cm}^{3}$).",
     "answer": "1,73",
     "accepted": [
       "1,73",
@@ -438,7 +438,7 @@
       "2,5",
       "1,0"
     ],
-    "explanation": "Granice su 0,01 g/cm³ i 1,73 g/cm³: izvan tog raspona gustoće postupak ne mijenja gustoću spužvaste kosti.",
+    "explanation": "Granice su $0{,}01\\,\\text{g/cm}^{3}$ i $1{,}73\\,\\text{g/cm}^{3}$: izvan tog raspona gustoće postupak ne mijenja gustoću spužvaste kosti.",
     "image": null,
     "explanation_image": null,
     "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 6",
@@ -550,7 +550,7 @@
       "13800 MPa",
       "50 MPa"
     ],
-    "explanation": "U analizi (izotropno, linearno elastično): caklina E = 70 000 MPa (ν = 0,3), dentin 15 000 MPa (0,31), kortikalna kost 13 800 MPa (0,26) i PDL 50 MPa (0,47). Caklina je najkruća, a PDL daleko najpodatniji.",
+    "explanation": "U analizi (izotropno, linearno elastično): caklina $E = 70\\,000\\,\\text{MPa}$ ($\\nu = 0{,}3$), dentin 15 000 MPa (0,31), kortikalna kost 13 800 MPa (0,26) i PDL 50 MPa (0,47). Caklina je najkruća, a PDL daleko najpodatniji.",
     "image": null,
     "explanation_image": null,
     "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 13",
@@ -579,7 +579,7 @@
       "15000 MPa",
       "0,47 MPa"
     ],
-    "explanation": "PDL ima E = 50 MPa i Poissonov faktor 0,47 – gotovo nestlačiv i vrlo podatljiv u odnosu na zub i kost. Zato se pri opterećenju najviše deformira upravo PDL, a ta deformacija je stimulus za pomak zuba.",
+    "explanation": "PDL ima $E = 50\\,\\text{MPa}$ i Poissonov faktor 0,47 – gotovo nestlačiv i vrlo podatljiv u odnosu na zub i kost. Zato se pri opterećenju najviše deformira upravo PDL, a ta deformacija je stimulus za pomak zuba.",
     "image": null,
     "explanation_image": null,
     "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 13",

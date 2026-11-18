@@ -335,7 +335,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Veliki mozak ima masu oko ___ i 10¹¹ stanica.",
+    "prompt": "Veliki mozak ima masu oko ___ i $10^{11}$ stanica.",
     "answer": "1,5 kg",
     "accepted": [
       "1,5 kg",
@@ -349,7 +349,7 @@
       "3 kg",
       "0,5 kg"
     ],
-    "explanation": "Veliki mozak ima oko 1,5 kg i 10¹¹ stanica. Kora (siva tvar) debela je oko 3 mm, a brazde i vijuge daju joj veliku površinu.",
+    "explanation": "Veliki mozak ima oko 1,5 kg i $10^{11}$ stanica. Kora (siva tvar) debela je oko 3 mm, a brazde i vijuge daju joj veliku površinu.",
     "image": null,
     "explanation_image": null,
     "source": "30_Zivcani sustav.pdf, slajd 21",
@@ -1000,7 +1000,7 @@
       "8 vratnih, 12 prsnih, 6 slabinskih i 5 križnih",
       "12 vratnih, 8 prsnih, 5 slabinskih, 5 križnih, 1 trtični"
     ],
-    "explanation": "8 + 12 + 5 + 5 + 1 = 31 par. Vratnih živaca ima 8, iako je vratnih kralježaka 7.",
+    "explanation": "$8 + 12 + 5 + 5 + 1 = 31$ par. Vratnih živaca ima 8, iako je vratnih kralježaka 7.",
     "image": null,
     "explanation_image": null,
     "source": "30_Zivcani sustav.pdf, slajd 54; 31_Ledjna mozdina.pdf, slajd 4 i 7",
@@ -1161,7 +1161,7 @@
       "Cortijev organ",
       "mišićna vretena"
     ],
-    "explanation": "Osjetila se dijele na eksteroceptore (štapići, čunjići, Cortijev organ, njuh, okus, kožni receptori), visceroceptore (bol, glad, žeđ, umor, mučnina, baroreceptori, kemoreceptori za O₂, CO₂, H⁺) i proprioceptore.",
+    "explanation": "Osjetila se dijele na eksteroceptore (štapići, čunjići, Cortijev organ, njuh, okus, kožni receptori), visceroceptore (bol, glad, žeđ, umor, mučnina, baroreceptori, kemoreceptori za $\\ce{O2}$, $\\ce{CO2}$, $\\ce{H+}$) i proprioceptore.",
     "image": null,
     "explanation_image": null,
     "source": "30_Zivcani sustav.pdf, slajd 64",

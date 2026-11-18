@@ -261,7 +261,7 @@
       "12 mm",
       "40-50 mm"
     ],
-    "explanation": "Dušnik je cijev unutarnjeg promjera 20–25 mm i duljine oko 12 cm, koja spaja grkljan s primarnim bronhima. U računskom primjeru uzima se d = 20 mm.",
+    "explanation": "Dušnik je cijev unutarnjeg promjera 20–25 mm i duljine oko 12 cm, koja spaja grkljan s primarnim bronhima. U računskom primjeru uzima se $d = 20\\,\\text{mm}$.",
     "image": null,
     "explanation_image": null,
     "source": "21__Sustav organa za disanje.pdf, slajd 9; skripta.md – Disanje",
@@ -622,7 +622,7 @@
       "16",
       "3"
     ],
-    "explanation": "Bronhalno stablo nastaje grananjem oko 23 puta, a promjer se pri tome stalno mijenja. U računskom primjeru strujanje je u dušniku turbulentno (Re ≈ 3220), a na trećem nivou grananja laminarno (Re ≈ 1072).",
+    "explanation": "Bronhalno stablo nastaje grananjem oko 23 puta, a promjer se pri tome stalno mijenja. U računskom primjeru strujanje je u dušniku turbulentno ($\\mathrm{Re} \\approx 3220$), a na trećem nivou grananja laminarno ($\\mathrm{Re} \\approx 1072$).",
     "image": null,
     "explanation_image": null,
     "source": "21__Sustav organa za disanje.pdf, slajd 18",
@@ -639,19 +639,19 @@
       "mc",
       "fill"
     ],
-    "prompt": "Reynoldsov broj za strujanje kroz cijev računa se kao Re = v·d·ρ / ___.",
-    "answer": "η",
+    "prompt": "Reynoldsov broj za strujanje kroz cijev računa se kao $\\mathrm{Re} = v \\cdot d \\cdot \\rho /$ ___.",
+    "answer": "$\\eta$",
     "accepted": [
       "η",
       "eta",
       "dinamička viskoznost"
     ],
     "distractors": [
-      "ν",
-      "p",
-      "A"
+      "$\\nu$",
+      "$p$",
+      "$A$"
     ],
-    "explanation": "Re = v·d·ρ/η, gdje je v srednja brzina, d promjer, ρ gustoća, a η dinamička viskoznost fluida. Re > 2300 znači turbulentno, a Re < 2300 laminarno strujanje.",
+    "explanation": "$\\mathrm{Re} = v \\cdot d \\cdot \\rho/\\eta$, gdje je $v$ srednja brzina, $d$ promjer, $\\rho$ gustoća, a $\\eta$ dinamička viskoznost fluida. $\\mathrm{Re} > 2300$ znači turbulentno, a $\\mathrm{Re} < 2300$ laminarno strujanje.",
     "image": null,
     "explanation_image": null,
     "source": "21__Sustav organa za disanje.pdf, slajd 19",
@@ -668,8 +668,8 @@
       "mc",
       "fill"
     ],
-    "prompt": "Pri udisaju V = 0,6 l za t = 0,8 s volumni protok iznosi q_V = ___.",
-    "answer": "0,00075 m³/s",
+    "prompt": "Pri udisaju $V = 0{,}6\\,\\text{l}$ za $t = 0{,}8\\,\\text{s}$ volumni protok iznosi $q_V =$ ___.",
+    "answer": "$0{,}00075\\,\\text{m}^{3}\\text{/s}$",
     "accepted": [
       "0,00075 m³/s",
       "0,00075",
@@ -679,11 +679,11 @@
       "0.00075 m3/s"
     ],
     "distractors": [
-      "0,00048 m³/s",
-      "0,0075 m³/s",
-      "0,000094 m³/s"
+      "$0{,}00048\\,\\text{m}^{3}\\text{/s}$",
+      "$0{,}0075\\,\\text{m}^{3}\\text{/s}$",
+      "$0{,}000094\\,\\text{m}^{3}\\text{/s}$"
     ],
-    "explanation": "q_V = V/t = 0,0006 m³ / 0,8 s = 0,00075 m³/s. Isti protok prolazi dušnikom, a na trećem nivou grananja dijeli se na 8 bronha.",
+    "explanation": "$q_V = V/t = 0{,}0006\\,\\text{m}^{3}/0{,}8\\,\\text{s} = 0{,}00075\\,\\text{m}^{3}\\text{/s}$. Isti protok prolazi dušnikom, a na trećem nivou grananja dijeli se na 8 bronha.",
     "image": null,
     "explanation_image": null,
     "source": "21__Sustav organa za disanje.pdf, slajd 18 i 19",
@@ -712,7 +712,7 @@
       "3220",
       "10000"
     ],
-    "explanation": "Ako je Re > 2300, strujanje je turbulentno, a ako je Re < 2300, laminarno. U primjeru dušnik ima Re ≈ 3220, a bronh na trećem nivou Re ≈ 1072.",
+    "explanation": "Ako je $\\mathrm{Re} > 2300$, strujanje je turbulentno, a ako je $\\mathrm{Re} < 2300$, laminarno. U primjeru dušnik ima $\\mathrm{Re} \\approx 3220$, a bronh na trećem nivou $\\mathrm{Re} \\approx 1072$.",
     "image": null,
     "explanation_image": null,
     "source": "21__Sustav organa za disanje.pdf, slajd 19",
@@ -728,17 +728,17 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Kakvo je strujanje zraka u dušniku promjera 20 mm (V = 0,6 l za 0,8 s)?",
-    "answer": "turbulentno, Re ≈ 3220",
+    "prompt": "Kakvo je strujanje zraka u dušniku promjera 20 mm ($V = 0{,}6\\,\\text{l}$ za 0,8 s)?",
+    "answer": "turbulentno, $\\mathrm{Re} \\approx 3220$",
     "accepted": [
       "turbulentno, Re ≈ 3220"
     ],
     "distractors": [
-      "laminarno, Re ≈ 1072",
-      "laminarno, Re ≈ 2300",
-      "turbulentno, Re ≈ 10 000"
+      "laminarno, $\\mathrm{Re} \\approx 1072$",
+      "laminarno, $\\mathrm{Re} \\approx 2300$",
+      "turbulentno, $\\mathrm{Re} \\approx 10\\,000$"
     ],
-    "explanation": "A = d²π/4 = 0,000314 m², v = q_V/A ≈ 2,39 m/s, Re = v·d·ρ/η = 2,39·0,02·1,2/1,78·10⁻⁵ ≈ 3220. To je više od 2300, pa je strujanje turbulentno.",
+    "explanation": "$A = d^{2}\\pi/4 = 0{,}000314\\,\\text{m}^{2}$, $v = q_V/A \\approx 2{,}39\\,\\text{m/s}$, $\\mathrm{Re} = v \\cdot d \\cdot \\rho/\\eta = 2{,}39 \\cdot 0{,}02 \\cdot 1{,}2/1{,}78 \\cdot 10^{-5} \\approx 3220$. To je više od 2300, pa je strujanje turbulentno.",
     "image": null,
     "explanation_image": null,
     "source": "21__Sustav organa za disanje.pdf, slajd 18 i 19",
@@ -754,17 +754,17 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Kakvo je strujanje na trećem nivou grananja (n = 8 bronha, d = 7,5 mm)?",
-    "answer": "laminarno, Re ≈ 1072",
+    "prompt": "Kakvo je strujanje na trećem nivou grananja ($n = 8$ bronha, $d = 7{,}5\\,\\text{mm}$)?",
+    "answer": "laminarno, $\\mathrm{Re} \\approx 1072$",
     "accepted": [
       "laminarno, Re ≈ 1072"
     ],
     "distractors": [
-      "turbulentno, Re ≈ 3220",
-      "turbulentno, Re ≈ 2600",
-      "laminarno, Re ≈ 134"
+      "turbulentno, $\\mathrm{Re} \\approx 3220$",
+      "turbulentno, $\\mathrm{Re} \\approx 2600$",
+      "laminarno, $\\mathrm{Re} \\approx 134$"
     ],
-    "explanation": "Protok se dijeli na 8 bronha: q_Vb = 0,00075/8 ≈ 0,0000937 m³/s; A = 0,0000442 m², v ≈ 2,12 m/s; Re ≈ 1072 < 2300, pa je strujanje laminarno. Manji promjer i manja brzina smanjuju Re.",
+    "explanation": "Protok se dijeli na 8 bronha: $q_{Vb} = 0{,}00075/8 \\approx 0{,}0000937\\,\\text{m}^{3}\\text{/s}$; $A = 0{,}0000442\\,\\text{m}^{2}$, $v \\approx 2{,}12\\,\\text{m/s}$; $\\mathrm{Re} \\approx 1072 < 2300$, pa je strujanje laminarno. Manji promjer i manja brzina smanjuju $\\mathrm{Re}$.",
     "image": null,
     "explanation_image": null,
     "source": "21__Sustav organa za disanje.pdf, slajd 18 i 19",
@@ -781,7 +781,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Srednja brzina zraka u dušniku promjera 20 mm pri q_V = 0,00075 m³/s iznosi ___.",
+    "prompt": "Srednja brzina zraka u dušniku promjera 20 mm pri $q_V = 0{,}00075\\,\\text{m}^{3}\\text{/s}$ iznosi ___.",
     "answer": "2,39 m/s",
     "accepted": [
       "2,39 m/s",
@@ -796,7 +796,7 @@
       "0,75 m/s",
       "23,9 m/s"
     ],
-    "explanation": "v = q_V/A, a A = d²π/4 = 0,02²·π/4 = 0,000314 m². v = 0,00075/0,000314 ≈ 2,39 m/s. Na trećem nivou grananja brzina je nešto manja, 2,12 m/s.",
+    "explanation": "$v = q_V/A$, a $A = d^{2}\\pi/4 = 0{,}02^{2} \\cdot \\pi/4 = 0{,}000314\\,\\text{m}^{2}$. $v = 0{,}00075/0{,}000314 \\approx 2{,}39\\,\\text{m/s}$. Na trećem nivou grananja brzina je nešto manja, 2,12 m/s.",
     "image": null,
     "explanation_image": null,
     "source": "21__Sustav organa za disanje.pdf, slajd 19",

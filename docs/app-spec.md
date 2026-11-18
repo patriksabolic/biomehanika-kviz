@@ -11,7 +11,7 @@ Ovaj dokument je **opći dio**: aplikacija, format pitanja, algoritmi i pravila 
 
 ## 1. Cilj i okvir
 
-- Korisnik: jedan student (Patrik). Telefon: Samsung Galaxy S25 Ultra, Chrome. Korisnik nije programer. Datum ispita, ciljana ocjena i dnevno vrijeme po kolegiju su u `docs/courses/<id>.md`.
+- Korisnik: jedan student (Patrik). Telefon: Samsung Galaxy S25 Ultra, Chrome. Korisnik nije programer. Datum ispita, ciljanu ocjenu, minute dnevno, trajanje ispita i pragove ocjena korisnik postavlja **u aplikaciji**, za svaki kolegij posebno (odjeljak 12).
 - Aplikacija: **PWA** – čisti HTML/CSS/JS, bez Node.js-a, bez build alata, bez backenda. Hosting: GitHub Pages. Radi **offline**. Svi podaci korisnika su **lokalno** (localStorage) uz export/import JSON datoteke.
 - **Više kolegija**: popis u `content/courses.json`; svaki kolegij ima svoju mapu sadržaja, svoj prefiks ID-a pitanja i vlastiti napredak, plan, statistiku, postavke ispita i prijave (odjeljak 3).
 - **Sve ocjenjuje aplikacija automatski.** Nema samoocjenjivanja. Ispitni zadaci tipa "skiciraj" pretvaraju se u oblike koje app može ocijeniti (označi na slici, poredaj, spoji, zaokruži).
@@ -24,7 +24,7 @@ biomehanika-kviz/            (naziv repozitorija ostaje; aplikacija se zove "Kvi
   index.html                 jedna stranica, "ekrani" se izmjenjuju JS-om
   manifest.json
   sw.js                      service worker (offline)
-  version.json               { "version": "0.6.0", "content": "2026-11-18" }
+  version.json               { "version": "0.7.0", "content": "2026-11-18" }
   css/app.css
   js/
     app.js                   navigacija, popis kolegija, ekrani, inicijalizacija
@@ -39,6 +39,9 @@ biomehanika-kviz/            (naziv repozitorija ostaje; aplikacija se zove "Kvi
     stats.js                 statistika, streak (crtanje bez vanjskih biblioteka)
     settings.js              postavke
     util.js                  pomoćne funkcije
+    math.js                  prikaz formula (KaTeX), klasična skripta: window.kvizMath
+    zoom.js                  slika preko cijelog zaslona sa zumiranjem
+  vendor/katex/              KaTeX 0.19.1 (katex.min.js/.css, fonts/*.woff2, contrib/auto-render, contrib/mhchem)
   icons/                     icon-192.png, icon-512.png
   content/
     courses.json             popis kolegija
@@ -57,6 +60,7 @@ biomehanika-kviz/            (naziv repozitorija ostaje; aplikacija se zove "Kvi
   tools/
     extract_pdf.py           PDF → text/<nn>.md + img-raw/ (PyMuPDF), --course <id>
     validate.py              provjera pitanja; bez argumenta svi kolegiji, --course <id> jedan
+    mathcheck.py             provjera formula (zapis + render u Chromeu bez prozora), koristi ga validate.py
     make_icons.py            ikone bez vanjskih paketa
   docs/
     app-spec.md              ovaj dokument (opći dio)
@@ -67,7 +71,7 @@ biomehanika-kviz/            (naziv repozitorija ostaje; aplikacija se zove "Kvi
   README.md
 ```
 
-Vanjske biblioteke: samo ako su nužne, i tada kopirane u `vendor/` (ne CDN), da sve radi offline. Zadano: nijedna.
+Vanjske biblioteke: samo ako su nužne, i tada kopirane u `vendor/` (ne CDN), da sve radi offline. Jedina: **KaTeX 0.19.1** s dodatkom mhchem (MIT licenca), službeno izdanje `katex.tar.gz` s GitHuba (`github.com/KaTeX/KaTeX/releases/tag/v0.19.1`); kopirani su samo `katex.min.js`, `katex.min.css`, fontovi `.woff2` (Chrome koristi samo njih), `contrib/auto-render.min.js` i `contrib/mhchem.min.js`.
 
 ## 3. Kolegiji
 
@@ -81,7 +85,7 @@ Vanjske biblioteke: samo ako su nužne, i tada kopirane u `vendor/` (ne CDN), da
 ```
 
 - `id` kolegija: mala slova bez dijakritika, brojke i crtica, bez razmaka (npr. `biokemija-lijekova`). Isti id koriste mapa `content/<id>/`, mapa `content/source/<id>/`, `docs/courses/<id>.md` i ključ u pohrani (`courses.<id>`). **Id se nakon prvog korištenja ne mijenja** (napredak je vezan uz njega).
-- `content/<id>/course.json` sadrži: `id`, `name`, **`idPrefix`** (2–4 mala slova, jedinstven među kolegijima, npr. `bm`), `examDate` (`"GGGG-MM-DD"` ili `null` dok nije poznat), `grading` (zadani pragovi, odjeljak 8), `exam` (`{ "durationMin": 45 }`), `questionFiles` (popis datoteka u `questions/`, jer statički hosting ne može izlistati mapu), `areas[]`, `chapters[]`.
+- `content/<id>/course.json` sadrži: `id`, `name`, **`idPrefix`** (2–4 mala slova, jedinstven među kolegijima, npr. `bm`), neobavezne zadane vrijednosti ispita `examDate` (`"GGGG-MM-DD"`), `targetGrade` (2–5), `minutesPerDay`, `grading` (pragovi, odjeljak 8) i `exam` (`{ "durationMin": 45 }`) – korisnik ih mijenja u aplikaciji, a bez njih vrijede opće zadane vrijednosti (bez datuma, ocjena 3, 15 min, pragovi 50/62/75/88 %, 45 min), `questionFiles` (popis datoteka u `questions/`, jer statički hosting ne može izlistati mapu), `areas[]`, `chapters[]`.
 - Područja: `{ "id": "kosti", "name": "Kosti, skele i osteosinteza", "chapters": ["07", "08"] }`. Poglavlja: `{ "id": "07", "title": "Kosti 1", "area": "kosti", "source": "7_Kosti 1.pdf" }`; id poglavlja je dvoznamenkast (`01`, `02` …), svako poglavlje je u točno jednom području.
 - Pitanja s kolokvija / starih ispita (datoteka `00-kolokvij.json`) nemaju vlastito poglavlje: svako dobiva `chapter` stvarnog poglavlja na koje se odnosi i `real_exam: true`. Tako statistika po poglavljima uključuje i njih.
 - **Kolegij bez pitanja** (`questionFiles: []`, prazni `areas`/`chapters`) prikazuje se na Početnoj kao kartica **"U pripremi"**, ne može se otvoriti i ništa se ne ruši. Kolegij koji se ne može učitati prikazuje karticu s greškom, ostali rade.
@@ -107,6 +111,19 @@ Svaka datoteka u `questions/` je JSON polje pitanja (flat array). Polja:
 | source | string | npr. `"9_Zbita i spužvasta kost.pdf, slajd 5"` ili `"Pitanja s kolokvija"` |
 | tags | string[] | iz popisa: `brojka`, `formula`, `definicija`, `podjela`, `funkcija`, `povijest`, `skica`, `racun`, `usporedba` |
 | real_exam | bool | true samo za stvarna ispitna pitanja (datoteka `00-kolokvij.json`) |
+
+### Formule, indeksi i kemijske oznake (KaTeX + mhchem)
+
+Aplikacija prikazuje formule KaTeX-om (`vendor/katex/`, s dodatkom mhchem) u pitanju, ponuđenim odgovorima, objašnjenju, pregledu ispita i statistici. Pravila zapisa u `prompt`, `answer`, `distractors`, `explanation` (i u `labels`, `items`, `pairs`):
+
+- Matematika u `$...$` (u retku) ili `$$...$$` (zasebni redak, samo za dulje formule u objašnjenju). U JSON-u se `\` piše kao `\\`, npr. `"$\\sigma = F/A$"`.
+- Kemija preko `\ce{...}` unutar `$...$`: `$\ce{H2O}$`, `$\ce{CO2}$`, `$\ce{Ca^2+}$`, `$\ce{CH3COOH + H2O <=> CH3COO- + H3O+}$`.
+- Indeksi i eksponenti uvijek kao LaTeX: m_i → `$m_i$`, B0 → `$B_0$`, 10^5 / 10⁵ → `$10^{5}$`, cm² → `$\text{cm}^{2}$`. Unicode indeksi/eksponenti (², ₂, ⁻) i grčka slova izvan formule nisu dopušteni.
+- Decimalni zarez u formuli kao `{,}`: `$0{,}6\,\text{MPa}$`. Množenje `\cdot`. Jedinice i riječi u formuli `\text{...}`, između broja i jedinice `\,`. Postotak u formuli `\%`. Grčka slova `\rho`, `\sigma`, `\mu`, `\omega` … (i u riječima: `$\gamma$-zračenje`, `$30\,\mu\text{m}$`).
+- Praznina `___` je uvijek izvan formule: `$m_i = B_0 + B_1 \cdot M + B_2 \cdot$ ___`.
+- Formula se ne koristi za običan broj s jedinicom bez indeksa/eksponenta/grčkog slova ("0,6 MPa" ostaje tekst). Anatomske oznake (C1–C7, L5, Th12) nisu indeksi i ostaju tekst.
+- `answer` i distraktori smiju sadržavati LaTeX (isti oblik za sve opcije, da oblik ne otkriva odgovor). **`accepted` sadrži samo oblike koji se mogu utipkati na mobitelu** (npr. `"H2O"`, `"6 x 10^5 Pa"`, `"rho"`) – bez `$` i `\`. Kad `answer` ima formulu, `accepted` ne mora sadržavati `answer`, ali kod `fill` mora imati barem jedan tipkani oblik. Ako odgovor nema smislen tipkani oblik, pitanje je samo `mc` (`type: "mc"`, `modes: ["mc"]`).
+- Ocjenjivanje upisa uspoređuje upis s `accepted` i s `answer`/distraktorima pretvorenim u običan tekst (`plainText` u `js/grading.js`: `$6 \cdot 10^{5}\,\text{Pa}$` → `6 · 10^5 Pa`).
 
 Dodatna polja po tipu:
 
@@ -236,7 +253,7 @@ Sve po odabranom kolegiju.
 
 ## 11. Plan učenja
 
-Po kolegiju. Ulaz (ekran Plan, otvara se s Početne kolegija): datum ispita (zadano `examDate` iz `course.json`; ako je `null`, korisnik ga upisuje), ciljana ocjena 2–5 (zadano 3), minuta dnevno (zadano 15), neradni dani (dani u tjednu, opcionalno).
+Po kolegiju. Ulaz (ekran Plan, otvara se s Početne kolegija): datum ispita, ciljana ocjena 2–5, minuta dnevno – to su **iste postavke kolegija kao u Postavkama** (odjeljak 12; zadano iz `course.json`, inače bez datuma, 3, 15) – i neradni dani (dani u tjednu, opcionalno, dio plana). Bez datuma ispita plan se ne može napraviti: ekran Plan prvo traži datum. Kviz i ispit rade i bez datuma.
 
 ```
 daysLeft      = dani do ispita (bez dana ispita, bez neradnih)
@@ -260,21 +277,22 @@ Prikaz: popis dana s poglavljima i brojem pitanja; na Početnoj kolegija kartica
 
 Ekran Postavke ima dva dijela:
 
-- **Kolegij: <naziv>** (odabrani kolegij): pragovi ocjena · zadano trajanje ispita · dnevni cilj · **Prijave** (reports + overrides, gumb "Kopiraj" → tekst za zalijepiti u Claude Code; tekst navodi naziv i id kolegija) · Reset napretka kolegija (uz potvrdu).
+- **Kolegij: <naziv>** (odabrani kolegij): **Ispit** (datum ispita, ciljana ocjena, minuta dnevno; promjena datuma ili minuta preračunava postojeći plan, promjena ocjene samo cilj) · pragovi ocjena · zadano trajanje ispita · dnevni cilj · **Prijave** (reports + overrides, gumb "Kopiraj" → tekst za zalijepiti u Claude Code; tekst navodi naziv i id kolegija) · Reset napretka kolegija (uz potvrdu).
 - **Aplikacija** (zajedničko): način prikaza (auto/mc/fill) · tema (prati sustav/tamna/svijetla) · vibracija na odgovor · **Export** (preuzmi `kviz-backup-GGGG-MM-DD.json`, svi kolegiji) · **Import** (odabir datoteke; spoji ili zamijeni) · verzija aplikacije i sadržaja.
 
 Kolegij se ne bira u Postavkama, nego dodirom kartice na Početnoj.
 
 ## 13. Pohrana
 
-localStorage ključ `bmkviz.v1` (ostaje zbog postojećih podataka) → jedan JSON objekt, shema **2**:
+localStorage ključ `bmkviz.v1` (ostaje zbog postojećih podataka) → jedan JSON objekt, shema **3**:
 
 ```
-{ schema: 2,
+{ schema: 3,
   settings: { lastCourse, displayMode, theme, vibration },          zajedničko
   bestStreak,                                                       najdulji zajednički streak
   courses: { "<id>": {
-    settings: { dailyGoal, grading, examDuration, quiz, exam },     postavke kolegija
+    settings: { dailyGoal, examDate, targetGrade, minutesPerDay,
+                grading, examDuration, quiz, exam },                postavke kolegija (null = zadano)
     questions: { "<id pitanja>": zapis iz odjeljka 7 },
     exams: [], activeExam, days: { "2026-11-18": { answered, correct, seconds } },
     bestStreak, reports: [], overrides: [],
@@ -284,13 +302,14 @@ localStorage ključ `bmkviz.v1` (ostaje zbog postojećih podataka) → jedan JSO
 Spremanje nakon svakog odgovora (debounce 300 ms). Migracije po `schema`:
 
 - **1 → 2**: `settings.dailyGoal`, `grading`, `examDuration`, `quiz`, `exam` premještaju se u `courses.<settings.course>.settings` (zadano `biomehanika`); `settings.course` → `settings.lastCourse`. Napredak, ispiti, plan i prijave ostaju gdje jesu.
+- **2 → 3**: kolegij s planom dobiva `settings.examDate`, `targetGrade` i `minutesPerDay` iz svog plana (ako ih još nema); plan i sve ostalo ostaje nepromijenjeno.
 
 Export = cijeli objekt. Import prihvaća shemu ≤ trenutne i migrira je ("Spoji": napredak po pitanju s novijim `lastSeen`, ispiti/prijave unija, dan s većim brojem odgovora, postavke ostaju trenutne; "Zamijeni": sve, i postavke).
 
 ## 14. PWA i deploy
 
 - `manifest.json`: name **"Kviz"**, short_name "Kviz", `start_url: "./"`, `scope: "./"`, `display: "standalone"`, ikone 192 i 512.
-- `sw.js`: naziv cachea `bmkviz-<version>` iz `version.json`. App shell (index, css, js, manifest, ikone): **cache-first**. `content/**`: **network-first s cache fallbackom** (nova pitanja stižu kad ima mreže, offline radi staro). Popis `CONTENT` sadrži `course.json`, sve datoteke pitanja i slike **svih kolegija**. Na `activate` briše stare cacheve. **Pri svakom deployu Claude Code podigne verziju** u `version.json` i `sw.js`.
+- `sw.js`: naziv cachea `bmkviz-<version>` iz `version.json`. App shell (index, css, js, manifest, ikone, `vendor/katex/` s fontovima): **cache-first**. `content/**`: **network-first s cache fallbackom** (nova pitanja stižu kad ima mreže, offline radi staro). Popis `CONTENT` sadrži `course.json`, sve datoteke pitanja i slike **svih kolegija**. Na `activate` briše stare cacheve. **Pri svakom deployu Claude Code podigne verziju** u `version.json` i `sw.js`.
 - Sve putanje relativne (`./`), jer GitHub Pages poslužuje pod `/biomehanika-kviz/` (repozitorij i link ostaju isti).
 - Lokalno testiranje: `python -m http.server 8000` u mapi projekta → `http://localhost:8000` u Chromeu (F12 → ikona mobitela, 412×915).
 - Deploy: push na granu `main`, GitHub Pages iz root-a. URL `https://<korisnik>.github.io/biomehanika-kviz/`.
@@ -298,11 +317,13 @@ Export = cijeli objekt. Import prihvaća shemu ≤ trenutne i migrira je ("Spoji
 
 ## 15. Sučelje
 
-- **Početna = popis kolegija**: kartica zajedničkog streaka (odjeljak 9) i kartice kolegija redom iz `courses.json`. Kartica: naziv, dana do ispita (datum iz plana, inače iz `course.json`), napredak danas (odgovoreno/dnevni cilj + traka, streak kolegija), današnji plan, oznaka započetog ispita. Kolegij bez pitanja: "U pripremi", ne može se otvoriti. Dodir kartice otvara **Početnu kolegija** (streak kolegija, današnji plan s gumbom Kreni, brzi start "Brzi kviz 10", "Samo ispitna pitanja", odabir poglavlja).
+- **Početna = popis kolegija**: kartica zajedničkog streaka (odjeljak 9) i kartice kolegija redom iz `courses.json`. Kartica: naziv, dana do ispita (postavka kolegija, inače zadano iz `course.json`; bez datuma piše **"Postavi datum ispita"**), napredak danas (odgovoreno/dnevni cilj + traka, streak kolegija), današnji plan, oznaka započetog ispita. Kolegij bez pitanja: "U pripremi", ne može se otvoriti. Dodir kartice otvara **Početnu kolegija** (streak kolegija, današnji plan s gumbom Kreni, brzi start "Brzi kviz 10", "Samo ispitna pitanja", odabir poglavlja).
 - **Zaglavlje** (na svim ekranima osim popisa kolegija): "‹ Kolegiji" (povratak na popis) i naziv odabranog kolegija.
 - Donja navigacija: **Početna** (popis kolegija) · **Kviz** · **Ispit** · **Statistika** · **Postavke**. Kviz, Ispit, Statistika i Plan rade za odabrani kolegij. Aplikacija pamti zadnji odabrani kolegij (`settings.lastCourse`) i nakon ponovnog pokretanja; pri pokretanju se prikazuje popis kolegija.
 - Mobile-first za širinu ~412 CSS px; min. 48 px dodirne površine; font ≥ 16 px; visok kontrast; točno/netočno označeno bojom **i** ikonom; tamna tema; CSS varijable; bez vanjskih fontova (sistemski font).
 - Sve oznake na hrvatskom s dijakriticima.
+- **Formule** (KaTeX, odjeljak 4) prikazuju se svugdje gdje se prikazuje tekst pitanja: pitanje, ponuđeni odgovori, objašnjenje, pregled ispita, statistika (`window.kvizMath.observe` na cijeloj stranici). Ne prikazuju se u poljima za upis i u tekstu prijava (kopira se izvorni zapis).
+- **Slike** u pitanjima i objašnjenjima su uvijek na bijeloj podlozi s malim rubom (i u tamnoj temi). Dodir slike otvara je preko cijelog zaslona: dva prsta zumiranje (do 6×), jedan prst pomicanje zumirane slike, dvostruki dodir 2,5× / natrag, ✕ ili tipka Natrag zatvara.
 
 ## 16. Generiranje pitanja (pravila za Claude Code)
 
@@ -314,7 +335,7 @@ Export = cijeli objekt. Import prihvaća shemu ≤ trenutne i migrira je ("Spoji
 - Objašnjenje: 2–5 rečenica, **zašto** (mehanizam, intuicija), vlastitim riječima, spominje broj/formulu; ne prepisuje slajd i ne dodaje tvrdnje kojih nema u materijalu. Izvor s brojem slajda.
 - Slike: kad je slika bitna (dijagram, građa, strukturna formula) kopirati iz `content/source/<id>/img-raw/` u `content/<id>/img/<nn>-<k>.png` (max 1200 px) i referencirati. Slika koja prikazuje sam odgovor ide u `explanation_image`, ne u `image`. Ispitni zadaci "skiciraj"/"nacrtaj" → `image-label` (ili `order`/`match`) + nekoliko `mc` pitanja o ključnim svojstvima skice.
 - Stvarna ispitna pitanja (kolokvij, stari ispiti): `00-kolokvij.json`, prompt = izvorna rečenica s prazninom na ključnom pojmu, `real_exam: true`, stvarno poglavlje, izvorni smisao se ne mijenja. Za stavke "napiši formulu / skiciraj / postavi jednadžbu" napraviti fill/mc/image-label varijante. Primjeri pitanja koji nisu sa stvarnog ispita (npr. s predavanja) idu u stvarna poglavlja s `real_exam: false`.
-- Formule u tekstu čitljivo (npr. `E = a·ρ^p`, `σ = F/A`), uz značenje i jedinicu svake veličine.
+- Formule, indeksi, eksponenti, grčka slova i kemijske oznake **uvijek u LaTeX zapisu** prema odjeljku 4 (npr. `$E = a \cdot \rho^{p}$`, `$\sigma = F/A$`, `$\ce{CO2}$`, `$0{,}6\,\text{MPa}$`), uz značenje i jedinicu svake veličine. `accepted` samo tipkani oblici (bez `$` i `\`).
 - Nove datoteke pitanja upisati u `questionFiles` u `course.json`, a datoteke i slike u `CONTENT` u `sw.js`.
 - Nakon generiranja: `python tools/validate.py --course <id>` (ili bez argumenta za sve) mora proći bez grešaka. Nejasnoće u materijalu i odstupanja upisuju se u odluke u `docs/courses/<id>.md`.
 - **Redoslijed generiranja** po kolegiju je u `docs/courses/<id>.md`.
@@ -322,7 +343,7 @@ Export = cijeli objekt. Import prihvaća shemu ≤ trenutne i migrira je ("Spoji
 ## 17. Alati (Python)
 
 - `tools/extract_pdf.py --course <id> [--no-images]` (PyMuPDF, `pip install pymupdf` – pitati korisnika prije instalacije): za svaki PDF u `content/source/<id>/pdf/` (naziv počinje brojem poglavlja) → `content/source/<id>/text/<nn>.md` (po stranici `## Slajd N` + tekst) i slike u `content/source/<id>/img-raw/<nn>/` (ugrađene slike + render stranice 150 dpi kao rezerva). Javlja poglavlja iz `course.json` za koja nema PDF-a.
-- `tools/validate.py [--course <id>]`: bez argumenta provjerava sve kolegije iz `courses.json`, s `--course` jedan (sukobi ID-ova i prefiksa s ostalim kolegijima provjeravaju se uvijek). Provjere: id kolegija i `idPrefix` valjani i jedinstveni; `course.json` (područja ↔ poglavlja, `examDate`, `grading`, `questionFiles` ↔ datoteke); ID-ovi pitanja jedinstveni u cijeloj aplikaciji i oblika `<prefiks>-<nn>-<nnn>` / `<prefiks>-k-<nnn>`; `chapter` postoji u course.json; `type` i `modes` valjani; `answer` neprazan; točno 3 distraktora; distraktori ≠ answer (normalizirano); `accepted` sadrži `answer`; slike postoje; `explanation` ≥ 1 rečenica; `source` neprazan; `tags` iz popisa. Ispisuje broj pitanja po poglavlju i ukupno po kolegiju; kolegij bez pitanja nije greška.
+- `tools/validate.py [--course <id>]`: bez argumenta provjerava sve kolegije iz `courses.json`, s `--course` jedan (sukobi ID-ova i prefiksa s ostalim kolegijima provjeravaju se uvijek). Provjere: id kolegija i `idPrefix` valjani i jedinstveni; `course.json` (područja ↔ poglavlja, `examDate`, `grading`, `questionFiles` ↔ datoteke); ID-ovi pitanja jedinstveni u cijeloj aplikaciji i oblika `<prefiks>-<nn>-<nnn>` / `<prefiks>-k-<nnn>`; `chapter` postoji u course.json; `type` i `modes` valjani; `answer` neprazan; točno 3 distraktora; distraktori ≠ answer (normalizirano); `accepted` sadrži `answer`; slike postoje; `explanation` ≥ 1 rečenica; `source` neprazan; `tags` iz popisa. **Formule** (`tools/mathcheck.py`): greška ako je izvan `$...$` ostao zapis poput `x_i`, `x^2`, `10^5`, Unicode indeks/eksponent, grčko slovo, `·`/`×`, LaTeX naredba ili kemijska formula (H2O, Ca2+); ako `$` ili `{}` nisu uravnoteženi; ako je `___`, `%` (bez `\`) ili decimalni zarez bez `{,}` unutar formule; ako `accepted` sadrži `$` ili `\`. Zatim se **svaki tekst s formulom renderira u Chromeu bez prozora** (headless, KaTeX s `throwOnError`, isti `js/math.js` kao app) i svaka greška se ispisuje; `--no-browser` preskače taj korak. Ispisuje broj pitanja po poglavlju i ukupno po kolegiju; kolegij bez pitanja nije greška.
 
 ## 18. Faze izrade
 
@@ -357,3 +378,4 @@ Opće odluke o aplikaciji. Odluke o sadržaju pojedinog kolegija su u `docs/cour
 - 18.11.2026 (0.4.1): Ocjenjivanje (dopuna odjeljka 5): brojčana tolerancija primjenjuje se samo kad je i `answer` broj; iza broja ne smije biti formula (π, zagrade, √, +, =, ·, ×), npr. "2π/λ" nije broj 2; zapis "10^-8" čita se kao 1e-8. Poglavlje smije imati više od 25 pitanja kad materijal ima mnogo brojeva i podjela (razlog se upisuje u odluke kolegija).
 - 18.11.2026 (0.5.1): Slika uz pitanje koja prikazuje sam odgovor ide u `explanation_image`; tekst pitanja ne smije otkrivati odgovor. Ocjenjivanje (dopuna odjeljka 5): znak mikro (µ, U+00B5) i grčko mi (μ, U+03BC) smatraju se istim znakom. Vibracija se ne poziva prije prvog dodira (Chrome to blokira i javlja grešku u konzoli). Service worker pri instalaciji dohvaća datoteke mimo HTTP cachea preglednika (`cache: 'reload'`), jer je nova verzija inače mogla spremiti stare JS datoteke; `content/**` se dohvaća s `cache: 'no-cache'`.
 - 18.11.2026 (0.6.0, više kolegija): Aplikacija podržava više kolegija; drugi kolegij je **Biokemija lijekova** (id `biokemija-lijekova`, prefiks `bl`), zasad bez pitanja ("U pripremi"). Specifikacija je podijeljena na opći dio (ovaj dokument) i `docs/courses/<id>.md`; izvorni materijali su u `content/source/<id>/` (Biomehanika premještena u `content/source/biomehanika/`). Svaki kolegij ima `idPrefix` u `course.json`; ID-ovi su jedinstveni u cijeloj aplikaciji (provjerava `validate.py`). `extract_pdf.py` traži `--course <id>`; `validate.py` bez argumenta provjerava sve kolegije. **Po kolegiju**: streak i dnevni cilj (dan se broji kad je tom kolegiju odgovoreno ≥ njegov cilj), plan učenja, postavke ispita (datum, pragovi, trajanje), statistika, prijave, zadnji odabir poglavlja u Kvizu i Ispitu. **Zajedničko**: način prikaza, tema, vibracija, export/import. Početna je popis kolegija (kartice: naziv, dana do ispita, napredak danas, današnji plan) sa **zajedničkim streakom**, u kojem se dan broji ako je bilo kojem kolegiju ispunjen dnevni cilj. Dodir kartice otvara Početnu kolegija; zaglavlje pokazuje naziv kolegija i "‹ Kolegiji". Aplikacija pamti zadnji odabrani kolegij; odabir kolegija uklonjen je iz Postavki. Pohrana: shema 2 s migracijom iz sheme 1 (odjeljak 13); ključ `bmkviz.v1` i prefiks cachea `bmkviz-` ostaju. Započeti ispit jednog kolegija pri prelasku na drugi ostaje spremljen i nastavlja se (ili predaje ako je vrijeme isteklo) kad se kolegij ponovno otvori. `course.json` smije imati `examDate: null` (plan tada traži upis datuma). Export se zove `kviz-backup-GGGG-MM-DD.json`. Ime aplikacije u manifestu i naslovu je **"Kviz"**; repozitorij `biomehanika-kviz` i link ostaju isti.
+- 18.11.2026 (0.7.0): **Formule**: KaTeX 0.19.1 + mhchem lokalno u `vendor/katex/` (bez npm-a, sve u cacheu service workera). Zapis u pitanjima: matematika `$...$`/`$$...$$`, kemija `\ce{...}`, indeksi/eksponenti/grčka slova/množenje samo kao LaTeX, decimalni zarez `{,}` (odjeljak 4). `answer` i distraktori smiju imati LaTeX, `accepted` samo tipkane oblike; ocjenjivanje upisa koristi `plainText()` (LaTeX → običan tekst) za `answer` i distraktore. Formule se prikazuju automatski (MutationObserver na `document.body`); neispravna formula ostaje kao tekst. `validate.py` provjerava zapis i renderira svako pitanje s formulom u Chromeu bez prozora. Sva postojeća pitanja Biomehanike pretvorena su u taj zapis (ID-ovi nepromijenjeni). **Slike**: bijela podloga s malim rubom u obje teme; dodir otvara prikaz preko cijelog zaslona sa zumiranjem (`js/zoom.js`), tipka Natrag ga zatvara. **Podaci o ispitu** (datum, ciljana ocjena, minute dnevno, trajanje, pragovi) su postavke kolegija u aplikaciji (Postavke → Ispit, i ekran Plan); `course.json` ih smije imati samo kao neobavezne zadane vrijednosti. Kolegij bez datuma: kartica "Postavi datum ispita", Plan traži datum prije izrade, kviz i ispit rade. Pohrana: shema 3 (migracija prenosi datum, ocjenu i minute iz postojećeg plana u postavke; plan ostaje netaknut).

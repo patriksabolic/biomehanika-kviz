@@ -2,6 +2,47 @@
 
 const DIACRITICS = { 'đ': 'd', 'č': 'c', 'ć': 'c', 'š': 's', 'ž': 'z' };
 
+// LaTeX naredbe → znak koji se može utipkati (za usporedbu upisa s odgovorom i distraktorima).
+const TEX = {
+  cdot: '·', times: '×', approx: '≈', le: '≤', leq: '≤', ge: '≥', geq: '≥', pm: '±', to: '→',
+  rightarrow: '→', leftarrow: '←', infty: '∞', degree: '°', circ: '°', ldots: '…', dots: '…',
+  alpha: 'α', beta: 'β', gamma: 'γ', delta: 'δ', Delta: 'Δ', epsilon: 'ε', varepsilon: 'ε', eta: 'η',
+  theta: 'θ', lambda: 'λ', mu: 'μ', nu: 'ν', pi: 'π', rho: 'ρ', sigma: 'σ', Sigma: 'Σ', tau: 'τ',
+  phi: 'φ', varphi: 'φ', omega: 'ω', Omega: 'Ω', kappa: 'κ', xi: 'ξ', psi: 'ψ', chi: 'χ', zeta: 'ζ',
+  int: '∫', sum: '∑', partial: '∂', nabla: '∇', sqrt: '√', minus: '-', lt: '<', gt: '>',
+  vartheta: 'θ', varrho: 'ρ', ell: 'l',
+  sin: 'sin ', cos: 'cos ', tan: 'tan ', tg: 'tg ', ctg: 'ctg ', cot: 'cot ', log: 'log ', ln: 'ln ',
+  exp: 'exp ', max: 'max ', min: 'min ', lim: 'lim ',
+};
+
+function texToPlain(t) {
+  let s = t;
+  for (let i = 0; i < 3; i++) {
+    s = s
+      .replace(/\\ce\{((?:[^{}]|\{[^{}]*\})*)\}/g, (_, x) => x.replace(/[\^{}]/g, '')) // \ce{Ca^2+} → Ca2+
+      // \u0001 odvaja naredbu od teksta (\mu\text{N} → μN, ne \muN); briše se na kraju
+      .replace(/\\(?:text|mathrm|mathit|mathbf|operatorname|mbox)\{([^{}]*)\}/g, '\u0001$1')
+      .replace(/\\frac\{([^{}]*)\}\{([^{}]*)\}/g, '($1)/($2)')
+      .replace(/\\sqrt\{([^{}]*)\}/g, '√($1)');
+  }
+  return s
+    .replace(/\{,\}/g, ',')
+    .replace(/\\[,;:! ]/g, ' ')
+    .replace(/\\%/g, '%')
+    .replace(/\\(left|right|big|Big)\b/g, '')
+    .replace(/\\([a-zA-Z]+)/g, (_, n) => TEX[n] ?? '')
+    .replace(/\^\{([^{}]*)\}/g, '^$1')
+    .replace(/_\{([^{}]*)\}/g, '_$1')
+    .replace(/[{}\u0001]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+// Tekst s formulama ($...$, $$...$$) u običan tekst, npr. "$6 \cdot 10^{5}\,\text{Pa}$" → "6 · 10^5 Pa".
+export function plainText(s) {
+  return String(s ?? '').replace(/\$\$([^$]*)\$\$|\$([^$]*)\$/g, (_, a, b) => texToPlain(a ?? b));
+}
+
 export function normalize(s) {
   return String(s ?? '')
     .toLowerCase()
@@ -54,7 +95,7 @@ export function levenshtein(a, b) {
 }
 
 export function isNumericAnswer(q) {
-  return parseNumber(q.answer) !== null;
+  return parseNumber(plainText(q.answer)) !== null;
 }
 
 // Pravila (spec, odjeljak 5) + zaštita: upis jednak netočnom ponuđenom odgovoru (distraktoru)
@@ -62,13 +103,15 @@ export function isNumericAnswer(q) {
 export function gradeFill(input, q) {
   const u = normalize(input);
   if (!u) return false;
-  const targets = [q.answer, ...(q.accepted || [])];
-  const distractors = (q.distractors || []).map(normalize);
+  // answer i distraktori smiju imati LaTeX; accepted sadrži samo oblike koji se mogu utipkati.
+  const answer = plainText(q.answer);
+  const targets = [answer, ...(q.accepted || [])];
+  const distractors = (q.distractors || []).map((d) => normalize(plainText(d)));
   if (targets.some((x) => normalize(x) === u)) return true;
   if (distractors.includes(u)) return false;
 
   const un = parseNumber(input);
-  const numericQ = parseNumber(q.answer) !== null; // brojčana tolerancija samo kad je točan odgovor broj
+  const numericQ = parseNumber(answer) !== null; // brojčana tolerancija samo kad je točan odgovor broj
   let bestTypo = Infinity;
   for (const x of targets) {
     const xn = normalize(x);

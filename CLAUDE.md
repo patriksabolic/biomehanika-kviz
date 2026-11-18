@@ -8,7 +8,7 @@
 - Prompti za pojedine sesije su u `docs/prompts.md`.
 
 ## Tehnička pravila
-- Čisti HTML/CSS/JS (ES2020+), bez frameworka, bez bundlera. Vanjske biblioteke samo ako su nužne, i tada kopirane lokalno u `vendor/` (ne CDN), da app radi offline. Zadano: nijedna.
+- Čisti HTML/CSS/JS (ES2020+), bez frameworka, bez bundlera. Vanjske biblioteke samo ako su nužne, i tada kopirane lokalno u `vendor/` (ne CDN), da app radi offline. Jedina: KaTeX 0.19.1 + mhchem u `vendor/katex/` (formule).
 - Sve putanje relativne (`./`) – app se poslužuje s GitHub Pages pod `/biomehanika-kviz/`.
 - Podaci korisnika u `localStorage` pod jednim ključem (`bmkviz.v1`) s brojem sheme i migracijom; napredak, plan, statistika, prijave i postavke ispita su po kolegiju (`courses.<id>`). Napredak je vezan uz ID pitanja: **ID-ovi i format pitanja postojećih pitanja se ne mijenjaju, kao ni id kolegija.**
 - ID pitanja: `<prefiks>-<nn>-<nnn>` (kolokvij `<prefiks>-k-<nnn>`), prefiks je `idPrefix` iz `content/<id>/course.json` (Biomehanika `bm`, Biokemija lijekova `bl`). ID-ovi su jedinstveni u cijeloj aplikaciji.

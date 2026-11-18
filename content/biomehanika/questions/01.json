@@ -767,11 +767,11 @@
       "rendgenske zrake"
     ],
     "distractors": [
-      "γ-zračenja",
+      "$\\gamma$-zračenja",
       "ultrazvuka",
       "magnetske rezonancije"
     ],
-    "explanation": "Denzitometrija je test mineralne gustoće kostiju: X-zrake prolaze kroz kost, a koliko ih se apsorbira ovisi o udjelu minerala. Ne miješaj s radioizotopnom metodom Donskog i Zaciorskog, koja koristi γ-zračenje.",
+    "explanation": "Denzitometrija je test mineralne gustoće kostiju: X-zrake prolaze kroz kost, a koliko ih se apsorbira ovisi o udjelu minerala. Ne miješaj s radioizotopnom metodom Donskog i Zaciorskog, koja koristi $\\gamma$-zračenje.",
     "image": null,
     "explanation_image": null,
     "source": "skripta.md – Uvod, mjerni sustavi i modeli",

@@ -1,7 +1,7 @@
 // Ispitni mod (spec, odjeljak 8): postavke, sastav, odbrojavanje, predaja, bodovanje, ocjena, pregled.
 
 import { esc, shuffle, formatDuration, vibrate, plural, todayKey } from './util.js';
-import { courseData, courseSettings, settings, save, flush, addToDay } from './storage.js';
+import { courseData, courseSettings, settings, save, flush, addToDay, examConfig } from './storage.js';
 import { gradeFill, isNumericAnswer } from './grading.js';
 import { applyAnswer, markSeen, getRecord, isDual } from './scheduler.js';
 import { pickerHtml, pickerClick, countByChapter } from './picker.js';
@@ -27,7 +27,7 @@ const suggestedCount = (min) => Math.round(min * 0.8);
 // ---------- ocjena ----------
 
 export function thresholds(course = ctx.course) {
-  return courseSettings(course.id).grading || course.grading;
+  return examConfig(course).grading;
 }
 
 export function gradeFor(pct, thr) {
@@ -96,7 +96,7 @@ function defaultSetup() {
   const saved = courseSettings(ctx.courseId).exam;
   const valid = new Set(allChapterIds());
   const chapters = saved?.chapters?.filter((c) => valid.has(c));
-  const def = courseSettings(ctx.courseId).examDuration || ctx.course.exam?.durationMin || 45;
+  const def = examConfig(ctx.course).examDuration;
   const duration = DURATIONS.includes(def) ? def : 45;
   return { chapters: chapters && chapters.length ? chapters : allChapterIds(), duration, n: suggestedCount(duration) };
 }
@@ -531,6 +531,7 @@ function renderResult(el, timeUpNow) {
       <p class="fb-answer ok-text">✓ Točno: <strong>${esc(it.q.answer)}</strong></p>
       ${it.mode === 'fill' && it.answered ? `<button type="button" class="btn small-btn" data-override="${i}">Ipak točno</button>` : ''}
       <p class="expl">${esc(it.q.explanation)}</p>
+      ${it.q.explanation_image ? `<img class="qimg" src="${esc(ctx.course.base + it.q.explanation_image)}" alt="Slika uz objašnjenje" loading="lazy">` : ''}
       <p class="src">Izvor: ${esc(it.q.source)}</p>
     </section>`).join('');
 

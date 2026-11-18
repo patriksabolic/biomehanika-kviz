@@ -573,16 +573,16 @@
       "mc"
     ],
     "prompt": "Kolika je površina nosne sluznice čovjeka u usporedbi sa psom?",
-    "answer": "čovjek 2–5 cm², pas 100 cm²",
+    "answer": "čovjek $2\\text{–}5\\,\\text{cm}^{2}$, pas $100\\,\\text{cm}^{2}$",
     "accepted": [
       "čovjek 2–5 cm², pas 100 cm²"
     ],
     "distractors": [
-      "čovjek 100 cm², pas 2–5 cm²",
-      "jednaka je, oko 50 cm²",
-      "čovjek 20 cm², pas 50 cm²"
+      "čovjek $100\\,\\text{cm}^{2}$, pas $2\\text{–}5\\,\\text{cm}^{2}$",
+      "jednaka je, oko $50\\,\\text{cm}^{2}$",
+      "čovjek $20\\,\\text{cm}^{2}$, pas $50\\,\\text{cm}^{2}$"
     ],
-    "explanation": "Nosna sluznica čovjeka ima 2–5 cm², a psa 100 cm². Čovjek raspoznaje oko 10 000 mirisa.",
+    "explanation": "Nosna sluznica čovjeka ima $2\\text{–}5\\,\\text{cm}^{2}$, a psa $100\\,\\text{cm}^{2}$. Čovjek raspoznaje oko 10 000 mirisa.",
     "image": null,
     "explanation_image": null,
     "source": "33_Osjetila.pdf, slajd 21",

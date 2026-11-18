@@ -64,7 +64,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Modul elastičnosti slušnih koštica (čekić, nakovanj, stremen) iznosi E = ___.",
+    "prompt": "Modul elastičnosti slušnih koštica (čekić, nakovanj, stremen) iznosi $E =$ ___.",
     "answer": "14,1 GPa",
     "accepted": [
       "14,1 GPa",
@@ -77,7 +77,7 @@
       "141 GPa",
       "4,1 GPa"
     ],
-    "explanation": "Za sve tri slušne koštice (čekić, nakovanj, stremen) navodi se modul elastičnosti E = 14,1 GPa. Koštice su povezane zglobovima i djeluju kao sustav poluga koji prenosi titraje bubnjića do stremena.",
+    "explanation": "Za sve tri slušne koštice (čekić, nakovanj, stremen) navodi se modul elastičnosti $E = 14{,}1\\,\\text{GPa}$. Koštice su povezane zglobovima i djeluju kao sustav poluga koji prenosi titraje bubnjića do stremena.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 7",
@@ -273,7 +273,7 @@
       "fill"
     ],
     "prompt": "Ukupni volumen srednjeg uha iznosi oko ___.",
-    "answer": "2 cm³",
+    "answer": "$2\\,\\text{cm}^{3}$",
     "accepted": [
       "2 cm³",
       "2 cm3",
@@ -282,11 +282,11 @@
       "2 ml"
     ],
     "distractors": [
-      "0,5 cm³",
-      "20 cm³",
-      "35 cm³"
+      "$0{,}5\\,\\text{cm}^{3}$",
+      "$20\\,\\text{cm}^{3}$",
+      "$35\\,\\text{cm}^{3}$"
     ],
-    "explanation": "Srednje uho je mala šupljina ispunjena zrakom, ukupnog volumena oko 2 cm³. U tom prostoru smješten je cijeli lanac od tri slušne koštice s ligamentima i dva mišića.",
+    "explanation": "Srednje uho je mala šupljina ispunjena zrakom, ukupnog volumena oko $2\\,\\text{cm}^{3}$. U tom prostoru smješten je cijeli lanac od tri slušne koštice s ligamentima i dva mišića.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 11",
@@ -315,7 +315,7 @@
       "3–4 mg",
       "14 mg"
     ],
-    "explanation": "Prema tablici fizikalnih karakteristika nakovanj ima masu oko 27 mg i dimenzije 5 mm × 7 mm. To je najteža od triju koštica: čekić ima oko 23 mg, a stremen samo 3–4 mg.",
+    "explanation": "Prema tablici fizikalnih karakteristika nakovanj ima masu oko 27 mg i dimenzije $5\\,\\text{mm} \\cdot 7\\,\\text{mm}$. To je najteža od triju koštica: čekić ima oko 23 mg, a stremen samo 3–4 mg.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 11",
@@ -346,7 +346,7 @@
       "27 mg",
       "0,3–0,4 mg"
     ],
-    "explanation": "Stremen je najmanja kost u tijelu: mase samo 3–4 mg i visine 3,5 mm, s ovalnom pločom (podnožjem) dimenzija 1,4 × 3,2 mm. Za usporedbu, čekić ima oko 23 mg, a nakovanj oko 27 mg.",
+    "explanation": "Stremen je najmanja kost u tijelu: mase samo 3–4 mg i visine 3,5 mm, s ovalnom pločom (podnožjem) dimenzija $1{,}4 \\cdot 3{,}2\\,\\text{mm}$. Za usporedbu, čekić ima oko 23 mg, a nakovanj oko 27 mg.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 11",
@@ -364,7 +364,7 @@
       "fill"
     ],
     "prompt": "Površina bubnjića iznosi ___.",
-    "answer": "0,5–0,9 cm²",
+    "answer": "$0{,}5\\text{–}0{,}9\\,\\text{cm}^{2}$",
     "accepted": [
       "0,5–0,9 cm²",
       "0,5-0,9 cm²",
@@ -374,11 +374,11 @@
       "0,5 do 0,9 cm²"
     ],
     "distractors": [
-      "2–3 cm²",
-      "0,05–0,09 cm²",
-      "5–9 cm²"
+      "$2\\text{–}3\\,\\text{cm}^{2}$",
+      "$0{,}05\\text{–}0{,}09\\,\\text{cm}^{2}$",
+      "$5\\text{–}9\\,\\text{cm}^{2}$"
     ],
-    "explanation": "Bubnjić je približno kružna membrana površine 0,5–0,9 cm². Ta je površina mnogo veća od površine podnožja stremena, pa se ista sila raspoređuje na manju površinu i tlak na ovalnom prozoru raste.",
+    "explanation": "Bubnjić je približno kružna membrana površine $0{,}5\\text{–}0{,}9\\,\\text{cm}^{2}$. Ta je površina mnogo veća od površine podnožja stremena, pa se ista sila raspoređuje na manju površinu i tlak na ovalnom prozoru raste.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 11",
@@ -409,7 +409,7 @@
       "0,01 mm",
       "0,5 mm"
     ],
-    "explanation": "Bubnjić je vrlo tanka membrana, debljine oko 0,1 mm, površine 0,5–0,9 cm². Pomak mu je na pragu sluha (1 kHz) samo oko 10⁻⁸ mm.",
+    "explanation": "Bubnjić je vrlo tanka membrana, debljine oko 0,1 mm, površine $0{,}5\\text{–}0{,}9\\,\\text{cm}^{2}$. Pomak mu je na pragu sluha (1 kHz) samo oko $10^{-8}\\,\\text{mm}$.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 11",
@@ -427,7 +427,7 @@
       "fill"
     ],
     "prompt": "Pomak bubnjića na pragu sluha pri 1 kHz iznosi približno ___.",
-    "answer": "10⁻⁸ mm",
+    "answer": "$10^{-8}\\,\\text{mm}$",
     "accepted": [
       "10⁻⁸ mm",
       "10^-8 mm",
@@ -436,11 +436,11 @@
       "10⁻⁸"
     ],
     "distractors": [
-      "10⁻¹ mm",
-      "10⁻⁴ mm",
-      "10⁻¹² mm"
+      "$10^{-1}\\,\\text{mm}$",
+      "$10^{-4}\\,\\text{mm}$",
+      "$10^{-12}\\,\\text{mm}$"
     ],
-    "explanation": "Na pragu sluha (1 kHz) bubnjić se pomakne samo oko 10⁻⁸ mm. Na pragu nelagode kod niskofrekventnih tonova pomak naraste na oko 10⁻¹ mm, pa uho pokriva golem raspon amplituda.",
+    "explanation": "Na pragu sluha (1 kHz) bubnjić se pomakne samo oko $10^{-8}\\,\\text{mm}$. Na pragu nelagode kod niskofrekventnih tonova pomak naraste na oko $10^{-1}\\,\\text{mm}$, pa uho pokriva golem raspon amplituda.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 11",
@@ -547,7 +547,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Karakteristična impedancija medija Z omjer je akustičnog tlaka i efektivne vrijednosti ___.",
+    "prompt": "Karakteristična impedancija medija $Z$ omjer je akustičnog tlaka i efektivne vrijednosti ___.",
     "answer": "brzine čestica",
     "accepted": [
       "brzine čestica",
@@ -560,7 +560,7 @@
       "gustoće medija",
       "brzine zvuka"
     ],
-    "explanation": "Impedancija Z = P/ξ govori koliki je tlak potreban da se čestice medija pokrenu određenom brzinom ξ. Zrak i tekućina u pužnici imaju vrlo različite impedancije, pa bi se bez prilagodbe većina zvuka odbila na granici.",
+    "explanation": "Impedancija $Z = P/\\xi$ govori koliki je tlak potreban da se čestice medija pokrenu određenom brzinom $\\xi$. Zrak i tekućina u pužnici imaju vrlo različite impedancije, pa bi se bez prilagodbe većina zvuka odbila na granici.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 17",
@@ -578,7 +578,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Da nema slušnih koštica (vanjsko i unutarnje uho odvojeno samo membranom), udio prenesenog zvuka T iznosio bi ___.",
+    "prompt": "Da nema slušnih koštica (vanjsko i unutarnje uho odvojeno samo membranom), udio prenesenog zvuka $T$ iznosio bi ___.",
     "answer": "0,0011",
     "accepted": [
       "0,0011",
@@ -591,7 +591,7 @@
       "0,11",
       "0,00011"
     ],
-    "explanation": "Udio prenesene energije računa se kao T = 1 − Γ = 4·Zv·Zz / (Zv + Zz)², gdje su Zv i Zz impedancije vanjskog i unutarnjeg medija. Zbog velike razlike impedancija zraka i tekućine dobiva se samo T = 0,0011, tj. prošlo bi oko 0,1 % zvuka. Upravo tu razliku srednje uho kompenzira košticama.",
+    "explanation": "Udio prenesene energije računa se kao $T = 1 - \\Gamma = 4 \\cdot Z_v \\cdot Z_z / (Z_v + Z_z)^{2}$, gdje su $Z_v$ i $Z_z$ impedancije vanjskog i unutarnjeg medija. Zbog velike razlike impedancija zraka i tekućine dobiva se samo $T = 0{,}0011$, tj. prošlo bi oko 0,1 % zvuka. Upravo tu razliku srednje uho kompenzira košticama.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 17",
@@ -609,19 +609,19 @@
       "mc",
       "fill"
     ],
-    "prompt": "Intenzitet zvuka računa se kao I = P·ξ = P²/___.",
-    "answer": "Z",
+    "prompt": "Intenzitet zvuka računa se kao $I = P \\cdot \\xi = P^{2}/$___.",
+    "answer": "$Z$",
     "accepted": [
       "Z",
       "impedancija",
       "karakteristična impedancija"
     ],
     "distractors": [
-      "ξ",
-      "c",
-      "A"
+      "$\\xi$",
+      "$c$",
+      "$A$"
     ],
-    "explanation": "Intenzitet je energija koja u jednoj sekundi prođe kroz plohu od 1 m² okomitu na smjer širenja zvuka. Jednak je umnošku zvučnog tlaka P i brzine čestica ξ, a kako je ξ = P/Z, slijedi I = P²/Z.",
+    "explanation": "Intenzitet je energija koja u jednoj sekundi prođe kroz plohu od $1\\,\\text{m}^{2}$ okomitu na smjer širenja zvuka. Jednak je umnošku zvučnog tlaka $P$ i brzine čestica $\\xi$, a kako je $\\xi = P/Z$, slijedi $I = P^{2}/Z$.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 18",
@@ -638,8 +638,8 @@
       "mc",
       "fill"
     ],
-    "prompt": "Tlak na podnožju stremena računa se kao P₂ = P₁ · ___.",
-    "answer": "A1/A2",
+    "prompt": "Tlak na podnožju stremena računa se kao $P_2 = P_1 \\cdot$ ___.",
+    "answer": "$A_1/A_2$",
     "accepted": [
       "A1/A2",
       "A₁/A₂",
@@ -647,11 +647,11 @@
       "a1/a2"
     ],
     "distractors": [
-      "A2/A1",
-      "d1/d2",
-      "d2/d1"
+      "$A_2/A_1$",
+      "$d_1/d_2$",
+      "$d_2/d_1$"
     ],
-    "explanation": "Ista sila prenosi se s bubnjića na stremen: F₁ = P₁·A₁ = P₂·A₂, pa je P₂ = P₁·A₁/A₂. Budući da je površina bubnjića A₁ mnogo veća od površine podnožja stremena A₂, tlak na ovalnom prozoru znatno je veći od tlaka na bubnjiću.",
+    "explanation": "Ista sila prenosi se s bubnjića na stremen: $F_1 = P_1 \\cdot A_1 = P_2 \\cdot A_2$, pa je $P_2 = P_1 \\cdot A_1/A_2$. Budući da je površina bubnjića $A_1$ mnogo veća od površine podnožja stremena $A_2$, tlak na ovalnom prozoru znatno je veći od tlaka na bubnjiću.",
     "image": null,
     "explanation_image": "img/22-1.png",
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 20",
@@ -668,7 +668,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Omjer krakova poluge slušnih koštica d₁/d₂ iznosi ___.",
+    "prompt": "Omjer krakova poluge slušnih koštica $d_1/d_2$ iznosi ___.",
     "answer": "1,3",
     "accepted": [
       "1,3",
@@ -679,7 +679,7 @@
       "0,77",
       "13"
     ],
-    "explanation": "Koštice djeluju kao poluga za koju vrijedi F₁·d₁ = F₂·d₂. Uz omjer krakova d₁/d₂ = 1,3 sila na stremenu F₂ veća je 1,3 puta od sile na bubnjiću, što se množi s pojačanjem zbog omjera površina.",
+    "explanation": "Koštice djeluju kao poluga za koju vrijedi $F_1 \\cdot d_1 = F_2 \\cdot d_2$. Uz omjer krakova $d_1/d_2 = 1{,}3$ sila na stremenu $F_2$ veća je 1,3 puta od sile na bubnjiću, što se množi s pojačanjem zbog omjera površina.",
     "image": null,
     "explanation_image": "img/22-1.png",
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 20; slajd 21",
@@ -697,8 +697,8 @@
       "mc",
       "fill"
     ],
-    "prompt": "Minimalni prag čujnosti (minimalni zvučni prag) iznosi P₀ = ___.",
-    "answer": "20·10⁻⁶ Pa",
+    "prompt": "Minimalni prag čujnosti (minimalni zvučni prag) iznosi $P_0 =$ ___.",
+    "answer": "$20 \\cdot 10^{-6}\\,\\text{Pa}$",
     "accepted": [
       "20·10⁻⁶ Pa",
       "20*10^-6 Pa",
@@ -710,11 +710,11 @@
       "20x10^-6 Pa"
     ],
     "distractors": [
-      "20·10⁻³ Pa",
-      "20·10⁻⁹ Pa",
-      "0,025 Pa"
+      "$20 \\cdot 10^{-3}\\,\\text{Pa}$",
+      "$20 \\cdot 10^{-9}\\,\\text{Pa}$",
+      "$0{,}025\\,\\text{Pa}$"
     ],
-    "explanation": "Najmanji zvučni tlak koji uho može registrirati je P₀ = 20·10⁻⁶ Pa, tj. 20 µPa. Uho je dakle osjetljivo na iznimno male promjene tlaka.",
+    "explanation": "Najmanji zvučni tlak koji uho može registrirati je $P_0 = 20 \\cdot 10^{-6}\\,\\text{Pa}$, tj. $20\\,\\mu\\text{Pa}$. Uho je dakle osjetljivo na iznimno male promjene tlaka.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 21",
@@ -732,7 +732,7 @@
       "fill"
     ],
     "prompt": "Zvučni tlak na membrani bubnjića za normalnu razinu govora (60 dB) iznosi ___.",
-    "answer": "0,025 Pa",
+    "answer": "$0{,}025\\,\\text{Pa}$",
     "accepted": [
       "0,025 Pa",
       "0.025 Pa",
@@ -740,11 +740,11 @@
       "25 mPa"
     ],
     "distractors": [
-      "0,25 Pa",
-      "2,5 Pa",
-      "20·10⁻⁶ Pa"
+      "$0{,}25\\,\\text{Pa}$",
+      "$2{,}5\\,\\text{Pa}$",
+      "$20 \\cdot 10^{-6}\\,\\text{Pa}$"
     ],
-    "explanation": "Pri normalnom govoru razine 60 dB tlak na bubnjiću je oko 0,025 Pa. To je više od tisuću puta veće od praga čujnosti od 20·10⁻⁶ Pa.",
+    "explanation": "Pri normalnom govoru razine 60 dB tlak na bubnjiću je oko 0,025 Pa. To je više od tisuću puta veće od praga čujnosti od $20 \\cdot 10^{-6}\\,\\text{Pa}$.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 21",
@@ -760,17 +760,17 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Kako glasi izraz za tlak zvučnog vala p prema slajdu?",
-    "answer": "p = (k·ρ0·c²·y_m)·sin(kx − ωt)",
+    "prompt": "Kako glasi izraz za tlak zvučnog vala $p$ prema slajdu?",
+    "answer": "$p = (k \\cdot \\rho_0 \\cdot c^{2} \\cdot y_m) \\cdot \\operatorname{sin}(kx - \\omega t)$",
     "accepted": [
       "p = (k·ρ0·c²·y_m)·sin(kx − ωt)"
     ],
     "distractors": [
-      "p = (k·ρ0·c·y_m)·sin(kx − ωt)",
-      "p = (ρ0·c²·y_m/k)·sin(kx − ωt)",
-      "p = (k·ρ0·c²·y_m)·(kx − ωt)"
+      "$p = (k \\cdot \\rho_0 \\cdot c \\cdot y_m) \\cdot \\operatorname{sin}(kx - \\omega t)$",
+      "$p = (\\rho_0 \\cdot c^{2} \\cdot y_m/k) \\cdot \\operatorname{sin}(kx - \\omega t)$",
+      "$p = (k \\cdot \\rho_0 \\cdot c^{2} \\cdot y_m) \\cdot (kx - \\omega t)$"
     ],
-    "explanation": "Tlak zvučnog vala titra oko ravnotežne vrijednosti, pa izraz ima oblik amplituda × sin(kx − ωt). Amplituda tlaka raste s valnim brojem k, kvadratom brzine zvuka c i amplitudom pomaka y_m: što čestice medija jače titraju, to su veće promjene tlaka.",
+    "explanation": "Tlak zvučnog vala titra oko ravnotežne vrijednosti, pa izraz ima oblik $\\text{amplituda} \\cdot \\sin(kx - \\omega t)$. Amplituda tlaka raste s valnim brojem $k$, kvadratom brzine zvuka $c$ i amplitudom pomaka $y_m$: što čestice medija jače titraju, to su veće promjene tlaka.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 16",
@@ -787,8 +787,8 @@
       "mc",
       "fill"
     ],
-    "prompt": "U izrazu za tlak zvučnog vala valni broj iznosi k = ___.",
-    "answer": "2π/λ",
+    "prompt": "U izrazu za tlak zvučnog vala valni broj iznosi $k =$ ___.",
+    "answer": "$2\\pi/\\lambda$",
     "accepted": [
       "2π/λ",
       "2π/Λ",
@@ -797,11 +797,11 @@
       "2 pi / lambda"
     ],
     "distractors": [
-      "λ/2π",
-      "2π·λ",
-      "π/λ"
+      "$\\lambda/2\\pi$",
+      "$2\\pi \\cdot \\lambda$",
+      "$\\pi/\\lambda$"
     ],
-    "explanation": "Valni broj k = 2π/λ kaže koliko se faza vala promijeni po jedinici duljine: na jednoj valnoj duljini λ faza naraste za puni krug 2π. Kraći val (manji λ) zato ima veći k.",
+    "explanation": "Valni broj $k = 2\\pi/\\lambda$ kaže koliko se faza vala promijeni po jedinici duljine: na jednoj valnoj duljini $\\lambda$ faza naraste za puni krug $2\\pi$. Kraći val (manji $\\lambda$) zato ima veći $k$.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 16",
@@ -818,7 +818,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "U izrazu za tlak zvučnog vala p = (k·ρ0·c²·y_m)·sin(kx − ωt) veličina y_m je ___.",
+    "prompt": "U izrazu za tlak zvučnog vala $p = (k \\cdot \\rho_0 \\cdot c^{2} \\cdot y_m) \\cdot \\sin(kx - \\omega t)$ veličina $y_m$ je ___.",
     "answer": "amplituda",
     "accepted": [
       "amplituda",
@@ -830,7 +830,7 @@
       "fazni pomak",
       "brzina zvuka"
     ],
-    "explanation": "y_m je amplituda – najveći otklon čestica medija pri titranju. Tlak je razmjeran y_m, pa jači zvuk (veći otklon čestica) daje veće promjene tlaka na bubnjiću.",
+    "explanation": "$y_m$ je amplituda – najveći otklon čestica medija pri titranju. Tlak je razmjeran $y_m$, pa jači zvuk (veći otklon čestica) daje veće promjene tlaka na bubnjiću.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 16",
@@ -848,7 +848,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "U izrazu za tlak zvučnog vala p = (k·ρ0·c²·y_m)·sin(kx − ωt) veličina c je ___.",
+    "prompt": "U izrazu za tlak zvučnog vala $p = (k \\cdot \\rho_0 \\cdot c^{2} \\cdot y_m) \\cdot \\sin(kx - \\omega t)$ veličina $c$ je ___.",
     "answer": "brzina zvuka",
     "accepted": [
       "brzina zvuka",
@@ -859,7 +859,7 @@
       "valna duljina",
       "fazni pomak"
     ],
-    "explanation": "c je brzina zvuka u mediju. U izrazu se pojavljuje kao c², pa medij u kojem zvuk putuje brže za isti pomak čestica daje veće promjene tlaka.",
+    "explanation": "$c$ je brzina zvuka u mediju. U izrazu se pojavljuje kao $c^{2}$, pa medij u kojem zvuk putuje brže za isti pomak čestica daje veće promjene tlaka.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 16",
@@ -889,7 +889,7 @@
       "eksponencijalno",
       "skokovito"
     ],
-    "explanation": "U izrazu p = (k·ρ0·c²·y_m)·sin(kx − ωt) vrijeme je u argumentu sinusa, pa tlak u danoj točki periodički raste i pada oko ravnotežne vrijednosti. Zato se za opis jakosti zvuka koristi srednja vrijednost – zvučni tlak P.",
+    "explanation": "U izrazu $p = (k \\cdot \\rho_0 \\cdot c^{2} \\cdot y_m) \\cdot \\sin(kx - \\omega t)$ vrijeme je u argumentu sinusa, pa tlak u danoj točki periodički raste i pada oko ravnotežne vrijednosti. Zato se za opis jakosti zvuka koristi srednja vrijednost – zvučni tlak $P$.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 16",
@@ -918,7 +918,7 @@
       "akustična impedancija",
       "prag čujnosti"
     ],
-    "explanation": "Trenutni tlak zvučnog vala stalno se mijenja po sinusu, pa sam po sebi nije praktična mjera jakosti zvuka. Zato se uzima njegova srednja vrijednost, zvučni tlak P, s kojim se dalje računaju intenzitet I = P²/Z i razina zvuka u dB.",
+    "explanation": "Trenutni tlak zvučnog vala stalno se mijenja po sinusu, pa sam po sebi nije praktična mjera jakosti zvuka. Zato se uzima njegova srednja vrijednost, zvučni tlak $P$, s kojim se dalje računaju intenzitet $I = P^{2}/Z$ i razina zvuka u dB.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 16",
@@ -935,7 +935,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "U legendi izraza za tlak zvučnog vala p = (k·ρ0·c²·y_m)·sin(kx − ωt) veličina x označena je kao ___.",
+    "prompt": "U legendi izraza za tlak zvučnog vala $p = (k \\cdot \\rho_0 \\cdot c^{2} \\cdot y_m) \\cdot \\sin(kx - \\omega t)$ veličina $x$ označena je kao ___.",
     "answer": "fazni pomak",
     "accepted": [
       "fazni pomak"
@@ -945,7 +945,7 @@
       "valna duljina",
       "brzina zvuka"
     ],
-    "explanation": "Na slajdu je x u legendi naveden kao \"fazni pomak\". Fizikalno je x položaj, tj. udaljenost u smjeru širenja vala: član kx daje fazu vala u točki x, pa se uz pomak duž vala mijenja faza titranja tlaka.",
+    "explanation": "Na slajdu je $x$ u legendi naveden kao \"fazni pomak\". Fizikalno je $x$ položaj, tj. udaljenost u smjeru širenja vala: član $kx$ daje fazu vala u točki $x$, pa se uz pomak duž vala mijenja faza titranja tlaka.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 16",
@@ -962,7 +962,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "U izrazu k = 2π/λ veličina λ je ___.",
+    "prompt": "U izrazu $k = 2\\pi/\\lambda$ veličina $\\lambda$ je ___.",
     "answer": "valna duljina",
     "accepted": [
       "valna duljina",
@@ -974,7 +974,7 @@
       "fazni pomak",
       "brzina zvuka"
     ],
-    "explanation": "λ je valna duljina – udaljenost između dvije susjedne točke vala u istoj fazi (u legendi slajda zapisana i kao Λ). Valni broj k = 2π/λ obrnuto je razmjeran valnoj duljini.",
+    "explanation": "$\\lambda$ je valna duljina – udaljenost između dvije susjedne točke vala u istoj fazi (u legendi slajda zapisana i kao $\\Lambda$). Valni broj $k = 2\\pi/\\lambda$ obrnuto je razmjeran valnoj duljini.",
     "image": null,
     "explanation_image": null,
     "source": "22_Biomehanika srednjeg uha.pdf, slajd 16",

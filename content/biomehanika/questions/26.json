@@ -257,8 +257,8 @@
       "mc",
       "fill"
     ],
-    "prompt": "U 3. modelu (tanka sferna ljuska) naprezanje u stijenci mjehura je σ = r·(p − p_abd) / ___.",
-    "answer": "2δ",
+    "prompt": "U 3. modelu (tanka sferna ljuska) naprezanje u stijenci mjehura je $\\sigma = r \\cdot (p - p_{abd}) /$ ___.",
+    "answer": "$2\\delta$",
     "accepted": [
       "2δ",
       "2·δ",
@@ -266,11 +266,11 @@
       "2 δ"
     ],
     "distractors": [
-      "δ",
-      "4δ",
-      "2r"
+      "$\\delta$",
+      "$4\\delta$",
+      "$2r$"
     ],
-    "explanation": "σ = r(p − p_abd)/(2δ): razlika unutarnjeg i intraabdominalnog tlaka puta polumjer, podijeljeno s dvostrukom debljinom stijenke δ. To je izraz za kuglu – isti oblik kao p·R/2 za membransku silu, podijeljen debljinom.",
+    "explanation": "$\\sigma = r(p - p_{abd})/(2\\delta)$: razlika unutarnjeg i intraabdominalnog tlaka puta polumjer, podijeljeno s dvostrukom debljinom stijenke $\\delta$. To je izraz za kuglu – isti oblik kao $p \\cdot R/2$ za membransku silu, podijeljen debljinom.",
     "image": null,
     "explanation_image": "img/26-2.png",
     "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 6 i 8",
@@ -286,7 +286,7 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Što je σ_a u izrazu za ukupno Cauchyevo naprezanje σ = σ_p + σ_a (4. model, sfera debele stijenke)?",
+    "prompt": "Što je $\\sigma_a$ u izrazu za ukupno Cauchyevo naprezanje $\\sigma = \\sigma_p + \\sigma_a$ (4. model, sfera debele stijenke)?",
     "answer": "aktivno naprezanje koje stvaraju mišićne stanice",
     "accepted": [
       "aktivno naprezanje koje stvaraju mišićne stanice"
@@ -296,7 +296,7 @@
       "intraabdominalni tlak",
       "zaostalo naprezanje"
     ],
-    "explanation": "Ukupno naprezanje je zbroj reaktivnog (pasivnog) naprezanja σ_p zbog istezanja i aktivnog naprezanja σ_a koje stvaraju mišićne stanice. 4. model procjenjuje i utjecaj orijentacije mišićnih vlakana i nelinearnosti tkiva.",
+    "explanation": "Ukupno naprezanje je zbroj reaktivnog (pasivnog) naprezanja $\\sigma_p$ zbog istezanja i aktivnog naprezanja $\\sigma_a$ koje stvaraju mišićne stanice. 4. model procjenjuje i utjecaj orijentacije mišićnih vlakana i nelinearnosti tkiva.",
     "image": null,
     "explanation_image": null,
     "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 6",
@@ -368,18 +368,18 @@
       "mc",
       "fill"
     ],
-    "prompt": "Za puni mjehur membranska sila je N_ϑ = (p_ves − p_abd)·R1 / ___.",
-    "answer": "2",
+    "prompt": "Za puni mjehur membranska sila je $N_\\vartheta = (p_{ves} - p_{abd}) \\cdot R_1 /$ ___.",
+    "answer": "$2$",
     "accepted": [
       "2",
       "dva"
     ],
     "distractors": [
-      "4",
-      "h",
-      "π"
+      "$4$",
+      "$h$",
+      "$\\pi$"
     ],
-    "explanation": "Iz ravnoteže kalote: N_ϑ·2R1·sin²ϑ·π = (p_ves − p_abd)·R1²·sin²ϑ·π, pa je N_ϑ = (p_ves − p_abd)·R1/2. Naprezanje je σ = N/h.",
+    "explanation": "Iz ravnoteže kalote: $N_\\vartheta \\cdot 2R_1 \\cdot \\sin^{2}\\vartheta \\cdot \\pi = (p_{ves} - p_{abd}) \\cdot R_1^{2} \\cdot \\sin^{2}\\vartheta \\cdot \\pi$, pa je $N_\\vartheta = (p_{ves} - p_{abd}) \\cdot R_1/2$. Naprezanje je $\\sigma = N/h$.",
     "image": "img/26-2.png",
     "explanation_image": null,
     "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 8",
@@ -396,7 +396,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "U primjeru punog mjehura polumjer je R1 = ___, a debljina stijenke h = 2,2 mm.",
+    "prompt": "U primjeru punog mjehura polumjer je $R_1 =$ ___, a debljina stijenke $h = 2{,}2\\,\\text{mm}$.",
     "answer": "100 mm",
     "accepted": [
       "100 mm",
@@ -409,7 +409,7 @@
       "11,5 mm",
       "4,2 mm"
     ],
-    "explanation": "Puni mjehur: R1 = 100 mm, h = 2,2 mm, p_abd = 0,67 kPa, p_ves = 1,46 kPa. Prazan mjehur: R2 = 80 mm, h = 4,2 mm, p_abd = 0,1 kPa, p_ves = 0.",
+    "explanation": "Puni mjehur: $R_1 = 100\\,\\text{mm}$, $h = 2{,}2\\,\\text{mm}$, $p_{abd} = 0{,}67\\,\\text{kPa}$, $p_{ves} = 1{,}46\\,\\text{kPa}$. Prazan mjehur: $R_2 = 80\\,\\text{mm}$, $h = 4{,}2\\,\\text{mm}$, $p_{abd} = 0{,}1\\,\\text{kPa}$, $p_{ves} = 0$.",
     "image": null,
     "explanation_image": null,
     "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 9",
@@ -426,7 +426,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Intravezikularni tlak u punom mjehuru u primjeru iznosi p_ves = ___ (intraabdominalni 0,67 kPa).",
+    "prompt": "Intravezikularni tlak u punom mjehuru u primjeru iznosi $p_{ves} =$ ___ (intraabdominalni 0,67 kPa).",
     "answer": "1,46 kPa",
     "accepted": [
       "1,46 kPa",
@@ -456,7 +456,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "Membranska sila u punom mjehuru (R1 = 100 mm, p_ves = 1,46 kPa, p_abd = 0,67 kPa) iznosi N_ϑ = ___.",
+    "prompt": "Membranska sila u punom mjehuru ($R_1 = 100\\,\\text{mm}$, $p_{ves} = 1{,}46\\,\\text{kPa}$, $p_{abd} = 0{,}67\\,\\text{kPa}$) iznosi $N_\\vartheta =$ ___.",
     "answer": "0,0395 N/mm",
     "accepted": [
       "0,0395 N/mm",
@@ -470,7 +470,7 @@
       "0,004 N/mm",
       "0,01795 N/mm"
     ],
-    "explanation": "N_ϑ = (1,46 − 0,67) kPa · 100 mm / 2 = 0,00079 N/mm² · 100 mm / 2 = 0,0395 N/mm. Za sferu je N_φ = (p_ves − p_abd)·R1 − N_ϑ isto 0,0395 N/mm.",
+    "explanation": "$N_\\vartheta = (1{,}46 - 0{,}67)\\,\\text{kPa} \\cdot 100\\,\\text{mm} / 2 = 0{,}00079\\,\\text{N/mm}^{2} \\cdot 100\\,\\text{mm} / 2 = 0{,}0395\\,\\text{N/mm}$. Za sferu je $N_\\varphi = (p_{ves} - p_{abd}) \\cdot R_1 - N_\\vartheta$ isto 0,0395 N/mm.",
     "image": null,
     "explanation_image": null,
     "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 8–10",
@@ -487,8 +487,8 @@
       "mc",
       "fill"
     ],
-    "prompt": "Maksimalno naprezanje u stijenci punog mjehura (N = 0,0395 N/mm, h = 2,2 mm) iznosi σ = ___.",
-    "answer": "0,01795 N/mm²",
+    "prompt": "Maksimalno naprezanje u stijenci punog mjehura ($N = 0{,}0395\\,\\text{N/mm}$, $h = 2{,}2\\,\\text{mm}$) iznosi $\\sigma =$ ___.",
+    "answer": "$0{,}01795\\,\\text{N/mm}^{2}$",
     "accepted": [
       "0,01795 N/mm²",
       "0,01795",
@@ -498,11 +498,11 @@
       "0,01795 MPa"
     ],
     "distractors": [
-      "0,0395 N/mm²",
-      "0,0869 N/mm²",
-      "0,000909 N/mm²"
+      "$0{,}0395\\,\\text{N/mm}^{2}$",
+      "$0{,}0869\\,\\text{N/mm}^{2}$",
+      "$0{,}000909\\,\\text{N/mm}^{2}$"
     ],
-    "explanation": "σ = N/h = 0,0395 / 2,2 ≈ 0,01795 N/mm² (≈ 0,018 MPa). Isto vrijedi za σ_ϑ i σ_φ, jer su za sferu obje membranske sile jednake.",
+    "explanation": "$\\sigma = N/h = 0{,}0395 / 2{,}2 \\approx 0{,}01795\\,\\text{N/mm}^{2}$ ($\\approx 0{,}018\\,\\text{MPa}$). Isto vrijedi za $\\sigma_\\vartheta$ i $\\sigma_\\varphi$, jer su za sferu obje membranske sile jednake.",
     "image": null,
     "explanation_image": null,
     "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 8–10",
@@ -518,17 +518,17 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Kakve su membranske sile N_ϑ i N_φ u punom mjehuru?",
+    "prompt": "Kakve su membranske sile $N_\\vartheta$ i $N_\\varphi$ u punom mjehuru?",
     "answer": "jednake (0,0395 N/mm) i vlačne",
     "accepted": [
       "jednake (0,0395 N/mm) i vlačne"
     ],
     "distractors": [
-      "N_ϑ je dvostruko veća od N_φ",
+      "$N_\\vartheta$ je dvostruko veća od $N_\\varphi$",
       "jednake po iznosu, suprotnog predznaka",
       "obje su tlačne"
     ],
-    "explanation": "Mjehur je sfera, pa je N_φ = (p_ves − p_abd)·R1 − N_ϑ = 2N_ϑ − N_ϑ = N_ϑ. Obje su pozitivne (vlačne) jer je unutarnji tlak veći od vanjskog.",
+    "explanation": "Mjehur je sfera, pa je $N_\\varphi = (p_{ves} - p_{abd}) \\cdot R_1 - N_\\vartheta = 2N_\\vartheta - N_\\vartheta = N_\\vartheta$. Obje su pozitivne (vlačne) jer je unutarnji tlak veći od vanjskog.",
     "image": null,
     "explanation_image": null,
     "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 8 i 10",
@@ -545,18 +545,18 @@
       "mc",
       "fill"
     ],
-    "prompt": "Za prazan mjehur (p_ves = 0) membranska sila je N_ϑ = −p_abd·R2 / ___.",
-    "answer": "2",
+    "prompt": "Za prazan mjehur ($p_{ves} = 0$) membranska sila je $N_\\vartheta = -p_{abd} \\cdot R_2 /$ ___.",
+    "answer": "$2$",
     "accepted": [
       "2",
       "dva"
     ],
     "distractors": [
-      "4",
-      "h",
-      "π"
+      "$4$",
+      "$h$",
+      "$\\pi$"
     ],
-    "explanation": "Kad nema unutarnjeg tlaka, ostaje samo intraabdominalni tlak izvana: N_ϑ = −p_abd·R2/2. Negativan predznak znači tlačnu silu.",
+    "explanation": "Kad nema unutarnjeg tlaka, ostaje samo intraabdominalni tlak izvana: $N_\\vartheta = -p_{abd} \\cdot R_2/2$. Negativan predznak znači tlačnu silu.",
     "image": null,
     "explanation_image": null,
     "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 11",
@@ -573,7 +573,7 @@
       "mc",
       "fill"
     ],
-    "prompt": "U primjeru praznog mjehura (R2 = 80 mm, p_abd = 0,1 kPa) membranska sila iznosi N_ϑ = ___.",
+    "prompt": "U primjeru praznog mjehura ($R_2 = 80\\,\\text{mm}$, $p_{abd} = 0{,}1\\,\\text{kPa}$) membranska sila iznosi $N_\\vartheta =$ ___.",
     "answer": "-0,004 N/mm",
     "accepted": [
       "-0,004 N/mm",
@@ -588,7 +588,7 @@
       "-0,0395 N/mm",
       "-0,008 N/mm"
     ],
-    "explanation": "N_ϑ = −0,1 kPa · 80 mm / 2 = −0,0001 N/mm² · 40 mm = −0,004 N/mm. Predznak minus znači da je stijenka praznog mjehura u tom smjeru tlačena, jer tlak djeluje samo izvana. Prema slajdu je N_φ = +0,004 N/mm.",
+    "explanation": "$N_\\vartheta = -0{,}1\\,\\text{kPa} \\cdot 80\\,\\text{mm} / 2 = -0{,}0001\\,\\text{N/mm}^{2} \\cdot 40\\,\\text{mm} = -0{,}004\\,\\text{N/mm}$. Predznak minus znači da je stijenka praznog mjehura u tom smjeru tlačena, jer tlak djeluje samo izvana. Prema slajdu je $N_\\varphi = +0{,}004\\,\\text{N/mm}$.",
     "image": null,
     "explanation_image": null,
     "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 11–13",
@@ -614,7 +614,7 @@
       "jednaka je, 2,2 mm",
       "jednaka je, 4,2 mm"
     ],
-    "explanation": "Pri punjenju se stijenka isteže i stanji: puni mjehur (R1 = 100 mm) ima stijenku 2,2 mm, a prazan (R2 = 80 mm) 4,2 mm. To se vidi i na slici detruzora praznog i punog mjehura.",
+    "explanation": "Pri punjenju se stijenka isteže i stanji: puni mjehur ($R_1 = 100\\,\\text{mm}$) ima stijenku 2,2 mm, a prazan ($R_2 = 80\\,\\text{mm}$) 4,2 mm. To se vidi i na slici detruzora praznog i punog mjehura.",
     "image": null,
     "explanation_image": null,
     "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 5, 9 i 12",

@@ -6,6 +6,7 @@ import { initQuiz, showQuiz } from './quiz.js';
 import { initExam, showExam } from './exam.js';
 import { renderSettings, resetSettingsUi, applyTheme } from './settings.js';
 import { initPlan, renderPlan, resetPlanForm, todayCardHtml, todayTask, taskText, quizPreset } from './plan.js';
+import { initZoom } from './zoom.js';
 import { esc, daysUntil, plural } from './util.js';
 import { streakInfo, globalStreakInfo, renderStats } from './stats.js';
 
@@ -43,12 +44,12 @@ function fmtDate(iso) {
 }
 
 function examDateOf(c) {
-  // Čita bez stvaranja zapisa (kolegij "U pripremi" ne dobiva zapis u pohrani).
-  return storage.getState().courses[c.courseId]?.plan?.examDate || c.course?.examDate || null;
+  // Postavka korisnika, inače zadano iz course.json. Ne stvara zapis u pohrani.
+  return c.course ? storage.examConfig(c.course).examDate : null;
 }
 
 function examText(iso) {
-  if (!iso) return 'Datum ispita još nije postavljen.';
+  if (!iso) return '📅 <strong>Postavi datum ispita</strong>';
   const left = daysUntil(iso);
   if (left > 0) return `Ispit za <strong>${left}</strong> ${plural(left, 'dan', 'dana', 'dana')} (${fmtDate(iso)})`;
   return left === 0 ? '<strong>Ispit je danas!</strong>' : 'Datum ispita je prošao.';
@@ -90,7 +91,7 @@ function courseCardHtml(c) {
   if (!isReady(c)) {
     return `<div class="course-card disabled" aria-disabled="true"><span class="cc-head"><span class="cc-name">${name}</span>
       <span class="badge prep">U pripremi</span></span>
-      <span class="muted small">${examText(date)}</span>
+      ${date ? `<span class="muted small">${examText(date)}</span>` : ''}
       <span class="muted small">Pitanja još nisu dodana.</span></div>`;
   }
   const cd = storage.courseData(c.courseId);
@@ -171,7 +172,9 @@ function renderCourseHome(el) {
         ${today.answered ? ` Točno: ${today.correct}.` : ''}</p>
     </section>
     ${storage.courseData(ctx.courseId).activeExam ? '<button type="button" class="btn primary big" data-act="exam">⏱️ Nastavi započeti ispit</button>' : ''}
-    <p class="muted center">${examText(examDateOf(ctx))}</p>
+    ${examDateOf(ctx)
+      ? `<p class="muted center">${examText(examDateOf(ctx))}</p>`
+      : '<button type="button" class="btn ghost" data-act="setdate">📅 Postavi datum ispita</button>'}
     ${todayCardHtml(today.answered)}
     <button type="button" class="btn primary big" data-act="quick">⚡ Brzi kviz · 10</button>
     ${real ? '<button type="button" class="btn big" data-act="real">🎯 Samo ispitna pitanja</button>' : ''}
@@ -185,6 +188,7 @@ function renderCourseHome(el) {
     else if (act === 'pick') go('quiz');
     else if (act === 'exam') go('exam');
     else if (act === 'plan') go('plan');
+    else if (act === 'setdate') go('settings', 'exam');
     else if (act === 'plan-go') { const t = todayTask(); if (t?.task) go('quiz', quizPreset(t.task)); }
     else if (act === 'plan-exam') go('exam', { duration: 30 });
   };
@@ -197,7 +201,7 @@ const SCREENS = {
   exam: (el, arg) => showExam(el, arg),
   plan: (el) => { resetPlanForm(); renderPlan(el); },
   stats: (el) => renderStats(el, ctx),
-  settings: (el) => { resetSettingsUi(); renderSettings(el, ctx); },
+  settings: (el, focus) => { resetSettingsUi(); renderSettings(el, ctx, focus); },
 };
 
 function showError(err) {
@@ -211,6 +215,8 @@ function showError(err) {
 async function init() {
   storage.load();
   applyTheme();
+  initZoom();
+  window.kvizMath?.observe(document.body); // formule na svim ekranima
   matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', applyTheme);
   let started = false;
   document.querySelector('.tabbar').addEventListener('click', (e) => {

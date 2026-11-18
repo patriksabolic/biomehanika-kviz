@@ -237,7 +237,7 @@
       "rendgenskom difrakcijom",
       "Couetteovim tokom"
     ],
-    "explanation": "Evans i Fung koristili su interferometrijsku metodu – interferencijski mikroskop. Iz izmjerene debljine i promjera dobili su izraz D(r) za oblik bikonkavnog diska.",
+    "explanation": "Evans i Fung koristili su interferometrijsku metodu – interferencijski mikroskop. Iz izmjerene debljine i promjera dobili su izraz $D(r)$ za oblik bikonkavnog diska.",
     "image": null,
     "explanation_image": null,
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 5",
@@ -253,7 +253,7 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Što označava R0 u izrazu Evansa i Funga D(r) = [1 − (r/R0)²]^½·[C0 + C2(r/R0)² + C4(r/R0)⁴]?",
+    "prompt": "Što označava $R_0$ u izrazu Evansa i Funga $D(r) = [1 - (r/R_0)^{2}]^{1/2} \\cdot [C_0 + C_2 (r/R_0)^{2} + C_4 (r/R_0)^{4}]$?",
     "answer": "polumjer stanice",
     "accepted": [
       "polumjer stanice"
@@ -263,7 +263,7 @@
       "udaljenost od osi simetrije",
       "numerički koeficijent"
     ],
-    "explanation": "U izrazu D je debljina, R0 polumjer stanice, r udaljenost od osi simetrije, a C0, C2 i C4 numerički koeficijenti koje treba odrediti. Na rubu (r = R0) prvi faktor je nula, pa je debljina nula.",
+    "explanation": "U izrazu $D$ je debljina, $R_0$ polumjer stanice, $r$ udaljenost od osi simetrije, a $C_0$, $C_2$ i $C_4$ numerički koeficijenti koje treba odrediti. Na rubu ($r = R_0$) prvi faktor je nula, pa je debljina nula.",
     "image": null,
     "explanation_image": null,
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 5",
@@ -347,7 +347,7 @@
       "131",
       "250"
     ],
-    "explanation": "Na 217 mosmol otopina je hipotonična; stanica ostaje bikonkavna, ali joj se volumen poveća (s 94 na 116 µm³), a površina ostaje 135 µm².",
+    "explanation": "Na 217 mosmol otopina je hipotonična; stanica ostaje bikonkavna, ali joj se volumen poveća (s 94 na $116\\,\\mu \\text{m}^{3}$), a površina ostaje $135\\,\\mu \\text{m}^{2}$.",
     "image": null,
     "explanation_image": null,
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 6 i 7",
@@ -375,7 +375,7 @@
       "300",
       "100"
     ],
-    "explanation": "Što je otopina manje toničnosti, to više vode ulazi u stanicu. Pri 131 mosmol stanica postaje sfera promjera 6,78 µm i volumena 164 µm³.",
+    "explanation": "Što je otopina manje toničnosti, to više vode ulazi u stanicu. Pri 131 mosmol stanica postaje sfera promjera $6{,}78\\,\\mu \\text{m}$ i volumena $164\\,\\mu \\text{m}^{3}$.",
     "image": null,
     "explanation_image": "img/25-1.png",
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 6 i 7",
@@ -393,7 +393,7 @@
       "fill"
     ],
     "prompt": "Promjer crvene krvne stanice u izotoničnom stanju (300 mosmol) iznosi ___.",
-    "answer": "7,82 µm",
+    "answer": "$7{,}82\\,\\mu \\text{m}$",
     "accepted": [
       "7,82 µm",
       "7,82",
@@ -402,11 +402,11 @@
       "7,82 um"
     ],
     "distractors": [
-      "7,59 µm",
-      "6,78 µm",
-      "2,58 µm"
+      "$7{,}59\\,\\mu \\text{m}$",
+      "$6{,}78\\,\\mu \\text{m}$",
+      "$2{,}58\\,\\mu \\text{m}$"
     ],
-    "explanation": "U izotoničnom stanju promjer je 7,82 µm, debljina 0,81–2,58 µm, površina 135 µm², a volumen 94 µm³. Pri 217 mosmol promjer pada na 7,59 µm, a kod sfere (131 mosmol) na 6,78 µm.",
+    "explanation": "U izotoničnom stanju promjer je $7{,}82\\,\\mu \\text{m}$, debljina $0{,}81\\text{–}2{,}58\\,\\mu \\text{m}$, površina $135\\,\\mu \\text{m}^{2}$, a volumen $94\\,\\mu \\text{m}^{3}$. Pri 217 mosmol promjer pada na $7{,}59\\,\\mu \\text{m}$, a kod sfere (131 mosmol) na $6{,}78\\,\\mu \\text{m}$.",
     "image": null,
     "explanation_image": "img/25-1.png",
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 6",
@@ -424,7 +424,7 @@
       "fill"
     ],
     "prompt": "Volumen crvene krvne stanice u izotoničnom stanju (300 mosmol) iznosi ___.",
-    "answer": "94 µm³",
+    "answer": "$94\\,\\mu \\text{m}^{3}$",
     "accepted": [
       "94 µm³",
       "94",
@@ -432,11 +432,11 @@
       "94 µm3"
     ],
     "distractors": [
-      "116 µm³",
-      "164 µm³",
-      "135 µm³"
+      "$116\\,\\mu \\text{m}^{3}$",
+      "$164\\,\\mu \\text{m}^{3}$",
+      "$135\\,\\mu \\text{m}^{3}$"
     ],
-    "explanation": "Pri 300 mosmol volumen je 94 µm³, pri 217 mosmol 116 µm³, a kod sfere (131 mosmol) 164 µm³. Volumen raste kako stanica upija vodu u otopini manje toničnosti.",
+    "explanation": "Pri 300 mosmol volumen je $94\\,\\mu \\text{m}^{3}$, pri 217 mosmol $116\\,\\mu \\text{m}^{3}$, a kod sfere (131 mosmol) $164\\,\\mu \\text{m}^{3}$. Volumen raste kako stanica upija vodu u otopini manje toničnosti.",
     "image": null,
     "explanation_image": "img/25-1.png",
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 6",
@@ -454,7 +454,7 @@
       "fill"
     ],
     "prompt": "Površina crvene krvne stanice u izotoničnom stanju iznosi ___.",
-    "answer": "135 µm²",
+    "answer": "$135\\,\\mu \\text{m}^{2}$",
     "accepted": [
       "135 µm²",
       "135",
@@ -462,11 +462,11 @@
       "135 µm2"
     ],
     "distractors": [
-      "94 µm²",
-      "145 µm²",
-      "164 µm²"
+      "$94\\,\\mu \\text{m}^{2}$",
+      "$145\\,\\mu \\text{m}^{2}$",
+      "$164\\,\\mu \\text{m}^{2}$"
     ],
-    "explanation": "Površina je 135 µm² i pri 300 i pri 217 mosmol – membrana se gotovo ne rasteže, mijenja se samo oblik. Tek kao sfera stanica ima površinu 145 µm².",
+    "explanation": "Površina je $135\\,\\mu \\text{m}^{2}$ i pri 300 i pri 217 mosmol – membrana se gotovo ne rasteže, mijenja se samo oblik. Tek kao sfera stanica ima površinu $145\\,\\mu \\text{m}^{2}$.",
     "image": null,
     "explanation_image": "img/25-1.png",
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 6",
@@ -483,7 +483,7 @@
       "mc"
     ],
     "prompt": "Što se mijenja kad crvena krvna stanica prijeđe iz 300 u 217 mosmol?",
-    "answer": "volumen raste (94 → 116 µm³), a površina ostaje 135 µm²",
+    "answer": "volumen raste (94 → $116\\,\\mu \\text{m}^{3}$), a površina ostaje $135\\,\\mu \\text{m}^{2}$",
     "accepted": [
       "volumen raste (94 → 116 µm³), a površina ostaje 135 µm²"
     ],
@@ -509,8 +509,8 @@
       "mc",
       "fill"
     ],
-    "prompt": "Maksimalna debljina crvene krvne stanice u izotoničnom stanju iznosi ___ (minimalna 0,81 µm).",
-    "answer": "2,58 µm",
+    "prompt": "Maksimalna debljina crvene krvne stanice u izotoničnom stanju iznosi ___ (minimalna $0{,}81\\,\\mu \\text{m}$).",
+    "answer": "$2{,}58\\,\\mu \\text{m}$",
     "accepted": [
       "2,58 µm",
       "2,58",
@@ -518,11 +518,11 @@
       "2.58"
     ],
     "distractors": [
-      "3,30 µm",
-      "0,81 µm",
-      "7,82 µm"
+      "$3{,}30\\,\\mu \\text{m}$",
+      "$0{,}81\\,\\mu \\text{m}$",
+      "$7{,}82\\,\\mu \\text{m}$"
     ],
-    "explanation": "Bikonkavni disk je najdeblji na rubu (2,58 µm), a najtanji u sredini (0,81 µm). Pri 217 mosmol debljine su veće: 3,30 i 2,10 µm.",
+    "explanation": "Bikonkavni disk je najdeblji na rubu ($2{,}58\\,\\mu \\text{m}$), a najtanji u sredini ($0{,}81\\,\\mu \\text{m}$). Pri 217 mosmol debljine su veće: $3{,}30$ i $2{,}10\\,\\mu \\text{m}$.",
     "image": null,
     "explanation_image": null,
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 6",
@@ -565,19 +565,19 @@
       "mc",
       "fill"
     ],
-    "prompt": "Volumen crvene krvne stanice opisane Cassinijevim krivuljama je V = (4/3)·R³·___.",
-    "answer": "V(ε)",
+    "prompt": "Volumen crvene krvne stanice opisane Cassinijevim krivuljama je $V = (4/3) \\cdot R^{3} \\cdot$ ___.",
+    "answer": "$V(\\varepsilon)$",
     "accepted": [
       "V(ε)",
       "V(e)",
       "V(epsilon)"
     ],
     "distractors": [
-      "A(ε)",
-      "ε",
-      "π"
+      "$A(\\varepsilon)$",
+      "$\\varepsilon$",
+      "$\\pi$"
     ],
-    "explanation": "Volumen je V = (4/3)·R³·V(ε), a površina A = 4·R²·A(ε). Funkcije V(ε) i A(ε) ovise o dimenzijskom omjeru ε; za volumen je aproksimacija V(ε) = (2,88 − 1,7ε)·ε.",
+    "explanation": "Volumen je $V = (4/3) \\cdot R^{3} \\cdot V(\\varepsilon)$, a površina $A = 4 \\cdot R^{2} \\cdot A(\\varepsilon)$. Funkcije $V(\\varepsilon)$ i $A(\\varepsilon)$ ovise o dimenzijskom omjeru $\\varepsilon$; za volumen je aproksimacija $V(\\varepsilon) = (2{,}88 - 1{,}7\\varepsilon) \\cdot \\varepsilon$.",
     "image": null,
     "explanation_image": null,
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 8",
@@ -607,7 +607,7 @@
       "turbulentnom",
       "Bernoullijevom"
     ],
-    "explanation": "Couetteov tok je laminarno strujanje viskoznog fluida između dviju paralelnih ploča, od kojih se jedna giba u odnosu na drugu. U njemu se eritrocit deformira kao kapljica tekućine, a viskoznost je 0,006 Pa·s.",
+    "explanation": "Couetteov tok je laminarno strujanje viskoznog fluida između dviju paralelnih ploča, od kojih se jedna giba u odnosu na drugu. U njemu se eritrocit deformira kao kapljica tekućine, a viskoznost je $0{,}006\\,\\text{Pa} \\cdot \\text{s}$.",
     "image": null,
     "explanation_image": null,
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 9",
@@ -626,7 +626,7 @@
       "fill"
     ],
     "prompt": "U Dintenassovu modelu deformacije stanice u Couetteovu toku viskoznost iznosi ___.",
-    "answer": "0,006 Pa·s",
+    "answer": "$0{,}006\\,\\text{Pa} \\cdot \\text{s}$",
     "accepted": [
       "0,006 Pa·s",
       "0,006",
@@ -636,11 +636,11 @@
       "6·10⁻³ Pa·s"
     ],
     "distractors": [
-      "0,06 Pa·s",
-      "1,78·10⁻⁵ Pa·s",
-      "0,6 Pa·s"
+      "$0{,}06\\,\\text{Pa} \\cdot \\text{s}$",
+      "$1{,}78 \\cdot 10^{-5}\\,\\text{Pa} \\cdot \\text{s}$",
+      "$0{,}6\\,\\text{Pa} \\cdot \\text{s}$"
     ],
-    "explanation": "Navedena viskoznost je 0,006 Pa·s. Za usporedbu, dinamička viskoznost zraka u zadatku iz disanja je 1,78·10⁻⁵ kg/(m·s) – više od 300 puta manja.",
+    "explanation": "Navedena viskoznost je $0{,}006\\,\\text{Pa} \\cdot \\text{s}$. Za usporedbu, dinamička viskoznost zraka u zadatku iz disanja je $1{,}78 \\cdot 10^{-5}\\,\\text{kg}/(\\text{m} \\cdot \\text{s})$ – više od 300 puta manja.",
     "image": null,
     "explanation_image": null,
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 9",
@@ -686,8 +686,8 @@
       "mc",
       "fill"
     ],
-    "prompt": "Savojna krutost membrane je D = E·h³ / [12·(1 − ___)].",
-    "answer": "ν²",
+    "prompt": "Savojna krutost membrane je $D = E \\cdot h^{3} / [12 \\cdot (1 -$ ___$)]$.",
+    "answer": "$\\nu^{2}$",
     "accepted": [
       "ν²",
       "ν^2",
@@ -697,11 +697,11 @@
       "nu²"
     ],
     "distractors": [
-      "ν",
-      "2ν",
-      "h²"
+      "$\\nu$",
+      "$2\\nu$",
+      "$h^{2}$"
     ],
-    "explanation": "Savojna krutost D = E·h³ / [12(1 − ν²)] ovisi o h³, a rastezna krutost je E·h. Kako je membrana jako tanka, h³ je zanemarivo malen, pa je savojna krutost puno manja od rastezne.",
+    "explanation": "Savojna krutost $D = E \\cdot h^{3} / [12(1 - \\nu^{2})]$ ovisi o $h^{3}$, a rastezna krutost je $E \\cdot h$. Kako je membrana jako tanka, $h^{3}$ je zanemarivo malen, pa je savojna krutost puno manja od rastezne.",
     "image": null,
     "explanation_image": null,
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 10",
@@ -727,7 +727,7 @@
       "jednake su",
       "obje su zanemarive"
     ],
-    "explanation": "Membrana je jako tanka, pa joj je savojna krutost (∝ h³) puno manja od rastezne (∝ h). Zato su deformacije istezanja male, a promjene zakrivljenosti velike – stanica lako mijenja oblik uz gotovo stalnu površinu.",
+    "explanation": "Membrana je jako tanka, pa joj je savojna krutost ($\\propto h^{3}$) puno manja od rastezne ($\\propto h$). Zato su deformacije istezanja male, a promjene zakrivljenosti velike – stanica lako mijenja oblik uz gotovo stalnu površinu.",
     "image": null,
     "explanation_image": null,
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 10 i 14",
@@ -770,8 +770,8 @@
       "mc",
       "fill"
     ],
-    "prompt": "Jednadžba ravnoteže membrane glasi N_φ/r1 + N_θ/r2 = ___.",
-    "answer": "p_i − p_o",
+    "prompt": "Jednadžba ravnoteže membrane glasi $N_\\varphi/r_1 + N_\\theta/r_2 =$ ___.",
+    "answer": "$p_i - p_o$",
     "accepted": [
       "p_i − p_o",
       "pi - po",
@@ -780,11 +780,11 @@
       "p_i-p_o"
     ],
     "distractors": [
-      "p_i + p_o",
-      "0",
-      "p·r/2"
+      "$p_i + p_o$",
+      "$0$",
+      "$p \\cdot r/2$"
     ],
-    "explanation": "Membranske sile N_φ i N_θ podijeljene s pripadnim polumjerima zakrivljenosti uravnotežuju razliku unutarnjeg i vanjskog tlaka p_i − p_o – ista jednadžba ljuske kao kod oka i mokraćnog mjehura.",
+    "explanation": "Membranske sile $N_\\varphi$ i $N_\\theta$ podijeljene s pripadnim polumjerima zakrivljenosti uravnotežuju razliku unutarnjeg i vanjskog tlaka $p_i - p_o$ – ista jednadžba ljuske kao kod oka i mokraćnog mjehura.",
     "image": null,
     "explanation_image": null,
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 12",
@@ -801,16 +801,16 @@
       "mc"
     ],
     "prompt": "Koji je zaključak analize membranskih naprezanja bikonkavne crvene krvne stanice u statičkoj ravnoteži?",
-    "answer": "p_i = p_o, pa su N_φ = 0 i N_θ = 0 – nema membranskih naprezanja",
+    "answer": "$p_i = p_o$, pa su $N_\\varphi = 0$ i $N_\\theta = 0$ – nema membranskih naprezanja",
     "accepted": [
       "p_i = p_o, pa su N_φ = 0 i N_θ = 0 – nema membranskih naprezanja"
     ],
     "distractors": [
-      "p_i > p_o, pa N_φ teži beskonačnosti",
-      "N_φ = (p_i − p_o)·r/2",
+      "$p_i > p_o$, pa $N_\\varphi$ teži beskonačnosti",
+      "$N_\\varphi = (p_i - p_o) \\cdot r/2$",
       "membrana je stalno vlačno napregnuta"
     ],
-    "explanation": "Na udubljenom dijelu diska ništa ne može uravnotežiti vertikalno opterećenje tlaka (N_φ → ∞). Zato mora biti p_i = p_o, pa je N_φ = N_θ = 0: oblik stanice ne uzrokuje membranska naprezanja.",
+    "explanation": "Na udubljenom dijelu diska ništa ne može uravnotežiti vertikalno opterećenje tlaka ($N_\\varphi \\to \\infty$). Zato mora biti $p_i = p_o$, pa je $N_\\varphi = N_\\theta = 0$: oblik stanice ne uzrokuje membranska naprezanja.",
     "image": null,
     "explanation_image": null,
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 13 i 15",

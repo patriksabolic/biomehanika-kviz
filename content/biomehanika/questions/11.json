@@ -309,7 +309,7 @@
     "modes": [
       "mc"
     ],
-    "prompt": "Koja je hipoteza (H0) istraživanja novog implantata za vrat bedrene kosti?",
+    "prompt": "Koja je hipoteza ($H_0$) istraživanja novog implantata za vrat bedrene kosti?",
     "answer": "stabilnost osteosinteze s novim implantatom statistički je veća ili barem jednaka postojećim metodama",
     "accepted": [
       "stabilnost osteosinteze s novim implantatom statistički je veća ili barem jednaka postojećim metodama"

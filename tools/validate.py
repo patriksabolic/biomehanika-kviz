@@ -1,18 +1,30 @@
-"""Provjera svih JSON datoteka s pitanjima (spec, odjeljak 17).
+r"""Provjera svih JSON datoteka s pitanjima (spec, odjeljak 17).
 
 Pokretanje iz mape projekta:
   python tools/validate.py                        svi kolegiji iz content/courses.json
   python tools/validate.py --course biomehanika   samo jedan kolegij
+  python tools/validate.py --no-browser           bez provjere formula u Chromeu
 Izlazni kod 0 = sve u redu, 1 = ima grešaka.
+
+Formule (spec, odjeljci 4 i 16): provjerava se zapis ($...$, \ce{...}, indeksi, eksponenti,
+grčka slova) i zatim se svako pitanje s formulom renderira KaTeX-om (throwOnError) u
+Chromeu bez prozora (headless), istim kodom kao aplikacija (js/math.js).
 ID-ovi pitanja moraju biti jedinstveni u cijeloj aplikaciji, pa se i s --course
 provjerava sukob ID-ova i prefiksa s ostalim kolegijima.
 """
 import argparse
+import html
 import json
+import os
 import re
+import subprocess
 import sys
+import tempfile
 from collections import Counter
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import mathcheck  # noqa: E402
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -31,6 +43,8 @@ PREFIX_RE = re.compile(r"^[a-z]{2,4}$")
 
 errors = []
 warnings = []
+render_items = []  # tekstovi s formulama za provjeru u Chromeu: {key, text}
+render_questions = set()
 
 
 def err(where, msg):
@@ -39,6 +53,42 @@ def err(where, msg):
 
 def warn(where, msg):
     warnings.append(f"{where}: {msg}")
+
+
+TEX_SYM = {
+    "cdot": "·", "times": "×", "approx": "≈", "le": "≤", "leq": "≤", "ge": "≥", "geq": "≥", "pm": "±",
+    "to": "→", "rightarrow": "→", "leftarrow": "←", "infty": "∞", "degree": "°", "circ": "°", "ldots": "…",
+    "dots": "…", "alpha": "α", "beta": "β", "gamma": "γ", "delta": "δ", "Delta": "Δ", "epsilon": "ε",
+    "varepsilon": "ε", "eta": "η", "theta": "θ", "lambda": "λ", "mu": "μ", "nu": "ν", "pi": "π", "rho": "ρ",
+    "sigma": "σ", "Sigma": "Σ", "tau": "τ", "phi": "φ", "varphi": "φ", "omega": "ω", "Omega": "Ω",
+    "kappa": "κ", "xi": "ξ", "psi": "ψ", "chi": "χ", "zeta": "ζ", "int": "∫", "sum": "∑", "partial": "∂",
+    "nabla": "∇", "sqrt": "√", "minus": "-", "lt": "<", "gt": ">",
+    "vartheta": "θ", "varrho": "ρ", "ell": "l",
+    "sin": "sin ", "cos": "cos ", "tan": "tan ", "tg": "tg ", "ctg": "ctg ", "cot": "cot ", "log": "log ",
+    "ln": "ln ", "exp": "exp ", "max": "max ", "min": "min ", "lim": "lim ",
+}
+
+
+def tex_to_plain(t):
+    for _ in range(3):
+        t = re.sub(r"\\ce\{((?:[^{}]|\{[^{}]*\})*)\}", lambda m: re.sub(r"[\^{}]", "", m.group(1)), t)
+        t = re.sub(r"\\(?:text|mathrm|mathit|mathbf|operatorname|mbox)\{([^{}]*)\}", "\x01" + r"\1", t)
+        t = re.sub(r"\\frac\{([^{}]*)\}\{([^{}]*)\}", r"(\1)/(\2)", t)
+        t = re.sub(r"\\sqrt\{([^{}]*)\}", r"√(\1)", t)
+    t = t.replace("{,}", ",")
+    t = re.sub(r"\\[,;:! ]", " ", t)
+    t = t.replace(r"\%", "%")
+    t = re.sub(r"\\(left|right|big|Big)\b", "", t)
+    t = re.sub(r"\\([a-zA-Z]+)", lambda m: TEX_SYM.get(m.group(1), ""), t)
+    t = re.sub(r"\^\{([^{}]*)\}", r"^\1", t)
+    t = re.sub(r"_\{([^{}]*)\}", r"_\1", t)
+    t = re.sub("[{}\x01]", "", t)
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def plain(s):
+    """Isto kao plainText() u js/grading.js: formule u običan tekst."""
+    return re.sub(r"\$\$([^$]*)\$\$|\$([^$]*)\$", lambda m: tex_to_plain(m.group(1) if m.group(1) is not None else m.group(2)), str(s))
 
 
 def normalize(s):
@@ -71,25 +121,46 @@ def read_course(entry):
         return None
 
 
-def check_answer_block(where, answer, accepted, distractors):
+def check_text(where, field, text):
+    """Zapis formula u tekstu koji se prikazuje (prompt, answer, distraktor, objašnjenje)."""
+    if not isinstance(text, str):
+        return
+    for p in mathcheck.lint(text):
+        err(where, f"{field}: {p}")
+    if "$" in text:
+        render_items.append({"key": f"{where} | {field}", "text": text})
+        render_questions.add(where)
+
+
+def check_answer_block(where, answer, accepted, distractors, modes=None):
     if not isinstance(answer, str) or not answer.strip():
         err(where, "'answer' je prazan")
         return
+    has_tex = "$" in answer
     if not isinstance(accepted, list) or not all(isinstance(a, str) and a.strip() for a in accepted):
         err(where, "'accepted' mora biti popis nepraznih tekstova")
         accepted = []
-    elif answer not in accepted:
-        err(where, f"'accepted' ne sadrži answer '{answer}'")
+    else:
+        for a in accepted:
+            if "$" in a or chr(92) in a:
+                err(where, f"'accepted' smije imati samo oblike koji se mogu utipkati (bez $ i LaTeX-a): '{a}'")
+        if not has_tex and answer not in accepted:
+            err(where, f"'accepted' ne sadrži answer '{answer}'")
+        if has_tex and modes and "fill" in modes and not accepted:
+            err(where, "answer s formulom u fill pitanju: 'accepted' mora imati tipkani oblik (ili modes samo [\"mc\"])")
+    check_text(where, "answer", answer)
     if not isinstance(distractors, list) or len(distractors) != 3:
         err(where, "'distractors' mora imati točno 3 stavke")
         return
     if not all(isinstance(d, str) and d.strip() for d in distractors):
         err(where, "distraktor je prazan")
         return
-    nd = [normalize(d) for d in distractors]
+    for i, d in enumerate(distractors):
+        check_text(where, f"distraktor {i + 1}", d)
+    nd = [normalize(plain(d)) for d in distractors]
     if len(set(nd)) != 3:
         err(where, "distraktori se ponavljaju")
-    correct = {normalize(answer)} | {normalize(a) for a in accepted}
+    correct = {normalize(plain(answer))} | {normalize(a) for a in accepted}
     for d, n in zip(distractors, nd):
         if n in correct:
             err(where, f"distraktor '{d}' jednak je točnom odgovoru")
@@ -132,6 +203,7 @@ def check_question(q, where, chapters, file_name, cfg):
     if not isinstance(prompt, str) or not prompt.strip():
         err(where, "'prompt' je prazan")
         prompt = ""
+    check_text(where, "prompt", prompt)
 
     if qtype in ("mc", "fill"):
         modes = q.get("modes")
@@ -142,7 +214,7 @@ def check_question(q, where, chapters, file_name, cfg):
                 err(where, f"type '{qtype}' nije u modes {modes}")
             if "fill" in modes and "___" not in prompt:
                 err(where, "pitanje s 'fill' u modes nema prazninu ___ u promptu")
-        check_answer_block(where, q.get("answer"), q.get("accepted"), q.get("distractors"))
+        check_answer_block(where, q.get("answer"), q.get("accepted"), q.get("distractors"), q.get("modes"))
     elif qtype == "image-label":
         if not q.get("image"):
             err(where, "image-label mora imati 'image'")
@@ -168,16 +240,24 @@ def check_question(q, where, chapters, file_name, cfg):
         items = q.get("items")
         if not isinstance(items, list) or len(items) < 2 or not all(isinstance(i, str) and i.strip() for i in items):
             err(where, "order mora imati 'items' s barem 2 stavke")
+        else:
+            for i, it in enumerate(items):
+                check_text(where, f"stavka {i + 1}", it)
     elif qtype == "match":
         pairs = q.get("pairs")
         if not isinstance(pairs, list) or len(pairs) < 2 or not all(
             isinstance(p, dict) and str(p.get("left", "")).strip() and str(p.get("right", "")).strip() for p in pairs
         ):
             err(where, "match mora imati 'pairs' s barem 2 para {left, right}")
+        else:
+            for i, pr in enumerate(pairs):
+                check_text(where, f"par {i + 1} lijevo", pr.get("left"))
+                check_text(where, f"par {i + 1} desno", pr.get("right"))
 
     expl = q.get("explanation")
     if not isinstance(expl, str) or len(expl.strip()) < 10 or not re.search(r"[.!?]", expl):
         err(where, "'explanation' mora imati barem jednu rečenicu")
+    check_text(where, "objašnjenje", expl)
 
     check_image(where, "image", q.get("image"), course_dir)
     check_image(where, "explanation_image", q.get("explanation_image"), course_dir)
@@ -210,12 +290,19 @@ def check_course_json(cid, course, entry):
         err(label, f"id '{course.get('id')}' nije jednak id-u u courses.json '{cid}'")
     if course.get("name") != entry.get("name"):
         warn(label, "naziv se razlikuje od naziva u courses.json")
+    # Podatke o ispitu bira korisnik u aplikaciji; course.json ih smije imati kao neobavezne zadane vrijednosti.
     exam_date = course.get("examDate")
     if exam_date is not None and not (isinstance(exam_date, str) and re.match(r"^\d{4}-\d{2}-\d{2}$", exam_date)):
-        err(label, "'examDate' mora biti GGGG-MM-DD ili null")
+        err(label, "'examDate' (neobavezno) mora biti GGGG-MM-DD ili null")
     grading = course.get("grading")
-    if not isinstance(grading, dict) or not all(str(g) in grading for g in (2, 3, 4, 5)):
-        err(label, "'grading' mora imati pragove za ocjene 2, 3, 4 i 5")
+    if grading is not None and (not isinstance(grading, dict) or not all(str(g) in grading for g in (2, 3, 4, 5))):
+        err(label, "'grading' (neobavezno) mora imati pragove za ocjene 2, 3, 4 i 5")
+    tg = course.get("targetGrade")
+    if tg is not None and tg not in (2, 3, 4, 5):
+        err(label, "'targetGrade' (neobavezno) mora biti 2–5")
+    exam = course.get("exam")
+    if exam is not None and not (isinstance(exam, dict) and isinstance(exam.get("durationMin", 45), int)):
+        err(label, "'exam' (neobavezno) mora biti { \"durationMin\": broj }")
     chapters = {c.get("id"): c for c in course.get("chapters", [])}
     areas = {a.get("id"): a for a in course.get("areas", [])}
     for c in chapters.values():
@@ -302,9 +389,38 @@ def validate_course(entry, cfg, seen_ids, report=True):
     print(f"Ukupno: {total} pitanja ({real} s kolokvija) u {len(files)} datoteka.")
 
 
+def check_render(skip):
+    """Svaki tekst s formulom renderiraj KaTeX-om (throwOnError) u Chromeu bez prozora."""
+    if not render_items:
+        return
+    n_q = len(render_questions)
+    if skip:
+        warn("formule", f"provjera u Chromeu preskočena (--no-browser), {n_q} pitanja s formulama")
+        return
+    chrome = mathcheck.find_chrome()
+    if not chrome:
+        err("formule", "Chrome nije pronađen – formule nisu provjerene (postavi CHROME_PATH ili koristi --no-browser)")
+        return
+    try:
+        results, version = mathcheck.render_all(render_items, chrome)
+    except Exception as e:
+        err("formule", f"provjera u Chromeu nije uspjela: {e}")
+        return
+    bad = 0
+    formulas = 0
+    for r in results:
+        formulas += r.get("count", 0)
+        for e in r["errors"]:
+            bad += 1
+            err(r["key"], f"KaTeX: {e}")
+    print(f"\nFormule (Chrome headless, KaTeX {version}): {n_q} pitanja, {len(render_items)} tekstova, "
+          f"{formulas} formula – grešaka u prikazu: {bad}.")
+
+
 def main():
     ap = argparse.ArgumentParser(description="Provjera pitanja (spec, odjeljak 17).")
     ap.add_argument("--course", help="id kolegija iz content/courses.json (bez argumenta: svi kolegiji)")
+    ap.add_argument("--no-browser", action="store_true", help="preskoči provjeru formula u Chromeu (headless)")
     args = ap.parse_args()
     try:
         courses = json.loads((CONTENT / "courses.json").read_text(encoding="utf-8"))
@@ -360,6 +476,8 @@ def main():
     for c in courses:
         if c.get("id") in cfgs and (not args.course or c["id"] == args.course):
             validate_course(c, cfgs[c["id"]], seen_ids)
+
+    check_render(args.no_browser)
 
     print()
     for w in warnings:

@@ -264,7 +264,7 @@
     "answer": "25",
     "accepted": ["25", "25 kostiju"],
     "distractors": ["24", "26", "12"],
-    "explanation": "Prsni koš čine prsna kost i 12 parova rebara: 1 + 2·12 = 25 kostiju. Taj se broj lako izračuna, pa ga ne treba pamtiti napamet.",
+    "explanation": "Prsni koš čine prsna kost i 12 parova rebara: $1 + 2 \\cdot 12 = 25$ kostiju. Taj se broj lako izračuna, pa ga ne treba pamtiti napamet.",
     "image": null,
     "explanation_image": null,
     "source": "7_Kosti 1.pdf, slajd 9",
