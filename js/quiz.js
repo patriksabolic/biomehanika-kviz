@@ -47,6 +47,10 @@ function filterPool(o) {
 // ---------- ulaz s drugih ekrana ----------
 
 export function showQuiz(root, preset) {
+  if (preset?.plan) {
+    if (startPlanSession(preset.plan)) return renderQuestion(root);
+    preset = { size: 10, chapters: preset.plan.chapters };
+  }
   if (preset) {
     const o = { ...defaultSetup(), chapters: allChapterIds(), realOnly: false, numbersOnly: false, hardOnly: false, ...preset };
     if (startSession(o)) return renderQuestion(root);
@@ -135,6 +139,30 @@ function startSession(opts) {
   const picked = pickQuestions(filterPool(opts), opts.size, cd, ctx.course.chapterById, usable());
   if (!picked.length) return false;
   session = { opts, items: picked.map((q) => ({ q })), i: 0, finished: false };
+  prepareItem();
+  return true;
+}
+
+// Dan učenja iz plana (spec, odjeljak 11): 70 % neviđenih pitanja iz današnjih poglavlja
+// + 30 % ponavljanja (scheduler preko već viđenih); manjak se dopuni iz današnjih poglavlja.
+function startPlanSession({ chapters, n }) {
+  const cd = courseData(ctx.courseId);
+  const byId = ctx.course.chapterById;
+  const all = usable();
+  const chs = new Set(chapters);
+  const inCh = all.filter((q) => chs.has(q.chapter));
+  const unseen = inCh.filter((q) => !cd.questions[q.id]?.answered);
+  const fresh = pickQuestions(unseen, Math.min(unseen.length, Math.round(n * 0.7)), cd, byId, all);
+  const used = new Set(fresh);
+  const seen = all.filter((q) => cd.questions[q.id]?.answered && !used.has(q));
+  const review = pickQuestions(seen, Math.min(seen.length, n - fresh.length), cd, byId, all);
+  review.forEach((q) => used.add(q));
+  const restPool = inCh.filter((q) => !used.has(q));
+  const extra = pickQuestions(restPool, Math.min(restPool.length, n - fresh.length - review.length), cd, byId, all);
+  const picked = shuffle([...fresh, ...review, ...extra]);
+  if (!picked.length) return false;
+  const opts = { chapters, realOnly: false, numbersOnly: false, hardOnly: false, size: Math.min(20, n) };
+  session = { opts, items: picked.map((q) => ({ q })), i: 0, finished: false, plan: true };
   prepareItem();
   return true;
 }

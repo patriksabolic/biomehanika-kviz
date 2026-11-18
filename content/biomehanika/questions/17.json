@@ -1,0 +1,760 @@
+[
+  {
+    "id": "bm-17-001",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Mišići čine oko ___ tjelesne mase.",
+    "answer": "40 %",
+    "accepted": [
+      "40 %",
+      "40%",
+      "40",
+      "40 posto",
+      "oko 40 %"
+    ],
+    "distractors": [
+      "25 %",
+      "60 %",
+      "15 %"
+    ],
+    "explanation": "Mišići su najveći pojedinačni dio mekih tkiva: čine oko 40 % mase tijela. Zato su i glavni potrošač energije i glavni izvor topline u tijelu, što je jedna od njihovih uloga uz pokretanje i održavanje položaja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-002",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U tijelu čovjeka ima oko ___ mišića.",
+    "answer": "650",
+    "accepted": [
+      "650",
+      "650 mišića",
+      "oko 650"
+    ],
+    "distractors": [
+      "206",
+      "450",
+      "850"
+    ],
+    "explanation": "U tijelu čovjeka ima oko 650 mišića različitih oblika (trakasti, vretenasti, lepezasti, pločasti, perasti, višeglavi, kružni). Toliki broj potreban je jer mišići ne samo da pokreću zglobove, nego i održavaju položaj, otvaraju i zatvaraju otvore te mijenjaju oblik organa.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 11",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-003",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Mišićno tkivo dijeli se na glatko, srčano i ___.",
+    "answer": "poprečnoprugasto",
+    "accepted": [
+      "poprečnoprugasto",
+      "poprečnoprugasti",
+      "poprečnoprugasto mišićno tkivo",
+      "skeletno",
+      "skeletni"
+    ],
+    "distractors": [
+      "vezivno",
+      "hrskavično",
+      "epitelno"
+    ],
+    "explanation": "Prema histološkoj slici razlikuju se tri vrste mišićnog tkiva: glatko, srčano i poprečnoprugasto. Poprečnoprugasto je dobilo ime po izmjeni svjetlijih i tamnijih pruga koje se vide pod mikroskopom, a nalazi se uz kostur.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 4; skripta, Mišići",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-004",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Vlakno poprečnoprugastog mišića je multinuklearna stanica čija duljina može biti od nekoliko mm do ___.",
+    "answer": "30 cm",
+    "accepted": [
+      "30 cm",
+      "30",
+      "30 centimetara",
+      "0,3 m"
+    ],
+    "distractors": [
+      "3 cm",
+      "10 cm",
+      "100 cm"
+    ],
+    "explanation": "Poprečnoprugasto mišićno vlakno nastaje spajanjem više stanica pa ima mnogo jezgara i može biti vrlo dugačko – do 30 cm. Tako jedno vlakno može protezati velik dio duljine mišića i prenositi silu bez mnogo prekida.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 5; skripta, Mišići",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-005",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Promjer vlakna poprečnoprugastog mišića iznosi ___.",
+    "answer": "10–100 µm",
+    "accepted": [
+      "10–100 µm",
+      "10-100 µm",
+      "10-100 μm",
+      "10–100 μm",
+      "10-100",
+      "10 do 100 µm",
+      "10-100 um",
+      "10-100 mikrometara"
+    ],
+    "distractors": [
+      "1,5–6 µm",
+      "1–10 mm",
+      "200–500 µm"
+    ],
+    "explanation": "Poprečnoprugasto vlakno debelo je 10–100 µm, dakle mikroskopski tanko, iako može biti dugo i do 30 cm. Glatka mišićna vlakna su još znatno tanja (1,5–6 µm).",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 5; skripta, Mišići",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-006",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Tekući dio mišićnog vlakna zove se ___.",
+    "answer": "sarkoplazma",
+    "accepted": [
+      "sarkoplazma",
+      "sarkoplazmu",
+      "sarcoplasma"
+    ],
+    "distractors": [
+      "sarkolema",
+      "miofibrila",
+      "sarkomera"
+    ],
+    "explanation": "Mišićno vlakno sastoji se od miofibrila (mišićnih vlakanaca) i tekućeg dijela – sarkoplazme, koja je zapravo citoplazma mišićne stanice. Različit omjer sarkoplazme i miofibrila daje vlaknima izgled blijedih i crvenih pruga.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 5",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-007",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Vlakna glatkih mišića duga su ___.",
+    "answer": "30–450 µm",
+    "accepted": [
+      "30–450 µm",
+      "30-450 µm",
+      "30-450 μm",
+      "30–450 μm",
+      "30-450",
+      "30 do 450 µm",
+      "30-450 um",
+      "30-450 mikrometara"
+    ],
+    "distractors": [
+      "3–45 µm",
+      "1–30 cm",
+      "10–100 µm"
+    ],
+    "explanation": "Glatka mišićna vlakna duga su samo 30–450 µm, dakle mikroskopski kratka. Za razliku od poprečnoprugastih (do 30 cm), ne pokreću kostur nego automatski reguliraju pokrete u probavnom, krvožilnom, dišnom i urogenitalnom sustavu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 6",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-008",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Vlakna glatkih mišića imaju promjer ___.",
+    "answer": "1,5–6 µm",
+    "accepted": [
+      "1,5–6 µm",
+      "1,5-6 µm",
+      "1.5-6 µm",
+      "1,5-6 μm",
+      "1.5–6 µm",
+      "1,5–6 μm",
+      "1,5-6",
+      "1.5-6",
+      "1,5 do 6 µm",
+      "1,5-6 um"
+    ],
+    "distractors": [
+      "10–100 µm",
+      "0,15–0,6 µm",
+      "15–60 µm"
+    ],
+    "explanation": "Glatka vlakna su vrlo tanka, promjera 1,5–6 µm, dakle i do desetak puta tanja od poprečnoprugastih (10–100 µm). Tanka vretenasta vlakna se gusto slažu u stijenke šupljih organa.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 6",
+    "tags": [
+      "brojka",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-009",
+    "chapter": "17",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji su mišići „voljni mišići”?",
+    "answer": "poprečnoprugasti",
+    "accepted": [
+      "poprečnoprugasti",
+      "poprečnoprugasti mišići",
+      "skeletni mišići"
+    ],
+    "distractors": [
+      "glatki mišići",
+      "srčani mišić",
+      "mišići krvnih žila"
+    ],
+    "explanation": "Poprečnoprugasti mišići uz kostur pokreću se voljom, pa ih zovemo voljnima. Ipak, i njihova se mnoga djelovanja (refleksi, tonus) odvijaju izvan volje. Glatki i srčani mišić rade automatski.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 5",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-010",
+    "chapter": "17",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što omogućuje obilnu opskrbu srčanog mišića kisikom?",
+    "answer": "bogata mreža kapilara",
+    "accepted": [
+      "bogata mreža kapilara",
+      "bogata mreža krvnih kapilara"
+    ],
+    "distractors": [
+      "multinuklearna vlakna",
+      "debeli epimizij",
+      "velika zaliha kalcija"
+    ],
+    "explanation": "Srčani mišić radi neprekidno cijeli život pa mu treba stalan dotok kisika. To osigurava bogata mreža krvnih kapilara. Građom je inače vrlo sličan poprečnoprugastom mišiću, a njegova su vlakna spojena da se skladno kontrahiraju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 7; skripta, Mišići",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-011",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Svako mišićno vlakno obavijeno je vezivnim tkivom koje se zove ___.",
+    "answer": "endomizij",
+    "accepted": [
+      "endomizij",
+      "endomizijem",
+      "endomysium",
+      "endomizija"
+    ],
+    "distractors": [
+      "perimizij",
+      "epimizij",
+      "fascija"
+    ],
+    "explanation": "Vezivo u mišiću slaže se u slojeve od najmanjeg prema najvećem: endomizij oko svakog vlakna, perimizij oko snopića vlakana i epimizij (vanjski perimizij) oko cijelog mišića. Ti slojevi prenose silu vlakana na tetivu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 9; skripta, Mišići",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-012",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Čitav mišić obavijen je opnom vanjskog perimizija, koji se zove i ___.",
+    "answer": "epimizij",
+    "accepted": [
+      "epimizij",
+      "epimizija",
+      "epimysium",
+      "epimizijem"
+    ],
+    "distractors": [
+      "endomizij",
+      "periost",
+      "perihondrij"
+    ],
+    "explanation": "Epimizij je vanjski vezivni omotač cijelog mišića (vanjski perimizij). Nastavlja se u tetivu, pa zajedno s endomizijem i perimizijem skuplja silu svih vlakana i prenosi je na kost.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 9",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-013",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Čahura koju vezivno tkivo formira oko mišića zove se ___.",
+    "answer": "fascija",
+    "accepted": [
+      "fascija",
+      "fascije",
+      "fascia",
+      "mišićna fascija"
+    ],
+    "distractors": [
+      "tetiva",
+      "endomizij",
+      "sarkolema"
+    ],
+    "explanation": "Fascija je vezivna čahura izvana oko mišića. Odvaja mišić od okolnih struktura i omogućuje mu da klizi uz njih pri kontrakciji.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 9; skripta, Mišići",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-014",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Mišić ima polazište, srednji mesnati dio i ___.",
+    "answer": "hvatište",
+    "accepted": [
+      "hvatište",
+      "hvatiste",
+      "insercija"
+    ],
+    "distractors": [
+      "tetivni luk",
+      "ishodište",
+      "trbuh mišića"
+    ],
+    "explanation": "Mišić je jednim krajem pričvršćen u polazištu, a drugim u hvatištu; između je mesnati dio koji se kontrahira. Kontrakcijom se hvatište približava polazištu i pritom se izvrši pokret u zglobu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 11",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-015",
+    "chapter": "17",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji je mišić primjer lepezastog mišića?",
+    "answer": "veliki prsni mišić",
+    "accepted": [
+      "veliki prsni mišić",
+      "veliki prsni",
+      "m. pectoralis major"
+    ],
+    "distractors": [
+      "biceps",
+      "kvadriceps",
+      "trbušni mišić"
+    ],
+    "explanation": "Mišiće dijelimo po obliku: trakasti, vretenasti, lepezasti, pločasti, perasti, višeglavi, dvotrbušasti i kružni. Veliki prsni mišić je lepezast jer se vlakna iz široka polazišta skupljaju prema uskom hvatištu. Trbušni mišići su pločasti, biceps je dvoglavi, a kvadriceps četveroglavi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 11",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-016",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Energiju za regeneraciju ATP-a mišić dobiva iz ___.",
+    "answer": "glukoze",
+    "accepted": [
+      "glukoze",
+      "glukoza",
+      "šećera"
+    ],
+    "distractors": [
+      "kalcija",
+      "acetilkolina",
+      "kolagena"
+    ],
+    "explanation": "Cijepanjem ATP-a oslobađa se energija za kontrakciju, a ATP se zatim mora obnoviti. Energiju za tu obnovu mišić dobiva razgradnjom glukoze, pa mišić pri radu troši šećer.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 13; skripta, Mišići",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-017",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pri ___ kontrakciji mišić se ne skraćuje, ali se u njemu povećava napetost.",
+    "answer": "izometričkoj",
+    "accepted": [
+      "izometričkoj",
+      "izometrička",
+      "izometrijska",
+      "izometrijskoj",
+      "izometrična",
+      "izometričnoj",
+      "statička",
+      "statičkoj"
+    ],
+    "distractors": [
+      "izotoničkoj",
+      "izokinetičkoj",
+      "tetaničkoj"
+    ],
+    "explanation": "Kod izometričke kontrakcije duljina mišića ostaje ista (iso = isto, metron = mjera), a raste samo napetost, npr. kad guramo zid. Suprotno tome, kod izotoničke se mišić skraćuje uz stalnu napetost.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 13; skripta, Mišići",
+    "tags": [
+      "definicija",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-018",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pri izometričkoj kontrakciji sva energija nastala cijepanjem ATP-a pretvara se u ___ energiju.",
+    "answer": "toplinsku",
+    "accepted": [
+      "toplinsku",
+      "toplinska",
+      "toplina",
+      "toplinu",
+      "unutarnju"
+    ],
+    "distractors": [
+      "kinetičku",
+      "potencijalnu",
+      "elastičnu"
+    ],
+    "explanation": "Rad je sila puta pomak. Kod izometričke kontrakcije nema pomaka pa nema ni mehaničkog rada ni kinetičke energije – sva energija iz ATP-a završi kao toplina. Zato se mišić zagrijava i kad samo drži teret na mjestu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 13; skripta, Mišići",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-019",
+    "chapter": "17",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je faza latencije pri podražaju mišića?",
+    "answer": "vrijeme od podražaja do početka kontrakcije",
+    "accepted": [
+      "vrijeme od podražaja do početka kontrakcije",
+      "vrijeme od trenutka podražaja do početka kontrakcije"
+    ],
+    "distractors": [
+      "vrijeme trajanja kontrakcije",
+      "vraćanje mišića u prvobitno stanje",
+      "vrijeme između dviju kontrakcija"
+    ],
+    "explanation": "Mišić ne reagira trenutačno: podražaj se mora prenijeti preko motorne pločice i pokrenuti procese u vlaknu. Taj kratki zaostatak od podražaja do početka kontrakcije zove se faza latencije; slijede faza kontrakcije i faza relaksacije.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 14; skripta, Mišići",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-020",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Faza kontrakcije mišićnog vlakna traje od nekoliko ms do ___.",
+    "answer": "0,1 s",
+    "accepted": [
+      "0,1 s",
+      "0.1 s",
+      "0,1",
+      "0.1",
+      "100 ms",
+      "0,1 sekunde"
+    ],
+    "distractors": [
+      "1 s",
+      "0,5 s",
+      "5 s"
+    ],
+    "explanation": "Jedna kontrakcija vlakna nakon podražaja vrlo je kratka – od nekoliko milisekundi do 0,1 s. Zato za dulje držanje sile živčani sustav mora slati niz podražaja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 14; skripta, Mišići",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-021",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Stupanj napetosti u kojem se mišići stalno nalaze zove se ___.",
+    "answer": "tonus",
+    "accepted": [
+      "tonus",
+      "mišićni tonus",
+      "tonus mišića"
+    ],
+    "distractors": [
+      "tetanus",
+      "kontraktilnost",
+      "podražljivost"
+    ],
+    "explanation": "Mišići nikad nisu potpuno opušteni nego su u blagoj stalnoj napetosti – tonusu. Tonus stabilizira zglobove, pomaže kosturu da odoli gravitaciji i vanjskim silama te drži dijelove tijela u položaju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 15; skripta, Mišići",
+    "tags": [
+      "definicija",
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-022",
+    "chapter": "17",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se zove svojstvo mišićnih stanica da mijenjaju duljinu jer aktinska vlakna mijenjaju položaj u odnosu na miozinska?",
+    "answer": "kontraktilnost",
+    "accepted": [
+      "kontraktilnost",
+      "kontraktilnost mišića"
+    ],
+    "distractors": [
+      "podražljivost",
+      "rastezljivost",
+      "elastičnost"
+    ],
+    "explanation": "Kontraktilni proteini aktin i miozin nalaze se u citoplazmi mišićnih stanica. Kad aktinska vlakna klize uz miozinska, stanica se skraćuje – to je kontraktilnost. Podražljivost, rastezljivost i elastičnost su druga svojstva mišića.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 16; skripta, Mišići",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-023",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Mišićne niti se u kontrahiranom stanju skrate do ___.",
+    "answer": "40 %",
+    "accepted": [
+      "40 %",
+      "40%",
+      "40",
+      "40 posto"
+    ],
+    "distractors": [
+      "10 %",
+      "25 %",
+      "70 %"
+    ],
+    "explanation": "Pri kontrakciji se niti uvlače jedna u drugu pa se skrate do 40 %. Time se polazište i hvatište mišića približe i mišić izvrši rad.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 17",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-024",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Najmanji funkcionalni dio mišićnog vlakanca je ___.",
+    "answer": "sarkomera",
+    "accepted": [
+      "sarkomera",
+      "sarkomere",
+      "sarkomer"
+    ],
+    "distractors": [
+      "miofibrila",
+      "sarkoplazma",
+      "miofilament"
+    ],
+    "explanation": "Mišićno vlakance (miofibrila) sastoji se od niza sarkomera. Pri kontrakciji ručice miozina vuku aktin prema središtu sarkomere pa se svaka sarkomera skrati; zbroj tih malih skraćenja daje skraćenje cijelog mišića.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 18; skripta, Mišići",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-17-025",
+    "chapter": "17",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Biokemijski model procjene mišićne sile vezan je uz ime ___.",
+    "answer": "Huxley",
+    "accepted": [
+      "Huxley",
+      "Huxely",
+      "Huxleyjev model",
+      "Huxleyev"
+    ],
+    "distractors": [
+      "Hill",
+      "Wolff",
+      "Young"
+    ],
+    "explanation": "Mišićna sila se ne može izravno mjeriti in vivo (tehnički, biološki i etički problemi), pa se procjenjuje modelima. Uz Hillov model (kontraktilna komponenta s pasivnim elastičnim komponentama) i konstitutivni model, postoji i Huxleyjev biokemijski model koji polazi od zbivanja na razini molekula.",
+    "image": null,
+    "explanation_image": null,
+    "source": "17_Misici.pdf, slajd 20",
+    "tags": [
+      "podjela",
+      "povijest"
+    ],
+    "real_exam": false
+  }
+]

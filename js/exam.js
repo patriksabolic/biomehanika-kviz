@@ -71,9 +71,13 @@ function persist() {
 
 // ---------- ulaz ----------
 
-export function showExam(el) {
+export function showExam(el, preset) {
   confirming = false;
   if (exam) return renderRun(el);
+  if (preset?.duration) {
+    result = null;
+    setup = { ...defaultSetup(), chapters: allChapterIds(), duration: preset.duration, n: suggestedCount(preset.duration) };
+  }
   if (result) return renderResult(el);
   renderSetup(el);
 }
@@ -94,7 +98,7 @@ function poolFor(chapters) {
   return usable().filter((q) => set.has(q.chapter));
 }
 
-function historyHtml() {
+export function examHistoryHtml() {
   const exams = courseData(ctx.courseId).exams;
   if (!exams.length) return '<p class="muted small">Još nema riješenih ispita.</p>';
   const last3 = exams.slice(-3);
@@ -147,7 +151,7 @@ function renderSetup(el) {
     </section>
     <section class="card">
       <h2>Povijest ispita</h2>
-      ${historyHtml()}
+      ${examHistoryHtml()}
     </section>
     <div class="sticky-start">
       <p class="muted small center">Pragovi: 2 ≥ ${thr[2]} % · 3 ≥ ${thr[3]} % · 4 ≥ ${thr[4]} % · 5 ≥ ${thr[5]} % · s kolokvija u odabiru: ${realIn}</p>

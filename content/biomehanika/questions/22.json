@@ -1,0 +1,756 @@
+[
+  {
+    "id": "bm-22-001",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Koštica koja je jednim dijelom (drškom) srasla za bubnjić je ___.",
+    "answer": "čekić",
+    "accepted": [
+      "čekić",
+      "malleus",
+      "cekic"
+    ],
+    "distractors": [
+      "nakovanj",
+      "stremen",
+      "umbo"
+    ],
+    "explanation": "Čekić je prva u lancu slušnih koštica: njegova je drška srasla s bubnjićem, pa se svaki titraj bubnjića izravno prenosi na čekić. Na čekić je pričvršćen i timpanski mišić (zatezač bubnjića) koji preko njega regulira napetost membrane.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 6",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-002",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Koštica koja je svojim podnožjem spojena na ovalni prozor pužnice je ___.",
+    "answer": "stremen",
+    "accepted": [
+      "stremen",
+      "stapes"
+    ],
+    "distractors": [
+      "nakovanj",
+      "čekić",
+      "okrugli prozor"
+    ],
+    "explanation": "Lanac koštica završava stremenom čije podnožje leži u ovalnom prozoru pužnice. Pomak podnožja stremena stvara val u tekućini pužnice, pa je stremen mjesto gdje se titranje zraka pretvara u titranje tekućine.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 19",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-003",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Modul elastičnosti slušnih koštica (čekić, nakovanj, stremen) iznosi E = ___.",
+    "answer": "14,1 GPa",
+    "accepted": [
+      "14,1 GPa",
+      "14.1 GPa",
+      "14,1",
+      "14,1 gpa"
+    ],
+    "distractors": [
+      "1,41 GPa",
+      "141 GPa",
+      "4,1 GPa"
+    ],
+    "explanation": "Za sve tri slušne koštice uzima se modul elastičnosti E = 14,1 GPa. Tako krute koštice se pri prijenosu zvuka gotovo ne deformiraju, nego se gibaju kao kruta tijela u sustavu poluga.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 7",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-004",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Slušne koštice pojačavaju zvučni signal od vanjskog do unutarnjeg uha do ___ puta.",
+    "answer": "22",
+    "accepted": [
+      "22",
+      "22 puta",
+      "22 x",
+      "22x"
+    ],
+    "distractors": [
+      "2",
+      "13",
+      "60"
+    ],
+    "explanation": "Koštice rade kao sustav poluga, a uz to se sila s velike površine bubnjića prenosi na malo podnožje stremena. Zato se zvučni signal na putu od vanjskog do unutarnjeg uha može pojačati do 22 puta.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 7",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-005",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Najmanji poprečnoprugasti mišić u ljudskom tijelu je ___.",
+    "answer": "mišić stremena",
+    "accepted": [
+      "mišić stremena",
+      "misic stremena",
+      "stapedius",
+      "musculus stapedius",
+      "m. stapedius"
+    ],
+    "distractors": [
+      "mišić zatezač bubnjića",
+      "timpanski mišić",
+      "mišić čekića"
+    ],
+    "explanation": "U srednjem uhu nalaze se dva poprečnoprugasta mišića: zatezač bubnjića i mišić stremena. Mišić stremena, koji regulira pokret najmanje kosti u tijelu, ujedno je i najmanji poprečnoprugasti mišić u tijelu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 7",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-006",
+    "chapter": "22",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je uloga mišića zatezača bubnjića i mišića stremena kod presnažnog zvučnog podražaja?",
+    "answer": "prigušuju titranje koštica",
+    "accepted": [
+      "prigušuju titranje koštica",
+      "prigušivač"
+    ],
+    "distractors": [
+      "pojačavaju titranje koštica",
+      "izjednačuju tlak u bubnjištu",
+      "pretvaraju titraje u živčani signal"
+    ],
+    "explanation": "Ova dva poprečnoprugasta mišića drže lanac slušnih koštica u pravilnom položaju i namještaju osjetljivost uha. Kad je zvuk presnažan, oni djeluju kao prigušivač: ukrućuju sustav i smanjuju amplitudu titranja koja stiže do unutarnjeg uha.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 7; slajd 19",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-007",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Vanjski slušni kanal (zvukovod) dug je približno ___.",
+    "answer": "25 mm",
+    "accepted": [
+      "25 mm",
+      "25",
+      "2,5 cm",
+      "25mm"
+    ],
+    "distractors": [
+      "8 mm",
+      "35 mm",
+      "45 mm"
+    ],
+    "explanation": "Zvukovod ima duljinu oko 25 mm i promjer do 8 mm, a sastoji se od hrskavičnog (membranskog) i koštanog dijela. Na njegovom kraju nalazi se bubnjić koji ga odvaja od srednjeg uha.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-008",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Bubnjić, granica vanjskog i srednjeg uha, postavljen je pod kutom od ___.",
+    "answer": "45°",
+    "accepted": [
+      "45°",
+      "45",
+      "45 stupnjeva",
+      "45 °"
+    ],
+    "distractors": [
+      "30°",
+      "60°",
+      "90°"
+    ],
+    "explanation": "Bubnjić ne stoji okomito na zvukovod nego je nagnut pod kutom od 45°. Uz to ima oblik lijevka: jedan mu je kraj stalno napet, a drugi se može izbočiti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 3; skripta, Uho",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-009",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Na bazilarnoj membrani u Cortijevom organu nalazi se približno ___ slušnih dlačica.",
+    "answer": "30 000",
+    "accepted": [
+      "30 000",
+      "30000",
+      "30.000",
+      "30 tisuća"
+    ],
+    "distractors": [
+      "3000",
+      "300 000",
+      "10 000"
+    ],
+    "explanation": "Približno 30 000 slušnih dlačica poredano je u 4 reda na vrhu bazilarne membrane, u skupini stanica nazvanoj Cortijev organ. Otklon dlačica u jednom smjeru povećava, a u drugom sprječava oslobađanje kemijskih odašiljača, pa se gibanje tekućine pretvara u živčani signal.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 4",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-010",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Ukupni volumen srednjeg uha iznosi oko ___.",
+    "answer": "2 cm³",
+    "accepted": [
+      "2 cm³",
+      "2 cm3",
+      "2",
+      "2 cm^3",
+      "2 ml"
+    ],
+    "distractors": [
+      "0,5 cm³",
+      "20 cm³",
+      "35 cm³"
+    ],
+    "explanation": "Srednje uho je mala šupljina ispunjena zrakom, ukupnog volumena oko 2 cm³. U tom prostoru smješten je cijeli lanac od tri slušne koštice s ligamentima i dva mišića.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 11",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-011",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Masa nakovnja iznosi oko ___.",
+    "answer": "27 mg",
+    "accepted": [
+      "27 mg",
+      "27",
+      "27mg"
+    ],
+    "distractors": [
+      "23 mg",
+      "3–4 mg",
+      "14 mg"
+    ],
+    "explanation": "Prema tablici fizikalnih karakteristika nakovanj ima masu oko 27 mg i dimenzije 5 mm × 7 mm. To je najteža od triju koštica: čekić ima oko 23 mg, a stremen samo 3–4 mg.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 11",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-012",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Masa stremena iznosi oko ___.",
+    "answer": "3–4 mg",
+    "accepted": [
+      "3–4 mg",
+      "3-4 mg",
+      "3-4",
+      "3 do 4 mg",
+      "3-4mg"
+    ],
+    "distractors": [
+      "23 mg",
+      "27 mg",
+      "0,3–0,4 mg"
+    ],
+    "explanation": "Stremen je najmanja kost u tijelu: mase samo 3–4 mg i visine 3,5 mm, s ovalnom pločom (podnožjem) dimenzija 1,4 × 3,2 mm. Za usporedbu, čekić ima oko 23 mg, a nakovanj oko 27 mg.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 11",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-013",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Površina bubnjića iznosi ___.",
+    "answer": "0,5–0,9 cm²",
+    "accepted": [
+      "0,5–0,9 cm²",
+      "0,5-0,9 cm²",
+      "0.5-0.9 cm2",
+      "0,5-0,9 cm2",
+      "0,5-0,9",
+      "0,5 do 0,9 cm²"
+    ],
+    "distractors": [
+      "2–3 cm²",
+      "0,05–0,09 cm²",
+      "5–9 cm²"
+    ],
+    "explanation": "Bubnjić je približno kružna membrana površine 0,5–0,9 cm². Ta je površina mnogo veća od površine podnožja stremena, pa se ista sila raspoređuje na manju površinu i tlak na ovalnom prozoru raste.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 11",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-014",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Debljina bubnjića iznosi približno ___.",
+    "answer": "0,1 mm",
+    "accepted": [
+      "0,1 mm",
+      "0.1 mm",
+      "0,1",
+      "0,1mm",
+      "100 µm"
+    ],
+    "distractors": [
+      "1 mm",
+      "0,01 mm",
+      "0,5 mm"
+    ],
+    "explanation": "Bubnjić je vrlo tanka membrana, debljine oko 0,1 mm. Zbog male mase i debljine može titrati već pri sićušnim promjenama tlaka zraka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 11",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-015",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pomak bubnjića na pragu sluha pri 1 kHz iznosi približno ___.",
+    "answer": "10⁻⁸ mm",
+    "accepted": [
+      "10⁻⁸ mm",
+      "10^-8 mm",
+      "10^-8",
+      "1e-8 mm",
+      "10⁻⁸"
+    ],
+    "distractors": [
+      "10⁻¹ mm",
+      "10⁻⁴ mm",
+      "10⁻¹² mm"
+    ],
+    "explanation": "Na pragu sluha (1 kHz) bubnjić se pomakne samo oko 10⁻⁸ mm. Na pragu nelagode kod niskofrekventnih tonova pomak naraste na oko 10⁻¹ mm, pa uho pokriva golem raspon amplituda.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 11",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-016",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Normalno ljudsko uho čuje zvukove frekvencija od 16 Hz do ___.",
+    "answer": "20 000 Hz",
+    "accepted": [
+      "20 000 Hz",
+      "20000 Hz",
+      "20 kHz",
+      "20000",
+      "20 000"
+    ],
+    "distractors": [
+      "2000 Hz",
+      "15 000 Hz",
+      "200 000 Hz"
+    ],
+    "explanation": "Frekvencijski opseg sluha (visina tona) proteže se od 16 Hz do 20 000 Hz. Ispod tog raspona je infrazvuk, a iznad (iznad 20 kHz) ultrazvuk; s godinama se gornja granica spušta.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 14; skripta, Uho",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-017",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Zvuk frekvencije ispod 16 Hz naziva se ___.",
+    "answer": "infrazvuk",
+    "accepted": [
+      "infrazvuk",
+      "infra zvuk"
+    ],
+    "distractors": [
+      "ultrazvuk",
+      "hiperzvuk",
+      "podzvuk"
+    ],
+    "explanation": "Ljudsko uho ne čuje zvuk frekvencije ispod 16 Hz – to je infrazvuk. Na drugom kraju, zvuk iznad 20 kHz je ultrazvuk.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 14; skripta, Uho",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-018",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Opseg frekvencija najbitnijih za razumijevanje govora i svakodnevnih zvukova je ___.",
+    "answer": "250–8000 Hz",
+    "accepted": [
+      "250–8000 Hz",
+      "250-8000 Hz",
+      "250-8000",
+      "250 do 8000 Hz",
+      "250 Hz - 8 kHz"
+    ],
+    "distractors": [
+      "16–250 Hz",
+      "8000–20 000 Hz",
+      "50–1000 Hz"
+    ],
+    "explanation": "Iako uho čuje od 16 Hz do 20 kHz, najvažnije informacije govora i zvukova iz svakodnevice nalaze se između 250 Hz i 8000 Hz. Taj je opseg zato ključan za svakodnevnu komunikaciju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 14",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-019",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Karakteristična impedancija medija Z omjer je akustičnog tlaka i efektivne vrijednosti ___.",
+    "answer": "brzine čestica",
+    "accepted": [
+      "brzine čestica",
+      "brzina čestica",
+      "brzina cestica",
+      "ξ"
+    ],
+    "distractors": [
+      "pomaka čestica",
+      "gustoće medija",
+      "brzine zvuka"
+    ],
+    "explanation": "Impedancija Z = P/ξ govori koliki je tlak potreban da se čestice medija pokrenu određenom brzinom ξ. Zrak i tekućina u pužnici imaju vrlo različite impedancije, pa bi se bez prilagodbe većina zvuka odbila na granici.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 17",
+    "tags": [
+      "formula",
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-020",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Da nema slušnih koštica (vanjsko i unutarnje uho odvojeno samo membranom), udio prenesenog zvuka T iznosio bi ___.",
+    "answer": "0,0011",
+    "accepted": [
+      "0,0011",
+      "0.0011",
+      "0,11 %",
+      "0,11%"
+    ],
+    "distractors": [
+      "0,011",
+      "0,11",
+      "0,00011"
+    ],
+    "explanation": "Udio prenesene energije računa se kao T = 1 − Γ = 4·Zv·Zz / (Zv + Zz)², gdje su Zv i Zz impedancije vanjskog i unutarnjeg medija. Zbog velike razlike impedancija zraka i tekućine dobiva se samo T = 0,0011, tj. prošlo bi oko 0,1 % zvuka. Upravo tu razliku srednje uho kompenzira košticama.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 17",
+    "tags": [
+      "formula",
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-021",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Intenzitet zvuka računa se kao I = P·ξ = P²/___.",
+    "answer": "Z",
+    "accepted": [
+      "Z",
+      "impedancija",
+      "karakteristična impedancija"
+    ],
+    "distractors": [
+      "ξ",
+      "c",
+      "A"
+    ],
+    "explanation": "Intenzitet je energija koja u jednoj sekundi prođe kroz plohu od 1 m² okomitu na smjer širenja zvuka. Jednak je umnošku zvučnog tlaka P i brzine čestica ξ, a kako je ξ = P/Z, slijedi I = P²/Z.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 18",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-022",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Tlak na podnožju stremena računa se kao P₂ = P₁ · ___.",
+    "answer": "A1/A2",
+    "accepted": [
+      "A1/A2",
+      "A₁/A₂",
+      "A1 / A2",
+      "a1/a2"
+    ],
+    "distractors": [
+      "A2/A1",
+      "d1/d2",
+      "d2/d1"
+    ],
+    "explanation": "Ista sila prenosi se s bubnjića na stremen: F₁ = P₁·A₁ = P₂·A₂, pa je P₂ = P₁·A₁/A₂. Budući da je površina bubnjića A₁ mnogo veća od površine podnožja stremena A₂, tlak na ovalnom prozoru znatno je veći od tlaka na bubnjiću.",
+    "image": null,
+    "explanation_image": "img/22-1.png",
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 20",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-023",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Omjer krakova poluge slušnih koštica d₁/d₂ iznosi ___.",
+    "answer": "1,3",
+    "accepted": [
+      "1,3",
+      "1.3"
+    ],
+    "distractors": [
+      "2,2",
+      "0,77",
+      "13"
+    ],
+    "explanation": "Koštice djeluju kao poluga za koju vrijedi F₁·d₁ = F₂·d₂. Uz omjer krakova d₁/d₂ = 1,3 sila na stremenu F₂ veća je 1,3 puta od sile na bubnjiću, što se množi s pojačanjem zbog omjera površina.",
+    "image": null,
+    "explanation_image": "img/22-1.png",
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 20; slajd 21",
+    "tags": [
+      "brojka",
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-024",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Minimalni prag čujnosti (minimalni zvučni prag) iznosi P₀ = ___.",
+    "answer": "20·10⁻⁶ Pa",
+    "accepted": [
+      "20·10⁻⁶ Pa",
+      "20*10^-6 Pa",
+      "20 µPa",
+      "20 μPa",
+      "2·10⁻⁵ Pa",
+      "2e-5 Pa",
+      "0,00002 Pa",
+      "20x10^-6 Pa"
+    ],
+    "distractors": [
+      "20·10⁻³ Pa",
+      "20·10⁻⁹ Pa",
+      "0,025 Pa"
+    ],
+    "explanation": "Najmanji zvučni tlak koji uho može registrirati je P₀ = 20·10⁻⁶ Pa, tj. 20 µPa. Uho je dakle osjetljivo na iznimno male promjene tlaka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 21",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-22-025",
+    "chapter": "22",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Zvučni tlak na membrani bubnjića za normalnu razinu govora (60 dB) iznosi ___.",
+    "answer": "0,025 Pa",
+    "accepted": [
+      "0,025 Pa",
+      "0.025 Pa",
+      "0,025",
+      "25 mPa"
+    ],
+    "distractors": [
+      "0,25 Pa",
+      "2,5 Pa",
+      "20·10⁻⁶ Pa"
+    ],
+    "explanation": "Pri normalnom govoru razine 60 dB tlak na bubnjiću je oko 0,025 Pa. To je više od tisuću puta veće od praga čujnosti od 20·10⁻⁶ Pa.",
+    "image": null,
+    "explanation_image": null,
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 21",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  }
+]

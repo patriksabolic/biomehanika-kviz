@@ -1,0 +1,692 @@
+[
+  {
+    "id": "bm-20-001",
+    "chapter": "20",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kod perastih mišića mišićna vlakna postavljena su ___ u odnosu na os mišića.",
+    "answer": "koso",
+    "accepted": [
+      "koso",
+      "pod kutem",
+      "ukoso"
+    ],
+    "distractors": [
+      "paralelno",
+      "okomito",
+      "spiralno"
+    ],
+    "explanation": "Kod perastih mišića vlakna se na tetivu hvataju pod kutem α, kao pera na stapki. Zato se sila vlakna u smjeru osi mišića prenosi samo djelomično (komponenta pod kutem), za razliku od mišića s paralelnim vlaknima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-002",
+    "chapter": "20",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se prenosi sila kod mišića s paralelnim vlaknima?",
+    "answer": "izravno u smjeru kontrakcije",
+    "accepted": [
+      "izravno u smjeru kontrakcije"
+    ],
+    "distractors": [
+      "djelomično pod kutem α",
+      "okomito na os mišića",
+      "samo preko paralelnog elastičnog elementa"
+    ],
+    "explanation": "Kod mišića s paralelnim vlaknima vlakna leže uz os mišića, pa se cijela sila svakog vlakna prenosi izravno u smjeru kontrakcije. Kod perastih mišića vlakna su koso pa se sila prenosi samo djelomično, pod kutem α.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-003",
+    "chapter": "20",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji mišići razvijaju veću ukupnu silu kontrakcije?",
+    "answer": "perasti mišići",
+    "accepted": [
+      "perasti mišići",
+      "perasti"
+    ],
+    "distractors": [
+      "mišići s paralelnim vlaknima",
+      "glatki mišići",
+      "jednako, ne ovisi o rasporedu vlakana"
+    ],
+    "explanation": "Iako se kod perastih mišića sila vlakna prenosi samo djelomično (pod kutem α), u isti presjek stane mnogo više kosih vlakana. Zbog većeg broja vlakana po presjeku ukupna sila kontrakcije perastog mišića veća je nego kod mišića s paralelnim vlaknima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-004",
+    "chapter": "20",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako glasi izraz za silu mišića s paralelnim vlaknima prema slajdu (x, y – dimenzije presjeka, Fn – sila, A – površina)?",
+    "answer": "F_paral = x·y·Fn/A",
+    "accepted": [
+      "F_paral = x·y·Fn/A",
+      "Fparal = xyFn/A"
+    ],
+    "distractors": [
+      "F_paral = Fn·A/(x·y)",
+      "F_paral = x·y/(Fn·A)",
+      "F_paral = 2·x·y·Fn/A"
+    ],
+    "explanation": "Kod paralelnih vlakana sila je proporcionalna površini presjeka x·y kroz koji prolaze vlakna, pomnoženoj s Fn i podijeljenoj s A. Nema kutnih članova, jer vlakna vuku točno u smjeru osi mišića.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-005",
+    "chapter": "20",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji izraz prema slajdu daje silu perastog mišića?",
+    "answer": "F_per = 2·x·L·sin α·Fn·cos αn/A",
+    "accepted": [
+      "F_per = 2·x·L·sin α·Fn·cos αn/A"
+    ],
+    "distractors": [
+      "F_per = x·y·Fn/A",
+      "F_per = 2·x·L·cos α·Fn·sin αn/A",
+      "F_per = x·L·Fn/(2·A·sin α)"
+    ],
+    "explanation": "Kod perastog mišića (skica na slajdu) vlakna se s obje strane hvataju na tetivu duljine L, a izraz sadrži kutne članove sin α i cos αn. Član cos αn odražava to da se sila kosog vlakna u smjeru osi prenosi samo djelomično. Usporedi s F_paral = x·y·Fn/A, gdje kutnih članova nema.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-006",
+    "chapter": "20",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se prema Hillovoj krivulji mijenja brzina kontrakcije mišića kad sila raste?",
+    "answer": "opada (hiperbolično)",
+    "accepted": [
+      "opada (hiperbolično)",
+      "opada"
+    ],
+    "distractors": [
+      "raste linearno",
+      "ostaje konstantna",
+      "najprije raste, zatim opada"
+    ],
+    "explanation": "Hillova jednadžba (a + F)(v + b) = b(F0 + a) je hiperbola: neopterećeni mišić skraćuje se najbrže, a što je opterećenje veće, to je kontrakcija sporija. Pri sili F0 brzina pada na nulu – to je izometrička kontrakcija.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 3",
+    "tags": [
+      "skica",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-007",
+    "chapter": "20",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U Hillovu trokomponentnom modelu paralelni elastični element dodan je kako bi se uzela u obzir elastičnost mišića u ___.",
+    "answer": "mirovanju",
+    "accepted": [
+      "mirovanju",
+      "mirovanje",
+      "stanju mirovanja"
+    ],
+    "distractors": [
+      "kontrakciji",
+      "umoru",
+      "relaksaciji"
+    ],
+    "explanation": "I nestimulirani mišić pruža otpor kad ga istegnemo – to je pasivna elastičnost. Kontraktilni i serijski element tu pojavu ne opisuju, pa je dodan paralelni elastični element koji nosi silu i kad mišić miruje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 4",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-008",
+    "chapter": "20",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Paralelni elastični element u Hillovu trokomponentnom modelu obuhvaća elastičnost ___ tkiva.",
+    "answer": "vezivnog",
+    "accepted": [
+      "vezivnog",
+      "vezivno",
+      "vezivnog tkiva"
+    ],
+    "distractors": [
+      "mišićnog",
+      "koštanog",
+      "živčanog"
+    ],
+    "explanation": "Mišić je obavijen i prožet vezivnim tkivom (endomizij, fascija) koje leži paralelno s vlaknima. Kad se mišić istegne, to tkivo se rasteže i daje pasivnu silu – upravo to modelira paralelni elastični element.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 4",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-009",
+    "chapter": "20",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Ukupno vlačno naprezanje σ = σ(P) + σ(S) zbroj je doprinosa paralelnog i ___ elementa.",
+    "answer": "serijskog",
+    "accepted": [
+      "serijskog",
+      "serijski",
+      "serijskog elastičnog"
+    ],
+    "distractors": [
+      "kontraktilnog",
+      "viskoznog",
+      "prigušnog"
+    ],
+    "explanation": "Paralelni element i grana s kontraktilnim i serijskim elementom spojeni su paralelno, pa se njihove sile zbrajaju: σ = σ(P) + σ(S) = P(Ls) + S(ηs, Δ). Doprinos P ovisi samo o duljini sarkomere Ls, a doprinos S o produljenju ηs i Δ.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 4",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-010",
+    "chapter": "20",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U izrazu σ = P(Ls) + S(ηs, Δ) veličina Ls označava ukupnu duljinu ___.",
+    "answer": "sarkomere",
+    "accepted": [
+      "sarkomere",
+      "sarkomera"
+    ],
+    "distractors": [
+      "tetive",
+      "miofilamenta",
+      "mišićnog snopa"
+    ],
+    "explanation": "Paralelni element rasteže se zajedno s cijelim mišićem, pa njegov doprinos P ovisi o ukupnoj duljini sarkomere Ls. Sarkomera je najmanja funkcionalna jedinica mišića, pa se model opisuje na njezinoj razini.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 4",
+    "tags": [
+      "formula",
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-011",
+    "chapter": "20",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U izrazu σ = P(Ls) + S(ηs, Δ) veličina ηs označava ___ sarkomere.",
+    "answer": "produljenje",
+    "accepted": [
+      "produljenje",
+      "produženje",
+      "istezanje"
+    ],
+    "distractors": [
+      "skraćenje",
+      "viskoznost",
+      "presjek"
+    ],
+    "explanation": "Serijski element djeluje kao opruga, pa njegova sila S ovisi o tome koliko je produljen – to je ηs, produljenje sarkomere. Isto slovo η drugdje znači viskoznost ili koeficijent korisnog djelovanja, pa treba gledati kontekst.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 4",
+    "tags": [
+      "formula",
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-012",
+    "chapter": "20",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji član izostaje iz jednadžbe dσ/dt Hillova trokomponentnog modela kod izometričke kontrakcije?",
+    "answer": "član s dLs/dt",
+    "accepted": [
+      "član s dLs/dt",
+      "dLs/dt"
+    ],
+    "distractors": [
+      "član s dΔ/dt",
+      "član s ∂S/∂Δ",
+      "član s ∂S/∂ηs"
+    ],
+    "explanation": "Kod izometričke kontrakcije duljina mišića se ne mijenja, pa je dLs/dt = 0 i otpada cijeli prvi član opće jednadžbe. Ostaje dσ/dt = (∂S/∂ηs + ∂S/∂Δ)·dΔ/dt – naprezanje se mijenja samo zbog rada kontraktilnog elementa.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 5",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-013",
+    "chapter": "20",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što vrijedi za vlačno naprezanje kod izotoničke kontrakcije u Hillovu trokomponentnom modelu?",
+    "answer": "dσ/dt = 0",
+    "accepted": [
+      "dσ/dt = 0"
+    ],
+    "distractors": [
+      "dLs/dt = 0",
+      "dΔ/dt = 0",
+      "σ = 0"
+    ],
+    "explanation": "Izotonička kontrakcija znači stalnu napetost, pa se naprezanje ne mijenja u vremenu: dσ/dt = 0. Zato se cijeli desni dio opće jednadžbe izjednačava s nulom, dok se duljina Ls i Δ i dalje mijenjaju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 5",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-014",
+    "chapter": "20",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U eksperimentu naglog rasterećenja mišić se najprije predoptereti u ___ stanju do duljine Ls1.",
+    "answer": "nepobuđenom",
+    "accepted": [
+      "nepobuđenom",
+      "nepobuđeno",
+      "nestimuliranom"
+    ],
+    "distractors": [
+      "kontrahiranom",
+      "umornom",
+      "izometričkom"
+    ],
+    "explanation": "Koraci su: predopterećenje nepobuđenog mišića do duljine Ls1, zatim izometrička stimulacija dok naprezanje ne dosegne σ1, i na kraju nagla promjena naprezanja s σ1 na σ2. Predopterećenjem nepobuđenog mišića zadaje se poznati doprinos paralelnog elementa P(Ls1).",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 6",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-015",
+    "chapter": "20",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja jednadžba u eksperimentu naglog rasterećenja daje silu serijskog elementa na početku?",
+    "answer": "S(ηs1, Δ1) = σ1/A − P(Ls1)",
+    "accepted": [
+      "S(ηs1, Δ1) = σ1/A − P(Ls1)"
+    ],
+    "distractors": [
+      "S(ηs1, Δ1) = σ1/A + P(Ls1)",
+      "S(ηs1, Δ1) = P(Ls1) − σ1/A",
+      "S(ηs1, Δ1) = σ1·A − P(Ls1)"
+    ],
+    "explanation": "Ukupno naprezanje dijele paralelni i serijski element, pa se doprinos serijskog elementa dobije oduzimanjem doprinosa paralelnog elementa P(Ls1) od ukupnog σ1/A. To proizlazi iz σ = P(Ls) + S(ηs, Δ).",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 6",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-016",
+    "chapter": "20",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Podjelom mišića na 2 dijela u seriji u Hillovu trokomponentnom modelu postoje ___ brzine.",
+    "answer": "3",
+    "accepted": [
+      "3",
+      "tri"
+    ],
+    "distractors": [
+      "2",
+      "4",
+      "6"
+    ],
+    "explanation": "To su brzina promjene duljine cijelog mišića, brzina kontraktilnog elementa i brzina serijskog elastičnog elementa. Uz njih model ima dvije sile, P i S – paralelnog i serijskog elementa.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 7",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-017",
+    "chapter": "20",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako glasi jednadžba brzine kontrakcije u Hillovu trokomponentnom modelu (c – konstanta)?",
+    "answer": "(1/v0)·dΔ/dt = (1 − S/S0)/(1 + c·S/S0)",
+    "accepted": [
+      "(1/v0)·dΔ/dt = (1 − S/S0)/(1 + c·S/S0)"
+    ],
+    "distractors": [
+      "(1/v0)·dΔ/dt = (1 + S/S0)/(1 − c·S/S0)",
+      "(1/v0)·dΔ/dt = (1 − c·S/S0)/(1 + S/S0)",
+      "(1/v0)·dΔ/dt = S/S0"
+    ],
+    "explanation": "Kad je S = 0, desna strana je 1 pa je dΔ/dt = v0 – najveća brzina. Kad je S = S0, brojnik je 0 pa je brzina nula (izometričko stanje). Između toga brzina hiperbolično pada sa silom, kao u Hillovoj jednadžbi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 7",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-018",
+    "chapter": "20",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji izraz za elastičnu energiju vrijedi u fazi uravnoteženja vanjskih i unutrašnjih sila?",
+    "answer": "U = ∫ σ²/(2E) dV",
+    "accepted": [
+      "U = ∫ σ²/(2E) dV"
+    ],
+    "distractors": [
+      "U = ∫ E/(2σ²) dV",
+      "U = ∫ σ·E/2 dV",
+      "U = ∫ 2E·σ² dV"
+    ],
+    "explanation": "Gustoća elastične energije u tijelu je σ²/(2E): raste s kvadratom naprezanja, a manja je za kruće materijale (veći E). Integracijom po cijelom volumenu dobiva se ukupna elastična energija U, koju princip minimuma traži da bude što manja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 8",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-019",
+    "chapter": "20",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U fazi održavanja pokreta energija je U = Σ F·s + Σ m·v²/2. Drugi član predstavlja ___.",
+    "answer": "kinetičku energiju",
+    "accepted": [
+      "kinetičku energiju",
+      "kinetička energija",
+      "kinetičku"
+    ],
+    "distractors": [
+      "potencijalnu energiju",
+      "elastičnu energiju",
+      "toplinu"
+    ],
+    "explanation": "Prvi član Σ F·s je rad sila na pomacima hvatišta, a drugi Σ m·v²/2 kinetička energija segmenata koji se gibaju. U fazi održavanja pokreta dio kemijske energije mišića prelazi upravo u taj mehanički oblik.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 9",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-020",
+    "chapter": "20",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Maxwellov model mišića je reološki model ruke koja drži ___.",
+    "answer": "teret",
+    "accepted": [
+      "teret",
+      "uteg"
+    ],
+    "distractors": [
+      "ravnotežu",
+      "zglob",
+      "tetivu"
+    ],
+    "explanation": "Ruka koja drži teret modelira se oprugom (Youngov modul E) i prigušivačem (viskoznost η) spojenima u seriju – to je Maxwellov model. Na njemu se vidi da i za mirno držanje tereta mišić neprestano troši snagu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 11",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-021",
+    "chapter": "20",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako glasi jednadžba Maxwellova modela mišića (e – deformacija, σ – naprezanje, E – Youngov modul, η – viskoznost)?",
+    "answer": "de/dt = (1/E)·dσ/dt + σ/η",
+    "accepted": [
+      "de/dt = (1/E)·dσ/dt + σ/η"
+    ],
+    "distractors": [
+      "de/dt = E·dσ/dt + σ·η",
+      "σ = E·e + η·de/dt",
+      "de/dt = (1/η)·dσ/dt + σ/E"
+    ],
+    "explanation": "U Maxwellovu modelu opruga i prigušivač su u seriji pa se njihove brzine deformacije zbrajaju: opruga daje (1/E)·dσ/dt, a prigušivač σ/η. Zato pri stalnom naprezanju (dσ/dt = 0) deformacija i dalje raste brzinom σ/η.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 11",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-022",
+    "chapter": "20",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je snaga koju razvija Maxwellov model mišića (T/A – naprezanje u modelu, V – volumen modela, η – viskoznost)?",
+    "answer": "P = (1/η)·(T/A)²·V",
+    "accepted": [
+      "P = (1/η)·(T/A)²·V"
+    ],
+    "distractors": [
+      "P = η·(T/A)²·V",
+      "P = (1/η)·(T/A)·V²",
+      "P = (1/η)·(A/T)²·V"
+    ],
+    "explanation": "Snaga se troši u prigušivaču, a po jedinici volumena iznosi σ²/η. Uz jednoliko naprezanje σ = T/A integral po volumenu postaje P = (1/η)·(T/A)²·V. Snaga dakle raste s kvadratom naprezanja i linearno s volumenom.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 11",
+    "tags": [
+      "formula"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-023",
+    "chapter": "20",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Prema Maxwellovu modelu, ako osoba želi povećati svoju izlaznu snagu P, mora povećati ___ svojih mišića.",
+    "answer": "volumen",
+    "accepted": [
+      "volumen",
+      "volumen mišića",
+      "V"
+    ],
+    "distractors": [
+      "viskoznost",
+      "Youngov modul",
+      "presjek"
+    ],
+    "explanation": "Iz P = (1/η)·(T/A)²·V slijedi da je snaga proporcionalna volumenu mišića V. Veći mišić ima više tkiva koje istodobno radi pa može razviti veću snagu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 12",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-024",
+    "chapter": "20",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Maxwellov model: T = 10F, F = 50 N, V = 10⁻³ m³, A = 10⁻² m², 1/η = 10⁻⁵ 1/(Pa·s). Ulazna snaga u mišić je P = ___.",
+    "answer": "25 W",
+    "accepted": [
+      "25 W",
+      "25",
+      "25 vata"
+    ],
+    "distractors": [
+      "2,5 W",
+      "250 W",
+      "0,25 W"
+    ],
+    "explanation": "T = 10·50 N = 500 N, pa je naprezanje T/A = 500/0,01 = 5·10⁴ Pa. Tada je P = (1/η)·(T/A)²·V = 10⁻⁵ · 2,5·10⁹ · 10⁻³ = 25 W. Mišić troši tu snagu i kad samo mirno drži teret.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 12",
+    "tags": [
+      "racun"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-20-025",
+    "chapter": "20",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto se teret u Maxwellovu modelu ruke na kraju mora ispustiti?",
+    "answer": "aktivnost mišića zbog umora padne ispod potrebne razine",
+    "accepted": [
+      "aktivnost mišića zbog umora padne ispod potrebne razine"
+    ],
+    "distractors": [
+      "viskoznost mišića padne na nulu",
+      "volumen mišića se smanji",
+      "deformacija opruge postane negativna"
+    ],
+    "explanation": "Maksimalna aktivnost mišića s vremenom opada jer se povećava umor. Kad padne ispod razine aktivnosti potrebne za držanje tereta, mišić više ne može održati potrebnu silu i teret se mora ispustiti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 12",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  }
+]

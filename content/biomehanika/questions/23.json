@@ -1,0 +1,748 @@
+[
+  {
+    "id": "bm-23-001",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Oko je najvažnije ljudsko osjetilo – očima primamo oko ___ svih informacija iz okoline.",
+    "answer": "90 %",
+    "accepted": [
+      "90 %",
+      "90%",
+      "90",
+      "90 posto"
+    ],
+    "distractors": [
+      "50 %",
+      "70 %",
+      "99 %"
+    ],
+    "explanation": "Vid je dominantan osjet: oko 90 % svih informacija iz okoline dolazi preko očiju. Zato i mala mehanička oštećenja ovojnice oka (npr. popuštanje pri povišenom tlaku) imaju velike posljedice.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 2",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-002",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Oko radi poput fotoaparata: prozirni prednji dijelovi lome zrake svjetlosti i na mrežnicu projiciraju umanjenu i ___ sliku.",
+    "answer": "obrnutu",
+    "accepted": [
+      "obrnutu",
+      "obrnuta",
+      "obrnutu sliku",
+      "obrnuta slika",
+      "naopaku"
+    ],
+    "distractors": [
+      "uspravnu",
+      "uvećanu",
+      "zrcalnu"
+    ],
+    "explanation": "Rožnica i leća djeluju kao sabirni optički sustav, a zrake se križaju iza njega. Zato je slika na fotosjetljivoj mrežnici manja od predmeta i okrenuta naopako, kao u kameri.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 2; skripta, Oko",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-003",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Vanjsku fibroznu ovojnicu oka čine prozirna rožnica sprijeda i neprozirna ___ straga.",
+    "answer": "bjeloočnica",
+    "accepted": [
+      "bjeloočnica",
+      "sclera",
+      "sklera"
+    ],
+    "distractors": [
+      "žilnica",
+      "mrežnica",
+      "šarenica"
+    ],
+    "explanation": "Očna jabučica ima tri ovojnice: vanjsku fibroznu (rožnica + bjeloočnica), srednju prokrvljenu (žilnica, šarenica, cilijarno tijelo) i unutarnju (mrežnica). Mehanički teret unutarnjeg tlaka nosi upravo vanjska fibrozna ovojnica.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 4; skripta, Oko",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-004",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Oko pokreću tri para očnih mišića: dva para ravnih i jedan par ___ mišića.",
+    "answer": "kosih",
+    "accepted": [
+      "kosih",
+      "kosi",
+      "kosi mišići",
+      "kosih mišića"
+    ],
+    "distractors": [
+      "kružnih",
+      "poprečnih",
+      "cilijarnih"
+    ],
+    "explanation": "Prema prezentaciji oko pomiču tri para mišića, dva para ravnih i jedan par kosih. Njihova hvatišta su na bjeloočnici, gdje je ona najtanja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 4",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-005",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Središnji dio mrežnice gdje su živčane stanice najgušće raspoređene naziva se ___.",
+    "answer": "žuta pjega",
+    "accepted": [
+      "žuta pjega",
+      "macula lutea",
+      "makula"
+    ],
+    "distractors": [
+      "slijepa pjega",
+      "limbus",
+      "lamina cribrosa"
+    ],
+    "explanation": "Na žutoj pjegi je gustoća osjetnih živčanih stanica najveća, pa je ondje vid najoštriji. Pored nje počinje vidni živac.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 5; skripta, Oko",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-006",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Očna jabučica se sastoji od dva kuglasta elementa različitih polumjera, a mjesto njihova spoja naziva se ___.",
+    "answer": "limbus",
+    "accepted": [
+      "limbus",
+      "limbus rožnice"
+    ],
+    "distractors": [
+      "ekvator",
+      "lamina fusca",
+      "žuta pjega"
+    ],
+    "explanation": "Rožnica ima manji polumjer zakrivljenosti od bjeloočnice, pa je oko geometrijski spoj dviju kugli. Granica između njih, gdje se zakrivljenost naglo mijenja, je limbus.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 6; skripta, Oko",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-007",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Odstupanja u geometriji oka među populacijom iznose do ___.",
+    "answer": "2 mm",
+    "accepted": [
+      "2 mm",
+      "2",
+      "2mm"
+    ],
+    "distractors": [
+      "0,5 mm",
+      "5 mm",
+      "10 mm"
+    ],
+    "explanation": "Geometrijski model oka (dvije kugle) opisuje prosječno oko, a stvarne dimenzije među ljudima razlikuju se do 2 mm. Zato su izračunata naprezanja procjena za tipično oko.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 6",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-008",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Prosječna vrijednost intraokularnog tlaka iznosi ___.",
+    "answer": "2,67 kPa",
+    "accepted": [
+      "2,67 kPa",
+      "2,67",
+      "2.67 kPa",
+      "2.67"
+    ],
+    "distractors": [
+      "0,67 kPa",
+      "3,73 kPa",
+      "26,7 kPa"
+    ],
+    "explanation": "Intraokularni tlak je rezultat ravnoteže između proizvodnje očne vodice i njezina otjecanja. Prosječno iznosi 2,67 kPa i upravo taj tlak napreže vanjsku fibroznu ovojnicu poput tlaka u balonu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 7; skripta, Oko",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-009",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Normalni raspon intraokularnog tlaka iznosi ___ kPa.",
+    "answer": "2,20–3,73",
+    "accepted": [
+      "2,20–3,73",
+      "2,20-3,73",
+      "2,2-3,73",
+      "2.20-3.73",
+      "2,20–3,73 kPa",
+      "2,20-3,73 kPa"
+    ],
+    "distractors": [
+      "0,67–2,67",
+      "1,20–2,20",
+      "3,73–5,20"
+    ],
+    "explanation": "Intraokularni tlak nije kod svih jednak: kreće se od 2,20 do 3,73 kPa, s prosjekom 2,67 kPa. Izrazito povišen tlak (glaukom) može oštetiti stražnji dio bjeloočnice.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 7",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-010",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Ljudsko oko proizvodi očnu vodicu brzinom od ___.",
+    "answer": "2,5 mm³/min",
+    "accepted": [
+      "2,5 mm³/min",
+      "2,5",
+      "2.5",
+      "2,5 mm3/min",
+      "2.5 mm3/min"
+    ],
+    "distractors": [
+      "0,25 mm³/min",
+      "25 mm³/min",
+      "2,5 cm³/min"
+    ],
+    "explanation": "Očnu vodicu stalno proizvode cilijarni nastavci, oko 2,5 mm³ u minuti; ona hrani leću, šarenicu i unutrašnjost oka. Vodica istječe u krvotok kroz sitne otvore ispod šarenice – ako se začepe, otjecanje slabi i intraokularni tlak raste.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 7",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-011",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Rožnica je građena od ___ slojeva.",
+    "answer": "6",
+    "accepted": [
+      "6",
+      "šest",
+      "6 slojeva"
+    ],
+    "distractors": [
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "Rožnica ima 6 slojeva: epitel, Bowmanovu membranu, stromu, Dua sloj, Descemetovu membranu i endotel. Za razliku od nje, bjeloočnica ima samo 3 sloja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 11",
+    "tags": [
+      "brojka",
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-012",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Stroma je najdeblji dio rožnice, debljine oko ___.",
+    "answer": "500 μm",
+    "accepted": [
+      "500 μm",
+      "500",
+      "500 um",
+      "500 mikrometara",
+      "0,5 mm"
+    ],
+    "distractors": [
+      "50 μm",
+      "300 μm",
+      "1000 μm"
+    ],
+    "explanation": "Stroma čini najveći dio debljine rožnice (oko 500 μm), pa ona nosi i najveći dio mehaničkog opterećenja. Građena je od kolagenskih lamela koje rožnici daju modul elastičnosti oko 17 MPa.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 13",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-013",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Stroma rožnice sadrži ___ slojeva lamela.",
+    "answer": "300–500",
+    "accepted": [
+      "300–500",
+      "300-500",
+      "300 - 500",
+      "300 do 500"
+    ],
+    "distractors": [
+      "30–50",
+      "100–200",
+      "1000–2000"
+    ],
+    "explanation": "Stroma je složena od 300–500 slojeva lamela, a svaka lamela sadrži paralelne snopove kolagenskih vlakana. Tako slojevita, pravilna građa daje rožnici čvrstoću i prozirnost.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 13",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-014",
+    "chapter": "23",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto je rožnica prozirna, a bjeloočnica neprozirna?",
+    "answer": "raspored kolagenskih vlakana",
+    "accepted": [
+      "raspored kolagenskih vlakana",
+      "pravilna vs. nepravilna građa"
+    ],
+    "distractors": [
+      "prokrvljenost bjeloočnice",
+      "razlika u debljini stijenke",
+      "razlika u intraokularnom tlaku"
+    ],
+    "explanation": "U stromi rožnice lamele s paralelnim kolagenskim vlaknima složene su pravilno, pa svjetlost prolazi (rožnica ima i optičku ulogu). U bjeloočnici su kolagenska vlakna raspoređena nepravilno pa raspršuju svjetlost i ona je neprozirna. Obje su bez krvnih žila, pa prokrvljenost nije razlog.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 13 i 14",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-015",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Bjeloočnica zauzima ___ površine očne jabučice.",
+    "answer": "5/6",
+    "accepted": [
+      "5/6",
+      "pet šestina",
+      "5/6 površine"
+    ],
+    "distractors": [
+      "1/6",
+      "2/3",
+      "3/4"
+    ],
+    "explanation": "Bjeloočnica je stražnji, neprozirni dio vanjske ovojnice i zauzima 5/6 površine očne jabučice; preostalu šestinu čini rožnica. Zato se cijela očna jabučica u proračunu aproksimira kuglom polumjera bjeloočnice.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 14; skripta, Oko",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-016",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Bjeloočnica se sastoji od 3 sloja: episklere, strome i ___.",
+    "answer": "lamina fusca",
+    "accepted": [
+      "lamina fusca",
+      "lamine fusce"
+    ],
+    "distractors": [
+      "lamina cribrosa",
+      "Descemetove membrane",
+      "Bowmanove membrane"
+    ],
+    "explanation": "Slojevi bjeloočnice od vanjskog prema unutarnjem su episklera, stroma i lamina fusca. Ne treba je brkati s laminom cribrosom, mrežastom strukturom koja prekriva stražnji otvor bjeloočnice.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 14; skripta, Oko",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-017",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Prosječan promjer bjeloočnice iznosi ___.",
+    "answer": "23 mm",
+    "accepted": [
+      "23 mm",
+      "23",
+      "23mm",
+      "2,3 cm"
+    ],
+    "distractors": [
+      "11,5 mm",
+      "17 mm",
+      "30 mm"
+    ],
+    "explanation": "Bjeloočnica prosječno ima promjer 23 mm. U proračunu membranskog naprezanja ona se aproksimira sfernom ljuskom tog promjera.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 15 i 18",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-018",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Debljina bjeloočnice na stražnjem dijelu iznosi ___.",
+    "answer": "1 mm",
+    "accepted": [
+      "1 mm",
+      "1",
+      "1mm"
+    ],
+    "distractors": [
+      "0,3 mm",
+      "0,6 mm",
+      "2 mm"
+    ],
+    "explanation": "Bjeloočnica je najdeblja straga, u blizini očnog živca – oko 1 mm. Prema σ = p·R/(2δ) ondje je membransko naprezanje najmanje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 15",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-019",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Debljina bjeloočnice na ekvatoru iznosi ___.",
+    "answer": "0,6 mm",
+    "accepted": [
+      "0,6 mm",
+      "0,6",
+      "0.6 mm",
+      "0.6"
+    ],
+    "distractors": [
+      "0,3 mm",
+      "1 mm",
+      "0,06 mm"
+    ],
+    "explanation": "Debljina bjeloočnice nije jednolika: 1 mm straga, 0,6 mm na ekvatoru i 0,3 mm na hvatištu očnih mišića. Na ekvatoru je zato naprezanje između najmanjeg i najvećeg.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 15",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-020",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Debljina bjeloočnice na mjestu hvatišta očnih mišića iznosi ___.",
+    "answer": "0,3 mm",
+    "accepted": [
+      "0,3 mm",
+      "0,3",
+      "0.3 mm",
+      "0.3"
+    ],
+    "distractors": [
+      "0,6 mm",
+      "1 mm",
+      "0,03 mm"
+    ],
+    "explanation": "Na hvatištu očnih mišića bjeloočnica je najtanja (0,3 mm). Budući da je naprezanje obrnuto proporcionalno debljini stijenke, ondje se javlja najveće membransko naprezanje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 15",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-021",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Modul elastičnosti bjeloočnice pri normalnom intraokularnom tlaku iznosi ___.",
+    "answer": "12,2 MPa",
+    "accepted": [
+      "12,2 MPa",
+      "12,2",
+      "12.2 MPa",
+      "12.2"
+    ],
+    "distractors": [
+      "17 MPa",
+      "0,6 MPa",
+      "122 MPa"
+    ],
+    "explanation": "Bjeloočnica ima modul elastičnosti oko 12,2 MPa, nešto manji od rožnice (17 MPa). Kolagenska vlakna u njoj su nepravilno raspoređena, za razliku od pravilnih lamela rožnice.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 15",
+    "tags": [
+      "brojka",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-022",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Stražnji otvor bjeloočnice, kroz koji izlazi očni živac, prekriva mrežasta struktura ___ – po čvrstoći najslabija struktura ovojnice.",
+    "answer": "lamina cribrosa",
+    "accepted": [
+      "lamina cribrosa",
+      "lamina kribroza",
+      "lamine cribrose"
+    ],
+    "distractors": [
+      "lamina fusca",
+      "episklera",
+      "Descemetova membrana"
+    ],
+    "explanation": "Lamina cribrosa je mreža umreženih vlakana elastina i kolagena preko otvora za očni živac. Kako je najslabija, pri povišenom tlaku puca prva, a njezino popuštanje uzrokuje oštećenje vidnog živca.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 17 i 27; skripta, Oko",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-023",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kod zakreta oka mišićna sila potrebna da se oko vrati za 1° iznosi ___.",
+    "answer": "4,9 mN",
+    "accepted": [
+      "4,9 mN",
+      "4.9 mN",
+      "0,0049 N",
+      "0.0049 N"
+    ],
+    "distractors": [
+      "0,44 mN",
+      "49 mN",
+      "0,49 N"
+    ],
+    "explanation": "Za mali zakret od 1° potrebna je sila od samo 4,9 mN. Sila raste s kutom zakreta, pa za 40° iznosi već 0,44 N.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 26",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-024",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kod zakreta oka mišićna sila potrebna da se oko vrati za 40° iznosi ___.",
+    "answer": "0,44 N",
+    "accepted": [
+      "0,44 N",
+      "0,44",
+      "0.44 N",
+      "0.44",
+      "440 mN"
+    ],
+    "distractors": [
+      "4,9 N",
+      "0,044 N",
+      "2,29 N"
+    ],
+    "explanation": "Što je zakret veći, mišić mora savladati veći otpor tkiva oko oka, pa za 40° treba 0,44 N – gotovo stostruko više nego za 1° (4,9 mN). To je i dalje mnogo manje od sile pri kontrakciji ravnih mišića (oko 2 N).",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 26",
+    "tags": [
+      "brojka",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-23-025",
+    "chapter": "23",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Najveću silu pri kontrakciji (2,29 N) razvija ___ ravni mišić oka.",
+    "answer": "vanjski",
+    "accepted": [
+      "vanjski",
+      "vanjski ravni mišić",
+      "lateralni",
+      "musculus rectus lateralis"
+    ],
+    "distractors": [
+      "gornji",
+      "unutarnji",
+      "donji"
+    ],
+    "explanation": "Sile pri kontrakciji ravnih očnih mišića su: gornji 2,08 N, unutarnji 1,94 N, donji 2,12 N i vanjski 2,29 N. Najveća je dakle kod vanjskog, a najmanja kod unutarnjeg ravnog mišića.",
+    "image": null,
+    "explanation_image": null,
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 26",
+    "tags": [
+      "brojka",
+      "usporedba"
+    ],
+    "real_exam": false
+  }
+]

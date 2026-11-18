@@ -1,0 +1,741 @@
+[
+  {
+    "id": "bm-18-001",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Oko svake miozinske niti smješteno je ___ tanjih niti aktina.",
+    "answer": "6",
+    "accepted": [
+      "6",
+      "šest",
+      "6 niti",
+      "6 aktinskih niti"
+    ],
+    "distractors": [
+      "4",
+      "8",
+      "12"
+    ],
+    "explanation": "U mišićnom vlaknu svaka deblja miozinska nit okružena je sa 6 tanjih aktinskih niti. Takav raspored omogućuje glavicama miozina da sa svih strana zahvate aktin i povuku ga.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-002",
+    "chapter": "18",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kakve su miozinske niti u usporedbi s aktinskim nitima?",
+    "answer": "deblje",
+    "accepted": [
+      "deblje",
+      "deblje od aktinskih"
+    ],
+    "distractors": [
+      "tanje",
+      "jednake debljine",
+      "šuplje"
+    ],
+    "explanation": "Miozinske niti su deblje, a aktinske tanje; obje su izdužene polimerizirane molekule proteina. Debela miozinska nit nosi izdanke s glavicama koje se hvataju za tanke aktinske niti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 3",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-003",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Razmak između dviju Z membrana zove se ___.",
+    "answer": "sarkomera",
+    "accepted": [
+      "sarkomera",
+      "sarkomere",
+      "sarkomer"
+    ],
+    "distractors": [
+      "miofibrila",
+      "sarkolema",
+      "A pruga"
+    ],
+    "explanation": "Aktinske niti spojene su Z membranama (Z linijama), a dio vlakna između dviju Z membrana je sarkomera. Sarkomera je strukturna jedinica koja se ponavlja duž cijelog vlakna.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-004",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Vanjska membrana mišićnog vlakna zove se ___.",
+    "answer": "sarkolema",
+    "accepted": [
+      "sarkolema",
+      "sarkolemu",
+      "sarcolemma"
+    ],
+    "distractors": [
+      "sarkoplazma",
+      "sarkomera",
+      "endomizij"
+    ],
+    "explanation": "Sarkolema je stanična membrana mišićnog vlakna (sarko = meso, lema = ovojnica). Duž nje se širi akcijski potencijal koji pokreće kontrakciju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 4",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-005",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kalcij se u mišićnom vlaknu skladišti u ___.",
+    "answer": "sarkoplazmatskom retikulumu",
+    "accepted": [
+      "sarkoplazmatskom retikulumu",
+      "sarkoplazmatski retikulum",
+      "SR",
+      "sarkoplazmatskom retikulu"
+    ],
+    "distractors": [
+      "mitohondrijima",
+      "sarkolemi",
+      "Z membrani"
+    ],
+    "explanation": "Sarkoplazmatski retikulum je mreža kanala oko miofibrila koja služi kao skladište kalcija. Kad stigne podražaj, kalcij se iz njega oslobađa i pokreće kontrakciju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 4",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-006",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Tamniji segmenti mišićnog vlakna na histološkom preparatu zovu se ___ pruga.",
+    "answer": "A",
+    "accepted": [
+      "A",
+      "A pruga",
+      "A-pruga",
+      "A pruge"
+    ],
+    "distractors": [
+      "I",
+      "Z",
+      "H"
+    ],
+    "explanation": "Pod mikroskopom se vide tamne A pruge i svijetle I pruge koje se izmjenjuju – po njima je poprečnoprugasti mišić dobio ime. Tamnije su ondje gdje ima više proteinskih niti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 5",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-007",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U sredini svijetle I pruge nalazi se tamna ___ crta koja dijeli vlakno u sarkomere.",
+    "answer": "Z",
+    "accepted": [
+      "Z",
+      "Z crta",
+      "Z-crta",
+      "Z disk",
+      "Z linija",
+      "Z membrana"
+    ],
+    "distractors": [
+      "A",
+      "M",
+      "H"
+    ],
+    "explanation": "Z crta (disk) leži u sredini svijetle I pruge i spaja aktinske niti. Od jedne do druge Z crte proteže se jedna sarkomera, pa Z crte dijele vlakno u ponavljajuće jedinice.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 5",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-008",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Mišićno vlakno je građevna jedinica, a ___ je funkcionalna jedinica mišića.",
+    "answer": "motorna jedinica",
+    "accepted": [
+      "motorna jedinica",
+      "motorne jedinice",
+      "motorna pločica"
+    ],
+    "distractors": [
+      "miofibrila",
+      "sarkoplazma",
+      "mišićni snopić"
+    ],
+    "explanation": "Mišić se ne aktivira vlakno po vlakno nego po motornim jedinicama: jedan motorni neuron aktivira odjednom sva vlakna koja inervira. Zato je motorna jedinica funkcionalna jedinica, a vlakno samo građevna.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 7; skripta, Mišići",
+    "tags": [
+      "definicija",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-009",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Motorna jedinica sastoji se od motornog neurona i svih mišićnih vlakana koje on inervira, a to je ___ vlakana.",
+    "answer": "100–200",
+    "accepted": [
+      "100–200",
+      "100-200",
+      "100 – 200",
+      "100 do 200",
+      "100-200 vlakana"
+    ],
+    "distractors": [
+      "10–20",
+      "1000–2000",
+      "5–10"
+    ],
+    "explanation": "Jedan motorni neuron inervira 100–200 mišićnih vlakana, koja se zato uvijek kontrahiraju zajedno. Uključivanjem više ili manje motornih jedinica tijelo regulira obujam i snagu kontrakcije.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 7; skripta, Mišići",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-010",
+    "chapter": "18",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se broj mišićnih vlakana u motornoj jedinici mijenja kad je pokret precizniji i finiji?",
+    "answer": "smanjuje se",
+    "accepted": [
+      "smanjuje se",
+      "manji broj vlakana"
+    ],
+    "distractors": [
+      "povećava se",
+      "ostaje isti",
+      "udvostručuje se"
+    ],
+    "explanation": "Kod precizne kontrole svaki neuron smije pokrenuti samo malo vlakana, pa se sila može fino dozirati u malim koracima. Zato veća preciznost pokreta znači manji broj vlakana po motornoj jedinici.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 7",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-011",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Spoj mišića i živčanog vlakna (neuromišićna veza) zove se ___.",
+    "answer": "motorna pločica",
+    "accepted": [
+      "motorna pločica",
+      "motorne pločice",
+      "neuromišićna veza",
+      "neuromuskularna veza",
+      "neuromišićni spoj"
+    ],
+    "distractors": [
+      "sarkomera",
+      "Z membrana",
+      "sarkoplazmatski retikulum"
+    ],
+    "explanation": "Mišići su upravljani preko motornih pločica – spojeva motornog živčanog vlakna i mišića. Spoj radi po principu sinapse, uz sudjelovanje acetilkolina i kolinesteraze.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 8; 17_Misici.pdf, slajd 14",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-012",
+    "chapter": "18",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje živčano vlakno u mišiću omogućuje svjesnost kontrakcije?",
+    "answer": "osjetilno živčano vlakno",
+    "accepted": [
+      "osjetilno živčano vlakno",
+      "osjetilno",
+      "osjetno živčano vlakno",
+      "senzorno"
+    ],
+    "distractors": [
+      "motoričko živčano vlakno",
+      "autonomno živčano vlakno",
+      "simpatičko živčano vlakno"
+    ],
+    "explanation": "Mišić prima tri vrste živčanih vlakana: motoričko izaziva kontrakciju, osjetilno nam daje svjesnost da se mišić kontrahira, a autonomno regulira protok krvi kroz mišić.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 8",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-013",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Mišić kontrahira zbog ___ koji se od neuromišićne veze širi duž mišićnog vlakna.",
+    "answer": "akcijskog potencijala",
+    "accepted": [
+      "akcijskog potencijala",
+      "akcijski potencijal",
+      "akcijskog potencijal"
+    ],
+    "distractors": [
+      "mirovnog potencijala",
+      "osmotskog tlaka",
+      "hidrostatskog tlaka"
+    ],
+    "explanation": "Motorni neuron preko neuromišićne veze izazove akcijski potencijal – električni val koji se širi duž cijelog vlakna. Tek on pokreće oslobađanje kalcija i time kontrakciju cijelog vlakna.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 9",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-014",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Poprečni izdanci (mostići) miozinskih niti na krajevima imaju glavice od ___ molekula miozina.",
+    "answer": "150",
+    "accepted": [
+      "150",
+      "150 molekula"
+    ],
+    "distractors": [
+      "15",
+      "50",
+      "1500"
+    ],
+    "explanation": "Mostići miozinske niti završavaju glavicama građenim od oko 150 molekula miozina. Te se glavice hvataju za aktinsku nit i povlače je, pa su one zapravo 'motori' kontrakcije.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 9",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-015",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Glavica miozina prihvati se okomito za aktinsku nit, a zatim se spusti za ___ stupnjeva povlačeći aktin uz miozin.",
+    "answer": "45",
+    "accepted": [
+      "45",
+      "45°",
+      "45 °",
+      "45 stupnjeva"
+    ],
+    "distractors": [
+      "30",
+      "60",
+      "90"
+    ],
+    "explanation": "Glavica se uhvati za aktin pod pravim kutom, nagne se za 45° i pritom povuče aktinsku nit uz miozinsku. Zatim se otpusti, uspravi i ponovno uhvati dalje – kao veslanje – pa niti kližu jedna uz drugu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 9",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-016",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "___ se veže na miozinsku glavu i oslobađa je veze s aktinom.",
+    "answer": "ATP",
+    "accepted": [
+      "ATP",
+      "adenozintrifosfat",
+      "adenozin trifosfat"
+    ],
+    "distractors": [
+      "kalcij",
+      "acetilkolin",
+      "ADP"
+    ],
+    "explanation": "Nakon zaveslaja glavica ostaje vezana za aktin dok se na nju ne veže ATP, koji je oslobodi. Glavica se tada uspravi i može se ponovno uhvatiti za aktin, pa se ciklus ponavlja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 9",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-017",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Vezanje miozinske glave na aktin omogućuje ___ oslobođen iz sarkoplazmatskog retikuluma.",
+    "answer": "kalcij",
+    "accepted": [
+      "kalcij",
+      "Ca",
+      "Ca2+",
+      "kalcijevi ioni",
+      "ioni kalcija"
+    ],
+    "distractors": [
+      "natrij",
+      "kalij",
+      "magnezij"
+    ],
+    "explanation": "U mirovanju miozinske glave ne mogu zahvatiti aktin. Kad akcijski potencijal stigne, iz sarkoplazmatskog retikuluma oslobodi se kalcij i tek tada je moguće vezanje glave na aktin – kalcij je okidač kontrakcije.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 9 i 11; skripta, Mišići",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-018",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "ATP potreban za kontrakciju proizvodi se u ___.",
+    "answer": "mitohondrijima",
+    "accepted": [
+      "mitohondrijima",
+      "mitohondriji",
+      "mitohondrij",
+      "mitohondriju"
+    ],
+    "distractors": [
+      "sarkoplazmatskom retikulumu",
+      "jezgri",
+      "sarkolemi"
+    ],
+    "explanation": "Energija za kontrakciju dolazi u obliku ATP-a, a njega proizvode mitohondriji – 'elektrane' stanice. Kalcij, koji omogućuje vezanje miozina na aktin, dolazi pak iz sarkoplazmatskog retikuluma.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 11",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-019",
+    "chapter": "18",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je izokinetika u kontekstu mišićne kontrakcije?",
+    "answer": "rad uz konstantno opterećenje",
+    "accepted": [
+      "rad uz konstantno opterećenje",
+      "kontrakcija u uvjetima konstantnog opterećenja"
+    ],
+    "distractors": [
+      "kontrakcija bez promjene duljine",
+      "kontrakcija bez promjene napetosti",
+      "kontrakcija bez relaksacije"
+    ],
+    "explanation": "Uz izometričnu i izotoničnu kontrakciju, izokinetika je novi trend u kojem mišić radi u uvjetima konstantnog opterećenja. Bez promjene duljine radi izometrična, bez promjene napetosti izotonična kontrakcija, a izostanak relaksacije je tetanus.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 12",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-020",
+    "chapter": "18",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Pri kojoj je kontrakciji smanjen dotok krvi i glukoze u mišić?",
+    "answer": "izometričnoj",
+    "accepted": [
+      "izometričnoj",
+      "izometrična",
+      "statičkoj",
+      "statička",
+      "izometričkoj"
+    ],
+    "distractors": [
+      "izotoničnoj",
+      "izokinetičkoj",
+      "tetaničkoj"
+    ],
+    "explanation": "Kod izometrične (statičke) kontrakcije mišić je stalno napet pa pritišće vlastite krvne žile i smanjuje dotok krvi i glukoze – zato je teža i brže umara. Kod izotonične (dinamičke) kontrakcije izmjena napinjanja i opuštanja ubrzava dotok krvi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 13 i 14",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-021",
+    "chapter": "18",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se brzina kontrakcije mišića mijenja s povećanjem opterećenja?",
+    "answer": "smanjuje se",
+    "accepted": [
+      "smanjuje se",
+      "opada",
+      "manja je"
+    ],
+    "distractors": [
+      "povećava se",
+      "ne mijenja se",
+      "najprije raste pa pada"
+    ],
+    "explanation": "Što je teret veći, to je veći dio sile mišića potreban samo da ga drži, pa za ubrzanje ostaje manje – mišić se skraćuje sporije. Brzina kontrakcije ovisi i o broju stimuliranih vlakana te o umoru.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 15",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-022",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Mišićni umor nastaje zbog nedostatka ___.",
+    "answer": "ATP-a",
+    "accepted": [
+      "ATP-a",
+      "ATP",
+      "adenozintrifosfata",
+      "adenozin trifosfata"
+    ],
+    "distractors": [
+      "kalcija",
+      "acetilkolina",
+      "kolinesteraze"
+    ],
+    "explanation": "ATP je neposredni izvor energije za svaki zaveslaj miozinske glave i za njezino otpuštanje s aktina. Kad ga ponestane brže nego što se obnavlja, mišić se slabije kontrahira – to je mišićni umor.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 15",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-023",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Izostanak relaksacije između uzastopnih kontrakcija zove se ___.",
+    "answer": "tetanus",
+    "accepted": [
+      "tetanus",
+      "tetanija",
+      "tetanička kontrakcija"
+    ],
+    "distractors": [
+      "tonus",
+      "latencija",
+      "izokinetika"
+    ],
+    "explanation": "Ako novi podražaj stigne prije nego što se mišić opusti, kontrakcije se zbrajaju (nepotpuna relaksacija – pojačavanje). Ako relaksacije uopće nema, mišić ostaje trajno kontrahiran – tetanus.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 15",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-024",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Koristan rad mišića iznosi ___ utrošene energije, a ostatak je toplina.",
+    "answer": "25–30 %",
+    "accepted": [
+      "25–30 %",
+      "25-30 %",
+      "25-30%",
+      "25 – 30 %",
+      "25 do 30 %",
+      "25-30"
+    ],
+    "distractors": [
+      "5–10 %",
+      "45–50 %",
+      "70–75 %"
+    ],
+    "explanation": "Mišić je stroj ograničene korisnosti: samo 25–30 % energije pretvori u koristan mehanički rad, a ostatak oslobodi kao toplinu. Zato nam pri tjelesnom naporu postane toplo.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 16",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-18-025",
+    "chapter": "18",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Korisnost mišića je najveća kad brzina kontrakcije iznosi ___ maksimalne brzine.",
+    "answer": "trećinu",
+    "accepted": [
+      "trećinu",
+      "1/3",
+      "jednu trećinu",
+      "trećina",
+      "0,33"
+    ],
+    "distractors": [
+      "polovinu",
+      "četvrtinu",
+      "dvije trećine"
+    ],
+    "explanation": "Pri vrlo sporoj kontrakciji mišić razvija veliku silu, ali čini malo pomaka; pri vrlo brzoj je sila mala. Najviše korisnog rada po utrošenoj energiji dobije se između tih krajnosti – kad je brzina oko trećine maksimalne.",
+    "image": null,
+    "explanation_image": null,
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 16",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  }
+]

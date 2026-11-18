@@ -5,6 +5,7 @@ import { loadCourses, loadCourse } from './content.js';
 import { initQuiz, showQuiz } from './quiz.js';
 import { initExam, showExam } from './exam.js';
 import { renderSettings, resetSettingsUi, applyTheme } from './settings.js';
+import { initPlan, renderPlan, resetPlanForm, todayCardHtml, todayTask, quizPreset } from './plan.js';
 import { esc, daysUntil, plural } from './util.js';
 import { streakInfo, renderStats } from './stats.js';
 
@@ -28,10 +29,11 @@ function renderHome(el) {
   const goal = st.goal;
   const today = storage.dayStats(ctx.courseId);
   const pct = Math.min(100, Math.round((today.answered / goal) * 100));
-  const left = daysUntil(ctx.course.examDate);
+  const examDate = storage.courseData(ctx.courseId).plan?.examDate || ctx.course.examDate;
+  const left = daysUntil(examDate);
   const total = ctx.questions.length;
   const real = ctx.questions.filter((q) => q.real_exam).length;
-  const [y, m, d] = ctx.course.examDate.split('-');
+  const [y, m, d] = examDate.split('-');
   const examText = left > 0
     ? `Ispit za <strong>${left}</strong> ${plural(left, 'dan', 'dana', 'dana')} (${Number(d)}.${Number(m)}.${y}.)`
     : left === 0 ? '<strong>Ispit je danas!</strong>' : 'Datum ispita je prošao.';
@@ -64,6 +66,7 @@ function renderHome(el) {
     </section>
     ${storage.courseData(ctx.courseId).activeExam ? '<button type="button" class="btn primary big" data-act="exam">⏱️ Nastavi započeti ispit</button>' : ''}
     <p class="muted center">${examText}</p>
+    ${todayCardHtml(today.answered)}
     <button type="button" class="btn primary big" data-act="quick">⚡ Brzi kviz · 10</button>
     <button type="button" class="btn big" data-act="real">🎯 Samo ispitna pitanja</button>
     <button type="button" class="btn ghost" data-act="pick">Odaberi poglavlja</button>
@@ -75,13 +78,17 @@ function renderHome(el) {
     else if (act === 'real') go('quiz', { size: 10, realOnly: true });
     else if (act === 'pick') go('quiz');
     else if (act === 'exam') go('exam');
+    else if (act === 'plan') go('plan');
+    else if (act === 'plan-go') { const t = todayTask(); if (t?.task) go('quiz', quizPreset(t.task)); }
+    else if (act === 'plan-exam') go('exam', { duration: 30 });
   };
 }
 
 const SCREENS = {
   home: renderHome,
   quiz: (el, preset) => showQuiz(el, preset),
-  exam: (el) => showExam(el),
+  exam: (el, arg) => showExam(el, arg),
+  plan: (el) => { resetPlanForm(); renderPlan(el); },
   stats: (el) => renderStats(el, ctx),
   settings: (el) => { resetSettingsUi(); renderSettings(el, ctx); },
 };
@@ -110,6 +117,7 @@ async function init() {
     storage.courseData(course.id);
     initQuiz(ctx);
     initExam(ctx);
+    initPlan(ctx);
     go('home');
   } catch (e) {
     console.error(e);

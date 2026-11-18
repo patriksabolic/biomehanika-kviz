@@ -355,3 +355,56 @@ code { font-size: 0.9em; background: var(--surface-2); padding: 1px 5px; border-
 }
 .btn.danger { background: var(--bad); border-color: var(--bad); color: #fff; }
 .btn.danger-outline { border-color: var(--bad); color: var(--bad); background: transparent; }
+
+/* ---------- plan učenja (M4) ---------- */
+
+.plan-card p { margin: 6px 0; }
+.field { display: flex; flex-direction: column; gap: 6px; margin-bottom: 12px; }
+.field-label { margin: 12px 0 6px; font-weight: 600; }
+.plan-list .plan-day { display: grid; grid-template-columns: 4.6em 1fr auto; gap: 8px; align-items: baseline; }
+.plan-day.today { font-weight: 700; }
+.plan-day.today .pd-date { color: var(--primary); }
+.plan-day.review .pd-what { color: var(--muted); font-style: italic; }
+.pd-date { font-size: 0.9rem; white-space: nowrap; }
+.pd-what { font-size: 0.92rem; }
+.area-goal { flex-wrap: wrap; }
+.area-goal > span:first-child { flex: 1; }
+.goal-bar { position: relative; flex-basis: 100%; height: 8px; background: var(--surface-2); border-radius: 99px; }
+.goal-bar > div { height: 100%; background: var(--primary); border-radius: 99px; }
+.goal-bar > i { position: absolute; top: -3px; width: 2px; height: 14px; background: var(--text); }
+
+/* ---------- puna statistika (M4) ---------- */
+
+.chart { display: block; width: 100%; height: auto; }
+.chart.heatmap { max-width: 340px; }
+.chart .grid { stroke: var(--border); stroke-width: 1; }
+.chart .axis { fill: var(--muted); font-size: 10px; }
+.chart .hit { fill: transparent; }
+.chart .bar.hi, .lg.bar.hi { fill: var(--ok); background: var(--ok); }
+.chart .bar.mid, .lg.bar.mid { fill: var(--warn); background: var(--warn); }
+.chart .bar.lo, .lg.bar.lo { fill: var(--bad); background: var(--bad); }
+.chart .empty-dot { fill: var(--muted); }
+.chart .tip { cursor: pointer; outline: none; }
+.chart g.tip.sel .hit, .chart g.tip:focus-visible .hit { fill: color-mix(in srgb, var(--primary) 12%, transparent); }
+.hm.l0 { fill: var(--surface-2); background: var(--surface-2); }
+.hm.l1 { fill: color-mix(in srgb, var(--primary) 30%, var(--surface-2)); background: color-mix(in srgb, var(--primary) 30%, var(--surface-2)); }
+.hm.l2 { fill: color-mix(in srgb, var(--primary) 55%, var(--surface-2)); background: color-mix(in srgb, var(--primary) 55%, var(--surface-2)); }
+.hm.l3 { fill: color-mix(in srgb, var(--primary) 80%, var(--surface-2)); background: color-mix(in srgb, var(--primary) 80%, var(--surface-2)); }
+.hm.l4 { fill: var(--primary); background: var(--primary); }
+rect.hm.today { stroke: var(--text); stroke-width: 1.5; }
+rect.hm.sel, rect.hm:focus-visible { stroke: var(--warn); stroke-width: 2; }
+.chart-out { margin: 6px 0 4px; min-height: 1.4em; }
+.legend { display: flex; align-items: center; flex-wrap: wrap; gap: 6px; color: var(--muted); margin: 4px 0; }
+.lg { display: inline-block; width: 12px; height: 12px; border-radius: 3px; }
+.legend .lg.bar { margin-left: 6px; }
+.table-view summary { cursor: pointer; color: var(--muted); min-height: 32px; }
+.table-view table { width: 100%; border-collapse: collapse; margin-top: 6px; }
+.table-view td, .table-view th { text-align: left; padding: 4px 6px; border-bottom: 1px solid var(--border); }
+.qcard summary { list-style: none; cursor: pointer; min-height: 32px; }
+.qcard summary::-webkit-details-marker { display: none; }
+.qcard summary h2 { display: inline; }
+.qcard summary h2::before { content: '▸ '; color: var(--muted); }
+.qcard[open] summary h2::before { content: '▾ '; }
+.qlist { margin: 0; padding-left: 1.4em; }
+.qlist li { margin: 0 0 10px; }
+.ql-prompt { display: block; }
