@@ -1,0 +1,10 @@
+# Izvorni materijali kolegija – ostaju samo na računalu, ne idu na GitHub
+content/source/
+
+# Python
+__pycache__/
+*.pyc
+
+# Sustav
+Thumbs.db
+.DS_Store
