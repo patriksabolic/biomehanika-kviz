@@ -1,0 +1,1065 @@
+[
+  {
+    "id": "bl-06-001",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Enzimi FMO sudjeluju u približno ___ % reakcija I. faze metabolizma lijekova.",
+    "answer": "1–5",
+    "accepted": [
+      "1–5",
+      "1-5",
+      "1 do 5",
+      "1-5 %"
+    ],
+    "distractors": [
+      "10–20",
+      "30–40",
+      "50–60"
+    ],
+    "explanation": "FMO imaju manji udio od CYP-a, ali su važni jer oksidiraju nukleofilne heteroatome N, S, P i Se. Većina njihovih reakcija vodi detoksikaciji, premda ponekad nastaju i reaktivni metaboliti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 2",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-002",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje atome oksidiraju enzimi FMO?",
+    "answer": "nukleofilne heteroatome N, S, P i Se",
+    "accepted": [
+      "nukleofilne heteroatome N, S, P i Se",
+      "N, S, P i Se",
+      "heteroatome"
+    ],
+    "distractors": [
+      "samo ugljikove atome u vezi C–H",
+      "aromatske C-atome i dvostruke veze",
+      "samo atome dušika u aromatskim aminima"
+    ],
+    "explanation": "FMO rade dvoelektronski prijenos na heteroatom koji ima slobodan elektronski par i sterički je dostupan. Hidroksilacija veze C–H ostaje domena CYP-a, koji djeluje radikalskim mehanizmom.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajdovi 2 i 10",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-003",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Ključni reaktivni međuprodukt u mehanizmu FMO enzima je ___.",
+    "answer": "flavin-4a-hidroperoksid",
+    "accepted": [
+      "flavin-4a-hidroperoksid",
+      "flavin 4a hidroperoksid",
+      "4a-hidroperoksiflavin"
+    ],
+    "distractors": [
+      "flavin-4a-hidroksid",
+      "Spoj I",
+      "superokso-kompleks željeza"
+    ],
+    "explanation": "Reducirani FAD reagira s $\\ce{O2}$ i daje flavin-4a-hidroperoksid, koji prenosi jedan atom kisika na heteroatom supstrata. Pritom nastaje flavin-4a-hidroksid, a dehidracijom se regenerira FAD. Spoj I je odgovarajući oksidans u ciklusu CYP-a.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajdovi 2 i 8",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-004",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Gdje su u stanici smješteni enzimi FMO i koji su im glavni organi?",
+    "answer": "endoplazmatski retikulum; jetra, pluća, bubrezi i crijeva",
+    "accepted": [
+      "endoplazmatski retikulum; jetra, pluća, bubrezi i crijeva",
+      "endoplazmatski retikulum"
+    ],
+    "distractors": [
+      "citosol; jetra i koštana srž",
+      "vanjska membrana mitohondrija; mozak i jetra",
+      "peroksisomi; jetra i bubrezi"
+    ],
+    "explanation": "Kao i mikrosomski CYP-i, FMO su vezani uz membranu endoplazmatskog retikuluma. Najviše ih ima u jetri, plućima, bubrezima i crijevima, dakle u tkivima izloženima ksenobioticima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 2",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-005",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto ionizirane molekule (dikationi, karboksilati, sulfati) nisu dobri supstrati FMO enzima?",
+    "answer": "jer naboj sprječava pristup sterički dostupnom nukleofilnom heteroatomu",
+    "accepted": [
+      "jer naboj sprječava pristup sterički dostupnom nukleofilnom heteroatomu",
+      "zbog ionizacije"
+    ],
+    "distractors": [
+      "jer su premale za aktivno mjesto",
+      "jer ih razgrađuju esteraze prije FMO",
+      "jer nemaju atom dušika u strukturi"
+    ],
+    "explanation": "Dobar supstrat ima sterički dostupan nukleofilni heteroatom; molekule s dvjema skupinama $\\ce{NH3+}$ ili s $\\ce{COO-}$ i $\\ce{SO4^2-}$ to nemaju. Upravo zato FMO uglavnom ne diraju endogene amine ni amino-skupine proteina; iznimka je endogeni supstrat cisteamin.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 3",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-006",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Endogeni supstrat FMO enzima, kao iznimka od pravila, je ___.",
+    "answer": "cisteamin",
+    "accepted": [
+      "cisteamin",
+      "cisteamina"
+    ],
+    "distractors": [
+      "cistein",
+      "histamin",
+      "karnitin"
+    ],
+    "explanation": "Većina endogenih amina i amino-skupina proteina u fiziološkim je uvjetima ionizirana, pa im FMO ne pristupa. Cisteamin je iznimka koju prezentacija izrijekom navodi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-007",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U jetri nerođenog djeteta dominantan je izoenzim ___.",
+    "answer": "FMO1",
+    "accepted": [
+      "FMO1",
+      "fmo1"
+    ],
+    "distractors": [
+      "FMO2",
+      "FMO3",
+      "FMO5"
+    ],
+    "explanation": "FMO1 prevladava u fetalnoj jetri obično od 8. tjedna trudnoće do rođenja, a nakon rođenja njegova ekspresija u jetri pada; u odraslih ostaje u bubrezima i crijevima. Glavni jetreni oblik u odraslih je FMO3.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 4",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-008",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Izoenzim FMO2 nalazi se u plućima i funkcionalan je u dijelu ___ populacije.",
+    "answer": "afričke",
+    "accepted": [
+      "afričke",
+      "africke",
+      "africka"
+    ],
+    "distractors": [
+      "istočnoazijske",
+      "europske",
+      "južnoameričke"
+    ],
+    "explanation": "U većine ljudi gen za FMO2 daje skraćeni, nefunkcionalan protein, pa je puna duljina očuvana samo u dijelu afričke populacije. To je primjer etničkih razlika u metabolizmu lijekova, slično polimorfizmu ALDH2 u istočnoj Aziji.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajdovi 4 i 5",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-009",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Obitelj FMO gena ima ___ funkcionalnih izoenzima.",
+    "answer": "5",
+    "accepted": [
+      "5",
+      "pet",
+      "5 (FMO1-FMO5)"
+    ],
+    "distractors": [
+      "3",
+      "7",
+      "18"
+    ],
+    "explanation": "Uz FMO1–FMO5 u genomu postoji i više pseudogena. FMO4 ima nisku ekspresiju, a FMO5 je u jetri prisutan, ali je metabolički značaj za lijekove manji.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajdovi 4 i 5",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-010",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto su klinički značajne interakcije rjeđe kod FMO nego kod CYP enzima?",
+    "answer": "jer je FMO slabo inducibilan, a inhibicija je uglavnom kompetitivna",
+    "accepted": [
+      "jer je FMO slabo inducibilan, a inhibicija je uglavnom kompetitivna",
+      "slabo inducibilan"
+    ],
+    "distractors": [
+      "jer FMO ne metabolizira lijekove",
+      "jer FMO nije prisutan u jetri",
+      "jer se FMO nalazi samo u crijevu"
+    ],
+    "explanation": "Inducibilnost FMO je ograničena i manja nego kod CYP-a, pa izostaje klasičan mehanizam indukcijskih interakcija. Inhibicija je kompetitivna, a tercijarni amini koji su supstrati često djeluju i kao inhibitori. FMO ipak pokazuje značajne interindividualne i etničke razlike.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 5",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-011",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se nasljeđuje trimetilaminurija?",
+    "answer": "autosomno recesivno",
+    "accepted": [
+      "autosomno recesivno",
+      "autosomno recesivan poremecaj"
+    ],
+    "distractors": [
+      "autosomno dominantno",
+      "X-vezano recesivno",
+      "mitohondrijski"
+    ],
+    "explanation": "Riječ je o genetskom polimorfizmu FMO3 koji smanjuje oksidaciju trimetilamina. Trimetilamin nastaje iz kolina i karnitina djelovanjem crijevne mikrobiote i ima karakterističan miris na ribu, pa se njegovim nakupljanjem javlja tjelesni miris.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 6",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-012",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pri očuvanoj aktivnosti FMO3 u N-oksid se pretvara približno ___ % trimetilamina.",
+    "answer": "98",
+    "accepted": [
+      "98",
+      "98 %",
+      "98%"
+    ],
+    "distractors": [
+      "20",
+      "50",
+      "75"
+    ],
+    "explanation": "Pri smanjenoj aktivnosti enzima udio neoksidiranog trimetilamina raste na oko 20 %, a omjer ovisi o težini poremećaja. Trimetilamin nastaje u crijevnoj mikrobioti iz kolina i karnitina.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 6",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-013",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kojim redoslijedom teku koraci oksigenacije supstrata uz FMO?",
+    "answer": "redukcija FAD pomoću NADPH → reakcija s $\\ce{O2}$ → prijenos kisika na supstrat → dehidracija",
+    "accepted": [
+      "redukcija FAD pomocu NADPH, reakcija s O2, prijenos kisika na supstrat, dehidracija"
+    ],
+    "distractors": [
+      "vezanje supstrata → redukcija FAD → prijenos kisika → dehidracija",
+      "vezanje $\\ce{O2}$ → vezanje supstrata → oksidacija FAD → hidroliza",
+      "redukcija FAD → prijenos kisika → vezanje $\\ce{O2}$ → dehidracija"
+    ],
+    "explanation": "NADPH prvo brzo reducira FAD u $\\ce{FADH2}$, koji s kisikom daje flavin-4a-hidroperoksid. Tek tada supstrat ulazi u reakciju: heterolitičkim cijepanjem veze O–O oksidira se heteroatom i nastaje flavin-4a-hidroksid, a dehidracijom se obnavlja FAD. Za razliku od CYP-a, kod FMO supstrat ulazi nakon aktivacije kisika.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 8",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-014",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što se događa s flavin-4a-hidroperoksidom ako supstrat nije prisutan?",
+    "answer": "razgrađuje se uz oslobađanje vodikova peroksida i $\\ce{NADP+}$",
+    "accepted": [
+      "razgraduje se uz oslobadanje vodikova peroksida i NADP+",
+      "nastaje H2O2"
+    ],
+    "distractors": [
+      "ostaje stabilan do dolaska supstrata",
+      "pretvara se u Spoj I",
+      "oksidira flavinski prsten u radikal"
+    ],
+    "explanation": "Kad nema akceptora kisika, međuprodukt se raspada i troši NADPH bez korisne reakcije, uz nastanak $\\ce{H2O2}$. To je analogno sporednom putu odvajanja peroksida u ciklusu CYP-a.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 8",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-015",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U reduktivnim reakcijama FMO enzima, koje se odvijaju u odsutnosti kisika, donor elektrona je ___.",
+    "answer": "citokrom b5",
+    "accepted": [
+      "citokrom b5",
+      "citokrom b-5",
+      "b5"
+    ],
+    "distractors": [
+      "NADPH",
+      "FAD",
+      "adrenodoksin"
+    ],
+    "explanation": "Te su reakcije rijetke i ograničena fiziološkog značaja; primjer je redukcija hidroksilamina u amine. U uobičajenim uvjetima, uz kisik, FMO djeluje kao monooksigenaza uz NADPH kao donor elektrona.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 9",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-016",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se FMO i CYP razlikuju po radikalskim međuproduktima i varijabilnosti?",
+    "answer": "FMO radi bez radikala i ima manju interindividualnu varijabilnost",
+    "accepted": [
+      "FMO radi bez radikala i ima manju interindividualnu varijabilnost",
+      "FMO nema radikala"
+    ],
+    "distractors": [
+      "FMO radi preko radikala, a CYP dvoelektronskim prijenosom",
+      "obje skupine rade preko radikala",
+      "CYP ima manju varijabilnost od FMO"
+    ],
+    "explanation": "CYP ide preko Spoja I i često stvara radikale, pa je manje selektivan i pokazuje veliku varijabilnost. FMO prenosi kisik dvoelektronski preko flavin-4a-hidroperoksida, visoko je selektivan za nukleofile i manje inducibilan. Bioaktivacija je ipak moguća kod obje skupine, ovisno o supstratu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 10",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-017",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje tipove amina pretežno oksidira FMO, a koje CYP?",
+    "answer": "FMO tercijarne i heterocikličke amine, CYP primarne, sekundarne i aromatske amine te amide",
+    "accepted": [
+      "FMO tercijarne i heterocikličke amine, CYP primarne, sekundarne i aromatske amine te amide",
+      "FMO tercijarne, CYP primarne i aromatske"
+    ],
+    "distractors": [
+      "FMO aromatske amine, CYP tercijarne alifatske amine",
+      "obje skupine samo primarne amine",
+      "FMO amide, CYP tercijarne amine"
+    ],
+    "explanation": "Uvjet za FMO je slobodan i sterički dostupan elektronski par, što tercijarni alifatski amini zadovoljavaju. CYP je manje selektivan, ali ima širi spektar i kod amina dominantno vodi N-dealkilaciji i oksidaciji.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 13",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-018",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "N-hidroksilacijom primarnog amina nastaje ___.",
+    "answer": "hidroksilamin",
+    "accepted": [
+      "hidroksilamin",
+      "hidroksilamina",
+      "N-hidroksilamin"
+    ],
+    "distractors": [
+      "nitron",
+      "N-oksid",
+      "oksim"
+    ],
+    "explanation": "Reakciju kataliziraju CYP ili FMO, a hidroksilamin se dalje oksidira u nitrozo-spoj; moguća je i autooksidacija. Tautomerizacijom nitrozoalkana koji ima $\\alpha$-vodik nastaje oksim, iz kojeg mogu nastati karbonilni spojevi, karboksilne kiseline ili reaktivni metaboliti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 15",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-019",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji su glavni, a koji sporedni put metabolizma amfetamina?",
+    "answer": "glavni su deaminacija uz MAO i aromatska hidroksilacija uz CYP2D6, a sporedni N-oksigenacija uz FMO",
+    "accepted": [
+      "glavni su deaminacija uz MAO i aromatska hidroksilacija uz CYP2D6, a sporedni N-oksigenacija uz FMO",
+      "MAO i CYP2D6 glavni, FMO sporedni"
+    ],
+    "distractors": [
+      "glavni je N-oksigenacija uz FMO, a sporedni deaminacija",
+      "glavni je glukuronidacija, a sporedni hidroksilacija",
+      "glavni je O-demetilacija uz CYP2D6"
+    ],
+    "explanation": "FMO putem nastaje hidroksilamin i dihidroksilirani intermedijer, iz kojeg spontano nastaje oksim. Amfetamin je zato dobar primjer da isti lijek istodobno prolazi kroz više enzimskih sustava s različitim udjelima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 16",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-020",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto su aromatski amini u fiziološkim uvjetima slabo protonirani?",
+    "answer": "jer su slabe bazičnosti, s pKa oko 2–4",
+    "accepted": [
+      "jer su slabe bazičnosti, s pKa oko 2–4",
+      "jer su slabe bazičnosti, s pKa oko 2-4",
+      "slaba bazicnost, pKa 2-4"
+    ],
+    "distractors": [
+      "jer su uvijek vezani na proteine plazme",
+      "jer imaju pKa oko 10",
+      "jer su nabijeni već u želucu"
+    ],
+    "explanation": "Slobodan elektronski par dušika delokaliziran je u aromatski prsten, pa je bazičnost niska. Zbog toga aromatski amini ostaju neionizirani i dostupni enzimima za N-oksigenaciju, u kojoj osobito sudjeluje CYP1A2, a mogu i FMO te peroksidaze.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 18",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-021",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Daljnjim gubitkom elektrona iz hidroksilamina aromatskog amina nastaje jaki elektrofil ___, koji se veže na nukleinske kiseline.",
+    "answer": "nitrenijev ion",
+    "accepted": [
+      "nitrenijev ion",
+      "nitrenijev kation",
+      "nitrenij"
+    ],
+    "distractors": [
+      "nitron",
+      "oksim",
+      "N-oksid"
+    ],
+    "explanation": "Nitrenijev ion je rezonancijski stabiliziran kation dušika i tvori kovalentne adukte s DNA, pa je povezan s mutagenošću i karcinogenošću. Hidroksilamin se može konjugirati u O-glukuronid, O-sulfat ili O-acetat; labilni O-acetati i O-sulfati heterolitičkim cijepanjem veze N–O ponovno daju nitrenijev ion, a hidroksilamini se mogu i reducirati natrag u amine.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 18",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-022",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Glavna toksična posljedica N-hidroksilacije anilina je ___.",
+    "answer": "methemoglobinemija",
+    "accepted": [
+      "methemoglobinemija",
+      "methemoglobinemije",
+      "methemoglobinemiju"
+    ],
+    "distractors": [
+      "aplastična anemija",
+      "Stevens-Johnsonov sindrom",
+      "hepatitis"
+    ],
+    "explanation": "N-hidroksilaciju kataliziraju CYP1A2, CYP2E1, CYP2A6 i CYP2C9, a nastaju fenilhidroksilamin i nitrozobenzen. Oni u redoks-ciklusu oksidiraju željezo hemoglobina iz $\\ce{Fe^2+}$ u $\\ce{Fe^3+}$, pa hemoglobin gubi sposobnost prijenosa kisika; simptomi su cijanoza i hipoksija.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 19",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-023",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako reaktivni metaboliti sulfametoksazola izazivaju Stevens-Johnsonov sindrom?",
+    "answer": "nitrozo-metaboliti vežu se na proteine i djeluju kao hapteni, pa slijedi imunološki odgovor",
+    "accepted": [
+      "nitrozo-metaboliti vežu se na proteine i djeluju kao hapteni, pa slijedi imunološki odgovor",
+      "nitrozo-metaboliti vezu se na proteine i djeluju kao hapteni, pa slijedi imunoloski odgovor",
+      "kao hapteni izazivaju imunoloski odgovor"
+    ],
+    "distractors": [
+      "izravno otapaju lipide stanične membrane kože",
+      "inhibiraju sintezu kolagena u koži",
+      "stvaraju adukte s DNA keratinocita"
+    ],
+    "explanation": "CYP2C9 katalizira N-hidroksilaciju sulfametoksazola, a daljnjom oksidacijom (autooksidacija, peroksidaze, ponekad CYP) nastaje nitrozo-metabolit. Vezanjem na proteine on postaje hapten i u osjetljivih osoba pokreće imunološku reakciju s nekrozom i odvajanjem kože, kao kod opekline.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 20",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-024",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Heterociklički aromatski amini nastaju u hrani kondenzacijom aminokiselina, kreatina i šećera, odnosno ___ reakcijom.",
+    "answer": "Maillardovom",
+    "accepted": [
+      "Maillardovom",
+      "Maillardova",
+      "Maillard"
+    ],
+    "distractors": [
+      "Fentonovom",
+      "Cannizzarovom",
+      "Schiffovom"
+    ],
+    "explanation": "Na njihov nastanak utječu temperatura, vrijeme, pH i sastav namirnice; viša temperatura i dulje kuhanje (prženje, roštilj) povećavaju količinu. Nalaze se i u aromama, začinima, pićima te duhanskom dimu, a pro-mutageni su i pro-karcinogeni.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 21",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-025",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Daljnjom oksidacijom N,N-disupstituiranog hidroksilamina, kad struktura omogućuje nastanak veze C=N, nastaje ___.",
+    "answer": "nitron",
+    "accepted": [
+      "nitron",
+      "nitrona"
+    ],
+    "distractors": [
+      "oksim",
+      "nitrenijev ion",
+      "N-oksid"
+    ],
+    "explanation": "Nitroni su reaktivni međuprodukti koji se mogu dalje mijenjati ili hidrolizirati. Hidrolizom se cijepa veza C=N, pa nastaju aldehid ili keton i N-monosupstituirani hidroksilamin.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajdovi 22 i 23",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-026",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji produkti nastaju spontanom hidrolizom nitrona metamfetamina?",
+    "answer": "fenilaceton i N-metilhidroksilamin",
+    "accepted": [
+      "fenilaceton i N-metilhidroksilamin",
+      "fenilaceton i metilhidroksilamin"
+    ],
+    "distractors": [
+      "amfetamin i formaldehid",
+      "benzojeva kiselina i amonijak",
+      "fenilizopropanol i metilamin"
+    ],
+    "explanation": "Reakcija je neenzimska i predstavlja alternativni put deaminaciji: umjesto preko karbinolamina, isti keton nastaje preko hidroksilamina i nitrona. Metamfetamin je stimulans i anoreksik, a tim putem nastaju i toksični metaboliti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 24",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-027",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kojim putem N-oksigenacija aromatskih amida vodi do adukata s DNA?",
+    "answer": "N-hidroksilacija uz CYP1A2 → O-sulfat → cijepanje veze N–O → nitrenijev ion",
+    "accepted": [
+      "N-hidroksilacija uz CYP1A2 → O-sulfat → cijepanje veze N–O → nitrenijev ion",
+      "N-hidroksilacija uz CYP1A2, O-sulfat, cijepanje veze N-O, nitrenijev ion",
+      "preko nitrenijevog iona"
+    ],
+    "distractors": [
+      "hidroliza amidne veze → aromatski amin → glukuronid",
+      "N-oksidacija uz FMO → stabilni N-oksid → izlučivanje",
+      "epoksidacija prstena → dihidrodiol → konjugacija"
+    ],
+    "explanation": "CYP1A2 daje N-aril-N-hidroksiamid, koji se O-konjugira u sulfat. Heterolitičkim cijepanjem veze N–O (ili eliminacijom vode nakon protonacije u kiselom mediju) nastaje rezonancijski stabiliziran nitrenijev ion koji tvori adukte s DNA, pa su takvi spojevi pro-mutageni i pro-karcinogeni.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajdovi 25 i 26",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-028",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja su svojstva N-oksida nastalih oksidacijom tercijarnih alifatskih amina?",
+    "answer": "stabilni su, polarni, brzo se izlučuju bubregom i većinom su neaktivni",
+    "accepted": [
+      "stabilni su, polarni, brzo se izlučuju bubregom i većinom su neaktivni",
+      "stabilni su, polarni, brzo se izlucuju bubregom i vecinom su neaktivni",
+      "stabilni i polarni, uglavnom neaktivni"
+    ],
+    "distractors": [
+      "nestabilni su i brzo daju nitrenijev ion",
+      "lipofilni su i nakupljaju se u masnom tkivu",
+      "uvijek su jači od ishodnog lijeka"
+    ],
+    "explanation": "N-oksid se dalje ne oksidira, ali se može reducirati natrag u amin, pa reakcija nije uvijek konačna. Neki N-oksidi zadržavaju terapijska svojstva ili se sami koriste kao lijekovi, no većinom je riječ o detoksikaciji.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajdovi 27 i 29",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-029",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja struktura tercijarnog amina najviše pogoduje N-oksidaciji?",
+    "answer": "dušik s jednom ili dvije metilne skupine",
+    "accepted": [
+      "dušik s jednom ili dvije metilne skupine",
+      "dusik s jednom ili dvije metilne skupine",
+      "jedna ili dvije metilne skupine"
+    ],
+    "distractors": [
+      "dušik s tri duga alkilna lanca",
+      "dušik vezan izravno na aromatski prsten",
+      "dušik s karboksilnom skupinom u blizini"
+    ],
+    "explanation": "Male metilne skupine ostavljaju elektronski par sterički dostupnim. Dulji lanci, primjerice etilni, stvaraju steričke smetnje i mogu spriječiti oksidaciju, ovisno o enzimu i supstratu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 27",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-030",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Nikotinamid je vitamin B3 i prekursor koenzima ___.",
+    "answer": "$\\ce{NAD+}$",
+    "accepted": [
+      "NAD+",
+      "NAD",
+      "nikotinamid-adenin-dinukleotid"
+    ],
+    "distractors": [
+      "FAD",
+      "koenzim A",
+      "PAPS"
+    ],
+    "explanation": "Nikotinamid je heterociklički amin koji se N-oksidacijom uz CYP prevodi u nikotinamid N-oksid i izlučuje urinom. Kao prekursor $\\ce{NAD+}$ povezuje metabolizam lijekova s osnovnim redoks-reakcijama stanice.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 30",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-031",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji enzimi kataliziraju N-oksidaciju klorpromazina?",
+    "answer": "FMO1 i FMO3",
+    "accepted": [
+      "FMO1 i FMO3",
+      "FMO1, FMO3"
+    ],
+    "distractors": [
+      "CYP1A2 i CYP2E1",
+      "MAO-A i MAO-B",
+      "NAT1 i NAT2"
+    ],
+    "explanation": "Klorpromazin je antipsihotik i fenotiazinski derivat s tercijarnim aminskim dušikom u bočnom lancu, što je tipičan supstrat FMO. Nastaje N-oksid klorpromazina, polarniji metabolit pogodan za izlučivanje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 31",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-032",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Nikotin se N-oksidira regioselektivno uz FMO na ___ dušiku.",
+    "answer": "pirolidinskom",
+    "accepted": [
+      "pirolidinskom",
+      "pirolidinski",
+      "pirolidinskom N"
+    ],
+    "distractors": [
+      "piridinskom",
+      "imidazolnom",
+      "amidnom"
+    ],
+    "explanation": "N-oksidacija ide samo na bazičnijem dušiku, a to je tercijarni pirolidinski. Oksidacija na piridinskom dušiku daje minorni metabolit, dok je glavni metabolit nikotina kotinin, koji nastaje uz CYP.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 32",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-033",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kojim redoslijedom teče oksidacija sumpora u tioeteru (sulfidu)?",
+    "answer": "sulfid → sulfoksid → sulfon",
+    "accepted": [
+      "sulfid → sulfoksid → sulfon",
+      "sulfid, sulfoksid, sulfon",
+      "sulfoksid pa sulfon"
+    ],
+    "distractors": [
+      "sulfid → sulfon → sulfoksid",
+      "sulfid → sulfenska → sulfinska kiselina",
+      "sulfid → disulfid → sulfon"
+    ],
+    "explanation": "Reakciju kataliziraju FMO nukleofilnom oksigenacijom sumpora i CYP radikalnim mehanizmom. Tioli idu drugim putem: preko sulfenske (vrlo nestabilne), sulfinske i sulfonske kiseline, a tioamidi daju S-oksidirane međuprodukte.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajdovi 33 i 34",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-034",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Među produktima oksidacije tiola vrlo je nestabilna ___ kiselina, koja se može izolirati samo kao derivat.",
+    "answer": "sulfenska",
+    "accepted": [
+      "sulfenska",
+      "sulfenska kiselina"
+    ],
+    "distractors": [
+      "sulfinska",
+      "sulfonska",
+      "sulfamidna"
+    ],
+    "explanation": "Sulfinska i sulfonska kiselina su relativno stabilne, a stabilnost ovisi o pH okoliša i prirodi supstituenta. Alternativno tiol može reagirati s drugom tiolnom skupinom i dati disulfid, koji se dalje može oksidirati u S-oksid disulfida.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 38",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-035",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji oblik sulindaka nastaje ireverzibilnom oksidacijom i kakva mu je aktivnost?",
+    "answer": "sulfon, koji je neaktivan",
+    "accepted": [
+      "sulfon, koji je neaktivan",
+      "sulfon, neaktivan"
+    ],
+    "distractors": [
+      "sulfid, koji je aktivan",
+      "sulfoksid, koji je aktivan",
+      "sulfenska kiselina, koja je reaktivna"
+    ],
+    "explanation": "Sulindak je prolijek u obliku sulfoksida: redukcijom reduktaza i mikrobiote nastaje aktivni sulfid, a oksidacijom neaktivni sulfon, dugotrajan metabolit u plazmi i urinu. Sulfid FMO3 može ponovno oksidirati u sulfoksid, pa redoks-ciklus sulfoksid/sulfid produljuje učinak lijeka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 37",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-036",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Oksidacijom dimetilsulfoksida uz FMO i CYP nastaje ___.",
+    "answer": "dimetilsulfon",
+    "accepted": [
+      "dimetilsulfon",
+      "dimetilsulfona"
+    ],
+    "distractors": [
+      "dimetilsulfid",
+      "metansulfonska kiselina",
+      "dimetilamin"
+    ],
+    "explanation": "Dimetilsulfon se izlučuje urinom, dok se dio spoja reducira u dimetilsulfid koji daje miris na bijeli luk i izlučuje se izdahnutim zrakom. Oksidacija sulfoksida u sulfon logičan je nastavak niza sulfid → sulfoksid → sulfon.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 36",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-037",
+    "chapter": "06",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što se prema smjernicama za predviđanje očekuje od alifatskog tercijarnog amina, a što od aromatskog amina?",
+    "answer": "tercijarni alifatski daje N-oksid uz FMO, a aromatski N-hidroksilaciju uz CYP",
+    "accepted": [
+      "tercijarni alifatski daje N-oksid uz FMO, a aromatski N-hidroksilaciju uz CYP",
+      "N-oksid uz FMO i N-hidroksilacija uz CYP"
+    ],
+    "distractors": [
+      "tercijarni alifatski daje N-hidroksilamin uz CYP, a aromatski N-oksid uz FMO",
+      "oba daju N-okside uz FMO",
+      "oba daju nitrenijev ion"
+    ],
+    "explanation": "Pitanja koja vode predviđanju su: postoji li nukleofilni heteroatom, koliko je sterički dostupan i je li sustav alifatski ili aromatski. Sumpor je mekani nukleofil i preferira FMO, pa tioeter ide putem sulfoksid → sulfon. Riječ je o općim smjernicama; stvarni put ovisi o cijeloj strukturi supstrata i izoenzimu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 41",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-06-038",
+    "chapter": "06",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Za N-oksidaciju piridina kao aromatskog heterocikla osobito je važan enzim ___.",
+    "answer": "CYP2E1",
+    "accepted": [
+      "CYP2E1",
+      "2E1"
+    ],
+    "distractors": [
+      "CYP1A2",
+      "FMO3",
+      "CYP2C9"
+    ],
+    "explanation": "Prema tablici očekivanih reakcija, primarni aromatski amin ide putem N-hidroksilacije uz CYP1A2 i moguće bioaktivacije u nitrenijev ion, dok aromatski heterocikl poput piridina daje N-oksid uz CYP2E1. Tercijarni alifatski amin je pretežno supstrat FMO.",
+    "image": null,
+    "explanation_image": null,
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 42",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  }
+]
