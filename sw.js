@@ -1,6 +1,6 @@
 // Service worker: offline rad (spec, odjeljak 14).
 // PRI SVAKOM DEPLOYU podigni VERSION (mora biti isto kao "version" u version.json).
-const VERSION = '0.4.2';
+const VERSION = '0.4.3';
 const CACHE = `bmkviz-${VERSION}`;
 
 const SHELL = [
@@ -38,9 +38,13 @@ const CONTENT = [
   './content/biomehanika/questions/07.json',
   './content/biomehanika/questions/08.json',
   './content/biomehanika/questions/09.json',
+  './content/biomehanika/questions/10.json',
+  './content/biomehanika/questions/11.json',
   './content/biomehanika/questions/12.json',
   './content/biomehanika/questions/13.json',
   './content/biomehanika/questions/14.json',
+  './content/biomehanika/questions/15.json',
+  './content/biomehanika/questions/16.json',
   './content/biomehanika/questions/17.json',
   './content/biomehanika/questions/18.json',
   './content/biomehanika/questions/19.json',
@@ -53,8 +57,13 @@ const CONTENT = [
   './content/biomehanika/img/03-2.png',
   './content/biomehanika/img/06-1.png',
   './content/biomehanika/img/08-1.png',
+  './content/biomehanika/img/10-1.png',
+  './content/biomehanika/img/11-1.png',
   './content/biomehanika/img/13-1.png',
   './content/biomehanika/img/14-1.png',
+  './content/biomehanika/img/15-1.png',
+  './content/biomehanika/img/15-2.png',
+  './content/biomehanika/img/16-1.png',
   './content/biomehanika/img/22-1.png',
   './content/biomehanika/img/23-1.png',
 ];

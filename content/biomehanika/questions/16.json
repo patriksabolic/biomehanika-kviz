@@ -1,0 +1,1013 @@
+[
+  {
+    "id": "bm-16-001",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što od navedenog spada u meka tkiva?",
+    "answer": "sinovijalna opna",
+    "accepted": [
+      "sinovijalna opna"
+    ],
+    "distractors": [
+      "hrskavica",
+      "zubi",
+      "nokti"
+    ],
+    "explanation": "Meko tkivo je sve tkivo osim kostiju, zubi, kose, noktiju i hrskavice. U meka tkiva spadaju tetive, ligamenti, vlaknasta vezivna tkiva, masno tkivo, sinovijalna opna, koža, mišići, živci i krvne žile.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 2; skripta.md – Meko tkivo",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-002",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Od čega se sastoji meko tkivo?",
+    "answer": "od izvanstanične matrice (ECM) i stanica",
+    "accepted": [
+      "od izvanstanične matrice (ECM) i stanica"
+    ],
+    "distractors": [
+      "samo od kolagena i elastina",
+      "od hidroksiapatita i kolagena",
+      "samo od glatkih mišićnih stanica"
+    ],
+    "explanation": "Meko tkivo čine izvanstanična matrica (ECM – kolagen, elastin…) i stanice (glatke mišićne stanice, fibroblasti i druge). Stanice održavaju matricu, a matrica daje stanicama oslonac – to je simbioza.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 3 i 4",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-003",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je jedna od uloga izvanstanične matrice?",
+    "answer": "dopušta difuziju hranjivih tvari, iona i hormona između stanica i kapilara",
+    "accepted": [
+      "dopušta difuziju hranjivih tvari, iona i hormona između stanica i kapilara"
+    ],
+    "distractors": [
+      "stvara kolagen i elastin",
+      "provodi živčane impulse",
+      "proizvodi krvne stanice"
+    ],
+    "explanation": "Izvanstanična matrica daje tkivu čvrstoću i elastičnost, služi stanicama kao osnova za prianjanje i migraciju, dopušta difuziju tvari i regulira oblik, orijentaciju, kretanje i aktivnost stanica. Kolagen ne stvara matrica nego stanice (fibroblasti, glatke mišićne stanice).",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 4",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-004",
+    "chapter": "16",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kolagen čini ___ svih proteina u ljudskom tijelu.",
+    "answer": "25-30 %",
+    "accepted": [
+      "25-30 %",
+      "25–30 %",
+      "25-30",
+      "25-30%",
+      "25 - 30 %"
+    ],
+    "distractors": [
+      "6 %",
+      "50-60 %",
+      "10-15 %"
+    ],
+    "explanation": "Kolagen je najrasprostranjeniji protein: čini 25–30 % svih proteina u tijelu. Ne miješaj s podatkom da kolagen čini oko 6 % ukupne težine tijela.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 5",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-005",
+    "chapter": "16",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kolagen se pri maksimalnom opterećenju produlji ___.",
+    "answer": "5-10 %",
+    "accepted": [
+      "5-10 %",
+      "5–10 %",
+      "5-10",
+      "5-10%"
+    ],
+    "distractors": [
+      "50 %",
+      "10-15 %",
+      "1-2 %"
+    ],
+    "explanation": "Kolagen je otporan na vlačno opterećenje i malo se rasteže: 5–10 % pri maksimalnom opterećenju. Elastin se, za usporedbu, može istegnuti čak 50 %.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 5 i 8",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-006",
+    "chapter": "16",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Postoji ___ vrsta kolagena.",
+    "answer": "19",
+    "accepted": [
+      "19",
+      "devetnaest"
+    ],
+    "distractors": [
+      "12",
+      "5",
+      "25"
+    ],
+    "explanation": "Navedeno je 19 vrsta kolagena s različitim ulogama: I i III su vlakna za vlačno naprezanje, IV (porozna mreža) i VIII podupiru endotelne stanice, a V i VII povezani su s glatkim mišićnim stanicama.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 5; skripta.md – Meko tkivo",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-007",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji tipovi kolagena (vlakna) daju strukturalnu potporu kod vlačnog naprezanja?",
+    "answer": "kolagen I i III",
+    "accepted": [
+      "kolagen I i III"
+    ],
+    "distractors": [
+      "kolagen IV i VIII",
+      "kolagen V i VII",
+      "kolagen II i IV"
+    ],
+    "explanation": "Kolagen I i III tvore vlakna koja nose vlačno naprezanje. Kolagen IV (porozna mreža) i VIII podupiru endotelne stanice, a V i VII povezani su s glatkim mišićnim stanicama.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 5",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-008",
+    "chapter": "16",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kolagen IV oblikuje ___ mrežu koja podupire endotelne stanice.",
+    "answer": "poroznu",
+    "accepted": [
+      "poroznu",
+      "porozna",
+      "porozna mreža"
+    ],
+    "distractors": [
+      "spiralnu",
+      "paralelnu",
+      "kristaličnu"
+    ],
+    "explanation": "Kolagen IV ne tvori snopove vlakana nego poroznu mrežu na koju se oslanjaju endotelne stanice (unutarnji sloj krvnih žila). Uz njega endotel podupire i kolagen VIII.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 5",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-009",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje stanice stvaraju kolagen?",
+    "answer": "fibroblasti i glatke mišićne stanice",
+    "accepted": [
+      "fibroblasti i glatke mišićne stanice"
+    ],
+    "distractors": [
+      "endotelne stanice i osteociti",
+      "eritrociti i fibroblasti",
+      "osteoklasti i hondrociti"
+    ],
+    "explanation": "Kolagen stvaraju fibroblasti i glatke mišićne stanice, ovisno o tipu kolagena. I kolagen i glatke mišićne stanice kontinuirano se obnavljaju – staro odumire, novo se proizvodi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 6; skripta.md – Meko tkivo",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-010",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Gdje je vrijeme poluraspada kolagena najdulje (nekoliko godina)?",
+    "answer": "u kostima",
+    "accepted": [
+      "u kostima"
+    ],
+    "distractors": [
+      "u parodontnom ligamentu",
+      "u krvožilnom sustavu",
+      "u koži"
+    ],
+    "explanation": "Poluraspad kolagena jako ovisi o tkivu: 2 dana u parodontnom ligamentu, 15–90 u krvožilnom sustavu, a nekoliko godina u kostima (podaci za zdrav organizam).",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 7",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-011",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se proizvodnja kolagena mijenja pri povećanom naprezanju?",
+    "answer": "povećava se",
+    "accepted": [
+      "povećava se"
+    ],
+    "distractors": [
+      "smanjuje se",
+      "ne mijenja se",
+      "potpuno prestaje"
+    ],
+    "explanation": "Tkivo se prilagođava opterećenju: pri povećanom naprezanju proizvodnja kolagena raste, a pri smanjenom istezanju razgradnja se mijenja (npr. hipertrofija i atrofija mišićnih stanica).",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 7",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-012",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Po čemu se elastin bitno razlikuje od kolagena u obnovi?",
+    "answer": "ne obnavlja se – ne stvara se nakon rođenja",
+    "accepted": [
+      "ne obnavlja se – ne stvara se nakon rođenja"
+    ],
+    "distractors": [
+      "obnavlja se svaka 2 dana",
+      "obnavlja se brže od kolagena",
+      "stvaraju ga osteociti"
+    ],
+    "explanation": "Kolagen se stalno obnavlja, a elastin se ne stvara nakon rođenja. Zato je razgradnja elastina (npr. kod aneurizme aorte) trajna šteta.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 8; skripta.md – Meko tkivo",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-013",
+    "chapter": "16",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Vrijeme poluraspada elastina iznosi ___.",
+    "answer": "40 godina",
+    "accepted": [
+      "40 godina",
+      "40",
+      "40 god"
+    ],
+    "distractors": [
+      "2 dana",
+      "4 godine",
+      "15 godina"
+    ],
+    "explanation": "Elastin je jedan od najotpornijih proteina u tijelu na kemijske i toplinske podražaje i enzime – vrijeme poluraspada mu je 40 godina. Istodobno se nakon rođenja ne stvara.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 8",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-014",
+    "chapter": "16",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Elastin pri jednoosnom istezanju podnosi deformacije čak do ___.",
+    "answer": "50 %",
+    "accepted": [
+      "50 %",
+      "50",
+      "50%"
+    ],
+    "distractors": [
+      "10 %",
+      "5 %",
+      "100 %"
+    ],
+    "explanation": "Elastin podnosi izrazito velike deformacije – do 50 % pri jednoosnom istezanju, dok kolagen podnosi oko 10 %. Zato elastin daje tkivu rastezljivost, a kolagen čvrstoću.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 8; skripta.md – Meko tkivo",
+    "tags": [
+      "brojka",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-015",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako su raspoređena kolagenska vlakna u stijenkama krvnih žila?",
+    "answer": "ukrižena u spiralnu mrežu u slojevima s različitim nagibom i smjerom",
+    "accepted": [
+      "ukrižena u spiralnu mrežu u slojevima s različitim nagibom i smjerom"
+    ],
+    "distractors": [
+      "paralelno u snopove",
+      "u mrežu čija svojstva ovise o kutu križanja niti",
+      "u 3D nepravilnu mrežu u amorfnoj tvari"
+    ],
+    "explanation": "Raspored vlakana prati opterećenje: paralelni snopovi u tetivama i ligamentima, mreža s kutom križanja u bjeloočnici i fasciji, spiralna mreža u slojevima u stijenkama krvnih žila te 3D nepravilna mreža u amorfnoj tvari.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 9",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-016",
+    "chapter": "16",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Ligamenti se mogu rastegnuti ___ prije ozljede.",
+    "answer": "10-15 %",
+    "accepted": [
+      "10-15 %",
+      "10–15 %",
+      "10-15",
+      "10-15%"
+    ],
+    "distractors": [
+      "5-10 %",
+      "50 %",
+      "1-2 %"
+    ],
+    "explanation": "Ligamenti spajaju dvije kosti i imaju veću elastičnost i fleksibilnost od tetiva: prije ozljede rastegnu se 10–15 %. Vrlo su osjetljivi na hiperekstenziju i rotaciju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 11",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-017",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se ligamenti razlikuju od tetiva?",
+    "answer": "veća elastičnost i fleksibilnost, manja vlačna čvrstoća",
+    "accepted": [
+      "veća elastičnost i fleksibilnost, manja vlačna čvrstoća"
+    ],
+    "distractors": [
+      "manja elastičnost, veća vlačna čvrstoća",
+      "spajaju mišić s kosti",
+      "kolagena vlakna su im samo u jednom smjeru"
+    ],
+    "explanation": "Ligamenti spajaju kost s kosti, a tetive mišić s kosti. Ligamenti su elastičniji i fleksibilniji, ali imaju manju vlačnu čvrstoću. Kolagena vlakna u ligamentima orijentirana su u više smjerova jer se kosti gibaju u više smjerova.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 11",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-018",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto su kolagena vlakna u ligamentima orijentirana u više smjerova?",
+    "answer": "zbog gibanja kostiju u više smjerova",
+    "accepted": [
+      "zbog gibanja kostiju u više smjerova"
+    ],
+    "distractors": [
+      "zbog prijenosa sile mišića",
+      "zbog difuzije hranjivih tvari",
+      "zbog veće vlačne čvrstoće od tetiva"
+    ],
+    "explanation": "Ligament mora stabilizirati zglob i spriječiti preveliko gibanje u svim smjerovima u kojima se kosti mogu pomaknuti, pa su mu vlakna orijentirana u više smjerova.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 11",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-019",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja su dva osnovna elementa za opisivanje viskoelastičnosti?",
+    "answer": "linearno elastična opruga i viskozni prigušivač",
+    "accepted": [
+      "linearno elastična opruga i viskozni prigušivač"
+    ],
+    "distractors": [
+      "kruta greda i opruga",
+      "masa i opruga",
+      "prigušivač i element trenja"
+    ],
+    "explanation": "Opruga opisuje elastični dio (deformacija odmah prati silu), a prigušivač viskozni dio (deformacija ovisi o vremenu). Kombinacijama tih elemenata dobivaju se Maxwellov, Voigtov, Burgersov i drugi modeli.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 12 i 16",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-020",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je elastično puzanje?",
+    "answer": "nakon rasterećenja deformacija se vrati na nulu",
+    "accepted": [
+      "nakon rasterećenja deformacija se vrati na nulu"
+    ],
+    "distractors": [
+      "nakon rasterećenja ostaje zaostala deformacija",
+      "pri konstantnoj deformaciji naprezanje pada",
+      "deformacija ne ovisi o vremenu"
+    ],
+    "explanation": "Kod puzanja pod konstantnim opterećenjem deformacija raste. Ako se nakon rasterećenja deformacija vrati na nulu, puzanje je elastično; ako ostane zaostala deformacija, puzanje je plastično.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 13",
+    "tags": [
+      "definicija",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-021",
+    "chapter": "16",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Modeli viskoelastičnog ponašanja materijala su Maxwellov, ___, Burgeov i Voigt-Kelvinov model.",
+    "answer": "Voigtov",
+    "accepted": [
+      "Voigtov",
+      "Voigt",
+      "Voigtov model"
+    ],
+    "distractors": [
+      "Hillov",
+      "Hookeov",
+      "Newtonov"
+    ],
+    "explanation": "Svi ti modeli grade se od dva osnovna elementa – linearno elastične opruge i viskoznog prigušivača – i opisuju puzanje i relaksaciju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 15",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-022",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje su arterije elastične?",
+    "answer": "aorta, glavna plućna arterija, karotide, ilijačne arterije",
+    "accepted": [
+      "aorta, glavna plućna arterija, karotide, ilijačne arterije"
+    ],
+    "distractors": [
+      "koronarna, cerebralne, bedrene arterije",
+      "vanjska karotidna arterija",
+      "bubrežne arterije i kapilare"
+    ],
+    "explanation": "Elastične arterije su bliže srcu i većeg promjera – one primaju pulsirajući tok i izglađuju ga. Mišićne su koronarna, cerebralne, bedrene i bubrežne, a tranzicijska (mišićno-elastična) je vanjska karotidna arterija.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 18; skripta.md – Meko tkivo",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-023",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Prema čemu je prvenstveno nastala podjela arterija na elastične, mišićne i tranzicijske?",
+    "answer": "prema načinu izglađivanja strujanja iz pulzacijskog u gotovo jednolično",
+    "accepted": [
+      "prema načinu izglađivanja strujanja iz pulzacijskog u gotovo jednolično"
+    ],
+    "distractors": [
+      "prema mikrostrukturi stijenke",
+      "prema udaljenosti od pluća",
+      "prema količini kisika u krvi"
+    ],
+    "explanation": "Podjela je nastala više po funkciji – kako arterija izglađuje pulsirajući tok iz srca u gotovo jednolični tok u kapilarama – nego zbog mikrostrukture.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 18",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-024",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja su tri sloja stijenke krvne žile (od unutra prema van)?",
+    "answer": "tunika intima, tunika medija, tunika adventicija",
+    "accepted": [
+      "tunika intima, tunika medija, tunika adventicija"
+    ],
+    "distractors": [
+      "endotel, periost, adventicija",
+      "tunika medija, tunika intima, tunika adventicija",
+      "intima, sinovija, adventicija"
+    ],
+    "explanation": "Stijenku čine tri sloja: unutarnja intima (s endotelnim stanicama), srednja medija (glatke mišićne stanice, glavni nositelj naprezanja) i vanjska adventicija (tunica externa).",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 19; skripta.md – Meko tkivo",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-025",
+    "chapter": "16",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Endotelne stanice su spljoštene i izdužene u smjeru ___.",
+    "answer": "strujanja krvi",
+    "accepted": [
+      "strujanja krvi",
+      "strujanja",
+      "toka krvi"
+    ],
+    "distractors": [
+      "osi srca",
+      "obujma žile",
+      "radijusa žile"
+    ],
+    "explanation": "Endotelne stanice oblažu unutrašnjost žile i poravnate su sa smjerom strujanja krvi. One su barijera između krvi i stijenke, odgovaraju na mehaničke, živčane i hormonalne podražaje i otpuštaju vazoaktivne tvari.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 20; skripta.md – Meko tkivo",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-026",
+    "chapter": "16",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Stijenka krvne žile smatra se nestlačivom jer sadrži ___ vode.",
+    "answer": "70-80 %",
+    "accepted": [
+      "70-80 %",
+      "70–80 %",
+      "70-80",
+      "70-80%"
+    ],
+    "distractors": [
+      "25-30 %",
+      "40-50 %",
+      "90-95 %"
+    ],
+    "explanation": "Voda je praktički nestlačiva, a stijenka je 70–80 % voda (ostatak su kolagen, elastin i glatke mišićne stanice). Zato se mijenjanjem oblika stijenke njezin volumen ne mijenja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 24",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-027",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je uzrok rezidualnih naprezanja u stijenci žile?",
+    "answer": "predistezanje, na koje najviše utječe elastin",
+    "accepted": [
+      "predistezanje, na koje najviše utječe elastin"
+    ],
+    "distractors": [
+      "vanjski tlak tkiva oko žile",
+      "puzanje kolagena",
+      "kalcifikacija intime"
+    ],
+    "explanation": "Nakon rasterećenja meko tkivo nije bez naprezanja: zbog predistezanja (najviše utječe elastin) slojevi ostaju napeti. Kad se prsten žile prereže, otvori se – mjera tih naprezanja je kut otvaranja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 25",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-028",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto su za stijenku aorte potrebni dvoosni testovi?",
+    "answer": "jer je materijal anizotropan",
+    "accepted": [
+      "jer je materijal anizotropan"
+    ],
+    "distractors": [
+      "jer je materijal nestlačiv",
+      "jer je materijal homogen",
+      "jer je stijenka tanka"
+    ],
+    "explanation": "Anizotropan materijal ima različita svojstva u različitim smjerovima (npr. obodno i uzdužno), pa jednoosni test ne može opisati ponašanje. Dvoosnim testom stijenka se istodobno opterećuje u dva smjera.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 24 i 28",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-029",
+    "chapter": "16",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Glavni nositelj naprezanja u stijenci krvne žile je sloj ___.",
+    "answer": "medija",
+    "accepted": [
+      "medija",
+      "tunika medija",
+      "medija (tunika medija)"
+    ],
+    "distractors": [
+      "intima",
+      "adventicija",
+      "endotel"
+    ],
+    "explanation": "Medija sadrži glatke mišićne stanice cirkularno orijentirane te elastin i kolagen, pa nosi najveći dio naprezanja. Zato se hipertenzija, koja zadebljava mediju, zove „bolest medije”.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 29",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-030",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što se prema dijagramu napetost–polumjer događa sa stijenkom žile kad se razgradi elastin?",
+    "answer": "postaje znatno kruća – napetost brzo raste već pri malom povećanju polumjera",
+    "accepted": [
+      "postaje znatno kruća – napetost brzo raste već pri malom povećanju polumjera"
+    ],
+    "distractors": [
+      "postaje vrlo popustljiva – napetost ostaje niska",
+      "ponaša se jednako kao kontrolni uzorak",
+      "puca pri polumjeru 100 %"
+    ],
+    "explanation": "Bez elastina opterećenje odmah preuzima kolagen, koji je krut, pa krivulja naglo raste. Bez kolagena ostaje samo elastin – stijenka se jako širi uz malu napetost. Zdravo tkivo je između: najprije elastin, pri većem širenju kolagen.",
+    "image": "img/16-1.png",
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 27",
+    "tags": [
+      "skica",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-031",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što se događa sa stijenkom krvne žile starenjem?",
+    "answer": "smanjuje se čvrstoća stijenke",
+    "accepted": [
+      "smanjuje se čvrstoća stijenke"
+    ],
+    "distractors": [
+      "povećava se čvrstoća stijenke",
+      "stijenka postaje izotropna",
+      "nestaju rezidualna naprezanja"
+    ],
+    "explanation": "Dijagrami naprezanje–deformacija za uzorke od 23, 50 i 71 godine pokazuju da starenjem čvrstoća stijenke opada, a dopuštene deformacije postaju manje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 30",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-032",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja se bolest naziva „bolest medije”?",
+    "answer": "hipertenzija",
+    "accepted": [
+      "hipertenzija"
+    ],
+    "distractors": [
+      "ateroskleroza",
+      "aneurizma abdominalne aorte",
+      "disekcija aorte"
+    ],
+    "explanation": "Hipertenzija (povišen tlak) zadebljava mediju (hiperplazija ili hipertrofija) i povećava proizvodnju kolagena, osobito tipa V, pa stijenka postaje kruća. Ateroskleroza je „bolest intime”.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 32; skripta.md – Meko tkivo",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-033",
+    "chapter": "16",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Ateroskleroza se naziva „bolest ___”.",
+    "answer": "intime",
+    "accepted": [
+      "intime",
+      "intima",
+      "tunike intime"
+    ],
+    "distractors": [
+      "medije",
+      "adventicije",
+      "endotela"
+    ],
+    "explanation": "Ateroskleroza nastaje na složenim geometrijama: u intimi se stvara plak (stanice, lipidi, vezivno tkivo, kalcij), intima se zadeblja i stijenka ukruti. Kalcij smanjuje maksimalne deformacije, a puknuće plaka je opasno.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 33; skripta.md – Meko tkivo",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-034",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako kalcij u aterosklerotskom plaku utječe na tkivo?",
+    "answer": "ukrućuje tkivo i smanjuje maksimalne deformacije",
+    "accepted": [
+      "ukrućuje tkivo i smanjuje maksimalne deformacije"
+    ],
+    "distractors": [
+      "omekšava tkivo i povećava deformacije",
+      "razgrađuje elastin",
+      "ne utječe na mehanička svojstva"
+    ],
+    "explanation": "Kalcij je tvrd mineral; njegovo nakupljanje u plaku čini stijenku krućom i manje sposobnom za deformaciju. Takva stijenka slabije prati pulsiranje krvi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 33; skripta.md – Meko tkivo",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-035",
+    "chapter": "16",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što uzrokuje aneurizmu abdominalne aorte (fokalno proširenje infrarenalne aorte)?",
+    "answer": "razgradnja elastina u stijenci aorte",
+    "accepted": [
+      "razgradnja elastina u stijenci aorte"
+    ],
+    "distractors": [
+      "zadebljanje medije",
+      "nakupljanje kalcija u intimi",
+      "povećana proizvodnja kolagena tipa V"
+    ],
+    "explanation": "Elastin drži stijenku napetom i vraća je u oblik; kad se razgradi (a ne obnavlja se), stijenka se lokalno proširi. Rizični faktori su dob, muški spol, pušenje, dijabetes, hipertenzija i ateroskleroza.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 34; skripta.md – Meko tkivo",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-036",
+    "chapter": "16",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Smrtnost nakon rupture aneurizme abdominalne aorte iznosi ___.",
+    "answer": "90 %",
+    "accepted": [
+      "90 %",
+      "90",
+      "90%"
+    ],
+    "distractors": [
+      "80 %",
+      "50 %",
+      "46 %"
+    ],
+    "explanation": "Ruptura AAA smrtonosna je u 90 % slučajeva, zato se rast aneurizme prati i predviđa numeričkim modelima. Ne miješaj s 80 % – udjelom AAA u kojima nastaje intraluminalni tromb.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 34",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-16-037",
+    "chapter": "16",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Intraluminalni tromb nastaje u ___ aneurizmi abdominalne aorte.",
+    "answer": "80 %",
+    "accepted": [
+      "80 %",
+      "80",
+      "80%"
+    ],
+    "distractors": [
+      "90 %",
+      "50 %",
+      "20 %"
+    ],
+    "explanation": "U 80 % AAA nastaje intraluminalni tromb. On je dvojak: daje mehaničku zaštitu (preuzima dio tlaka), ali i oslabljuje stijenku aorte ispod sebe.",
+    "image": null,
+    "explanation_image": null,
+    "source": "16_Meko tkivo.pdf, slajd 34",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  }
+]

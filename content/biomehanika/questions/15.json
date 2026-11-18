@@ -1,0 +1,763 @@
+[
+  {
+    "id": "bm-15-001",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Na bolove u vratu i leđima odnosi se ___ bolovanja.",
+    "answer": "40 %",
+    "accepted": [
+      "40 %",
+      "40",
+      "40%"
+    ],
+    "distractors": [
+      "20 %",
+      "60 %",
+      "80 %"
+    ],
+    "explanation": "Čak 40 % bolovanja odnosi se na bolove u vratu i leđima. To pokazuje koliko je kralježnica opterećena i zašto je njezina biomehanika važna, npr. za ispravne radne položaje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 2",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-002",
+    "chapter": "15",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje su funkcije kralježnice?",
+    "answer": "prenošenje opterećenja i prigušenje, gibanje trupa i glave, zaštita leđne moždine",
+    "accepted": [
+      "prenošenje opterećenja i prigušenje, gibanje trupa i glave, zaštita leđne moždine"
+    ],
+    "distractors": [
+      "prenošenje opterećenja, stvaranje krvnih stanica, zaštita srca",
+      "gibanje udova, prigušenje, zaštita mozga",
+      "zaštita leđne moždine, disanje, održavanje tjelesne temperature"
+    ],
+    "explanation": "Kralježnica ima tri funkcije: prenosi i prigušuje opterećenje, omogućuje gibanje trupa i glave te štiti leđnu moždinu koja prolazi kroz kralješke.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 2; skripta.md – Kralježnica",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-003",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kralježnica se sastoji od ___ kralješaka.",
+    "answer": "33-34",
+    "accepted": [
+      "33-34",
+      "33–34",
+      "33 - 34",
+      "33 do 34",
+      "33 ili 34"
+    ],
+    "distractors": [
+      "24-26",
+      "30-32",
+      "35-36"
+    ],
+    "explanation": "Ukupno je 33–34 kralješka: 7 vratnih, 12 grudnih i 5 slabinskih čine pokretni dio (24), a 5 sraslih krstačnih i 4 ili 6 sraslih trtičnih nepokretni dio. Raspon dolazi od različitog broja trtičnih kralješaka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-004",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kralježnica ima oblik dvostruko savijenog slova ___.",
+    "answer": "S",
+    "accepted": [
+      "S",
+      "slova S"
+    ],
+    "distractors": [
+      "C",
+      "J",
+      "L"
+    ],
+    "explanation": "Gledano sa strane, kralježnica se naizmjence savija naprijed i natrag (lordoze i kifoze), pa ima oblik dvostrukog slova S.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-005",
+    "chapter": "15",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kakav je zavoj grudnog (torakalnog) dijela kralježnice?",
+    "answer": "kifoza",
+    "accepted": [
+      "kifoza"
+    ],
+    "distractors": [
+      "lordoza",
+      "skolioza",
+      "ravan, bez zavoja"
+    ],
+    "explanation": "Zavoji se izmjenjuju: vratni dio – lordoza, grudni – kifoza, slabinski – lordoza, krstačni – kifoza. Lordoza je ispupčena prema naprijed, kifoza prema natrag.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 3",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-006",
+    "chapter": "15",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kakav je zavoj slabinskog (lumbalnog) dijela kralježnice?",
+    "answer": "lordoza",
+    "accepted": [
+      "lordoza"
+    ],
+    "distractors": [
+      "kifoza",
+      "skolioza",
+      "ravan, bez zavoja"
+    ],
+    "explanation": "Slabinski dio, kao i vratni, ima lordozu; grudni i krstačni dio imaju kifozu. Izmjena zavoja daje oblik dvostrukog slova S.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 3",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-007",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Vratni (cervikalni) dio kralježnice ima ___ kralježaka (C1 – C7).",
+    "answer": "7",
+    "accepted": [
+      "7",
+      "sedam",
+      "7 kralježaka"
+    ],
+    "distractors": [
+      "5",
+      "12",
+      "8"
+    ],
+    "explanation": "Vratnih kralježaka je 7 (C1–C7), grudnih 12 (T1–T12), a slabinskih 5 (L1–L5). Oznaka slova dolazi od latinskog naziva dijela: cervikalni, torakalni, lumbalni.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-008",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Grudni (torakalni) dio kralježnice ima ___ kralježaka.",
+    "answer": "12",
+    "accepted": [
+      "12",
+      "dvanaest",
+      "12 kralježaka"
+    ],
+    "distractors": [
+      "7",
+      "5",
+      "10"
+    ],
+    "explanation": "Grudnih kralježaka je 12 (T1–T12) – najviše od svih dijelova kralježnice.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-009",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Slabinski (lumbalni) dio kralježnice ima ___ kralježaka.",
+    "answer": "5",
+    "accepted": [
+      "5",
+      "pet",
+      "5 kralježaka"
+    ],
+    "distractors": [
+      "7",
+      "12",
+      "4"
+    ],
+    "explanation": "Slabinskih kralježaka je 5 (L1–L5). Tijela slabinskih kralježaka veća su od tijela vratnih.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-010",
+    "chapter": "15",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji dijelovi čine nepokretni dio kralježnice?",
+    "answer": "krstačni (sakralni) i trtični (kokcigealni)",
+    "accepted": [
+      "krstačni (sakralni) i trtični (kokcigealni)"
+    ],
+    "distractors": [
+      "vratni i grudni",
+      "grudni i slabinski",
+      "slabinski i krstačni"
+    ],
+    "explanation": "Pokretni dio čine vratni, grudni i slabinski kralješci. Nepokretni dio čine krstačni (5 sraslih kralježaka u krstačnu kost) i trtični (4 ili 6 sraslih kralježaka).",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 3",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-011",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Krstačnu kost čini ___ sraslih krstačnih kralježaka.",
+    "answer": "5",
+    "accepted": [
+      "5",
+      "pet"
+    ],
+    "distractors": [
+      "4",
+      "7",
+      "3"
+    ],
+    "explanation": "Pet krstačnih kralježaka sraslo je u jednu kost – krstačnu kost (sacrum). Zato taj dio pripada nepokretnom dijelu kralježnice.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-012",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U središtu intervertebralnog diska nalazi se pulpozna jezgra (nucleus pulposus) ispunjena ___ masom.",
+    "answer": "želatinoznom",
+    "accepted": [
+      "želatinoznom",
+      "želatinozna",
+      "gelatinoznom"
+    ],
+    "distractors": [
+      "fibroznom",
+      "koštanom",
+      "masnom"
+    ],
+    "explanation": "Disk čine koncentrični slojevi kolagenih vlakana (fibrozni prsten) i pulpozna jezgra u sredini. Jezgra je želatinozna, pa pod opterećenjem stvara hidrostatski pritisak; starenjem se pretvara u fibrozno tkivo.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 5; skripta.md – Kralježnica",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-013",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Starenjem se želatinozna masa pulpozne jezgre pretvara u ___ tkivo.",
+    "answer": "fibrozno",
+    "accepted": [
+      "fibrozno",
+      "fibrozna",
+      "vezivno"
+    ],
+    "distractors": [
+      "koštano",
+      "masno",
+      "mišićno"
+    ],
+    "explanation": "Starenjem jezgra gubi želatinozna svojstva i postaje fibrozna, pa može srasti za disk. Tada se pri savijanju više ne može pomaknuti, što stvara visoki kontaktni pritisak na fibrozni prsten.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 5 i 11",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-014",
+    "chapter": "15",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Od čega su građena tijela vratnih, a od čega slabinskih kralježaka?",
+    "answer": "vratnih od zbite kosti, slabinskih od spužvaste kosti omotane ljuskastom kosti",
+    "accepted": [
+      "vratnih od zbite kosti, slabinskih od spužvaste kosti omotane ljuskastom kosti"
+    ],
+    "distractors": [
+      "vratnih od spužvaste, slabinskih od zbite kosti",
+      "oba od zbite kosti",
+      "oba od spužvaste kosti bez ovojnice"
+    ],
+    "explanation": "Tijela vratnih kralježaka su od zbite kosti, a veća tijela slabinskih kralježaka od spužvaste kosti omotane ljuskastom kosti. Luk i nastavci su većim dijelom od zbite kosti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 8",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-015",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U tlačnom pokusu za tijelo slabinskog i vratnog kralješka potrebna je približno ista sila od ___.",
+    "answer": "7-9 kN",
+    "accepted": [
+      "7-9 kN",
+      "7–9 kN",
+      "7 - 9 kN",
+      "7-9",
+      "7 do 9 kN"
+    ],
+    "distractors": [
+      "3-4 kN",
+      "15-20 kN",
+      "1-2 kN"
+    ],
+    "explanation": "Iako je tijelo slabinskog kralješka veće, za njegovo slamanje treba približno ista sila (7–9 kN) kao za vratni – jer je od spužvaste kosti. Iz toga se zaključuje da je uloga tijela kralješka prigušenje, a ne samo nošenje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 8",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-016",
+    "chapter": "15",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što se zaključuje iz toga što je u tlačnom pokusu za tijelo slabinskog i vratnog kralješka potrebna ista sila?",
+    "answer": "uloga tijela kralješka je prigušenje",
+    "accepted": [
+      "uloga tijela kralješka je prigušenje"
+    ],
+    "distractors": [
+      "slabinski kralježak je čvršći",
+      "vratni kralježak je od spužvaste kosti",
+      "tijelo kralješka ne nosi opterećenje"
+    ],
+    "explanation": "Slabinski kralježak je veći, ali od spužvaste kosti, pa se ne lomi pri većoj sili od vratnog (7–9 kN). Spužvasta građa omogućuje da tijelo kralješka apsorbira energiju udara – prigušuje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 8; skripta.md – Kralježnica",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-017",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Cervikalni sindrom (vratni dio) posljedica je ___ opterećenja.",
+    "answer": "statičkog",
+    "accepted": [
+      "statičkog",
+      "statičko",
+      "statickog"
+    ],
+    "distractors": [
+      "dinamičkog",
+      "udarnog",
+      "cikličkog"
+    ],
+    "explanation": "Cervikalni sindrom nastaje zbog statičkog opterećenja – dugotrajnog držanja glave u istom položaju. Uz lumbalni sindrom to je najčešća bolest kralježnice.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 9; skripta.md – Kralježnica",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-018",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Mehanički odziv diska na aksijalno opterećenje, kad se disk sa strane izboči, zove se „___” diska.",
+    "answer": "bačvanje",
+    "accepted": [
+      "bačvanje",
+      "bacvanje",
+      "bačvanje diska"
+    ],
+    "distractors": [
+      "izvijanje",
+      "puzanje",
+      "klizanje"
+    ],
+    "explanation": "Pri aksijalnom opterećenju pulpozna jezgra stvara hidrostatski pritisak koji gura fibrozni prsten prema van, pa se disk izboči poput bačve. Fibrozni prsten pri tome djeluje na rubove diska.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 10",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-019",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pulpozna jezgra pri aksijalnom opterećenju diska djeluje ___ pritiskom.",
+    "answer": "hidrostatskim",
+    "accepted": [
+      "hidrostatskim",
+      "hidrostatski",
+      "hidrostatskim tlakom"
+    ],
+    "distractors": [
+      "kontaktnim",
+      "osmotskim",
+      "atmosferskim"
+    ],
+    "explanation": "Želatinozna jezgra ponaša se kao tekućina zatvorena u prstenu: pritisak se širi jednako u svim smjerovima (hidrostatski pritisak) i ravnomjerno opterećuje fibrozni prsten.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 10",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-020",
+    "chapter": "15",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kamo se pomiče pulpozna jezgra pri savijanju trupa prema natrag?",
+    "answer": "prema natrag",
+    "accepted": [
+      "prema natrag"
+    ],
+    "distractors": [
+      "prema naprijed",
+      "ostaje u središtu",
+      "bočno"
+    ],
+    "explanation": "Rentgenskim snimkama s kontrastom i MR-om dokazano je da se jezgra giba u smjeru savijanja: pri savijanju natrag giba se natrag, a pri sagibanju naprijed – naprijed. Jezgru guraju vlakna prstena prema strani gdje je razmak između kralježaka smanjen.",
+    "image": null,
+    "explanation_image": "img/15-2.png",
+    "source": "15_Biomehanika kralježnice.pdf, slajd 11 i 12",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-021",
+    "chapter": "15",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što se događa kad se kod starije osobe s fibroznom, sraslom jezgrom kralježnica savije?",
+    "answer": "jezgra se ne može pomaknuti, nastaje visok kontaktni pritisak na fibrozni prsten koji može puknuti",
+    "accepted": [
+      "jezgra se ne može pomaknuti, nastaje visok kontaktni pritisak na fibrozni prsten koji može puknuti"
+    ],
+    "distractors": [
+      "jezgra se pomakne na suprotnu stranu i rastereti prsten",
+      "disk se izboči i postane mekši",
+      "kralješci se međusobno razmaknu"
+    ],
+    "explanation": "Mlada želatinozna jezgra pri savijanju se pomakne. Fibrozna jezgra srasla za disk to ne može, pa na fibrozne prstenove djeluje visok kontaktni pritisak – može doći do rupture prstena i prolapsa diska.",
+    "image": null,
+    "explanation_image": "img/15-2.png",
+    "source": "15_Biomehanika kralježnice.pdf, slajd 11",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-022",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Prolaps diska (hernija) je prodor pulpozne mase koja tlači ___.",
+    "answer": "leđnu moždinu",
+    "accepted": [
+      "leđnu moždinu",
+      "leđna moždina",
+      "ledjnu mozdinu",
+      "kralježničku moždinu"
+    ],
+    "distractors": [
+      "krvne žile",
+      "kralješke",
+      "fibrozni prsten"
+    ],
+    "explanation": "Kad fibrozni prsten pukne, pulpozna masa izađe iz diska i tlači leđnu moždinu (živčano tkivo), što izaziva bol. Zato je zaštita leđne moždine jedna od funkcija kralježnice.",
+    "image": null,
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 13; skripta.md – Kralježnica",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-023",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Tlak na međukralježnički disk u uspravnom stojećem položaju iznosi ___.",
+    "answer": "80 kPa",
+    "accepted": [
+      "80 kPa",
+      "80",
+      "80kPa"
+    ],
+    "distractors": [
+      "30 kPa",
+      "100 kPa",
+      "340 kPa"
+    ],
+    "explanation": "Na dijagramu tlak u stajanju iznosi 80 kPa. Ležanje ga smanjuje (30–60), uspravno sjedenje povećava (100), a pretklon s teretom višestruko povećava (340, 380).",
+    "image": "img/15-1.png",
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 14",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-024",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Najveći tlak na međukralježnički disk prema dijagramu (sjedenje u pretklonu s teretom) iznosi ___.",
+    "answer": "380 kPa",
+    "accepted": [
+      "380 kPa",
+      "380",
+      "380kPa"
+    ],
+    "distractors": [
+      "340 kPa",
+      "120 kPa",
+      "100 kPa"
+    ],
+    "explanation": "Sjedenje u pretklonu s teretom daje 380 kPa, gotovo pet puta više nego stajanje (80 kPa). Pretklon s teretom u stojećem položaju daje 340 kPa. Zato je podizanje tereta iz pretklona opasno za disk.",
+    "image": "img/15-1.png",
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 14",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-025",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Tlak na disk pri pretklonu s teretom u stojećem položaju iznosi ___.",
+    "answer": "340 kPa",
+    "accepted": [
+      "340 kPa",
+      "340",
+      "340kPa"
+    ],
+    "distractors": [
+      "380 kPa",
+      "100 kPa",
+      "120 kPa"
+    ],
+    "explanation": "Pretklon bez tereta daje 100 kPa, a s teretom 340 kPa. Teret je daleko od kralježnice, pa ima veliki krak i stvara veliki moment koji mišići leđa moraju uravnotežiti – to tlači disk.",
+    "image": "img/15-1.png",
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 14",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-026",
+    "chapter": "15",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "U kojem je položaju tlak na disk veći – u uspravnom sjedenju ili u stajanju?",
+    "answer": "u uspravnom sjedenju (100 kPa prema 80 kPa)",
+    "accepted": [
+      "u uspravnom sjedenju (100 kPa prema 80 kPa)"
+    ],
+    "distractors": [
+      "u stajanju (80 kPa prema 60 kPa)",
+      "jednak je u oba položaja",
+      "u stajanju (100 kPa prema 80 kPa)"
+    ],
+    "explanation": "Prema dijagramu uspravno sjedenje daje 100 kPa, a stajanje 80 kPa. Sjedenje u pretklonu povisi tlak na 120 kPa. Zato su važni ispravni radni položaji.",
+    "image": "img/15-1.png",
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 14 i 15",
+    "tags": [
+      "usporedba",
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-15-027",
+    "chapter": "15",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Na dijagramu tlakova na disk granica između hidracije i dehidracije diska je ___.",
+    "answer": "80 kPa",
+    "accepted": [
+      "80 kPa",
+      "80",
+      "80kPa"
+    ],
+    "distractors": [
+      "30 kPa",
+      "100 kPa",
+      "60 kPa"
+    ],
+    "explanation": "Ispod 80 kPa (ležanje) disk upija tekućinu – hidracija; iznad 80 kPa (sjedenje, pretklon, teret) disk gubi tekućinu – dehidracija.",
+    "image": "img/15-1.png",
+    "explanation_image": null,
+    "source": "15_Biomehanika kralježnice.pdf, slajd 14",
+    "tags": [
+      "brojka",
+      "skica"
+    ],
+    "real_exam": false
+  }
+]

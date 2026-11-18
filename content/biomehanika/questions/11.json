@@ -1,0 +1,463 @@
+[
+  {
+    "id": "bm-11-001",
+    "chapter": "11",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je osteosinteza?",
+    "answer": "kirurški zahvat kojim se spajaju fragmenti kosti nakon prijeloma ili osteotomije",
+    "accepted": [
+      "kirurški zahvat kojim se spajaju fragmenti kosti nakon prijeloma ili osteotomije"
+    ],
+    "distractors": [
+      "regeneracija kosti pomoću skele",
+      "zamjena zgloba endoprotezom",
+      "pregradnja kosti pod opterećenjem"
+    ],
+    "explanation": "Osteosinteza spaja ulomke kosti (vijcima, pločicama…) nakon prijeloma ili namjernog presijecanja kosti (osteotomije), da kost može zarasti u pravilnom položaju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "11_Osteosinteza.pdf, slajd 2; skripta.md – Kralježnica",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-11-002",
+    "chapter": "11",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kod kojih pacijenata prijelom vrata bedrene kosti nastaje nakon niskoenergijskih padova?",
+    "answer": "kod starijih pacijenata",
+    "accepted": [
+      "kod starijih pacijenata"
+    ],
+    "distractors": [
+      "kod mladih pacijenata",
+      "kod sportaša",
+      "kod djece"
+    ],
+    "explanation": "Stariji pacijenti lome vrat bedrene kosti već pri niskoenergijskim padovima (kost je slabija), a mladi tek pri visokoenergijskim padovima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "11_Osteosinteza.pdf, slajd 2",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-11-003",
+    "chapter": "11",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Na osteosintezu vrata bedrene kosti otpada ___ komplikacija.",
+    "answer": "46 %",
+    "accepted": [
+      "46 %",
+      "46",
+      "46%"
+    ],
+    "distractors": [
+      "30 %",
+      "70 %",
+      "90 %"
+    ],
+    "explanation": "Prijelomi vrata bedrene kosti imaju visoku stopu nezaraštavanja, a 46 % komplikacija otpada na osteosintezu vrata bedrene kosti. Zato se razvijaju novi implantati.",
+    "image": null,
+    "explanation_image": null,
+    "source": "11_Osteosinteza.pdf, slajd 2",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-11-004",
+    "chapter": "11",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pauwelsova klasifikacija prijeloma vrata bedrene kosti (___.) temelji se na vertikalnosti orijentacije prijeloma.",
+    "answer": "1955",
+    "accepted": [
+      "1955",
+      "1955."
+    ],
+    "distractors": [
+      "1965",
+      "1985",
+      "1945"
+    ],
+    "explanation": "Pauwels je 1955. prijelome vrata bedrene kosti razvrstao prema tome koliko je pukotina vertikalna (kut prema horizontali): tip I do 30°, tip II do 50°, tip III do 70°.",
+    "image": "img/11-1.png",
+    "explanation_image": null,
+    "source": "11_Osteosinteza.pdf, slajd 3",
+    "tags": [
+      "brojka",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-11-005",
+    "chapter": "11",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Na čemu se temelji Pauwelsova klasifikacija prijeloma vrata bedrene kosti?",
+    "answer": "na vertikalnosti orijentacije prijeloma",
+    "accepted": [
+      "na vertikalnosti orijentacije prijeloma"
+    ],
+    "distractors": [
+      "na dobi pacijenta",
+      "na energiji pada",
+      "na broju fragmenata"
+    ],
+    "explanation": "Pauwels (1955.) razvrstava prijelome po kutu: tip I do 30°, II do 50°, III do 70°.",
+    "image": "img/11-1.png",
+    "explanation_image": null,
+    "source": "11_Osteosinteza.pdf, slajd 3",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-11-006",
+    "chapter": "11",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pauwelsov tip I prijeloma vrata bedrene kosti ima kut do ___.",
+    "answer": "30°",
+    "accepted": [
+      "30°",
+      "30",
+      "30 °"
+    ],
+    "distractors": [
+      "50°",
+      "70°",
+      "15°"
+    ],
+    "explanation": "Tip I je do 30°, tip II do 50°, a tip III do 70°. Tip I je najmanje, a tip III najviše vertikalan.",
+    "image": "img/11-1.png",
+    "explanation_image": null,
+    "source": "11_Osteosinteza.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-11-007",
+    "chapter": "11",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pauwelsov tip II prijeloma vrata bedrene kosti ima kut do ___.",
+    "answer": "50°",
+    "accepted": [
+      "50°",
+      "50",
+      "50 °"
+    ],
+    "distractors": [
+      "30°",
+      "70°",
+      "45°"
+    ],
+    "explanation": "Tip II je između tipa I (do 30°) i tipa III (do 70°) – do 50°. Razmak između tipova je po 20°.",
+    "image": "img/11-1.png",
+    "explanation_image": null,
+    "source": "11_Osteosinteza.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-11-008",
+    "chapter": "11",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pauwelsov tip III prijeloma vrata bedrene kosti ima kut do ___.",
+    "answer": "70°",
+    "accepted": [
+      "70°",
+      "70",
+      "70 °"
+    ],
+    "distractors": [
+      "50°",
+      "90°",
+      "30°"
+    ],
+    "explanation": "Tip III (do 70°) je najvertikalniji prijelom.",
+    "image": "img/11-1.png",
+    "explanation_image": null,
+    "source": "11_Osteosinteza.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-11-009",
+    "chapter": "11",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje su uobičajene mogućnosti liječenja prijeloma vrata bedrene kosti?",
+    "answer": "kanulirani vijci, klizni kukasti vijci (SHS) i DHS",
+    "accepted": [
+      "kanulirani vijci, klizni kukasti vijci (SHS) i DHS"
+    ],
+    "distractors": [
+      "pločica za distalni humerus i LCP pločica",
+      "endoproteza ROM i koštani cement",
+      "vanjski fiksator i gips"
+    ],
+    "explanation": "Uobičajeno se koriste kanulirani vijci (često u obliku obrnutog trokuta), klizni kukasti vijci (SHS) i dynamic hip screw (DHS), s anti-rotacijskim vijkom ili bez njega.",
+    "image": null,
+    "explanation_image": null,
+    "source": "11_Osteosinteza.pdf, slajd 3",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-11-010",
+    "chapter": "11",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kanulirani vijci kod osteosinteze vrata bedrene kosti postavljaju se u konfiguraciji obrnutog ___.",
+    "answer": "trokuta",
+    "accepted": [
+      "trokuta",
+      "trokut"
+    ],
+    "distractors": [
+      "kvadrata",
+      "slova T",
+      "slova V"
+    ],
+    "explanation": "Kanulirani vijci (a) postavljaju se u konfiguraciji obrnutog trokuta. Ostale uobičajene metode su DHS s anti-rotacijskim vijkom (b) i bez njega (c).",
+    "image": null,
+    "explanation_image": null,
+    "source": "11_Osteosinteza.pdf, slajd 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-11-011",
+    "chapter": "11",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što vrijedi za liječenje prijeloma vrata femura kod mlade osobe?",
+    "answer": "trenutno ne postoje preporuke",
+    "accepted": [
+      "trenutno ne postoje preporuke"
+    ],
+    "distractors": [
+      "uvijek se ugrađuje endoproteza",
+      "uvijek se koristi DHS bez anti-rotacijskog vijka",
+      "liječi se samo mirovanjem"
+    ],
+    "explanation": "Za mlade osobe trenutno ne postoje preporuke za liječenje prijeloma vrata femura – to je jedan od razloga za razvoj novog implantata.",
+    "image": null,
+    "explanation_image": null,
+    "source": "11_Osteosinteza.pdf, slajd 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-11-012",
+    "chapter": "11",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je hipoteza (H0) istraživanja novog implantata za vrat bedrene kosti?",
+    "answer": "stabilnost osteosinteze s novim implantatom statistički je veća ili barem jednaka postojećim metodama",
+    "accepted": [
+      "stabilnost osteosinteze s novim implantatom statistički je veća ili barem jednaka postojećim metodama"
+    ],
+    "distractors": [
+      "novi implantat je jeftiniji od postojećih",
+      "novi implantat potpuno uklanja nezaraštavanje",
+      "stabilnost ne ovisi o tipu prijeloma"
+    ],
+    "explanation": "Hipoteza je da je biomehanička stabilnost osteosinteze s novim implantatom statistički veća ili barem jednaka u usporedbi s najčešće korištenim metodama osteosinteze vrata bedrene kosti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "11_Osteosinteza.pdf, slajd 5",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-11-013",
+    "chapter": "11",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "S kojim je kontrolnim modelima uspoređena novodizajnirana pločica za distalni humerus?",
+    "answer": "s paralelnom i okomitom konfiguracijom (dvije pločice)",
+    "accepted": [
+      "s paralelnom i okomitom konfiguracijom (dvije pločice)"
+    ],
+    "distractors": [
+      "s DHS vijkom",
+      "s kanuliranim vijcima",
+      "s endoprotezom"
+    ],
+    "explanation": "Kontrolni modeli su dvije pločice u paralelnoj i u okomitoj konfiguraciji. Nova pločica uspoređena je s njima metodom konačnih elemenata i eksperimentom.",
+    "image": null,
+    "explanation_image": null,
+    "source": "11_Osteosinteza.pdf, slajd 9 i 10",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-11-014",
+    "chapter": "11",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje su vrste opterećenja primijenjene na pločicu za distalni humerus?",
+    "answer": "savijanje, bočno savijanje i aksijalno opterećenje",
+    "accepted": [
+      "savijanje, bočno savijanje i aksijalno opterećenje"
+    ],
+    "distractors": [
+      "samo torzija",
+      "vlak i smik",
+      "tlak i torzija"
+    ],
+    "explanation": "Model je opterećen savijanjem, bočnim savijanjem i aksijalno – u MKE i eksperimentu. Uspoređivao se pomak (mm) pri opterećenju (N).",
+    "image": null,
+    "explanation_image": null,
+    "source": "11_Osteosinteza.pdf, slajd 10 i 12",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-11-015",
+    "chapter": "11",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Na kojem je stroju provedeno aksijalno opterećenje pločice za distalni humerus?",
+    "answer": "na umaralici",
+    "accepted": [
+      "na umaralici"
+    ],
+    "distractors": [
+      "na statičkoj kidalici",
+      "na Kistler platformi",
+      "u ultrazvučnoj kadi"
+    ],
+    "explanation": "Savijanje i bočno savijanje ispitani su na statičkoj kidalici, a aksijalno opterećenje na umaralici (stroju za cikličko opterećenje). Pomaci su mjereni optičkim sustavom Aramis.",
+    "image": null,
+    "explanation_image": null,
+    "source": "11_Osteosinteza.pdf, slajd 12",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-11-016",
+    "chapter": "11",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U eksperimentu s pločicom za distalni humerus korišten je kompozitni humerus proizvođača ___.",
+    "answer": "Synbone AG",
+    "accepted": [
+      "Synbone AG",
+      "Synbone"
+    ],
+    "distractors": [
+      "Aramis",
+      "Kistler",
+      "Xsens"
+    ],
+    "explanation": "Umjesto prave kosti korišten je kompozitni humerus Synbone AG – umjetni model kosti. Na njega su postavljeni nova pločica, LCP pločica sa zaključavanjem i pločica bez zaključavanja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "11_Osteosinteza.pdf, slajd 11",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-11-017",
+    "chapter": "11",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je prednost novodizajnirane pločice za distalni humerus?",
+    "answer": "brža i lakša primjena od osteosinteze s dvije pločice",
+    "accepted": [
+      "brža i lakša primjena od osteosinteze s dvije pločice"
+    ],
+    "distractors": [
+      "potpuno uklanja potrebu za vijcima",
+      "biorazgradiva je",
+      "koristi se i za vrat bedrene kosti"
+    ],
+    "explanation": "Istraživanje je pokazalo da se nova pločica može koristiti za frakture distalnog humerusa, a njezin dizajn omogućuje bržu i lakšu primjenu od dosadašnje metode s dvije pločice. Registrirana je kao međunarodni industrijski dizajn WIPO DM/079372.",
+    "image": null,
+    "explanation_image": null,
+    "source": "11_Osteosinteza.pdf, slajd 13",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  }
+]

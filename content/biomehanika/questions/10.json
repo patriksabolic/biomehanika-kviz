@@ -1,0 +1,644 @@
+[
+  {
+    "id": "bm-10-001",
+    "chapter": "10",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji je cilj inženjerstva tkiva?",
+    "answer": "regeneracija, a ne zamjena oštećenog tkiva",
+    "accepted": [
+      "regeneracija, a ne zamjena oštećenog tkiva"
+    ],
+    "distractors": [
+      "zamjena oštećenog tkiva implantatom",
+      "uklanjanje oštećenog tkiva",
+      "trajno ukrućenje kosti"
+    ],
+    "explanation": "Inženjerstvo tkiva želi da tijelo samo obnovi tkivo. Skela je privremena: služi kao oslonac dok nova kost ne naraste, a zatim se razgradi.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 2",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-002",
+    "chapter": "10",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što su koštane skele (scaffold)?",
+    "answer": "3D porozne privremene strukture za regeneraciju kosti",
+    "accepted": [
+      "3D porozne privremene strukture za regeneraciju kosti"
+    ],
+    "distractors": [
+      "trajni metalni implantati",
+      "pločice za osteosintezu",
+      "kalupi za koštani cement"
+    ],
+    "explanation": "Koštane skele su 3D porozne strukture koje privremeno zamjenjuju kost i omogućuju njezinu regeneraciju. Pore omogućuju urastanje stanica i krvnih žila.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 2",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-003",
+    "chapter": "10",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji je od navedenih zahtjeva na koštanu skelu?",
+    "answer": "biorazgradivost",
+    "accepted": [
+      "biorazgradivost"
+    ],
+    "distractors": [
+      "nepropusnost",
+      "magnetičnost",
+      "električna vodljivost"
+    ],
+    "explanation": "Zahtjevi na skelu su: biokompatibilnost, biorazgradivost, mehanička svojstva, arhitektura (poroznost) i mogućnost izrade. Biorazgradivost je nužna jer skela mora nestati kad kost naraste.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 2",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-004",
+    "chapter": "10",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Koštane skele izrađuju se od biokeramike s TCP-om, tj. ___.",
+    "answer": "trikalcij fosfatom",
+    "accepted": [
+      "trikalcij fosfatom",
+      "trikalcij fosfat",
+      "trikalcij-fosfat",
+      "trikalcijev fosfat"
+    ],
+    "distractors": [
+      "hidroksiapatitom",
+      "polimetilmetakrilatom",
+      "titanom"
+    ],
+    "explanation": "TCP je kratica za trikalcij fosfat. Uz biokeramiku čini materijal skele, koja mora biti biokompatibilna i biorazgradiva.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 1 i 2",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-005",
+    "chapter": "10",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je stereolitografija?",
+    "answer": "aditivna tehnologija skrućivanja tekuće fotoosjetljive smole pomoću svjetlosti",
+    "accepted": [
+      "aditivna tehnologija skrućivanja tekuće fotoosjetljive smole pomoću svjetlosti"
+    ],
+    "distractors": [
+      "lijevanje keramike u kalupe",
+      "glodanje skele iz bloka materijala",
+      "taljenje metalnog praha laserom"
+    ],
+    "explanation": "Stereolitografija gradi predmet sloj po sloj: svjetlost daje energiju potrebnu za polimerizaciju (skrućivanje) tekuće fotoosjetljive smole na točno određenim mjestima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 2",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-006",
+    "chapter": "10",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "3D printanje keramike sastoji se od ___ koraka.",
+    "answer": "2",
+    "accepted": [
+      "2",
+      "dva",
+      "dvaju"
+    ],
+    "distractors": [
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "Prvi korak je izrada „zelenog dijela” stereolitografijom (polimer veže keramičke čestice). Drugi je termička obrada: uklanjanje veziva i sinteriranje, čime nastaje konačni proizvod.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 3",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-007",
+    "chapter": "10",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Prvi korak 3D printanja keramike je izrada „___ dijela” stereolitografijom.",
+    "answer": "zelenog",
+    "accepted": [
+      "zelenog",
+      "zeleni",
+      "zelenog dijela"
+    ],
+    "distractors": [
+      "sirovog",
+      "sinteriranog",
+      "plavog"
+    ],
+    "explanation": "„Zeleni dio” je međuproizvod u kojem skrućeni polimer služi kao vezivo i drži keramičke čestice na okupu. Tek se termičkom obradom polimer ukloni, a keramika sinterira.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-008",
+    "chapter": "10",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto je tijekom termičke obrade potrebna točno određena brzina zagrijavanja?",
+    "answer": "izgaranje polimera povećava tlak u strukturi koji je može oštetiti",
+    "accepted": [
+      "izgaranje polimera povećava tlak u strukturi koji je može oštetiti"
+    ],
+    "distractors": [
+      "da se keramika ne otopi",
+      "da se smola ponovno ne polimerizira",
+      "da se ubrza sedimentacija"
+    ],
+    "explanation": "Pri uklanjanju veziva polimer izgara i stvara plinove, pa raste tlak unutar strukture. Prebrzo zagrijavanje dalo bi previsok tlak i oštetilo skelu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 3",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-009",
+    "chapter": "10",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Problem dugotrajne stabilnosti keramičke suspenzije za printanje je ___ (taloženje) u roku nekoliko sati.",
+    "answer": "sedimentacija",
+    "accepted": [
+      "sedimentacija",
+      "sedimentacija (taloženje)",
+      "sedimentiranje"
+    ],
+    "distractors": [
+      "polimerizacija",
+      "sinteriranje",
+      "kristalizacija"
+    ],
+    "explanation": "Keramičke čestice u suspenziji se talože – sedimentacija se javlja u roku nekoliko sati. Zato je cilj bio poboljšati stabilnost promjenom komponenti i njihovih količina.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-010",
+    "chapter": "10",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "3D printer Blueprinter zasniva se na ___ tehnologiji (Digital Light Processing).",
+    "answer": "DLP",
+    "accepted": [
+      "DLP",
+      "Digital Light Processing"
+    ],
+    "distractors": [
+      "SLS",
+      "FDM",
+      "DMD"
+    ],
+    "explanation": "DLP tehnologija selektivno skrućuje fotoosjetljivu smolu: DMD čip (Digital Micromirror Device) projicira sliku cijelog sloja na ravninu gradnje. DMD je dio sustava, a DLP naziv tehnologije.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 4",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-011",
+    "chapter": "10",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Izvor svjetlosti printera Blueprinter je LED valne duljine ___.",
+    "answer": "460 nm",
+    "accepted": [
+      "460 nm",
+      "460",
+      "460nm"
+    ],
+    "distractors": [
+      "25 nm",
+      "365 nm",
+      "50 nm"
+    ],
+    "explanation": "Blueprinter koristi LED valne duljine 460 nm (plava svjetlost) i DMD čip koji projicira slike pojedinih slojeva na ravninu gradnje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 4",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-012",
+    "chapter": "10",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kojim se čipom u Blueprinteru projiciraju slike pojedinih slojeva? ___ čip (Digital Micromirror Device).",
+    "answer": "DMD",
+    "accepted": [
+      "DMD",
+      "Digital Micromirror Device"
+    ],
+    "distractors": [
+      "DLP",
+      "CCD",
+      "LED"
+    ],
+    "explanation": "DMD čip ima mnoštvo mikroogledala koja usmjeravaju svjetlost LED-a tako da se na ravnini gradnje osvijetli točno oblik sloja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 4",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-013",
+    "chapter": "10",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Test stabilnosti suspenzije pri sobnoj temperaturi trajao je ___.",
+    "answer": "15 dana",
+    "accepted": [
+      "15 dana",
+      "15"
+    ],
+    "distractors": [
+      "72 h",
+      "30 dana",
+      "5 dana"
+    ],
+    "explanation": "Stabilnost se ispitivala na sobnoj temperaturi 15 dana te ubrzano pri 70 °C 72 h – viša temperatura ubrzava procese, pa se nestabilnost brže pokaže.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 4",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-014",
+    "chapter": "10",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Ubrzani test stabilnosti pri 70 °C trajao je ___.",
+    "answer": "72 h",
+    "accepted": [
+      "72 h",
+      "72",
+      "72 sata",
+      "3 dana"
+    ],
+    "distractors": [
+      "15 dana",
+      "24 h",
+      "50 h"
+    ],
+    "explanation": "Pri 70 °C test traje 72 h, a pri sobnoj temperaturi 15 dana. Ne miješaj sa 50 °C, temperaturom na printeru u testovima kvalitete printanja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 4",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-015",
+    "chapter": "10",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U testovima kvalitete printanja debljina sloja iznosila je ___.",
+    "answer": "25 µm",
+    "accepted": [
+      "25 µm",
+      "25",
+      "25 um",
+      "25 mikrometara",
+      "25µm"
+    ],
+    "distractors": [
+      "460 µm",
+      "50 µm",
+      "100 µm"
+    ],
+    "explanation": "Testovi kvalitete printanja: debljina sloja 25 µm, 30 slojeva, temperatura na printeru 50 °C. Tanji slojevi daju finiju geometriju skele.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 4",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-016",
+    "chapter": "10",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U testovima kvalitete printanja temperatura na printeru bila je ___.",
+    "answer": "50 °C",
+    "accepted": [
+      "50 °C",
+      "50",
+      "50°C",
+      "50 C"
+    ],
+    "distractors": [
+      "70 °C",
+      "37 °C",
+      "25 °C"
+    ],
+    "explanation": "Testovi kvalitete printanja provedeni su pri 50 °C na printeru, s 30 slojeva debljine 25 µm. 70 °C je temperatura testa stabilnosti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 4",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-017",
+    "chapter": "10",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kojim se redoslijedom oblikuje koštana skela?",
+    "answer": "dobivanje slike → 3D CAD model → oblikovanje skele → integracija skele i 3D modela",
+    "accepted": [
+      "dobivanje slike → 3D CAD model → oblikovanje skele → integracija skele i 3D modela"
+    ],
+    "distractors": [
+      "oblikovanje skele → dobivanje slike → 3D CAD model → integracija",
+      "3D CAD model → dobivanje slike → integracija → oblikovanje skele",
+      "integracija → oblikovanje skele → 3D CAD model → dobivanje slike"
+    ],
+    "explanation": "Najprije se snimi kost (slika), iz nje se napravi 3D CAD model, zatim se oblikuje skela i na kraju se skela integrira u 3D model kosti – tako skela točno ispuni oštećenje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 6",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-018",
+    "chapter": "10",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje su poroznosti skela uspoređivane u oblikovanju i FEM analizi?",
+    "answer": "55 % i 80 %",
+    "accepted": [
+      "55 % i 80 %"
+    ],
+    "distractors": [
+      "25 % i 50 %",
+      "30 % i 70 %",
+      "60 % i 90 %"
+    ],
+    "explanation": "Uspoređene su skele poroznosti 55 % i 80 %, i to dvije vrste: s okruglim šipkama i s pravokutnim porama. Veća poroznost znači više prostora za urastanje kosti, ali manje materijala za nošenje.",
+    "image": "img/10-1.png",
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 7–11",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-019",
+    "chapter": "10",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U FEM analizi skela korišten je modul elastičnosti E = ___.",
+    "answer": "98 MPa",
+    "accepted": [
+      "98 MPa",
+      "98",
+      "98MPa"
+    ],
+    "distractors": [
+      "0,28 MPa",
+      "1 GPa",
+      "460 MPa"
+    ],
+    "explanation": "FEM analiza koristila je tetraedarske elemente prvog reda, modul elastičnosti E = 98 MPa i Poissonov faktor 0,28.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 9",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-020",
+    "chapter": "10",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U FEM analizi skela Poissonov faktor iznosio je ___.",
+    "answer": "0,28",
+    "accepted": [
+      "0,28",
+      "0.28"
+    ],
+    "distractors": [
+      "0,3",
+      "0,5",
+      "0,98"
+    ],
+    "explanation": "Poissonov faktor (omjer poprečne i uzdužne deformacije) u analizi je 0,28, uz E = 98 MPa i tetraedarske elemente prvog reda.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 9",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-021",
+    "chapter": "10",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "FEM analiza skela provedena je s ___ elementima prvog reda.",
+    "answer": "tetraedarskim",
+    "accepted": [
+      "tetraedarskim",
+      "tetraedarski",
+      "tetraedri",
+      "tetraedrima"
+    ],
+    "distractors": [
+      "heksaedarskim",
+      "gredama",
+      "ljuskastim"
+    ],
+    "explanation": "Tetraedri (četverostranični elementi) dobro se prilagođavaju složenoj geometriji skele s porama. Mreža je imala od oko 99 000 do 396 000 elemenata, ovisno o vrsti i poroznosti skele.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 9",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-022",
+    "chapter": "10",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je prednost skele s okruglim šipkama prema zaključku istraživanja?",
+    "answer": "povoljnija raspodjela naprezanja",
+    "accepted": [
+      "povoljnija raspodjela naprezanja"
+    ],
+    "distractors": [
+      "veća poroznost",
+      "veća stabilnost suspenzije",
+      "manji broj elemenata u svim slučajevima"
+    ],
+    "explanation": "Okrugle šipke nemaju oštre rubove, pa je raspodjela naprezanja povoljnija. Skela s pravokutnim porama ima veću poroznost.",
+    "image": "img/10-1.png",
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 12",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-10-023",
+    "chapter": "10",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što prema zaključku poboljšava stabilnost suspenzije za printanje?",
+    "answer": "vosak, otapala veće molekularne mase, kompatibilnost sastojaka i veći udio TCP-a",
+    "accepted": [
+      "vosak, otapala veće molekularne mase, kompatibilnost sastojaka i veći udio TCP-a"
+    ],
+    "distractors": [
+      "veći udio monomera i fotoinicijatora",
+      "viša temperatura na printeru",
+      "tanji slojevi printanja"
+    ],
+    "explanation": "Stabilnost poboljšavaju vosak, otapala veće molekularne mase, kompatibilnost sastojaka i veći udio TCP-a. Kvalitetu printanja poboljšavaju veći udio monomera i odgovarajući udio apsorbera i fotoinicijatora.",
+    "image": null,
+    "explanation_image": null,
+    "source": "10_Skele.pdf, slajd 12",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  }
+]
