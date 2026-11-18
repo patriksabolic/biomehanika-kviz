@@ -36,6 +36,12 @@ OUTSIDE_RULES = [
 # ili ion s nabojem (Ca2+, Na+, Cl-, H+).
 CHEM_TOKEN = re.compile(r"(?<![\w$\\])((?:[A-Z][a-z]?\d*)+)(\d*[+\-−])?(?![\w])")
 SIMPLE_MOLECULES = {"O2", "N2", "H2", "Cl2", "CO", "NO"}
+# Oznake enzima, gena i kratice koje nisu kemijske formule (CYP2C19, FMO3, UGT1A6 …).
+LABEL_RE = re.compile(
+    r"^(CYP|FMO|UGT|SULT|NAT|GST|MAO|DAO|PAO|ALDH|ADH|AKR|CBR|AZOR|NQO|XOR|XO|XDH|AO|CES|EPHX|"
+    r"POR|PGHS|NAPQI|NAPSQI|PAPS|GSH|ATP|ADP|NADPH|NADH|NADP|FAD|FADH|FMN|DNA|RNA|THF|AMACR|DPYD|"
+    r"PBP|BLA|NNK|NNAL|THC|TMA|TMAO|LAAM|MIST|AUC|ADME|COMT|HNMT|TMT|NMT|TPMT|SET|HAT|PAH|PBDE)[0-9A-Z]*$"
+)
 
 
 def split_math(text):
@@ -54,6 +60,8 @@ def _chem_outside(outside):
     found = []
     for m in CHEM_TOKEN.finditer(outside):
         body, charge = m.group(1), m.group(2)
+        if LABEL_RE.match(body):
+            continue
         syms = re.findall(r"[A-Z][a-z]?\d*", body)
         names = [re.sub(r"\d", "", x) for x in syms]
         if not all(n in ELEMENTS for n in names):

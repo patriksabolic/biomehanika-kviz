@@ -4,7 +4,7 @@ Pokretanje iz mape projekta:  python tools/extract_pdf.py --course <id>
                               npr. python tools/extract_pdf.py --course biomehanika
 Treba paket PyMuPDF:          python -m pip install pymupdf
 
-Za svaki PDF u content/source/<id>/pdf/ (naziv počinje brojem poglavlja, npr. "7_Kosti 1.pdf"):
+Za svaki PDF u content/source/<id>/pdf/ (naziv počinje brojem poglavlja, npr. "7_Kosti 1.pdf" ili "3 Naslov.pdf"):
   - content/source/<id>/text/<nn>.md     tekst po slajdu, naslov "## Slajd N"
   - content/source/<id>/img-raw/<nn>/    ugrađene slike (s<N>-<k>.<ext>) + render svakog slajda
                                          na 150 dpi (slajd-<N>.png) kao rezerva
@@ -34,7 +34,8 @@ MIN_IMG_SIDE = 80  # manje slike su obično ikone i ukrasi
 
 
 def chapter_id(path):
-    m = re.match(r"^(\d{1,2})_", path.name)
+    """Broj na početku naziva ("7_Kosti 1.pdf", "3 Hidroksilacije.pdf") → "07"."""
+    m = re.match(r"^(\d{1,2})(?=[ _.\-])", path.name)
     return f"{int(m.group(1)):02d}" if m else None
 
 
@@ -116,7 +117,7 @@ def main():
     for p in pdfs:
         nn = chapter_id(p)
         if not nn:
-            print(f"PRESKAČEM (naziv ne počinje brojem poglavlja, npr. \"3_Naslov.pdf\"): {p.name}")
+            print(f"PRESKAČEM (naziv ne počinje brojem poglavlja, npr. \"3_Naslov.pdf\" ili \"3 Naslov.pdf\"): {p.name}")
             continue
         if nn in done:
             print(f"UPOZORENJE: više PDF-ova za poglavlje {nn}, zadnji pobjeđuje: {p.name}")

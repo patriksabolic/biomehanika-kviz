@@ -2,7 +2,117 @@
   "id": "biokemija-lijekova",
   "name": "Biokemija lijekova",
   "idPrefix": "bl",
-  "questionFiles": [],
-  "areas": [],
-  "chapters": []
+  "questionFiles": [
+    "00-primjeri.json",
+    "02.json"
+  ],
+  "areas": [
+    {
+      "id": "uvod",
+      "name": "Uvod, ADME i sudbina lijeka",
+      "chapters": [
+        "01"
+      ]
+    },
+    {
+      "id": "cyp",
+      "name": "Citokrom P450",
+      "chapters": [
+        "02"
+      ]
+    },
+    {
+      "id": "oks-c",
+      "name": "Oksidacije C-atoma i dealkilacije",
+      "chapters": [
+        "03",
+        "04",
+        "05"
+      ]
+    },
+    {
+      "id": "oks-ns",
+      "name": "FMO i oksidacija N- i S-atoma",
+      "chapters": [
+        "06"
+      ]
+    },
+    {
+      "id": "peroksidaze",
+      "name": "Peroksidaze i molibden hidroksilaze",
+      "chapters": [
+        "07"
+      ]
+    },
+    {
+      "id": "redukcije",
+      "name": "Redukcije",
+      "chapters": [
+        "08"
+      ]
+    },
+    {
+      "id": "hidrolize",
+      "name": "Hidrolize i ostale reakcije I. faze",
+      "chapters": [
+        "09"
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "01",
+      "title": "Uvod",
+      "area": "uvod",
+      "source": "1 Uvod.pdf"
+    },
+    {
+      "id": "02",
+      "title": "Citokrom P450",
+      "area": "cyp",
+      "source": "2 Citokrom P450.pdf"
+    },
+    {
+      "id": "03",
+      "title": "Hidroksilacije sp3 C-atoma – 1. dio",
+      "area": "oks-c",
+      "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf"
+    },
+    {
+      "id": "04",
+      "title": "Hidroksilacije sp3 C-atoma – 2. dio",
+      "area": "oks-c",
+      "source": "4 Hidoksilacije sp3 C-atoma 2. dio.pdf"
+    },
+    {
+      "id": "05",
+      "title": "Hidroksilacije sp2 i sp C-atoma",
+      "area": "oks-c",
+      "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf"
+    },
+    {
+      "id": "06",
+      "title": "FMO i oksidacija N- i S-atoma",
+      "area": "oks-ns",
+      "source": "6 FMO i Oksidacija N- i S- atoma.pdf"
+    },
+    {
+      "id": "07",
+      "title": "Peroksidaze i molibden hidroksilaze",
+      "area": "peroksidaze",
+      "source": "7 Peroksidaze i molibden hidroksilaze.pdf"
+    },
+    {
+      "id": "08",
+      "title": "Redukcije",
+      "area": "redukcije",
+      "source": "8 Redukcije.pdf"
+    },
+    {
+      "id": "09",
+      "title": "Hidrolize",
+      "area": "hidrolize",
+      "source": "9 Hidrolize.pdf"
+    }
+  ]
 }
