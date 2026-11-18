@@ -13,10 +13,24 @@ export function normalize(s) {
     .replace(/(\d),(\d)/g, '$1.$2');
 }
 
+const SUPERSCRIPT = { '⁰': '0', '¹': '1', '²': '2', '³': '3', '⁴': '4', '⁵': '5', '⁶': '6', '⁷': '7', '⁸': '8', '⁹': '9', '⁻': '-' };
+
 // Broj na početku, iza njega smije biti samo jedinica (bez znamenki).
+// Podržava decimalni zarez, razmak kao tisućice (600 000) i znanstveni zapis:
+// 6 × 10^5, 6x10^5, 6·10⁵, 6*10^5, 6e5.
 export function parseNumber(s) {
-  const m = /^(-?\d+(?:\.\d+)?)\s*([^\d]*)$/u.exec(normalize(s));
-  return m ? parseFloat(m[1]) : null;
+  const t = String(s ?? '')
+    .toLowerCase()
+    .trim()
+    .replace(/10([⁻⁰¹²³⁴⁵⁶⁷⁸⁹]+)/g, (_, e) => '10^' + [...e].map((c) => SUPERSCRIPT[c]).join(''))
+    .replace(/(\d),(\d)/g, '$1.$2')
+    .replace(/(\d) (?=\d{3}(?!\d))/g, '$1')
+    .replace(/−/g, '-');
+  const m = /^(-?\d+(?:\.\d+)?)\s*(?:[x×·*]\s*10\s*\^\s*(-?\d+)|e([-+]?\d+))?\s*([^\d]*)$/u.exec(t);
+  if (!m) return null;
+  const exp = m[2] ?? m[3];
+  const value = parseFloat(m[1]) * (exp !== undefined ? 10 ** Number(exp) : 1);
+  return Number.isFinite(value) ? value : null;
 }
 
 export function levenshtein(a, b) {
@@ -38,21 +52,30 @@ export function isNumericAnswer(q) {
   return parseNumber(q.answer) !== null;
 }
 
+// Pravila (spec, odjeljak 5) + zaštita: upis jednak netočnom ponuđenom odgovoru (distraktoru)
+// nikad nije točan, a tipfeler se ne priznaje ako je upis jednako blizu ili bliži distraktoru.
 export function gradeFill(input, q) {
   const u = normalize(input);
   if (!u) return false;
   const targets = [q.answer, ...(q.accepted || [])];
+  const distractors = (q.distractors || []).map(normalize);
+  if (targets.some((x) => normalize(x) === u)) return true;
+  if (distractors.includes(u)) return false;
+
   const un = parseNumber(input);
+  let bestTypo = Infinity;
   for (const x of targets) {
     const xn = normalize(x);
-    if (u === xn) return true;
     const num = parseNumber(x);
     if (num !== null) {
       if (un !== null && Math.abs(un - num) <= 0.01 * Math.abs(num)) return true;
       continue; // brojčani odgovori nemaju toleranciju za tipfelere
     }
+    if (/\d/.test(xn)) continue; // ni odgovori sa znamenkama (npr. 2/3, 27-67 %)
     const max = xn.length >= 10 ? 2 : xn.length >= 6 ? 1 : 0;
-    if (max && levenshtein(u, xn) <= max) return true;
+    const d = max ? levenshtein(u, xn) : Infinity;
+    if (d <= max) bestTypo = Math.min(bestTypo, d);
   }
-  return false;
+  if (bestTypo === Infinity) return false;
+  return !distractors.some((dn) => levenshtein(u, dn) <= bestTypo);
 }

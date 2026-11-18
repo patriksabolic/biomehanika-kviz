@@ -1,6 +1,6 @@
 // Service worker: offline rad (spec, odjeljak 14).
 // PRI SVAKOM DEPLOYU podigni VERSION (mora biti isto kao "version" u version.json).
-const VERSION = '0.2.0';
+const VERSION = '0.2.1';
 const CACHE = `bmkviz-${VERSION}`;
 
 const SHELL = [
