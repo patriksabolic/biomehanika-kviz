@@ -1,0 +1,1044 @@
+[
+  {
+    "id": "bm-35-001",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je bionika?",
+    "answer": "primjena metoda i sustava pronađenih u prirodi na oblikovanje inženjerskih sustava, materijala i tehnologija",
+    "accepted": [
+      "primjena metoda i sustava pronađenih u prirodi na oblikovanje inženjerskih sustava, materijala i tehnologija"
+    ],
+    "distractors": [
+      "ugradnja mehatroničkih elemenata u ljudsko tijelo",
+      "primjena zakona mehanike na biološke probleme",
+      "proučavanje mehaničkih svojstava mekih tkiva"
+    ],
+    "explanation": "Bionika je „transfer tehnologije” iz prirode: principi konstruiranja koje je priroda optimirala evolucijom prenose se u tehniku. Ugradnja mehatronike u tijelo je biomehatronika.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 2 i 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-002",
+    "chapter": "35",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Priroda je tijekom ___ milijarde godina evolucije dosljedno primjenjivala osnovne principe konstruiranja.",
+    "answer": "četiri",
+    "accepted": [
+      "četiri",
+      "4",
+      "četiri milijarde"
+    ],
+    "distractors": [
+      "dvije",
+      "šest",
+      "deset"
+    ],
+    "explanation": "Kroz četiri milijarde godina evolucije prirodna selekcija optimirala je konstrukcije: visoka iskoristivost materijala za zadana opterećenja, bez štetnog utjecaja na okoliš, uz malen broj različitih građevnih elemenata.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 2",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-003",
+    "chapter": "35",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Naziv bionika uveo je ___. godine Jack E. Steele.",
+    "answer": "1958",
+    "accepted": [
+      "1958",
+      "1958."
+    ],
+    "distractors": [
+      "1960",
+      "1948",
+      "1970"
+    ],
+    "explanation": "Jack E. Steele (zrakoplovna baza Wright-Patterson, Dayton) uveo je naziv 1958., a 1960. u Daytonu je održan kongres „Živi prototipovi – ključ za nove tehnologije” s motom „učenje od prirode”.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 3",
+    "tags": [
+      "brojka",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-004",
+    "chapter": "35",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Naziv bionika uveo je 1958. godine ___.",
+    "answer": "Jack E. Steele",
+    "accepted": [
+      "Jack E. Steele",
+      "Steele",
+      "Jack Steele"
+    ],
+    "distractors": [
+      "George de Mestral",
+      "Kevin Warwick",
+      "Wilhelm Barthlott"
+    ],
+    "explanation": "Jack E. Steele uveo je naziv bionika 1958. George de Mestral izumio je čičak (velcro) 1948., a Wilhelm Barthlott opisao lotus efekt 1982.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 3",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-005",
+    "chapter": "35",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Moto kongresa „Živi prototipovi – ključ za nove tehnologije” (Dayton, 1960.) bio je „učenje od ___”.",
+    "answer": "prirode",
+    "accepted": [
+      "prirode",
+      "priroda"
+    ],
+    "distractors": [
+      "životinja",
+      "biologije",
+      "evolucije"
+    ],
+    "explanation": "Moto bionike je „učenje od prirode”. Biološka rješenja optimirana su evolucijskom prilagodbom, pa su visoko optimirana i učinkovita.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 3",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-006",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Od kojih je riječi složen naziv bionika?",
+    "answer": "BIOlogija + elektroniKA",
+    "accepted": [
+      "BIOlogija + elektroniKA"
+    ],
+    "distractors": [
+      "bios + mehane",
+      "biologija + mehanika",
+      "bion + mehatronika"
+    ],
+    "explanation": "Bionika = BIOlogija + elektroniKA; engl. bionic = grč. bion (jedinica života) + ic (poput); njem. Bionik = Biologie + Technik. Biomehanika je bios (život) + mehane (stroj).",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-007",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji su biološki nivoi za oblikovanje tehnologije?",
+    "answer": "oponašanje prirodnih metoda i materijala, oponašanje mehanizama i proučavanje organizacijskih principa socijalnog ponašanja",
+    "accepted": [
+      "oponašanje prirodnih metoda i materijala, oponašanje mehanizama i proučavanje organizacijskih principa socijalnog ponašanja"
+    ],
+    "distractors": [
+      "oponašanje stanica, tkiva i organa",
+      "molekularni, stanični i organski nivo",
+      "statika, kinematika i dinamika"
+    ],
+    "explanation": "Tri nivoa: oponašanje prirodnih metoda i materijala, oponašanje mehanizama iz prirode te proučavanje organizacijskih principa socijalnog ponašanja organizama (ptice u jatu, pčele, mravi).",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 4",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-008",
+    "chapter": "35",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Čičak-zatvarač (velcro) izumio je George de Mestral ___. godine.",
+    "answer": "1948",
+    "accepted": [
+      "1948",
+      "1948."
+    ],
+    "distractors": [
+      "1958",
+      "1982",
+      "1960"
+    ],
+    "explanation": "Velcro je 1948. izumio George de Mestral – to je prvi primjer na popisu primjena bionike. Lotus efekt opisan je 1982., a naziv bionika uveden 1958.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 5 i 6",
+    "tags": [
+      "brojka",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-009",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je „lotus efekt” (Wilhelm Barthlott, 1982.)?",
+    "answer": "premaz koji odbija vodu i nečistoću",
+    "accepted": [
+      "premaz koji odbija vodu i nečistoću"
+    ],
+    "distractors": [
+      "krila koja mijenjaju oblik",
+      "proizvodnja svjetlosti bez gubitka energije",
+      "prijanjanje van der Waalsovim silama"
+    ],
+    "explanation": "Lotus efekt (Barthlott, 1982.) je premaz koji po uzoru na list lotosa odbija vodu i nečistoću.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 6",
+    "tags": [
+      "definicija",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-010",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je Julian Vincent (2004.) proučavao kao inspiraciju za „pametnu odjeću”?",
+    "answer": "borov češer, koji otvara ljuske kad je vruće, a zatvara kad je hladno",
+    "accepted": [
+      "borov češer, koji otvara ljuske kad je vruće, a zatvara kad je hladno"
+    ],
+    "distractors": [
+      "kožu morskog psa",
+      "kljun tukana",
+      "krila leptira"
+    ],
+    "explanation": "Borov češer mijenja oblik s temperaturom i vlagom. Po tom uzoru „pametna odjeća” mijenja oblik: vlakna se zatvaraju kad je hladno, a otvaraju kad je toplo.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 6",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-011",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Po uzoru na koji su prirodni princip razvijeni sonar, radar i ultrazvuk?",
+    "answer": "eholokaciju šišmiša",
+    "accepted": [
+      "eholokaciju šišmiša"
+    ],
+    "distractors": [
+      "lotus efekt",
+      "iridescenciju leptira",
+      "let ptica"
+    ],
+    "explanation": "Šišmiši proizvode zvuk visoke frekvencije te primaju i analiziraju odjeke (eho). Isti princip koriste sonar, radar i ultrazvuk (UZV).",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 6",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-012",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je svrha „morfoloških krila aviona” (Penn State University i TU Berlin, 2004.)?",
+    "answer": "krila mijenjaju oblik pa se smanjuju otpor i potrošnja goriva",
+    "accepted": [
+      "krila mijenjaju oblik pa se smanjuju otpor i potrošnja goriva"
+    ],
+    "distractors": [
+      "krila odbijaju vodu i nečistoću",
+      "krila proizvode svjetlost",
+      "krila se samoobnavljaju"
+    ],
+    "explanation": "Morfološka krila presvučena su ljuskama koje klize jedna preko druge, pa krilo mijenja oblik – smanjuju se otpor i potrošnja goriva.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 7",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-013",
+    "chapter": "35",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Na slajdu o primjerima bionike za paukovu mrežu („elastični biočelik”) navedena je vlačna čvrstoća ___.",
+    "answer": "150 MPa",
+    "accepted": [
+      "150 MPa",
+      "150",
+      "150MPa"
+    ],
+    "distractors": [
+      "1338 MPa",
+      "20 MPa",
+      "281,1 MPa"
+    ],
+    "explanation": "Na slajdu s primjerima paukova mreža opisana je kao elastični biočelik vlačne čvrstoće 150 MPa. Na kasnijem slajdu o statičkom vlačnom pokusu navedeno je i naprezanje 1338 MPa pri istezanju 476 %.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 7",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-014",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je iridescencija krila leptira i gdje se primjenjuje?",
+    "answer": "prelijevanje boja uzrokovano interferencijom – zasloni monitora i zaštita od krivotvorenja",
+    "accepted": [
+      "prelijevanje boja uzrokovano interferencijom – zasloni monitora i zaštita od krivotvorenja"
+    ],
+    "distractors": [
+      "proizvodnja svjetlosti bez gubitka energije – rasvjeta",
+      "odbijanje vode – premazi",
+      "smanjenje otpora – kupaći kostimi"
+    ],
+    "explanation": "Iridescencija je prelijevanje različitih boja zbog interferencije svjetlosti. Uz antireflektivni pokrov u očima noćnih leptira, primjenjuje se za zaslone monitora i tehnike protiv krivotvorenja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 7",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-015",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji prirodni primjer navodi bionika za proizvodnju svjetlosti bez gubitka energije?",
+    "answer": "krijesnice",
+    "accepted": [
+      "krijesnice"
+    ],
+    "distractors": [
+      "krila leptira",
+      "kljun tukana",
+      "bodlje ježa"
+    ],
+    "explanation": "Krijesnice proizvode svjetlost bez gubitka energije. Kljun tukana je primjer lagane i čvrste konstrukcije, a bodlje ježa i dikobraza male mase i velike čvrstoće.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 7",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-016",
+    "chapter": "35",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Ljuštura puža abalona građena je od kalcijevog karbonata, ali je zbog bjelančevina ___ puta tvrđa od krede.",
+    "answer": "3000",
+    "accepted": [
+      "3000",
+      "3 000",
+      "3000x",
+      "3000 puta"
+    ],
+    "distractors": [
+      "300",
+      "30",
+      "30000"
+    ],
+    "explanation": "Kreda i ljuštura abalona kemijski su isti kalcijev karbonat, ali bjelančevine u ljušturi čine je 3000 puta tvrđom – primjer višekomponentnog materijala (kemijski identičnog, fizikalno različitog).",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 8",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-017",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji je biološki primjer sendvič konstrukcije?",
+    "answer": "lubanja ptica",
+    "accepted": [
+      "lubanja ptica"
+    ],
+    "distractors": [
+      "krila leptira",
+      "oklop kukaca",
+      "jajašce muhe"
+    ],
+    "explanation": "Svojstva bioloških materijala: slojevitost, sukcesivno formiranje, hijerarhijska struktura (mišići, tetive), anizotropnost (oklop kukaca), ultra lagani materijali (krila leptira), sendvič konstrukcije (lubanja ptica) i višekomponentni materijali (abalon).",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 8",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-018",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji je primjer multifunkcionalnosti bioloških materijala?",
+    "answer": "jajašce muhe – ne propušta vodu, a propušta vodenu paru",
+    "accepted": [
+      "jajašce muhe – ne propušta vodu, a propušta vodenu paru"
+    ],
+    "distractors": [
+      "kosti – samoobnovljivost",
+      "lipidi u staničnoj membrani – samoorganiziranje",
+      "lubanja ptica – sendvič konstrukcija"
+    ],
+    "explanation": "Jajašce muhe istodobno ne propušta vodu, a propušta vodenu paru – više funkcija u jednom materijalu. Kosti su primjer samoobnovljivosti, a grupiranje lipida u membrani samoorganiziranja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 9",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-019",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je Santiago Calatrava oponašao u mostu u Bilbau?",
+    "answer": "kralježnicu",
+    "accepted": [
+      "kralježnicu"
+    ],
+    "distractors": [
+      "paukovu mrežu",
+      "list lopoča",
+      "krilo ptice"
+    ],
+    "explanation": "Calatrava je primjer primjene bionike u arhitekturi i građevinarstvu – most u Bilbau oblikovan je po uzoru na kralježnicu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 6 i 11",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-020",
+    "chapter": "35",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Hibridni sustavi koji kombiniraju biološke i inženjerske dijelove nazivaju se kibernetički organizmi (___).",
+    "answer": "cyborg",
+    "accepted": [
+      "cyborg",
+      "kiborg",
+      "CYBORG",
+      "kiborzi"
+    ],
+    "distractors": [
+      "robot",
+      "android",
+      "bionik"
+    ],
+    "explanation": "Spajanje organizma i stroja daje hibridne sustave – kibernetičke organizme (cyborg). To je primjena bionike u inženjerstvu, uz npr. bionički koncept automobila.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 11",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-021",
+    "chapter": "35",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kupaći kostim Fastskin po uzoru na kožu morskog psa može povećati brzinu plivanja za ___.",
+    "answer": "3 %",
+    "accepted": [
+      "3 %",
+      "3",
+      "3%"
+    ],
+    "distractors": [
+      "30 %",
+      "10 %",
+      "0,3 %"
+    ],
+    "explanation": "Fastskin (Speedo i Natural History Museum London) oponaša mikrostrukturu kože morskog psa i može povećati brzinu plivanja za 3 %.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 17 i 18",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-022",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako mikrostruktura kože morskog psa smanjuje otpor vode?",
+    "answer": "rebrasti vršci stvaraju okomite vrtloge pa se smanjuje debljina hidrodinamičkog graničnog sloja",
+    "accepted": [
+      "rebrasti vršci stvaraju okomite vrtloge pa se smanjuje debljina hidrodinamičkog graničnog sloja"
+    ],
+    "distractors": [
+      "glatka površina potpuno uklanja trenje",
+      "sluz na koži odbija vodu",
+      "ljuske mijenjaju oblik pri plivanju"
+    ],
+    "explanation": "Rebrasti vršci stvaraju okomite vodene vrtloge, granični sloj se stanji, voda bolje prijanja uz tijelo, nema turbulentnog strujanja i strujnice ostaju uz površinu – otpor se smanjuje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 18",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-023",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kakvi moraju biti hemokompatibilni polimeri?",
+    "answer": "netrombogeni i otporni na adsorpciju bjelančevina",
+    "accepted": [
+      "netrombogeni i otporni na adsorpciju bjelančevina"
+    ],
+    "distractors": [
+      "biorazgradivi i porozni",
+      "tvrđi od cakline",
+      "električki vodljivi"
+    ],
+    "explanation": "Struktura i površinska obrada hemokompatibilnih polimera moraju spriječiti zgrušavanje krvi (netrombogenost) i adsorpciju bjelančevina. Koriste se za filtere za hemodijalizu, intravenozne katetere te kontaktne i intraokularne leće.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 20",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-024",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja se primjena bionike temelji na slaganju mladih listova u pupoljke?",
+    "answer": "konstrukcija sklopivih ploha",
+    "accepted": [
+      "konstrukcija sklopivih ploha"
+    ],
+    "distractors": [
+      "kupaći kostimi",
+      "premazi koji odbijaju vodu",
+      "leteći roboti"
+    ],
+    "explanation": "Listovi kombiniraju krutost i savitljivost: tanke membrane ojačane su središnjim rebrom i žilama. Savijaju se na vjetru (manji otpor i opasnost od loma), a način slaganja mladih listova u pupoljke primjenjuje se za sklopive plohe.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 21",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-025",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je biomimetički mišić?",
+    "answer": "elektroaktivan membranski kompozit koji se savija pod djelovanjem struje niskog napona",
+    "accepted": [
+      "elektroaktivan membranski kompozit koji se savija pod djelovanjem struje niskog napona"
+    ],
+    "distractors": [
+      "živo mišićno tkivo uzgojeno u laboratoriju",
+      "pneumatski aktuator",
+      "elektromotor s reduktorom"
+    ],
+    "explanation": "Biomimetički mišić je visokoosjetljiv elektroaktivan membranski kompozitni materijal. Savija se pod strujom niskog napona, a veličina savojne deformacije mijenja se frekvencijom struje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 24",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-026",
+    "chapter": "35",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Napon biomimetičkog mišića iznosi ___, ovisno o broju slojeva membrane.",
+    "answer": "0,1-3,5 V",
+    "accepted": [
+      "0,1-3,5 V",
+      "0,1–3,5 V",
+      "0,1 - 3,5 V",
+      "0.1-3.5 V",
+      "0,1-3,5"
+    ],
+    "distractors": [
+      "50-100 V",
+      "0-80 V",
+      "3,5-12 V"
+    ],
+    "explanation": "Podaci za biomimetički mišić: membrana 100 × 130 × 0,2 mm, vrijeme odziva 0–80 ms, snaga 0,1 W/cm², gustoća struje 50–100 mA/cm², napon 0,1–3,5 V.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 24",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-027",
+    "chapter": "35",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Vrijeme odziva biomimetičkog mišića iznosi ___.",
+    "answer": "0-80 ms",
+    "accepted": [
+      "0-80 ms",
+      "0–80 ms",
+      "0 - 80 ms",
+      "0-80"
+    ],
+    "distractors": [
+      "50-100 ms",
+      "1-2 s",
+      "0,1-3,5 ms"
+    ],
+    "explanation": "Biomimetički mišić reagira za 0–80 ms. Napon mu je 0,1–3,5 V, a gustoća struje 50–100 mA/cm².",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 24",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-028",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se modul elastičnosti paukove niti mijenja u statičkom vlačnom pokusu?",
+    "answer": "povećava se s povećanjem istezanja",
+    "accepted": [
+      "povećava se s povećanjem istezanja"
+    ],
+    "distractors": [
+      "smanjuje se s povećanjem istezanja",
+      "ostaje konstantan",
+      "pada na nulu pri 50 % istezanja"
+    ],
+    "explanation": "Pri σ = 20 MPa i ε = 50 % modul je E = 40 MPa, a pri σ = 1338 MPa i ε = 476 % E = 281,1 MPa. Nit postaje kruća što se više isteže.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 25",
+    "tags": [
+      "usporedba",
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-029",
+    "chapter": "35",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U statičkom vlačnom pokusu paukove niti pri istezanju ε = 476 % naprezanje iznosi σ = ___.",
+    "answer": "1338 MPa",
+    "accepted": [
+      "1338 MPa",
+      "1338",
+      "1 338 MPa",
+      "1338MPa"
+    ],
+    "distractors": [
+      "150 MPa",
+      "281,1 MPa",
+      "20 MPa"
+    ],
+    "explanation": "Pri ε = 476 % naprezanje je 1338 MPa, a modul 281,1 MPa. Paukova vlakna su vrlo elastična i imaju veću vlačnu čvrstoću od čelika – najžilaviji su poznati materijal.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 25",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-030",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Na što podsjeća način na koji paukova mreža zaustavlja teškog kukca u letu?",
+    "answer": "na užad za zaustavljanje zrakoplova pri slijetanju na nosače aviona",
+    "accepted": [
+      "na užad za zaustavljanje zrakoplova pri slijetanju na nosače aviona"
+    ],
+    "distractors": [
+      "na sigurnosni pojas u automobilu",
+      "na mrežu za ribolov",
+      "na oprugu u amortizeru"
+    ],
+    "explanation": "Mreža mora zaustaviti kukca, ne potrgati se i ne izbaciti ga natrag zbog trzajne sile – kao užad koja zaustavlja zrakoplove na nosaču aviona.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 25",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-031",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što se u Zimbabveu proučavalo na termitnjacima?",
+    "answer": "prilagodbu temperature, vlažnosti i protoka zraka za gradnju ugodnijih zgrada",
+    "accepted": [
+      "prilagodbu temperature, vlažnosti i protoka zraka za gradnju ugodnijih zgrada"
+    ],
+    "distractors": [
+      "čvrstoću zidova od blata",
+      "komunikaciju termita",
+      "otpornost na potrese"
+    ],
+    "explanation": "Proučavalo se kako termitnjak regulira temperaturu, vlažnost i protok zraka, kako bi se gradile ugodnije zgrade.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 26",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-032",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako bodljikava agama (gušter) pije vodu?",
+    "answer": "kroz stopalo – voda se kanalima između ljusaka provodi do usta",
+    "accepted": [
+      "kroz stopalo – voda se kanalima između ljusaka provodi do usta"
+    ],
+    "distractors": [
+      "upija vodu kroz bodlje na leđima",
+      "pije samo rosu jezikom",
+      "ne pije, vodu dobiva iz hrane"
+    ],
+    "explanation": "Bodljikava agama upija vlagu kroz nogu, a kanali između ljusaka (saćasto polje s udubljenjima širine 25 μm) provode vodu do usta – prednost u pustinji.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 27",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-033",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što omogućuje macaklinu hodanje po vertikalnim plohama?",
+    "answer": "vlakanca s lopatastim vršcima koja prianjaju van der Waalsovim silama",
+    "accepted": [
+      "vlakanca s lopatastim vršcima koja prianjaju van der Waalsovim silama"
+    ],
+    "distractors": [
+      "ljepljiva tvar na stopalima",
+      "podtlak u jastučićima",
+      "kukice na prstima"
+    ],
+    "explanation": "Stopala macaklina su suha i glatka; prianjanje ostvaruju vlakanca s lopatastim vršcima (gustoća 2·10⁹/cm², debljina 100 nm) koja s površinom djeluju van der Waalsovim silama.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 29",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-034",
+    "chapter": "35",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Vlakanca na jastučićima prstiju macaklina debela su ___.",
+    "answer": "100 nm",
+    "accepted": [
+      "100 nm",
+      "100",
+      "100nm"
+    ],
+    "distractors": [
+      "30 μm",
+      "25 μm",
+      "9 μm"
+    ],
+    "explanation": "Vlakna su debela 100 nm, a gustoća im je 2·10⁹/cm². Robot Stickybot ima čekinje promjera 30 μm i masu 500 g.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 29",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-035",
+    "chapter": "35",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Robot Stickybot ima masu ___.",
+    "answer": "500 g",
+    "accepted": [
+      "500 g",
+      "500",
+      "0,5 kg",
+      "500g"
+    ],
+    "distractors": [
+      "50 g",
+      "5 kg",
+      "100 g"
+    ],
+    "explanation": "Stickybot ima masu 500 g, a čekinje na prstima promjera 30 μm. Prsti prianjaju kad se guraju prema dolje, a otpuštaju kad se smjer preokrene.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 29",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-036",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Čemu služe zupčanici na zadnjim nogama skakavca Issus coleoptratus?",
+    "answer": "mehanički sinkroniziraju zadnje noge pri skoku",
+    "accepted": [
+      "mehanički sinkroniziraju zadnje noge pri skoku"
+    ],
+    "distractors": [
+      "služe za drobljenje hrane",
+      "proizvode zvuk",
+      "omogućuju hodanje po okomitim plohama"
+    ],
+    "explanation": "Zupčanici mehanički sinkroniziraju zadnje noge, pa se obje noge pri skoku gibaju istodobno. Kod neodraslog skakavca sinkronizacija je otežana.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 31",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-037",
+    "chapter": "35",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Prosječno preneseni moment zupčanika skakavca Issus coleoptratus iznosi ___.",
+    "answer": "0,7 mNmm",
+    "accepted": [
+      "0,7 mNmm",
+      "0,7",
+      "0.7 mNmm",
+      "0.7"
+    ],
+    "distractors": [
+      "7 mNmm",
+      "0,07 mNmm",
+      "200 mNmm"
+    ],
+    "explanation": "Zupčanici skakavca: radijus zakrivljenosti 200 μm, debljina zuba 9 μm, visina zuba 15–30 μm; opterećeni su samo pri skoku, a prosječno prenose moment 0,7 mNmm.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 32",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-35-038",
+    "chapter": "35",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto je konveksno-konkavni dodir zuba (skakavac Issus coleoptratus) povoljniji od konveksno-konveksnog (evolventnog)?",
+    "answer": "veća je dodirna površina, pa je kontaktni (Hertzov) pritisak manji",
+    "accepted": [
+      "veća je dodirna površina, pa je kontaktni (Hertzov) pritisak manji"
+    ],
+    "distractors": [
+      "manja je dodirna površina, pa je trenje manje",
+      "zubi su simetrični",
+      "zubi se ne dodiruju"
+    ],
+    "explanation": "Kod evolventnog ozubljenja obje strane zuba su konveksne. Kod skakavca je u zahvatu jedna konveksna i jedna konkavna strana – dodirna površina je veća, pa je Hertzov pritisak manji.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 33",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  }
+]

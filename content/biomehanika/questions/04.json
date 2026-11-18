@@ -659,5 +659,32 @@
       "skica"
     ],
     "real_exam": false
+  },
+  {
+    "id": "bm-04-026",
+    "chapter": "04",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Modul elastičnosti kolagena je u odnosu na modul elastičnosti elastina:",
+    "answer": "približno 2500 puta veći",
+    "accepted": [
+      "približno 2500 puta veći"
+    ],
+    "distractors": [
+      "približno 2,5 puta manji",
+      "približno 25 puta veći",
+      "približno 2,5 puta veći"
+    ],
+    "explanation": "Kolagen ima E = 1–2 GPa, a elastin 0,6 MPa. Omjer je 1000–2000 MPa / 0,6 MPa ≈ 1700–3300, tj. približno 2500 puta. Kolagen je krut i nosi vlačno opterećenje, a elastin je gumast i rastezljiv.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 35 (primjer ispitnog pitanja); 4_Vezivno tkivo.pdf, slajd 13; skripta.md – Potporno tkivo",
+    "tags": [
+      "usporedba",
+      "brojka"
+    ],
+    "real_exam": false
   }
 ]

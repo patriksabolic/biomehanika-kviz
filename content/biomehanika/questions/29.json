@@ -1,0 +1,433 @@
+[
+  {
+    "id": "bm-29-001",
+    "chapter": "29",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako je definirana biomehatronika?",
+    "answer": "interdisciplinarna znanost s ciljem ugradnje mehatroničkih elemenata u ljudsko tijelo radi liječenja i poboljšanja sposobnosti",
+    "accepted": [
+      "interdisciplinarna znanost s ciljem ugradnje mehatroničkih elemenata u ljudsko tijelo radi liječenja i poboljšanja sposobnosti"
+    ],
+    "distractors": [
+      "primjena zakona mehanike u rješavanju bioloških problema",
+      "transfer tehnologije iz prirode u tehniku",
+      "znanost o mehaničkim svojstvima bioloških tkiva"
+    ],
+    "explanation": "Biomehatronika integrira mehatroničke elemente u ljudsko tijelo radi liječenja i poboljšanja postojećih sposobnosti; obuhvaća međudjelovanje bioloških organa i elektromehaničkih sustava. Primjena mehanike na biološke probleme je biomehanika, a transfer tehnologije iz prirode bionika.",
+    "image": null,
+    "explanation_image": null,
+    "source": "29_Biomehatronika.pdf, slajd 2",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-29-002",
+    "chapter": "29",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Mehatronika je kao inženjerska disciplina nastala u ___ 1970. godine.",
+    "answer": "Japanu",
+    "accepted": [
+      "Japanu",
+      "Japan"
+    ],
+    "distractors": [
+      "SAD-u",
+      "Njemačkoj",
+      "Velikoj Britaniji"
+    ],
+    "explanation": "Mehatronika potječe iz Japana (1970.) i obuhvaća strojarstvo, elektrotehniku, elektroniku i računalne znanosti; bavi se hibridnim sustavima s mehaničkim, električnim i inteligentnim komponentama.",
+    "image": null,
+    "explanation_image": null,
+    "source": "29_Biomehatronika.pdf, slajd 3",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-29-003",
+    "chapter": "29",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Mehatronika je nastala ___. godine u Japanu.",
+    "answer": "1970",
+    "accepted": [
+      "1970",
+      "1970."
+    ],
+    "distractors": [
+      "1958",
+      "2002",
+      "1985"
+    ],
+    "explanation": "Mehatronika je nastala 1970. u Japanu. Biomehatronika je primjena mehatronike u humanoj biologiji, a naziv bionika uveden je ranije, 1958.",
+    "image": null,
+    "explanation_image": null,
+    "source": "29_Biomehatronika.pdf, slajd 3",
+    "tags": [
+      "brojka",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-29-004",
+    "chapter": "29",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Britanski znanstvenik Kevin Warwick ___. godine ugradio je elektrode u medijalni živac, a robotska ruka oponašala je pokrete njegove ruke.",
+    "answer": "2002",
+    "accepted": [
+      "2002",
+      "2002."
+    ],
+    "distractors": [
+      "2006",
+      "1998",
+      "2010"
+    ],
+    "explanation": "Kevin Warwick je 2002. ugradio elektrode u medijalni živac; signal iz živca pokretao je robotsku ruku koja je oponašala pokrete stvarne ruke. Godine 2006. Claudia Mitchell dobila je protezu upravljanu preusmjerenim živcima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "29_Biomehatronika.pdf, slajd 3",
+    "tags": [
+      "brojka",
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-29-005",
+    "chapter": "29",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako je Claudia Mitchell (2006.) upravljala protezom ruke?",
+    "answer": "preusmjerenim živcima na prsima čija električna aktivnost šalje signale motorima u ruci",
+    "accepted": [
+      "preusmjerenim živcima na prsima čija električna aktivnost šalje signale motorima u ruci"
+    ],
+    "distractors": [
+      "elektrodom u mozgu i kamerom na naočalama",
+      "čipom ispod kože povezanim sa smartphoneom",
+      "elektrodama u medijalnom živcu"
+    ],
+    "explanation": "Kod Claudije Mitchell živci su preusmjereni na prsa, a njihova električna aktivnost šalje signale motorima u protezi. Elektrode u medijalnom živcu imao je Kevin Warwick, a elektrodu u mozgu s kamerom Cherry Robertson.",
+    "image": null,
+    "explanation_image": null,
+    "source": "29_Biomehatronika.pdf, slajd 5",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-29-006",
+    "chapter": "29",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je Cherry Robertson („bionic woman”) dobila 2006.?",
+    "answer": "elektrodu u mozgu i naočale s kamerom povezane s računalom",
+    "accepted": [
+      "elektrodu u mozgu i naočale s kamerom povezane s računalom"
+    ],
+    "distractors": [
+      "protezu ruke upravljanu živcima na prsima",
+      "kameru za raspoznavanje boja",
+      "komunikacijski čip ispod kože"
+    ],
+    "explanation": "Cherry Robertson ugrađena je elektroda u mozak; kamera na naočalama šalje signal računalu na remenu oko struka, a računalo šalje podražaj elektrodi u mozgu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "29_Biomehatronika.pdf, slajd 5",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-29-007",
+    "chapter": "29",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Čemu služi kamera povezana s mozgom kod Neila Harbissona?",
+    "answer": "pomaže mu, kao daltonistu, u raspoznavanju boja",
+    "accepted": [
+      "pomaže mu, kao daltonistu, u raspoznavanju boja"
+    ],
+    "distractors": [
+      "omogućuje mu upravljanje protezom ruke",
+      "zamjenjuje mu potpuno izgubljen vid",
+      "omogućuje mu korištenje smartphonea"
+    ],
+    "explanation": "Neil Harbisson (na slajdu „Nail”) je daltonist; kamera povezana s mozgom pomaže mu raspoznavati boje. Anthony Antonellis ugradio je komunikacijski čip za upotrebu smartphonea ispod kože.",
+    "image": null,
+    "explanation_image": null,
+    "source": "29_Biomehatronika.pdf, slajd 5",
+    "tags": [
+      "povijest"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-29-008",
+    "chapter": "29",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je BCI (Brain Computer Interface)?",
+    "answer": "sustav koji prepoznaje neuralnu aktivnost u mozgu ili perifernim živcima i koristi je za upravljanje protezom, ortozom, implantatom",
+    "accepted": [
+      "sustav koji prepoznaje neuralnu aktivnost u mozgu ili perifernim živcima i koristi je za upravljanje protezom, ortozom, implantatom"
+    ],
+    "distractors": [
+      "implantat koji stimulira srčani mišić",
+      "računalni model mozga",
+      "uređaj za mjerenje krvnog tlaka"
+    ],
+    "explanation": "BCI prepoznaje neuralnu aktivnost (mozak, periferni živci) i taj signal koristi za upravljanje protezom, ortozom ili implantatom. Primjer je BrainGate – pretraživanje interneta mislima.",
+    "image": null,
+    "explanation_image": null,
+    "source": "29_Biomehatronika.pdf, slajd 5",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-29-009",
+    "chapter": "29",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja su dva aspekta biomehatronike kao razvoja mehatroničkih sustava uz pomoć biologije i medicine?",
+    "answer": "prilagodba mehatroničkih proizvoda ljudima (biokompatibilnost u širem smislu) i biološki inspiriran dizajn",
+    "accepted": [
+      "prilagodba mehatroničkih proizvoda ljudima (biokompatibilnost u širem smislu) i biološki inspiriran dizajn"
+    ],
+    "distractors": [
+      "minijaturizacija i bežični prijenos",
+      "smanjenje cijene i povećanje snage",
+      "zamjena svih organa i produljenje života"
+    ],
+    "explanation": "1. Mehatronički proizvodi i metode trebaju se prilagoditi primjeni na ljudima – biokompatibilnost u širem smislu. 2. Mehatronički dizajn treba biti biološki inspiriran, na principima bionike.",
+    "image": null,
+    "explanation_image": null,
+    "source": "29_Biomehatronika.pdf, slajd 7",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-29-010",
+    "chapter": "29",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji su dijelovi biomehatroničkog sustava?",
+    "answer": "mehanička struktura, pokretački (aktuatorski) sustav, senzori i pretvarači, kontrolni sustav",
+    "accepted": [
+      "mehanička struktura, pokretački (aktuatorski) sustav, senzori i pretvarači, kontrolni sustav"
+    ],
+    "distractors": [
+      "implantat, nadogradnja i nadomjestak",
+      "kamera, računalo i elektroda",
+      "opruga, prigušivač i kontraktilni element"
+    ],
+    "explanation": "Biomehatronički sustav ima mehaničku strukturu (poput kostiju i zglobova), aktuatore (npr. elektromotor – poput mišića), senzore (npr. senzor sile – poput Golgijeva tetivnog organa) i kontrolni sustav (poput središnjeg živčanog sustava).",
+    "image": null,
+    "explanation_image": null,
+    "source": "29_Biomehatronika.pdf, slajd 8",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-29-011",
+    "chapter": "29",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kojem biološkom dijelu odgovara aktuatorski (pokretački) sustav biomehatroničkog sustava, npr. elektromotor?",
+    "answer": "mišiću",
+    "accepted": [
+      "mišiću"
+    ],
+    "distractors": [
+      "kosti",
+      "Golgijevu tetivnom organu",
+      "središnjem živčanom sustavu"
+    ],
+    "explanation": "Aktuator proizvodi sile, kao mišić. Mehanička struktura odgovara kostima, zglobovima i ligamentima, senzor sile Golgijevu tetivnom organu, a kontrolni sustav središnjem živčanom sustavu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "29_Biomehatronika.pdf, slajd 8",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-29-012",
+    "chapter": "29",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Biološki pandan senzora sile u biomehatroničkom sustavu je Golgijev ___ organ (proprioceptor).",
+    "answer": "tetivni",
+    "accepted": [
+      "tetivni",
+      "tetivni organ",
+      "tetivnom"
+    ],
+    "distractors": [
+      "mišićni",
+      "zglobni",
+      "živčani"
+    ],
+    "explanation": "Golgijev tetivni organ je proprioceptor koji osjeća silu u tetivi – zato je naveden kao biološki uzor senzora sile.",
+    "image": null,
+    "explanation_image": null,
+    "source": "29_Biomehatronika.pdf, slajd 8",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-29-013",
+    "chapter": "29",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je glavni cilj biomehatronike?",
+    "answer": "razvoj i dizajn proteza, ortoza, implantata, dijagnostičkih uređaja, neurorehabilitacijskih robota i egzoskeleta",
+    "accepted": [
+      "razvoj i dizajn proteza, ortoza, implantata, dijagnostičkih uređaja, neurorehabilitacijskih robota i egzoskeleta"
+    ],
+    "distractors": [
+      "izrada mehaničkih modela kostiju",
+      "uzgoj organa u laboratoriju",
+      "razvoj novih lijekova"
+    ],
+    "explanation": "Cilj je pomoći ili povećati motoriku izgubljenu ili oštećenu traumom, bolešću ili pri rođenju. Biomehatroničke proteze izravno međudjeluju s mišićima i živčanim sustavom kako bi vratile kontrolu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "29_Biomehatronika.pdf, slajd 9",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-29-014",
+    "chapter": "29",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Dubinska moždana stimulacija (DBS) biomehatronički je uređaj za liječenje ___ bolesti.",
+    "answer": "Parkinsonove",
+    "accepted": [
+      "Parkinsonove",
+      "Parkinsonova",
+      "Parkinson",
+      "Parkinsonove bolesti"
+    ],
+    "distractors": [
+      "Alzheimerove",
+      "šećerne",
+      "srčane"
+    ],
+    "explanation": "Među biomehatroničkim uređajima navedeni su pacemaker, defibrilator, umjetna pužnica, egzoskelet, umjetno srce, stimulator živca vagusa, ECMO, ABI i dubinska moždana stimulacija (DBS) za liječenje Parkinsonove bolesti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "29_Biomehatronika.pdf, slajd 11",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-29-015",
+    "chapter": "29",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što je „cyber pilula”?",
+    "answer": "pilula koja nakon gutanja nadzire rad tijela i šalje podatke pametnom telefonu",
+    "accepted": [
+      "pilula koja nakon gutanja nadzire rad tijela i šalje podatke pametnom telefonu"
+    ],
+    "distractors": [
+      "čip za automatiziranu identifikaciju osoba",
+      "biorazgradiva baterija za ugrađene uređaje",
+      "čestica manja od zrnca prašine koja nadzire pojavu tumora"
+    ],
+    "explanation": "Prema infografici cyber pilula nakon gutanja nadzire rad tijela i šalje podatke pametnom telefonu. Pametna prašina su čestice manje od zrnca prašine koje nadziru moguću pojavu tumora.",
+    "image": null,
+    "explanation_image": null,
+    "source": "29_Biomehatronika.pdf, slajd 11 i 13",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-29-016",
+    "chapter": "29",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koje je od navedenog područje istraživanja biomehatronike?",
+    "answer": "živo mišićno tkivo kao aktuator za elektroničke uređaje",
+    "accepted": [
+      "živo mišićno tkivo kao aktuator za elektroničke uređaje"
+    ],
+    "distractors": [
+      "određivanje težišta tijela Dempsterovim kadama",
+      "pregradnja kosti po Wolffovu zakonu",
+      "membranska naprezanja eritrocita"
+    ],
+    "explanation": "Istraživanja biomehatronike: stimulatori mišića i živaca, uređaji za održanje života, stimulator gušterače kod dijabetesa, bioničko oko, živo mišićno tkivo kao aktuator, VR i robotika u rehabilitaciji, BCI i BrainGate, vojna istraživanja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "29_Biomehatronika.pdf, slajd 10",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  }
+]

@@ -640,5 +640,36 @@
       "funkcija"
     ],
     "real_exam": false
+  },
+  {
+    "id": "bm-10-024",
+    "chapter": "10",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Umjetna 3D porozna struktura čiji je cilj privremena zamjena kosti te regeneracija kosti zove se ___.",
+    "answer": "koštana skela",
+    "accepted": [
+      "koštana skela",
+      "skela",
+      "scaffold",
+      "koštana skela (scaffold)",
+      "skele"
+    ],
+    "distractors": [
+      "endoproteza",
+      "implantat",
+      "koštani cement"
+    ],
+    "explanation": "Koštana skela (scaffold) je 3D porozna privremena struktura: zamjenjuje kost dok ona ne regenerira, a zatim se razgradi. Zato mora biti biokompatibilna, biorazgradiva i porozna.",
+    "image": null,
+    "explanation_image": null,
+    "source": "35_Bionika.pdf, slajd 35 (primjer ispitnog pitanja); 10_Skele.pdf, slajd 2",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
   }
 ]
