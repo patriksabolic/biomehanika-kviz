@@ -1,8 +1,10 @@
 // Navigacija, ekrani i inicijalizacija.
 
 import * as storage from './storage.js';
-import { loadCourses, loadCourse, loadVersion } from './content.js';
+import { loadCourses, loadCourse } from './content.js';
 import { initQuiz, showQuiz } from './quiz.js';
+import { initExam, showExam } from './exam.js';
+import { renderSettings, resetSettingsUi, applyTheme } from './settings.js';
 import { esc, daysUntil, plural } from './util.js';
 import { streakInfo, renderStats } from './stats.js';
 
@@ -60,6 +62,7 @@ function renderHome(el) {
       <p class="muted small">${today.answered >= goal ? '✓ Dnevni cilj ispunjen.' : `Još ${goal - today.answered} do dnevnog cilja.`}
         ${today.answered ? ` Točno: ${today.correct}.` : ''}</p>
     </section>
+    ${storage.courseData(ctx.courseId).activeExam ? '<button type="button" class="btn primary big" data-act="exam">⏱️ Nastavi započeti ispit</button>' : ''}
     <p class="muted center">${examText}</p>
     <button type="button" class="btn primary big" data-act="quick">⚡ Brzi kviz · 10</button>
     <button type="button" class="btn big" data-act="real">🎯 Samo ispitna pitanja</button>
@@ -71,51 +74,16 @@ function renderHome(el) {
     if (act === 'quick') go('quiz', { size: 10 });
     else if (act === 'real') go('quiz', { size: 10, realOnly: true });
     else if (act === 'pick') go('quiz');
+    else if (act === 'exam') go('exam');
   };
-}
-
-function soon(title) {
-  return (el) => {
-    el.innerHTML = `<h1>${title}</h1><section class="card center"><p class="soon">Uskoro</p>
-      <p class="muted small">Ovaj ekran dolazi u sljedećoj fazi izrade.</p></section>`;
-  };
-}
-
-async function renderSettings(el) {
-  const st = storage.settings();
-  const modes = [['auto', 'Automatski'], ['mc', 'Uvijek zaokruživanje'], ['fill', 'Uvijek nadopunjavanje']];
-  el.innerHTML = `
-    <h1>Postavke</h1>
-    <section class="card">
-      <h2>Način prikaza</h2>
-      <p class="muted small">Automatski: pitanje kreće kao zaokruživanje, a nakon 2 točna zaredom prelazi u nadopunjavanje (i natrag nakon 2 netočna).</p>
-      ${modes.map(([v, label]) => `<label class="toggle"><input type="radio" name="displayMode" value="${v}" ${st.displayMode === v ? 'checked' : ''}><span>${label}</span></label>`).join('')}
-    </section>
-    <section class="card">
-      <h2>Dnevni cilj</h2>
-      <p class="muted small">Dan se broji u streak kad odgovoriš na barem ovoliko pitanja.</p>
-      <div class="segmented">${[5, 10, 15, 20, 30].map((n) => `<button type="button" class="seg ${st.dailyGoal === n ? 'on' : ''}" data-goal="${n}" aria-pressed="${st.dailyGoal === n}">${n}</button>`).join('')}</div>
-    </section>
-    <section class="card center"><p class="muted small">Ostale postavke (pragovi ocjena, export/import, prijave …) dolaze u fazi M3.</p></section>
-    <p class="muted small center" id="version"></p>`;
-  el.onchange = (e) => {
-    if (e.target.name === 'displayMode') { st.displayMode = e.target.value; storage.save(); }
-  };
-  el.onclick = (e) => {
-    const g = e.target.closest('button')?.dataset.goal;
-    if (g) { st.dailyGoal = Number(g); storage.save(); renderSettings(el); }
-  };
-  const v = await loadVersion();
-  const vEl = el.querySelector('#version');
-  if (v && vEl) vEl.textContent = `Verzija aplikacije ${v.version} · sadržaj ${v.content}`;
 }
 
 const SCREENS = {
   home: renderHome,
   quiz: (el, preset) => showQuiz(el, preset),
-  exam: soon('Ispit'),
+  exam: (el) => showExam(el),
   stats: (el) => renderStats(el, ctx),
-  settings: renderSettings,
+  settings: (el) => { resetSettingsUi(); renderSettings(el, ctx); },
 };
 
 function showError(err) {
@@ -128,6 +96,8 @@ function showError(err) {
 
 async function init() {
   storage.load();
+  applyTheme();
+  matchMedia('(prefers-color-scheme: dark)').addEventListener?.('change', applyTheme);
   document.querySelector('.tabbar').addEventListener('click', (e) => {
     const b = e.target.closest('button[data-screen]');
     if (b && ctx) go(b.dataset.screen);
@@ -136,9 +106,10 @@ async function init() {
     const courses = await loadCourses();
     const entry = courses.find((c) => c.id === storage.settings().course) || courses[0];
     const { course, questions } = await loadCourse(entry);
-    ctx = { courseId: course.id, course, questions, go };
+    ctx = { courseId: course.id, course, questions, courses, go };
     storage.courseData(course.id);
     initQuiz(ctx);
+    initExam(ctx);
     go('home');
   } catch (e) {
     console.error(e);

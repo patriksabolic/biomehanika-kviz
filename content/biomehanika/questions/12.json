@@ -1,0 +1,754 @@
+[
+  {
+    "id": "bm-12-001",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Hrskavične stanice nazivaju se ___.",
+    "answer": "hondrociti",
+    "accepted": [
+      "hondrociti",
+      "hondrocit",
+      "hondrocite",
+      "hondrocita",
+      "kondrociti"
+    ],
+    "distractors": [
+      "osteociti",
+      "fibroblasti",
+      "osteoblasti"
+    ],
+    "explanation": "Hrskavica je potporno tkivo građeno od hrskavičnih stanica (hondrocita) i međustanične tvari. Hondrociti su jajastog i okruglog oblika ili u obliku diska i čine samo mali dio volumena tkiva; ostatak je međustanična tvar.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 2; skripta, Hrskavica",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-002",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Hrskavične stanice čine ___ volumena hrskavičnog tkiva.",
+    "answer": "0,4–13 %",
+    "accepted": [
+      "0,4–13 %",
+      "0,4-13 %",
+      "0,4-13%",
+      "0.4-13%",
+      "0,4 do 13 %",
+      "0,4 – 13 %",
+      "0,4-13"
+    ],
+    "distractors": [
+      "15–25 %",
+      "2–8 %",
+      "40–45 %"
+    ],
+    "explanation": "Stanice zauzimaju samo 0,4 do 13 % volumena hrskavice, a sve ostalo je međustanična tvar. Zato mehanička svojstva hrskavice ne određuju stanice nego međustanična tvar (kolagena mreža, matrica i vezana voda).",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 2",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-003",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Hrskavične stanice u obliku diska imaju promjer ___.",
+    "answer": "10–40 µm",
+    "accepted": [
+      "10–40 µm",
+      "10-40 µm",
+      "10-40 μm",
+      "10–40 μm",
+      "10-40",
+      "10 do 40 µm",
+      "10-40 mikrometara",
+      "10-40 um"
+    ],
+    "distractors": [
+      "1–4 µm",
+      "100–400 µm",
+      "50–80 µm"
+    ],
+    "explanation": "Hondrociti su mikroskopske stanice promjera 10–40 µm (mikrometara). Iako su sitne i malobrojne (0,4–13 % volumena), one proizvode i održavaju međustaničnu tvar koja nosi opterećenje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 2",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-004",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Mehanička svojstva hrskavice ovise o ___.",
+    "answer": "međustaničnoj tvari",
+    "accepted": [
+      "međustaničnoj tvari",
+      "međustanična tvar",
+      "medustanicnoj tvari",
+      "međustaničnoj tvari (matrici)"
+    ],
+    "distractors": [
+      "hrskavičnim stanicama",
+      "mineralnim kristalima",
+      "krvnim žilama"
+    ],
+    "explanation": "Međustanična tvar je čvrsti gel od mreže kolagenih vlakana i matrice koji veže veliku količinu vode. Ta vezana voda daje hrskavici čvrstoću po hidrostatskom principu, a kolagena mreža drži oblik. Stanice čine samo mali dio volumena pa ne određuju mehaničko ponašanje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 2",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-005",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Vezivna hrskavica naziva se još ___ hrskavica.",
+    "answer": "bijela",
+    "accepted": [
+      "bijela",
+      "bijela hrskavica"
+    ],
+    "distractors": [
+      "žuta",
+      "prozirna",
+      "siva"
+    ],
+    "explanation": "Podjela hrskavice: hijalina (prozirna), zglobna, vezivna (bijela) i elastična (žuta). Vezivna hrskavica sadrži snopove vezivnih vlakana i otporna je na vlak i tlak, a elastična (žuta) sadrži elastinska vlakna i vraća se u prvobitni oblik nakon rasterećenja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 2; skripta, Hrskavica",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-006",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Najrasprostranjenija vrsta hrskavice je ___ hrskavica.",
+    "answer": "hijalina",
+    "accepted": [
+      "hijalina",
+      "hijalina hrskavica",
+      "prozirna",
+      "prozirna hrskavica"
+    ],
+    "distractors": [
+      "elastična",
+      "vezivna",
+      "zglobna"
+    ],
+    "explanation": "Hijalina (prozirna, od grč. hyalos = staklo) hrskavica je najrasprostranjenija. Nalazi se u rebrenoj hrskavici, grkljanu, dušniku, nosnom septumu i epifiznoj ploči.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 3",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-007",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Hijalina hrskavica na epifiznoj ploči povezuje dijafizu i epifizu, pa se epifizna hrskavica naziva i \"hrskavica ___\".",
+    "answer": "rasta",
+    "accepted": [
+      "rasta",
+      "hrskavica rasta",
+      "rast"
+    ],
+    "distractors": [
+      "spoja",
+      "potpore",
+      "pokreta"
+    ],
+    "explanation": "Na epifiznoj ploči hrskavica se nalazi između dijafize i epifize i omogućuje rast kosti u duljinu. Zato se zove \"hrskavica rasta\".",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 3; skripta, Hrskavica",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-008",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Vlačna čvrstoća rebrene hrskavice kod osoba mlađih od 20 godina je σmax = ___ (uz εmax = 30 %).",
+    "answer": "4,6 MPa",
+    "accepted": [
+      "4,6 MPa",
+      "4,6",
+      "4.6 MPa",
+      "4.6"
+    ],
+    "distractors": [
+      "1,5 MPa",
+      "12 MPa",
+      "7 MPa"
+    ],
+    "explanation": "Rebrena hrskavica starenjem postaje kruća i slabija: vlačna čvrstoća pada s 4,6 MPa (εmax = 30 %) prije 20. godine na 1,5 MPa (εmax = 10 %) nakon 60. godine. I čvrstoća i najveća deformacija se smanjuju, tj. hrskavica postaje krhkija.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 4",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-009",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Vlačna čvrstoća rebrene hrskavice nakon 60. godine je σmax = ___ (uz εmax = 10 %).",
+    "answer": "1,5 MPa",
+    "accepted": [
+      "1,5 MPa",
+      "1,5",
+      "1.5 MPa",
+      "1.5"
+    ],
+    "distractors": [
+      "4,6 MPa",
+      "7 MPa",
+      "12 MPa"
+    ],
+    "explanation": "Nakon 60. godine vlačna čvrstoća rebrene hrskavice iznosi samo 1,5 MPa, a najveća deformacija 10 %, u usporedbi s 4,6 MPa i 30 % kod mladih. Starenjem hrskavica postaje kruća pa se manje istegne prije loma.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 4",
+    "tags": [
+      "brojka",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-010",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Tlačna čvrstoća rebrene hrskavice kod osoba mlađih od 20 godina je σmax = ___ (uz εmax = 17 %).",
+    "answer": "12 MPa",
+    "accepted": [
+      "12 MPa",
+      "12",
+      "12 Mpa"
+    ],
+    "distractors": [
+      "7 MPa",
+      "4,6 MPa",
+      "11 MPa"
+    ],
+    "explanation": "U tlaku je rebrena hrskavica znatno čvršća nego u vlaku: kod mlađih od 20 godina tlačna čvrstoća je 12 MPa (εmax = 17 %), a vlačna 4,6 MPa. Nakon 60. godine tlačna čvrstoća pada na 7 MPa (εmax = 13 %).",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 4",
+    "tags": [
+      "brojka",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-011",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Tlačna čvrstoća rebrene hrskavice nakon 60. godine je σmax = ___ (uz εmax = 13 %).",
+    "answer": "7 MPa",
+    "accepted": [
+      "7 MPa",
+      "7",
+      "7 Mpa"
+    ],
+    "distractors": [
+      "12 MPa",
+      "1,5 MPa",
+      "10,6 MPa"
+    ],
+    "explanation": "Starenjem tlačna čvrstoća rebrene hrskavice pada s 12 MPa na 7 MPa, a najveća tlačna deformacija s 17 % na 13 %. Pad je relativno manji nego u vlaku (4,6 → 1,5 MPa).",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 4",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-012",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Zglobna hrskavica nema ___ ni živaca.",
+    "answer": "krvi",
+    "accepted": [
+      "krvi",
+      "krvnih žila",
+      "krv",
+      "krvne žile"
+    ],
+    "distractors": [
+      "kolagena",
+      "stanica",
+      "vode"
+    ],
+    "explanation": "Zglobna hrskavica, ostatak embrionalnog hrskavičnog kostura, nema krvi ni živaca. Glatka je i poput spužve prožeta sinovijalnom tekućinom, koja omogućuje podmazivanje i smanjuje trenje.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 5",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-013",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Deformacija zglobne hrskavice povećava površinu kontakta zglobnih tijela i time ___ naprezanje.",
+    "answer": "smanjuje",
+    "accepted": [
+      "smanjuje",
+      "smanji",
+      "smanjuje naprezanje"
+    ],
+    "distractors": [
+      "povećava",
+      "ne mijenja",
+      "udvostručuje"
+    ],
+    "explanation": "Naprezanje je sila podijeljena s površinom (σ = F/A). Kad se hrskavica pod opterećenjem malo deformira, zglobna tijela se dodiruju na većoj površini, pa ista sila daje manje naprezanje. Uz to viskoelastičnost omogućuje apsorbiranje i prigušenje udarnih opterećenja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 5",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-014",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Koeficijent trenja u zglobu je za ___ reda veličine manji nego kod metalnih konstrukcija podmazanih uljem.",
+    "answer": "dva",
+    "accepted": [
+      "dva",
+      "2",
+      "dva reda"
+    ],
+    "distractors": [
+      "jedan",
+      "tri",
+      "četiri"
+    ],
+    "explanation": "Koeficijent trenja u zdravom zglobu je oko 0,0026, što je za dva reda veličine (oko 100 puta) manje nego kod metalnih dijelova podmazanih uljem. Glatka hrskavica prožeta sinovijalnom tekućinom čini zglob savršenijom konstrukcijom od mehaničkih.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 5",
+    "tags": [
+      "usporedba",
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-015",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kod artritisa koeficijent trenja u zglobovima raste na μ = ___.",
+    "answer": "0,01–0,09",
+    "accepted": [
+      "0,01–0,09",
+      "0,01-0,09",
+      "0.01-0.09",
+      "0,01 do 0,09",
+      "0,01 – 0,09"
+    ],
+    "distractors": [
+      "0,1–0,9",
+      "0,001–0,003",
+      "0,2–0,5"
+    ],
+    "explanation": "Zdravi zglob ima koeficijent trenja oko 0,0026, a kod artritisa on raste na 0,01–0,09, tj. nekoliko do tridesetak puta. Veće trenje znači više otpora gibanju i veće trošenje zglobnih površina.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 7",
+    "tags": [
+      "brojka",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-016",
+    "chapter": "12",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Prema teoriji da hrskavica preuzima opterećenje preko hidrostatskog tlaka, kada se trenje u zglobu povećava?",
+    "answer": "kad je fluid istisnut",
+    "accepted": [
+      "kad je fluid istisnut",
+      "kad je tekućina istisnuta"
+    ],
+    "distractors": [
+      "kad je hrskavica puna fluida",
+      "odmah nakon rasterećenja",
+      "pri kratkom opterećenju"
+    ],
+    "explanation": "Dok je hrskavica napunjena normalnom količinom fluida, tlak tekućine nosi opterećenje i trenje je nisko. Pri dugom opterećenju fluid se polako istisne i trenje raste. Kad se opterećenje ukloni, hrskavica brzo ponovno upije sinovijalnu tekućinu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 7",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-017",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Površinska zona zglobne hrskavice obuhvaća ___ debljine hrskavice.",
+    "answer": "5–10 %",
+    "accepted": [
+      "5–10 %",
+      "5-10 %",
+      "5-10%",
+      "5 do 10 %",
+      "5-10"
+    ],
+    "distractors": [
+      "40–45 %",
+      "15–20 %",
+      "1–2 %"
+    ],
+    "explanation": "Zglobna hrskavica ima četiri zone: površinsku (5–10 %), prijelaznu (40–45 %), duboku (40–45 %) i najdublju kalcificiranu (5–10 % debljine). Površinska zona je tanka, s tangencijalno postavljenim vlaknima i stanicama u obliku diska.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 9; skripta, Hrskavica",
+    "tags": [
+      "brojka",
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-018",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Prijelazna zona zglobne hrskavice obuhvaća ___ debljine, a kolagena vlakna u njoj čine nepravilnu mrežu.",
+    "answer": "40–45 %",
+    "accepted": [
+      "40–45 %",
+      "40-45 %",
+      "40-45%",
+      "40 do 45 %",
+      "40-45"
+    ],
+    "distractors": [
+      "5–10 %",
+      "20–25 %",
+      "60–70 %"
+    ],
+    "explanation": "Prijelazna i duboka zona zajedno čine najveći dio hrskavice, svaka 40–45 % debljine. U prijelaznoj zoni vlakna čine nepravilnu mrežu, a stanice postaju okruglaste – to je prijelaz između tangencijalnog rasporeda na površini i radijalnog u dubini.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 9; skripta, Hrskavica",
+    "tags": [
+      "brojka",
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-019",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U dubokoj zoni zglobne hrskavice vlakna su postavljena ___, a stanice su poredane u stupiće.",
+    "answer": "radijalno",
+    "accepted": [
+      "radijalno",
+      "radijalna",
+      "okomito na površinu"
+    ],
+    "distractors": [
+      "tangencijalno",
+      "spiralno",
+      "kružno"
+    ],
+    "explanation": "U dubokoj zoni (40–45 % debljine) vlakna su radijalna, okomita na površinu, a okruglaste stanice poredane su u stupiće. Raspored vlakana se tako od površine prema dubini mijenja od tangencijalnog preko nepravilne mreže do radijalnog.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 9; skripta, Hrskavica",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-020",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Najdublja zona zglobne hrskavice (5–10 % ukupne debljine) je ___.",
+    "answer": "kalcificirana",
+    "accepted": [
+      "kalcificirana",
+      "kalcificirano",
+      "kalcificirana zona"
+    ],
+    "distractors": [
+      "porozna",
+      "vaskularizirana",
+      "inervirana"
+    ],
+    "explanation": "Najdublja zona čini 5–10 % debljine i kalcificirana je. Iznad nje leže duboka (40–45 %), prijelazna (40–45 %) i površinska zona (5–10 %).",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 9; skripta, Hrskavica",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-021",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Najveća vlačna sila intervertebralnih diskova u lumbalnom području je ___, a starenjem se smanjuje na 3000 N.",
+    "answer": "4000 N",
+    "accepted": [
+      "4000 N",
+      "4000",
+      "4 000 N",
+      "4 kN"
+    ],
+    "distractors": [
+      "15000 N",
+      "1500 N",
+      "8000 N"
+    ],
+    "explanation": "Intervertebralni diskovi imaju fibrozni prsten od vezivne hrskavice koji je otporan i na vlak i na tlak. U lumbalnom području disk podnosi najveću vlačnu silu od 4000 N, a starenjem ta vrijednost pada na 3000 N.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 10",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-022",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Najveća tlačna sila intervertebralnih diskova u lumbalnom području je ___ (u vratnom 3000 N).",
+    "answer": "15000 N",
+    "accepted": [
+      "15000 N",
+      "15000",
+      "15 000 N",
+      "15 kN"
+    ],
+    "distractors": [
+      "4000 N",
+      "11000 N",
+      "30000 N"
+    ],
+    "explanation": "Lumbalni diskovi nose težinu većeg dijela tijela pa podnose tlačnu silu do 15000 N, pet puta više od vratnih (3000 N). Disk je u tlaku mnogo jači nego u vlaku (4000 N).",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 10",
+    "tags": [
+      "brojka",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-023",
+    "chapter": "12",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Tlačna čvrstoća intervertebralnih diskova u lumbalnom području je ___ (u vratnom 10,6 MPa).",
+    "answer": "11 MPa",
+    "accepted": [
+      "11 MPa",
+      "11",
+      "11 Mpa"
+    ],
+    "distractors": [
+      "4,6 MPa",
+      "1,5 MPa",
+      "20 MPa"
+    ],
+    "explanation": "Tlačna čvrstoća diskova u lumbalnom (11 MPa) i vratnom području (10,6 MPa) gotovo je jednaka, iako se najveće sile jako razlikuju (15000 N prema 3000 N). Kako je čvrstoća sila po površini (σ = F/A), iz toga slijedi da lumbalni diskovi imaju veću površinu presjeka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 10",
+    "tags": [
+      "brojka",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-024",
+    "chapter": "12",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja vrsta hrskavice gradi fibrozni prsten intervertebralnog diska i menisk u koljenu?",
+    "answer": "vezivna hrskavica",
+    "accepted": [
+      "vezivna hrskavica",
+      "vezivna",
+      "bijela hrskavica"
+    ],
+    "distractors": [
+      "hijalina hrskavica",
+      "elastična hrskavica",
+      "epifizna hrskavica"
+    ],
+    "explanation": "Vezivna hrskavica sadrži snopove vezivnih vlakana između kojih su osnovna tvar i okruglaste stanice, pa je otporna i na vlak i na tlak. Zato se nalazi tamo gdje su opterećenja velika: u fibroznom prstenu oko nukleusa pulposusa, zglobnim pločama i menisku.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 10; skripta, Hrskavica",
+    "tags": [
+      "podjela",
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-12-025",
+    "chapter": "12",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Prema podjeli po načinu opterećenja, kojoj skupini pripada hrskavica meniskusa?",
+    "answer": "silama većeg reda",
+    "accepted": [
+      "silama većeg reda",
+      "sile većeg reda veličine"
+    ],
+    "distractors": [
+      "silama nižeg reda",
+      "isključivo vlačnim silama",
+      "isključivo smičnim silama"
+    ],
+    "explanation": "Hrskavice se prema opterećenju dijele na one izložene silama nižeg reda veličine (uz respiratorni i slušni sustav) i one izložene silama većeg reda veličine. U drugu skupinu ulaze hrskavice lokomotornog sustava: na kostima, kralježnički diskovi i meniskus.",
+    "image": null,
+    "explanation_image": null,
+    "source": "12_Hrskavica.pdf, slajd 12; skripta, Hrskavica",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  }
+]

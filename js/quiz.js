@@ -6,6 +6,7 @@ import { gradeFill, isNumericAnswer } from './grading.js';
 import {
   chooseMode, pickQuestions, applyAnswer, applyRating, markSeen, getRecord, isHardOrDangerous, isDual,
 } from './scheduler.js';
+import { pickerHtml, pickerClick, countByChapter } from './picker.js';
 
 let ctx = null;      // { courseId, course, questions, go }
 let session = null;  // aktivna sesija
@@ -60,29 +61,10 @@ export function showQuiz(root, preset) {
 function renderSetup(root) {
   setup ||= defaultSetup();
   const sel = new Set(setup.chapters);
-  const counts = {};
-  for (const q of usable()) counts[q.chapter] = (counts[q.chapter] || 0) + 1;
+  const counts = countByChapter(usable());
   const poolSize = filterPool(setup).length;
   const allOn = allChapterIds().every((c) => sel.has(c));
-
-  const areas = ctx.course.areas.map((a) => {
-    const on = a.chapters.filter((c) => sel.has(c)).length;
-    const state = on === a.chapters.length ? 'on' : on ? 'part' : '';
-    const n = a.chapters.reduce((s, c) => s + (counts[c] || 0), 0);
-    const chips = a.chapters.map((cid) => {
-      const ch = ctx.course.chapterById[cid];
-      const cnt = counts[cid] || 0;
-      return `<button type="button" class="chip-btn ${sel.has(cid) ? 'on' : ''} ${cnt ? '' : 'empty'}" data-ch="${cid}" aria-pressed="${sel.has(cid)}">
-        ${esc(cid)} ${esc(ch.title)} <span class="cnt">${cnt}</span></button>`;
-    }).join('');
-    return `<div class="area">
-      <button type="button" class="area-btn ${state}" data-area="${a.id}" aria-pressed="${state === 'on'}">
-        <span class="check" aria-hidden="true">${state === 'on' ? '✓' : state === 'part' ? '–' : ''}</span>
-        <span class="area-name">${esc(a.name)}</span><span class="cnt">${n}</span>
-      </button>
-      <div class="chips">${chips}</div>
-    </div>`;
-  }).join('');
+  const areas = pickerHtml(ctx.course, sel, counts);
 
   const toggle = (key, label) => `<label class="toggle">
       <input type="checkbox" data-filter="${key}" ${setup[key] ? 'checked' : ''}><span>${label}</span></label>`;
@@ -121,12 +103,8 @@ function renderSetup(root) {
   root.onclick = (e) => {
     const t = e.target.closest('button');
     if (!t) return;
-    if (t.dataset.ch) {
-      sel.has(t.dataset.ch) ? sel.delete(t.dataset.ch) : sel.add(t.dataset.ch);
-    } else if (t.dataset.area) {
-      const chs = ctx.course.areaById[t.dataset.area].chapters;
-      const allSel = chs.every((c) => sel.has(c));
-      chs.forEach((c) => (allSel ? sel.delete(c) : sel.add(c)));
+    if (pickerClick(t, ctx.course, sel)) {
+      // odabir poglavlja promijenjen
     } else if (t.dataset.size) {
       setup.size = Number(t.dataset.size);
     } else if (t.dataset.act === 'all') {

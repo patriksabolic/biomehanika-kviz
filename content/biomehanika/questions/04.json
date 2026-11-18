@@ -1,0 +1,663 @@
+[
+  {
+    "id": "bm-04-001",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Vezivno tkivo prije svega treba odolijevati ___.",
+    "answer": "vlaku",
+    "accepted": [
+      "vlaku",
+      "vlak",
+      "vlačnim silama",
+      "vlačnom opterećenju"
+    ],
+    "distractors": [
+      "tlaku",
+      "smiku",
+      "uvijanju"
+    ],
+    "explanation": "Vezivne strukture poput tetiva i sveza prenose sile tako da ih se rasteže, pa im je glavna zadaća podnijeti vlak. Zato su građene od dugih vlakana koja se napinju u smjeru opterećenja. Koštano tkivo, za razliku od njega, mora podnijeti savijanje, uvijanje, tlak, vlak i smik.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 2",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-002",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Polimeri čije dugačke nitaste molekule nisu međusobno povezane i nakon opterećenja se ne vraćaju u prvobitni oblik nazivaju se ___ polimeri.",
+    "answer": "amorfni",
+    "accepted": [
+      "amorfni",
+      "amorfni polimeri",
+      "amorfan"
+    ],
+    "distractors": [
+      "umreženi",
+      "vlaknasti kristalični",
+      "gumasti"
+    ],
+    "explanation": "Bez veza među lancima molekule pod opterećenjem slobodno klize jedna uz drugu, pa nema ničega što bi ih vratilo na staro mjesto. Takav materijal se ponaša poput plastične čvrste tvari ili vrlo viskozne tekućine. Tek kad su lanci povezani u mrežu, materijal postaje elastičan.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 3",
+    "tags": [
+      "podjela",
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-003",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Elastin i abduktin su gumasti biopolimeri, tj. ___ polimeri.",
+    "answer": "umreženi",
+    "accepted": [
+      "umreženi",
+      "umreženi polimeri",
+      "umrežen"
+    ],
+    "distractors": [
+      "amorfni",
+      "vlaknasti kristalični",
+      "mineralizirani"
+    ],
+    "explanation": "Kod umreženih polimera dugačke molekule povezane su u mrežu. Pri istezanju se lanci ispravljaju u smjeru vlaka, ali ostaju spojeni, pa se nakon rasterećenja vraćaju u prvobitni oblik – to je gumasto, elastično ponašanje. Zato su elastin i abduktin rastezljivi i elastični.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 3",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-004",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Kolagen (i celuloza kod biljaka) pripada skupini ___ polimera.",
+    "answer": "vlaknasti kristalični",
+    "accepted": [
+      "vlaknasti kristalični",
+      "vlaknastih kristaličnih",
+      "vlaknasti kristalicni",
+      "kristalični"
+    ],
+    "distractors": [
+      "amorfni",
+      "umreženi",
+      "gumasti"
+    ],
+    "explanation": "U vlaknastim kristaličnim polimerima lanci molekula povezani su brojnim poprečnim vezama. Što je više takvih veza, to je spoj molekularno čvršći, pa kolagen ima veliku krutost i vlačnu čvrstoću (reda veličine GPa), ali se malo rasteže.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 3",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-005",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Vezivno tkivo je ___ potporno tkivo.",
+    "answer": "najmekše",
+    "accepted": [
+      "najmekše",
+      "najmekse",
+      "najmekše tkivo"
+    ],
+    "distractors": [
+      "najtvrđe",
+      "najkrhkije",
+      "najkruće"
+    ],
+    "explanation": "Od tri vrste potpornog tkiva vezivno je najmekše i savitljivo, a koštano najtvrđe. Mekoća mu ne smeta jer ne mora nositi tlak ni savijanje – dovoljno je da se odupire vlačnim silama, što vlaknima ide dobro i kad su savitljiva.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 5",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-006",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Pokosnica, vezivna ovojnica kosti, naziva se ___.",
+    "answer": "periost",
+    "accepted": [
+      "periost",
+      "periosteum"
+    ],
+    "distractors": [
+      "perihondrij",
+      "fascija",
+      "perimizij"
+    ],
+    "explanation": "Prefiks peri- znači 'oko', a osteon se odnosi na kost – periost je vezivna opna oko kosti. Analogno, perihondrij je opna oko hrskavice u zglobovima. Obje su primjeri vezivnog tkiva koje obavija i učvršćuje druga tkiva.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 5",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-007",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Argirofilna vlakna su retikulinska vlakna ojačana ___.",
+    "answer": "srebrom",
+    "accepted": [
+      "srebrom",
+      "srebro",
+      "Ag"
+    ],
+    "distractors": [
+      "kalcijem",
+      "elastinom",
+      "hidroksiapatitom"
+    ],
+    "explanation": "Naziv dolazi od grčkog argyros – srebro, pa 'argirofilna' znači sklona srebru. Uz kolagenska i elastična vlakna, osnovnu tvar i tkivnu tekućinu čine međustaničnu tvar vezivnog tkiva, koja određuje njegova mehanička svojstva.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 5",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-008",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Vezivno tkivo čija su vlakna raspoređena u pravilne snopove (zglobne čahure, tetive, sveze) je ___ vezivno tkivo.",
+    "answer": "formirano",
+    "accepted": [
+      "formirano",
+      "formirano vezivno tkivo"
+    ],
+    "distractors": [
+      "neformirano rijetko",
+      "neformirano gusto",
+      "masno"
+    ],
+    "explanation": "Morfološki se vezivno tkivo dijeli na neformirano (rijetko i gusto), formirano i tkiva s posebnim svojstvima (npr. masno). U formiranom tkivu vlakna su složena u pravilne snopove usmjerene duž opterećenja, što je idealno za prijenos vlaka, kao u tetivama. U neformiranom su vlakna isprepletena u mrežu, npr. u koži.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 6",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-009",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Kolagen čini oko ___ ukupne težine tijela.",
+    "answer": "6 %",
+    "accepted": [
+      "6 %",
+      "6%",
+      "6"
+    ],
+    "distractors": [
+      "17 %",
+      "30 %",
+      "80 %"
+    ],
+    "explanation": "Kolagen je najrasprostranjenija bjelančevina u tijelu i čini oko 6 % ukupne težine. Nalazi se u tetivama, svezama, koži, rožnici, hrskavici i kosti – svugdje gdje tkivo mora podnijeti vlak.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 7",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-010",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Kolagena vlakanca u tetivama debela su oko ___.",
+    "answer": "120 nm",
+    "accepted": [
+      "120 nm",
+      "120nm",
+      "120"
+    ],
+    "distractors": [
+      "60 nm",
+      "30 nm",
+      "20 nm"
+    ],
+    "explanation": "Debljina kolagenih vlakanaca kreće se od 20 do 120 nm i ovisi o tkivu: tetive 120 nm, koža 60 nm, rožnica 30 nm, hrskavica 20 nm. Tetive imaju najdeblja vlakanca jer prenose velike vlačne sile s mišića na kost.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 9",
+    "tags": [
+      "brojka",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-011",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Najtanja kolagena vlakanca (oko 20 nm) nalaze se u ___.",
+    "answer": "hrskavici",
+    "accepted": [
+      "hrskavici",
+      "hrskavica"
+    ],
+    "distractors": [
+      "tetivi",
+      "koži",
+      "rožnici"
+    ],
+    "explanation": "Redom od najdebljih: tetive 120 nm, koža 60 nm, rožnica 30 nm, hrskavica 20 nm. Hrskavica pretežno podnosi tlak, pa joj ne trebaju debela vlakna za vlak kao tetivi, nego fina mreža koja drži matriks na okupu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 9",
+    "tags": [
+      "brojka",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-012",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Osnovnu makromolekularnu jedinicu kolagena čini štapićasta molekula ___.",
+    "answer": "tropokolagen",
+    "accepted": [
+      "tropokolagen",
+      "tropokolagena",
+      "tropocollagen"
+    ],
+    "distractors": [
+      "tropoelastin",
+      "protofibril",
+      "hidroksiapatit"
+    ],
+    "explanation": "Kolagen je kristalični biopolimer izgrađen od štapićastih molekula tropokolagena. One se slažu u protofibrile, ovi u vlakanca debljine 20–120 nm, a vlakanca u snopove koji čine vlakno. Ta hijerarhijska, paralelna građa daje kolagenu veliku vlačnu čvrstoću.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 7–8",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-013",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Grijanjem kolagenska vlakna gube kristaliničnu strukturu i smanje se na ___ duljine.",
+    "answer": "trećinu",
+    "accepted": [
+      "trećinu",
+      "trecinu",
+      "1/3",
+      "jednu trećinu"
+    ],
+    "distractors": [
+      "polovinu",
+      "četvrtinu",
+      "desetinu"
+    ],
+    "explanation": "Kristalična struktura kolagena drži lance ispruženima i uređenima. Kad toplina razori poprečne veze, molekule se vrate u neuređen, sklupčan oblik, pa se vlakno skrati na otprilike trećinu. Elastin je, za razliku od kolagena, otporan na toplinu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 8",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-014",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Elastično produljenje kolagena pri djelovanju vlačne sile iznosi ___.",
+    "answer": "3-4 %",
+    "accepted": [
+      "3-4 %",
+      "3-4%",
+      "3 - 4 %",
+      "3 do 4 %",
+      "3-4"
+    ],
+    "distractors": [
+      "8-10 %",
+      "0,5-1 %",
+      "50 %"
+    ],
+    "explanation": "Kolagen je krut (E = 1–2 GPa), pa se elastično, tj. povratno, produlji samo 3–4 %. Do 8–10 % može se deformirati prije loma, ali iznad elastičnog područja deformacija više nije potpuno povratna.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 9",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-015",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Maksimalna deformacija kolagena iznosi ___.",
+    "answer": "8-10 %",
+    "accepted": [
+      "8-10 %",
+      "8-10%",
+      "8 - 10 %",
+      "8 do 10 %",
+      "8-10"
+    ],
+    "distractors": [
+      "3-4 %",
+      "50 %",
+      "80 %"
+    ],
+    "explanation": "Kolagen se može istegnuti najviše 8–10 % prije pucanja, a elastično samo 3–4 %. To je malo u usporedbi s gumastim elastinom, jer brojne poprečne veze između lanaca ne dopuštaju veliko rastezanje – zato je kolagen čvrst, ali slabo rastezljiv.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 9",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-016",
+    "chapter": "04",
+    "type": "mc",
+    "modes": ["mc"],
+    "prompt": "Zašto su tetive popustljivije pri malom nego pri velikom opterećenju?",
+    "answer": "početno opterećenje ispravlja valovita vlakna",
+    "accepted": [
+      "početno opterećenje ispravlja valovita vlakna"
+    ],
+    "distractors": [
+      "pri malom opterećenju kolagen se tali",
+      "elastin se pri velikom opterećenju kristalizira",
+      "pri velikom opterećenju vlakna se ponovno nabiru"
+    ],
+    "explanation": "U opuštenoj tetivi kolagena vlakna su zgužvana i valovita, pa malo opterećenje uglavnom samo izravnava valove – za to treba mala sila. Kad su vlakna ravna, daljnje istezanje znači produljivanje samih vlakana, što traži mnogo veće naprezanje. Zato je krivulja naprezanje–deformacija tetive izrazito nelinearna.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 12",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-017",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Naprezanja koja se uobičajeno javljaju u tetivama iznose ___.",
+    "answer": "5-10 MPa",
+    "accepted": [
+      "5-10 MPa",
+      "5 - 10 MPa",
+      "5-10",
+      "5 do 10 MPa",
+      "5-10MPa"
+    ],
+    "distractors": [
+      "50-100 MPa",
+      "0,5-1 MPa",
+      "1-2 GPa"
+    ],
+    "explanation": "Tetive pucaju pri oko 50–100 MPa, a u radu su opterećene sa svega 5–10 MPa. Omjer je otprilike 10, tj. tetive rade s velikim faktorom sigurnosti, pa uobičajena opterećenja ostaju daleko od granice pucanja.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 12",
+    "tags": [
+      "brojka",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-018",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "U ___ tetivi pohranjuje se elastična energija koja poput katapulta omogućuje kutno ubrzanje stopala pri hodanju, skakanju i trčanju.",
+    "answer": "Ahilovoj",
+    "accepted": [
+      "Ahilovoj",
+      "Ahilova",
+      "Ahilovoj tetivi",
+      "Ahilove"
+    ],
+    "distractors": [
+      "patelarnoj",
+      "bicepsovoj",
+      "kvadricepsovoj"
+    ],
+    "explanation": "Tetiva se pri doskoku ili odrazu rastegne i u sebi pohrani elastičnu energiju deformacije. Kad se opusti, ta se energija naglo vraća i ubrzava stopalo, slično kao napeta tetiva katapulta. Tako mišić ne mora sav rad obaviti sam.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 12",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-019",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Osnovna jedinica elastina je ___.",
+    "answer": "tropoelastin",
+    "accepted": [
+      "tropoelastin",
+      "tropo-elastin",
+      "tropoelastina"
+    ],
+    "distractors": [
+      "tropokolagen",
+      "protofibril",
+      "abduktin"
+    ],
+    "explanation": "Kao što je tropokolagen osnovna jedinica kolagena, tropoelastin je osnovna jedinica elastina. Elastinska vlakna sastoje se od mikrofibrila i amorfne tvari, a molekule su umrežene, pa se elastin može jako rastegnuti i vratiti (E je samo oko 0,6 MPa).",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 13",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-020",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Rastezljivost elastina ovisi o broju molekula ___.",
+    "answer": "vode",
+    "accepted": [
+      "vode",
+      "voda",
+      "H2O"
+    ],
+    "distractors": [
+      "kolagena",
+      "kalcija",
+      "lipida"
+    ],
+    "explanation": "Elastin je gumasti umreženi polimer, a voda između njegovih lanaca omogućuje im da se pokreću i ispravljaju pri istezanju. Zato rastezljivost elastina ovisi o tome koliko je molekula vode vezano u njemu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 13",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-021",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Lig. nuchae životinja koje pasu travu sadrži oko ___ elastina.",
+    "answer": "80 %",
+    "accepted": [
+      "80 %",
+      "80%",
+      "80"
+    ],
+    "distractors": [
+      "6 %",
+      "30 %",
+      "50 %"
+    ],
+    "explanation": "Kad životinja spusti glavu do trave, ova vratna sveza se rastegne i u njoj se nakupi potencijalna energija deformacije. Pri podizanju glave sveza tu energiju vraća i pomaže mišićima. Za to treba vrlo rastezljiv materijal, pa sveza sadrži oko 80 % elastina.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 13",
+    "tags": [
+      "brojka",
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-022",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Vlačna čvrstoća abduktina (σmax) iznosi ___.",
+    "answer": "3 MPa",
+    "accepted": [
+      "3 MPa",
+      "3MPa",
+      "3"
+    ],
+    "distractors": [
+      "1 GPa",
+      "0,6 MPa",
+      "100 MPa"
+    ],
+    "explanation": "Abduktin je gusti amorfni gumasti polimer koji kod školjaka otvara školjku: kad je zatvorena on je deformiran i pohranjuje energiju. Vrlo je mekan (E = 1–4 MPa, G = 0,64 MPa) i puca pri oko 3 MPa – tisuće puta manje od kolagena (1 GPa), ali dovoljno za tu funkciju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 15",
+    "tags": [
+      "brojka",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-023",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "Modul elastičnosti rezilina iznosi ___.",
+    "answer": "1,8-1,9 MPa",
+    "accepted": [
+      "1,8-1,9 MPa",
+      "1.8-1.9 MPa",
+      "1,8 - 1,9 MPa",
+      "1,8-1,9",
+      "1,8 do 1,9 MPa"
+    ],
+    "distractors": [
+      "0,6 MPa",
+      "1-2 GPa",
+      "50-100 MPa"
+    ],
+    "explanation": "Rezilin je gumasti protein s modulom elastičnosti oko 1,8–1,9 MPa, istog reda veličine kao elastin (0,6 MPa) i abduktin (1–4 MPa). Tako mali modul znači da se lako i jako deformira, što mu omogućuje da pohrani mnogo energije, za razliku od krutog kolagena (1–2 GPa).",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 17",
+    "tags": [
+      "brojka",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-024",
+    "chapter": "04",
+    "type": "mc",
+    "modes": ["mc"],
+    "prompt": "Kako rezilin u nogama skakavca i buhe omogućuje brz odskok?",
+    "answer": "pohranjuje energiju mišića pa je brzo oslobađa",
+    "accepted": [
+      "pohranjuje energiju mišića pa je brzo oslobađa"
+    ],
+    "distractors": [
+      "kontrahira se umjesto mišića",
+      "smanjuje trenje u zglobovima noge",
+      "otvrdne i služi kao poluga"
+    ],
+    "explanation": "Mišići se kontrahiraju relativno sporo i svoju energiju predaju rezilinu, gdje se ona pohranjuje kao potencijalna energija deformacije. Nakon rasterećenja rezilin se vrlo brzo vraća u prvobitni oblik i tu energiju pretvara u kinetičku, pa kukac odskoči mnogo brže nego što bi to mogli sami mišići. Rezilin se nalazi i u korijenu krila kukaca.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 17",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-04-025",
+    "chapter": "04",
+    "type": "fill",
+    "modes": ["mc", "fill"],
+    "prompt": "U prvom dijelu radne krivulje vezivnih struktura naprezanje raste ___.",
+    "answer": "eksponencijalno",
+    "accepted": [
+      "eksponencijalno",
+      "eksponencijalni"
+    ],
+    "distractors": [
+      "linearno",
+      "konstantno",
+      "skokovito"
+    ],
+    "explanation": "Radna krivulja naprezanje–deformacija vezivnih struktura ima tri dijela: prvi u kojem naprezanje raste eksponencijalno, drugi linearni i treći nelinearni, s plastičnom deformacijom i popuštanjem sve do pucanja. Oblik krivulje ovisi o građi i rasporedu kolagenih vlakana.",
+    "image": null,
+    "explanation_image": null,
+    "source": "4_Vezivno tkivo.pdf, slajd 18",
+    "tags": [
+      "skica"
+    ],
+    "real_exam": false
+  }
+]

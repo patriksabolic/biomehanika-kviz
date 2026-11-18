@@ -41,6 +41,7 @@ def normalize(s):
     s = str(s).lower().strip()
     for a, b in (("đ", "d"), ("č", "c"), ("ć", "c"), ("š", "s"), ("ž", "z")):
         s = s.replace(a, b)
+    s = re.sub(r"[–—−]", "-", s)
     s = re.sub(r"[^\w\s.,\-/%]|_", "", s)
     s = re.sub(r"\s+", " ", s).strip()
     s = re.sub(r"(\d),(\d)", r"\1.\2", s)

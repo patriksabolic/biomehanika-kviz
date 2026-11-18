@@ -1,0 +1,388 @@
+[
+  {
+    "id": "bm-05-001",
+    "chapter": "05",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "U tablici mehaničkih svojstava kolagen, elastin, abduktin i rezilin navedeni su kao ___ biopolimeri.",
+    "answer": "vlaknasti",
+    "accepted": [
+      "vlaknasti",
+      "vlaknastih",
+      "vlaknasti biopolimeri"
+    ],
+    "distractors": [
+      "amorfni",
+      "kristalični",
+      "mineralizirani"
+    ],
+    "explanation": "Tablica uspoređuje mehanička svojstva i elastične konstante nekih vlaknastih biopolimera. Svi su građeni od dugih molekulskih lanaca složenih u vlakna, ali se po krutosti razlikuju i za nekoliko redova veličine – od kolagena (E ≈ 10⁹ Pa) do elastina (E ≈ 6 × 10⁵ Pa).",
+    "image": null,
+    "explanation_image": null,
+    "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
+    "tags": [
+      "podjela"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-05-002",
+    "chapter": "05",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji biopolimer u tablici ima najveći modul elastičnosti?",
+    "answer": "kolagen",
+    "accepted": [
+      "kolagen"
+    ],
+    "distractors": [
+      "elastin",
+      "abduktin",
+      "rezilin"
+    ],
+    "explanation": "Kolagen ima modul elastičnosti oko 1 × 10⁹ Pa, dok su elastin, abduktin i rezilin reda veličine 10⁵–10⁶ Pa. Kolagen je kristalični protein s mnogo poprečnih veza među lancima pa se jako opire istezanju – zato gradi tetive i ligamente koji moraju prenositi vlak.",
+    "image": null,
+    "explanation_image": null,
+    "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-05-003",
+    "chapter": "05",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji biopolimer u tablici ima najmanji modul elastičnosti?",
+    "answer": "elastin",
+    "accepted": [
+      "elastin"
+    ],
+    "distractors": [
+      "kolagen",
+      "abduktin",
+      "rezilin"
+    ],
+    "explanation": "Elastin ima E ≈ 6 × 10⁵ Pa (0,6 MPa), što je najmanje u tablici – oko tisuću puta manje od kolagena. Gumasta, umrežena struktura dopušta mu velika istezanja i povratak u početni oblik, pa daje elastičnost tkivima poput stijenke krvnih žila.",
+    "image": null,
+    "explanation_image": null,
+    "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-05-004",
+    "chapter": "05",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Modul elastičnosti abduktina iznosi ___.",
+    "answer": "1–4 MPa",
+    "accepted": [
+      "1–4 MPa",
+      "1-4 MPa",
+      "1 do 4 MPa",
+      "1–4 × 10^6 Pa",
+      "1-4 × 10^6 Pa",
+      "1 do 4 × 10^6 Pa",
+      "1 do 4 x 10^6 Pa",
+      "1-4 x 10^6 Pa"
+    ],
+    "distractors": [
+      "0,6 MPa",
+      "1,8–1,9 MPa",
+      "1 GPa"
+    ],
+    "explanation": "U tablici abduktin ima E od 1 do 4 × 10⁶ Pa, tj. 1–4 MPa. To je gumasti, umreženi biopolimer pa mu je krutost bliska elastinu i rezilinu, a daleko ispod kolagena (1 GPa). Kod školjaka je deformiran kad je školjka zatvorena i elastično je otvara.",
+    "image": null,
+    "explanation_image": null,
+    "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-05-005",
+    "chapter": "05",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Modul smika abduktina iznosi ___.",
+    "answer": "0,64 MPa",
+    "accepted": [
+      "0,64 MPa",
+      "0.64 MPa",
+      "0,64",
+      "0.64",
+      "6,4 × 10^5 Pa",
+      "6.4 × 10^5 Pa",
+      "6,4 x 10^5 Pa",
+      "6,4 × 10⁵ Pa",
+      "640 kPa"
+    ],
+    "distractors": [
+      "0,6 MPa",
+      "3 MPa",
+      "1,9 MPa"
+    ],
+    "explanation": "Abduktin je jedini biopolimer u tablici kojem je naveden i modul smika: G = 6,4 × 10⁵ Pa = 0,64 MPa. Modul smika opisuje otpor promjeni oblika pri smičnom (tangencijalnom) opterećenju i manji je od modula elastičnosti (E = 1–4 MPa).",
+    "image": null,
+    "explanation_image": null,
+    "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-05-006",
+    "chapter": "05",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Najveća vlačna čvrstoća (σmax) humane Ahilove tetive kod osoba od 20 do 49 godina iznosi ___.",
+    "answer": "56 MPa",
+    "accepted": [
+      "56 MPa",
+      "56",
+      "56 N/mm2",
+      "56 × 10^6 Pa",
+      "56 x 10^6 Pa"
+    ],
+    "distractors": [
+      "44 MPa",
+      "84 MPa",
+      "18 MPa"
+    ],
+    "explanation": "Tablica (Yamada) za humanu Ahilovu tetivu u dobi 20–49 godina navodi σmax = 56; ista vrijednost, 56 MPa, koristi se u 6. predavanju kao dopušteno naprezanje Ahilove tetive. Usporedbom s naprezanjem pri skoku (oko 18 MPa) dobiva se faktor sigurnosti oko 3.",
+    "image": null,
+    "explanation_image": null,
+    "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica); 6_Naprezanja u Ahilovoj tetivi.pdf, slajd 4",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-05-007",
+    "chapter": "05",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Najveća vlačna čvrstoća (σmax) humane Ahilove tetive kod osoba od 50 do 70 godina iznosi ___.",
+    "answer": "44 MPa",
+    "accepted": [
+      "44 MPa",
+      "44",
+      "44 N/mm2",
+      "44 × 10^6 Pa",
+      "44 x 10^6 Pa"
+    ],
+    "distractors": [
+      "56 MPa",
+      "42 MPa",
+      "84 MPa"
+    ],
+    "explanation": "Za stariju skupinu (50–70 godina) tablica navodi σmax = 44, dok je za 20–49 godina 56. Starenjem se kvaliteta kolagenih vlakana smanjuje pa tetiva puca pri manjem naprezanju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-05-008",
+    "chapter": "05",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se prema tablici mijenja najveća vlačna čvrstoća humane Ahilove tetive s dobi?",
+    "answer": "smanjuje se",
+    "accepted": [
+      "smanjuje se",
+      "opada"
+    ],
+    "distractors": [
+      "povećava se",
+      "ne mijenja se",
+      "udvostruči se"
+    ],
+    "explanation": "Za dob 20–49 godina σmax iznosi 56, a za 50–70 godina 44; pada i najveća sila (s 2000 na 1600) i najveća deformacija (s 9,6 na 9,1). Starija tetiva je dakle slabija i puca pri manjem opterećenju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-05-009",
+    "chapter": "05",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Najveća sila (Fmax) koju prema tablici podnosi humana Ahilova tetiva kod osoba od 20 do 49 godina iznosi ___.",
+    "answer": "2000",
+    "accepted": [
+      "2000 N",
+      "2000",
+      "2 000 N",
+      "2 kN"
+    ],
+    "distractors": [
+      "1600 N",
+      "1334 N",
+      "41200 N"
+    ],
+    "explanation": "Tablica navodi Fmax = 2000 za dob 20–49 godina i 1600 za dob 50–70 godina. Najveća sila ovisi i o čvrstoći materijala i o površini poprečnog presjeka tetive (F = σ·A), pa velike životinje poput konja (41200) imaju višestruko veće vrijednosti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-05-010",
+    "chapter": "05",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Ahilova tetiva koje vrste ima najveću vlačnu čvrstoću (σmax) u tablici?",
+    "answer": "konj",
+    "accepted": [
+      "konj",
+      "konja"
+    ],
+    "distractors": [
+      "govedo",
+      "pas",
+      "čovjek"
+    ],
+    "explanation": "Konj ima σmax = 84, govedo 78, pas 53, a čovjek (20–49 godina) 56. Konj ima i daleko najveću najveću silu (41200).",
+    "image": null,
+    "explanation_image": null,
+    "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-05-011",
+    "chapter": "05",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Ahilova tetiva koje vrste ima najmanju vlačnu čvrstoću (σmax) u tablici?",
+    "answer": "svinja",
+    "accepted": [
+      "svinja",
+      "svinje"
+    ],
+    "distractors": [
+      "mačka",
+      "pas",
+      "govedo"
+    ],
+    "explanation": "U tablici svinja ima σmax = 42, mačka 48, pas 53, govedo 78 i konj 84. Najmanja je dakle kod svinje, ispod čak i starije humane tetive (44).",
+    "image": null,
+    "explanation_image": null,
+    "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-05-012",
+    "chapter": "05",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Modul elastičnosti lig. nuchae prema tablici iznosi ___.",
+    "answer": "6 × 10^5 Pa",
+    "accepted": [
+      "6 × 10^5 Pa",
+      "6 x 10^5 Pa",
+      "6 × 10⁵ Pa",
+      "6*10^5 Pa",
+      "6·10^5 Pa",
+      "0,6 MPa",
+      "0.6 MPa",
+      "600 kPa",
+      "6 × 10^5 N/m2"
+    ],
+    "distractors": [
+      "1 × 10^9 Pa",
+      "6 × 10^7 Pa",
+      "6 × 10^3 Pa"
+    ],
+    "explanation": "Lig. nuchae ima E = 6 × 10⁵ N/m², jednako kao elastin u gornjoj tablici. To nije slučajno: taj ligament (kod životinja koje pasu) sadrži oko 80 % elastina, pa se mehanički ponaša gotovo kao čisti elastin.",
+    "image": null,
+    "explanation_image": null,
+    "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica); 4_Vezivno tkivo.pdf (lig. nuchae)",
+    "tags": [
+      "brojka"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bm-05-013",
+    "chapter": "05",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja struktura u tablici ima daleko najveću relativnu deformaciju (εmax)?",
+    "answer": "lig. nuchae",
+    "accepted": [
+      "lig. nuchae",
+      "ligamentum nuchae",
+      "lig nuchae"
+    ],
+    "distractors": [
+      "Ahilova tetiva psa",
+      "Ahilova tetiva mačke",
+      "humana Ahilova tetiva"
+    ],
+    "explanation": "Lig. nuchae ima εmax = 160, dok su Ahilove tetive svih vrsta oko 8–10. Bogat je elastinom koji se može višestruko istegnuti, a tetive su građene od krutog kolagena koji se istegne samo nekoliko posto.",
+    "image": null,
+    "explanation_image": null,
+    "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
+    "tags": [
+      "usporedba"
+    ],
+    "real_exam": false
+  }
+]

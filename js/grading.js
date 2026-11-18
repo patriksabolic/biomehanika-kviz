@@ -7,6 +7,7 @@ export function normalize(s) {
     .toLowerCase()
     .trim()
     .replace(/[đčćšž]/g, (c) => DIACRITICS[c])
+    .replace(/[–—−]/g, '-') // en/em crtica i minus kao obična crtica (raspon 3–4 % = 3-4 %)
     .replace(/[^\p{L}\p{N}\s.,\-/%]/gu, '')
     .replace(/\s+/g, ' ')
     .trim()
