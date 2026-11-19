@@ -1,6 +1,6 @@
 // Service worker: offline rad (spec, odjeljak 14).
 // PRI SVAKOM DEPLOYU podigni VERSION (mora biti isto kao "version" u version.json).
-const VERSION = '0.9.4';
+const VERSION = '0.9.5';
 const CACHE = `bmkviz-${VERSION}`;
 
 const SHELL = [
@@ -116,8 +116,17 @@ const CONTENT = [
   './content/biomehanika/img/27-1.png',
   './content/biomehanika/img/27-3.png',
   './content/biomehanika/img/31-1.png',
-  './content/biomehanika/img/32-1.png',
-  './content/biomehanika/img/34-1.png',
+  './content/biomehanika/img/31-refleks-ruka.png',
+  './content/biomehanika/img/32-gradja-neurona.png',
+  './content/biomehanika/img/32-osjetni-i-motorni-neuron.png',
+  './content/biomehanika/img/33-okusni-pupoljci.png',
+  './content/biomehanika/img/33-put-osjeta-dodira.png',
+  './content/biomehanika/img/34-akcijski-potencijal.png',
+  './content/biomehanika/img/34-dva-akcijska-potencijala.png',
+  './content/biomehanika/img/34-galvani-zablja-noga.png',
+  './content/biomehanika/img/34-leydenska-boca.png',
+  './content/biomehanika/img/34-membrana-ioni.png',
+  './content/biomehanika/img/34-sinapsa.png',
   './content/biomehanika/img/28-modul-elasticnosti-modela.png',
   './content/biomehanika/img/28-poissonov-faktor-modela.png',
   './content/biomehanika/img/27-caklinska-prizma.png',

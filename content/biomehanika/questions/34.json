@@ -18,7 +18,7 @@
     ],
     "explanation": "Pieter van Musschenbroek (Nizozemska, 1746.) pohranio je statički elektricitet između elektrode s vanjske i elektrode s unutarnje strane staklene boce – preteča kondenzatora; postizale su se iskre od 3–4 cm. Abildgaard ju je 1773. primijenio za aktivaciju senzorno-motornih mehanizama.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/34-leydenska-boca.png",
     "source": "34_Elektrofiziologija.pdf, slajd 2",
     "tags": [
       "povijest"
@@ -46,7 +46,7 @@
     ],
     "explanation": "Galvani je 1786. metalnim skalpelom dodirnuo živac žabe (nervus ischiadicus) dok je žaba dodirivala drugi metal – pojavila se iskra i noga se zgrčila. Djelo „De Viribus Electricitatis in Motu Musculari Commentarius” objavio je 1791.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/34-galvani-zablja-noga.png",
     "source": "34_Elektrofiziologija.pdf, slajd 3 i 4",
     "tags": [
       "brojka",
@@ -161,8 +161,8 @@
     ],
     "explanation": "Membrana je debela 10 nm ($10^{-8}\\,\\text{m}$) i polupropusna, s porama 8–10 nm. Građena je od sloja lipida između dva sloja bjelančevina, s tankim vanjskim slojem mukopolisaharida.",
     "image": null,
-    "explanation_image": null,
-    "source": "34_Elektrofiziologija.pdf, slajd 8 i 10",
+    "explanation_image": "img/34-membrana-ioni.png",
+    "source": "34_Elektrofiziologija.pdf, slajd 8 i 10; slika: slajd 11",
     "tags": [
       "brojka"
     ],
@@ -243,8 +243,8 @@
     ],
     "explanation": "U mirovanju je vanjski dio membrane pozitivan, a unutarnji negativan. Kod akcijskog potencijala to se obrne – depolarizacija.",
     "image": null,
-    "explanation_image": null,
-    "source": "34_Elektrofiziologija.pdf, slajd 8 i 10",
+    "explanation_image": "img/34-membrana-ioni.png",
+    "source": "34_Elektrofiziologija.pdf, slajd 8 i 10; slika: slajd 11",
     "tags": [
       "definicija"
     ],
@@ -269,8 +269,8 @@
     ],
     "explanation": "Izvanstanična tekućina (slična morskoj soli) sadrži uglavnom $\\ce{Na+}$ i $\\ce{Cl-}$, a citoplazma $\\ce{K+}$ i anione proteina, uz malo $\\ce{Ca^2+}$ i $\\ce{Mg^2+}$. Za stvaranje razlike potencijala najvažniji su $\\ce{Na+}$, $\\ce{K+}$ i $\\ce{Cl-}$.",
     "image": null,
-    "explanation_image": null,
-    "source": "34_Elektrofiziologija.pdf, slajd 9",
+    "explanation_image": "img/34-membrana-ioni.png",
+    "source": "34_Elektrofiziologija.pdf, slajd 9; slika: slajd 11",
     "tags": [
       "usporedba"
     ],
@@ -415,8 +415,8 @@
     ],
     "explanation": "U mirovanju kalij izlazi iz stanice, pa unutra nastaje manjak, a izvana višak pozitivnih naboja – stanica postaje pozitivno polarizirana s vanjske strane.",
     "image": null,
-    "explanation_image": null,
-    "source": "34_Elektrofiziologija.pdf, slajd 10",
+    "explanation_image": "img/34-membrana-ioni.png",
+    "source": "34_Elektrofiziologija.pdf, slajd 10; slika: slajd 11",
     "tags": [
       "funkcija"
     ],
@@ -470,7 +470,7 @@
       "oslobađanje transmitera u sinapsi"
     ],
     "explanation": "Depolarizacija nastaje kad podražaj dosegne prag: $\\ce{Na+}$ naglo ulazi i polaritet se obrne. Zatim se vodljivost za $\\ce{Na+}$ smanji, a za $\\ce{K+}$ poveća, $\\ce{K+}$ izlazi i napon se vraća – repolarizacija.",
-    "image": "img/34-1.png",
+    "image": "img/34-akcijski-potencijal.png",
     "explanation_image": null,
     "source": "34_Elektrofiziologija.pdf, slajd 12–15",
     "tags": [
@@ -496,7 +496,7 @@
       "prijenos impulsa kroz sinaptičku pukotinu"
     ],
     "explanation": "Nakon depolarizacije vodljivost za $\\ce{Na+}$ naglo pada, a za $\\ce{K+}$ raste; kalij izlazi i napon se vraća na razinu mirovanja – repolarizacija.",
-    "image": "img/34-1.png",
+    "image": "img/34-akcijski-potencijal.png",
     "explanation_image": null,
     "source": "34_Elektrofiziologija.pdf, slajd 13 i 15",
     "tags": [
@@ -522,7 +522,7 @@
       "vrijeme prijenosa kroz sinapsu"
     ],
     "explanation": "$t_a$ (apsolutno refraktorno) je vrijeme trajanja akcijskog potencijala. $t_r$ (relativno refraktorno) je vrijeme smirivanja napona – novi akcijski potencijal moguć je samo jačim podražajem, sve dok se ne mogu ponovno stvarati uz normalan intenzitet.",
-    "image": "img/34-1.png",
+    "image": "img/34-dva-akcijska-potencijala.png",
     "explanation_image": null,
     "source": "34_Elektrofiziologija.pdf, slajd 14 i 15",
     "tags": [
@@ -554,7 +554,7 @@
     ],
     "explanation": "Na dijagramu je potencijal u mirovanju −85 mV, a vrh akcijskog potencijala (nadvišenje) +30 mV. Podražaj najprije digne napon do praga podražljivosti, a tada nastaje akcijski potencijal.",
     "image": null,
-    "explanation_image": "img/34-1.png",
+    "explanation_image": "img/34-akcijski-potencijal.png",
     "source": "34_Elektrofiziologija.pdf, slajd 15",
     "tags": [
       "brojka",
@@ -610,8 +610,8 @@
     ],
     "explanation": "Sinapse su uski međuprostori između neurona, sinaptička pukotina je 200 nm. Akcijski potencijal preko nje prelazi pomoću kemijskog transmitera.",
     "image": null,
-    "explanation_image": null,
-    "source": "34_Elektrofiziologija.pdf, slajd 17",
+    "explanation_image": "img/34-sinapsa.png",
+    "source": "34_Elektrofiziologija.pdf, slajd 17; slika: slajd 19",
     "tags": [
       "brojka"
     ],
@@ -636,7 +636,7 @@
     ],
     "explanation": "Akcijski potencijal stigne u presinapsu, nastane depolarizacija, mjehurići s transmiterima pucaju i oslobađaju kemijski prijenosnik u sinaptičku pukotinu, a on prenosi impuls na postsinapsu.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/34-sinapsa.png",
     "source": "34_Elektrofiziologija.pdf, slajd 18 i 19",
     "tags": [
       "funkcija"

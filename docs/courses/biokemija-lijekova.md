@@ -106,7 +106,7 @@ Dodavanje slika u objašnjenja i pitanja prema pravilima u `docs/app-spec.md`, o
 
 | skupina | poglavlja | stanje |
 |---|---|---|
-| 1 | 02, 03, 04, 06, 08 | čeka |
+| 1 | 02, 03, 04, 06, 08 | **sljedeća** |
 | 2 | 09, 07, 05, 01 | čeka |
 
 ## 7. Vremenski plan

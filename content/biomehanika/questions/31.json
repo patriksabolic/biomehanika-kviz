@@ -316,8 +316,8 @@
     ],
     "explanation": "Izvana je bijela tvar s osjetnim (aferentnim) uzlaznim traktovima koji prenose poruke u mozak. Iznutra je siva tvar leptirastog oblika s motornim (eferentnim) silaznim traktovima koji prenose poruke iz mozga organima.",
     "image": null,
-    "explanation_image": null,
-    "source": "31_Ledjna mozdina.pdf, slajd 6",
+    "explanation_image": "img/30-siva-tvar-h.png",
+    "source": "31_Ledjna mozdina.pdf, slajd 6; slika: 30_Zivcani sustav.pdf, slajd 49",
     "tags": [
       "podjela"
     ],
@@ -397,8 +397,8 @@
     ],
     "explanation": "Refleks je brz i automatski odgovor na podražaj, odvija se bez volje i svijesti i štiti organizam od ozljeda. Leđna moždina upravlja refleksnim pokretima i tako rasterećuje mozak.",
     "image": null,
-    "explanation_image": null,
-    "source": "31_Ledjna mozdina.pdf, slajd 8 i 9",
+    "explanation_image": "img/31-refleks-ruka.png",
+    "source": "31_Ledjna mozdina.pdf, slajd 8 i 9; slika: slajd 10",
     "tags": [
       "definicija"
     ],
@@ -425,7 +425,7 @@
     ],
     "explanation": "Refleksni luk: podražaj (npr. ubod u stopalo) → osjetni živac → leđna moždina → motorni živac → mišić koji izvrši refleks. Impuls ne mora ići do mozga.",
     "image": "img/31-1.png",
-    "explanation_image": null,
+    "explanation_image": "img/31-refleks-ruka.png",
     "source": "31_Ledjna mozdina.pdf, slajd 10 i 11",
     "tags": [
       "definicija",
