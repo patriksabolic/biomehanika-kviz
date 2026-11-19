@@ -14,12 +14,39 @@
     strict: 'ignore',   // č, ć, š, ž u \text{...} su u redu
   };
 
+  // Prvi predak koji uopće ima širinu (span u retku ima clientWidth 0).
+  function widthBox(node) {
+    for (let p = node.parentElement; p; p = p.parentElement) {
+      if (p.clientWidth > 0) return p;
+    }
+    return null;
+  }
+
+  // Duge formule u retku (npr. \ce jednadžbe) ne mogu se prelomiti, pa probiju okvir kartice.
+  // Ako je okvir oko formule širi od svojeg vidljivog dijela, formulu stavljamo u kutiju koja
+  // se može pomicati vodoravno (css: .math-scroll). Kratke formule ostaju netaknute.
+  function fitWide(el) {
+    const list = el.querySelectorAll ? el.querySelectorAll('.katex') : [];
+    for (const k of list) {
+      const parent = k.parentElement;
+      if (!parent || parent.classList.contains('math-scroll')) continue;
+      if (parent.classList.contains('katex-display')) continue; // već ima svoje klizanje
+      const box = widthBox(k);
+      if (!box || box.scrollWidth <= box.clientWidth) continue;
+      const wrap = document.createElement('span');
+      wrap.className = 'math-scroll';
+      parent.insertBefore(wrap, k);
+      wrap.appendChild(k);
+    }
+  }
+
   // Prikaži sve formule unutar elementa. errorCallback (opcionalno) prima poruke o greškama.
   function render(el, errorCallback) {
     if (!el || typeof window.renderMathInElement !== 'function') return;
     if (!el.textContent.includes('$')) return;
     const opts = errorCallback ? { ...OPTIONS, errorCallback } : OPTIONS;
     window.renderMathInElement(el, opts);
+    fitWide(el);
   }
 
   // Automatski prikaz formula u svemu što aplikacija upiše u stranicu (svi ekrani).
