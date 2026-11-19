@@ -48,8 +48,8 @@
     ],
     "explanation": "Jednoelektronskom redukcijom nastaje radikal koji s kisikom daje superoksid i pokreće redoks-cikliranje te dodatnu proizvodnju ROS-a. Dvoelektronska redukcija (NQO1, AKR, CBR) ne stvara slobodni radikal supstrata i daje stabilnije produkte, ali može voditi i detoksikaciji i bioaktivaciji. Razlika je prije svega u potencijalu za toksičnost.",
     "image": null,
-    "explanation_image": null,
-    "source": "8 Redukcije.pdf, slajdovi 2 i 4",
+    "explanation_image": "img/08-pregled-kinoni.png",
+    "source": "8 Redukcije.pdf, slajdovi 2 i 4; slika: slajd 8",
     "tags": [
       "usporedba"
     ],
@@ -186,8 +186,8 @@
     ],
     "explanation": "Reakciju kataliziraju ADH, AKR i ALR uz NADH ili NADPH, a odvija se u citosolu; primjer je redukcija acetaldehida natrag u etanol. Ketoni analogno daju sekundarne alkohole uz CBR i AKR.",
     "image": null,
-    "explanation_image": null,
-    "source": "8 Redukcije.pdf, slajdovi 9 i 11",
+    "explanation_image": "img/08-pregled-karbonili.png",
+    "source": "8 Redukcije.pdf, slajdovi 9 i 11; slika: slajd 8",
     "tags": [
       "funkcija"
     ],
@@ -213,8 +213,8 @@
     ],
     "explanation": "Enzimi CBR i AKR favoriziraju jednu konfiguraciju, pa nastali enantiomeri mogu imati različitu aktivnost i toksičnost. Tipični supstrati su lijekovi varfarin, metadon, haloperidol i ketoprofen te endogeni prostaglandini i steroidi.",
     "image": null,
-    "explanation_image": null,
-    "source": "8 Redukcije.pdf, slajd 12",
+    "explanation_image": "img/08-varfarin-redukcija.png",
+    "source": "8 Redukcije.pdf, slajd 12; slika: slajd 13",
     "tags": [
       "funkcija"
     ],
@@ -242,7 +242,7 @@
     ],
     "explanation": "Varfarin se primjenjuje kao racemična smjesa i oba su enantiomera aktivna. Pri redukciji ketonske skupine R-varfarin se reducira učinkovitije od S-varfarina, a na novom stereogenom centru pretežno nastaje S-konfiguracija; koenzim je NADPH. Metaboliti su prisutni u plazmi, ali imaju slabiju antikoagulacijsku aktivnost.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/08-varfarin-redukcija.png",
     "source": "8 Redukcije.pdf, slajd 13",
     "tags": [
       "brojka"
@@ -271,7 +271,7 @@
     ],
     "explanation": "Metadon je analgetik koji se primjenjuje kao racemat, a aktivan je R-enantiomer. Aktivni su i metaboliti, primjerice $\\alpha$-(−)-metadol i S,S-(−)-desmetilmetadol, pa produljuju djelovanje. Derivat LAAM (levo-$\\alpha$-acetilmetadol) nastaje redukcijom i acetilacijom, ali mu je primjena u EU obustavljena zbog ozbiljnih srčanih aritmija.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/08-metadon-redukcija.png",
     "source": "8 Redukcije.pdf, slajd 14",
     "tags": [
       "funkcija"
@@ -299,8 +299,8 @@
     ],
     "explanation": "Taj put ide bez semikinonskog međuprodukta, pa je uglavnom zaštitan; hidrokinon se može konjugirati s glutationom. Jednoelektronska redukcija daje semikinonski radikal koji predaje elektron kisiku, pri čemu nastaje superoksid i regenerira se kinon — redoks-cikliranje koje vodi oksidativnom stresu.",
     "image": null,
-    "explanation_image": null,
-    "source": "8 Redukcije.pdf, slajd 10",
+    "explanation_image": "img/08-pregled-kinoni.png",
+    "source": "8 Redukcije.pdf, slajd 10; slika: slajd 8",
     "tags": [
       "funkcija"
     ],
@@ -328,7 +328,7 @@
     ],
     "explanation": "Ukupna jednadžba glasi $\\ce{R-NO2 + 6e- + 6H+ -> R-NH2 + 2H2O}$. Niz ide preko nitro-radikalnog aniona, nitrozo-spoja, nitroksidnog međuprodukta i hidroksilamina. Za usporedbu, azo-skupina traži 4 elektrona.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/08-redukcija-nitro-skupine.png",
     "source": "8 Redukcije.pdf, slajdovi 8 i 16",
     "tags": [
       "brojka"
@@ -356,7 +356,7 @@
     ],
     "explanation": "Prvi korak je reverzibilan: nitro-radikalni anion može predati elektron kisiku i regenerirati nitro-spoj uz nastanak superoksida, što je osnova redoks-cikliranja. Hidroksilamini i nitrozo-spojevi mogu se kovalentno vezati na proteine i DNA, pa su mogući citotoksičnost i mutagenost.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/08-redukcija-nitro-skupine.png",
     "source": "8 Redukcije.pdf, slajdovi 16 i 17",
     "tags": [
       "funkcija"
@@ -383,8 +383,8 @@
     ],
     "explanation": "Uz nitroreduktaze crijevne mikroflore sudjeluju mikrosomski CYP, ksantin-oksidoreduktaza, NADPH–citokrom P450 reduktaza i mitohondrijske NADH/NADPH reduktaze; NQO je ovdje manje značajan nego kod kinona. U jetri je redukcija mikrosomalna i citosolna, što je važno za presistemski metabolizam.",
     "image": null,
-    "explanation_image": null,
-    "source": "8 Redukcije.pdf, slajdovi 17 i 18",
+    "explanation_image": "img/08-pregled-nitro.png",
+    "source": "8 Redukcije.pdf, slajdovi 17 i 18; slika: slajd 8",
     "tags": [
       "podjela"
     ],
@@ -467,8 +467,8 @@
     ],
     "explanation": "Niz je $\\ce{-N=N-}$ → hidrazo → dva amina, uz ukupno 4 elektrona; u pojedinim mehanizmima mogući su i radikali. Reakcija je slična redukciji nitro-skupine, a kataliziraju je azoreduktaze (AZOR), mikrosomski CYP i citosolni NQO1, uz ključnu ulogu crijevne mikroflore.",
     "image": null,
-    "explanation_image": null,
-    "source": "8 Redukcije.pdf, slajd 22",
+    "explanation_image": "img/08-pregled-azo.png",
+    "source": "8 Redukcije.pdf, slajd 22; slika: slajd 8",
     "tags": [
       "definicija"
     ],
@@ -520,9 +520,9 @@
       "5-aminosalicilna kiselina i prontosil"
     ],
     "explanation": "Redukciju provode bakterijske azoreduktaze crijevne mikrobiote, pretežno u debelom crijevu, pa se 5-ASA oslobađa upravo ondje gdje treba djelovati protuupalno na sluznicu. Sulfapiridin može pridonijeti učinku kod reumatoidnog artritisa, ali je povezan i s nuspojavama.",
-    "image": null,
-    "explanation_image": null,
-    "source": "8 Redukcije.pdf, slajd 25",
+    "image": "img/08-sulfasalazin-struktura.png",
+    "explanation_image": "img/08-sulfasalazin.png",
+    "source": "8 Redukcije.pdf, slajd 25; slika: slajd 26",
     "tags": [
       "funkcija"
     ],
@@ -576,8 +576,8 @@
     ],
     "explanation": "Suprotan smjer je oksidacija uz FMO ili CYP, pa amin i N-oksid čine redoks-par čiji omjer ovisi o redoks uvjetima stanice. Kofaktori su NADH i NADPH, reakcija može biti enzimska i neenzimska, a sudjeluju CYP, citosolne reduktaze, mitohondrijski enzimi i crijevna mikroflora. Nestabilni N-oksidi reduciraju se brže.",
     "image": null,
-    "explanation_image": null,
-    "source": "8 Redukcije.pdf, slajd 27",
+    "explanation_image": "img/08-pregled-n-oksidi.png",
+    "source": "8 Redukcije.pdf, slajd 27; slika: slajd 8",
     "tags": [
       "funkcija"
     ],
@@ -604,7 +604,7 @@
     ],
     "explanation": "Morfin-N-oksid identificiran je kao metabolit u zamorca, a može se pojaviti i kao nečistoća u analitičkim uzorcima. Redukcija je u životinja značajna, pa N-oksidacija ovdje ne znači trajan gubitak aktivnog lijeka.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/08-morfin-n-oksid.png",
     "source": "8 Redukcije.pdf, slajd 28",
     "tags": [
       "funkcija"
@@ -632,7 +632,7 @@
     ],
     "explanation": "Klinički značaj je upravo u stabilnosti spoja: N-oksidna skupina ostaje očuvana, pa lijek djeluje u tom obliku. To pokazuje da N-oksidi nisu nužno samo polarni metaboliti na putu izlučivanja.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/08-klordiazepoksid.png",
     "source": "8 Redukcije.pdf, slajd 29",
     "tags": [
       "funkcija"
@@ -660,8 +660,8 @@
     ],
     "explanation": "Vezu $\\ce{-S-S-}$ cijepaju glutationski i tioredoksinski sustavi, uz djelomično neenzimske procese. Glutation je ključni redukcijski kofaktor, a njegov oksidirani oblik GSSG vraća se u GSH NADPH-ovisnom reakcijom, čime se održava redoks-ravnoteža.",
     "image": null,
-    "explanation_image": null,
-    "source": "8 Redukcije.pdf, slajdovi 30 i 31",
+    "explanation_image": "img/08-pregled-disulfidi.png",
+    "source": "8 Redukcije.pdf, slajdovi 30 i 31; slika: slajd 8",
     "tags": [
       "funkcija"
     ],
@@ -715,7 +715,7 @@
     ],
     "explanation": "U jetri se aktivni sulfid konjugira (npr. glukuronidacijom) i izlučuje u žuč; u crijevu ga bakterijski enzimi dekonjugiraju, pa se ponovno apsorbira. Lijek tako kruži jetra → žuč → crijevo → krv → jetra, što daje stabilniju koncentraciju u plazmi.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/08-sulindak-redukcija.png",
     "source": "8 Redukcije.pdf, slajd 32",
     "tags": [
       "funkcija"
@@ -769,8 +769,8 @@
     ],
     "explanation": "Reduktivnim putem u ljudskim jetrenim mikrosomima nastaju radikali koji se vežu na makromolekule, pa slijede peroksidacija lipida i nekroza jetre. Oksidativni put ide preko CYP2E1 i reaktivnog acil-halogenida koji stvara neoantigene i može izazvati imunološki hepatitis; ishod dakle ovisi o dostupnosti kisika.",
     "image": null,
-    "explanation_image": null,
-    "source": "8 Redukcije.pdf, slajd 36",
+    "explanation_image": "img/08-pregled-halogenirani.png",
+    "source": "8 Redukcije.pdf, slajd 36; slika: slajd 8",
     "tags": [
       "usporedba"
     ],

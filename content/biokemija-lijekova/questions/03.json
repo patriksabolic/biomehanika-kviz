@@ -20,8 +20,8 @@
     ],
     "explanation": "Primarni alkohol ima dva vodika na ugljiku s OH skupinom, pa oduzimanjem jednoga nastaje aldehid. Aldehid se zatim može dalje oksidirati do karboksilne kiseline, ali tu reakciju preuzimaju aldehid-dehidrogenaze.",
     "image": null,
-    "explanation_image": null,
-    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 3",
+    "explanation_image": "img/03-oksidacija-alkohola.png",
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 3; slika: slajd 5",
     "tags": [
       "funkcija"
     ],
@@ -48,7 +48,7 @@
     ],
     "explanation": "Sekundarni alkohol ima samo jedan vodik na ugljiku s OH skupinom, pa nakon oksidacije ostaje keton koji se ne može dalje oksidirati bez cijepanja veze C–C. Aldehidi i ketoni mogu se i reducirati natrag u alkohole (ALR, AKR, CR).",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/03-oksidacija-alkohola.png",
     "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 5",
     "tags": [
       "funkcija"
@@ -75,7 +75,7 @@
     ],
     "explanation": "Oksidacija alkohola znači oduzimanje vodika s ugljika koji nosi OH skupinu; tercijarni alkohol na tom mjestu nema vodika. Takav bi spoj prešao u karbonilni oblik samo uz cijepanje veze C–C, što ovim putem nije moguće.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/03-oksidacija-alkohola.png",
     "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 5",
     "tags": [
       "definicija"
@@ -495,7 +495,7 @@
     ],
     "explanation": "Medazepam se hidroksilira na C2 heterocikličkog prstena, a daljnjom oksidacijom nastaje diazepam, koji strukturno pripada laktamima. Diazepam je farmakološki aktivan, pa je medazepam primjer lijeka čiji metabolizam ne znači inaktivaciju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/03-medazepam-diazepam.png",
     "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 17",
     "tags": [
       "funkcija"
@@ -578,7 +578,7 @@
     ],
     "explanation": "Kod ibuprofena se hidroksiliraju alifatski sp3 C-atomi izobutilne bočne skupine, a benzilni C-atom nije glavno mjesto. Razlog je orijentacija supstrata u aktivnom mjestu te sterička dostupnost i fleksibilnost molekule. Nastali hidroksilirani metaboliti dalje se oksidiraju u karboksilne derivate.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/03-ibuprofen-hidroksilacija.png",
     "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 22",
     "tags": [
       "usporedba"
@@ -663,7 +663,7 @@
     ],
     "explanation": "Aliciklički spoj ima nearomatski ugljikov prsten, pa CYP hidroksilira zasićeni C-atom u prstenu i nastaje alkohol. Mjesto hidroksilacije ovisi o dostupnosti veze C–H, konformaciji prstena i položaju molekule u aktivnom mjestu enzima.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/03-cikloheksan-cikloheksanol.png",
     "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 26",
     "tags": [
       "definicija"
@@ -719,7 +719,7 @@
     ],
     "explanation": "Daljnjom oksidacijom nastaje THC-COOH, koji nema karakteristično psihoaktivno djelovanje, ali je važan analitički marker izloženosti kanabisu i u urinu se nalazi i kao glukuronid. Zbog lipofilnosti i zadržavanja u tkivima dokazivost metabolita može trajati dulje od samog učinka.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/03-thc-11-hidroksi.png",
     "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajdovi 28 i 29",
     "tags": [
       "funkcija"
@@ -747,7 +747,7 @@
     ],
     "explanation": "CYP, osobito CYP2E1, oksidira metilnu skupinu u benzilni alkohol, a ADH i ALDH nastavljaju do benzaldehida i benzojeve kiseline. Konjugacijom benzojeve kiseline s glicinom nastaje hipurna kiselina, koja se izlučuje urinom i služi kao pokazatelj izloženosti toluenu.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/03-toluen-metabolizam.png",
     "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 32",
     "tags": [
       "funkcija"
@@ -774,7 +774,7 @@
     ],
     "explanation": "Celekoksib je inhibitor ciklooksigenaze 2 (COX-2). Hidroksilacijom metilne skupine u para-položaju nastaje primarni benzilni alkohol, koji se brzo oksidira u karboksilnu kiselinu, dok aromatski prsten ostaje nehidroksiliran.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/03-celekoksib-metabolit.png",
     "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 33",
     "tags": [
       "funkcija"
@@ -801,7 +801,7 @@
     ],
     "explanation": "Metilna skupina vezana je uz heteroaromatski izoksazolni prsten, pa je položaj analogan benzilnom: vodik se oduzima sa sp3 C-atoma neposredno vezanog uz aromatski sustav. Nastaje hidroksimetilni metabolit, odnosno skupina $\\ce{CH3}$ prelazi u $\\ce{CH2OH}$.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/03-sulfametoksazol-hidroksilacija.png",
     "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 34",
     "tags": [
       "funkcija"
@@ -829,8 +829,8 @@
     ],
     "explanation": "Put ide preko hidroksilacije $\\alpha$-C-atoma, a bez vodika na tom ugljiku nema ni radikala ni karbinolamina. N-dealkilacija je jedna od najzastupljenijih reakcija u metabolizmu lijekova; supstrati su alifatski amini i N-alkilirani aromatski amini. Dealkilirani metabolit može zadržati farmakološku aktivnost, a uklanjanje alkilne skupine može smanjiti lipofilnost.",
     "image": null,
-    "explanation_image": null,
-    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 41",
+    "explanation_image": "img/03-n-dealkilacija-karbinolamin.png",
+    "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 41; slika: slajd 37",
     "tags": [
       "definicija"
     ],
@@ -943,7 +943,7 @@
     ],
     "explanation": "Taj put čini približno 80 % klirensa kofeina; N1-demetilacijom nastaje teobromin, a N7-demetilacijom teofilin. Omjer paraksantina i kofeina koristi se za procjenu aktivnosti CYP1A2. Policiklički aromatski ugljikovodici iz duhanskog dima induciraju CYP1A2 i ubrzavaju metabolizam kofeina.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/03-kofein-paraksantin.png",
     "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 46",
     "tags": [
       "funkcija"
@@ -1000,7 +1000,7 @@
     ],
     "explanation": "Delokalizacija elektrona između dušika i karbonilne skupine čini amid stabilnijim od amina. CYP ipak može hidroksilirati ugljik N-alkilne skupine i nastaje karbinolamid; cijepa se veza između dušika i hidroksiliranog ugljika, dok amidna veza C(=O)–N ostaje očuvana, a produkti su N-dealkilirani amid i aldehid ili keton.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/03-n-dealkilacija-amida.png",
     "source": "3 Hidoksilacije sp3 C-atoma_1. dio.pdf, slajd 43",
     "tags": [
       "usporedba"

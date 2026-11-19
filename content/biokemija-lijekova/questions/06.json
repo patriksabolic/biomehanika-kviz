@@ -79,7 +79,7 @@
     ],
     "explanation": "Reducirani FAD reagira s $\\ce{O2}$ i daje flavin-4a-hidroperoksid, koji prenosi jedan atom kisika na heteroatom supstrata. Pritom nastaje flavin-4a-hidroksid, a dehidracijom se regenerira FAD. Spoj I je odgovarajući oksidans u ciklusu CYP-a.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/06-flavin-hidroperoksid.png",
     "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajdovi 2 i 8",
     "tags": [
       "definicija"
@@ -330,7 +330,7 @@
     ],
     "explanation": "Pri smanjenoj aktivnosti enzima udio neoksidiranog trimetilamina raste na oko 20 %, a omjer ovisi o težini poremećaja. Trimetilamin nastaje u crijevnoj mikrobioti iz kolina i karnitina.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/06-trimetilamin-n-oksid.png",
     "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 6",
     "tags": [
       "brojka"
@@ -495,7 +495,7 @@
     ],
     "explanation": "Reakciju kataliziraju CYP ili FMO, a hidroksilamin se dalje oksidira u nitrozo-spoj; moguća je i autooksidacija. Tautomerizacijom nitrozoalkana koji ima $\\alpha$-vodik nastaje oksim, iz kojeg mogu nastati karbonilni spojevi, karboksilne kiseline ili reaktivni metaboliti.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/06-n-hidroksilacija-primarnog-amina.png",
     "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 15",
     "tags": [
       "funkcija"
@@ -693,7 +693,7 @@
     ],
     "explanation": "Nitroni su reaktivni međuprodukti koji se mogu dalje mijenjati ili hidrolizirati. Hidrolizom se cijepa veza C=N, pa nastaju aldehid ili keton i N-monosupstituirani hidroksilamin.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/06-nitron.png",
     "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajdovi 22 i 23",
     "tags": [
       "definicija"
@@ -889,7 +889,7 @@
     ],
     "explanation": "N-oksidacija ide samo na bazičnijem dušiku, a to je tercijarni pirolidinski. Oksidacija na piridinskom dušiku daje minorni metabolit, dok je glavni metabolit nikotina kotinin, koji nastaje uz CYP.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/06-nikotin-n-oksid.png",
     "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 32",
     "tags": [
       "funkcija"
@@ -917,7 +917,7 @@
     ],
     "explanation": "Reakciju kataliziraju FMO nukleofilnom oksigenacijom sumpora i CYP radikalnim mehanizmom. Tioli idu drugim putem: preko sulfenske (vrlo nestabilne), sulfinske i sulfonske kiseline, a tioamidi daju S-oksidirane međuprodukte.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/06-oksidacija-tioetera.png",
     "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajdovi 33 i 34",
     "tags": [
       "podjela"
@@ -945,7 +945,7 @@
     ],
     "explanation": "Sulfinska i sulfonska kiselina su relativno stabilne, a stabilnost ovisi o pH okoliša i prirodi supstituenta. Alternativno tiol može reagirati s drugom tiolnom skupinom i dati disulfid, koji se dalje može oksidirati u S-oksid disulfida.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/06-sulfenska-kiselina.png",
     "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 38",
     "tags": [
       "usporedba"
@@ -1000,8 +1000,8 @@
     ],
     "explanation": "Dimetilsulfon se izlučuje urinom, dok se dio spoja reducira u dimetilsulfid koji daje miris na bijeli luk i izlučuje se izdahnutim zrakom. Oksidacija sulfoksida u sulfon logičan je nastavak niza sulfid → sulfoksid → sulfon.",
     "image": null,
-    "explanation_image": null,
-    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 36",
+    "explanation_image": "img/06-oksidacija-tioetera.png",
+    "source": "6 FMO i Oksidacija N- i S- atoma.pdf, slajd 36; slika: slajd 34",
     "tags": [
       "funkcija"
     ],

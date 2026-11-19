@@ -218,7 +218,7 @@
     "distractors": ["18", "13", "80"],
     "explanation": "Prema imunokemijskoj analizi 60 uzoraka jetre udjeli su: CYP3A 29 %, CYP2C 18 %, CYP1A2 13 %, CYP2E1 7 %, CYP2A6 4 %, CYP2D6 manje od 2 % i CYP2B6 manje od 1 %. Mali udio CYP2D6 ne znači malu važnost, jer taj enzim metabolizira brojne psihofarmake i kardiovaskularne lijekove.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/02-udio-cyp-jetra-crijevo.png",
     "source": "2 Citokrom P450.pdf, slajd 12",
     "tags": ["brojka"],
     "real_exam": false
@@ -234,7 +234,7 @@
     "distractors": ["29", "15", "50"],
     "explanation": "U crijevu je raspodjela mnogo uža nego u jetri: CYP3A oko 80 %, CYP2C9 oko 15 %, ostali oko 5 %. Zato crijevni CYP3A bitno pridonosi metabolizmu prvog prolaza i može smanjiti oralnu bioraspoloživost lijeka.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/02-udio-cyp-jetra-crijevo.png",
     "source": "2 Citokrom P450.pdf, slajd 12",
     "tags": ["brojka"],
     "real_exam": false
@@ -250,7 +250,7 @@
     "distractors": ["CYP1A2", "CYP2E1", "CYP2A6"],
     "explanation": "Redoslijed u jetri je CYP3A (29 %), CYP2C (18 %) i CYP1A2 (13 %). Udjeli su približni i ovise o populaciji, uzorcima i analitičkoj metodi, pa ih treba čitati kao relativni odnos, a ne kao točne vrijednosti.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/02-udio-cyp-jetra-crijevo.png",
     "source": "2 Citokrom P450.pdf, slajd 12",
     "tags": ["usporedba"],
     "real_exam": false
@@ -298,7 +298,7 @@
     "distractors": ["$1\\,000 \\times g$", "$9\\,000 \\times g$", "$15\\,000 \\times g$"],
     "explanation": "Postupak ide u tri koraka: pri $1\\,000 \\times g$ (20 min) talože se jezgre i stanični ostatci, pri $9\\,000 \\times g$ (20 min) mitohondriji i lizosomi, a ultracentrifugiranjem pri $105\\,000 \\times g$ (120 min) mikrosomi. Supernatant nakon te zadnje centrifuge je citosolna frakcija.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/02-ultracentrifugiranje.png",
     "source": "2 Citokrom P450.pdf, slajd 15",
     "tags": ["brojka"],
     "real_exam": false
@@ -314,7 +314,7 @@
     "distractors": ["mitohondrije i lizosome", "jezgre i stanične ostatke", "samo mikrosome"],
     "explanation": "S9 je postmitohondrijski supernatant nakon centrifugiranja pri $9\\,000 \\times g$, pa sadrži i mikrosome i citosol. Zbog toga obuhvaća enzime I. i II. faze i često se koristi u ispitivanjima metabolizma.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/02-frakcija-s9.png",
     "source": "2 Citokrom P450.pdf, slajd 15",
     "tags": ["definicija"],
     "real_exam": false
@@ -346,7 +346,7 @@
     "distractors": ["CAR", "AhR", "PPAR"],
     "explanation": "Induktor se veže na ligand-aktiviranu transkripcijsku regulaciju: rifampicin preko PXR, fenobarbital preko CAR, a policiklički aromatski ugljikovodici iz duhanskog dima preko AhR. Aktivacija transkripcije daje više CYP proteina i veći metabolički kapacitet. Klasična posljedica je ubrzan metabolizam estrogena i progestina uz rifampicin i moguća neželjena trudnoća.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/02-induktori-receptori.png",
     "source": "2 Citokrom P450.pdf, slajd 21",
     "tags": ["funkcija"],
     "real_exam": false
@@ -362,7 +362,7 @@
     "distractors": ["PXR", "CAR", "PPAR"],
     "explanation": "AhR je transkripcijski faktor koji se veže na XRE u promotoru gena i pojačava njegovu ekspresiju. Zato pušači brže metaboliziraju lijekove i kofein koji su supstrati CYP1A2. Indukcija znači povećanje količine i aktivnosti enzima, najčešće promjenom ekspresije gena.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/02-induktori-receptori.png",
     "source": "2 Citokrom P450.pdf, slajd 21",
     "tags": ["funkcija"],
     "real_exam": false
@@ -442,8 +442,8 @@
     "distractors": ["metionin", "histidin", "tirozin"],
     "explanation": "Sumpor cisteinata jak je donor elektrona: povećava elektronsku gustoću na željezu i omogućuje nastanak snažnog oksidansa, Spoja I. Četiri ligandne veze s dušikovim atomima pirolnih prstenova leže u ravnini porfirina, a peta i šesta su okomite na nju.",
     "image": null,
-    "explanation_image": null,
-    "source": "2 Citokrom P450.pdf, slajdovi 24 i 26",
+    "explanation_image": "img/02-spinsko-stanje-zeljeza.png",
+    "source": "2 Citokrom P450.pdf, slajdovi 24 i 26; slika: slajd 27",
     "tags": ["definicija"],
     "real_exam": false
   },
@@ -458,8 +458,8 @@
     "distractors": ["molekulski kisik", "cistein", "ugljikov(II) oksid"],
     "explanation": "Vezanjem supstrata voda se istiskuje, a nakon redukcije željeza na to se mjesto veže molekulski kisik. Ligandi s atomom dušika ili sumpora mogu se izravno koordinirati na željezo i tako inhibirati enzim.",
     "image": null,
-    "explanation_image": null,
-    "source": "2 Citokrom P450.pdf, slajd 26",
+    "explanation_image": "img/02-spinsko-stanje-zeljeza.png",
+    "source": "2 Citokrom P450.pdf, slajd 26; slika: slajd 27",
     "tags": ["definicija"],
     "real_exam": false
   },
@@ -474,8 +474,8 @@
     "distractors": ["$\\ce{Fe^2+}$", "$\\ce{Fe^4+}$", "$\\ce{Fe^0}$"],
     "explanation": "Nativni enzim ima željezo u feri stanju ($\\ce{Fe^3+}$). Prijenosom prvog elektrona ono se reducira u $\\ce{Fe^2+}$, što omogućuje vezanje molekulskog kisika, a nakon hidroksilacije se vraća u $\\ce{Fe^3+}$.",
     "image": null,
-    "explanation_image": null,
-    "source": "2 Citokrom P450.pdf, slajd 25",
+    "explanation_image": "img/02-spinsko-stanje-zeljeza.png",
+    "source": "2 Citokrom P450.pdf, slajd 25; slika: slajd 27",
     "tags": ["definicija"],
     "real_exam": false
   },
@@ -490,7 +490,7 @@
     "distractors": ["iz visokog spina (5/2) u niski spin (1/2)", "ostaje u niskom spinu (1/2)", "iz visokog spina (5/2) u spin 0"],
     "explanation": "Bez supstrata je željezo heksakoordinirano s vodom kao šestim ligandom i ima jedan nespareni elektron (niski spin). Vezanjem supstrata voda se istiskuje, željezo postaje pentakoordinirano i pomiče se izvan ravnine porfirina prema cisteinatu, s pet nesparenih elektrona (visoki spin). To stanje olakšava redukciju $\\ce{Fe^3+}$ u $\\ce{Fe^2+}$ i prihvat prvog elektrona.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/02-spinsko-stanje-zeljeza.png",
     "source": "2 Citokrom P450.pdf, slajd 27",
     "tags": ["funkcija"],
     "real_exam": false
