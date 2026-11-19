@@ -185,7 +185,7 @@
     ],
     "explanation": "Kolagen I i III tvore vlakna koja nose vlačno naprezanje. Kolagen IV (porozna mreža) i VIII podupiru endotelne stanice, a V i VII povezani su s glatkim mišićnim stanicama.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/16-kolagen-i-iv.png",
     "source": "16_Meko tkivo.pdf, slajd 5",
     "tags": [
       "podjela"
@@ -214,7 +214,7 @@
     ],
     "explanation": "Kolagen IV ne tvori snopove vlakana nego poroznu mrežu na koju se oslanjaju endotelne stanice (unutarnji sloj krvnih žila). Uz njega endotel podupire i kolagen VIII.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/16-kolagen-i-iv.png",
     "source": "16_Meko tkivo.pdf, slajd 5",
     "tags": [
       "podjela"
@@ -511,7 +511,7 @@
     ],
     "explanation": "Opruga opisuje elastični dio (deformacija odmah prati silu), a prigušivač viskozni dio (deformacija ovisi o vremenu). Kombinacijama tih elemenata dobivaju se Maxwellov, Voigtov, Burgersov i drugi modeli.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/16-maxwell-voigt.png",
     "source": "16_Meko tkivo.pdf, slajd 12 i 15",
     "tags": [
       "definicija"
@@ -537,7 +537,7 @@
     ],
     "explanation": "Kod puzanja pod konstantnim opterećenjem deformacija raste. Ako se nakon rasterećenja deformacija vrati na nulu, puzanje je elastično; ako ostane zaostala deformacija, puzanje je plastično.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/16-elasticno-puzanje.png",
     "source": "16_Meko tkivo.pdf, slajd 13",
     "tags": [
       "definicija",
@@ -567,7 +567,7 @@
     ],
     "explanation": "Svi ti modeli grade se od dva osnovna elementa – linearno elastične opruge i viskoznog prigušivača – i opisuju puzanje i relaksaciju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/16-maxwell-voigt.png",
     "source": "16_Meko tkivo.pdf, slajd 15",
     "tags": [
       "podjela"
@@ -645,7 +645,7 @@
     ],
     "explanation": "Stijenku čine tri sloja: unutarnja intima (s endotelnim stanicama), srednja medija (glatke mišićne stanice, glavni nositelj naprezanja) i vanjska adventicija (tunica externa).",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/16-slojevi-stijenke-tablica.png",
     "source": "16_Meko tkivo.pdf, slajd 19; skripta.md – Meko tkivo",
     "tags": [
       "podjela"
@@ -730,7 +730,7 @@
     ],
     "explanation": "Nakon rasterećenja meko tkivo nije bez naprezanja: zbog predistezanja (najviše utječe elastin) slojevi ostaju napeti. Kad se prsten žile prereže, otvori se – mjera tih naprezanja je kut otvaranja.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/16-kut-otvaranja.png",
     "source": "16_Meko tkivo.pdf, slajd 25",
     "tags": [
       "definicija"
@@ -785,8 +785,8 @@
     ],
     "explanation": "Medija sadrži cirkularno orijentirane glatke mišićne stanice te elastin i kolagen i glavni je nositelj naprezanja u stijenci, što se vidi na dijagramu naprezanje–istezanje po slojevima.",
     "image": null,
-    "explanation_image": null,
-    "source": "16_Meko tkivo.pdf, slajd 29",
+    "explanation_image": "img/16-slojevi-stijenke-tablica.png",
+    "source": "16_Meko tkivo.pdf, slajd 29; slika: slajd 19",
     "tags": [
       "funkcija"
     ],
@@ -893,7 +893,7 @@
     ],
     "explanation": "Ateroskleroza nastaje na složenim geometrijama: u intimi se stvara plak (stanice, lipidi, vezivno tkivo, kalcij), intima se zadeblja i stijenka ukruti. Kalcij smanjuje maksimalne deformacije, a puknuće plaka je opasno.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/16-ateroskleroza-plak.png",
     "source": "16_Meko tkivo.pdf, slajd 33; skripta.md – Meko tkivo",
     "tags": [
       "definicija"
@@ -919,7 +919,7 @@
     ],
     "explanation": "Kalcij se nakuplja u aterosklerotskom plaku; on ukrućuje tkivo i smanjuje maksimalne deformacije, pa stijenka postaje kruća. Puknuće plaka potencijalno je opasno.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/16-ateroskleroza-plak.png",
     "source": "16_Meko tkivo.pdf, slajd 33; skripta.md – Meko tkivo",
     "tags": [
       "funkcija"
@@ -945,7 +945,7 @@
     ],
     "explanation": "Elastin drži stijenku napetom i vraća je u oblik; kad se razgradi (a ne obnavlja se), stijenka se lokalno proširi. Rizični faktori su dob, muški spol, pušenje, dijabetes, hipertenzija i ateroskleroza.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/16-aneurizma-aorte.png",
     "source": "16_Meko tkivo.pdf, slajd 34; skripta.md – Meko tkivo",
     "tags": [
       "definicija"

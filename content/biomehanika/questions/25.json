@@ -187,8 +187,8 @@
     ],
     "explanation": "Oblik eritrocita se mijenja: pri nastanku je nepravilan, pri strujanju deformiran (padobran, metak), a u statičkoj ravnoteži je bikonkavni disk – udubljen s obje strane.",
     "image": null,
-    "explanation_image": null,
-    "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 4",
+    "explanation_image": "img/25-stanica-300-mosmol.png",
+    "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 4; slika: slajd 6",
     "tags": [
       "definicija"
     ],
@@ -321,8 +321,8 @@
     ],
     "explanation": "Pri 300 mosmol stanica je u izotoničnoj otopini i ima normalan oblik bikonkavnog diska. Pri 217 mosmol (hipotonično) mijenja dimenzije, a pri 131 mosmol postaje sfera.",
     "image": null,
-    "explanation_image": null,
-    "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 7",
+    "explanation_image": "img/25-stanica-300-mosmol.png",
+    "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 7; slika: slajd 6",
     "tags": [
       "brojka"
     ],
@@ -349,7 +349,7 @@
     ],
     "explanation": "Na 217 mosmol otopina je hipotonična; stanica ostaje bikonkavna, ali joj se volumen poveća (s 94 na $116\\,\\mu \\text{m}^{3}$), a površina ostaje $135\\,\\mu \\text{m}^{2}$.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/25-stanica-217-mosmol.png",
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 6 i 7",
     "tags": [
       "brojka"
@@ -377,7 +377,7 @@
     ],
     "explanation": "Što je otopina manje toničnosti, to više vode ulazi u stanicu. Pri 131 mosmol stanica postaje sfera promjera $6{,}78\\,\\mu \\text{m}$ i volumena $164\\,\\mu \\text{m}^{3}$.",
     "image": null,
-    "explanation_image": "img/25-1.png",
+    "explanation_image": "img/25-stanica-131-mosmol.png",
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 6 i 7",
     "tags": [
       "brojka"
@@ -408,7 +408,7 @@
     ],
     "explanation": "U izotoničnom stanju promjer je $7{,}82\\,\\mu \\text{m}$, debljina $0{,}81\\text{–}2{,}58\\,\\mu \\text{m}$, površina $135\\,\\mu \\text{m}^{2}$, a volumen $94\\,\\mu \\text{m}^{3}$. Pri 217 mosmol promjer pada na $7{,}59\\,\\mu \\text{m}$, a kod sfere (131 mosmol) na $6{,}78\\,\\mu \\text{m}$.",
     "image": null,
-    "explanation_image": "img/25-1.png",
+    "explanation_image": "img/25-stanica-300-mosmol.png",
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 6",
     "tags": [
       "brojka"
@@ -438,7 +438,7 @@
     ],
     "explanation": "Pri 300 mosmol volumen je $94\\,\\mu \\text{m}^{3}$, pri 217 mosmol $116\\,\\mu \\text{m}^{3}$, a kod sfere (131 mosmol) $164\\,\\mu \\text{m}^{3}$. Volumen raste kako stanica upija vodu u otopini manje toničnosti.",
     "image": null,
-    "explanation_image": "img/25-1.png",
+    "explanation_image": "img/25-stanica-300-mosmol.png",
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 6",
     "tags": [
       "brojka"
@@ -468,7 +468,7 @@
     ],
     "explanation": "Površina je $135\\,\\mu \\text{m}^{2}$ i pri 300 i pri 217 mosmol – membrana se gotovo ne rasteže, mijenja se samo oblik. Tek kao sfera stanica ima površinu $145\\,\\mu \\text{m}^{2}$.",
     "image": null,
-    "explanation_image": "img/25-1.png",
+    "explanation_image": "img/25-stanica-300-mosmol.png",
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 6",
     "tags": [
       "brojka"
@@ -494,7 +494,7 @@
     ],
     "explanation": "Ulaskom vode volumen raste, ali površina membrane ostaje ista – membrana se ne rasteže nego mijenja zakrivljenost. To odgovara tome da je krutost istezanja membrane velika, a savojna mala.",
     "image": null,
-    "explanation_image": "img/25-1.png",
+    "explanation_image": "img/25-stanica-217-mosmol.png",
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 6 i 10",
     "tags": [
       "usporedba"
@@ -524,7 +524,7 @@
     ],
     "explanation": "Bikonkavni disk je najdeblji na rubu ($2{,}58\\,\\mu \\text{m}$), a najtanji u sredini ($0{,}81\\,\\mu \\text{m}$). Pri 217 mosmol debljine su veće: $3{,}30$ i $2{,}10\\,\\mu \\text{m}$.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/25-debljina-300-mosmol.png",
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 6",
     "tags": [
       "brojka"
@@ -550,7 +550,7 @@
     ],
     "explanation": "Kod Cassinijevih krivulja (na slajdu „Cassanijeve”) produkt udaljenosti bilo koje točke krivulje od dviju fiksnih točaka (žarišta) je konstantan. Ovisno o konstanti dobije se oblik sličan presjeku eritrocita. Kod elipse je konstantan zbroj.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/25-cassinijeve-krivulje.png",
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 8",
     "tags": [
       "definicija"
@@ -786,7 +786,7 @@
     ],
     "explanation": "Membranske sile $N_\\varphi$ i $N_\\theta$ podijeljene s pripadnim polumjerima zakrivljenosti uravnotežuju razliku unutarnjeg i vanjskog tlaka $p_i - p_o$ – ista jednadžba ljuske kao kod oka i mokraćnog mjehura.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/25-ljuska-meridijan.png",
     "source": "25_Membranska naprezanja crvenih krvnih stanica.pdf, slajd 12",
     "tags": [
       "formula"

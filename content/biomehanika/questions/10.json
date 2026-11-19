@@ -44,8 +44,8 @@
     ],
     "explanation": "Koštane skele (scaffold) su 3D porozne strukture za regeneraciju kosti, privremene strukture koje zamjenjuju kost. Zahtjevi su biokompatibilnost, biorazgradivost, mehanička svojstva, arhitektura (poroznost) i izrada.",
     "image": null,
-    "explanation_image": null,
-    "source": "10_Skele.pdf, slajd 2",
+    "explanation_image": "img/10-tcp-skela.png",
+    "source": "10_Skele.pdf, slajd 2; slika: slajd 12",
     "tags": [
       "definicija"
     ],
@@ -469,7 +469,7 @@
     ],
     "explanation": "Najprije se snimi kost (slika), iz nje se napravi 3D CAD model, zatim se oblikuje skela i na kraju se skela integrira u 3D model kosti – tako skela točno ispuni oštećenje.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/10-integracija-skele.png",
     "source": "10_Skele.pdf, slajd 6",
     "tags": [
       "podjela"
@@ -494,8 +494,8 @@
       "60 % i 90 %"
     ],
     "explanation": "Uspoređene su skele poroznosti 55 % i 80 %, i to dvije vrste: s okruglim šipkama i s pravokutnim porama. Veća poroznost znači više prostora za urastanje kosti, ali manje materijala za nošenje.",
-    "image": "img/10-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/10-1.png",
     "source": "10_Skele.pdf, slajd 7–11",
     "tags": [
       "brojka"
@@ -608,8 +608,8 @@
     ],
     "explanation": "Okrugle šipke nemaju oštre rubove, pa je raspodjela naprezanja povoljnija. Skela s pravokutnim porama ima veću poroznost.",
     "image": "img/10-1.png",
-    "explanation_image": null,
-    "source": "10_Skele.pdf, slajd 12",
+    "explanation_image": "img/10-skele-pravokutne-pore.png",
+    "source": "10_Skele.pdf, slajd 12; slika: slajd 7 i 8",
     "tags": [
       "usporedba"
     ],
@@ -665,8 +665,8 @@
     ],
     "explanation": "Koštana skela (scaffold) je 3D porozna privremena struktura: zamjenjuje kost dok ona ne regenerira, a zatim se razgradi. Zato mora biti biokompatibilna, biorazgradiva i porozna.",
     "image": null,
-    "explanation_image": null,
-    "source": "35_Bionika.pdf, slajd 35 (primjer ispitnog pitanja); 10_Skele.pdf, slajd 2",
+    "explanation_image": "img/10-tcp-skela.png",
+    "source": "35_Bionika.pdf, slajd 35 (primjer ispitnog pitanja); 10_Skele.pdf, slajd 2; slika: 10_Skele.pdf, slajd 12",
     "tags": [
       "definicija"
     ],

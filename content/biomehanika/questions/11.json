@@ -100,8 +100,8 @@
       "1945"
     ],
     "explanation": "Pauwels je 1955. prijelome vrata bedrene kosti razvrstao prema tome koliko je pukotina vertikalna (kut prema horizontali): tip I do 30°, tip II do 50°, tip III do 70°.",
-    "image": "img/11-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/11-pauwelsova-klasifikacija.png",
     "source": "11_Osteosinteza.pdf, slajd 3",
     "tags": [
       "brojka",
@@ -127,8 +127,8 @@
       "na broju fragmenata"
     ],
     "explanation": "Pauwels (1955.) razvrstava prijelome po kutu: tip I do 30°, II do 50°, III do 70°.",
-    "image": "img/11-1.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/11-pauwelsova-klasifikacija.png",
     "source": "11_Osteosinteza.pdf, slajd 3",
     "tags": [
       "podjela"
@@ -157,7 +157,7 @@
     ],
     "explanation": "Tip I je do 30°, tip II do 50°, a tip III do 70°. Tip I je najmanje, a tip III najviše vertikalan.",
     "image": null,
-    "explanation_image": "img/11-1.png",
+    "explanation_image": "img/11-pauwelsova-klasifikacija.png",
     "source": "11_Osteosinteza.pdf, slajd 3",
     "tags": [
       "brojka"
@@ -186,7 +186,7 @@
     ],
     "explanation": "Tip II je između tipa I (do 30°) i tipa III (do 70°) – do 50°. Razmak između tipova je po 20°.",
     "image": null,
-    "explanation_image": "img/11-1.png",
+    "explanation_image": "img/11-pauwelsova-klasifikacija.png",
     "source": "11_Osteosinteza.pdf, slajd 3",
     "tags": [
       "brojka"
@@ -215,7 +215,7 @@
     ],
     "explanation": "Tip III (do 70°) je najvertikalniji prijelom.",
     "image": null,
-    "explanation_image": "img/11-1.png",
+    "explanation_image": "img/11-pauwelsova-klasifikacija.png",
     "source": "11_Osteosinteza.pdf, slajd 3",
     "tags": [
       "brojka"
@@ -241,7 +241,7 @@
     ],
     "explanation": "Uobičajeno se koriste kanulirani vijci (često u obliku obrnutog trokuta), klizni kukasti vijci (SHS) i dynamic hip screw (DHS), s anti-rotacijskim vijkom ili bez njega.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/11-osteosinteza-vrata-femura.png",
     "source": "11_Osteosinteza.pdf, slajd 3",
     "tags": [
       "podjela"
@@ -269,7 +269,7 @@
     ],
     "explanation": "Kanulirani vijci (a) postavljaju se u konfiguraciji obrnutog trokuta. Ostale uobičajene metode su DHS s anti-rotacijskim vijkom (b) i bez njega (c).",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/11-osteosinteza-vrata-femura.png",
     "source": "11_Osteosinteza.pdf, slajd 3",
     "tags": [
       "definicija"
@@ -347,7 +347,7 @@
     ],
     "explanation": "Kontrolni modeli su dvije pločice u paralelnoj i u okomitoj konfiguraciji. Nova pločica uspoređena je s njima metodom konačnih elemenata i eksperimentom.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/11-kontrolni-i-ispitni-model.png",
     "source": "11_Osteosinteza.pdf, slajd 9 i 10",
     "tags": [
       "usporedba"
@@ -373,7 +373,7 @@
     ],
     "explanation": "Model je opterećen savijanjem, bočnim savijanjem i aksijalno – u MKE i eksperimentu. Uspoređivao se pomak (mm) pri opterećenju (N).",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/11-vrste-opterecenja.png",
     "source": "11_Osteosinteza.pdf, slajd 10 i 12",
     "tags": [
       "podjela"
@@ -399,7 +399,7 @@
     ],
     "explanation": "Savijanje i bočno savijanje ispitani su na statičkoj kidalici, a aksijalno opterećenje na umaralici (stroju za cikličko opterećenje). Pomaci su mjereni optičkim sustavom Aramis.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/11-umaralica.png",
     "source": "11_Osteosinteza.pdf, slajd 12",
     "tags": [
       "definicija"
@@ -427,7 +427,7 @@
     ],
     "explanation": "Umjesto prave kosti korišten je kompozitni humerus Synbone AG – umjetni model kosti. Na njega su postavljeni nova pločica, LCP pločica sa zaključavanjem i pločica bez zaključavanja.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/11-kompozitni-humerus.png",
     "source": "11_Osteosinteza.pdf, slajd 11",
     "tags": [
       "definicija"

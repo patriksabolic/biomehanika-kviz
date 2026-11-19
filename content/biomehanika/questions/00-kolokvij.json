@@ -522,8 +522,8 @@
     "distractors": ["meniscima", "zglobnim čahurama", "križnim ligamentima"],
     "explanation": "Između tijela susjednih kralježaka nalaze se intervertebralni diskovi. Disk ima koncentrične slojeve kolagenih vlakana, a u središtu pulpoznu jezgru (nucleus pulposus) od želatinozne mase. Prodor pulpozne mase koja tlači leđnu moždinu zove se prolaps diska (hernija).",
     "image": null,
-    "explanation_image": null,
-    "source": "Pitanja s kolokvija; 15_Biomehanika kralježnice.pdf, slajd 5",
+    "explanation_image": "img/15-bacvanje-diska.png",
+    "source": "Pitanja s kolokvija; 15_Biomehanika kralježnice.pdf, slajd 5; slika: 15_Biomehanika kralježnice.pdf, slajd 10",
     "tags": ["definicija"],
     "real_exam": true
   },
@@ -810,7 +810,7 @@
     "distractors": ["modul elastičnosti", "Poissonov koeficijent", "koeficijent trenja"],
     "explanation": "Rezidualna (zaostala) naprezanja postoje u tkivu i kad na njega ne djeluje vanjsko opterećenje. Mjeri ih se kutom otvaranja: kad se prsten tkiva prereže, zaostala naprezanja ga 'otvore', a veći kut znači veća rezidualna naprezanja.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/16-kut-otvaranja.png",
     "source": "Pitanja s kolokvija; 16_Meko tkivo.pdf, slajd 25",
     "tags": ["definicija"],
     "real_exam": true

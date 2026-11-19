@@ -18,7 +18,7 @@
     ],
     "explanation": "Mokraćni mjehur je šuplji mišićni organ: skuplja mokraću i izbacuje je kroz mokraćnu cijev. Sastoji se od tijela (najveći dio) i vrata, ljevkastog nastavka tijela.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/26-gradja-mjehura.png",
     "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 2",
     "tags": [
       "definicija"
@@ -47,7 +47,7 @@
     ],
     "explanation": "Detruzor je glatko mišićje stijenke mjehura. Kod praznog mjehura stijenka je deblja i naborana, a kod punog istegnuta i tanja.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/26-gradja-mjehura.png",
     "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 2 i 5",
     "tags": [
       "definicija"
@@ -327,8 +327,8 @@
     ],
     "explanation": "Hillov model (poznat iz mišića) oponaša mehanizme mjehura aktivacijskom i deaktivacijskom funkcijom te funkcijom ovisnom o duljini.",
     "image": null,
-    "explanation_image": null,
-    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 7",
+    "explanation_image": "img/19-hillov-model.png",
+    "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 7; slika: 19_Procjena misicne sile.pdf, slajd 3",
     "tags": [
       "podjela"
     ],
@@ -530,7 +530,7 @@
     ],
     "explanation": "Mjehur je sfera, pa je $N_\\varphi = (p_{ves} - p_{abd}) \\cdot R_1 - N_\\vartheta = 2N_\\vartheta - N_\\vartheta = N_\\vartheta$. Obje su pozitivne (vlačne) jer je unutarnji tlak veći od vanjskog.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/26-2.png",
     "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 8 i 10",
     "tags": [
       "usporedba"
@@ -558,7 +558,7 @@
     ],
     "explanation": "Kad nema unutarnjeg tlaka, ostaje samo intraabdominalni tlak izvana: $N_\\vartheta = -p_{abd} \\cdot R_2/2$. Negativan predznak znači tlačnu silu.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/26-model-prazan-mjehur.png",
     "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 11",
     "tags": [
       "formula"
@@ -590,7 +590,7 @@
     ],
     "explanation": "$N_\\vartheta = -0{,}1\\,\\text{kPa} \\cdot 80\\,\\text{mm} / 2 = -0{,}0001\\,\\text{N/mm}^{2} \\cdot 40\\,\\text{mm} = -0{,}004\\,\\text{N/mm}$. Predznak minus znači da je stijenka praznog mjehura u tom smjeru tlačena, jer tlak djeluje samo izvana. Prema slajdu je $N_\\varphi = +0{,}004\\,\\text{N/mm}$.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/26-model-prazan-mjehur.png",
     "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 11–13",
     "tags": [
       "racun"
@@ -616,7 +616,7 @@
     ],
     "explanation": "Pri punjenju se stijenka isteže i stanji: puni mjehur ($R_1 = 100\\,\\text{mm}$) ima stijenku 2,2 mm, a prazan ($R_2 = 80\\,\\text{mm}$) 4,2 mm. To se vidi i na slici detruzora praznog i punog mjehura.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/26-prazan-i-pun-mjehur.png",
     "source": "26_Biomehanika mokraćnog mjehura.pdf, slajd 5, 9 i 12",
     "tags": [
       "usporedba",

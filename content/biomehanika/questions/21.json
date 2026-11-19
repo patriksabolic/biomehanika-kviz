@@ -207,7 +207,7 @@
     ],
     "explanation": "Ždrijelo ima tri dijela: nosni (u njega se otvara nosna šupljina), usni (otvara se usna šupljina) i grkljanski, najdonji dio koji se nastavlja u jednjak. Zato je ždrijelo dio i dišnog i probavnog sustava.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/21-dijelovi-zdrijela.png",
     "source": "21__Sustav organa za disanje.pdf, slajd 7; skripta.md – Disanje",
     "tags": [
       "podjela"
@@ -323,8 +323,8 @@
     ],
     "explanation": "Dušnik gradi 16 do 20 potkovastih (C) hrskavica povezanih elastičnim prstenastim vezama. Oblik potkove (slova C) drži dišni put uvijek otvorenim.",
     "image": null,
-    "explanation_image": null,
-    "source": "21__Sustav organa za disanje.pdf, slajd 9; skripta.md – Disanje",
+    "explanation_image": "img/21-hrskavicni-prsten-dusnika.png",
+    "source": "21__Sustav organa za disanje.pdf, slajd 9; skripta.md – Disanje; slika: slajd 10",
     "tags": [
       "brojka"
     ],
@@ -349,8 +349,8 @@
     ],
     "explanation": "Hrskavični prstenovi oblika potkove (slova C) drže dušnik stalno otvorenim. Unutrašnjost dušnika prekrivena je sluznicom.",
     "image": null,
-    "explanation_image": null,
-    "source": "21__Sustav organa za disanje.pdf, slajd 9; skripta.md – Disanje",
+    "explanation_image": "img/21-hrskavicni-prsten-dusnika.png",
+    "source": "21__Sustav organa za disanje.pdf, slajd 9; skripta.md – Disanje; slika: slajd 10",
     "tags": [
       "funkcija"
     ],
@@ -481,8 +481,8 @@
     ],
     "explanation": "Svaki glavni bronh dijeli se u sekundarne (režanjske) bronhe, oni unutar režnja u tercijarne bronhe, koji se granaju u bronhiole. Dišni put završava plućnim mjehurićima – alveolama.",
     "image": null,
-    "explanation_image": null,
-    "source": "21__Sustav organa za disanje.pdf, slajd 13; skripta.md – Disanje",
+    "explanation_image": "img/21-grananje-bronha.png",
+    "source": "21__Sustav organa za disanje.pdf, slajd 13; skripta.md – Disanje; slika: slajd 14",
     "tags": [
       "podjela"
     ],
@@ -511,7 +511,7 @@
     ],
     "explanation": "Osnovna funkcija pluća je prijenos kisika iz atmosfere u krvotok i izbacivanje ugljikovog dioksida. To se odvija u alveolama – plućnim mjehurićima kojima završavaju dišni putovi.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/21-alveole.png",
     "source": "21__Sustav organa za disanje.pdf, slajd 13 i 17",
     "tags": [
       "definicija"
