@@ -22,8 +22,8 @@
     ],
     "explanation": "Mišićno vlakno sastoji se od niti miozina i aktina. Niti miozina su deblje i oko svake je smješteno 6 tanjih niti aktina, a sve aktinske niti spojene su Z membranama.",
     "image": null,
-    "explanation_image": null,
-    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 3",
+    "explanation_image": "img/18-misicno-vlakno-presjek.png",
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 3; slika: slajd 4",
     "tags": [
       "brojka"
     ],
@@ -49,8 +49,8 @@
     ],
     "explanation": "Miozinske niti su deblje, a aktinske tanje; obje su izdužene polimerizirane molekule proteina. Debela miozinska nit nosi izdanke s glavicama koje se hvataju za tanke aktinske niti.",
     "image": null,
-    "explanation_image": null,
-    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 3",
+    "explanation_image": "img/18-pruge-sarkomera.png",
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 3; slika: slajd 5",
     "tags": [
       "usporedba"
     ],
@@ -78,8 +78,8 @@
     ],
     "explanation": "Aktinske niti spojene su Z membranama (Z linijama), a dio vlakna između dviju Z membrana je sarkomera. Sarkomera je strukturna jedinica koja se ponavlja duž cijelog vlakna.",
     "image": null,
-    "explanation_image": null,
-    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 3",
+    "explanation_image": "img/18-pruge-sarkomera.png",
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 3; slika: slajd 5",
     "tags": [
       "definicija"
     ],
@@ -107,7 +107,7 @@
     ],
     "explanation": "Sarkolema je stanična membrana mišićnog vlakna (sarko = meso, lema = ovojnica). Duž nje se širi akcijski potencijal koji pokreće kontrakciju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/18-misicno-vlakno-presjek.png",
     "source": "18_Mehanizam kontrakcije misica.pdf, slajd 4",
     "tags": [
       "definicija"
@@ -137,7 +137,7 @@
     ],
     "explanation": "Sarkoplazmatski retikulum služi za skladištenje kalcija. Kad stigne podražaj, kalcij se iz njega oslobađa i omogućuje vezanje miozinske glave na aktin, a time i kontrakciju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/18-sarkoplazmatski-retikulum.png",
     "source": "18_Mehanizam kontrakcije misica.pdf, slajd 4",
     "tags": [
       "funkcija"
@@ -167,7 +167,7 @@
     ],
     "explanation": "Pod mikroskopom se vide tamne A pruge i svijetle I pruge koje se izmjenjuju – po njima je poprečnoprugasti mišić dobio ime. U sredini svijetle I pruge nalazi se tamna Z crta koja dijeli vlakno u sarkomere.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/18-pruge-sarkomera.png",
     "source": "18_Mehanizam kontrakcije misica.pdf, slajd 5",
     "tags": [
       "definicija"
@@ -199,7 +199,7 @@
     ],
     "explanation": "Z crta (disk) leži u sredini svijetle I pruge i spaja aktinske niti. Od jedne do druge Z crte proteže se jedna sarkomera, pa Z crte dijele vlakno u ponavljajuće jedinice.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/18-pruge-sarkomera.png",
     "source": "18_Mehanizam kontrakcije misica.pdf, slajd 5",
     "tags": [
       "definicija"
@@ -318,7 +318,7 @@
     ],
     "explanation": "Mišići su upravljani preko motornih pločica – spojeva motornog živčanog vlakna i mišića. Spoj radi po principu sinapse, uz sudjelovanje acetilkolina i kolinesteraze.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/18-neuromisicna-veza.png",
     "source": "18_Mehanizam kontrakcije misica.pdf, slajd 8; 17_Misici.pdf, slajd 14",
     "tags": [
       "definicija"
@@ -434,8 +434,8 @@
     ],
     "explanation": "Glavica se uhvati za aktin pod pravim kutom, nagne se za 45° i pritom povuče aktinsku nit uz miozinsku. Zatim se otpusti, uspravi i ponovno uhvati dalje – kao veslanje – pa niti kližu jedna uz drugu.",
     "image": null,
-    "explanation_image": null,
-    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 9",
+    "explanation_image": "img/18-poprecni-mosti.png",
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 9; slika: slajd 10",
     "tags": [
       "brojka"
     ],
@@ -463,8 +463,8 @@
     ],
     "explanation": "Nakon zaveslaja glavica ostaje vezana za aktin dok se na nju ne veže ATP, koji je oslobodi. Glavica se tada uspravi i može se ponovno uhvatiti za aktin, pa se ciklus ponavlja.",
     "image": null,
-    "explanation_image": null,
-    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 9",
+    "explanation_image": "img/18-poprecni-mosti.png",
+    "source": "18_Mehanizam kontrakcije misica.pdf, slajd 9; slika: slajd 10",
     "tags": [
       "funkcija"
     ],
@@ -667,7 +667,7 @@
     ],
     "explanation": "Ako novi podražaj stigne prije nego što se mišić opusti, kontrakcije se zbrajaju (nepotpuna relaksacija – pojačavanje). Ako relaksacije uopće nema, mišić ostaje trajno kontrahiran – tetanus.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/18-tetanus.png",
     "source": "18_Mehanizam kontrakcije misica.pdf, slajd 15",
     "tags": [
       "definicija"

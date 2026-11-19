@@ -10,7 +10,7 @@
     "distractors": ["2", "4", "5"],
     "explanation": "Koljeno čine 3 kosti: natkoljenična kost (femur), goljenična kost (tibija) i iver (patela). One tvore 2 zgloba – femur–tibija i femur–patela. Zato je koljeno prema funkcionalnoj podjeli složeni zglob.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/14-kosti-i-zglobovi-koljena.png",
     "source": "14_Koljeni zglob.pdf, slajd 3",
     "tags": ["brojka"],
     "real_exam": false
@@ -58,8 +58,8 @@
     "distractors": ["aktivni", "dinamički", "mišićni"],
     "explanation": "Pasivni stabilizatori su strukture koje same ne proizvode silu, nego se opiru pomaku kad se istegnu ili opterete: prednji i stražnji križni ligament, unutarnji i vanjski pobočni ligamenti, patelarni ligament, medijalni i lateralni retinakulum te meniskus. Aktivni stabilizatori su mišići (kvadriceps, ishiokruralni mišići, aduktori).",
     "image": null,
-    "explanation_image": null,
-    "source": "14_Koljeni zglob.pdf, slajd 4",
+    "explanation_image": "img/14-ligamenti-menisci.png",
+    "source": "14_Koljeni zglob.pdf, slajd 4; slika: slajd 14",
     "tags": ["podjela"],
     "real_exam": false
   },
@@ -74,8 +74,8 @@
     "distractors": ["ishiokruralni mišići", "aduktori", "gastroknemius"],
     "explanation": "Aktivni stabilizatori su mišići koji kontrakcijom drže koljeno stabilnim. Kvadriceps djeluje s prednje strane, ishiokruralna muskulatura sa stražnje, a privlakači (aduktori) s unutarnje strane koljena.",
     "image": null,
-    "explanation_image": null,
-    "source": "14_Koljeni zglob.pdf, slajd 4",
+    "explanation_image": "img/14-smjer-misica.png",
+    "source": "14_Koljeni zglob.pdf, slajd 4; slika: slajd 13",
     "tags": ["funkcija"],
     "real_exam": false
   },
@@ -90,7 +90,7 @@
     "distractors": ["kvadriceps", "ishiokruralni mišići", "gastroknemius"],
     "explanation": "Privlakači (aduktori) prolaze s unutarnje strane natkoljenice pa svojim povlačenjem stabiliziraju unutarnju stranu koljena. Kvadriceps stabilizira s prednje, a ishiokruralni mišići sa stražnje strane.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/14-smjer-misica.png",
     "source": "14_Koljeni zglob.pdf, slajd 4; slajd 13",
     "tags": ["funkcija"],
     "real_exam": false
@@ -106,7 +106,7 @@
     "distractors": ["meniskus", "kolateralni ligament", "križni ligament"],
     "explanation": "Retinakulum je vezivna pregrada s medijalne i lateralne strane patele. Lateralna i medijalna vezivna pregrada vuku patelu u stranu i time je centriraju, dok je tetiva kvadricepsa vuče gore, a patelarni ligament dolje.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/14-sile-na-patelu.png",
     "source": "14_Koljeni zglob.pdf, slajd 4; slajd 7",
     "tags": ["definicija"],
     "real_exam": false
@@ -282,7 +282,7 @@
     "distractors": ["tetiva kvadricepsa", "lateralna vezivna pregrada", "medijalna vezivna pregrada"],
     "explanation": "Na patelu djeluju četiri sile: tetiva kvadricepsa vuče je prema gore, patelarni ligament prema dolje, a lateralna i medijalna vezivna pregrada (retinakulumi) u stranu. Patelarni ligament spaja patelu s tibijom, pa preko njega sila kvadricepsa prelazi na potkoljenicu.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/14-sile-na-patelu.png",
     "source": "14_Koljeni zglob.pdf, slajd 7",
     "tags": ["funkcija"],
     "real_exam": false
@@ -298,7 +298,7 @@
     "distractors": ["200", "50", "20"],
     "explanation": "Reakcija podloge po nozi (0,5 BW) djeluje na kraku 200 mm od koljena, a patelarna tetiva PT na kraku od samo 35 mm. Moment vanjske sile mora biti jednak momentu tetive, pa je $\\text{PT} = 0{,}5 \\cdot 200 / 35 \\approx 3\\,\\text{BW}$. Mali krak tetive znači veliku silu u tetivi.",
     "image": null,
-    "explanation_image": "img/14-1.png",
+    "explanation_image": "img/14-ustajanje-kraci-sila.png",
     "source": "14_Koljeni zglob.pdf, slajd 8",
     "tags": ["formula", "racun"],
     "real_exam": false
@@ -314,7 +314,7 @@
     "distractors": ["0,5 BW", "4,5 BW", "5,5 BW"],
     "explanation": "Iz $0{,}5\\,\\text{BW} \\cdot 200 = \\text{PT} \\cdot 35$ slijedi $\\text{PT} = 100/35 \\approx 3\\,\\text{BW}$. Grafičkim rješenjem (trokut sila) dobiva se zatim sila kvadricepsa $Q \\approx 4{,}5\\,\\text{BW}$, sila između patele i femura $\\text{PF} \\approx 5{,}5\\,\\text{BW}$ i sila između tibije i femura $\\text{TF} \\approx 3{,}5\\,\\text{BW}$.",
     "image": null,
-    "explanation_image": "img/14-1.png",
+    "explanation_image": "img/14-ustajanje-kraci-sila.png",
     "source": "14_Koljeni zglob.pdf, slajd 8",
     "tags": ["racun", "brojka"],
     "real_exam": false
@@ -330,7 +330,7 @@
     "distractors": ["0,5 BW", "3,3 BW", "5 BW"],
     "explanation": "PCF je patelarna tlačna sila. Pri hodanju i vožnji bicikla iznosi 0,5 BW, pri penjanju stepenicama 3,3 BW, pri spuštanju 5 BW, pri trčanju 7 BW, a najveća je pri čučanju – 7,6 BW.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/14-patelarna-tlacna-sila.png",
     "source": "14_Koljeni zglob.pdf, slajd 9",
     "tags": ["brojka"],
     "real_exam": false
@@ -346,7 +346,7 @@
     "distractors": ["pri penjanju", "jednaka je u oba slučaja", "ovisi samo o brzini"],
     "explanation": "Pri spuštanju stepenicama PCF iznosi 5 BW, a pri penjanju 3,3 BW, pa je patelarna tlačna sila veća pri spuštanju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/14-patelarna-tlacna-sila.png",
     "source": "14_Koljeni zglob.pdf, slajd 9",
     "tags": ["usporedba", "brojka"],
     "real_exam": false
@@ -362,7 +362,7 @@
     "distractors": ["U", "O", "S"],
     "explanation": "Medijalni i lateralni menisk imaju oblik slova C (polumjeseca) i mogu se pomicati. Oblik C omogućuje da se pod opterećenjem rastežu po obodu (cirkumferencijalno), pa okomitu silu femura dijelom pretvaraju u vlačnu silu u meniskusu.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/14-menisk-oblik-c.png",
     "source": "14_Koljeni zglob.pdf, slajd 10; slajd 11",
     "tags": ["definicija"],
     "real_exam": false
@@ -378,7 +378,7 @@
     "distractors": ["smanjuju silu femura", "povećavaju trenje", "smanjuju kontaktnu površinu"],
     "explanation": "Konveksni femur i konveksna tibija dodiruju se na maloj površini. Menisci povećavaju kongruenciju (podudarnost) ploha, čime se povećava kontaktna površina. Isti teret raspoređen na veću površinu daje manji tlak (opterećenje po jedinici površine).",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/14-menisk-raspodjela-opterecenja.png",
     "source": "14_Koljeni zglob.pdf, slajd 10",
     "tags": ["funkcija"],
     "real_exam": false
@@ -394,7 +394,7 @@
     "distractors": ["stražnju translaciju potkoljenice", "varus-valgus naginjanje", "hiperfleksiju koljena"],
     "explanation": "Prednji križni ligament sprječava klizanje potkoljenice prema naprijed u odnosu na natkoljenicu, a stražnji sprječava njezin pomak prema natrag. Križni ligamenti nemaju drugu zaštitu osim vlastite čvrstoće i aktivnih stabilizatora, pa se kod prevelikih sila češće ozlijedi prednji.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/14-ligamenti-menisci.png",
     "source": "14_Koljeni zglob.pdf, slajd 14",
     "tags": ["funkcija"],
     "real_exam": false

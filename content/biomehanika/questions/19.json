@@ -161,7 +161,7 @@
     ],
     "explanation": "Hill je 1938. objavio empirijsku jednadžbu odnosa brzine kontrakcije i sile u mišiću, dobivenu iz mjerenja topline koju mišić oslobađa. Kasnije revizije, npr. Fungova (1970., 1981.), nadograđuju taj model.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/19-hillov-model.png",
     "source": "19_Procjena misicne sile.pdf, slajd 3",
     "tags": [
       "povijest",
@@ -400,8 +400,8 @@
     ],
     "explanation": "Hillova jednadžba $(a + F)(v + b) = b(F_0 + a)$ dobiva se sređivanjem $av + Fv = b(F_0 - F)$. To je hiperbola: pri $F = F_0$ brzina je $v = 0$, a što je sila manja, to je brzina kontrakcije veća. F je sila u mišiću, v brzina kontrakcije, a a, b i $F_0$ su konstante.",
     "image": null,
-    "explanation_image": null,
-    "source": "19_Procjena misicne sile.pdf, slajd 5",
+    "explanation_image": "img/20-hillova-krivulja.png",
+    "source": "19_Procjena misicne sile.pdf, slajd 5; slika: 20_Procjena misicne sile-nastavak.pdf, slajd 3",
     "tags": [
       "formula"
     ],
@@ -457,8 +457,8 @@
     ],
     "explanation": "Fung je revidirao Hillov model jer biološka tkiva nisu čisto elastična: njihova sila ovisi i o brzini deformacije, a pokazuju puzanje i relaksaciju. Zato serijski i paralelni element treba modelirati kao viskoelastične, a ne kao obične opruge.",
     "image": null,
-    "explanation_image": null,
-    "source": "19_Procjena misicne sile.pdf, slajd 6",
+    "explanation_image": "img/19-hillov-model.png",
+    "source": "19_Procjena misicne sile.pdf, slajd 6; slika: slajd 3",
     "tags": [
       "povijest",
       "definicija"

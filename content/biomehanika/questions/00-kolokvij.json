@@ -666,7 +666,7 @@
     "distractors": ["3", "1", "4"],
     "explanation": "Koljeno nije jedan jednostavni zglob nego se sastoji od dva zgloba unutar zajedničke strukture. Zbog toga ima složeno gibanje sa 6 stupnjeva slobode, a stabilnost mu osiguravaju menisci te prednji i stražnji križni ligament.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/14-kosti-i-zglobovi-koljena.png",
     "source": "Pitanja s kolokvija; 14_Koljeni zglob.pdf, slajd 3",
     "tags": ["brojka"],
     "real_exam": true
@@ -698,7 +698,7 @@
     "distractors": ["iznos", "brzinu", "trajanje"],
     "explanation": "Moment sile jednak je sili pomnoženoj s krakom ($M = F \\cdot r$). Patela odmiče tetivu kvadricepsa dalje od osi rotacije koljena i tako povećava krak sile. Zato kvadriceps s istom silom ostvaruje veći moment pri ispružanju koljena.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/14-funkcija-patele.png",
     "source": "Pitanja s kolokvija; 14_Koljeni zglob.pdf, slajd 6",
     "tags": ["funkcija"],
     "real_exam": true
@@ -778,8 +778,8 @@
     "distractors": ["Huxley", "Borelli", "Helmholtz"],
     "explanation": "Hill je 1938. empirijski (iz mjerenja) opisao vezu između brzine kontrakcije mišića i sile koju mišić razvija: $(a + F)(v + b) = b(F_0 + a)$. Po njemu se zove i Hillov model mišića, koji se koristi za procjenu mišićne sile.",
     "image": null,
-    "explanation_image": null,
-    "source": "Pitanja s kolokvija; 19_Procjena misicne sile.pdf, slajd 4 i 5; 17_Misici.pdf, slajd 17",
+    "explanation_image": "img/20-hillova-krivulja.png",
+    "source": "Pitanja s kolokvija; 19_Procjena misicne sile.pdf, slajd 4 i 5; 17_Misici.pdf, slajd 17; slika: 20_Procjena misicne sile-nastavak.pdf, slajd 3",
     "tags": ["povijest", "formula"],
     "real_exam": true
   },
@@ -826,7 +826,7 @@
     "distractors": ["serijski elastični", "paralelni elastični", "viskozni"],
     "explanation": "Hillov model opisuje mišić s tri elementa: kontraktilnim elementom, koji aktivno razvija silu, te serijskim i paralelnim elastičnim elementom, koji se ponašaju kao pasivne opruge. Prema Hillovu modelu mišić je aktivna kontraktilna komponenta s pasivnim elastičnim komponentama u seriji ili paralelno.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/19-hillov-model.png",
     "source": "Pitanja s kolokvija (skica Hillovog modela); 19_Procjena misicne sile.pdf, slajd 3; 17_Misici.pdf, slajd 20",
     "tags": ["skica", "definicija"],
     "real_exam": true
@@ -842,7 +842,7 @@
     "distractors": ["viskoznog", "inercijskog", "kontraktilnog"],
     "explanation": "Na skici Hillovog modela kontraktilni element spojen je u seriju s jednom oprugom (serijski elastični element), a uz njih je usporedno spojena druga opruga (paralelni elastični element). Paralelni element nosi silu i kad mišić nije aktivan, npr. pri pasivnom istezanju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/19-hillov-model.png",
     "source": "Pitanja s kolokvija (skica Hillovog modela); 19_Procjena misicne sile.pdf, slajd 3",
     "tags": ["skica"],
     "real_exam": true

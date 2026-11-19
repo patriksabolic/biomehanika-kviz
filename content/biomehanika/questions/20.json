@@ -21,7 +21,7 @@
     ],
     "explanation": "Kod perastih mišića vlakna se na tetivu hvataju pod kutem $\\alpha$, kao pera na stapki. Zato se sila vlakna u smjeru osi mišića prenosi samo djelomično (komponenta pod kutem), za razliku od mišića s paralelnim vlaknima.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/20-paralelni-i-perasti-misic.png",
     "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
     "tags": [
       "usporedba"
@@ -47,7 +47,7 @@
     ],
     "explanation": "Kod mišića s paralelnim vlaknima vlakna leže uz os mišića, pa se cijela sila svakog vlakna prenosi izravno u smjeru kontrakcije. Kod perastih mišića vlakna su koso pa se sila prenosi samo djelomično, pod kutem $\\alpha$.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/20-paralelni-i-perasti-misic.png",
     "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
     "tags": [
       "usporedba"
@@ -74,7 +74,7 @@
     ],
     "explanation": "Iako se kod perastih mišića sila vlakna prenosi samo djelomično (pod kutem $\\alpha$), u isti presjek stane mnogo više kosih vlakana. Zbog većeg broja vlakana po presjeku ukupna sila kontrakcije perastog mišića veća je nego kod mišića s paralelnim vlaknima.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/20-paralelni-i-perasti-misic.png",
     "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
     "tags": [
       "usporedba"
@@ -101,7 +101,7 @@
     ],
     "explanation": "Kod paralelnih vlakana sila je razmjerna površini poprečnog presjeka $x \\cdot y$ kroz koji prolaze vlakna, pomnoženoj s $F_n$ i podijeljenoj s $A$. Nema kutnih članova, jer vlakna vuku točno u smjeru osi mišića.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/20-paralelni-i-perasti-misic.png",
     "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
     "tags": [
       "formula"
@@ -127,7 +127,7 @@
     ],
     "explanation": "Kod perastog mišića vlakna se s obje strane hvataju na tetivu duž duljine mišića $L$ (označena na skici), a izraz sadrži kutne članove $\\sin\\alpha$ i $\\cos\\alpha_n$. Kutni članovi odražavaju to da se sila kosog vlakna u smjeru osi prenosi samo djelomično. Usporedi s $F_{paral} = x \\cdot y \\cdot F_n/A$, gdje kutnih članova nema.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/20-paralelni-i-perasti-misic.png",
     "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
     "tags": [
       "formula"
@@ -154,7 +154,7 @@
     ],
     "explanation": "Hillova jednadžba $(a + F)(v + b) = b(F_0 + a)$ je hiperbola: neopterećeni mišić skraćuje se najbrže, a što je opterećenje veće, to je kontrakcija sporija. Pri sili $F_0$ brzina pada na nulu – to je izometrička kontrakcija.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/20-hillova-krivulja.png",
     "source": "20_Procjena misicne sile-nastavak.pdf, slajd 3",
     "tags": [
       "skica",
@@ -184,8 +184,8 @@
     ],
     "explanation": "I nestimulirani mišić pruža otpor kad ga istegnemo – to je pasivna elastičnost. Kontraktilni i serijski element tu pojavu ne opisuju, pa je dodan paralelni elastični element koji nosi silu i kad mišić miruje.",
     "image": null,
-    "explanation_image": null,
-    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 4",
+    "explanation_image": "img/19-hillov-model.png",
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 4; slika: 19_Procjena misicne sile.pdf, slajd 3",
     "tags": [
       "funkcija"
     ],
@@ -213,8 +213,8 @@
     ],
     "explanation": "Mišić je obavijen i prožet vezivnim tkivom (endomizij, fascija) koje leži paralelno s vlaknima. Kad se mišić istegne, to tkivo se rasteže i daje pasivnu silu – upravo to modelira paralelni elastični element.",
     "image": null,
-    "explanation_image": null,
-    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 4",
+    "explanation_image": "img/19-hillov-model.png",
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 4; slika: 19_Procjena misicne sile.pdf, slajd 3",
     "tags": [
       "funkcija"
     ],
@@ -242,8 +242,8 @@
     ],
     "explanation": "Paralelni element i grana s kontraktilnim i serijskim elementom spojeni su paralelno, pa se njihove sile zbrajaju: $\\sigma = \\sigma(P) + \\sigma(S) = P(L_s) + S(\\eta_s, \\Delta)$. Doprinos $P$ ovisi samo o duljini sarkomere $L_s$, a doprinos $S$ o produljenju $\\eta_s$ i $\\Delta$.",
     "image": null,
-    "explanation_image": null,
-    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 4",
+    "explanation_image": "img/19-hillov-model.png",
+    "source": "20_Procjena misicne sile-nastavak.pdf, slajd 4; slika: 19_Procjena misicne sile.pdf, slajd 3",
     "tags": [
       "formula"
     ],
@@ -546,7 +546,7 @@
     ],
     "explanation": "Ruka koja drži teret modelira se oprugom (Youngov modul $E$) i prigušivačem (viskoznost $\\eta$) spojenima u seriju – to je Maxwellov model. Na njemu se vidi da i za mirno držanje tereta mišić neprestano troši snagu.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/20-maxwellov-model.png",
     "source": "20_Procjena misicne sile-nastavak.pdf, slajd 11",
     "tags": [
       "definicija"
@@ -572,7 +572,7 @@
     ],
     "explanation": "U Maxwellovu modelu opruga i prigušivač su u seriji pa se njihove brzine deformacije zbrajaju: opruga daje $(1/E) \\cdot d\\sigma/dt$, a prigušivač $\\sigma/\\eta$. Zato pri stalnom naprezanju ($d\\sigma/dt = 0$) deformacija i dalje raste brzinom $\\sigma/\\eta$.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/20-maxwellov-model.png",
     "source": "20_Procjena misicne sile-nastavak.pdf, slajd 11",
     "tags": [
       "formula"
@@ -598,7 +598,7 @@
     ],
     "explanation": "Snaga se troši u prigušivaču, a po jedinici volumena iznosi $\\sigma^{2}/\\eta$. Uz jednoliko naprezanje $\\sigma = T/A$ integral po volumenu postaje $P = (1/\\eta) \\cdot (T/A)^{2} \\cdot V$. Snaga dakle raste s kvadratom naprezanja i linearno s volumenom.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/20-maxwellov-model.png",
     "source": "20_Procjena misicne sile-nastavak.pdf, slajd 11",
     "tags": [
       "formula"
@@ -713,7 +713,7 @@
       "kut perastosti"
     ],
     "explanation": "Na skici mišića s paralelnim vlaknima $x$ i $y$ su dimenzije poprečnog presjeka, pa je $x \\cdot y$ površina kroz koju prolaze vlakna. Što je presjek veći, to više paralelnih vlakana vuče istodobno, pa sila $F_{paral}$ raste razmjerno $x \\cdot y$.",
-    "image": null,
+    "image": "img/20-paralelni-i-perasti-misic.png",
     "explanation_image": null,
     "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
     "tags": [
@@ -744,7 +744,7 @@
     ],
     "explanation": "Na skici perastog mišića $L$ je duljina mišića uz koju se kosa vlakna s obje strane hvataju na tetivu. Zato se u izrazu za $F_{per}$ umjesto drugog poprečnog izmjera $y$ pojavljuje $2 \\cdot x \\cdot L \\cdot \\sin\\alpha$: koso postavljena vlakna zauzimaju cijelu duljinu mišića, pa ih stane više nego u paralelnom rasporedu.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/20-paralelni-i-perasti-misic.png",
     "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
     "tags": [
       "formula"
@@ -770,7 +770,7 @@
     ],
     "explanation": "Omjer slijedi dijeljenjem izraza $F_{per} = 2 \\cdot x \\cdot L \\cdot \\sin\\alpha \\cdot F_n \\cdot \\cos\\alpha_n/A$ s $F_{paral} = x \\cdot y \\cdot F_n/A$: $x$, $F_n$ i $A$ se skrate, a ostaje $2L \\cdot \\sin\\alpha \\cdot \\cos\\alpha_n/y$, pri čemu je $\\cos\\alpha_n$ izražen preko $n$ i $\\sin\\alpha$. Na slajdu je pod korijenom zapisano \"$\\sin\\alpha^{2}$\", što znači $\\sin^{2}\\alpha$. Omjer veći od 1 pokazuje da perasti mišić iste veličine razvija veću silu.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/20-paralelni-i-perasti-misic.png",
     "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
     "tags": [
       "formula",
@@ -798,7 +798,7 @@
     ],
     "explanation": "Kod perastih mišića vlakna su koso u odnosu na os mišića i hvataju se na tetivu pod kutem $\\alpha$. U smjeru osi prenosi se samo komponenta sile vlakna, pa je prijenos djelomičan – za razliku od mišića s paralelnim vlaknima, gdje sila ide izravno u smjeru kontrakcije.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/20-paralelni-i-perasti-misic.png",
     "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
     "tags": [
       "usporedba"
@@ -828,7 +828,7 @@
     ],
     "explanation": "Iako se sila svakog kosog vlakna u smjeru osi prenosi samo djelomično, u isti presjek perastog mišića stane znatno više vlakana. Veći broj vlakana nadoknađuje gubitak zbog kuta, pa je ukupna sila kontrakcije veća nego kod mišića s paralelnim vlaknima.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/20-paralelni-i-perasti-misic.png",
     "source": "20_Procjena misicne sile-nastavak.pdf, slajd 2",
     "tags": [
       "usporedba"
