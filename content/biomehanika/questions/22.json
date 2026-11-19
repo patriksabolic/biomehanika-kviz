@@ -21,8 +21,8 @@
     ],
     "explanation": "Čekić je prva u lancu slušnih koštica: njegova je drška srasla s bubnjićem, pa se svaki titraj bubnjića izravno prenosi na čekić. Na čekić je pričvršćen i timpanski mišić (zatezač bubnjića) koji preko njega regulira napetost membrane.",
     "image": null,
-    "explanation_image": null,
-    "source": "22_Biomehanika srednjeg uha.pdf, slajd 6",
+    "explanation_image": "img/22-slusne-kostice.png",
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 6; slika: slajd 2",
     "tags": [
       "definicija"
     ],
@@ -49,8 +49,8 @@
     ],
     "explanation": "Lanac koštica završava stremenom čije podnožje leži u ovalnom prozoru pužnice. Pomak podnožja stremena stvara val u tekućini pužnice, pa je stremen mjesto gdje se titranje zraka pretvara u titranje tekućine.",
     "image": null,
-    "explanation_image": null,
-    "source": "22_Biomehanika srednjeg uha.pdf, slajd 19",
+    "explanation_image": "img/22-misici-stremena.png",
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 19; slika: slajd 10",
     "tags": [
       "definicija"
     ],
@@ -109,8 +109,8 @@
     ],
     "explanation": "Koštice rade kao sustav poluga, a uz to se sila s velike površine bubnjića prenosi na malo podnožje stremena. Zato se zvučni signal na putu od vanjskog do unutarnjeg uha može pojačati do 22 puta.",
     "image": null,
-    "explanation_image": null,
-    "source": "22_Biomehanika srednjeg uha.pdf, slajd 7",
+    "explanation_image": "img/22-slusne-kostice.png",
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 7; slika: slajd 2",
     "tags": [
       "brojka"
     ],
@@ -140,8 +140,8 @@
     ],
     "explanation": "U srednjem uhu nalaze se dva poprečnoprugasta mišića: zatezač bubnjića i mišić stremena. Mišić stremena, koji regulira pokret najmanje kosti u tijelu, ujedno je i najmanji poprečnoprugasti mišić u tijelu.",
     "image": null,
-    "explanation_image": null,
-    "source": "22_Biomehanika srednjeg uha.pdf, slajd 7",
+    "explanation_image": "img/22-misici-stremena.png",
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 7; slika: slajd 10",
     "tags": [
       "definicija"
     ],
@@ -167,8 +167,8 @@
     ],
     "explanation": "Ova dva poprečnoprugasta mišića održavaju sustav slušnih koštica u pravilnom položaju i namještaju amplitudu osjetljivosti uha. Kod presnažnog podražaja imaju ulogu prigušivača.",
     "image": null,
-    "explanation_image": null,
-    "source": "22_Biomehanika srednjeg uha.pdf, slajd 7; slajd 19",
+    "explanation_image": "img/22-misici-stremena.png",
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 7; slajd 19; slika: slajd 10",
     "tags": [
       "funkcija"
     ],
@@ -197,8 +197,8 @@
     ],
     "explanation": "Zvukovod ima duljinu oko 25 mm i promjer do 8 mm, a sastoji se od hrskavičnog (membranskog) i koštanog dijela. Na njegovom kraju nalazi se bubnjić koji ga odvaja od srednjeg uha.",
     "image": null,
-    "explanation_image": null,
-    "source": "22_Biomehanika srednjeg uha.pdf, slajd 3",
+    "explanation_image": "img/22-srednje-uho.png",
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 3; slika: slajd 5",
     "tags": [
       "brojka"
     ],
@@ -227,8 +227,8 @@
     ],
     "explanation": "Bubnjić ne stoji okomito na zvukovod nego je nagnut pod kutom od 45°. Uz to ima oblik lijevka: jedan mu je kraj stalno napet, a drugi se može izbočiti.",
     "image": null,
-    "explanation_image": null,
-    "source": "22_Biomehanika srednjeg uha.pdf, slajd 3 i 6; skripta, Uho",
+    "explanation_image": "img/22-srednje-uho.png",
+    "source": "22_Biomehanika srednjeg uha.pdf, slajd 3 i 6; skripta, Uho; slika: slajd 5",
     "tags": [
       "brojka"
     ],

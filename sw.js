@@ -1,6 +1,6 @@
 // Service worker: offline rad (spec, odjeljak 14).
 // PRI SVAKOM DEPLOYU podigni VERSION (mora biti isto kao "version" u version.json).
-const VERSION = '0.9.1';
+const VERSION = '0.9.2';
 const CACHE = `bmkviz-${VERSION}`;
 
 const SHELL = [
@@ -102,7 +102,6 @@ const CONTENT = [
   './content/biomehanika/questions/33.json',
   './content/biomehanika/questions/34.json',
   './content/biomehanika/questions/35.json',
-  './content/biomehanika/img/02-1.png',
   './content/biomehanika/img/03-1.png',
   './content/biomehanika/img/03-2.png',
   './content/biomehanika/img/06-1.png',
@@ -125,6 +124,22 @@ const CONTENT = [
   './content/biomehanika/img/31-1.png',
   './content/biomehanika/img/32-1.png',
   './content/biomehanika/img/34-1.png',
+  './content/biomehanika/img/01-alveolna-kost.png',
+  './content/biomehanika/img/01-model-koncentrirani-parametri.png',
+  './content/biomehanika/img/01-tehnoloski-razvoj.png',
+  './content/biomehanika/img/02-leonardov-lav.png',
+  './content/biomehanika/img/02-spuzvasta-kost-trajektorije.png',
+  './content/biomehanika/img/03-hay-okret-macke.png',
+  './content/biomehanika/img/03-izravnato-tijelo.png',
+  './content/biomehanika/img/03-savinuto-tijelo.png',
+  './content/biomehanika/img/22-misici-stremena.png',
+  './content/biomehanika/img/22-slusne-kostice.png',
+  './content/biomehanika/img/22-srednje-uho.png',
+  './content/biomehanika/img/23-geometrija-oka-bez-duljine.png',
+  './content/biomehanika/img/23-gradja-oka.png',
+  './content/biomehanika/img/23-ostecenje-ocnog-zivca.png',
+  './content/biomehanika/img/23-sila-u-prstenu.png',
+  './content/biomehanika/img/23-slojevi-roznice.png',
   './content/biomehanika/img/13-funkcionalna-podjela.png',
   './content/biomehanika/img/13-jajoliki-zglob.png',
   './content/biomehanika/img/13-kuglasti-zglob.png',

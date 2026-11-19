@@ -46,7 +46,7 @@
     ],
     "explanation": "Culmannova dizalica iz 1865. primjer je biološke konstrukcije kao uzora tehničkoj: njezini nosači prate pravce naprezanja, kao gredice spužvaste kosti u bedrenoj kosti. Godine 1867. Meyer i Culmann objasnili su trajektorijalnu građu spužvaste kosti.",
     "image": null,
-    "explanation_image": "img/02-1.png",
+    "explanation_image": "img/02-spuzvasta-kost-trajektorije.png",
     "source": "2_Povijest.pdf, slajd 4",
     "tags": [
       "brojka",
@@ -296,7 +296,7 @@
     ],
     "explanation": "Leonardo da Vinci po narudžbi pape Lava X. za francuskog kralja konstruirao je mehaničkog lava koji sam šeće, a kad stane, otvara usta i iz njih ispadne cvijet – to se smatra prvim robotom. Njihalo za puls vezano je uz Galileja.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/02-leonardov-lav.png",
     "source": "2_Povijest.pdf, slajd 10",
     "tags": [
       "povijest"

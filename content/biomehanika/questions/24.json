@@ -22,8 +22,8 @@
     ],
     "explanation": "Za kuglu vrijedi $r_1 = r_2 = R_B$, a polumjer je pola promjera: $23\\,\\text{mm}/2 = 11{,}5\\,\\text{mm}$. Taj polumjer ulazi u izraz za membransko naprezanje.",
     "image": null,
-    "explanation_image": null,
-    "source": "24_Naprezanje ovojnice oka.pdf, slajd 1; 23_Biomehanika ovojnice oka.pdf, slajd 18",
+    "explanation_image": "img/23-1.png",
+    "source": "24_Naprezanje ovojnice oka.pdf, slajd 1; 23_Biomehanika ovojnice oka.pdf, slajd 18; slika: 23_Biomehanika ovojnice oka.pdf, slajd 6",
     "tags": [
       "brojka",
       "racun"
@@ -433,7 +433,7 @@
     ],
     "explanation": "Iz ravnoteže $-N^{B} \\cdot \\cos\\beta + N^{R} \\cdot \\cos\\alpha + N_r = 0$ dobiva se $N_r = (p/2) \\cdot (R_B \\cdot \\cos\\beta - R_R \\cdot \\cos\\alpha)$. Izraz u zagradi je razlika projekcija polumjera na uzdužnu os oka, $e$, pa je $N_r = (p/2) \\cdot e$.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/23-sila-u-prstenu.png",
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 2; 23_Biomehanika ovojnice oka.pdf, slajd 24",
     "tags": [
       "formula"
@@ -459,8 +459,8 @@
     ],
     "explanation": "$e$ je razlika projekcija polumjera bjeloočnice $R_B$ i rožnice $R_R$ na uzdužnoj osi oka, tj. razmak središta dviju kugli. Kod odraslih iznosi prosječno 4,7 mm.",
     "image": null,
-    "explanation_image": null,
-    "source": "24_Naprezanje ovojnice oka.pdf, slajd 2",
+    "explanation_image": "img/23-1.png",
+    "source": "24_Naprezanje ovojnice oka.pdf, slajd 2; slika: 23_Biomehanika ovojnice oka.pdf, slajd 6",
     "tags": [
       "definicija"
     ],
@@ -489,7 +489,7 @@
     ],
     "explanation": "Središta kugle rožnice i kugle bjeloočnice razmaknuta su na uzdužnoj osi oka prosječno 4,7 mm. Ta se vrijednost uvrštava u $N_r = (p/2) \\cdot e$ i u silu u prstenu.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/23-1.png",
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 3; 23_Biomehanika ovojnice oka.pdf, slajd 6 i 25",
     "tags": [
       "brojka"
@@ -515,7 +515,7 @@
     ],
     "explanation": "Sila se dobiva integriranjem radijalnog opterećenja po polovici prstena: $2F_p = \\int N_r \\cdot r_p \\cdot \\sin\\theta \\, d\\theta$ od 0 do $\\pi$. Integral $\\sin\\theta$ od 0 do $\\pi$ iznosi 2, pa je $2F_p = (p/2) \\cdot e \\cdot r_p \\cdot 2$, odnosno $F_p = p \\cdot e \\cdot r_p/2$.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/23-sila-u-prstenu.png",
     "source": "24_Naprezanje ovojnice oka.pdf, slajd 3; 23_Biomehanika ovojnice oka.pdf, slajd 24 i 25",
     "tags": [
       "formula"
@@ -545,8 +545,8 @@
     ],
     "explanation": "U proračunu sile u prstenu uzima se polumjer prstena $r_p = 5{,}75\\,\\text{mm}$ (polovica vrijednosti 11,5 mm). Uvrštava se u $F_p = p \\cdot e \\cdot r_p/2$.",
     "image": null,
-    "explanation_image": null,
-    "source": "24_Naprezanje ovojnice oka.pdf, slajd 3; 23_Biomehanika ovojnice oka.pdf, slajd 25",
+    "explanation_image": "img/23-sila-u-prstenu.png",
+    "source": "24_Naprezanje ovojnice oka.pdf, slajd 3; 23_Biomehanika ovojnice oka.pdf, slajd 25; slika: 23_Biomehanika ovojnice oka.pdf, slajd 24",
     "tags": [
       "brojka"
     ],
@@ -577,8 +577,8 @@
     ],
     "explanation": "$F_p = p \\cdot e \\cdot r_p/2 = 2{,}67 \\cdot 10^{-3}\\,\\text{N/mm}^{2} \\cdot 4{,}7\\,\\text{mm} \\cdot 5{,}75\\,\\text{mm}/2 \\approx 0{,}036078\\,\\text{N}$. Sila je vrlo mala, ali upravo toliko prsten mora nositi da bi se održala promjena zakrivljenosti na limbusu.",
     "image": null,
-    "explanation_image": null,
-    "source": "24_Naprezanje ovojnice oka.pdf, slajd 3; 23_Biomehanika ovojnice oka.pdf, slajd 25",
+    "explanation_image": "img/23-sila-u-prstenu.png",
+    "source": "24_Naprezanje ovojnice oka.pdf, slajd 3; 23_Biomehanika ovojnice oka.pdf, slajd 25; slika: 23_Biomehanika ovojnice oka.pdf, slajd 24",
     "tags": [
       "racun",
       "brojka"

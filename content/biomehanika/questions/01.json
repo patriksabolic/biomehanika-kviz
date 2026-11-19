@@ -256,7 +256,7 @@
     ],
     "explanation": "Na vremenskoj crti iz uvoda kvantno računalstvo predviđa se za 2040., a tehnološki singularitet za 2050. – trenutak kad umjetna inteligencija nadmaši ukupnu ljudsku inteligenciju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/01-tehnoloski-razvoj.png",
     "source": "1_Uvod_2026.pdf, slajd 5",
     "tags": [
       "brojka"
@@ -374,7 +374,7 @@
     ],
     "explanation": "Zub stoji u alveoli, udubini čeljusne kosti. Mehanički podražaj (deformacija parodontnog ligamenta) pokreće pregradnju alveolne kosti, i zub se tako postupno pomiče.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/01-alveolna-kost.png",
     "source": "1_Uvod_2026.pdf, slajd 10",
     "tags": [
       "definicija"
@@ -400,7 +400,7 @@
     ],
     "explanation": "Koštana pregradnja modelira se na tri načina: homogenizirani FE modeli (primjena zakona pregradnje kosti na kost kao kontinuum), mikroFE modeli (razina pojedinih trabekula) i mehanobiološki modeli (parcijalne diferencijalne jednadžbe za gustoću stanica, faktore rasta…).",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/01-alveolna-kost.png",
     "source": "1_Uvod_2026.pdf, slajd 10",
     "tags": [
       "podjela"
@@ -429,7 +429,7 @@
     ],
     "explanation": "Model s koncentriranim parametrima opisuje srce i krvožilje malim brojem elemenata (otpori, kapaciteti, inercije) umjesto detaljne 3D geometrije. Zato je dovoljno brz da se koristi u edukaciji i kliničkoj praksi, npr. za procjenu plućne hipertenzije.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/01-model-koncentrirani-parametri.png",
     "source": "1_Uvod_2026.pdf, slajd 14 i 15",
     "tags": [
       "definicija"

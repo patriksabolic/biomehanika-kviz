@@ -193,7 +193,7 @@
     ],
     "explanation": "Hopper je dijelove tijela mačke pojednostavio kao dva valjka spojena u sredini. Valjak ima lako izračunljiv moment tromosti, pa se rotacije mogu prikazati vektorima količine gibanja.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/03-2.png",
     "source": "3_Mačka.pdf, slajd 4",
     "tags": [
       "definicija"
@@ -219,7 +219,7 @@
     ],
     "explanation": "Hay je objasnio okret tako da mačka redom mijenja moment tromosti pojedinih dijelova tijela (npr. skupi prednje, ispruži stražnje noge). Dio s manjim momentom tromosti zakrene se više, a ukupna kutna količina gibanja ostaje ista.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/03-hay-okret-macke.png",
     "source": "3_Mačka.pdf, slajd 5",
     "tags": [
       "povijest"
@@ -386,7 +386,7 @@
     ],
     "explanation": "Uzimaju se dva krajnja slučaja: a) tijelo potpuno izravnato (dva valjka na istoj osi) i b) tijelo potpuno savinuto (dva valjka jedan uz drugi). U oba slučaja okretanje jednog dijela u jednom smjeru prati okretanje drugog u suprotnom.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/03-savinuto-tijelo.png",
     "source": "3_Mačka.pdf, slajd 9, 10 i 11",
     "tags": [
       "podjela"
@@ -412,8 +412,8 @@
     ],
     "explanation": "Ukupna kutna količina gibanja mora ostati ista. Ako jedan dio tijela dobije kutnu količinu gibanja u jednom smjeru, ostatak tijela mora dobiti jednaku u suprotnom smjeru.",
     "image": null,
-    "explanation_image": null,
-    "source": "3_Mačka.pdf, slajd 9 i 13",
+    "explanation_image": "img/03-izravnato-tijelo.png",
+    "source": "3_Mačka.pdf, slajd 9 i 13; slika: slajd 10",
     "tags": [
       "funkcija"
     ],

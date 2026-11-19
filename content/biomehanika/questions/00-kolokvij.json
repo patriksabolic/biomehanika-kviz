@@ -858,8 +858,8 @@
     "distractors": ["nakovanj", "čekić", "trtična kost"],
     "explanation": "Stremen je jedna od tri slušne koštice srednjeg uha (čekić, nakovanj, stremen) i najmanja je kost u tijelu. Koštice rade kao sustav poluga: titraj bubnjića prenosi se na čekić, pa na nakovanj i na kraju na stremen, koji ga predaje tekućini unutarnjeg uha i pritom pojačava signal.",
     "image": null,
-    "explanation_image": null,
-    "source": "Pitanja s kolokvija; 22_Biomehanika srednjeg uha.pdf, slajd 6 i 7",
+    "explanation_image": "img/22-slusne-kostice.png",
+    "source": "Pitanja s kolokvija; 22_Biomehanika srednjeg uha.pdf, slajd 6 i 7; slika: 22_Biomehanika srednjeg uha.pdf, slajd 2",
     "tags": ["definicija"],
     "real_exam": true
   },
@@ -890,8 +890,8 @@
     "distractors": ["prednjem", "središnjem", "bočnom"],
     "explanation": "U stražnjem dijelu bjeloočnice nalazi se otvor kroz koji izlazi očni živac, prekriven mrežastom strukturom lamina cribrosa – najslabijim dijelom ovojnice. Kad intraokularni tlak izrazito poraste (glaukom; normalno je oko 2,67 kPa), bjeloočnica popušta upravo ondje.",
     "image": null,
-    "explanation_image": null,
-    "source": "Pitanja s kolokvija; 23_Biomehanika ovojnice oka.pdf, slajd 7 i 17",
+    "explanation_image": "img/23-ostecenje-ocnog-zivca.png",
+    "source": "Pitanja s kolokvija; 23_Biomehanika ovojnice oka.pdf, slajd 7 i 17; slika: 23_Biomehanika ovojnice oka.pdf, slajd 9",
     "tags": ["funkcija"],
     "real_exam": true
   },
@@ -922,8 +922,8 @@
     "distractors": ["Wolffom", "Pauwelsom", "Borellijem"],
     "explanation": "Trabekule spužvaste kosti nisu poredane nasumično, nego slijede pravce kojima se prenosi opterećenje – trajektorije. Meyer i Culmann protumačili su tu trajektorijalnu građu i mehanički usporedili proksimalni dio bedrene kosti s kranom (dizalicom).",
     "image": null,
-    "explanation_image": null,
-    "source": "Pitanja s kolokvija; 2_Povijest.pdf, slajd 14",
+    "explanation_image": "img/02-spuzvasta-kost-trajektorije.png",
+    "source": "Pitanja s kolokvija; 2_Povijest.pdf, slajd 14; slika: 2_Povijest.pdf, slajd 4",
     "tags": ["povijest"],
     "real_exam": true
   },
@@ -938,7 +938,7 @@
     "distractors": ["mostom", "lukom", "stupom"],
     "explanation": "Meyer i Culmann protumačili su trajektorijalnu građu spužvaste kosti i mehanički usporedili proksimalni dio bedrene kosti s kranom (dizalicom): trabekule spužvaste kosti poredane su slično kao nosači Culmannove dizalice (1865.).",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/02-spuzvasta-kost-trajektorije.png",
     "source": "Pitanja s kolokvija; 2_Povijest.pdf, slajd 4 i 14",
     "tags": ["povijest", "usporedba"],
     "real_exam": true

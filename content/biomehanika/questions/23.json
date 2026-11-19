@@ -82,8 +82,8 @@
     ],
     "explanation": "Očna jabučica ima tri ovojnice: vanjsku fibroznu (rožnica + bjeloočnica), srednju prokrvljenu (žilnica, šarenica, cilijarno tijelo) i unutarnju (mrežnica). Mehanički teret unutarnjeg tlaka nosi upravo vanjska fibrozna ovojnica.",
     "image": null,
-    "explanation_image": null,
-    "source": "23_Biomehanika ovojnice oka.pdf, slajd 4; skripta, Oko",
+    "explanation_image": "img/23-gradja-oka.png",
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 4; skripta, Oko; slika: slajd 3",
     "tags": [
       "podjela"
     ],
@@ -141,8 +141,8 @@
     ],
     "explanation": "Žuta pjega je središnji dio mrežnice gdje su živčane stanice najgušće raspoređene. Pored žute pjege nalazi se početak vidnog živca.",
     "image": null,
-    "explanation_image": null,
-    "source": "23_Biomehanika ovojnice oka.pdf, slajd 5; skripta, Oko",
+    "explanation_image": "img/23-gradja-oka.png",
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 5; skripta, Oko; slika: slajd 3",
     "tags": [
       "definicija"
     ],
@@ -169,7 +169,7 @@
     ],
     "explanation": "Rožnica ima manji polumjer zakrivljenosti od bjeloočnice, pa je oko geometrijski spoj dviju kugli. Granica između njih, gdje se zakrivljenost naglo mijenja, je limbus.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/23-1.png",
     "source": "23_Biomehanika ovojnice oka.pdf, slajd 6; skripta, Oko",
     "tags": [
       "definicija"
@@ -320,8 +320,8 @@
     ],
     "explanation": "Rožnica ima 6 slojeva: epitel, Bowmanovu membranu, stromu, Dua sloj, Descemetovu membranu i endotel. Za razliku od nje, bjeloočnica ima samo 3 sloja.",
     "image": null,
-    "explanation_image": null,
-    "source": "23_Biomehanika ovojnice oka.pdf, slajd 11",
+    "explanation_image": "img/23-slojevi-roznice.png",
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 11; slika: slajd 12",
     "tags": [
       "brojka",
       "podjela"
@@ -352,8 +352,8 @@
     ],
     "explanation": "Stroma je najdeblji dio rožnice (oko $500\\,\\mu\\text{m}$) i sastoji se od 300–500 slojeva lamela s paralelnim snopovima kolagenskih vlakana. Modul elastičnosti rožnice iznosi 17 MPa.",
     "image": null,
-    "explanation_image": null,
-    "source": "23_Biomehanika ovojnice oka.pdf, slajd 13",
+    "explanation_image": "img/23-slojevi-roznice.png",
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 13; slika: slajd 12",
     "tags": [
       "brojka"
     ],
@@ -645,8 +645,8 @@
     ],
     "explanation": "Lamina cribrosa je mreža umreženih vlakana elastina i kolagena preko otvora za očni živac. Kako je najslabija, pri povišenom tlaku puca prva, a njezino popuštanje uzrokuje oštećenje vidnog živca.",
     "image": null,
-    "explanation_image": null,
-    "source": "23_Biomehanika ovojnice oka.pdf, slajd 17 i 27; skripta, Oko",
+    "explanation_image": "img/23-ostecenje-ocnog-zivca.png",
+    "source": "23_Biomehanika ovojnice oka.pdf, slajd 17 i 27; skripta, Oko; slika: slajd 9",
     "tags": [
       "definicija"
     ],
@@ -766,7 +766,7 @@
       "30 mm"
     ],
     "explanation": "Očna jabučica nije savršena kugla: sastoji se od veće sfere bjeloočnice (Ø23 mm) i manje, ispupčene sfere rožnice. Zbog te izbočine sprijeda ukupna duljina oka po uzdužnoj osi (24 mm) veća je od promjera bjeloočnice.",
-    "image": null,
+    "image": "img/23-geometrija-oka-bez-duljine.png",
     "explanation_image": "img/23-1.png",
     "source": "23_Biomehanika ovojnice oka.pdf, slajd 6",
     "tags": [
@@ -793,8 +793,8 @@
       "razliku promjera bjeloočnice i rožnice"
     ],
     "explanation": "Oko je modelirano dvjema sferama različitih polumjera (bjeloočnica i rožnica) koje se sijeku u prstenu na limbusu. Kota 4,7 mm je udaljenost njihovih središta na uzdužnoj osi; ona je jednaka razlici projekcija polumjera $R_B$ i $R_R$ na os, pa se ista veličina $e$ koristi u izrazima $N_r = (p/2) \\cdot e$ i $F_p = p \\cdot e \\cdot r_p/2$.",
-    "image": null,
-    "explanation_image": "img/23-1.png",
+    "image": "img/23-1.png",
+    "explanation_image": null,
     "source": "23_Biomehanika ovojnice oka.pdf, slajd 6, 23 i 25",
     "tags": [
       "definicija",
