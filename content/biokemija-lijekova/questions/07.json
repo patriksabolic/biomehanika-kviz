@@ -16,7 +16,7 @@
     ],
     "explanation": "Peroksidaze su hemoproteini. Željezo hema koordinativno je vezano na dušik histidinskog ostatka proteina, što određuje reaktivnost aktivnog mjesta.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-hem-dzep.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 2",
     "tags": [
       "definicija"
@@ -45,7 +45,7 @@
     ],
     "explanation": "Vezanje na histidinski dušik razlikuje peroksidaze od citokroma P450, u kojem je peti ligand željeza tiolatni sumpor cisteina.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-hem-dzep.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 2",
     "tags": [
       "definicija"
@@ -206,7 +206,7 @@
     ],
     "explanation": "Reakcija je $\\ce{H2O2 + SCN- -> OSCN- + H2O}$, a nastali hipotiocijanit oksidira sulfhidrilne skupine bakterijskih proteina.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-lpo.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 3",
     "tags": [
       "funkcija"
@@ -230,7 +230,7 @@
     ],
     "explanation": "Za reakciju je potreban vodikov peroksid. Protutijela anti-TPO usmjerena su upravo protiv tog enzima i marker su autoimunih bolesti štitnjače.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-tpo.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 3",
     "tags": [
       "funkcija"
@@ -340,7 +340,7 @@
     ],
     "explanation": "Spoj I ima oblik $\\ce{(Por^{.+}-Fe^4+=O)}$: željezo je oksidirano do Fe(IV), a drugi oksidacijski ekvivalent nosi porfirinski radikal-kation. Peroksid se pritom reducira u alkohol ili vodu.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-ciklus-peroksidaza.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 5",
     "tags": [
       "funkcija"
@@ -366,7 +366,7 @@
     ],
     "explanation": "Spoj II ima oblik $\\ce{(Por-Fe^4+=O)}$. On zatim oksidira drugu molekulu supstrata, pri čemu nastaje drugi radikal i voda, a enzim se vraća u nativni Fe(III) oblik.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-ciklus-peroksidaza.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 5",
     "tags": [
       "funkcija"
@@ -392,7 +392,7 @@
     ],
     "explanation": "Tada nastaje oksigenirani produkt izravno, slično monooksigenazama, no glavni put peroksidaza ostaju dvije uzastopne jednoelektronske oksidacije.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-ishodi-peroksidaza.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 5",
     "tags": [
       "funkcija"
@@ -421,7 +421,7 @@
     ],
     "explanation": "Zbog rezonancije radikal može reagirati na više mjesta u molekuli: s biomolekulama, s kisikom (uz nastanak peroksil radikala) ili s drugim radikalom uz dimerizaciju i oligomerizaciju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-fenoksil-radikal.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 6",
     "tags": [
       "funkcija"
@@ -447,7 +447,7 @@
     ],
     "explanation": "Oba koraka su jednoelektronske oksidacije, a oksidans je vodikov peroksid koji se pritom reducira u vodu.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-hidrokinon-kinon.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 7",
     "tags": [
       "funkcija"
@@ -476,7 +476,7 @@
     ],
     "explanation": "Dismutacija ne traži enzim. Drugi put je dvoelektronska redukcija kinona kinon-reduktazama uz NAD(P)H, koja zaobilazi nastanak semikinonskog radikala.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-hidrokinon-kinon.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 7",
     "tags": [
       "funkcija"
@@ -502,7 +502,7 @@
     ],
     "explanation": "Enzim NQO1 prenosi dva elektrona odjednom uz NAD(P)H i daje hidrokinon. Jednoelektronska redukcija, nasuprot tome, vodi u redoks-ciklus i nastanak reaktivnih kisikovih vrsta.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-zastitni-putevi-kinona.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajdovi 7 i 11",
     "tags": [
       "funkcija"
@@ -582,7 +582,7 @@
     ],
     "explanation": "Kod CYP-a semikinon-iminski radikal NAPSQI ostaje u aktivnom mjestu i odmah se oksidira dalje u NAPQI. Kod PGHS-a radikal može napustiti enzim i reagirati s drugim radikalom.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-paracetamol-pghs.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 9",
     "tags": [
       "funkcija"
@@ -612,7 +612,7 @@
     ],
     "explanation": "Nakon oduzimanja oba H-atoma i preraspodjele veza nastaje NAPQI. Riječ je o ukupno dvoelektronskoj oksidaciji bez ugradnje novog atoma kisika.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-paracetamol-cyp.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 9",
     "tags": [
       "funkcija"
@@ -693,7 +693,7 @@
     ],
     "explanation": "Superoksid-dismutaza pretvara superoksid u vodikov peroksid, katalaza ga razgrađuje u vodu i kisik, a glutation-peroksidaza uklanja i lipidne perokside uz pretvorbu dva GSH u GSSG, koji glutation-reduktaza uz NADPH vraća natrag.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-antioksidativni-enzimi.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 11",
     "tags": [
       "funkcija"
@@ -743,7 +743,7 @@
     ],
     "explanation": "Svaka podjedinica ima tri domene: N-terminalnu s dva redoks klastera $\\ce{Fe2S2}$, FAD domenu i C-terminalnu s molibdopterinom (Moco) i veznim mjestom supstrata.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-molibden-hidroksilaza.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 13",
     "tags": [
       "definicija"
@@ -773,7 +773,7 @@
     ],
     "explanation": "Elektroni iz supstrata idu od molibdenskog centra preko klastera Fe-S na FAD, a odatle na kisik (XO), na $\\ce{NAD+}$ (XDH) ili na novi supstrat.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-molibden-hidroksilaza.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 13",
     "tags": [
       "definicija"
@@ -799,7 +799,7 @@
     ],
     "explanation": "To je ključna razlika prema monooksigenazama. Glutamat oduzima proton skupini Mo–OH i stvara nukleofilni $\\ce{Mo-O^-}$, koji zatim napada supstrat.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-moco.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajdovi 14 i 16",
     "tags": [
       "funkcija"
@@ -825,7 +825,7 @@
     ],
     "explanation": "Nukleofilni $\\ce{Mo-O^-}$ napada $sp^2$-hibridizirani ugljik koji nosi vodik — C2 hipoksantina ili C8 ksantina. Produkt s novom hidroksilnom skupinom privremeno ostaje vezan uz molibden dok ga ne istisne voda.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-moco.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 14",
     "tags": [
       "funkcija"
@@ -851,7 +851,7 @@
     ],
     "explanation": "Prijenosom elektrona na kisik nastaju superoksidni anion i vodikov peroksid. AO je važna u metabolizmu lijekova i može dovesti do bioaktivacije.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-aldehid-oksidaza.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 15",
     "tags": [
       "definicija"
@@ -905,7 +905,7 @@
     ],
     "explanation": "Sljedećim korakom, hidroksilacijom na C8, nastaje mokraćna kiselina. U oba koraka ugrađeni atom kisika potječe iz vode, a pri fiziološkom pH prevladava urat.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-purini-xor.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 16",
     "tags": [
       "funkcija"
@@ -934,7 +934,7 @@
     ],
     "explanation": "Vezanjem oksipurinola za reducirani molibden smanjuje se stvaranje mokraćne kiseline, pa je metabolit alopurinola zapravo nositelj produljenog učinka lijeka.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-alopurinol.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 16",
     "tags": [
       "funkcija"
@@ -1015,7 +1015,7 @@
     ],
     "explanation": "6-merkaptopurin je antineoplastik, analog purina. Alopurinol inhibira XO, pa se koncentracija 6-merkaptopurina povećava i raste rizik od mijelosupresije — pri istodobnoj primjeni dozu treba smanjiti.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-merkaptopurin.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 18",
     "tags": [
       "funkcija",
@@ -1068,7 +1068,7 @@
     ],
     "explanation": "Konačni produkt obično je manje reaktivan, ali međuprodukti — osobito nitrozo spoj i hidroksilamin — mogu oštetiti biomolekule.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-redukcija-nitro-nitrozo.png",
     "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 19",
     "tags": [
       "funkcija"

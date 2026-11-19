@@ -74,7 +74,7 @@
     ],
     "explanation": "CES su serinske hidrolaze, glikoproteini od oko 60 kDa s približno 540 aminokiselinskih ostataka i visokom očuvanošću među vrstama (oko 70 % identičnosti slijeda). Aktivirani serinski ostatak djeluje kao nukleofil, a histidin i glutamat ga za to pripremaju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-kataliticka-trijada.png",
     "source": "9 Hidrolize.pdf, slajd 6",
     "tags": [
       "definicija"
@@ -103,7 +103,7 @@
     ],
     "explanation": "Hidrolizom acil-enzima vodom oslobađaju se alkohol i karboksilna kiselina, a enzim se regenerira za novi ciklus. Taj dvostupanjski mehanizam objašnjava zašto CES mogu katalizirati i transesterifikaciju, kad ulogu nukleofila umjesto vode preuzme alkohol.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-acil-enzim.png",
     "source": "9 Hidrolize.pdf, slajdovi 6 i 7",
     "tags": [
       "definicija"
@@ -324,7 +324,7 @@
     ],
     "explanation": "Jedna metilna skupina uz estersku vezu snižava brzinu na 15 mg/ml/h, a dvije je gotovo potpuno zaustavljaju. Uz to dietilamino skupina prokaina djeluje kao elektron-donor i smanjuje elektrofilnost karbonila; rezultat sporije hidrolize je produljen farmakološki učinak.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-prokain-brzina-hidrolize.png",
     "source": "9 Hidrolize.pdf, slajd 12",
     "tags": [
       "brojka"
@@ -351,7 +351,7 @@
     ],
     "explanation": "AChE ima izuzetno visoku katalitičku učinkovitost, pa je djelovanje acetilkolina vrlo kratko. Inhibitori poput organofosfata i karbamata zaustavljaju razgradnju, acetilkolin se nakuplja i nastaje kolinergički sindrom.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-acetilkolin-hidroliza.png",
     "source": "9 Hidrolize.pdf, slajd 13",
     "tags": [
       "funkcija"
@@ -408,7 +408,7 @@
     ],
     "explanation": "Klofibrat je hipolipemik iz skupine fibrata i primjenjuje se kao prolijek, pa je hidroliza nužna za terapijski učinak. To je suprotno esterskim lijekovima kod kojih hidroliza znači inaktivaciju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-klofibrat.png",
     "source": "9 Hidrolize.pdf, slajd 15",
     "tags": [
       "funkcija"
@@ -436,7 +436,7 @@
     ],
     "explanation": "Kokain ima dvije esterske skupine, pa idu dva puta: CES1 (uz moguću neenzimsku komponentu) daje benzoilekgonin, a CES2 i butirilkolinesteraza metilni ester ekgonina. Oba su produkta polarna i znače detoksikaciju, za razliku od N-demetilacije uz CYP3A4 koja daje toksični norkokain.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-kokain-benzoilekgonin.png",
     "source": "9 Hidrolize.pdf, slajd 16",
     "tags": [
       "funkcija"
@@ -464,7 +464,7 @@
     ],
     "explanation": "Hidrolizu provode plazmatske i tkivne esteraze, a u plazmi je važna butirilkolinesteraza; i 6-acetilmorfin i morfin su aktivni. Morfin se zatim konjugira uz UGT u M3G, koji je neaktivan, i M6G, koji je aktivan.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-heroin-morfin.png",
     "source": "9 Hidrolize.pdf, slajd 17",
     "tags": [
       "funkcija"
@@ -520,7 +520,7 @@
     ],
     "explanation": "Bez metilnih skupina anestezija je nepotpuna, s jednom traje 4–5 minuta, a s dvije 53 minute. Orto-supstitucija sterički štiti amidnu vezu i povećava lipofilnost, pa je hidroliza sporija, a djelovanje dulje — to je primjer izravne veze strukture, brzine hidrolize i trajanja učinka.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-lidokain-trajanje-anestezije.png",
     "source": "9 Hidrolize.pdf, slajd 19",
     "tags": [
       "brojka"
@@ -547,7 +547,7 @@
     ],
     "explanation": "Lidokain se metabolizira u jetri uz CES1A i CYP450; nastali 2,6-ksilidin povezan je s methemoglobinemijom i toksičnošću. Hidroliza može uslijediti i nakon N-deetilacije, jer se N-deetilirani metaboliti lakše hidroliziraju od samog lidokaina.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-lidokain-hidroliza.png",
     "source": "9 Hidrolize.pdf, slajd 22",
     "tags": [
       "funkcija"
@@ -576,7 +576,7 @@
     ],
     "explanation": "Bez supstituenta hidroliza je vrlo brza i potpuna (100 %), amino-skupina je snižava na 20 %, a hidroksilna na 4 %. Elektron-donorske skupine stabiliziraju amid rezonancijom i smanjuju elektrofilnost karbonila, pa su takvi podaci osnova za dizajn metabolički stabilnih lijekova.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-amidi-elektronski-cimbenici.png",
     "source": "9 Hidrolize.pdf, slajd 20",
     "tags": [
       "brojka"
@@ -630,7 +630,7 @@
     ],
     "explanation": "Tercijarni amid je vrlo stabilan, pa je hidroliza uz amidaze u jetrenim mikrosomima i citosolu relativno spora i učinak lijeka dugotrajniji. Uz hidrolizu indometacin prolazi i oksidaciju te konjugaciju, uključujući O-demetilaciju metoksi skupine.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-indometacin-hidroliza.png",
     "source": "9 Hidrolize.pdf, slajd 23",
     "tags": [
       "funkcija"
@@ -659,7 +659,7 @@
     ],
     "explanation": "6-aminopenicilanska kiselina važan je intermedijer za sintezu polusintetskih penicilina. Drugi put, otvaranje $\\beta$-laktamskog prstena uz $\\beta$-laktamaze, daje neaktivnu peniciloinsku kiselinu i glavni je mehanizam rezistencije; kloksacilin i dikloksacilin sterički su zaštićeni od tog napada.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-penicilin-acilaza.png",
     "source": "9 Hidrolize.pdf, slajd 24",
     "tags": [
       "funkcija"
@@ -686,7 +686,7 @@
     ],
     "explanation": "Dimetilamino-skupina zamjenjuje se hidroksilnom, a uvjet je da je vezana na C-atom uz dvostruku vezu, što olakšava cijepanje veze C–N; reakciju katalizira CYP. Nastali hidroksilni metabolit pogodan je za daljnju konjugaciju. Aminopirin je nekadašnji analgetik i antipiretik.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-aminopirin.png",
     "source": "9 Hidrolize.pdf, slajd 25",
     "tags": [
       "funkcija"
@@ -883,7 +883,7 @@
     ],
     "explanation": "Progvanil je prolijek: oksidacijom uz CYP2C19 (glavni) i CYP3A4 (sporedni) nastaje reaktivni iminski odnosno kationski intermedijer, a drugi dušik u molekuli napada taj elektrofilni centar i zatvara prsten. Ciklogvanil inhibira dihidrofolat-reduktazu parazita; u urinu ga ima do oko 30 %. Zbog polimorfizma CYP2C19 spori metabolizatori lijek slabije aktiviraju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-progvanil-ciklogvanil.png",
     "source": "9 Hidrolize.pdf, slajd 35",
     "tags": [
       "funkcija"

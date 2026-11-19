@@ -458,7 +458,7 @@
     "distractors": ["1", "25", "50"],
     "explanation": "Izloženost se procjenjuje sistemski, najčešće preko AUC-a pri stanju dinamičke ravnoteže. Metaboliti iznad praga mogu zahtijevati dodatnu nekliničku karakterizaciju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/01-mist-prag-10-posto.png",
     "source": "1 Uvod.pdf, slajdovi 26 i 27",
     "tags": ["brojka"],
     "real_exam": false
@@ -490,7 +490,7 @@
     "distractors": ["NAT, AO, ADH, SULT i XOR", "MAO, CYP, GST i UGT", "kolinesteraze, paraoksonaze i amin-oksidaze"],
     "explanation": "Endoplazmatski retikulum je glavno mjesto metabolizma lipofilnih lijekova. Citosolni enzimi (NAT, AO, AKR, ADH, AZOR, NR, DAO, EPHX, GST, CES, NQO, XOR, SULT i drugi) metaboliziraju lijekove različite hidrofilnosti.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/01-enzimi-er-mitohondriji-jezgra.png",
     "source": "1 Uvod.pdf, slajd 29",
     "tags": ["podjela"],
     "real_exam": false
@@ -506,7 +506,7 @@
     "distractors": ["CYP i FMO endoplazmatskog retikuluma", "MAO i GST mitohondrija", "SULT i NAT citosola"],
     "explanation": "Svi ostali navedeni enzimi su unutarstanični: u endoplazmatskom retikulumu, citosolu, mitohondrijima, jezgrinoj ovojnici, plazmatskoj membrani i Golgijevu aparatu.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/01-enzimi-krvne-plazme.png",
     "source": "1 Uvod.pdf, slajd 29",
     "tags": ["podjela"],
     "real_exam": false
@@ -522,7 +522,7 @@
     "distractors": ["endoplazmatski retikulum", "Golgijev aparat", "lizosom"],
     "explanation": "U mitohondrijima se uz MAO nalaze i aciltransferaze, CYP, GST i UGT. Supstrati enzima jezgrine ovojnice mogu biti potencijalno toksični ksenobiotici, primjerice benzo[a]piren i arilamini.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/01-enzimi-er-mitohondriji-jezgra.png",
     "source": "1 Uvod.pdf, slajd 29",
     "tags": ["funkcija"],
     "real_exam": false

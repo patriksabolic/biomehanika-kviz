@@ -22,8 +22,8 @@
     ],
     "explanation": "Arenoksid nije obavezan: fenol može nastati i putem koji ne uključuje slobodni arenoksid, izravnom pregradnjom oksigeniranog diradikala.",
     "image": null,
-    "explanation_image": null,
-    "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajdovi 3 i 4",
+    "explanation_image": "img/05-arenoksid-hidratacija.png",
+    "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajdovi 3 i 4; slika: slajd 5",
     "tags": [
       "definicija"
     ],
@@ -48,7 +48,7 @@
     ],
     "explanation": "Arenoksid se može i kovalentno vezati na nukleofilne skupine makromolekula, a kod nekih policikličkih aromatskih ugljikovodika dihidrodiol se ponovno oksidira CYP-om u diol-epoksid. Fenoli i dioli se dalje glukuronidiraju i sulfokonjugiraju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-arenoksid-hidratacija.png",
     "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajdovi 3 i 5",
     "tags": [
       "podjela"
@@ -103,8 +103,8 @@
     ],
     "explanation": "Kratica dolazi od National Institutes of Health, gdje je pojava opisana. Zahvaljujući NIH-pomaku supstituent (H, D, T, halogen ili metilna skupina) ostaje u molekuli umjesto da se odcijepi.",
     "image": null,
-    "explanation_image": null,
-    "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 6",
+    "explanation_image": "img/05-nih-pomak-deuterij.png",
+    "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 6; slika: slajd 13",
     "tags": [
       "definicija"
     ],
@@ -159,8 +159,8 @@
     ],
     "explanation": "Produkti su trans-dihidrodioli, pa je hidratacija najčešće detoksikacijski put. Karboksilatna skupina katalitičkog aspartata nukleofilno otvara epoksidni prsten, a nastali esterski međuprodukt hidrolizira se vodom.",
     "image": null,
-    "explanation_image": null,
-    "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 7",
+    "explanation_image": "img/05-arenoksid-hidratacija.png",
+    "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 7; slika: slajd 5",
     "tags": [
       "definicija"
     ],
@@ -214,7 +214,7 @@
     ],
     "explanation": "Katehol se dalje može oksidirati, primjerice peroksidazama, do ortho-semikinonskog radikala i ortho-benzokinona, koji su potencijalno toksični.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-arenoksid-hidratacija.png",
     "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajdovi 5 i 7",
     "tags": [
       "funkcija"
@@ -243,7 +243,7 @@
     ],
     "explanation": "Taj je put važan upravo kod policikličkih aromatskih ugljikovodika jer diol-epoksidi vrlo dobro alkiliraju DNA i povezani su s karcinogenošću.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-diolepoksid.png",
     "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajdovi 5 i 7",
     "tags": [
       "funkcija"
@@ -269,8 +269,8 @@
     ],
     "explanation": "Reakcija s glutationom je detoksikacija, a reakcije s proteinima i DNA vode u citotoksičnost, mutagenost i karcinogenost. Toksičnost ovisi o stabilnosti epoksida i brzini detoksikacije.",
     "image": null,
-    "explanation_image": null,
-    "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 8",
+    "explanation_image": "img/05-arenoksid-glutation.png",
+    "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 8; slika: slajd 5",
     "tags": [
       "podjela"
     ],
@@ -295,8 +295,8 @@
     ],
     "explanation": "Nukleofilni sumpor glutationa u aktiviranom tiolatnom obliku otvara epoksidni prsten. Vrlo reaktivni epoksidi mogu reagirati s glutationom i neenzimski. Konjugacija smanjuje kovalentno vezanje za proteine i DNA.",
     "image": null,
-    "explanation_image": null,
-    "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 9",
+    "explanation_image": "img/05-arenoksid-glutation.png",
+    "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 9; slika: slajd 5",
     "tags": [
       "funkcija"
     ],
@@ -321,8 +321,8 @@
     ],
     "explanation": "Elektron-donorski supstituenti su primjerice hidroksilna, amino, alkoksi i alkilna skupina. Oni povećavaju elektronsku gustoću prstena i aktiviraju ga.",
     "image": null,
-    "explanation_image": null,
-    "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 10",
+    "explanation_image": "img/05-anilin-nitrobenzen-toluen.png",
+    "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 10; slika: slajd 11",
     "tags": [
       "podjela"
     ],
@@ -347,8 +347,8 @@
     ],
     "explanation": "Takvi supstituenti smanjuju elektronsku gustoću i deaktiviraju prsten, pa je aromatska hidroksilacija sporija i pomaknuta u meta položaj.",
     "image": null,
-    "explanation_image": null,
-    "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 10",
+    "explanation_image": "img/05-anilin-nitrobenzen-toluen.png",
+    "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 10; slika: slajd 11",
     "tags": [
       "podjela"
     ],
@@ -373,7 +373,7 @@
     ],
     "explanation": "Amino-skupina je elektron-donorska i aktivira prsten, a nitro-skupina je snažno elektron-povlačeća i deaktivira ga.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-anilin-nitrobenzen-toluen.png",
     "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 11",
     "tags": [
       "usporedba"
@@ -399,7 +399,7 @@
     ],
     "explanation": "Metilna skupina je slab elektron-donor i usmjerava u orto i para položaj, ali oksidacija same metilne skupine teče brže od aromatske hidroksilacije.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-anilin-nitrobenzen-toluen.png",
     "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 11",
     "tags": [
       "funkcija"
@@ -477,7 +477,7 @@
     ],
     "explanation": "Metoksi skupina stabilizira karbokation nastao otvaranjem epoksida i time pogoduje zadržavanju supstituenta. Konkurentni je put otpuštanje deuterona, pri čemu nastaje nedeuterirani fenol.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-nih-pomak-deuterij.png",
     "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajdovi 13 i 14",
     "tags": [
       "funkcija"
@@ -503,7 +503,7 @@
     ],
     "explanation": "Metoksi skupina stabilizira nastali karbokation, pa je migracija metilne skupine moguća, premda je to rijedak ishod.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-p-metilanisol.png",
     "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 14",
     "tags": [
       "funkcija"
@@ -584,7 +584,7 @@
     ],
     "explanation": "Reakciju katalizira CYP2D6, zbog čega su izražene interindividualne razlike, a postoje i vrstne razlike u metabolizmu. Amfetamin je psihostimulans fenetilaminske strukture.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-amfetamin.png",
     "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 17",
     "tags": [
       "funkcija"
@@ -638,7 +638,7 @@
     ],
     "explanation": "Sudjeluju i CYP2C19 te CYP2E1. Nastali para-hidroksifenobarbital nema farmakološku aktivnost, pa je reakcija inaktivacija tog barbituratnog antiepileptika i sedativa-hipnotika.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-fenobarbital.png",
     "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 19",
     "tags": [
       "funkcija"
@@ -664,7 +664,7 @@
     ],
     "explanation": "Nastaju 2-hidroksiestradiol i 4-hidroksiestradiol, dakle kateholi, koji se dalje oksidiraju u semikinone i kinone. Ti reaktivni metaboliti povezuju se s karcinogenezom.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-estradiol.png",
     "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 20",
     "tags": [
       "funkcija"
@@ -690,7 +690,7 @@
     ],
     "explanation": "Oksigenirani međuprodukt daje epoksid, koji epoksid-hidrolazom prelazi u vicinalni 1,2-diol bez migracije supstituenta, ili karbonilne metabolite, kod kojih je migracija supstituenta moguća.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-epoksidacija-medjuprodukti.png",
     "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 22",
     "tags": [
       "funkcija"
@@ -742,7 +742,7 @@
     ],
     "explanation": "Alkiliranje hema je nepovratno oštećenje aktivnog mjesta i primjer je inaktivacije enzima vlastitim reaktivnim metabolitom.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-epoksidacija-medjuprodukti.png",
     "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 22",
     "tags": [
       "funkcija"
@@ -771,7 +771,7 @@
     ],
     "explanation": "Glavni enzim je CYP3A4, a sudjeluje i CYP2C8. Epoksid je farmakološki aktivan metabolit; epoksid-hidrolaza ga stereoselektivno hidratizira u trans-10,11-dihidrodiol, koji se zatim konjugira s glukuronskom kiselinom uz UGT.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-karbamazepin.png",
     "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 23",
     "tags": [
       "funkcija"
@@ -797,7 +797,7 @@
     ],
     "explanation": "Dihidrodiol se dalje konjugira s glukuronskom kiselinom. Budući da je sam epoksid farmakološki aktivan, brzina njegove hidratacije utječe na učinak i podnošljivost lijeka.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-karbamazepin.png",
     "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 23",
     "tags": [
       "funkcija"
@@ -825,7 +825,7 @@
     ],
     "explanation": "Oksiren se reorganizira u keten, koji je snažno elektrofilan. Oksiran je, za razliku od njega, zasićeni troočlani epoksidni prsten.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-oksiran-oksiren.png",
     "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajdovi 25, 28 i 29",
     "tags": [
       "definicija"
@@ -932,7 +932,7 @@
     ],
     "explanation": "Oksidacijom trostruke veze nastaje oksiren, koji se reorganizira u keten. Keten reagira s hem skupinom ili proteinskim ostatkom i kovalentno modificira CYP, što ga ireverzibilno inaktivira i mijenja metabolizam drugih lijekova.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-etinil-steroid.png",
     "source": "5 Hidoksilacije sp2 i sp C-atoma.pdf, slajd 29",
     "tags": [
       "funkcija"

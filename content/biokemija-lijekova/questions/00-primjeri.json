@@ -26,7 +26,7 @@
     "distractors": ["lizosom", "peroksisom", "stanična stijenka"],
     "explanation": "U jezgrinoj ovojnici nalaze se CYP, EPHX, GST i UGT. Smještaj je toksikološki važan jer se reaktivni metaboliti tako stvaraju blizu DNA; tipični supstrati su benzo[a]piren i arilamini. Tvrdnja da enzima nema u jezgrinoj membrani zato je netočna.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/01-enzimi-er-mitohondriji-jezgra.png",
     "source": "Primjeri ispitnih pitanja (studentski zapis, prije 2022.); 1 Uvod.pdf, slajd 29",
     "tags": ["podjela"],
     "real_exam": true
@@ -202,7 +202,7 @@
     "distractors": ["aldehid-oksidaza (AO)", "monoaminooksidaza (MAO)", "flavin-monooksigenaza (FMO)"],
     "explanation": "XOR katalizira oba koraka: hidroksilaciju hipoksantina na C2 u ksantin i hidroksilaciju ksantina na C8 u mokraćnu kiselinu; ugrađeni atom kisika potječe iz vode. Aldehid-oksidaza djeluje na aldehide i N-heterocikličke ksenobiotike, npr. zajedno s XOR-om oksidira alopurinol u oksipurinol. Tvrdnja da ksantin u mokraćnu kiselinu prevode XOR i AO zato nije točna prema prezentaciji.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-purini-xor.png",
     "source": "Primjeri ispitnih pitanja (studentski zapis, prije 2022.); 7 Peroksidaze i molibden hidroksilaze.pdf, slajd 16",
     "tags": ["funkcija"],
     "real_exam": true
@@ -394,7 +394,7 @@
     "distractors": ["ubrzavaju je zbog veće lipofilnosti", "ne utječu na nju", "mijenjaju mjesto cijepanja veze"],
     "explanation": "Veliki supstituenti smanjuju pristup enzima mjestu cijepanja, pa je hidroliza sporija. Kod derivata prokaina dodavanje metilnih skupina uz estersku vezu smanjuje brzinu hidrolize s 500 na 15 i naposljetku na 0 mg/ml/h, a sterička zaštita $\\beta$-laktamskog prstena (meticilin) daje otpornost na $\\beta$-laktamaze.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-prokain-brzina-hidrolize.png",
     "source": "Primjeri ispitnih pitanja (studentski zapis, prije 2022.); 9 Hidrolize.pdf, slajdovi 11 i 12",
     "tags": ["usporedba"],
     "real_exam": true
@@ -410,7 +410,7 @@
     "distractors": ["6-aminopenicilanska kiselina", "klavulanska kiselina", "karboksilna kiselina bočnog lanca"],
     "explanation": "Hidrolizom $\\beta$-laktamskog prstena lijek gubi sposobnost vezanja na PBP, pa je to glavni mehanizam bakterijske rezistencije. Druga reakcija, hidroliza amidne veze bočnog lanca uz penicilin-acilazu, daje 6-aminopenicilansku kiselinu — intermedijer za sintezu polusintetskih penicilina.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-penicilin-beta-laktamaza.png",
     "source": "Primjeri ispitnih pitanja (studentski zapis, prije 2022.); 9 Hidrolize.pdf, slajd 24",
     "tags": ["definicija"],
     "real_exam": true
@@ -426,7 +426,7 @@
     "distractors": ["benzoilekgonin", "ekgonin", "norkokain"],
     "explanation": "Kokaetilen je etilni ester koji je lipofilniji i kardiotoksičniji od kokaina, pa je ta reakcija primjer toksifikacije. Suprotno tome, hidrolize uz CES1 i CES2 daju polarne metabolite (benzoilekgonin, metilni ester ekgonina) i znače detoksikaciju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-kokain-kokaetilen.png",
     "source": "Primjeri ispitnih pitanja (studentski zapis, prije 2022.); 9 Hidrolize.pdf, slajd 16",
     "tags": ["funkcija"],
     "real_exam": true
@@ -490,7 +490,7 @@
     "distractors": ["NAPSQI", "p-aminofenol", "paracetamol-sulfat"],
     "explanation": "CYP provodi dvoelektronsku oksidativnu dehidrogenaciju paracetamola do NAPQI, bez ugradnje novog atoma kisika, dok peroksidaze (PGHS) idu preko radikala NAPSQI. NAPQI je elektrofil koji se veže na glutation; kad se zalihe GSH iscrpe, veže se kovalentno na proteine i oštećuje hepatocite.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-paracetamol-cyp.png",
     "source": "Primjeri ispitnih pitanja (studentski zapis, prije 2022.); 7 Peroksidaze i molibden hidroksilaze.pdf, slajd 9",
     "tags": ["definicija"],
     "real_exam": true
