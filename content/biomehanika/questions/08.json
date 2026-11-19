@@ -74,8 +74,8 @@
     "distractors": ["hrskavični", "koštani", "mišićni"],
     "explanation": "Periost (pokosnica) je vezivna, fibrozna opna na vanjskoj strani kosti. Ispod njega se odvija subperiostalna apozicija, kojom kost raste u širinu.",
     "image": null,
-    "explanation_image": null,
-    "source": "8_Kosti 2.pdf, slajd 7",
+    "explanation_image": "img/08-gradja-duge-kosti.png",
+    "source": "8_Kosti 2.pdf, slajd 7; slika: slajd 5",
     "tags": ["definicija"],
     "real_exam": false
   },
@@ -90,8 +90,8 @@
     "distractors": ["Haversovi", "osteocitni", "trabekularni"],
     "explanation": "Kortikalna kost građena je od Haversovih osteona – cilindara s koncentričnim lamelama oko kanala kojim prolaze krvne žile. Haversovi kanali idu uzduž kosti, a poprečno ih povezuju Volkmannovi kanalići.",
     "image": null,
-    "explanation_image": null,
-    "source": "8_Kosti 2.pdf, slajd 7",
+    "explanation_image": "img/08-osteon-kortikalna-kost.png",
+    "source": "8_Kosti 2.pdf, slajd 7; slika: slajd 8",
     "tags": ["definicija"],
     "real_exam": false
   },
@@ -106,8 +106,8 @@
     "distractors": ["makrostrukturi", "nanostrukturi", "pod-nanostrukturi"],
     "explanation": "Struktura kosti opisuje se po razinama: makrostruktura (kortikalna i trabekularna kost), mikrostruktura (Haversov sustav, trabekule), pod-mikrostruktura (primarna i sekundarna kost), nanostruktura (kolagenska vlakna i minerali) i pod-nanostruktura (koštane stanice).",
     "image": null,
-    "explanation_image": null,
-    "source": "8_Kosti 2.pdf, slajd 6",
+    "explanation_image": "img/08-osteon-kortikalna-kost.png",
+    "source": "8_Kosti 2.pdf, slajd 6; slika: slajd 8",
     "tags": ["podjela"],
     "real_exam": false
   },
@@ -122,8 +122,8 @@
     "distractors": ["kanalićima", "lamelama", "trabekulama"],
     "explanation": "Osteociti sjede u malim šupljinama – osteocitnim lakunama – i kanalićima šalju signale do površine kosti. Zajedno čine mrežu sličnu neuronskoj, koja koordinira signale pri mehaničkom opterećenju kosti.",
     "image": null,
-    "explanation_image": null,
-    "source": "8_Kosti 2.pdf, slajd 10",
+    "explanation_image": "img/08-osteociti-lakune.png",
+    "source": "8_Kosti 2.pdf, slajd 10; slika: slajd 8",
     "tags": ["definicija", "funkcija"],
     "real_exam": false
   },
@@ -154,8 +154,8 @@
     "distractors": ["vezivni", "mišićni", "kolageni"],
     "explanation": "Kod enhondralnog okoštavanja tijelo prvo izgradi hrskavični model kosti. Na površini hrskavične osnove stanice se pretvaraju u osteoblaste i kost se stvara izvana prema unutra. Tako nastaje većina kostiju u tijelu.",
     "image": null,
-    "explanation_image": null,
-    "source": "8_Kosti 2.pdf, slajd 11",
+    "explanation_image": "img/08-enhondralno-okostavanje.png",
+    "source": "8_Kosti 2.pdf, slajd 11; slika: slajd 12",
     "tags": ["definicija"],
     "real_exam": false
   },
@@ -186,7 +186,7 @@
     "distractors": ["genetski", "kemijski", "biološki"],
     "explanation": "Wolffov zakon opisuje funkcionalnu adaptaciju kosti. Povijesna formulacija kaže da je oblik kosti određen samo statičkim opterećenjem, a današnje shvaćanje da su fizikalni zakoni glavni faktori koji utječu na koštanu pregradnju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/08-wolff-graficka-statika.png",
     "source": "8_Kosti 2.pdf, slajd 14",
     "tags": ["definicija", "povijest"],
     "real_exam": false
@@ -314,7 +314,7 @@
     "distractors": ["izotropno", "hiperelastično", "plastično"],
     "explanation": "Kortikalna kost ima različita svojstva u različitim smjerovima (anizotropija). U praksi se najčešće modelira kao ortotropno elastična, a pojednostavljeno i kao transverzalno izotropna (5 konstanti elastičnosti).",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/08-anizotropija-kortikalne-kosti.png",
     "source": "8_Kosti 2.pdf, slajd 31",
     "tags": ["definicija"],
     "real_exam": false
@@ -394,7 +394,7 @@
     "distractors": ["1,5 GPa", "200 GPa", "0,6 MPa"],
     "explanation": "U tablici usporedbe kost ima Youngov modul 20 GPa, tetiva 1,5 GPa, a za mišić nije naveden. Kost je dakle oko 13 puta kruća od tetive. Kost ima i tlačnu čvrstoću 250 MPa i vlačnu 150 MPa, a tetiva vlačnu 100 MPa.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/08-svojstva-kost-tetiva-misic.png",
     "source": "8_Kosti 2.pdf, slajd 29",
     "tags": ["brojka", "usporedba"],
     "real_exam": false
@@ -410,8 +410,8 @@
     "distractors": ["dvije", "četiri", "pet"],
     "explanation": "Invazivne metode opterećuju uzorak kosti do loma ili deformacije: tlačni test, vlačni test i test savijanja u tri točke (dva oslonca i sila u sredini). Neinvazivne metode su ultrazvuk, rendgen, CT i MRI.",
     "image": null,
-    "explanation_image": null,
-    "source": "8_Kosti 2.pdf, slajd 41; skripta.md – Eksperimentalno biomehaničke metode",
+    "explanation_image": "img/08-savijanje-u-tri-tocke.png",
+    "source": "8_Kosti 2.pdf, slajd 41; skripta.md – Eksperimentalno biomehaničke metode; slika: slajd 45",
     "tags": ["podjela"],
     "real_exam": false
   }

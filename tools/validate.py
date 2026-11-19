@@ -166,14 +166,60 @@ def check_answer_block(where, answer, accepted, distractors, modes=None):
             err(where, f"distraktor '{d}' jednak je točnom odgovoru")
 
 
+MAX_IMG_W = 1200
+used_images = set()  # apsolutne putanje slika koje koristi neko pitanje
+_sw_text = None
+
+
+def sw_text():
+    global _sw_text
+    if _sw_text is None:
+        try:
+            _sw_text = (ROOT / "sw.js").read_text(encoding="utf-8")
+        except Exception:
+            _sw_text = ""
+    return _sw_text
+
+
+def image_width(path):
+    """Širina PNG/JPEG slike u px (bez vanjskih paketa); None ako se ne može pročitati."""
+    data = path.read_bytes()
+    if data[:8] == bytes([0x89]) + b"PNG" + bytes([13, 10, 26, 10]):
+        return int.from_bytes(data[16:20], "big")
+    if data[:2] == bytes([0xFF, 0xD8]):
+        i = 2
+        while i + 9 < len(data):
+            if data[i] != 0xFF:
+                i += 1
+                continue
+            marker = data[i + 1]
+            if marker in (0xC0, 0xC1, 0xC2):
+                return int.from_bytes(data[i + 7:i + 9], "big")
+            i += 2 + int.from_bytes(data[i + 2:i + 4], "big")
+    return None
+
+
 def check_image(where, field, value, course_dir):
     if value is None:
         return
     if not isinstance(value, str) or not value:
         err(where, f"'{field}' mora biti null ili putanja")
         return
-    if not (course_dir / value).is_file():
+    path = course_dir / value
+    if not path.is_file():
         err(where, f"slika ne postoji: {value}")
+        return
+    if path in used_images:
+        return
+    used_images.add(path)
+    w = image_width(path)
+    if w is None:
+        err(where, f"slika {value} nije PNG ni JPEG")
+    elif w > MAX_IMG_W:
+        err(where, f"slika {value} je široka {w} px (najviše {MAX_IMG_W})")
+    rel = "./" + path.relative_to(ROOT).as_posix()
+    if f"'{rel}'" not in sw_text():
+        err(where, f"slika {value} nije u popisu CONTENT u sw.js (offline je neće biti)")
 
 
 def check_question(q, where, chapters, file_name, cfg):
@@ -375,6 +421,11 @@ def validate_course(entry, cfg, seen_ids, report=True):
 
     if not report:
         return
+    img_dir = course_dir / "img"
+    if img_dir.is_dir():
+        for f in sorted(img_dir.iterdir()):
+            if f.is_file() and f not in used_images:
+                warn(f"[{cid}] img", f"{f.name} ne koristi nijedno pitanje")
     if not total:
         print("Još nema pitanja (u aplikaciji kartica pokazuje „U pripremi”).")
         return

@@ -57,6 +57,21 @@ Prioritet prema zastupljenosti na kolokviju: 00 kolokvij → 07, 08, 09 → 04, 
 
 Stanje (0.6.0): sva poglavlja 01–35 i kolokvij imaju pitanja (984 pitanja, 63 s kolokvija). Daljnji rad: ispravci iz "Prijava", tipovi `image-label`/`order`/`match`, sažeci poglavlja (`content/biomehanika/summaries/<nn>.md`).
 
+## Slike – obrađena poglavlja
+
+Dodavanje slika u objašnjenja i pitanja prema pravilima u `docs/app-spec.md`, odjeljak 16 („Slike”). Skupine od 5–8 poglavlja po sesiji, redom iz odjeljka 4; kolokvij pitanja obrađuju se uz poglavlje na koje se odnose.
+
+| skupina | poglavlja | stanje |
+|---|---|---|
+| 1 | 07, 08, 09, 04, 05, 06 | **gotovo** (0.9.0): u pitanju / u objašnjenju – 07: 0/5, 08: 0/9 (+ kolokvij 0/3), 09: 0/4 (+ kolokvij 0/2), 04: 0/2, 05: 0/11, 06: 1/6 |
+| 2 | 12, 13, 14, 17, 18, 19, 20 | **sljedeća** |
+| 3 | 22, 23, 24, 01, 02, 03 | čeka |
+| 4 | 15, 16, 10, 11, 21, 25, 26 | čeka |
+| 5 | 27, 28, 29, 35, 30 | čeka |
+| 6 | 31, 32, 33, 34 | čeka |
+
+Nakon Biomehanike slijedi Biokemija lijekova (`docs/courses/biokemija-lijekova.md`).
+
 ## 5. Faze izrade (povijest)
 
 Aplikacija je nastala uz ovaj kolegij (faze M1–M5 u `docs/app-spec.md`, odjeljak 18). Sadržaj po fazama: M1 kolokvij pitanja; M2 poglavlja 07–09; M3 04–06 i 12–14; M4 17–20 i 22–24; M5 ostala poglavlja redom iz odjeljka 4.
@@ -84,3 +99,4 @@ Aplikacija je nastala uz ovaj kolegij (faze M1–M5 u `docs/app-spec.md`, odjelj
 - 18.11.2026 (0.5.0, sadržaj): Pitanja za 30, 31, 32, 33 i 34 – time sva poglavlja 01–35 imaju pitanja. Prezentacija 30 (73 slajda) je skenirana, bez tekstualnog sloja; tekst je prepisan sa slika slajdova (prijepis nije spremljen u `content/source/`), a brojke su provjerene na slikama. Razlike između predavanja: leđna moždina u 30 (slajd 47) 40–50 cm, do 2. slabinskog kralješka, a u 31 (slajd 3) 43 cm, do 1. lumbalnog kralješka – pitanja navode o kojem je predavanju riječ. U 33 je 125 milijuna fotoreceptora (slajd 22), a zbroj 120 milijuna štapića i 6 milijuna čunjića (slajd 23) je 126 milijuna – oba broja preuzeta su kako piše. Na 32/4 „1011 neurona” čita se kao 10¹¹, a na 32/5 promjer aksona je 0,5–20 µm (provjereno na slici). Na 31/5 popis razina ozljede leđne moždine ima mnogo stavki; pitanja pokrivaju C1–C5, T9–T11 i S3–S5.
 - 18.11.2026 (0.5.1, završna provjera): Pitanja kojima slika uz pitanje prikazuje sam odgovor (tablica eritrocita, dijagram tlakova na disk, Pauwelsovi kutovi, osnovni cistometrogram, dišni putovi, homunkulus, akcijski potencijal) dobila su tu sliku kao `explanation_image` umjesto `image` (bm-11-006…008, bm-15-023…027, bm-21-003/004, bm-25-015…018, bm-26-007, bm-30-019, bm-34-020); slike uz koje se pitanje izričito odnosi na očitavanje dijagrama (npr. 08-1) ostaju. Iz teksta pitanja uklonjeni su dijelovi koji otkrivaju odgovor (bm-10-010, bm-10-012, bm-18-011, bm-28-006, bm-34-006). bm-30-031: distraktor „43 cm” (podatak iz predavanja 31, unutar točnog raspona 40–50 cm) zamijenjen je s „70-80 cm”.
 - 18.11.2026 (0.6.0, više kolegija): Izvorni materijali premješteni su u `content/source/biomehanika/` (pdf, text, img-raw, skripta.md, pitanja-kolokvija.md). `course.json` dobiva `idPrefix: "bm"`. ID-ovi, sadržaj pitanja i napredak nepromijenjeni.
+- 19.11.2026 (0.9.0, slike – skupina 1): Slike za 04–09 i njihova kolokvij pitanja. Bez slike su ostali slajdovi s natuknicama, fotografije bez sadržaja za pitanje i slike kojima tekst ni uskim izrezom nije čitljiv na 412 px (lubanja 07/6, tenisači 08/15, graf $E(ho)$ 09/13, krajnji stupci tablice 05/1 za Fmax i lig. nuchae). bm-06-001: dosadašnja slika u pitanju (`06-1.png`) pokazivala je oznaku „Talus”, a to je odgovor – u pitanju je sada isti crtež s prekrivenom oznakom (`06-model-stopala-bez-oznake.png`), a `06-1.png` je u objašnjenju. Tablica svojstava femura (09/8) izrezana je kao stupac svojstava + stupac „čovjek” (dva izreza istog slajda jedan do drugog, sadržaj nepromijenjen), jer cijela tablica na mobitelu ima tekst ~8 px, a pitanja se odnose samo na čovjeka. Za građu duge kosti u 07 koristi se slika iz 08 (slajd 5, hrvatski natpisi, čitljivija od engleske sa 07/5). Tekst pitanja nije mijenjan.

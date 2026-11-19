@@ -20,8 +20,8 @@
       "navikularne kosti"
     ],
     "explanation": "Os rotacije stopala je gornji nožni zglob, spoj tibije i talusa (točka S na skici). Momente sila računamo oko te točke, pa se krakovi a i b mjere od nje.",
-    "image": "img/06-1.png",
-    "explanation_image": null,
+    "image": "img/06-model-stopala-bez-oznake.png",
+    "explanation_image": "img/06-1.png",
     "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 2 i 3",
     "tags": [
       "skica"
@@ -238,8 +238,8 @@
     ],
     "explanation": "Osoba stoji na dva stopala pa svaka noga nosi polovicu težine: $F_S = G/2 \\approx 333{,}5\\,\\text{N}$. Zbroj reakcija obiju nogu tada je jednak ukupnoj težini, što je uvjet ravnoteže sila.",
     "image": null,
-    "explanation_image": null,
-    "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 3",
+    "explanation_image": "img/06-1.png",
+    "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 3; slika: slajd 2",
     "tags": [
       "formula"
     ],
@@ -301,8 +301,8 @@
     ],
     "explanation": "Iz $F \\cdot b = F_S \\cdot a$ slijedi $F = (G/2) \\cdot a/b = 333{,}5\\,\\text{N} \\cdot 20/5 = 1334\\,\\text{N}$. Sila u tetivi je dvostruko veća od cijele tjelesne težine, iako je stopalo samo u mirovanju – posljedica kratkog kraka tetive.",
     "image": null,
-    "explanation_image": null,
-    "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 3",
+    "explanation_image": "img/06-1.png",
+    "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 3; slika: slajd 2",
     "tags": [
       "brojka",
       "racun"
@@ -329,8 +329,8 @@
     ],
     "explanation": "Stopalo radi kao poluga: tetiva djeluje na kraku $b = 5\\,\\text{cm}$, a reakcija podloge na kraku $a = 20\\,\\text{cm}$. Iz ravnoteže momenata $F = F_S \\cdot a/b$, pa je sila u tetivi četiri puta veća od reakcije jednog stopala ($G/2$). Površina presjeka utječe na naprezanje, ne na silu.",
     "image": null,
-    "explanation_image": null,
-    "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 3",
+    "explanation_image": "img/06-1.png",
+    "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 3; slika: slajd 2",
     "tags": [
       "racun"
     ],
@@ -631,8 +631,8 @@
     ],
     "explanation": "Na oba stopala zajedno treba djelovati težina plus dodatna sila za ubrzanje, $mg + F_s$, a raspodijeljena je jednako na dvije noge. To je oko $(667 + 777{,}5)/2 \\approx 722\\,\\text{N}$ po stopalu, i ta sila ulazi u momentnu jednadžbu umjesto $G/2$.",
     "image": null,
-    "explanation_image": null,
-    "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 4",
+    "explanation_image": "img/06-1.png",
+    "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 4; slika: slajd 2",
     "tags": [
       "formula"
     ],
@@ -663,8 +663,8 @@
     ],
     "explanation": "Iz momentne jednadžbe $F \\cdot b = a \\cdot (mg + F_s)/2$ slijedi $F = 4 \\cdot 722{,}3\\,\\text{N} \\approx 2889\\,\\text{N}$. To je više od dvostruke sile pri mirovanju (1334 N) i oko 4,3 puta više od tjelesne težine.",
     "image": null,
-    "explanation_image": null,
-    "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 4",
+    "explanation_image": "img/06-1.png",
+    "source": "6_Naprezanja u Ahilovoj tetivi.pdf, slajd 4; slika: slajd 2",
     "tags": [
       "brojka",
       "racun"

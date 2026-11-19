@@ -1,6 +1,6 @@
 // Service worker: offline rad (spec, odjeljak 14).
 // PRI SVAKOM DEPLOYU podigni VERSION (mora biti isto kao "version" u version.json).
-const VERSION = '0.8.8';
+const VERSION = '0.9.0';
 const CACHE = `bmkviz-${VERSION}`;
 
 const SHELL = [
@@ -127,6 +127,25 @@ const CONTENT = [
   './content/biomehanika/img/31-1.png',
   './content/biomehanika/img/32-1.png',
   './content/biomehanika/img/34-1.png',
+  './content/biomehanika/img/04-kolagen-vlakna.png',
+  './content/biomehanika/img/04-rezilin-noga.png',
+  './content/biomehanika/img/05-tablica-ahilova-tetiva.png',
+  './content/biomehanika/img/05-tablica-biopolimera.png',
+  './content/biomehanika/img/06-model-stopala-bez-oznake.png',
+  './content/biomehanika/img/07-donja-celjust.png',
+  './content/biomehanika/img/07-kosti-sake.png',
+  './content/biomehanika/img/07-slabinski-kraljezak.png',
+  './content/biomehanika/img/08-anizotropija-kortikalne-kosti.png',
+  './content/biomehanika/img/08-enhondralno-okostavanje.png',
+  './content/biomehanika/img/08-gradja-duge-kosti.png',
+  './content/biomehanika/img/08-osteociti-lakune.png',
+  './content/biomehanika/img/08-osteon-kortikalna-kost.png',
+  './content/biomehanika/img/08-resorpcija-formiranje.png',
+  './content/biomehanika/img/08-savijanje-u-tri-tocke.png',
+  './content/biomehanika/img/08-svojstva-kost-tetiva-misic.png',
+  './content/biomehanika/img/08-wolff-graficka-statika.png',
+  './content/biomehanika/img/09-spuzvasta-i-zbita-kost.png',
+  './content/biomehanika/img/09-tablica-femur.png',
 ];
 
 self.addEventListener('install', (event) => {

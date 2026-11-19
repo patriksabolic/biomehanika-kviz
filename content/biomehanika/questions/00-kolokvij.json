@@ -298,7 +298,7 @@
     "distractors": ["Hookeov", "Pauwelsov", "Hillov"],
     "explanation": "Wolffov zakon opisuje funkcionalnu prilagodbu kosti opterećenju. Povijesna formulacija (i odgovor na kolokviju) kaže da je oblik kosti određen samo statičkim opterećenjem; današnje shvaćanje je da su fizikalni zakoni glavni faktori koji utječu na koštanu pregradnju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/08-wolff-graficka-statika.png",
     "source": "Pitanja s kolokvija; 8_Kosti 2.pdf, slajd 14",
     "tags": ["definicija", "povijest"],
     "real_exam": true
@@ -314,7 +314,7 @@
     "distractors": ["osteociti", "hondrociti", "fibroblasti"],
     "explanation": "Koštana pregradnja je ravnoteža razgradnje i izgradnje. Osteoklasti razgrađuju kost i ostavljaju udubine na njezinoj površini, a osteoblasti te udubine ispunjavaju kolagenom i grade novu kost. Osteoblast koji se potpuno okruži izlučenim matriksom postaje osteocit ili pokrovna stanica.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/08-resorpcija-formiranje.png",
     "source": "Pitanja s kolokvija; 8_Kosti 2.pdf, slajd 17",
     "tags": ["funkcija"],
     "real_exam": true
@@ -330,7 +330,7 @@
     "distractors": ["osteociti", "hondrociti", "fibroblasti"],
     "explanation": "U pregradnji kosti osteoklasti najprije razgrade dio kosti, a osteoblasti zatim nastalu udubinu ispune kolagenom i formiraju novu kost. Pamti: osteo-BLAST gradi (kao 'build'), osteo-KLAST kida. Zadnji korak pregradnje je mineralizacija.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/08-resorpcija-formiranje.png",
     "source": "Pitanja s kolokvija; 8_Kosti 2.pdf, slajd 17",
     "tags": ["funkcija"],
     "real_exam": true
@@ -346,8 +346,8 @@
     "distractors": ["osteonima", "Haversovim kanalima", "periostu"],
     "explanation": "Trabekularna (spužvasta) kost je trodimenzionalna rešetka koštanih gredica – trabekula. Njezina krutost i čvrstoća ovise o poroznosti i rasporedu trabekula, a orijentacija trabekula određuje anizotropiju. Osteoni i Haversovi kanali su građa zbite (kortikalne) kosti.",
     "image": null,
-    "explanation_image": null,
-    "source": "Pitanja s kolokvija; 8_Kosti 2.pdf, slajd 32",
+    "explanation_image": "img/09-spuzvasta-i-zbita-kost.png",
+    "source": "Pitanja s kolokvija; 8_Kosti 2.pdf, slajd 32; slika: 9_Zbita i spužvasta kost.pdf, slajd 2",
     "tags": ["definicija"],
     "real_exam": true
   },
@@ -394,7 +394,7 @@
     "distractors": ["50 %", "30 %", "90 %"],
     "explanation": "Granica između zbite i spužvaste kosti je 70 % volumnog udjela koštane tvari: zbita kost ima više od 70 %, spužvasta manje. Drugim riječima, u spužvastoj kosti više od 30 % volumena zauzimaju šupljine. Zato je spužvasta kost lakša i podatnija, a zbita kruća.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-spuzvasta-i-zbita-kost.png",
     "source": "Pitanja s kolokvija; 9_Zbita i spužvasta kost.pdf, slajd 2",
     "tags": ["brojka", "usporedba"],
     "real_exam": true

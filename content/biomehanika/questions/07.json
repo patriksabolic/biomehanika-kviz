@@ -74,8 +74,8 @@
     "distractors": ["zglobne", "elastične", "vezivne"],
     "explanation": "Epifizna hrskavica nalazi se između dijafize i epifize. Ona se 'odmiče' tako da kost raste u duljinu, a hrskavica se postupno zamjenjuje kosti. Rast u širinu odvija se drugim mehanizmom – subperiostalnom apozicijom.",
     "image": null,
-    "explanation_image": null,
-    "source": "7_Kosti 1.pdf, slajd 3",
+    "explanation_image": "img/08-gradja-duge-kosti.png",
+    "source": "7_Kosti 1.pdf, slajd 3; slika: 8_Kosti 2.pdf, slajd 5",
     "tags": ["definicija"],
     "real_exam": false
   },
@@ -170,8 +170,8 @@
     "distractors": ["epifiza", "metafiza", "periost"],
     "explanation": "Duga kost (u ekstremitetima) ima središnji suženi dio – trup ili dijafizu – i zadebljale krajeve s glatkom površinom, epifize. Dijafiza je cijev od zbite kosti, a epifize su ispunjene spužvastom kosti.",
     "image": null,
-    "explanation_image": null,
-    "source": "7_Kosti 1.pdf, slajd 5",
+    "explanation_image": "img/08-gradja-duge-kosti.png",
+    "source": "7_Kosti 1.pdf, slajd 5; slika: 8_Kosti 2.pdf, slajd 5",
     "tags": ["definicija", "podjela"],
     "real_exam": false
   },
@@ -186,7 +186,7 @@
     "distractors": ["duge", "pločaste", "zrakaste"],
     "explanation": "Kratke kosti imaju sve tri dimenzije podjednako izražene. Za razliku od njih, kod dugih kostiju prevladava duljina, a kod pločastih (npr. kosti lubanje) dvije dimenzije.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-kosti-sake.png",
     "source": "7_Kosti 1.pdf, slajd 7",
     "tags": ["podjela"],
     "real_exam": false
@@ -202,7 +202,7 @@
     "distractors": ["kratke", "lučno zavinute", "klinaste"],
     "explanation": "Kralježak ima kratko tijelo iz kojeg izlaze nastavci u više smjerova, poput zraka – zato se zove zrakasta kost. U istoj podjeli donja čeljust je lučno zavinuta kost, a klinasta kost je u bazi lubanje.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-slabinski-kraljezak.png",
     "source": "7_Kosti 1.pdf, slajd 8",
     "tags": ["podjela"],
     "real_exam": false
@@ -218,7 +218,7 @@
     "distractors": ["pločasta", "kratka", "klinasta"],
     "explanation": "Po obliku se kosti dijele na duge, pločaste, kratke, lučno zavinute, zrakaste i klinaste. Donja čeljust je primjer lučno zavinute kosti, a pločaste kosti su kosti lubanje (dvije dominantne dimenzije).",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/07-donja-celjust.png",
     "source": "7_Kosti 1.pdf, slajd 8",
     "tags": ["podjela"],
     "real_exam": false

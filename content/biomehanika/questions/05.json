@@ -21,7 +21,7 @@
     ],
     "explanation": "Tablica uspoređuje mehanička svojstva i elastične konstante nekih vlaknastih biopolimera. Po krutosti se razlikuju i za nekoliko redova veličine – od kolagena ($E \\approx 10^{9}\\,\\text{Pa}$) do elastina ($E \\approx 6 \\cdot 10^{5}\\,\\text{Pa}$).",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-tablica-biopolimera.png",
     "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
     "tags": [
       "podjela"
@@ -47,7 +47,7 @@
     ],
     "explanation": "Kolagen ima modul elastičnosti oko $1 \\cdot 10^{9}\\,\\text{Pa}$, dok su elastin, abduktin i rezilin reda veličine $10^{5}$–$10^{6}\\,\\text{Pa}$. Kolagen je kristalični protein s mnogo poprečnih veza među lancima pa se jako opire istezanju – zato gradi tetive i ligamente koji moraju prenositi vlak.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-tablica-biopolimera.png",
     "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
     "tags": [
       "usporedba"
@@ -73,7 +73,7 @@
     ],
     "explanation": "Elastin ima $E \\approx 6 \\cdot 10^{5}\\,\\text{Pa}$ (0,6 MPa), što je najmanje u tablici – oko tisuću puta manje od kolagena. Gumasta, umrežena struktura dopušta mu velika istezanja i povratak u početni oblik, pa daje elastičnost tkivima poput stijenke krvnih žila.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-tablica-biopolimera.png",
     "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
     "tags": [
       "usporedba"
@@ -107,7 +107,7 @@
     ],
     "explanation": "U tablici abduktin ima E od 1 do $4 \\cdot 10^{6}\\,\\text{Pa}$, tj. 1–4 MPa. To je gumasti, umreženi biopolimer pa mu je krutost bliska elastinu i rezilinu, a daleko ispod kolagena (1 GPa). Kod školjaka je deformiran kad je školjka zatvorena i elastično je otvara.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-tablica-biopolimera.png",
     "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
     "tags": [
       "brojka"
@@ -142,7 +142,7 @@
     ],
     "explanation": "Abduktin je jedini biopolimer u tablici kojem je naveden i modul smika: $G = 6{,}4 \\cdot 10^{5}\\,\\text{Pa} = 0{,}64\\,\\text{MPa}$. Modul smika opisuje otpor promjeni oblika pri smičnom (tangencijalnom) opterećenju i manji je od modula elastičnosti ($E = 1\\text{–}4\\,\\text{MPa}$).",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-tablica-biopolimera.png",
     "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
     "tags": [
       "brojka"
@@ -173,7 +173,7 @@
     ],
     "explanation": "Tablica (Yamada) za humanu Ahilovu tetivu u dobi 20–49 godina navodi $\\sigma_{max} = 56$; ista vrijednost, 56 MPa, koristi se u 6. predavanju kao dopušteno naprezanje Ahilove tetive. Usporedbom s naprezanjem pri skoku (oko 18 MPa) dobiva se faktor sigurnosti oko 3.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-tablica-ahilova-tetiva.png",
     "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica); 6_Naprezanja u Ahilovoj tetivi.pdf, slajd 4",
     "tags": [
       "brojka"
@@ -204,7 +204,7 @@
     ],
     "explanation": "Za stariju skupinu (50–70 godina) tablica navodi $\\sigma_{max} = 44$, dok je za 20–49 godina 56. Starija tetiva dakle puca pri manjem naprezanju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-tablica-ahilova-tetiva.png",
     "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
     "tags": [
       "brojka"
@@ -231,7 +231,7 @@
     ],
     "explanation": "Za dob 20–49 godina $\\sigma_{max}$ iznosi 56, a za 50–70 godina 44; pada i najveća sila (s 2000 na 1600) i najveća deformacija (s 9,6 na 9,1). Starija tetiva je dakle slabija i puca pri manjem opterećenju.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-tablica-ahilova-tetiva.png",
     "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
     "tags": [
       "usporedba"
@@ -288,7 +288,7 @@
     ],
     "explanation": "Konj ima $\\sigma_{max} = 84$, govedo 78, pas 53, a čovjek (20–49 godina) 56. Konj ima i daleko najveću najveću silu (41200).",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-tablica-ahilova-tetiva.png",
     "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
     "tags": [
       "usporedba"
@@ -315,7 +315,7 @@
     ],
     "explanation": "U tablici svinja ima $\\sigma_{max} = 42$, mačka 48, pas 53, govedo 78 i konj 84. Najmanja je dakle kod svinje, ispod čak i starije humane tetive (44).",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-tablica-ahilova-tetiva.png",
     "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
     "tags": [
       "usporedba"
@@ -378,7 +378,7 @@
     ],
     "explanation": "Lig. nuchae ima $\\varepsilon_{max} = 160$, dok su Ahilove tetive svih vrsta oko 8–10. Bogat je elastinom koji se može višestruko istegnuti, a tetive su građene od krutog kolagena koji se istegne samo nekoliko posto.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/05-tablica-ahilova-tetiva.png",
     "source": "5_Mehanička svojstva.pdf, slajd 1 (tablica)",
     "tags": [
       "usporedba"

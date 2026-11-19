@@ -100,6 +100,15 @@ Primjeri ispitnih pitanja koji nisu pokriveni dostupnim prezentacijama; pitanja 
 - tvrdnja o određivanju metabolizma lijeka u koštanom tkivu
 - ispitna stavka s imipraminom (zapis je nepotpun)
 
+## Slike – obrađena poglavlja
+
+Dodavanje slika u objašnjenja i pitanja prema pravilima u `docs/app-spec.md`, odjeljak 16 („Slike”); počinje kad je cijela Biomehanika gotova. Obrađuju se samo poglavlja koja već imaju pitanja, skupine od 5–8 poglavlja po sesiji, redom iz odjeljka 4; pitanja iz `00-primjeri.json` uz poglavlje na koje se odnose.
+
+| skupina | poglavlja | stanje |
+|---|---|---|
+| 1 | 02, 03, 04, 06, 08 | čeka |
+| 2 | 09, 07, 05, 01 | čeka |
+
 ## 7. Vremenski plan
 
 Određuje se kad bude poznat datum ispita (korisnik ga upisuje u aplikaciji).

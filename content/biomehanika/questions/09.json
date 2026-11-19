@@ -250,7 +250,7 @@
     "distractors": ["88 MPa", "170 MPa", "54 MPa"],
     "explanation": "Za vlažnu kost femura čovjeka (20–39 godina): vlačna čvrstoća 124 MPa, tlačna 170 MPa, torzijska 54 MPa. Tlačna je najveća, a torzijska najmanja – kost najbolje podnosi tlak.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-tablica-femur.png",
     "source": "9_Zbita i spužvasta kost.pdf, slajd 8",
     "tags": ["brojka"],
     "real_exam": false
@@ -266,7 +266,7 @@
     "distractors": ["124 MPa", "54 MPa", "100 MPa"],
     "explanation": "Tlačna čvrstoća femura čovjeka je 170 MPa, veća od vlačne (124 MPa) i torzijske (54 MPa). Maksimalno skraćenje pri tlaku je 1,85 %.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-tablica-femur.png",
     "source": "9_Zbita i spužvasta kost.pdf, slajd 8",
     "tags": ["brojka"],
     "real_exam": false
@@ -282,7 +282,7 @@
     "distractors": ["25,5 GPa", "3,2 GPa", "9,4 GPa"],
     "explanation": "Modul elastičnosti femura čovjeka pri vlaku je 17,6 GPa, a maksimalno produljenje 1,41 %. Torzijski modul je znatno manji – 3,2 GPa. Za usporedbu: modul dijafize u uzdužnom smjeru je 17 GPa.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-tablica-femur.png",
     "source": "9_Zbita i spužvasta kost.pdf, slajd 8",
     "tags": ["brojka"],
     "real_exam": false
@@ -298,7 +298,7 @@
     "distractors": ["0,75 %", "17,6 %", "4,1 %"],
     "explanation": "Kost je kruta i podnosi vrlo malo produljenje prije loma – kod femura čovjeka 1,41 % pri vlaku, a skraćenje pri tlaku 1,85 %. Usporedi s kolagenom, kojemu je maksimalna deformacija 8–10 %.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/09-tablica-femur.png",
     "source": "9_Zbita i spužvasta kost.pdf, slajd 8",
     "tags": ["brojka"],
     "real_exam": false
