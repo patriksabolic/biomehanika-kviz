@@ -103,8 +103,8 @@
     ],
     "explanation": "Kevin Warwick je 2002. ugradio elektrode u medijalni živac; signal iz živca pokretao je robotsku ruku koja je oponašala pokrete stvarne ruke. Godine 2006. Claudia Mitchell dobila je protezu upravljanu preusmjerenim živcima.",
     "image": null,
-    "explanation_image": null,
-    "source": "29_Biomehatronika.pdf, slajd 3",
+    "explanation_image": "img/29-warwick-robotska-ruka.png",
+    "source": "29_Biomehatronika.pdf, slajd 3; slika: slajd 4",
     "tags": [
       "brojka",
       "povijest"
@@ -399,7 +399,7 @@
     ],
     "explanation": "Prema infografici cyber pilula nakon gutanja nadzire rad tijela i šalje podatke pametnom telefonu. Pametna prašina su čestice manje od zrnca prašine koje nadziru moguću pojavu tumora.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/29-cyber-pilula.png",
     "source": "29_Biomehatronika.pdf, slajd 11 i 13",
     "tags": [
       "definicija"

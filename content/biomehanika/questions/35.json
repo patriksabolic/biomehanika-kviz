@@ -213,8 +213,8 @@
     ],
     "explanation": "Velcro je 1948. izumio George de Mestral – to je prvi primjer na popisu primjena bionike. Lotus efekt opisan je 1982., a naziv bionika uveden 1958.",
     "image": null,
-    "explanation_image": null,
-    "source": "35_Bionika.pdf, slajd 6",
+    "explanation_image": "img/35-cicak-kukice.png",
+    "source": "35_Bionika.pdf, slajd 6; slika: slajd 5",
     "tags": [
       "brojka",
       "povijest"
@@ -593,8 +593,8 @@
     ],
     "explanation": "Rebrasti vršci stvaraju okomite vodene vrtloge, granični sloj se stanji, voda bolje prijanja uz tijelo, nema turbulentnog strujanja i strujnice ostaju uz površinu – otpor se smanjuje.",
     "image": null,
-    "explanation_image": null,
-    "source": "35_Bionika.pdf, slajd 18",
+    "explanation_image": "img/35-koza-morskog-psa.png",
+    "source": "35_Bionika.pdf, slajd 18; slika: slajd 17",
     "tags": [
       "funkcija"
     ],
@@ -893,8 +893,8 @@
     ],
     "explanation": "Stopala macaklina su suha i glatka; prianjanje ostvaruju vlakanca s lopatastim vršcima (gustoća $2 \\cdot 10^{9}/\\text{cm}^{2}$, debljina 100 nm) koja s površinom djeluju van der Waalsovim silama.",
     "image": null,
-    "explanation_image": null,
-    "source": "35_Bionika.pdf, slajd 29",
+    "explanation_image": "img/35-macaklin-prsti.png",
+    "source": "35_Bionika.pdf, slajd 29; slika: slajd 28",
     "tags": [
       "funkcija"
     ],
@@ -922,8 +922,8 @@
     ],
     "explanation": "Vlakna su debela 100 nm, a gustoća im je $2 \\cdot 10^{9}/\\text{cm}^{2}$. Robot Stickybot ima čekinje promjera $30\\,\\mu\\text{m}$ i masu 500 g.",
     "image": null,
-    "explanation_image": null,
-    "source": "35_Bionika.pdf, slajd 29",
+    "explanation_image": "img/35-macaklin-prsti.png",
+    "source": "35_Bionika.pdf, slajd 29; slika: slajd 28",
     "tags": [
       "brojka"
     ],
@@ -978,8 +978,8 @@
     ],
     "explanation": "Zupčanici mehanički sinkroniziraju zadnje noge, pa se obje noge pri skoku gibaju istodobno. Kod neodraslog skakavca sinkronizacija je otežana.",
     "image": null,
-    "explanation_image": null,
-    "source": "35_Bionika.pdf, slajd 31",
+    "explanation_image": "img/35-zupcanici-skakavca.png",
+    "source": "35_Bionika.pdf, slajd 31; slika: slajd 32",
     "tags": [
       "funkcija"
     ],
@@ -1008,7 +1008,7 @@
     ],
     "explanation": "Zupčanici skakavca: radijus zakrivljenosti $200\\,\\mu\\text{m}$, debljina zuba $9\\,\\mu\\text{m}$, visina zuba $15\\text{–}30\\,\\mu\\text{m}$; opterećeni su samo pri skoku, a prosječno prenose moment 0,7 mNmm.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/35-zupcanici-skakavca.png",
     "source": "35_Bionika.pdf, slajd 32",
     "tags": [
       "brojka"
@@ -1034,8 +1034,8 @@
     ],
     "explanation": "Kod evolventnog ozubljenja obje strane zuba su konveksne. Kod skakavca je u zahvatu jedna konveksna i jedna konkavna strana – dodirna površina je veća, pa je Hertzov pritisak manji.",
     "image": null,
-    "explanation_image": null,
-    "source": "35_Bionika.pdf, slajd 33",
+    "explanation_image": "img/35-zupcanici-skakavca.png",
+    "source": "35_Bionika.pdf, slajd 33; slika: slajd 32",
     "tags": [
       "usporedba"
     ],

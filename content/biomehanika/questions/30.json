@@ -44,8 +44,8 @@
     ],
     "explanation": "Motorički dio ima somatski živčani sustav (voljni, prema skeletnim mišićima) i autonomni (involuntarni, prema glatkim mišićima, srcu i žlijezdama). Osjetni dio dijeli se na visceralni (utrobni) i somatski.",
     "image": null,
-    "explanation_image": null,
-    "source": "30_Zivcani sustav.pdf, slajd 2, 3 i 8",
+    "explanation_image": "img/30-podjela-perifernih-zivaca.png",
+    "source": "30_Zivcani sustav.pdf, slajd 2, 3 i 8; slika: slajd 51",
     "tags": [
       "podjela"
     ],
@@ -320,7 +320,7 @@
     ],
     "explanation": "Žuljevito tijelo spaja hemisfere. Ženski mozak ima veće žuljevito tijelo, što se povezuje s manjom lateralizacijom.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/30-zuljevito-tijelo.png",
     "source": "30_Zivcani sustav.pdf, slajd 20 i 45",
     "tags": [
       "definicija"
@@ -377,7 +377,7 @@
     ],
     "explanation": "Siva tvar (kora, cortex) su tijela stanica, debljine oko 3 mm. Bijela tvar su mijelinizirani aksoni – asocijacijska, komisuralna i projekcijska vlakna.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/30-siva-i-bijela-tvar.png",
     "source": "30_Zivcani sustav.pdf, slajd 21",
     "tags": [
       "usporedba"
@@ -406,7 +406,7 @@
     ],
     "explanation": "Kora je debela oko 3 mm, ali ima brojne brazde i vijuge, pa joj je površina velika.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/30-siva-i-bijela-tvar.png",
     "source": "30_Zivcani sustav.pdf, slajd 21",
     "tags": [
       "brojka"
@@ -484,8 +484,8 @@
     ],
     "explanation": "Primarna motorička kora je u čeonom režnju ispred centralne brazde – precentralna vijuga, gdje se iniciraju voljni pokreti. Iza brazde, u tjemenom režnju, je primarna somatosenzorička kora (postcentralna vijuga).",
     "image": null,
-    "explanation_image": "img/30-1.png",
-    "source": "30_Zivcani sustav.pdf, slajd 24, 25 i 29",
+    "explanation_image": "img/30-motoricka-kora.png",
+    "source": "30_Zivcani sustav.pdf, slajd 24, 25 i 29; slika: slajd 30",
     "tags": [
       "funkcija",
       "skica"
@@ -511,7 +511,7 @@
     ],
     "explanation": "Postcentralna vijuga (tjemeni režanj) prima osjete dodira, položaja zgloba…; precentralna je motorička. Na homunkulusu se vidi da usne, lice i šaka zauzimaju velik dio obiju vijuga.",
     "image": null,
-    "explanation_image": "img/30-1.png",
+    "explanation_image": "img/30-osjetna-kora.png",
     "source": "30_Zivcani sustav.pdf, slajd 25, 29 i 30",
     "tags": [
       "funkcija",
@@ -673,7 +673,7 @@
     ],
     "explanation": "Moždano deblo spaja veliki i mali mozak s leđnom moždinom; čine ga srednji mozak (mezencefalon), most (pons) i produžena moždina (medulla oblongata).",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/30-mozdano-deblo.png",
     "source": "30_Zivcani sustav.pdf, slajd 38",
     "tags": [
       "podjela"
@@ -865,7 +865,7 @@
     ],
     "explanation": "Siva tvar (tijela stanica) je u obliku slova H, odnosno leptira, a oko nje je bijela tvar (mijelinizirani aksoni). Stražnji rog odgovara osjetnom, a prednji motoričkom korijenu spinalnog živca.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/30-siva-tvar-h.png",
     "source": "30_Zivcani sustav.pdf, slajd 49 i 50; 31_Ledjna mozdina.pdf, slajd 6",
     "tags": [
       "definicija"
@@ -891,7 +891,7 @@
     ],
     "explanation": "Stražnji rog – stražnji, osjetni korijen; prednji rog – prednji, motorički korijen. Korijeni se spajaju u moždinski živac.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/30-rogovi-ledne-mozdine.png",
     "source": "30_Zivcani sustav.pdf, slajd 50 i 54",
     "tags": [
       "usporedba"
@@ -1243,8 +1243,8 @@
     ],
     "explanation": "1. bjeloočnica (sclera) s rožnicom (cornea); 2. žilnica s cilijarnim tijelom, šarenicom i lećom; 3. mrežnica s pigmentnim slojem, štapićima i čunjićima, žutom i slijepom pjegom.",
     "image": null,
-    "explanation_image": null,
-    "source": "30_Zivcani sustav.pdf, slajd 68 i 69",
+    "explanation_image": "img/23-gradja-oka.png",
+    "source": "30_Zivcani sustav.pdf, slajd 68 i 69; slika: 23_Biomehanika ovojnice oka.pdf, slajd 3",
     "tags": [
       "podjela"
     ],
@@ -1295,8 +1295,8 @@
     ],
     "explanation": "Koštani labirint: predvorje, 3 polukružna kanalića i pužnica. Unutar njega je membranozni labirint; između njih je perilimfa, a unutar membranoznog endolimfa.",
     "image": null,
-    "explanation_image": null,
-    "source": "30_Zivcani sustav.pdf, slajd 72",
+    "explanation_image": "img/30-kostani-labirint.png",
+    "source": "30_Zivcani sustav.pdf, slajd 72; slika: slajd 73",
     "tags": [
       "podjela"
     ],

@@ -1,6 +1,6 @@
 // Service worker: offline rad (spec, odjeljak 14).
 // PRI SVAKOM DEPLOYU podigni VERSION (mora biti isto kao "version" u version.json).
-const VERSION = '0.9.3';
+const VERSION = '0.9.4';
 const CACHE = `bmkviz-${VERSION}`;
 
 const SHELL = [
@@ -114,12 +114,37 @@ const CONTENT = [
   './content/biomehanika/img/26-1.png',
   './content/biomehanika/img/26-2.png',
   './content/biomehanika/img/27-1.png',
-  './content/biomehanika/img/27-2.png',
   './content/biomehanika/img/27-3.png',
-  './content/biomehanika/img/30-1.png',
   './content/biomehanika/img/31-1.png',
   './content/biomehanika/img/32-1.png',
   './content/biomehanika/img/34-1.png',
+  './content/biomehanika/img/28-modul-elasticnosti-modela.png',
+  './content/biomehanika/img/28-poissonov-faktor-modela.png',
+  './content/biomehanika/img/27-caklinska-prizma.png',
+  './content/biomehanika/img/27-centar-otpora.png',
+  './content/biomehanika/img/27-centar-rotacije.png',
+  './content/biomehanika/img/27-pomaci-ocnjaka.png',
+  './content/biomehanika/img/27-sjekutici-u-luku.png',
+  './content/biomehanika/img/27-stabilan-zagriz.png',
+  './content/biomehanika/img/27-tablica-naprezanja-ocnjak.png',
+  './content/biomehanika/img/28-fiksna-i-mobilna-naprava.png',
+  './content/biomehanika/img/28-mreza-elemenata.png',
+  './content/biomehanika/img/28-opterecenja-zuba.png',
+  './content/biomehanika/img/29-cyber-pilula.png',
+  './content/biomehanika/img/29-warwick-robotska-ruka.png',
+  './content/biomehanika/img/30-kostani-labirint.png',
+  './content/biomehanika/img/30-motoricka-kora.png',
+  './content/biomehanika/img/30-mozdano-deblo.png',
+  './content/biomehanika/img/30-osjetna-kora.png',
+  './content/biomehanika/img/30-podjela-perifernih-zivaca.png',
+  './content/biomehanika/img/30-rogovi-ledne-mozdine.png',
+  './content/biomehanika/img/30-siva-i-bijela-tvar.png',
+  './content/biomehanika/img/30-siva-tvar-h.png',
+  './content/biomehanika/img/30-zuljevito-tijelo.png',
+  './content/biomehanika/img/35-cicak-kukice.png',
+  './content/biomehanika/img/35-koza-morskog-psa.png',
+  './content/biomehanika/img/35-macaklin-prsti.png',
+  './content/biomehanika/img/35-zupcanici-skakavca.png',
   './content/biomehanika/img/10-integracija-skele.png',
   './content/biomehanika/img/10-skele-pravokutne-pore.png',
   './content/biomehanika/img/10-tcp-skela.png',

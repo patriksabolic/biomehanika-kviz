@@ -18,7 +18,7 @@
     ],
     "explanation": "Edgewise naprava sastoji se od bravica i prstenova koji su fiksirani na zube i povezani žičanim lukom. Žičani luk preko bravica prenosi silu na zube.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/28-fiksna-i-mobilna-naprava.png",
     "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 2; skripta.md – Dentalna biomehanika",
     "tags": [
       "definicija"
@@ -44,8 +44,8 @@
     ],
     "explanation": "Fiksna naprava je stalno na zubima i djeluje kontinuiranom silom; mobilna se skida, pa određeni dio dana nije u upotrebi.",
     "image": null,
-    "explanation_image": null,
-    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 3; skripta.md – Dentalna biomehanika",
+    "explanation_image": "img/28-fiksna-i-mobilna-naprava.png",
+    "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 3; skripta.md – Dentalna biomehanika; slika: slajd 2",
     "tags": [
       "usporedba"
     ],
@@ -552,7 +552,7 @@
     ],
     "explanation": "U analizi (izotropno, linearno elastično): caklina $E = 70\\,000\\,\\text{MPa}$ ($\\nu = 0{,}3$), dentin 15 000 MPa (0,31), kortikalna kost 13 800 MPa (0,26) i PDL 50 MPa (0,47). Caklina je najkruća, a PDL daleko najpodatniji.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/28-modul-elasticnosti-modela.png",
     "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 13",
     "tags": [
       "brojka"
@@ -581,7 +581,7 @@
     ],
     "explanation": "PDL ima $E = 50\\,\\text{MPa}$ i Poissonov faktor 0,47 – gotovo nestlačiv i vrlo podatljiv u odnosu na zub i kost. Zato se pri opterećenju najviše deformira upravo PDL, a ta deformacija je stimulus za pomak zuba.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/28-modul-elasticnosti-modela.png",
     "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 13",
     "tags": [
       "brojka"
@@ -609,7 +609,7 @@
     ],
     "explanation": "PDL ima najveći Poissonov faktor (0,47), blizu 0,5 koji odgovara nestlačivom materijalu. Caklina ima 0,3, dentin 0,31, a kortikalna kost 0,26.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/28-poissonov-faktor-modela.png",
     "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 13",
     "tags": [
       "brojka"
@@ -635,7 +635,7 @@
     ],
     "explanation": "Analizirano je 7 slučajeva opterećenja: ortodontske sile od 5 N i žvačna sila od 100 N. Dijelovi modela povezani su „Tie” vezama (dentin–caklina, zub–PDL, PDL–kost).",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/28-opterecenja-zuba.png",
     "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 14 i 15",
     "tags": [
       "brojka"
@@ -663,7 +663,7 @@
     ],
     "explanation": "Korišteni su tetraedarski elementi drugog stupnja C3D10 – ukupno 260 233 elemenata i 419 438 čvorova (caklina, dentin, PDL i kost).",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/28-mreza-elemenata.png",
     "source": "28_Dentalna biomehanika-ortodoncija.pdf, slajd 16",
     "tags": [
       "definicija"

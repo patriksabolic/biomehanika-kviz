@@ -182,7 +182,7 @@
     ],
     "explanation": "Sjekutići su prednji jednokorijenski zubi, po 4 u svakoj čeljusti; služe za sjeckanje i prerezivanje hrane. Očnjaka je po 2 u svakoj čeljusti.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/27-sjekutici-u-luku.png",
     "source": "27_Dentalna biomehanika.pdf, slajd 5; skripta.md – Dentalna biomehanika",
     "tags": [
       "brojka"
@@ -290,7 +290,7 @@
     "explanation": "Caklina je najtvrđa i najmineraliziranija tvar u tijelu: 96 % su minerali. Za usporedbu, dentin ima 70 %, a cement 45 % anorganskih tvari.",
     "image": null,
     "explanation_image": "img/27-1.png",
-    "source": "27_Dentalna biomehanika.pdf, slajd 10; skripta.md – Dentalna biomehanika",
+    "source": "27_Dentalna biomehanika.pdf, slajd 10; skripta.md – Dentalna biomehanika; slika: slajd 9",
     "tags": [
       "brojka"
     ],
@@ -315,8 +315,8 @@
     ],
     "explanation": "Caklina je najdeblja na vrhu krune, a najtanja na spoju s cementom. Osnovna građevna jedinica cakline je caklinska prizma.",
     "image": null,
-    "explanation_image": null,
-    "source": "27_Dentalna biomehanika.pdf, slajd 10; skripta.md – Dentalna biomehanika",
+    "explanation_image": "img/27-1.png",
+    "source": "27_Dentalna biomehanika.pdf, slajd 10; skripta.md – Dentalna biomehanika; slika: slajd 9",
     "tags": [
       "definicija"
     ],
@@ -343,7 +343,7 @@
     ],
     "explanation": "Caklina je građena od caklinskih prizmi. Dentin je, za razliku od nje, prožet mikroskopskim kanalima – zubnim cijevima.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/27-caklinska-prizma.png",
     "source": "27_Dentalna biomehanika.pdf, slajd 10 i 11; skripta.md – Dentalna biomehanika",
     "tags": [
       "definicija"
@@ -422,8 +422,8 @@
     ],
     "explanation": "Cement je mineralizirano vezivno tkivo koje prekriva dentin u predjelu korijena. Preko parodontnih ligamenata cement povezuje zub s kosti (čeljusti). Po strukturi je sličan kostima.",
     "image": null,
-    "explanation_image": null,
-    "source": "27_Dentalna biomehanika.pdf, slajd 12; skripta.md – Dentalna biomehanika",
+    "explanation_image": "img/27-1.png",
+    "source": "27_Dentalna biomehanika.pdf, slajd 12; skripta.md – Dentalna biomehanika; slika: slajd 9",
     "tags": [
       "funkcija"
     ],
@@ -478,7 +478,7 @@
     "explanation": "Pulpa je u srednjem dijelu zuba i čine je živo meko tkivo i stanice odontoblasti, koje stvaraju dentin. Uz to ima zaštitnu, hranidbenu, osjetilnu i obrambenu funkciju.",
     "image": null,
     "explanation_image": "img/27-1.png",
-    "source": "27_Dentalna biomehanika.pdf, slajd 13; skripta.md – Dentalna biomehanika",
+    "source": "27_Dentalna biomehanika.pdf, slajd 13; skripta.md – Dentalna biomehanika; slika: slajd 9",
     "tags": [
       "funkcija"
     ],
@@ -533,7 +533,7 @@
     "explanation": "Zub podupiru parodontni ligament (vlakna ga spajaju s alveolnom kosti sa svih strana), alveolna kost (okružuje korijen; zbita i spužvasta) i gingiva (zubno meso na alveolnoj kosti).",
     "image": null,
     "explanation_image": "img/27-1.png",
-    "source": "27_Dentalna biomehanika.pdf, slajd 14; skripta.md – Dentalna biomehanika",
+    "source": "27_Dentalna biomehanika.pdf, slajd 14; skripta.md – Dentalna biomehanika; slika: slajd 9",
     "tags": [
       "podjela"
     ],
@@ -584,7 +584,7 @@
     ],
     "explanation": "Kod stabilnog zagriza žvačne sile djeluju u smjeru uzdužne osi zuba. Kod nestabilnog su usmjerene tako da mogu uzrokovati gubitak kosti, trošenje zuba i puknuća.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/27-stabilan-zagriz.png",
     "source": "27_Dentalna biomehanika.pdf, slajd 19; skripta.md – Dentalna biomehanika",
     "tags": [
       "funkcija"
@@ -609,8 +609,8 @@
       "vrh korijena zuba"
     ],
     "explanation": "Centar rotacije je sjecište uzdužne osi zuba prije i poslije pomaka. Kut između tih dvaju pravaca govori koliko se pomaknula kruna zuba.",
-    "image": "img/27-2.png",
-    "explanation_image": null,
+    "image": null,
+    "explanation_image": "img/27-centar-rotacije.png",
     "source": "27_Dentalna biomehanika.pdf, slajd 20",
     "tags": [
       "definicija",
@@ -637,7 +637,7 @@
     ],
     "explanation": "Centar otpora najčešće se poklapa s težištem korijena i leži na pravcu na kojem se ne javlja rotacija.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/27-centar-otpora.png",
     "source": "27_Dentalna biomehanika.pdf, slajd 21; skripta.md – Dentalna biomehanika; 28_Dentalna biomehanika-ortodoncija.pdf, slajd 3",
     "tags": [
       "definicija"
@@ -833,7 +833,7 @@
     ],
     "explanation": "Pomaci su reda veličine $\\mu\\text{m}$; najveći su pri vrhu cakline, a pri kraju korijena su neprimjetni. Najveći pomak je pri hvatištu prve sile, najmanji pri hvatištu četvrte.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/27-pomaci-ocnjaka.png",
     "source": "27_Dentalna biomehanika.pdf, slajd 33",
     "tags": [
       "funkcija"
@@ -865,7 +865,7 @@
     ],
     "explanation": "Najveća naprezanja javljaju se na istim mjestima za oba modela, ali različitog iznosa: hvatište 1 – 81,70 MPa (ortotropno) prema 61,35 MPa (izotropno). Pri hvatištu 4 iznos je isti, 26,65 MPa.",
     "image": null,
-    "explanation_image": null,
+    "explanation_image": "img/27-tablica-naprezanja-ocnjak.png",
     "source": "27_Dentalna biomehanika.pdf, slajd 34",
     "tags": [
       "brojka",
