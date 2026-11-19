@@ -1,0 +1,1078 @@
+[
+  {
+    "id": "bl-07-001",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koju prostetsku skupinu sadrži većina peroksidaza?",
+    "answer": "hem, odnosno $\\ce{Fe^3+}$–protoporfirin IX",
+    "accepted": [],
+    "distractors": [
+      "molibdopterin (Moco)",
+      "flavin-adenin-dinukleotid (FAD)",
+      "piridoksal-5′-fosfat"
+    ],
+    "explanation": "Peroksidaze su hemoproteini. Željezo hema koordinativno je vezano na dušik histidinskog ostatka proteina, što određuje reaktivnost aktivnog mjesta.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 2",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-002",
+    "chapter": "07",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Željezo hema u peroksidazama koordinativno je vezano na dušik aminokiseline ___.",
+    "answer": "histidin",
+    "accepted": [
+      "histidin",
+      "histidina",
+      "His"
+    ],
+    "distractors": [
+      "cistein",
+      "metionin",
+      "glutamat"
+    ],
+    "explanation": "Vezanje na histidinski dušik razlikuje peroksidaze od citokroma P450, u kojem je peti ligand željeza tiolatni sumpor cisteina.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 2",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-003",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kakve oksidacije kataliziraju peroksidaze i kakva je posljedica toga?",
+    "answer": "jednoelektronske oksidacije, pa su mogući radikalni međuprodukti",
+    "accepted": [
+      "jednoelektronske oksidacije, pa su mogući radikalni međuprodukti"
+    ],
+    "distractors": [
+      "dvoelektronske oksidacije, bez radikalnih međuprodukata",
+      "jednoelektronske redukcije, uz nastanak hidrida",
+      "dvoelektronske oksidacije uz ugradnju oba atoma kisika"
+    ],
+    "explanation": "Upravo zbog jednoelektronskih koraka peroksidaze često bioaktiviraju ksenobiotike: supstrat i $\\ce{H2O2}$ daju radikal supstrata, koji se može kovalentno vezati na makromolekule i izazvati toksičnost.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 2",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-004",
+    "chapter": "07",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Kratica PGHS označava enzim ___.",
+    "answer": "prostaglandin G/H-sintaza",
+    "accepted": [
+      "prostaglandin G/H-sintaza",
+      "prostaglandin G/H sintaza",
+      "prostaglandin-endoperoksid sintaza",
+      "prostaglandin endoperoksid sintaza"
+    ],
+    "distractors": [
+      "prostaglandin-hidrolaza",
+      "fosfoglicerat-hidroksisintaza",
+      "prostaciklin-sintaza"
+    ],
+    "explanation": "PGHS je bifunkcionalni enzim poznat i kao prostaglandin-endoperoksid sintaza: ima ciklooksigenaznu (COX) i peroksidaznu aktivnost.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-005",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što označava kratica COX u kontekstu PGHS-a?",
+    "answer": "ciklooksigenaznu aktivnost PGHS-a",
+    "accepted": [
+      "ciklooksigenaznu aktivnost PGHS-a"
+    ],
+    "distractors": [
+      "peroksidaznu aktivnost PGHS-a",
+      "citokrom-oksidaznu podjedinicu",
+      "zasebni enzim neovisan o PGHS-u"
+    ],
+    "explanation": "PGHS objedinjuje dvije aktivnosti u jednoj molekuli: COX pretvara arahidonsku kiselinu uz dvije molekule kisika u $\\ce{PGG2}$, a peroksidazna aktivnost reducira $\\ce{PGG2}$ u $\\ce{PGH2}$.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 3",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-006",
+    "chapter": "07",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Hidroperoksidni međuprodukt koji nastaje ciklooksigenaznom aktivnošću iz arahidonske kiseline zove se ___.",
+    "answer": "prostaglandin $\\ce{G2}$",
+    "accepted": [
+      "prostaglandin G2",
+      "PGG2",
+      "prostaglandin G₂"
+    ],
+    "distractors": [
+      "prostaglandin $\\ce{H2}$",
+      "tromboksan A2",
+      "prostaciklin"
+    ],
+    "explanation": "Reakcija teče kao $\\ce{AA + 2 O2 -> PGG2 -> PGH2}$. $\\ce{PGH2}$ je zajednički prekursor ostalih prostanoida.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajdovi 3 i 3 (shema PGHS/COX)",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-007",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koju reakciju katalizira mijeloperoksidaza (MPO) u azurofilnim granulama neutrofila?",
+    "answer": "$\\ce{H2O2 + Cl- + H+ -> HOCl + H2O}$",
+    "accepted": [],
+    "distractors": [
+      "$\\ce{H2O2 + SCN- -> OSCN- + H2O}$",
+      "$\\ce{AA + 2 O2 -> PGG2}$",
+      "$\\ce{I- -> MIT/DIT}$"
+    ],
+    "explanation": "Nastala hipoklorasta kiselina oksidira proteine, oštećuje membrane i ubija mikroorganizme. Isti sustav može oksidirati i spojeve s dušikom i sumporom u reaktivne metabolite.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 3",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-008",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji ion laktoperoksidaza (LPO) oksidira u antimikrobni produkt i gdje je taj sustav prisutan?",
+    "answer": "tiocijanatni ion u hipotiocijanitni ion; u mlijeku, slini i suzama",
+    "accepted": [
+      "tiocijanatni ion u hipotiocijanitni ion; u mlijeku, slini i suzama"
+    ],
+    "distractors": [
+      "kloridni ion u hipokloritni ion; u neutrofilima",
+      "jodidni ion u jod; u štitnjači",
+      "bromidni ion u hipobromit; u eozinofilima"
+    ],
+    "explanation": "Reakcija je $\\ce{H2O2 + SCN- -> OSCN- + H2O}$, a nastali hipotiocijanit oksidira sulfhidrilne skupine bakterijskih proteina.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 3",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-009",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koju ulogu ima tiroidna peroksidaza (TPO) na apikalnoj membrani stanica štitnjače?",
+    "answer": "oksidira jodid i ugrađuje ga u tireoglobulin, dajući MIT i DIT te zatim $\\ce{T3}$ i $\\ce{T4}$",
+    "accepted": [],
+    "distractors": [
+      "razgrađuje tireoglobulin do slobodnih aminokiselina",
+      "veže tiroksin na transportne proteine plazme",
+      "pretvara tiroksin u trijodtironin u perifernim tkivima"
+    ],
+    "explanation": "Za reakciju je potreban vodikov peroksid. Protutijela anti-TPO usmjerena su upravo protiv tog enzima i marker su autoimunih bolesti štitnjače.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 3",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-010",
+    "chapter": "07",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Sustav MPO/$\\ce{H2O2}$ u aktiviranim neutrofilima oksidira klozapin u reaktivni ___, koji se kovalentno veže za proteine.",
+    "answer": "nitrenijev ion",
+    "accepted": [
+      "nitrenijev ion",
+      "nitrenij ion",
+      "nitrenijev kation",
+      "nitrenij"
+    ],
+    "distractors": [
+      "karbenijev ion",
+      "epoksid",
+      "aciliranjski ion"
+    ],
+    "explanation": "Klozapin je atipični antipsihotik, a upravo se ta bioaktivacija u neutrofilima povezuje s njegovim hematološkim nuspojavama.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 4",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-011",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što se događa sa salbutamolom u prisutnosti laktoperoksidaze, vodikova peroksida i nitrita?",
+    "answer": "nitrira mu se fenolni prsten, čime se smanjuje afinitet za $\\beta_2$-receptor",
+    "accepted": [],
+    "distractors": [
+      "hidrolizira mu se esterska veza i nastaje neaktivna kiselina",
+      "oksidira mu se dušik u N-oksid koji je jači agonist",
+      "reducira mu se hidroksilna skupina u metilnu"
+    ],
+    "explanation": "Salbutamol je kratkodjelujući agonist $\\beta_2$-receptora (bronhodilatator). Nitriranje je pokazano in vitro i primjer je kako peroksidaza može smanjiti djelotvornost lijeka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 4",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-012",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Na kojem atomu tiroidna peroksidaza oksidira tiamazol i kakav je učinak tog lijeka?",
+    "answer": "na atomu sumpora; tiamazol inhibira TPO-om katalizirano jodiranje tireoglobulina",
+    "accepted": [
+      "na atomu sumpora; tiamazol inhibira TPO-om katalizirano jodiranje tireoglobulina"
+    ],
+    "distractors": [
+      "na atomu dušika; tiamazol pojačava jodiranje tireoglobulina",
+      "na aromatskom ugljiku; tiamazol blokira unos jodida",
+      "na atomu sumpora; tiamazol ubrzava razgradnju tiroksina"
+    ],
+    "explanation": "Tiamazol je tireostatik iz skupine tionamida. Oksidacija sumpora na TPO-u dio je mehanizma kojim lijek blokira ugradnju joda u tireoglobulin.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 4",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-013",
+    "chapter": "07",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Reakcijom peroksidaze s peroksidom dolazi do heterolitičkog cijepanja veze ___ i nastaje intermedijarni spoj I.",
+    "answer": "O–O",
+    "accepted": [
+      "O–O",
+      "O-O",
+      "kisik-kisik",
+      "peroksidne veze"
+    ],
+    "distractors": [
+      "Fe–N",
+      "C–H",
+      "S–S"
+    ],
+    "explanation": "Spoj I ima oblik $\\ce{(Por^{.+}-Fe^4+=O)}$: željezo je oksidirano do Fe(IV), a drugi oksidacijski ekvivalent nosi porfirinski radikal-kation. Peroksid se pritom reducira u alkohol ili vodu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 5",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-014",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Što nastaje kada intermedijarni spoj I oksidira prvu molekulu supstrata RH?",
+    "answer": "radikal R•, proton i intermedijarni spoj II",
+    "accepted": [
+      "radikal R•, proton i intermedijarni spoj II"
+    ],
+    "distractors": [
+      "hidroksilirani produkt ROH i nativna peroksidaza",
+      "dva radikala R• i voda",
+      "karbokation i superoksidni anion"
+    ],
+    "explanation": "Spoj II ima oblik $\\ce{(Por-Fe^4+=O)}$. On zatim oksidira drugu molekulu supstrata, pri čemu nastaje drugi radikal i voda, a enzim se vraća u nativni Fe(III) oblik.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 5",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-015",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji je rjeđi mehanizam kojim peroksidaze mogu djelovati na supstrat?",
+    "answer": "izravni prijenos kisika sa spoja I na supstrat, bez slobodnog radikalnog puta",
+    "accepted": [
+      "izravni prijenos kisika sa spoja I na supstrat, bez slobodnog radikalnog puta"
+    ],
+    "distractors": [
+      "prijenos hidrida sa supstrata na željezo",
+      "dvoelektronska redukcija supstrata uz NADPH",
+      "ugradnja oba atoma kisika iz molekule kisika"
+    ],
+    "explanation": "Tada nastaje oksigenirani produkt izravno, slično monooksigenazama, no glavni put peroksidaza ostaju dvije uzastopne jednoelektronske oksidacije.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 5",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-016",
+    "chapter": "07",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Jednoelektronskom oksidacijom fenola peroksidazom nastaje rezonantno stabiliziran ___ radikal.",
+    "answer": "fenoksil",
+    "accepted": [
+      "fenoksil",
+      "fenoksilni",
+      "aroksil"
+    ],
+    "distractors": [
+      "peroksil",
+      "semikinonski",
+      "nitrenijev"
+    ],
+    "explanation": "Zbog rezonancije radikal može reagirati na više mjesta u molekuli: s biomolekulama, s kisikom (uz nastanak peroksil radikala) ili s drugim radikalom uz dimerizaciju i oligomerizaciju.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 6",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-017",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kojim redoslijedom peroksidaza oksidira hidrokinon odnosno katehol?",
+    "answer": "hidrokinon/katehol → semikinonski radikal → kinon",
+    "accepted": [
+      "hidrokinon/katehol → semikinonski radikal → kinon"
+    ],
+    "distractors": [
+      "hidrokinon/katehol → kinon → semikinonski radikal",
+      "hidrokinon/katehol → epoksid → kinon",
+      "hidrokinon/katehol → fenoksil radikal → fenol"
+    ],
+    "explanation": "Oba koraka su jednoelektronske oksidacije, a oksidans je vodikov peroksid koji se pritom reducira u vodu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 7",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-018",
+    "chapter": "07",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Neenzimska reakcija u kojoj se od dva semikinonska radikala jedan oksidira u kinon, a drugi reducira u hidrokinon zove se ___.",
+    "answer": "dismutacija",
+    "accepted": [
+      "dismutacija",
+      "disproporcioniranje",
+      "dismutacija semikinonskih radikala"
+    ],
+    "distractors": [
+      "dimerizacija",
+      "redoks-ciklus",
+      "konjugacija"
+    ],
+    "explanation": "Dismutacija ne traži enzim. Drugi put je dvoelektronska redukcija kinona kinon-reduktazama uz NAD(P)H, koja zaobilazi nastanak semikinonskog radikala.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 7",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-019",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Zašto je dvoelektronska redukcija kinona kinon-reduktazama zaštitni put?",
+    "answer": "zaobilazi nastanak semikinonskog radikala i smanjuje kovalentno vezanje kinona za biomolekule",
+    "accepted": [
+      "zaobilazi nastanak semikinonskog radikala i smanjuje kovalentno vezanje kinona za biomolekule"
+    ],
+    "distractors": [
+      "stvara više superoksidnog aniona pa se kinon brže razgrađuje",
+      "pretvara kinon u epoksid koji se lako izlučuje",
+      "veže kinon na hem peroksidaze i tako ga uklanja"
+    ],
+    "explanation": "Enzim NQO1 prenosi dva elektrona odjednom uz NAD(P)H i daje hidrokinon. Jednoelektronska redukcija, nasuprot tome, vodi u redoks-ciklus i nastanak reaktivnih kisikovih vrsta.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajdovi 7 i 11",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-020",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je glavna toksikološka opasnost kinona nastalih peroksidaznom oksidacijom?",
+    "answer": "jaki su elektrofili pa se kovalentno vežu na proteine i DNA",
+    "accepted": [
+      "jaki su elektrofili pa se kovalentno vežu na proteine i DNA"
+    ],
+    "distractors": [
+      "jaki su nukleofili pa razgrađuju membranske lipide",
+      "inhibiraju sve enzime citokroma P450",
+      "spontano se raspadaju u ugljikov dioksid"
+    ],
+    "explanation": "Uz to semikinon ulazi u redoks-ciklus i stvara reaktivne kisikove vrste, osobito superoksidni anion. Posljedice su oksidativni stres, citotoksičnost i mijelotoksičnost, kakvu izaziva benzen.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 8",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-021",
+    "chapter": "07",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Mijelotoksičnost koja se pripisuje kinonskim metabolitima tipična je za industrijsko otapalo ___.",
+    "answer": "benzen",
+    "accepted": [
+      "benzen",
+      "benzena"
+    ],
+    "distractors": [
+      "toluen",
+      "etanol",
+      "aceton"
+    ],
+    "explanation": "Benzen se metabolizira do fenola i hidrokinona, koje peroksidaze koštane srži oksidiraju u semikinone i kinone, a ti se vežu na proteine i DNA matičnih stanica.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 8",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-022",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koja je bitna razlika između bioaktivacije paracetamola na CYP-u i na PGHS-u?",
+    "answer": "CYP provodi dvoelektronsku oksidaciju u aktivnom mjestu, a PGHS jednoelektronsku pa radikali mogu izaći i dati dimere i oligomere",
+    "accepted": [
+      "CYP provodi dvoelektronsku oksidaciju u aktivnom mjestu, a PGHS jednoelektronsku pa radikali mogu izaći i dati dimere i oligomere"
+    ],
+    "distractors": [
+      "CYP daje NAPSQI, a PGHS izravno NAPQI bez radikala",
+      "CYP ugrađuje novi atom kisika, a PGHS ne mijenja oksidacijsko stanje",
+      "CYP radi samo u bubregu, a PGHS samo u jetri"
+    ],
+    "explanation": "Kod CYP-a semikinon-iminski radikal NAPSQI ostaje u aktivnom mjestu i odmah se oksidira dalje u NAPQI. Kod PGHS-a radikal može napustiti enzim i reagirati s drugim radikalom.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 9",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-023",
+    "chapter": "07",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Pri oksidativnoj dehidrogenaciji paracetamola prvi se H-atom oduzima iz fenolne O–H skupine, a drugi iz skupine ___.",
+    "answer": "N–H",
+    "accepted": [
+      "N–H",
+      "N-H",
+      "amidne N-H skupine",
+      "NH"
+    ],
+    "distractors": [
+      "C–H metilne skupine",
+      "aromatske C–H",
+      "druge O–H skupine"
+    ],
+    "explanation": "Nakon oduzimanja oba H-atoma i preraspodjele veza nastaje NAPQI. Riječ je o ukupno dvoelektronskoj oksidaciji bez ugradnje novog atoma kisika.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 9",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-024",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Gdje završava kisik skupine Fe=O pri oksidativnoj dehidrogenaciji na citokromu P450?",
+    "answer": "u vodi, jer se u produkt ne ugrađuje kisik",
+    "accepted": [
+      "u vodi, jer se u produkt ne ugrađuje kisik"
+    ],
+    "distractors": [
+      "u hidroksilnoj skupini produkta",
+      "u vodikovu peroksidu",
+      "ostaje vezan na željezo do idućeg ciklusa"
+    ],
+    "explanation": "Uklanjaju se dva H-atoma i nastaje dvostruka veza. Reakcija konkurira hidroksilaciji, a ishod ovisi o supstratu, njegovu položaju u aktivnom mjestu i izoenzimu CYP-a.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 10",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-025",
+    "chapter": "07",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Oksidativnom dehidrogenacijom varfarina uz CYP nastaje ___.",
+    "answer": "9,10-dehidrovarfarin",
+    "accepted": [
+      "9,10-dehidrovarfarin",
+      "9,10-dehidrovarfarina",
+      "dehidrovarfarin"
+    ],
+    "distractors": [
+      "7-hidroksivarfarin",
+      "varfarin-alkohol",
+      "4-hidroksikumarin"
+    ],
+    "explanation": "Primjer pokazuje da ista reakcija vrijedi i za lijekove koji nisu fenoli: uklanjaju se dva H-atoma i nastaje dvostruka veza, uz mikrosomalne CYP-e kojima trebaju kisik i NADPH preko POR-a.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 10",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-026",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji enzimi čine enzimsku antioksidativnu obranu prikazanu uz reaktivne metabolite?",
+    "answer": "superoksid-dismutaza, katalaza i glutation-peroksidaza",
+    "accepted": [
+      "superoksid-dismutaza, katalaza i glutation-peroksidaza"
+    ],
+    "distractors": [
+      "citokrom P450, FMO i MAO",
+      "ksantin-oksidaza, aldehid-oksidaza i NQO1",
+      "esteraze, amidaze i epoksid-hidrolaze"
+    ],
+    "explanation": "Superoksid-dismutaza pretvara superoksid u vodikov peroksid, katalaza ga razgrađuje u vodu i kisik, a glutation-peroksidaza uklanja i lipidne perokside uz pretvorbu dva GSH u GSSG, koji glutation-reduktaza uz NADPH vraća natrag.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 11",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-027",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji su navedeni neenzimski antioksidansi u zaštiti od reaktivnih metabolita?",
+    "answer": "askorbat, $\\alpha$-tokoferol i glutation",
+    "accepted": [],
+    "distractors": [
+      "askorbat, katalaza i NADPH",
+      "$\\alpha$-tokoferol, superoksid-dismutaza i urat",
+      "glutation-reduktaza, NQO1 i GST"
+    ],
+    "explanation": "Uz konjugaciju s glutationom (sama ili uz GST) i dvoelektronsku redukciju preko NQO1 oni održavaju redoks-ravnotežu. Iscrpljenje glutationa povećava osjetljivost na toksičnost.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 11",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-028",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kakva je kvartarna struktura molibden hidroksilaza?",
+    "answer": "homodimeri od identičnih podjedinica mase oko 150 kDa",
+    "accepted": [
+      "homodimeri od identičnih podjedinica mase oko 150 kDa"
+    ],
+    "distractors": [
+      "monomeri mase oko 50 kDa",
+      "heterotetrameri od dviju različitih podjedinica",
+      "membranski kompleksi s citokromom $b_5$"
+    ],
+    "explanation": "Svaka podjedinica ima tri domene: N-terminalnu s dva redoks klastera $\\ce{Fe2S2}$, FAD domenu i C-terminalnu s molibdopterinom (Moco) i veznim mjestom supstrata.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 13",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-029",
+    "chapter": "07",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Aktivno mjesto molibden hidroksilaza nalazi se u C-terminalnoj domeni i sadrži kofaktor ___.",
+    "answer": "molibdopterin (Moco)",
+    "accepted": [
+      "molibdopterin (Moco)",
+      "molibdopterin",
+      "Moco",
+      "molibdenski kofaktor"
+    ],
+    "distractors": [
+      "hem (protoporfirin IX)",
+      "FAD",
+      "klaster $\\ce{Fe4S4}$"
+    ],
+    "explanation": "Elektroni iz supstrata idu od molibdenskog centra preko klastera Fe-S na FAD, a odatle na kisik (XO), na $\\ce{NAD+}$ (XDH) ili na novi supstrat.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 13",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-030",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Odakle potječe atom kisika koji molibden hidroksilaze ugrađuju u produkt?",
+    "answer": "iz vode, preko skupine Mo–OH u aktivnom mjestu",
+    "accepted": [
+      "iz vode, preko skupine Mo–OH u aktivnom mjestu"
+    ],
+    "distractors": [
+      "iz molekulskog kisika, kao kod CYP-a",
+      "iz vodikova peroksida",
+      "iz hidroperoksida vezanog na FAD"
+    ],
+    "explanation": "To je ključna razlika prema monooksigenazama. Glutamat oduzima proton skupini Mo–OH i stvara nukleofilni $\\ce{Mo-O^-}$, koji zatim napada supstrat.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajdovi 14 i 16",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-031",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako se molibden reducira tijekom oksidacije supstrata molibden hidroksilazom?",
+    "answer": "hidrid se s ugljika supstrata prenosi na skupinu Mo=S, pa Mo(VI) prelazi u Mo(IV)",
+    "accepted": [
+      "hidrid se s ugljika supstrata prenosi na skupinu Mo=S, pa Mo(VI) prelazi u Mo(IV)"
+    ],
+    "distractors": [
+      "proton se prenosi na glutamat, pa Mo(VI) prelazi u Mo(V)",
+      "elektron se prenosi s FAD-a na molibden",
+      "kisik se prenosi s molibdena na sumpor"
+    ],
+    "explanation": "Nukleofilni $\\ce{Mo-O^-}$ napada $sp^2$-hibridizirani ugljik koji nosi vodik — C2 hipoksantina ili C8 ksantina. Produkt s novom hidroksilnom skupinom privremeno ostaje vezan uz molibden dok ga ne istisne voda.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 14",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-032",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Koji su tipični supstrati aldehid-oksidaze (AO) i koji joj je akceptor elektrona?",
+    "answer": "aldehidi i N-heterociklički ksenobiotici; akceptor je molekulski kisik",
+    "accepted": [
+      "aldehidi i N-heterociklički ksenobiotici; akceptor je molekulski kisik"
+    ],
+    "distractors": [
+      "samo purini; akceptor je $\\ce{NAD+}$",
+      "alkoholi i fenoli; akceptor je vodikov peroksid",
+      "esteri i amidi; akceptor je voda"
+    ],
+    "explanation": "Prijenosom elektrona na kisik nastaju superoksidni anion i vodikov peroksid. AO je važna u metabolizmu lijekova i može dovesti do bioaktivacije.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 15",
+    "tags": [
+      "definicija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-033",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Na koje se načine ksantin-dehidrogenaza (XDH) pretvara u ksantin-oksidazu (XO)?",
+    "answer": "oksidacijom sulfhidrilnih skupina, što može biti reverzibilno, i proteolizom, koja je ireverzibilna",
+    "accepted": [
+      "oksidacijom sulfhidrilnih skupina, što može biti reverzibilno, i proteolizom, koja je ireverzibilna"
+    ],
+    "distractors": [
+      "samo proteolizom, uvijek ireverzibilno",
+      "fosforilacijom FAD domene",
+      "vezanjem alopurinola na molibdenski centar"
+    ],
+    "explanation": "XOR je jedan enzim s dva funkcionalna oblika. XDH prenosi elektrone prvenstveno na $\\ce{NAD+}$ i daje NADH, dok XO prenosi elektrone na kisik i stvara superoksid i vodikov peroksid, pa je važna u oksidativnom stresu.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 15",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-034",
+    "chapter": "07",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "XOR hidroksilira hipoksantin na položaju C2 i tako nastaje ___.",
+    "answer": "ksantin",
+    "accepted": [
+      "ksantin",
+      "ksantina"
+    ],
+    "distractors": [
+      "mokraćna kiselina",
+      "oksipurinol",
+      "gvanin"
+    ],
+    "explanation": "Sljedećim korakom, hidroksilacijom na C8, nastaje mokraćna kiselina. U oba koraka ugrađeni atom kisika potječe iz vode, a pri fiziološkom pH prevladava urat.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 16",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-035",
+    "chapter": "07",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Oksidacijom alopurinola uz XOR ili AO nastaje ___, koji se veže za Mo(IV) u aktivnom mjestu XOR-a.",
+    "answer": "oksipurinol",
+    "accepted": [
+      "oksipurinol",
+      "oksipurinola",
+      "aloksantin"
+    ],
+    "distractors": [
+      "mokraćna kiselina",
+      "hipoksantin",
+      "6-tiourna kiselina"
+    ],
+    "explanation": "Vezanjem oksipurinola za reducirani molibden smanjuje se stvaranje mokraćne kiseline, pa je metabolit alopurinola zapravo nositelj produljenog učinka lijeka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 16",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-036",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kako ksantin-oksidaza i aldehid-oksidaza različito djeluju na 6-deoksiaciklovir?",
+    "answer": "XO ga oksidira na C6 u aciklovir, a AO na C8 u 8-hidroksi-6-deoksiaciklovir",
+    "accepted": [
+      "XO ga oksidira na C6 u aciklovir, a AO na C8 u 8-hidroksi-6-deoksiaciklovir"
+    ],
+    "distractors": [
+      "XO ga oksidira na C8, a AO na C6",
+      "obje ga oksidiraju na C6, ali različitom brzinom",
+      "XO ga reducira, a AO oksidira"
+    ],
+    "explanation": "Oksidacija na C6 je bioaktivacija predlijeka, dok je put preko AO konkurentan i daje produkt bez značajne aktivnosti protiv HSV-1 in vitro.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 17",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-037",
+    "chapter": "07",
+    "type": "fill",
+    "modes": [
+      "mc",
+      "fill"
+    ],
+    "prompt": "Prvi korak fosforilacije aciklovira u monofosfat katalizira ___.",
+    "answer": "virusna timidinska kinaza",
+    "accepted": [
+      "virusna timidinska kinaza",
+      "virusna timidin-kinaza",
+      "timidinska kinaza virusa"
+    ],
+    "distractors": [
+      "humana adenilat-kinaza",
+      "virusna DNA-polimeraza",
+      "humana timidilat-sintaza"
+    ],
+    "explanation": "Daljnju fosforilaciju do trifosfata obavljaju humane stanične kinaze. Aciklovir-trifosfat inhibira virusnu DNA-polimerazu i prekida produljivanje virusne DNA, a selektivnost proizlazi upravo iz prvog, virusnog koraka.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 17",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-038",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kojim nizom ksantin-oksidaza inaktivira 6-merkaptopurin?",
+    "answer": "6-merkaptopurin → 6-tioksantin → 6-tiourna kiselina",
+    "accepted": [
+      "6-merkaptopurin → 6-tioksantin → 6-tiourna kiselina"
+    ],
+    "distractors": [
+      "6-merkaptopurin → 6-metilmerkaptopurin → tiourea",
+      "6-merkaptopurin → hipoksantin → mokraćna kiselina",
+      "6-merkaptopurin → 6-tioguanin → tioinozin"
+    ],
+    "explanation": "6-merkaptopurin je antineoplastik, analog purina. Alopurinol inhibira XO, pa se koncentracija 6-merkaptopurina povećava i raste rizik od mijelosupresije — pri istodobnoj primjeni dozu treba smanjiti.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 18",
+    "tags": [
+      "funkcija",
+      "usporedba"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-039",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "U kojim uvjetima molibden hidroksilaze kataliziraju redukcije umjesto svoje primarne funkcije?",
+    "answer": "u anaerobnim uvjetima ili uz specifične supstrate",
+    "accepted": [
+      "u anaerobnim uvjetima ili uz specifične supstrate"
+    ],
+    "distractors": [
+      "pri visokom tlaku kisika",
+      "samo uz višak $\\ce{NAD+}$",
+      "pri niskom pH u lizosomima"
+    ],
+    "explanation": "Primarna funkcija tih enzima su oksidacije, odnosno hidroksilacije. Sekundarno AO i XO mogu reducirati aromatske nitro spojeve, N-okside i azo spojeve.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 19",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  },
+  {
+    "id": "bl-07-040",
+    "chapter": "07",
+    "type": "mc",
+    "modes": [
+      "mc"
+    ],
+    "prompt": "Kojim redoslijedom molibden hidroksilaze reduciraju aromatski nitro spoj?",
+    "answer": "nitro spoj → nitrozo spoj → hidroksilamin → amin",
+    "accepted": [
+      "nitro spoj → nitrozo spoj → hidroksilamin → amin"
+    ],
+    "distractors": [
+      "nitro spoj → amin → hidroksilamin",
+      "nitro spoj → azo spoj → hidrazin",
+      "nitro spoj → N-oksid → amin"
+    ],
+    "explanation": "Konačni produkt obično je manje reaktivan, ali međuprodukti — osobito nitrozo spoj i hidroksilamin — mogu oštetiti biomolekule.",
+    "image": null,
+    "explanation_image": null,
+    "source": "7 Peroksidaze i molibden hidroksilaze.pdf, slajd 19",
+    "tags": [
+      "funkcija"
+    ],
+    "real_exam": false
+  }
+]

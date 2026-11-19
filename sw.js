@@ -1,6 +1,6 @@
 // Service worker: offline rad (spec, odjeljak 14).
 // PRI SVAKOM DEPLOYU podigni VERSION (mora biti isto kao "version" u version.json).
-const VERSION = '0.8.4';
+const VERSION = '0.8.5';
 const CACHE = `bmkviz-${VERSION}`;
 
 const SHELL = [
@@ -61,6 +61,7 @@ const CONTENT = [
   './content/biokemija-lijekova/questions/03.json',
   './content/biokemija-lijekova/questions/04.json',
   './content/biokemija-lijekova/questions/06.json',
+  './content/biokemija-lijekova/questions/07.json',
   './content/biokemija-lijekova/questions/08.json',
   './content/biokemija-lijekova/questions/09.json',
   './content/biomehanika/questions/00-kolokvij.json',
